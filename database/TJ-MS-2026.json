@@ -109,45 +109,6 @@
     ]
   },
   {
-    "id": 529706602,
-    "cnj": "0802375-54.2025.8.12.0001",
-    "classe": "RECUPERAçãO JUDICIAL",
-    "orgao": "4ª Vara Civel e Regional de Falências e Recuperações",
-    "destinatarios": [
-      "AGROPECUáRIA JOSé DOMINGOS LOT LTDA",
-      "CéLIA MARIA CAMARGO LOT",
-      "JOSE DOMINGOS LOT",
-      "LOGISTICA E TRANSPORTES LOT LTDA"
-    ],
-    "link": "https://esaj.tjms.jus.br/cdje/",
-    "texto_completo": "Intimação da r. decisão de fls. 9520/9523: \"Fls. 9207/9210, 9494 e 9515/9517 - Expedientes Cartorários. Fls. 9211/9214 - Banco Volkswagen S.A., requerendo o indeferimento da prorrogação do stay period e, subsidiariamente, que a prorrogação não inviabilize o prosseguimento das ações que visem à retomada de bens. Fls. 9215/9216 - Joanderson Ferreira de Souza, solicitando esclarecimentos sobre o pedido de habilitação na recuperação judicial. Fls. 9217/9222 - Banco Randon S.A., requerendo o indeferimento da prorrogação do stay period. Fls. 9223/9226 - Banco ABC Brasil S.A., opondo Embargos de Declaração em face da decisão de fls. 9204/9206. Fls. 9227/9265 - Ofício do TJMS, encaminhando decisão de Agravo (negado provimento). Fls. 9266/9269 - Banco Caterpillar, opondo Embargos de Declaração em face da decisão de fls. 9204/9206. Fls. 9270/9276 - Administradora Judicial, manifestando sobre o trâmite processual. Fls. 9280/9307 - Sicoob Cocred Cooperativa de Crédito, apresentando impugnação quanto ao pedido de prorrogação do stay period. Juntou documento. Fls. 9308/9460 - Agrichem do Brasil S.A., informando cessão de crédito. Juntou documentos. Fls. 9461/9463 - Certidão do Sistema, encaminhando decisão de Agravo de Instrumento. Fls. 9464/9466 - Banco Randon S.A., requerendo o indeferimento do pedido de prorrogação do stay period. Fls. 9467/9477 - Banco ABC Brasil S.A., requerendo o indeferimento da prorrogação do stay period e o deferimento de consolidação da propriedade objeto da Matrícula n. 20.157. Fls. 9478/9493 - Banco Santander (Brasil) S.A., informando a interposição de Agravo de Instrumento em face da decisão de fls. 8727/8731. Fls. 9495/9514 - Ofício do TJMS, encaminhando decisão de Agravo de Instrumento. É o relatório. Decido. Inicialmente, o credor trabalhista de fls. 9020/9021 deverá entregar seu requerimento diretamente ao AJ, através do e-mail: cury@curyconsultores.com.br, ou no seu endereço: Rua Dona Bia Taveira, n.º 216, Bairro Jardim dos Estados, Campo Grande/MS. Diante do parecer favorável da Administradora Judicial, defiro a cessão de crédito realizada entre Banco do Brasil S/A e Travessia Securitizadora de Creditos Mercantis XXV S/A (fls. 8913/8923). Anote-se. Promova a Serventia a retificação dos credores, conforme decisão do Egrégio Tribunal de Justiça, às fls. 9461/9463 e 9495/9514. Defiro à prorrogação do stay period até a instalação da Assembleia Geral de Credores, considerando a necessidade e as justificativas apresentadas pela Administradora Judicial, no sentido de \"que a negociação a ser travada entre as recuperandas e seus credores perpassa por diversos fatores externos e alheios ao próprio processo de recuperação, tais como ingresso de recursos advindos das safras, efetividade da produção agrícola e outros, que, certamente, influenciam nos eventuais ajustes para colocação do PRJ em votação\". Mantém-se, assim, a eficácia do stay period como instrumento apto a viabilizar as negociações, assegurando que a deliberação coletiva sobre o plano de recuperação ocorra de forma útil, adequada e eficaz, mediante a devida ponderação entre a proteção do soerguimento da empresa e os direitos dos credores. Assim, defiro o pedido de convocação para Assembleia Geral de Credores, em 1ª convocação, no dia 18 de março de 2026, às 10h00 (horário de Brasília), e, em 2ª convocação, no dia 25 de março de 2026, às 10h00 (horário de Brasília), com fundamento no artigo 22, I, g, da Lei 11.101/2005. Atente-se os credores quanto ao prévio credenciamento e ingresso na plataforma do evento, por meio do link https://assemblexpillar.com.br/, conforme informações da Administradora Judicial, itens 01 a 10, do mesmo parecer. Sem prejuízo, considerando a informação de que a minuta do Edital de Convocação já foi disponibilizada, certifique a Serventia quanto à respectiva publicação ou, se ainda não efetivada, publique-se, nos moldes do artigo 36 e seguintes da Lei 11.101/2005. Manifestem-se os Recuperandos e a Administradora Judicial quanto aos Embargos de Declaração opostos por Banco ABC Brasil S.A. e Banco Caterpillar, bem como quanto à cessão de crédito apresentada por Agrichem do Brasil S/A. Int.\"",
-    "keywords_cessao_fortes": [
-      "cessão de crédito"
-    ],
-    "keywords_cessao_fracas": [],
-    "keywords_rj": [
-      "recuperação judicial",
-      "assembleia geral de credores",
-      "stay period",
-      "recuperanda",
-      "lei 11.101"
-    ],
-    "classificacoes": [
-      {
-        "is_cessao_real": true,
-        "confianca": "media",
-        "resumo": "Decisão judicial defere cessão de crédito entre Banco do Brasil S/A e Travessia Securitizadora de Creditos Mercantis XXV S/A no processo de recuperação judicial.",
-        "cedente": "Banco do Brasil S/A",
-        "cessionario": "Travessia Securitizadora de Creditos Mercantis XXV S/A",
-        "valor": null,
-        "classe_credito": null,
-        "cnj_rj": "0802375-54.2025.8.12.0001",
-        "recuperanda": "AGROPECUÁRIA JOSÉ DOMINGOS LOT LTDA",
-        "motivo_classificacao": "Há menção expressa à homologação judicial de cessão de crédito concursal com pedido de retificação dos credores no processo de recuperação judicial."
-      }
-    ]
-  },
-  {
     "id": 539816861,
     "cnj": "0827067-20.2025.8.12.0001",
     "classe": "IMPUGNAçãO DE CRéDITO",

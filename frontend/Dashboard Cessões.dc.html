@@ -423,6 +423,9 @@ class Component extends DCLogic {
     if (customBase) {
       return customBase.replace(/\/$/, '');
     }
+    if (window.location.protocol === 'file:') {
+      return 'http://localhost:5000/api/v1';
+    }
     const host = window.location.hostname || 'localhost';
     return window.location.protocol + '//' + host + ':5000/api/v1';
   }
@@ -435,17 +438,39 @@ class Component extends DCLogic {
   }
 
   normalizeEntityName(name) {
-    return this.normalizeSearch(name)
+    let normalized = this.normalizeSearch(name)
       .replace(/[^a-z0-9\s]/g, ' ')
       .replace(/\b(?=[ivxlcdm]+\b)m{0,4}(cm|cd|d?c{0,3})(xc|xl|l?x{0,3})(ix|iv|v?i{0,3})\b/g, ' ')
       .replace(/\b(s\s*\/?\s*a|sa)\b/g, ' ')
       .replace(/\b(ltda|eireli|me|epp)\b/g, ' ')
       .replace(/\s+/g, ' ')
       .trim();
+
+    const securitizadoraMatch = normalized.match(/^(.+?)\s+securitizadora de creditos\b/);
+    if (securitizadoraMatch) {
+      normalized = securitizadoraMatch[1] + ' securitizadora';
+    }
+
+    return normalized
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  cleanEntityDisplayLabel(name) {
+    let value = String(name || '').trim();
+    if (!value) return '';
+
+    if (value.includes(',')) {
+      value = value.split(',')[0].trim();
+    }
+
+    value = value.replace(/\bS\/A\b/i, 'S.A.');
+    value = value.replace(/\bS\.A\b(?!\.)/i, 'S.A.');
+    return value.trim();
   }
 
   entityLabelScore(name) {
-    const value = String(name || '').trim();
+    const value = this.cleanEntityDisplayLabel(name);
     if (!value) return -1;
 
     let score = value.length;
@@ -457,12 +482,14 @@ class Component extends DCLogic {
   }
 
   pickEntityLabel(currentLabel, nextLabel) {
-    if (!currentLabel) return String(nextLabel || '').trim();
-    if (!nextLabel) return String(currentLabel || '').trim();
+    const currentValue = this.cleanEntityDisplayLabel(currentLabel);
+    const nextValue = this.cleanEntityDisplayLabel(nextLabel);
+    if (!currentValue) return nextValue;
+    if (!nextValue) return currentValue;
 
-    return this.entityLabelScore(nextLabel) > this.entityLabelScore(currentLabel)
-      ? String(nextLabel || '').trim()
-      : String(currentLabel || '').trim();
+    return this.entityLabelScore(nextValue) > this.entityLabelScore(currentValue)
+      ? nextValue
+      : currentValue;
   }
 
   buildEntityOptions(rows, fieldName) {
