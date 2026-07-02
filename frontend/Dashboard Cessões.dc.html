@@ -170,14 +170,12 @@
             <!-- Arrow: cedente → cessionario -->
             <div style="flex: 1; display: flex; align-items: center; gap: 10px; min-width: 0;">
               <div style="background: #F0F4F9; border-radius: 6px; padding: 4px 10px; max-width: 220px;">
-                <div style="font-size: 10px; color: #6B7A90; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em;">Cedente</div>
                 <div style="font-size: 13px; font-weight: 600; color: #0A1628; white-space: normal; overflow-wrap: anywhere; line-height: 1.35;">{{ row.cedente }}</div>
               </div>
               <svg width="20" height="12" viewBox="0 0 20 12" fill="none" style="flex-shrink: 0;">
                 <path d="M0 6h16m0 0l-4-4m4 4l-4 4" stroke="#1B6FE0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
               <div style="background: #EBF3FE; border-radius: 6px; padding: 4px 10px; max-width: 280px;">
-                <div style="font-size: 10px; color: #1B6FE0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em;">Cessionário</div>
                 <div style="font-size: 13px; font-weight: 600; color: #001E36; white-space: normal; overflow-wrap: anywhere; line-height: 1.35;">{{ row.cessionario }}</div>
               </div>
             </div>
@@ -270,7 +268,8 @@
 <!-- View: Mapa de Processos -->
 <sc-if value="{{ showProcessos }}" hint-placeholder-val="{{ false }}">
   <div style="padding: 16px 32px 32px;">
-    <div style="display: flex; justify-content: flex-end; margin-bottom: 4px;">
+    <div style="padding: 0 20px 10px; display: flex; align-items: center; justify-content: space-between; gap: 16px; font-size: 10px; font-weight: 700; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.06em;">
+      <div style="flex: 1; min-width: 0;">Recuperanda / CNJ</div>
       <div onClick="{{ toggleProcessoSort }}" style="display: flex; align-items: center; gap: 6px; cursor: pointer; user-select: none; padding: 6px 12px; border-radius: 6px; background: white; border: 1px solid #D1D9E4; font-size: 11px; font-weight: 700; color: #475569; text-transform: uppercase; letter-spacing: 0.04em;" style-hover="border-color: #1B6FE0; color: #1B6FE0;">
         Ordenar por Valor de Causa <span style="font-size: 10px;">{{ processoSortArrow }}</span>
       </div>
@@ -345,6 +344,9 @@
 <!-- View: Mapa de Players -->
 <sc-if value="{{ showPlayers }}" hint-placeholder-val="{{ false }}">
   <div style="padding: 16px 32px 32px;">
+    <div style="padding: 0 20px 10px; display: flex; align-items: center; gap: 16px; font-size: 10px; font-weight: 700; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.06em;">
+      <div style="flex: 1; min-width: 0;">Cessionário</div>
+    </div>
     <div style="display: flex; flex-direction: column; gap: 12px;">
       <sc-for list="{{ playerGroups }}" as="player" hint-placeholder-count="4">
         <div style="background: white; border-radius: 10px; border: 1px solid #E8ECF1; overflow: hidden;">
@@ -381,9 +383,17 @@
                     <span style="font-weight: 600; color: #0A1628;">{{ row.recuperanda }}</span>
                     <span style="color: #6B7A90; margin-left: 8px; font-size: 11px; font-family: 'DM Mono', monospace;">{{ row.cnj }}</span>
                   </div>
-                  <span style="color: #6B7A90; font-size: 12px;">de <span style="font-weight: 600; color: #0A1628;">{{ row.cedente }}</span></span>
-                  <span style="color: #6B7A90; font-family: 'DM Mono', monospace;">{{ row.valorDisplay }}</span>
-                  <span style="color: #0F766E; font-family: 'DM Mono', monospace; font-weight: 600;">{{ row.valorCausaDisplay }}</span>
+                  <span style="color: #6B7A90; font-size: 12px; white-space: nowrap;">de <span style="font-weight: 600; color: #0A1628;">{{ row.cedente }}</span></span>
+                  <div style="display: flex; align-items: center; gap: 6px; margin-left: auto; flex-shrink: 0;">
+                    <div style="background: #F0F4F9; border-radius: 6px; padding: 3px 10px; text-align: right;">
+                      <div style="font-size: 9px; font-weight: 700; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.04em; white-space: nowrap;">Valor Crédito</div>
+                      <div style="font-size: 12px; font-weight: 600; color: #0A1628; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ row.valorDisplay }}</div>
+                    </div>
+                    <div style="background: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 6px; padding: 3px 10px; text-align: right;">
+                      <div style="font-size: 9px; font-weight: 700; color: #0F766E; text-transform: uppercase; letter-spacing: 0.04em; white-space: nowrap;">Valor Causa</div>
+                      <div style="font-size: 12px; font-weight: 700; color: #0F766E; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ row.valorCausaDisplay }}</div>
+                    </div>
+                  </div>
                 </div>
               </sc-for>
             </div>
