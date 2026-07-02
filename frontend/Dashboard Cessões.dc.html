@@ -44,6 +44,12 @@
     <button onClick="{{ setViewPlayers }}" style="padding: 6px 16px; border-radius: 6px; border: none; cursor: pointer; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 600; transition: all 0.2s; background: {{ playersTabBg }}; color: {{ playersTabColor }};">
       Mapa de Players
     </button>
+    <button onClick="{{ setViewCedentes }}" style="padding: 6px 16px; border-radius: 6px; border: none; cursor: pointer; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 600; transition: all 0.2s; background: {{ cedentesTabBg }}; color: {{ cedentesTabColor }};">
+      Mapa de Cedentes
+    </button>
+    <button onClick="{{ setViewBancos }}" style="padding: 6px 16px; border-radius: 6px; border: none; cursor: pointer; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 600; transition: all 0.2s; background: {{ bancosTabBg }}; color: {{ bancosTabColor }};">
+      Bancos Cedentes
+    </button>
   </div>
 
   <div style="flex: 1;"></div>
@@ -404,13 +410,163 @@
   </div>
 </sc-if>
 
+<!-- View: Mapa de Cedentes -->
+<sc-if value="{{ showCedentes }}" hint-placeholder-val="{{ false }}">
+  <div style="padding: 16px 32px 32px;">
+    <div style="padding: 0 20px 10px; display: flex; align-items: center; gap: 16px; font-size: 10px; font-weight: 700; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.06em;">
+      <div style="flex: 1; min-width: 0;">Cedente</div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 12px;">
+      <sc-for list="{{ cedenteGroups }}" as="cedente" hint-placeholder-count="4">
+        <div style="background: white; border-radius: 10px; border: 1px solid #E8ECF1; overflow: hidden;">
+          <div onClick="{{ cedente.toggle }}" style="padding: 16px 20px; cursor: pointer; display: flex; align-items: center; gap: 16px;" style-hover="background: #FAFBFC;">
+            <div style="flex: 1; min-width: 0;">
+              <div style="font-size: 15px; font-weight: 700; color: #001E36;">{{ cedente.name }}</div>
+              <div style="font-size: 12px; color: #6B7A90; margin-top: 2px;">{{ cedente.processosLabel }}</div>
+            </div>
+            <div style="display: flex; gap: 20px; align-items: center;">
+              <div style="text-align: center;">
+                <div style="font-size: 22px; font-weight: 700; color: #001E36; font-family: 'DM Mono', monospace;">{{ cedente.totalCessoes }}</div>
+                <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase;">cessões</div>
+              </div>
+              <div style="text-align: center;">
+                <div style="font-size: 22px; font-weight: 700; color: #1B6FE0; font-family: 'DM Mono', monospace;">{{ cedente.totalProcessos }}</div>
+                <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase;">processos</div>
+              </div>
+              <div style="text-align: center; min-width: 140px;">
+                <div style="font-size: 15px; font-weight: 700; color: #0F766E; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ cedente.valorCausaDisplay }}</div>
+                <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase;">valor causa (rj/falência)</div>
+              </div>
+            </div>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex-shrink: 0; transition: transform 0.2s; transform: rotate({{ cedente.expandRotation }});">
+              <path d="M4 6l4 4 4-4" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+
+          <sc-if value="{{ cedente.expanded }}" hint-placeholder-val="{{ false }}">
+            <div style="border-top: 1px solid #E8ECF1;">
+              <sc-for list="{{ cedente.cessoes }}" as="row" hint-placeholder-count="2">
+                <div style="padding: 12px 20px; border-bottom: 1px solid #F1F5F9; display: flex; align-items: center; gap: 12px; font-size: 13px;">
+                  <div style="width: 8px; height: 8px; border-radius: 50%; background: {{ row.confiancaColor }}; flex-shrink: 0;"></div>
+                  <div style="min-width: 0; flex: 1;">
+                    <span style="font-weight: 600; color: #0A1628;">{{ row.recuperanda }}</span>
+                    <span style="color: #6B7A90; margin-left: 8px; font-size: 11px; font-family: 'DM Mono', monospace;">{{ row.cnj }}</span>
+                  </div>
+                  <span style="color: #6B7A90; font-size: 12px; white-space: nowrap;">para <span style="font-weight: 600; color: #1B6FE0;">{{ row.cessionario }}</span></span>
+                  <div style="display: flex; align-items: center; gap: 6px; margin-left: auto; flex-shrink: 0;">
+                    <div style="background: #F0F4F9; border-radius: 6px; padding: 3px 10px; text-align: right;">
+                      <div style="font-size: 9px; font-weight: 700; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.04em; white-space: nowrap;">Valor Crédito</div>
+                      <div style="font-size: 12px; font-weight: 600; color: #0A1628; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ row.valorDisplay }}</div>
+                    </div>
+                    <div style="background: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 6px; padding: 3px 10px; text-align: right;">
+                      <div style="font-size: 9px; font-weight: 700; color: #0F766E; text-transform: uppercase; letter-spacing: 0.04em; white-space: nowrap;">Valor Causa</div>
+                      <div style="font-size: 12px; font-weight: 700; color: #0F766E; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ row.valorCausaDisplay }}</div>
+                    </div>
+                  </div>
+                </div>
+              </sc-for>
+            </div>
+          </sc-if>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+</sc-if>
+
+<!-- View: Cedentes por Banco -->
+<sc-if value="{{ showBancos }}" hint-placeholder-val="{{ false }}">
+  <div style="padding: 16px 32px 32px;">
+    <div style="padding: 0 20px 10px; font-size: 10px; font-weight: 700; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.06em;">
+      Bancos cedentes · Santander, Itaú, Banco do Brasil, Bradesco e Rabobank — ranqueados por cessões, com os compradores de cada um
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 12px;">
+      <sc-for list="{{ bancoGroups }}" as="banco" hint-placeholder-count="5">
+        <div style="background: white; border-radius: 10px; border: 1px solid #E8ECF1; overflow: hidden;">
+          <div onClick="{{ banco.toggle }}" style="padding: 16px 20px; cursor: pointer;" style-hover="background: #FAFBFC;">
+            <div style="display: flex; align-items: center; gap: 16px;">
+              <div style="width: 28px; height: 28px; border-radius: 8px; background: #F0F4F9; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; color: #6B7A90; font-family: 'DM Mono', monospace; flex-shrink: 0;">#{{ banco.rank }}</div>
+              <div style="flex: 1; min-width: 0;">
+                <div style="font-size: 15px; font-weight: 700; color: #001E36;">{{ banco.name }}</div>
+                <div style="font-size: 12px; color: #6B7A90; margin-top: 2px;">{{ banco.compradoresLabel }}</div>
+              </div>
+              <div style="display: flex; gap: 20px; align-items: center;">
+                <div style="text-align: center;">
+                  <div style="font-size: 22px; font-weight: 700; color: #001E36; font-family: 'DM Mono', monospace;">{{ banco.totalCessoes }}</div>
+                  <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase;">cessões</div>
+                </div>
+                <div style="text-align: center;">
+                  <div style="font-size: 22px; font-weight: 700; color: #1B6FE0; font-family: 'DM Mono', monospace;">{{ banco.totalProcessos }}</div>
+                  <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase;">processos</div>
+                </div>
+                <div style="text-align: center; min-width: 140px;">
+                  <div style="font-size: 13px; font-weight: 700; color: #0A1628; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ banco.valorCreditoDisplay }}</div>
+                  <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase;">valor crédito cedido</div>
+                </div>
+                <div style="text-align: center; min-width: 140px;">
+                  <div style="font-size: 15px; font-weight: 700; color: #0F766E; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ banco.valorCausaDisplay }}</div>
+                  <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase;">valor causa (rj/falência)</div>
+                </div>
+              </div>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex-shrink: 0; transition: transform 0.2s; transform: rotate({{ banco.expandRotation }});">
+                <path d="M4 6l4 4 4-4" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div style="margin-top: 12px; height: 6px; border-radius: 3px; background: #F0F4F9; overflow: hidden;">
+              <div style="height: 100%; border-radius: 3px; background: #1B6FE0; width: {{ banco.barWidth }};"></div>
+            </div>
+          </div>
+
+          <sc-if value="{{ banco.expanded }}" hint-placeholder-val="{{ false }}">
+            <div style="border-top: 1px solid #E8ECF1;">
+              <sc-if value="{{ banco.noCompradores }}" hint-placeholder-val="{{ false }}">
+                <div style="padding: 16px 20px 16px 64px; font-size: 12px; color: #94A3B8;">Nenhuma cessão encontrada para este banco com os filtros atuais.</div>
+              </sc-if>
+              <sc-for list="{{ banco.compradores }}" as="comprador" hint-placeholder-count="3">
+                <div style="border-bottom: 1px solid #F1F5F9;">
+                  <div onClick="{{ comprador.toggle }}" style="padding: 12px 20px 12px 64px; cursor: pointer; display: flex; align-items: center; gap: 12px; font-size: 13px;" style-hover="background: #FAFBFC;">
+                    <span style="font-weight: 600; color: #0A1628; flex: 1; min-width: 0;">{{ comprador.name }}</span>
+                    <span style="color: #6B7A90; font-size: 11px; white-space: nowrap;">{{ comprador.processosLabel }}</span>
+                    <div style="background: #F0F4F9; border-radius: 6px; padding: 3px 10px; text-align: right; min-width: 90px;">
+                      <div style="font-size: 9px; font-weight: 700; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.04em; white-space: nowrap;">{{ comprador.cessoesLabel }}</div>
+                      <div style="font-size: 12px; font-weight: 600; color: #0A1628; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ comprador.valorCreditoDisplay }}</div>
+                    </div>
+                    <div style="background: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 6px; padding: 3px 10px; text-align: right; min-width: 100px;">
+                      <div style="font-size: 9px; font-weight: 700; color: #0F766E; text-transform: uppercase; letter-spacing: 0.04em; white-space: nowrap;">Valor Causa</div>
+                      <div style="font-size: 12px; font-weight: 700; color: #0F766E; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ comprador.valorCausaDisplay }}</div>
+                    </div>
+                    <svg width="14" height="14" viewBox="0 0 16 16" fill="none" style="flex-shrink: 0; transition: transform 0.2s; transform: rotate({{ comprador.expandRotation }});">
+                      <path d="M4 6l4 4 4-4" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                  <sc-if value="{{ comprador.expanded }}" hint-placeholder-val="{{ false }}">
+                    <sc-for list="{{ comprador.cessoes }}" as="row" hint-placeholder-count="2">
+                      <div style="padding: 10px 20px 10px 88px; border-top: 1px solid #F8FAFC; display: flex; align-items: center; gap: 12px; font-size: 12px; background: #FAFBFC;">
+                        <div style="width: 6px; height: 6px; border-radius: 50%; background: {{ row.confiancaColor }}; flex-shrink: 0;"></div>
+                        <div style="min-width: 0; flex: 1;">
+                          <span style="font-weight: 600; color: #0A1628;">{{ row.recuperanda }}</span>
+                          <span style="color: #6B7A90; margin-left: 8px; font-size: 10px; font-family: 'DM Mono', monospace;">{{ row.cnj }}</span>
+                        </div>
+                        <span style="color: #6B7A90; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ row.valorDisplay }}</span>
+                      </div>
+                    </sc-for>
+                  </sc-if>
+                </div>
+              </sc-for>
+            </div>
+          </sc-if>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+</sc-if>
+
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{
   &quot;$preview&quot;: { &quot;width&quot;: &quot;100%&quot;, &quot;height&quot;: &quot;100%&quot; },
   &quot;dataSource&quot;: { &quot;editor&quot;: null, &quot;default&quot;: null, &quot;tsType&quot;: &quot;object[]&quot;, &quot;section&quot;: &quot;Dados&quot; },
   &quot;apiBaseUrl&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Dados&quot; },
   &quot;highlightPlayer&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Filtros&quot; },
-  &quot;defaultView&quot;: { &quot;editor&quot;: &quot;enum&quot;, &quot;default&quot;: &quot;feed&quot;, &quot;options&quot;: [&quot;feed&quot;, &quot;processos&quot;, &quot;players&quot;], &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Visualização&quot; }
+  &quot;defaultView&quot;: { &quot;editor&quot;: &quot;enum&quot;, &quot;default&quot;: &quot;feed&quot;, &quot;options&quot;: [&quot;feed&quot;, &quot;processos&quot;, &quot;players&quot;, &quot;cedentes&quot;, &quot;bancos&quot;], &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Visualização&quot; }
 }">
 
 class Component extends DCLogic {
@@ -422,6 +578,9 @@ class Component extends DCLogic {
       expandedRows: {},
       expandedProcessos: {},
       expandedPlayers: {},
+      expandedCedentes: {},
+      expandedBancos: {},
+      expandedBancoCompradores: {},
       filterTribunal: '',
       filterClasse: '',
       filterCedente: '',
@@ -524,6 +683,21 @@ class Component extends DCLogic {
     return this.entityLabelScore(nextValue) > this.entityLabelScore(currentValue)
       ? nextValue
       : currentValue;
+  }
+
+  matchBankNames(cessionarioRaw) {
+    const normalized = this.normalizeSearch(cessionarioRaw);
+    if (!normalized) return [];
+
+    const BANK_KEYWORDS = [
+      { name: 'Santander', keyword: 'santander' },
+      { name: 'Itaú', keyword: 'itau' },
+      { name: 'Banco do Brasil', keyword: 'banco do brasil' },
+      { name: 'Bradesco', keyword: 'bradesco' },
+      { name: 'Rabobank', keyword: 'rabobank' },
+    ];
+
+    return BANK_KEYWORDS.filter((bank) => normalized.includes(bank.keyword)).map((bank) => bank.name);
   }
 
   buildEntityOptions(rows, fieldName) {
@@ -791,6 +965,9 @@ class Component extends DCLogic {
       expandedRows,
       expandedProcessos,
       expandedPlayers,
+      expandedCedentes,
+      expandedBancos,
+      expandedBancoCompradores,
       filterTribunal,
       filterClasse,
       filterCedente,
@@ -1008,6 +1185,191 @@ class Component extends DCLogic {
       })
       .sort((a, b) => b.totalCessoes - a.totalCessoes);
 
+    const normalizedCedenteMap = {};
+    for (const row of filtered) {
+      const cedenteLabel = row.cedente || 'Nao identificado';
+      const normalizedCedenteKey = this.normalizeEntityName(row.cedente) || '__sem_cedente__';
+      if (!normalizedCedenteMap[normalizedCedenteKey]) {
+        normalizedCedenteMap[normalizedCedenteKey] = {
+          name: cedenteLabel,
+          cessoes: [],
+          processosSet: new Set(),
+        };
+      }
+      normalizedCedenteMap[normalizedCedenteKey].name = this.pickEntityLabel(
+        normalizedCedenteMap[normalizedCedenteKey].name,
+        cedenteLabel
+      );
+      normalizedCedenteMap[normalizedCedenteKey].cessoes.push(row);
+      if (row.cnj) normalizedCedenteMap[normalizedCedenteKey].processosSet.add(row.cnj);
+    }
+
+    const cedenteGroups = Object.values(normalizedCedenteMap)
+      .map((cedente) => {
+        const expanded = !!expandedCedentes[cedente.name];
+
+        const valorCausaPorCnj = {};
+        for (const row of cedente.cessoes) {
+          if (row.cnj && row.valor_causa != null && !(row.cnj in valorCausaPorCnj)) {
+            valorCausaPorCnj[row.cnj] = row.valor_causa;
+          }
+        }
+        const valorCausaValues = Object.values(valorCausaPorCnj);
+        const valorCausaTotal = valorCausaValues.length
+          ? valorCausaValues.reduce((sum, v) => sum + v, 0)
+          : null;
+
+        return {
+          name: cedente.name,
+          totalCessoes: cedente.cessoes.length,
+          totalProcessos: cedente.processosSet.size,
+          valorCausaDisplay: this.formatValor(valorCausaTotal),
+          processosLabel:
+            cedente.processosSet.size +
+            ' processo' +
+            (cedente.processosSet.size > 1 ? 's' : '') +
+            ' distinto' +
+            (cedente.processosSet.size > 1 ? 's' : ''),
+          expanded: expanded,
+          expandRotation: expanded ? '180deg' : '0deg',
+          cessoes: this.sortPlayerRows(cedente.cessoes).map((row) => ({
+            recuperanda: row.recuperanda,
+            cnj: row.cnj,
+            cessionario: row.cessionario || 'Nao identificado',
+            valorDisplay: this.formatValor(row.valor),
+            valorCausaDisplay: this.formatValor(row.valor_causa),
+            confiancaColor: this.confiancaColor(row.confianca),
+          })),
+          toggle: () => this.setState((state) => ({
+            expandedCedentes: {
+              ...state.expandedCedentes,
+              [cedente.name]: !state.expandedCedentes[cedente.name],
+            },
+          })),
+        };
+      })
+      .sort((a, b) => b.totalCessoes - a.totalCessoes);
+
+    const BANK_CANONICAL = ['Santander', 'Itaú', 'Banco do Brasil', 'Bradesco', 'Rabobank'];
+
+    const bancoRowsMap = {};
+    for (const bankName of BANK_CANONICAL) bancoRowsMap[bankName] = [];
+    for (const row of filtered) {
+      for (const bankName of this.matchBankNames(row.cedente)) {
+        bancoRowsMap[bankName].push(row);
+      }
+    }
+
+    let maxBancoCessoes = 1;
+    for (const bankName of BANK_CANONICAL) {
+      if (bancoRowsMap[bankName].length > maxBancoCessoes) {
+        maxBancoCessoes = bancoRowsMap[bankName].length;
+      }
+    }
+
+    const bancoGroups = BANK_CANONICAL.map((bankName) => {
+      const bankRows = bancoRowsMap[bankName];
+      const expanded = !!expandedBancos[bankName];
+      const processosSet = new Set(bankRows.map((row) => row.cnj).filter(Boolean));
+
+      const valorCausaPorCnj = {};
+      for (const row of bankRows) {
+        if (row.cnj && row.valor_causa != null && !(row.cnj in valorCausaPorCnj)) {
+          valorCausaPorCnj[row.cnj] = row.valor_causa;
+        }
+      }
+      const valorCausaValues = Object.values(valorCausaPorCnj);
+      const valorCausaTotal = valorCausaValues.length
+        ? valorCausaValues.reduce((sum, v) => sum + v, 0)
+        : null;
+
+      const valorCreditoRows = bankRows.filter((row) => row.valor != null);
+      const valorCreditoTotal = valorCreditoRows.length
+        ? valorCreditoRows.reduce((sum, row) => sum + row.valor, 0)
+        : null;
+
+      const compradorMap = {};
+      for (const row of bankRows) {
+        const compradorKey = this.normalizeEntityName(row.cessionario) || '__sem_cessionario__';
+        if (!compradorMap[compradorKey]) {
+          compradorMap[compradorKey] = { key: compradorKey, name: row.cessionario || 'Não identificado', rows: [], processosSet: new Set() };
+        }
+        compradorMap[compradorKey].name = this.pickEntityLabel(compradorMap[compradorKey].name, row.cessionario);
+        compradorMap[compradorKey].rows.push(row);
+        if (row.cnj) compradorMap[compradorKey].processosSet.add(row.cnj);
+      }
+
+      const compradores = Object.values(compradorMap)
+        .map((comprador) => {
+          const compradorValorCausaPorCnj = {};
+          for (const row of comprador.rows) {
+            if (row.cnj && row.valor_causa != null && !(row.cnj in compradorValorCausaPorCnj)) {
+              compradorValorCausaPorCnj[row.cnj] = row.valor_causa;
+            }
+          }
+          const compradorValorCausaValues = Object.values(compradorValorCausaPorCnj);
+          const compradorValorCausaTotal = compradorValorCausaValues.length
+            ? compradorValorCausaValues.reduce((sum, v) => sum + v, 0)
+            : null;
+
+          const compradorValorCreditoRows = comprador.rows.filter((row) => row.valor != null);
+          const compradorValorCreditoTotal = compradorValorCreditoRows.length
+            ? compradorValorCreditoRows.reduce((sum, row) => sum + row.valor, 0)
+            : null;
+
+          const expandKey = bankName + '::' + comprador.key;
+          const compradorExpanded = !!expandedBancoCompradores[expandKey];
+          const totalProcessos = comprador.processosSet.size;
+
+          return {
+            name: comprador.name,
+            totalCessoes: comprador.rows.length,
+            totalProcessos: totalProcessos,
+            cessoesLabel: comprador.rows.length + (comprador.rows.length > 1 ? ' cessões' : ' cessão'),
+            processosLabel: totalProcessos + (totalProcessos > 1 ? ' processos' : ' processo'),
+            valorCreditoDisplay: this.formatValor(compradorValorCreditoTotal),
+            valorCausaDisplay: this.formatValor(compradorValorCausaTotal),
+            expanded: compradorExpanded,
+            expandRotation: compradorExpanded ? '180deg' : '0deg',
+            cessoes: this.sortPlayerRows(comprador.rows).map((row) => ({
+              recuperanda: row.recuperanda,
+              cnj: row.cnj,
+              valorDisplay: this.formatValor(row.valor),
+              valorCausaDisplay: this.formatValor(row.valor_causa),
+              confiancaColor: this.confiancaColor(row.confianca),
+            })),
+            toggle: () => this.setState((state) => ({
+              expandedBancoCompradores: {
+                ...state.expandedBancoCompradores,
+                [expandKey]: !state.expandedBancoCompradores[expandKey],
+              },
+            })),
+          };
+        })
+        .sort((a, b) => b.totalCessoes - a.totalCessoes);
+
+      return {
+        name: bankName,
+        totalCessoes: bankRows.length,
+        totalProcessos: processosSet.size,
+        compradoresLabel: compradores.length + (compradores.length > 1 ? ' compradores distintos' : ' comprador distinto'),
+        valorCreditoDisplay: this.formatValor(valorCreditoTotal),
+        valorCausaDisplay: this.formatValor(valorCausaTotal),
+        barWidth: Math.round((bankRows.length / maxBancoCessoes) * 100) + '%',
+        expanded: expanded,
+        expandRotation: expanded ? '180deg' : '0deg',
+        noCompradores: compradores.length === 0,
+        compradores: compradores,
+        toggle: () => this.setState((state) => ({
+          expandedBancos: {
+            ...state.expandedBancos,
+            [bankName]: !state.expandedBancos[bankName],
+          },
+        })),
+      };
+    }).sort((a, b) => b.totalCessoes - a.totalCessoes)
+      .map((banco, index) => ({ ...banco, rank: index + 1 }));
+
     const showStatusBar = !!error || loading;
 
     return {
@@ -1021,6 +1383,8 @@ class Component extends DCLogic {
       showFeed: view === 'feed',
       showProcessos: view === 'processos',
       showPlayers: view === 'players',
+      showCedentes: view === 'cedentes',
+      showBancos: view === 'bancos',
 
       feedTabBg: view === 'feed' ? 'rgba(27,111,224,0.15)' : 'transparent',
       feedTabColor: view === 'feed' ? '#93C5FD' : 'rgba(255,255,255,0.5)',
@@ -1028,10 +1392,16 @@ class Component extends DCLogic {
       processosTabColor: view === 'processos' ? '#93C5FD' : 'rgba(255,255,255,0.5)',
       playersTabBg: view === 'players' ? 'rgba(27,111,224,0.15)' : 'transparent',
       playersTabColor: view === 'players' ? '#93C5FD' : 'rgba(255,255,255,0.5)',
+      cedentesTabBg: view === 'cedentes' ? 'rgba(27,111,224,0.15)' : 'transparent',
+      cedentesTabColor: view === 'cedentes' ? '#93C5FD' : 'rgba(255,255,255,0.5)',
+      bancosTabBg: view === 'bancos' ? 'rgba(27,111,224,0.15)' : 'transparent',
+      bancosTabColor: view === 'bancos' ? '#93C5FD' : 'rgba(255,255,255,0.5)',
 
       setViewFeed: () => this.setState({ view: 'feed' }),
       setViewProcessos: () => this.setState({ view: 'processos' }),
       setViewPlayers: () => this.setState({ view: 'players' }),
+      setViewCedentes: () => this.setState({ view: 'cedentes' }),
+      setViewBancos: () => this.setState({ view: 'bancos' }),
 
       selectedTribunal: filterTribunal,
       selectedClasse: filterClasse,
@@ -1061,6 +1431,8 @@ class Component extends DCLogic {
       noResults: !loading && feedRows.length === 0,
       processoGroups: processoGroups,
       playerGroups: playerGroups,
+      cedenteGroups: cedenteGroups,
+      bancoGroups: bancoGroups,
 
       feedSortArrow: this.sortArrowIcon(feedSortDir),
       toggleFeedSort: this.toggleFeedSort,
