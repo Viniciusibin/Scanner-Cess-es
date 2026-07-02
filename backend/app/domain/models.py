@@ -28,6 +28,7 @@ class CessaoRecord:
     cedente: str | None
     cessionario: str | None
     valor: float | None
+    valor_causa: float | None
     classe_credito: str | None
     confianca: str | None
     resumo: str | None
@@ -52,6 +53,7 @@ class CessaoRecord:
             "cedente": self.cedente,
             "cessionario": self.cessionario,
             "valor": self.valor,
+            "valor_causa": self.valor_causa,
             "classe_credito": self.classe_credito,
             "confianca": self.confianca,
             "resumo": self.resumo,

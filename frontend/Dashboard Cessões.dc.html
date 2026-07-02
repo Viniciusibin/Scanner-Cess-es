@@ -145,7 +145,10 @@
         <div style="width: 8px; flex-shrink: 0;"></div>
         <div style="width: 200px; flex-shrink: 0;">Recuperanda / CNJ</div>
         <div style="flex: 1;">Cedente → Cessionário</div>
-        <div style="width: 160px; flex-shrink: 0; text-align: right;">Valor</div>
+        <div style="width: 130px; flex-shrink: 0; text-align: right;">Valor Cessão</div>
+        <div onClick="{{ toggleFeedSort }}" style="width: 150px; flex-shrink: 0; text-align: right; cursor: pointer; user-select: none; display: flex; align-items: center; justify-content: flex-end; gap: 4px; color: #6B7A90;" style-hover="color: #1B6FE0;">
+          Valor de Causa <span style="font-size: 9px;">{{ feedSortArrow }}</span>
+        </div>
         <div style="width: 96px; flex-shrink: 0;">Classificação</div>
         <div style="width: 50px; flex-shrink: 0;">Tribunal</div>
         <div style="width: 16px; flex-shrink: 0;"></div>
@@ -179,9 +182,14 @@
               </div>
             </div>
 
-            <!-- Valor -->
-            <div style="width: 160px; flex-shrink: 0; text-align: right;">
+            <!-- Valor Cessão -->
+            <div style="width: 130px; flex-shrink: 0; text-align: right;">
               <div style="font-size: 11px; font-weight: 600; color: {{ row.valorColor }}; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ row.valorDisplay }}</div>
+            </div>
+
+            <!-- Valor de Causa -->
+            <div style="width: 150px; flex-shrink: 0; text-align: right;">
+              <div style="font-size: 11px; font-weight: 700; color: {{ row.valorCausaColor }}; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ row.valorCausaDisplay }}</div>
             </div>
 
             <!-- Classe -->
@@ -262,6 +270,11 @@
 <!-- View: Mapa de Processos -->
 <sc-if value="{{ showProcessos }}" hint-placeholder-val="{{ false }}">
   <div style="padding: 16px 32px 32px;">
+    <div style="display: flex; justify-content: flex-end; margin-bottom: 4px;">
+      <div onClick="{{ toggleProcessoSort }}" style="display: flex; align-items: center; gap: 6px; cursor: pointer; user-select: none; padding: 6px 12px; border-radius: 6px; background: white; border: 1px solid #D1D9E4; font-size: 11px; font-weight: 700; color: #475569; text-transform: uppercase; letter-spacing: 0.04em;" style-hover="border-color: #1B6FE0; color: #1B6FE0;">
+        Ordenar por Valor de Causa <span style="font-size: 10px;">{{ processoSortArrow }}</span>
+      </div>
+    </div>
     <div style="display: flex; flex-direction: column; gap: 12px;">
       <sc-for list="{{ processoGroups }}" as="grupo" hint-placeholder-count="4">
         <div style="background: white; border-radius: 10px; border: 1px solid #E8ECF1; overflow: hidden;">
@@ -283,6 +296,10 @@
               <div style="text-align: center;">
                 <div style="font-size: 22px; font-weight: 700; color: #1B6FE0; font-family: 'DM Mono', monospace;">{{ grupo.cessionariosCount }}</div>
                 <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase;">cessionários</div>
+              </div>
+              <div style="text-align: center; min-width: 130px;">
+                <div style="font-size: 15px; font-weight: 700; color: #0F766E; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ grupo.valorCausaDisplay }}</div>
+                <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase;">valor de causa</div>
               </div>
             </div>
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex-shrink: 0; transition: transform 0.2s; transform: rotate({{ grupo.expandRotation }});">
@@ -345,6 +362,10 @@
                 <div style="font-size: 22px; font-weight: 700; color: #1B6FE0; font-family: 'DM Mono', monospace;">{{ player.totalProcessos }}</div>
                 <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase;">processos</div>
               </div>
+              <div style="text-align: center; min-width: 140px;">
+                <div style="font-size: 15px; font-weight: 700; color: #0F766E; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ player.valorCausaDisplay }}</div>
+                <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase;">valor causa (rj/falência)</div>
+              </div>
             </div>
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex-shrink: 0; transition: transform 0.2s; transform: rotate({{ player.expandRotation }});">
               <path d="M4 6l4 4 4-4" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -362,6 +383,7 @@
                   </div>
                   <span style="color: #6B7A90; font-size: 12px;">de <span style="font-weight: 600; color: #0A1628;">{{ row.cedente }}</span></span>
                   <span style="color: #6B7A90; font-family: 'DM Mono', monospace;">{{ row.valorDisplay }}</span>
+                  <span style="color: #0F766E; font-family: 'DM Mono', monospace; font-weight: 600;">{{ row.valorCausaDisplay }}</span>
                 </div>
               </sc-for>
             </div>
@@ -395,6 +417,8 @@ class Component extends DCLogic {
       filterCedente: '',
       filterCessionario: '',
       filterSearch: props.highlightPlayer || '',
+      feedSortDir: null,
+      processoSortDir: null,
       rows: Array.isArray(props.dataSource) ? props.dataSource : [],
       meta: null,
       loading: !Array.isArray(props.dataSource),
@@ -622,6 +646,27 @@ class Component extends DCLogic {
     this.loadData();
   };
 
+  toggleFeedSort = () => {
+    this.setState((state) => ({ feedSortDir: state.feedSortDir === 'desc' ? 'asc' : 'desc' }));
+  };
+
+  toggleProcessoSort = () => {
+    this.setState((state) => ({ processoSortDir: state.processoSortDir === 'desc' ? 'asc' : 'desc' }));
+  };
+
+  sortArrowIcon(dir) {
+    if (dir === 'asc') return '▲';
+    if (dir === 'desc') return '▼';
+    return '↕';
+  }
+
+  compareValorCausa(a, b, dir) {
+    if (a == null && b == null) return 0;
+    if (a == null) return 1;
+    if (b == null) return -1;
+    return dir === 'asc' ? a - b : b - a;
+  }
+
   applyFilters(rows) {
     const { filterTribunal, filterClasse, filterCedente, filterCessionario, filterSearch } = this.state;
     const searchNeedle = this.normalizeSearch(filterSearch);
@@ -741,6 +786,8 @@ class Component extends DCLogic {
       filterCedente,
       filterCessionario,
       filterSearch,
+      feedSortDir,
+      processoSortDir,
       rows,
       meta,
       loading,
@@ -773,7 +820,11 @@ class Component extends DCLogic {
       filterSearch
     );
 
-    const feedRows = filtered.map((row) => {
+    const feedSorted = feedSortDir
+      ? [...filtered].sort((a, b) => this.compareValorCausa(a.valor_causa, b.valor_causa, feedSortDir))
+      : filtered;
+
+    const feedRows = feedSorted.map((row) => {
       const classe = this.classeInfo(row.classe);
       const expanded = !!expandedRows[row.id];
 
@@ -782,6 +833,8 @@ class Component extends DCLogic {
         confiancaColor: this.confiancaColor(row.confianca),
         valorDisplay: this.formatValor(row.valor),
         valorColor: row.valor != null ? '#0A1628' : '#94A3B8',
+        valorCausaDisplay: this.formatValor(row.valor_causa),
+        valorCausaColor: row.valor_causa != null ? '#0F766E' : '#94A3B8',
         classeLabel: classe ? classe.label : '',
         classeBg: classe ? classe.bg : 'transparent',
         classeColor: classe ? classe.color : '#6B7280',
@@ -828,36 +881,42 @@ class Component extends DCLogic {
       }
     }
 
-    const processoGroups = Object.values(procMap)
-      .map((group) => {
-        const expanded = !!expandedProcessos[group.cnj];
-        const cedentes = Object.values(group.cedentesMap).sort((a, b) => a.localeCompare(b, 'pt-BR'));
-        const cessionarios = Object.values(group.cessionariosMap).sort((a, b) => a.localeCompare(b, 'pt-BR'));
-        return {
-          cnj: group.cnj,
-          recuperanda: group.recuperanda,
-          count: group.cessoes.length,
-          cedentesCount: cedentes.length,
-          cessionariosCount: cessionarios.length,
-          cedentes: cedentes,
-          cessionarios: cessionarios,
-          expanded: expanded,
-          expandRotation: expanded ? '180deg' : '0deg',
-          cessoes: group.cessoes.map((row) => ({
-            cedente: row.cedente,
-            cessionario: row.cessionario,
-            valorDisplay: this.formatValor(row.valor),
-            confiancaColor: this.confiancaColor(row.confianca),
-          })),
-          toggle: () => this.setState((state) => ({
-            expandedProcessos: {
-              ...state.expandedProcessos,
-              [group.cnj]: !state.expandedProcessos[group.cnj],
-            },
-          })),
-        };
-      })
-      .sort((a, b) => b.count - a.count);
+    const processoGroupsUnsorted = Object.values(procMap).map((group) => {
+      const expanded = !!expandedProcessos[group.cnj];
+      const cedentes = Object.values(group.cedentesMap).sort((a, b) => a.localeCompare(b, 'pt-BR'));
+      const cessionarios = Object.values(group.cessionariosMap).sort((a, b) => a.localeCompare(b, 'pt-BR'));
+      const valorCausaRow = group.cessoes.find((row) => row.valor_causa != null);
+      const valorCausa = valorCausaRow ? valorCausaRow.valor_causa : null;
+      return {
+        cnj: group.cnj,
+        recuperanda: group.recuperanda,
+        count: group.cessoes.length,
+        cedentesCount: cedentes.length,
+        cessionariosCount: cessionarios.length,
+        cedentes: cedentes,
+        cessionarios: cessionarios,
+        valorCausa: valorCausa,
+        valorCausaDisplay: this.formatValor(valorCausa),
+        expanded: expanded,
+        expandRotation: expanded ? '180deg' : '0deg',
+        cessoes: group.cessoes.map((row) => ({
+          cedente: row.cedente,
+          cessionario: row.cessionario,
+          valorDisplay: this.formatValor(row.valor),
+          confiancaColor: this.confiancaColor(row.confianca),
+        })),
+        toggle: () => this.setState((state) => ({
+          expandedProcessos: {
+            ...state.expandedProcessos,
+            [group.cnj]: !state.expandedProcessos[group.cnj],
+          },
+        })),
+      };
+    });
+
+    const processoGroups = processoSortDir
+      ? [...processoGroupsUnsorted].sort((a, b) => this.compareValorCausa(a.valorCausa, b.valorCausa, processoSortDir))
+      : [...processoGroupsUnsorted].sort((a, b) => b.count - a.count);
 
     const playerMap = {};
     for (const row of filtered) {
@@ -896,10 +955,23 @@ class Component extends DCLogic {
     const playerGroups = Object.values(normalizedPlayerMap)
       .map((player) => {
         const expanded = !!expandedPlayers[player.name];
+
+        const valorCausaPorCnj = {};
+        for (const row of player.cessoes) {
+          if (row.cnj && row.valor_causa != null && !(row.cnj in valorCausaPorCnj)) {
+            valorCausaPorCnj[row.cnj] = row.valor_causa;
+          }
+        }
+        const valorCausaValues = Object.values(valorCausaPorCnj);
+        const valorCausaTotal = valorCausaValues.length
+          ? valorCausaValues.reduce((sum, v) => sum + v, 0)
+          : null;
+
         return {
           name: player.name,
           totalCessoes: player.cessoes.length,
           totalProcessos: player.processosSet.size,
+          valorCausaDisplay: this.formatValor(valorCausaTotal),
           processosLabel:
             player.processosSet.size +
             ' processo' +
@@ -913,6 +985,7 @@ class Component extends DCLogic {
             cnj: row.cnj,
             cedente: row.cedente,
             valorDisplay: this.formatValor(row.valor),
+            valorCausaDisplay: this.formatValor(row.valor_causa),
             confiancaColor: this.confiancaColor(row.confianca),
           })),
           toggle: () => this.setState((state) => ({
@@ -978,6 +1051,11 @@ class Component extends DCLogic {
       noResults: !loading && feedRows.length === 0,
       processoGroups: processoGroups,
       playerGroups: playerGroups,
+
+      feedSortArrow: this.sortArrowIcon(feedSortDir),
+      toggleFeedSort: this.toggleFeedSort,
+      processoSortArrow: this.sortArrowIcon(processoSortDir),
+      toggleProcessoSort: this.toggleProcessoSort,
 
       showStatusBar: showStatusBar,
       statusTitle: error ? 'Falha de conexão' : 'Sincronizando dados',

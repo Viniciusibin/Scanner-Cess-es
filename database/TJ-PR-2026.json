@@ -34,7 +34,8 @@
         "recuperanda": "RONCONI INDÚSTRIA E COMÉRCIO DE MÓVEIS E COLCHÕES LTDA",
         "motivo_classificacao": "Há menção expressa à cessão de crédito anotada no sistema, comunicação ao juízo da falência, e transferência do crédito concursal, caracterizando cessão de crédito real em contexto de falência."
       }
-    ]
+    ],
+    "valor_causa": 117831.09
   },
   {
     "id": 492941200,
@@ -72,7 +73,8 @@
         "recuperanda": "Ferrari Zagatto Comércio de Insumos S.A.",
         "motivo_classificacao": "Há menção expressa à cessão de créditos realizada entre a Ferrari Zagatto (recuperanda) e o fundo Agrogalaxy (cessionário), com contratos específicos e transferência definitiva dos créditos, além de responsabilidade da cessionária pela cobrança, caracterizando cessão de crédito real em contexto de recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 8760.8
   },
   {
     "id": 498247198,
@@ -112,7 +114,8 @@
         "recuperanda": "VENILDA BERNARDO CARLOS",
         "motivo_classificacao": "Há menção expressa à cessão onerosa de crédito concursal da massa falida, com homologação judicial e pedido de formalização da alienação, envolvendo múltiplos cessionários e o administrador judicial."
       }
-    ]
+    ],
+    "valor_causa": 282035.01
   },
   {
     "id": 502941107,
@@ -148,7 +151,8 @@
         "recuperanda": "CONSTRUTORA CAXIAS LTDA",
         "motivo_classificacao": "Há menção expressa a cessão de crédito em processo de habilitação de crédito na falência da Construtora Caxias Ltda, que é a recuperanda/falida, indicando cessão real."
       }
-    ]
+    ],
+    "valor_causa": null
   },
   {
     "id": 511049267,
@@ -207,7 +211,8 @@
         "recuperanda": "Indústria e Comércio de Frios e Laticínios Cataratas Ltda.",
         "motivo_classificacao": "O texto menciona múltiplas cessões de crédito, sucessões processuais, homologação judicial de honorários para perícia que inclui auditoria da cadeia de cessões, e detalhamento do Quadro Geral de Credores, indicando cessão real de créditos concursais em contexto de execução judicial da recuperanda Cataratas."
       }
-    ]
+    ],
+    "valor_causa": 5000.0
   },
   {
     "id": 511644754,
@@ -260,7 +265,8 @@
         "recuperanda": "FABIO MEURER HEMKEMEIER",
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com retificação do QGC e pedido de habilitação da cessionária, em processo de recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 1000.0
   },
   {
     "id": 513118453,
@@ -297,7 +303,8 @@
         "recuperanda": "Comércio de Couros Uberaba Ltda",
         "motivo_classificacao": "Há menção clara a instrumento de cessão de crédito homologado judicialmente, com substituição de credor no processo de falência da recuperanda Comércio de Couros Uberaba Ltda."
       }
-    ]
+    ],
+    "valor_causa": 428283.62
   },
   {
     "id": 514130659,
@@ -418,7 +425,8 @@
         "recuperanda": "SOLO VIVO INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA",
         "motivo_classificacao": "Há homologação judicial expressa de cessão de crédito no processo principal de recuperação judicial, com autorização para levantamento de valores, indicando cessão real."
       }
-    ]
+    ],
+    "valor_causa": 108413114.37
   },
   {
     "id": 514337083,
@@ -539,7 +547,8 @@
         "recuperanda": "EJC CONSTRUTORA E OBRAS LTDA ME",
         "motivo_classificacao": "Há menção expressa a pedido de homologação de cessão de crédito no processo de falência, com referência à inclusão no QGC e decisão judicial sobre cessão, caracterizando cessão de crédito real."
       }
-    ]
+    ],
+    "valor_causa": 0.01
   },
   {
     "id": 517054557,
@@ -584,7 +593,8 @@
         "recuperanda": "PETROALCOOL DISTRIBUIDORA DE PETRóLEO LTDA.",
         "motivo_classificacao": "O texto menciona substituição de credor no contexto da Assembleia Geral de Credores e autorização judicial para participação da cessionária, indicando cessão de crédito real em recuperação judicial, embora não detalhe cedente, cessionário ou valores."
       }
-    ]
+    ],
+    "valor_causa": 23135586.44
   },
   {
     "id": 521762350,
@@ -630,7 +640,8 @@
         "recuperanda": "TRANSCONTIAGRO LTDA",
         "motivo_classificacao": "Há menção expressa a instrumento particular de cessão, pedido de substituição no QGC e homologação judicial da cessão em processo de recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 82062930.48
   },
   {
     "id": 525965992,
@@ -677,7 +688,8 @@
         "recuperanda": "AF Felipe Confecções",
         "motivo_classificacao": "Há menção expressa a contrato de cessão de crédito entre cedente e AF Felipe Confecções, pedido de falência baseado no crédito cedido, e legitimidade da cessionária para requerer falência, configurando cessão de crédito real em falência."
       }
-    ]
+    ],
+    "valor_causa": 475000.0
   },
   {
     "id": 529856706,
@@ -718,7 +730,8 @@
         "recuperanda": "PLUMA CONFORTO E TURISMO S A FALIDO",
         "motivo_classificacao": "Há menção expressa a cessão de crédito com pedido de alteração de titularidade no QGC e homologação judicial, configurando cessão de crédito real em falência."
       }
-    ]
+    ],
+    "valor_causa": 1000.0
   },
   {
     "id": 533133916,
@@ -768,7 +781,8 @@
         "recuperanda": "ZADIMEL INDÚSTRIA E COMÉRCIO DE ALIMENTOS LIMITADA",
         "motivo_classificacao": "Há menção expressa à comunicação de cessão de crédito concursal em processo falimentar, com pedido de manifestação do Administrador Judicial, caracterizando cessão de crédito real."
       }
-    ]
+    ],
+    "valor_causa": 10000.0
   },
   {
     "id": 534704697,
@@ -832,7 +846,8 @@
         "recuperanda": "ESTADO DO PARANÁ",
         "motivo_classificacao": "Há menção expressa a cessão de créditos concursais, substituição de credores no polo ativo, homologação judicial e juntada de instrumentos de cessão em processo de execução contra o Estado do Paraná, que é a recuperanda/falida."
       }
-    ]
+    ],
+    "valor_causa": 0.01
   },
   {
     "id": 540007711,
@@ -876,7 +891,8 @@
         "recuperanda": "Grupo Imcopa",
         "motivo_classificacao": "Há decisão judicial homologando a cessão dos créditos concursais com alteração do QGC, mencionando contrato de cessão e a consequência da transferência do controle societário conforme o plano de recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 757914724.0
   },
   {
     "id": 544688914,
@@ -1016,7 +1032,8 @@
         "recuperanda": "SPERAFICO AGROINDUSTRIAL LTDA EM RECUPERACAO JUDICIAL",
         "motivo_classificacao": "Há pedido de substituição processual por cessão de crédito, concordância das partes, menção a homologação judicial e registro da cessão no processo de recuperação judicial da empresa Sperafico Agroindustrial Ltda."
       }
-    ]
+    ],
+    "valor_causa": 1076208843.35
   },
   {
     "id": 541610590,
@@ -1063,7 +1080,8 @@
         "recuperanda": null,
         "motivo_classificacao": "Há menção expressa a cessão de crédito concursal com homologação judicial e substituição no quadro geral de credores, configurando cessão de crédito real em contexto de recuperação judicial/falência."
       }
-    ]
+    ],
+    "valor_causa": 0.01
   },
   {
     "id": 541984734,
@@ -1101,7 +1119,8 @@
         "recuperanda": "MÓVEIS BELO INDÚSTRIA E COMÉRCIO LTDA.",
         "motivo_classificacao": "Há menção expressa à aquisição de direitos creditórios por meio de instrumentos particulares de cessão e aquisição de créditos, em processo de falência, indicando cessão real de crédito concursal."
       }
-    ]
+    ],
+    "valor_causa": 167792.45
   },
   {
     "id": 547898113,
@@ -1135,7 +1154,8 @@
         "recuperanda": "Hubner Componentes e Sistemas Automotivos Ltda.",
         "motivo_classificacao": "Há pedido de substituição de credor no processo de recuperação judicial, indicando cessão de crédito concursal entre Banco Bradesco e o fundo Lepta Special."
       }
-    ]
+    ],
+    "valor_causa": 666569306.98
   },
   {
     "id": 553877567,
@@ -1210,7 +1230,8 @@
         "recuperanda": null,
         "motivo_classificacao": "Há menção a cessão de crédito com contrato e diligências para habilitação dos cessionários no processo."
       }
-    ]
+    ],
+    "valor_causa": 500000.0
   },
   {
     "id": 555257436,
@@ -1244,7 +1265,8 @@
         "recuperanda": "Dail - Destilaria de Álcool Ibaiti Ltda",
         "motivo_classificacao": "Há menção expressa a cessionário do crédito originário, pedido de habilitação para substituição no quadro geral de credores, indicando cessão real de crédito concursal em recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 26958026.23
   },
   {
     "id": 557694818,
@@ -1352,7 +1374,8 @@
         "recuperanda": "IMCOPA IMPORTAÇÃO EXPORTAÇÃO E INDÚSTRIA DE ÓLEOS S.A.",
         "motivo_classificacao": "Há menção expressa a termo de cessão de crédito concursal, homologação pelo administrador judicial, manifestação da recuperanda e perda de legitimidade do cedente para votar, caracterizando cessão real de crédito no contexto da recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 757914724.0
   },
   {
     "id": 558169033,
@@ -1434,7 +1457,8 @@
         "recuperanda": "ROMANHA INDUSTRIA DE ALIMENTOS",
         "motivo_classificacao": "Há menção expressa a cessão de crédito no processo de recuperação judicial, com pedido de manifestação das recuperandas e administradora judicial, indicando cessão real."
       }
-    ]
+    ],
+    "valor_causa": 54304146.32
   },
   {
     "id": 558568453,
@@ -1472,7 +1496,8 @@
         "recuperanda": "RY SERVIÇOS TÉCNICOS E INDUSTRIAIS EIRELI",
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal, contrato de cessão, pedido de substituição de credor e discussão judicial sobre titularidade do crédito no processo principal de recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 14257144.31
   },
   {
     "id": 559424816,
@@ -1511,7 +1536,8 @@
         "recuperanda": "PRAMOTO COMERCIO E INDUSTRIA DE PEÇAS LTDA",
         "motivo_classificacao": "Houve cessão de crédito concursal da empresa em falência a terceiro, com pedido e homologação judicial, no processo principal de falência da empresa."
       }
-    ]
+    ],
+    "valor_causa": 1000.0
   },
   {
     "id": 556560930,
@@ -1546,7 +1572,8 @@
         "recuperanda": "MARKOELETRO COMÉRCIO DE ELETRODOMÉSTICOS LTDA",
         "motivo_classificacao": "Há menção clara à cessão integral do crédito concursal e à subcessão, com pedido de manifestação sobre recuperação judicial da cessionária, indicando cessão real em contexto de RJ."
       }
-    ]
+    ],
+    "valor_causa": 76892.75
   },
   {
     "id": 564293597,
@@ -1617,7 +1644,8 @@
         "recuperanda": null,
         "motivo_classificacao": "O texto descreve cessão de crédito concursal com disputa judicial sobre validade e excesso de cessões, envolvendo credores e cessionários, com menção a quadro geral de credores e homologação judicial implícita, caracterizando cessão de crédito real em contexto de recuperação judicial/falência."
       }
-    ]
+    ],
+    "valor_causa": 10083330.99
   },
   {
     "id": 564743179,
@@ -1673,7 +1701,8 @@
         "recuperanda": "GMAC INVESTIMENTOS, GESTãO E PARTICIPAçõES LTDA",
         "motivo_classificacao": "Há menção expressa a cessão de crédito com pedido de manifestação das recuperandas e administrador judicial, típico de cessão real em RJ, embora sem detalhes sobre cedente, cessionário ou homologação."
       }
-    ]
+    ],
+    "valor_causa": 17074811.06
   },
   {
     "id": 564835362,
@@ -1710,7 +1739,8 @@
         "recuperanda": "SAN RAFAEL SEM E CEREAIS LTDA",
         "motivo_classificacao": "Há menção expressa a instrumento de cessão, pedido de anotação no QGC e homologação judicial em processo de recuperação judicial da SAN RAFAEL SEM E CEREAIS LTDA."
       }
-    ]
+    ],
+    "valor_causa": 187647494.1
   },
   {
     "id": 564836067,
@@ -1753,7 +1783,8 @@
         "recuperanda": "AVM SUPERMERCADO LTDA",
         "motivo_classificacao": "Há pedido de substituição processual por cessão de crédito, determinação para apresentação de demonstrativo dos créditos cedidos constantes no QGC e retificação do QGC pela administradora judicial, configurando cessão de crédito real em recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 63782712.37
   },
   {
     "id": 565533255,
@@ -1940,7 +1971,8 @@
         "recuperanda": "LAVANDERIA CENTRO OESTE LTDA",
         "motivo_classificacao": "Há pedido de substituição de credor no QGC e homologação judicial de cessão de crédito concursal por fundo de investimento em processo falimentar."
       }
-    ]
+    ],
+    "valor_causa": 9767045.62
   },
   {
     "id": 563349373,
@@ -1978,7 +2010,8 @@
         "recuperanda": "MASSA FALIDA DE BERNARD KRONE DO BRASIL IND COM VEIC IND MAQ AGRIC LTDA.",
         "motivo_classificacao": "Há menção a instrumento de cessão, pedido de substituição de credor no QGC e homologação judicial da cessão no processo de falência."
       }
-    ]
+    ],
+    "valor_causa": 1000.0
   },
   {
     "id": 563841819,
@@ -2022,7 +2055,8 @@
         "recuperanda": "HERBIOESTE HERBICIDAS LTDA",
         "motivo_classificacao": "Há homologação judicial expressa da cessão parcial de crédito com determinação de exclusão e substituição no QGC, envolvendo a recuperanda em processo de recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 1000000.0
   },
   {
     "id": 569583956,
@@ -2059,7 +2093,8 @@
         "recuperanda": "Construtora Premontal Ltda",
         "motivo_classificacao": "O texto menciona a análise judicial da titularidade dos créditos cedidos, a existência de cessão operada, e a atuação do síndico na falência, indicando cessão real de crédito concursal."
       }
-    ]
+    ],
+    "valor_causa": 100000.0
   },
   {
     "id": 570050182,
@@ -2104,7 +2139,8 @@
         "recuperanda": "Herbioeste Herbicidas Ltda.",
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal da recuperanda para terceiro, com pedido de apresentação do instrumento de cessão, homologação judicial implícita e pedido de arresto cautelar sobre valores decorrentes da cessão, configurando cessão de crédito real em contexto de recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 106578.0
   },
   {
     "id": 570819342,
@@ -2143,7 +2179,8 @@
         "recuperanda": "DAP INDUSTRIA E COMERCIO CONFECCOES LTDA",
         "motivo_classificacao": "Há menção expressa a comunicação de cessão de crédito, pedido de anotação no QGC e verificação da documentação pelo administrador judicial, indicando cessão real em contexto de recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 4435464.72
   },
   {
     "id": 571164504,
@@ -2200,7 +2237,8 @@
         "recuperanda": "SPERAFICO AGROINDUSTRIAL S.A.",
         "motivo_classificacao": "O texto menciona cessão de crédito concursal com comunicação ao juízo da recuperação judicial, discussão sobre fraude na cessão, homologação judicial e direito de voto do cessionário no QGC, caracterizando cessão de crédito real em contexto de recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 1076208843.35
   },
   {
     "id": 567240247,
@@ -2236,7 +2274,8 @@
         "recuperanda": "GARÇA RURAL - COMERCIO E REPRESENTAÇÃO AGROPECUÁRIOS LTDA",
         "motivo_classificacao": "Há menção expressa à substituição processual do credor Banco Santander Banespa pelo Fundo NPL II, identificado como cessionário do crédito, em processo de recuperação judicial, configurando cessão de crédito real."
       }
-    ]
+    ],
+    "valor_causa": 9198344.54
   },
   {
     "id": 567352229,
@@ -2271,7 +2310,8 @@
         "recuperanda": "Falida",
         "motivo_classificacao": "Há menção expressa à apresentação de instrumento de cessão de crédito em processo de falência, com intimação do cessionário e manifestação do administrador judicial, indicando cessão real de crédito concursal."
       }
-    ]
+    ],
+    "valor_causa": 1587431.34
   },
   {
     "id": 567359988,
@@ -2307,7 +2347,8 @@
         "recuperanda": null,
         "motivo_classificacao": "Há homologação judicial de sub-rogação de crédito com menção expressa à habilitação no quadro geral de credores da recuperação judicial, caracterizando cessão de crédito real."
       }
-    ]
+    ],
+    "valor_causa": 18256.59
   },
   {
     "id": 575855409,
@@ -2346,7 +2387,8 @@
         "recuperanda": "TRESBOMM COMÉRCIO E EXPORTAÇÃO DE GRÃOS LTDA",
         "motivo_classificacao": "Há menção expressa à comunicação e homologação judicial da cessão de crédito concursal no processo de recuperação judicial da empresa recuperanda."
       }
-    ]
+    ],
+    "valor_causa": 10000000.0
   },
   {
     "id": 577587204,
@@ -2388,7 +2430,8 @@
         "recuperanda": "AGRO 100 COMERCIO DE PRODUTOS AGRICOLAS LTDA",
         "motivo_classificacao": "Há menção expressa à homologação judicial da cessão de crédito concursal na recuperação judicial da AGRO 100, com contrato de cessão e necessidade de autorização do juízo da RJ, caracterizando cessão de crédito real."
       }
-    ]
+    ],
+    "valor_causa": 236385.69
   },
   {
     "id": 578939116,
@@ -2424,7 +2467,8 @@
         "recuperanda": "BULLE, BULLE & FERRARI AGRONEGÓCIO LTDA",
         "motivo_classificacao": "Há menção a termos de compra e cessão de crédito, pedido de inclusão no QGC e homologação judicial, configurando cessão real de crédito concursal em RJ."
       }
-    ]
+    ],
+    "valor_causa": 143958535.42
   },
   {
     "id": 581254740,
@@ -2474,7 +2518,8 @@
         "recuperanda": "Contiagro Com Ind e Repr Ltda",
         "motivo_classificacao": "Há menção expressa à cessão de crédito decorrente do resgate antecipado de CRA, com pedido de substituição processual e determinação judicial para anotação da cessão no âmbito da recuperação judicial da Contiagro."
       }
-    ]
+    ],
+    "valor_causa": 82062930.48
   },
   {
     "id": 581858813,
@@ -2513,7 +2558,8 @@
         "recuperanda": "Teixeira Junior Comércio de Cereais e Manufaturados Ltda",
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal pelo Banco do Brasil para Emais Urbanismo, com substituição do credor no processo de falência da Teixeira Junior e habilitação do crédito junto ao juízo universal, configurando cessão de crédito real em contexto falimentar."
       }
-    ]
+    ],
+    "valor_causa": 5703315.94
   },
   {
     "id": 582447382,
@@ -2558,7 +2604,8 @@
         "recuperanda": "TRESBOMM COMÉRCIO E EXPORTAÇÃO DE GRÃOS LTDA",
         "motivo_classificacao": "Há menção expressa à cessão de créditos do Banco Pine para o Explorer Fundo, com pedido de transferência de valores e manifestação do administrador judicial, no processo principal de recuperação judicial da TRESBOMM."
       }
-    ]
+    ],
+    "valor_causa": 1000.0
   },
   {
     "id": 584854060,
@@ -2598,7 +2645,8 @@
         "recuperanda": "Transportadora Trans Mosa Ltda.",
         "motivo_classificacao": "Há homologação judicial de cessão de crédito concursal por sub-rogação, com pedido de substituição no QGC e menção a instrumento de cessão (sub-rogação legal)."
       }
-    ]
+    ],
+    "valor_causa": 4967326.24
   },
   {
     "id": 585725572,
@@ -2633,7 +2681,8 @@
         "recuperanda": "MASSA FALIDA DE OTAN CONSTRUTORA LTDA - ME",
         "motivo_classificacao": "Há menção expressa à cessão de crédito com alteração do polo ativo no processo de falência, indicando transferência de crédito concursal."
       }
-    ]
+    ],
+    "valor_causa": 8447.3
   },
   {
     "id": 588111404,
@@ -2669,7 +2718,8 @@
         "recuperanda": "Cooperativa Agropecuária Mista do Oeste Ltda",
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com pedido de substituição no polo ativo e manifestação da administradora judicial, caracterizando cessão de crédito real em contexto de liquidação judicial."
       }
-    ]
+    ],
+    "valor_causa": 282690254.87
   },
   {
     "id": 588378739,
@@ -2711,7 +2761,8 @@
         "recuperanda": "BVS PRODUTOS PLASTICOS LTDA.",
         "motivo_classificacao": "Há menção expressa à aquisição integral de créditos concursais, pedido de substituição no QGC e homologação judicial em processo de recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": null
   },
   {
     "id": 588441437,
@@ -2761,7 +2812,8 @@
         "recuperanda": "SPERAFICO AGROINDUSTRIAL LTDA EM RECUPERACAO JUDICIAL",
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal, pedido e deferimento de substituição processual no processo principal de recuperação judicial, com homologação judicial da cessão."
       }
-    ]
+    ],
+    "valor_causa": 1076208843.35
   },
   {
     "id": 592532894,
@@ -3188,7 +3240,8 @@
         "recuperanda": "I.G. - CONSTRUTORA LUXLUMEN LTDA",
         "motivo_classificacao": "Há menção expressa à comunicação de cessão de crédito concursal com determinação para anotação no QGC, indicando cessão real em processo de recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 88754953.68
   },
   {
     "id": 593717170,
@@ -3315,7 +3368,8 @@
         "recuperanda": "CONSTRUMELLO COMERCIO, DISTRIBUIDORA E TRANSPORTES LTDA",
         "motivo_classificacao": "Há notícia expressa de cessão de crédito concursal com pedido de anotação no QGC, em processo de recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 26514126.92
   },
   {
     "id": 591205287,
@@ -3667,7 +3721,8 @@
         "recuperanda": "HUBNER IMPLEMENTOS RODOVIÁRIOS LTDA",
         "motivo_classificacao": "Há comunicação expressa de cessão de crédito com parecer favorável do AJ para homologação e anotação no QGC, em processo de recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 666569306.98
   },
   {
     "id": 591319080,
@@ -3707,7 +3762,8 @@
         "recuperanda": "BARION INDÚSTRIA E COMÉRCIO DE ALIMENTOS S/A",
         "motivo_classificacao": "O texto relata cessão de crédito concursal com pedido de alteração de classificação no QGC, mencionando a cessão reconhecida e a manutenção da natureza do crédito conforme art. 83, §5º da Lei 11.101/2005, configurando cessão de crédito real em recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 4006051.36
   },
   {
     "id": 604892102,
@@ -3797,7 +3853,8 @@
         "recuperanda": "ROMANHA INDUSTRIA DE ALIMENTOS",
         "motivo_classificacao": "Há menção expressa à substituição de credor no contexto da Assembleia Geral de Credores, com comunicação à administradora judicial e recuperandas, indicando cessão de crédito real em processo de recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 54304146.32
   },
   {
     "id": 606148150,
@@ -3847,7 +3904,8 @@
         "recuperanda": "V. D. P. SERVICOS ADMINISTRATIVOS FALIDO LTDA",
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com pedido de apresentação do instrumento contratual e substituição de credor no processo de falência."
       }
-    ]
+    ],
+    "valor_causa": 379654.0
   },
   {
     "id": 618896829,
@@ -3889,7 +3947,8 @@
         "recuperanda": "GMV LOGISTICA LTDA",
         "motivo_classificacao": "Há homologação judicial expressa da cessão de crédito concursal com substituição do credor no QGC e menção a instrumento de cessão, confirmando cessão real em contexto de recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 16344678.31
   },
   {
     "id": 616593034,
@@ -4051,7 +4110,8 @@
         "recuperanda": "Sperafico Agroindustrial Ltda.",
         "motivo_classificacao": "O texto descreve cessão de crédito concursal realizada pela recuperanda, com pedido de nulidade e homologação judicial discutidos, envolvendo substituição de credor no QGC e menção a instrumento de cessão, caracterizando cessão de crédito real em recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 1076208843.35
   },
   {
     "id": 623430370,
@@ -4089,7 +4149,8 @@
         "recuperanda": "BJ Santos & CIA Ltda",
         "motivo_classificacao": "O texto menciona sucessão processual e habilitação da massa falida como cessionária, com transferência de valores e comunicação ao juízo da falência, indicando cessão de crédito real em contexto falimentar."
       }
-    ]
+    ],
+    "valor_causa": 3000000.0
   },
   {
     "id": 625823192,
@@ -4129,7 +4190,8 @@
         "recuperanda": "Mixtel Distribuidora Ltda",
         "motivo_classificacao": "Há menção a instrumento de cessão de crédito, pedido de retificação e homologação judicial no QGC da falência da Mixtel Distribuidora Ltda."
       }
-    ]
+    ],
+    "valor_causa": 595280658.58
   },
   {
     "id": 628612204,
@@ -4163,7 +4225,8 @@
         "recuperanda": "Transportadora Soares de Andrade Ltda.",
         "motivo_classificacao": "Há menção a termos e contrato de cessão de crédito concursal, pedido de homologação judicial e substituição de credores no QGC da recuperação extrajudicial da recuperanda."
       }
-    ]
+    ],
+    "valor_causa": 10000000.0
   },
   {
     "id": 634438982,
@@ -4204,6 +4267,7 @@
         "recuperanda": "Grupo Fazenda Bela Vista",
         "motivo_classificacao": "Há menção expressa à cessão integral do crédito concursal, homologação judicial, substituição no QGC e instrumento de cessão anexado, configurando cessão de crédito real em RJ."
       }
-    ]
+    ],
+    "valor_causa": 1099716.3
   }
 ]

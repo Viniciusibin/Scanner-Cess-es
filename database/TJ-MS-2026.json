@@ -34,7 +34,8 @@
         "recuperanda": "AGROPECUÁRIA JOSÉ DOMINGOS LOT LTDA",
         "motivo_classificacao": "Há menção expressa à cessão de crédito com pedido de substituição de credor no QGC e manifestação da administradora judicial, em processo de recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 527134448.33
   },
   {
     "id": 508008558,
@@ -66,7 +67,8 @@
         "recuperanda": "BIOCAR INDúSTRIA E COMéRCIO DE ÓLEOS VEGETAIS E QUIMICA LTDA",
         "motivo_classificacao": "Há manifestação favorável da recuperanda e homologação judicial da sub-rogação (cessão) do crédito concursal, com pedido de expedição de alvará para o cessionário, configurando cessão de crédito real."
       }
-    ]
+    ],
+    "valor_causa": 9434103.08
   },
   {
     "id": 528279958,
@@ -106,7 +108,8 @@
         "recuperanda": "AGROINDUSTRIAL OLHOS VERDES LTDA",
         "motivo_classificacao": "Há menção expressa à apresentação de documentação para validação de cessões de crédito concursal entre cedentes e cessionário, em processo de recuperação extrajudicial, indicando cessão real."
       }
-    ]
+    ],
+    "valor_causa": 225013994.46
   },
   {
     "id": 539816861,
@@ -145,7 +148,8 @@
         "recuperanda": "AGROPECUÁRIA JOSÉ DOMINGOS LOT LTDA",
         "motivo_classificacao": "Há menção a instrumento de cessão, homologação judicial, substituição no QGC e crédito concursal em processo de impugnação na recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 81805452.67
   },
   {
     "id": 550729742,
@@ -175,7 +179,8 @@
         "recuperanda": "EVANDRO LUIS BIAZUS",
         "motivo_classificacao": "Há menção expressa à cessão de crédito e à alteração dos credores no QGC, indicando cessão real em contexto de recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 209720927.79
   },
   {
     "id": 550730026,
@@ -207,7 +212,8 @@
         "recuperanda": "A.L.D TRANSPORTES E LOCAçõES EIRELI",
         "motivo_classificacao": "Há menção a cessão de crédito com pedido de alteração no QGC em processo de recuperação judicial, indicando cessão real."
       }
-    ]
+    ],
+    "valor_causa": 52329195.47
   },
   {
     "id": 554667906,
@@ -278,7 +284,8 @@
         "recuperanda": "BIANKA GUIMARAES DA ROCHA LTDA",
         "motivo_classificacao": "Despacho homologou sub-rogação e cessão de crédito com anotação no quadro geral de credores, indicando cessão real em recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 249210655.84
   },
   {
     "id": 578825245,
@@ -310,7 +317,8 @@
         "recuperanda": "A.L.D TRANSPORTES E LOCAçõES EIRELI",
         "motivo_classificacao": "Há autorização judicial expressa para cessão de crédito com alteração no QGC, indicando cessão real em recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 52329195.47
   },
   {
     "id": 585189758,
@@ -352,7 +360,8 @@
         "recuperanda": "C.C.C.V.",
         "motivo_classificacao": "Há menção expressa a cessão de crédito em favor de terceiro credor concursal, com pedido de manifestação do cessionário, em processo de recuperação judicial, indicando cessão real de crédito."
       }
-    ]
+    ],
+    "valor_causa": null
   },
   {
     "id": 589155508,
@@ -390,7 +399,8 @@
         "recuperanda": "Rafael Fayad e outra",
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com pedido de substituição no QGC e homologação judicial em processo de recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 0.0
   },
   {
     "id": 600032562,
@@ -429,7 +439,8 @@
         "recuperanda": "SÃO FERNANDO AÇÚCAR E ÁLCOOL LTDA",
         "motivo_classificacao": "Há menção expressa à cessão de crédito com homologação judicial e anotação no sistema, envolvendo crédito concursal em processo de falência."
       }
-    ]
+    ],
+    "valor_causa": 0.0
   },
   {
     "id": 616459731,
@@ -461,7 +472,8 @@
         "recuperanda": "AGROPECUÁRIA TUBARÃO LTDA.",
         "motivo_classificacao": "Há autorização judicial expressa para cessão de crédito concursal com alteração no QGC, envolvendo a recuperanda Agropecuária Tubarão Ltda."
       }
-    ]
+    ],
+    "valor_causa": 23013444.01
   },
   {
     "id": 618961566,
@@ -511,9 +523,10 @@
         "recuperanda": "ATVOS PRESERVAçãO AMBIENTAL LTDA",
         "motivo_classificacao": "Há autorização judicial expressa para cessão de crédito concursal com pedido de alteração no QGC, caracterizando cessão de crédito real em recuperação judicial."
       }
-    ]
+    ],
+    "valor_causa": 44482995.32
   },
- {
+  {
     "id": 625401910,
     "cnj": "0803219-35.2024.8.12.0002",
     "classe": "RECUPERAçãO JUDICIAL",
@@ -555,7 +568,8 @@
       "cnj_rj": "0803219-35.2024.8.12.0002",
       "recuperanda": null,
       "motivo_classificacao": "Há pedido de sucessão de credor por cessão de crédito com homologação judicial e anotação no quadro geral de credores, caracterizando cessão de crédito real em recuperação judicial."
-    }
+    },
+    "valor_causa": 249210655.84
   },
   {
     "id": 638899289,
@@ -594,7 +608,8 @@
       "cnj_rj": "0810184-35.2025.8.12.0021",
       "recuperanda": "Cibrafertil - Companhia Brasileira de Fertilizantes",
       "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com pedido de rescisão e discussão sobre a transferência da titularidade do crédito, indicando cessão real homologada em contexto de recuperação judicial."
-    }
+    },
+    "valor_causa": null
   },
   {
     "id": 638910016,
@@ -631,7 +646,8 @@
       "cnj_rj": "0802964-83.2025.8.12.0021",
       "recuperanda": "Grupo Recuperando",
       "motivo_classificacao": "Há menção expressa à comunicação da cessão de crédito, pedido de manifestação da Administradora Judicial e correção no QGC, indicando cessão real em recuperação judicial."
-    }
+    },
+    "valor_causa": 23035768.3
   },
   {
     "id": 640515547,
@@ -665,7 +681,8 @@
       "cnj_rj": "0823471-28.2025.8.12.0001",
       "recuperanda": null,
       "motivo_classificacao": "Há menção expressa à cessão de crédito em favor do cessionário no contexto de bloqueio e levantamento de valores na recuperação judicial."
-    }
+    },
+    "valor_causa": 23013444.01
   },
   {
     "id": 643166403,
@@ -714,7 +731,8 @@
       "cnj_rj": "0818695-82.2025.8.12.0001",
       "recuperanda": "Grupo Portela",
       "motivo_classificacao": "Há menção expressa a cessionário do crédito concursal, votação na AGC da classe II, e contexto de homologação judicial em recuperação judicial, caracterizando cessão de crédito real."
-    }
+    },
+    "valor_causa": 76402120.91
   },
   {
     "id": 648337704,
@@ -749,10 +767,7 @@
       "cnj_rj": null,
       "recuperanda": null,
       "motivo_classificacao": "Há menção clara a contrato de cessão de crédito judicial, pedido de habilitação de cessionária e discussão sobre valor cedido, caracterizando cessão de crédito real."
-    }
+    },
+    "valor_causa": 11952.0
   }
-
-
-
-  
 ]

@@ -118,6 +118,7 @@ def normalize_publication(
     publication_data = normalize_text(publication.get("data"))
     publication_link = normalize_text(publication.get("link"))
     publication_text = normalize_text(publication.get("texto_completo"))
+    publication_valor_causa = normalize_money(publication.get("valor_causa"))
 
     for index, classificacao in enumerate(_extract_classificacoes(publication)):
         if not classificacao.get("is_cessao_real"):
@@ -151,6 +152,7 @@ def normalize_publication(
                 cedente=cedente,
                 cessionario=cessionario,
                 valor=normalize_money(classificacao.get("valor")),
+                valor_causa=publication_valor_causa,
                 classe_credito=normalize_classe_credito(
                     classificacao.get("classe_credito")
                 ),
