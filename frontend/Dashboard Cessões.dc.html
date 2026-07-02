@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+
+<helmet>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes slideIn { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: translateX(0); } }
+    @keyframes expandIn { from { opacity: 0; max-height: 0; } to { opacity: 1; max-height: 2000px; } }
+    body { margin: 0; background: #FAFBFC; font-family: 'DM Sans', sans-serif; color: #0A1628; -webkit-font-smoothing: antialiased; }
+    * { box-sizing: border-box; }
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 3px; }
+  </style>
+</helmet>
+
+<!-- Top bar -->
+<div style="position: sticky; top: 0; z-index: 100; background: #001E36; padding: 0 32px; display: flex; align-items: center; height: 56px; gap: 24px;">
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <div style="width: 28px; height: 28px; border-radius: 6px; background: linear-gradient(135deg, #1B6FE0, #3B8DF5); display: flex; align-items: center; justify-content: center;">
+      <span style="color: white; font-size: 13px; font-weight: 700; font-family: 'DM Mono', monospace;">E</span>
+    </div>
+    <span style="color: white; font-size: 15px; font-weight: 600; letter-spacing: -0.01em;">Scanner Cessões</span>
+    <span style="color: rgba(255,255,255,0.35); font-size: 12px; font-weight: 500; margin-left: 4px;">DJEN Pipeline</span>
+  </div>
+
+  <!-- Tabs -->
+  <div style="display: flex; gap: 2px; margin-left: 24px;">
+    <button onClick="{{ setViewFeed }}" style="padding: 6px 16px; border-radius: 6px; border: none; cursor: pointer; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 600; transition: all 0.2s; background: {{ feedTabBg }}; color: {{ feedTabColor }};">
+      Feed Diário
+    </button>
+    <button onClick="{{ setViewProcessos }}" style="padding: 6px 16px; border-radius: 6px; border: none; cursor: pointer; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 600; transition: all 0.2s; background: {{ processosTabBg }}; color: {{ processosTabColor }};">
+      Mapa de Processos
+    </button>
+    <button onClick="{{ setViewPlayers }}" style="padding: 6px 16px; border-radius: 6px; border: none; cursor: pointer; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 600; transition: all 0.2s; background: {{ playersTabBg }}; color: {{ playersTabColor }};">
+      Mapa de Players
+    </button>
+  </div>
+
+  <div style="flex: 1;"></div>
+  <span style="color: rgba(255,255,255,0.5); font-size: 12px; font-family: 'DM Mono', monospace;">{{ dataLabel }}</span>
+</div>
+
+<!-- KPI strip -->
+<div style="padding: 20px 32px 0; display: flex; gap: 16px;">
+  <div style="flex: 1; background: white; border-radius: 10px; padding: 16px 20px; border: 1px solid #E8ECF1;">
+    <div style="font-size: 11px; font-weight: 600; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.05em;">Cessões Hoje</div>
+    <div style="font-size: 28px; font-weight: 700; color: #001E36; margin-top: 4px; font-family: 'DM Mono', monospace;">{{ totalCessoes }}</div>
+  </div>
+  <div style="flex: 1; background: white; border-radius: 10px; padding: 16px 20px; border: 1px solid #E8ECF1;">
+    <div style="font-size: 11px; font-weight: 600; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.05em;">Cedentes Únicos</div>
+    <div style="font-size: 28px; font-weight: 700; color: #001E36; margin-top: 4px; font-family: 'DM Mono', monospace;">{{ uniqueCedentes }}</div>
+  </div>
+  <div style="flex: 1; background: white; border-radius: 10px; padding: 16px 20px; border: 1px solid #E8ECF1;">
+    <div style="font-size: 11px; font-weight: 600; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.05em;">Cessionários Ativos</div>
+    <div style="font-size: 28px; font-weight: 700; color: #001E36; margin-top: 4px; font-family: 'DM Mono', monospace;">{{ uniqueCessionarios }}</div>
+  </div>
+  <div style="flex: 1; background: white; border-radius: 10px; padding: 16px 20px; border: 1px solid #E8ECF1;">
+    <div style="font-size: 11px; font-weight: 600; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.05em;">Processos</div>
+    <div style="font-size: 28px; font-weight: 700; color: #001E36; margin-top: 4px; font-family: 'DM Mono', monospace;">{{ uniqueProcessos }}</div>
+  </div>
+  <div style="flex: 1; background: white; border-radius: 10px; padding: 16px 20px; border: 1px solid #E8ECF1;">
+    <div style="font-size: 11px; font-weight: 600; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.05em;">Com Valor</div>
+    <div style="font-size: 28px; font-weight: 700; color: #1B6FE0; margin-top: 4px; font-family: 'DM Mono', monospace;">{{ comValor }}</div>
+  </div>
+</div>
+
+<!-- Filters -->
+<div style="padding: 16px 32px 0; display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+  <div style="font-size: 12px; font-weight: 600; color: #6B7A90; margin-right: 4px;">FILTROS</div>
+
+  <select value="{{ selectedTribunal }}" onChange="{{ onTribunalChange }}" style="padding: 6px 12px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 13px; color: #0A1628; cursor: pointer; outline: none;">
+    <option value="">Todos tribunais</option>
+    <sc-for list="{{ tribunalOptions }}" as="option" hint-placeholder-count="2">
+      <option value="{{ option.value }}">{{ option.label }}</option>
+    </sc-for>
+  </select>
+
+  <select value="{{ selectedConfianca }}" onChange="{{ onConfiancaChange }}" style="padding: 6px 12px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 13px; color: #0A1628; cursor: pointer; outline: none;">
+    <option value="">Todas confianças</option>
+    <sc-for list="{{ confiancaOptions }}" as="option" hint-placeholder-count="2">
+      <option value="{{ option.value }}">{{ option.label }}</option>
+    </sc-for>
+  </select>
+
+  <select value="{{ selectedClasse }}" onChange="{{ onClasseChange }}" style="padding: 6px 12px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 13px; color: #0A1628; cursor: pointer; outline: none; max-width: 260px;">
+    <option value="">Todas classes</option>
+    <sc-for list="{{ classeOptions }}" as="option" hint-placeholder-count="3">
+      <option value="{{ option.value }}">{{ option.label }}</option>
+    </sc-for>
+  </select>
+
+  <input type="text" value="{{ selectedSearch }}" placeholder="Buscar cedente, cessionário, recuperanda..." onInput="{{ onSearchInput }}" style="flex: 1; min-width: 240px; padding: 6px 12px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 13px; color: #0A1628; outline: none;" />
+
+  <sc-if value="{{ hasActiveFilters }}" hint-placeholder-val="{{ false }}">
+    <button onClick="{{ clearFilters }}" style="padding: 6px 12px; border-radius: 6px; border: 1px solid #D1D9E4; background: #FEF2F2; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; color: #DC2626; cursor: pointer;">
+      Limpar filtros
+    </button>
+  </sc-if>
+</div>
+
+<sc-if value="{{ showStatusBar }}" hint-placeholder-val="{{ true }}">
+  <div style="padding: 12px 32px 0;">
+    <div style="display: flex; align-items: center; justify-content: space-between; gap: 16px; background: {{ statusBg }}; border: 1px solid {{ statusBorder }}; border-radius: 10px; padding: 12px 16px;">
+      <div style="display: flex; align-items: center; gap: 10px; min-width: 0;">
+        <div style="width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; background: {{ statusDot }};"></div>
+        <div style="min-width: 0;">
+          <div style="font-size: 12px; font-weight: 700; color: {{ statusTitleColor }}; text-transform: uppercase; letter-spacing: 0.05em;">{{ statusTitle }}</div>
+          <div style="font-size: 13px; color: #475569; margin-top: 2px;">{{ statusMessage }}</div>
+        </div>
+      </div>
+      <sc-if value="{{ showRetry }}" hint-placeholder-val="{{ false }}">
+        <button onClick="{{ retryLoad }}" style="padding: 6px 12px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; color: #0A1628; cursor: pointer;">
+          Tentar novamente
+        </button>
+      </sc-if>
+    </div>
+  </div>
+</sc-if>
+
+<!-- View: Feed Diário -->
+<sc-if value="{{ showFeed }}" hint-placeholder-val="{{ true }}">
+  <div style="padding: 16px 32px 32px;">
+    <div style="display: flex; flex-direction: column; gap: 0;">
+      <!-- Table header -->
+      <div style="padding: 10px 20px; display: flex; align-items: center; gap: 16px; font-size: 10px; font-weight: 700; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.06em;">
+        <div style="width: 8px; flex-shrink: 0;"></div>
+        <div style="width: 200px; flex-shrink: 0;">Recuperanda / CNJ</div>
+        <div style="flex: 1;">Cedente → Cessionário</div>
+        <div style="width: 160px; flex-shrink: 0; text-align: right;">Valor</div>
+        <div style="width: 80px; flex-shrink: 0;">Classe</div>
+        <div style="width: 50px; flex-shrink: 0;">Tribunal</div>
+        <div style="width: 16px; flex-shrink: 0;"></div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+      <sc-for list="{{ filteredRows }}" as="row" hint-placeholder-count="6">
+        <div style="background: white; border-radius: 10px; border: 1px solid #E8ECF1; transition: all 0.15s; overflow: hidden;" style-hover="border-color: #1B6FE0; box-shadow: 0 2px 8px rgba(27,111,224,0.08);">
+          <!-- Main row -->
+          <div onClick="{{ row.toggle }}" style="padding: 14px 20px; display: flex; align-items: center; gap: 16px; cursor: pointer;">
+            <!-- Confidence badge -->
+            <div style="width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; background: {{ row.confiancaColor }};"></div>
+
+            <!-- Recuperanda -->
+            <div style="width: 200px; flex-shrink: 0;">
+              <div style="font-size: 13px; font-weight: 600; color: #0A1628; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ row.recuperanda }}</div>
+              <div style="font-size: 11px; color: #6B7A90; margin-top: 1px; font-family: 'DM Mono', monospace;">{{ row.cnj }}</div>
+            </div>
+
+            <!-- Arrow: cedente → cessionario -->
+            <div style="flex: 1; display: flex; align-items: center; gap: 10px; min-width: 0;">
+              <div style="background: #F0F4F9; border-radius: 6px; padding: 4px 10px; max-width: 200px;">
+                <div style="font-size: 10px; color: #6B7A90; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em;">Cedente</div>
+                <div style="font-size: 13px; font-weight: 600; color: #0A1628; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ row.cedente }}</div>
+              </div>
+              <svg width="20" height="12" viewBox="0 0 20 12" fill="none" style="flex-shrink: 0;">
+                <path d="M0 6h16m0 0l-4-4m4 4l-4 4" stroke="#1B6FE0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <div style="background: #EBF3FE; border-radius: 6px; padding: 4px 10px; max-width: 200px;">
+                <div style="font-size: 10px; color: #1B6FE0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em;">Cessionário</div>
+                <div style="font-size: 13px; font-weight: 600; color: #001E36; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ row.cessionario }}</div>
+              </div>
+            </div>
+
+            <!-- Valor -->
+            <div style="width: 160px; flex-shrink: 0; text-align: right;">
+              <div style="font-size: 11px; font-weight: 600; color: {{ row.valorColor }}; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ row.valorDisplay }}</div>
+            </div>
+
+            <!-- Classe -->
+            <div style="width: 80px; flex-shrink: 0;">
+              <span style="font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; background: {{ row.classeBg }}; color: {{ row.classeColor }};">{{ row.classeLabel }}</span>
+            </div>
+
+            <!-- Tribunal -->
+            <div style="width: 50px; flex-shrink: 0; font-size: 12px; font-weight: 600; color: #6B7A90; font-family: 'DM Mono', monospace;">{{ row.tribunal }}</div>
+
+            <!-- Expand icon -->
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex-shrink: 0; transition: transform 0.2s; transform: rotate({{ row.expandRotation }});">
+              <path d="M4 6l4 4 4-4" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+
+          <!-- Expanded detail -->
+          <sc-if value="{{ row.expanded }}" hint-placeholder-val="{{ false }}">
+            <div style="border-top: 1px solid #E8ECF1; padding: 20px; background: #FAFBFC;">
+              <!-- Summary -->
+              <div style="font-size: 13px; color: #374151; line-height: 1.6; margin-bottom: 16px;">{{ row.resumo }}</div>
+
+              <!-- Meta grid -->
+              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 16px;">
+                <div>
+                  <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.05em;">Classe Processo</div>
+                  <div style="font-size: 13px; font-weight: 500; color: #0A1628; margin-top: 2px;">{{ row.classe }}</div>
+                </div>
+                <div>
+                  <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.05em;">Órgão</div>
+                  <div style="font-size: 13px; font-weight: 500; color: #0A1628; margin-top: 2px;">{{ row.orgao }}</div>
+                </div>
+                <div>
+                  <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.05em;">Classe Crédito</div>
+                  <div style="font-size: 13px; font-weight: 500; color: #0A1628; margin-top: 2px;">{{ row.classeCredito }}</div>
+                </div>
+              </div>
+
+              <!-- Motivo -->
+              <sc-if value="{{ row.motivo }}" hint-placeholder-val="{{ true }}">
+                <div style="margin-bottom: 16px;">
+                  <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">Motivo da Classificação</div>
+                  <div style="font-size: 12px; color: #374151; line-height: 1.5; background: white; border-radius: 6px; padding: 10px 12px; border: 1px solid #E8ECF1;">{{ row.motivo }}</div>
+                </div>
+              </sc-if>
+
+              <!-- Full text -->
+              <div style="margin-bottom: 16px;">
+                <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">Texto Completo da Publicação</div>
+                <div style="font-size: 12px; color: #374151; line-height: 1.6; background: white; border-radius: 6px; padding: 12px 14px; border: 1px solid #E8ECF1; max-height: 200px; overflow-y: auto; font-family: 'DM Mono', monospace; white-space: pre-wrap;">{{ row.textoCompleto }}</div>
+              </div>
+
+              <!-- Actions -->
+              <div style="display: flex; gap: 8px;">
+                <a href="{{ row.link }}" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: 6px; background: #001E36; color: white; font-size: 12px; font-weight: 600; text-decoration: none; font-family: 'DM Sans', sans-serif;">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5.5 2.5h-2a1 1 0 00-1 1v7a1 1 0 001 1h7a1 1 0 001-1v-2m-4-5h4m0 0v4m0-4l-5 5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  Abrir no DJEN
+                </a>
+              </div>
+            </div>
+          </sc-if>
+        </div>
+      </sc-for>
+
+      <sc-if value="{{ noResults }}" hint-placeholder-val="{{ false }}">
+        <div style="text-align: center; padding: 48px 0; color: #94A3B8;">
+          <div style="font-size: 15px; font-weight: 600;">Nenhuma cessão encontrada</div>
+          <div style="font-size: 13px; margin-top: 4px;">Ajuste os filtros para ver resultados</div>
+        </div>
+      </sc-if>
+    </div>
+    </div>
+  </div>
+</sc-if>
+
+<!-- View: Mapa de Processos -->
+<sc-if value="{{ showProcessos }}" hint-placeholder-val="{{ false }}">
+  <div style="padding: 16px 32px 32px;">
+    <div style="display: flex; flex-direction: column; gap: 12px;">
+      <sc-for list="{{ processoGroups }}" as="grupo" hint-placeholder-count="4">
+        <div style="background: white; border-radius: 10px; border: 1px solid #E8ECF1; overflow: hidden;">
+          <!-- Processo header -->
+          <div onClick="{{ grupo.toggle }}" style="padding: 16px 20px; cursor: pointer; display: flex; align-items: center; gap: 16px;" style-hover="background: #FAFBFC;">
+            <div style="flex: 1; min-width: 0;">
+              <div style="font-size: 15px; font-weight: 700; color: #001E36;">{{ grupo.recuperanda }}</div>
+              <div style="font-size: 12px; color: #6B7A90; font-family: 'DM Mono', monospace; margin-top: 2px;">{{ grupo.cnj }}</div>
+            </div>
+            <div style="display: flex; gap: 16px; align-items: center;">
+              <div style="text-align: center;">
+                <div style="font-size: 22px; font-weight: 700; color: #001E36; font-family: 'DM Mono', monospace;">{{ grupo.count }}</div>
+                <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase;">cessões</div>
+              </div>
+              <div style="text-align: center;">
+                <div style="font-size: 22px; font-weight: 700; color: #DC6843; font-family: 'DM Mono', monospace;">{{ grupo.cedentesCount }}</div>
+                <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase;">cedentes</div>
+              </div>
+              <div style="text-align: center;">
+                <div style="font-size: 22px; font-weight: 700; color: #1B6FE0; font-family: 'DM Mono', monospace;">{{ grupo.cessionariosCount }}</div>
+                <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase;">cessionários</div>
+              </div>
+            </div>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex-shrink: 0; transition: transform 0.2s; transform: rotate({{ grupo.expandRotation }});">
+              <path d="M4 6l4 4 4-4" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+
+          <!-- Expanded: list of cessões in this processo -->
+          <sc-if value="{{ grupo.expanded }}" hint-placeholder-val="{{ false }}">
+            <div style="border-top: 1px solid #E8ECF1;">
+              <!-- Cedentes que saíram -->
+              <div style="padding: 12px 20px; background: #FEF7F4; display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;">
+                <span style="font-size: 11px; font-weight: 700; color: #DC6843; text-transform: uppercase; letter-spacing: 0.04em;">Cedentes (saíram):</span>
+                <sc-for list="{{ grupo.cedentes }}" as="c" hint-placeholder-count="2">
+                  <span style="font-size: 12px; font-weight: 500; color: #7C2D12; background: #FFEDD5; padding: 2px 8px; border-radius: 4px;">{{ c }}</span>
+                </sc-for>
+              </div>
+              <!-- Cessionários que entraram -->
+              <div style="padding: 12px 20px; background: #EFF6FF; display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;">
+                <span style="font-size: 11px; font-weight: 700; color: #1B6FE0; text-transform: uppercase; letter-spacing: 0.04em;">Cessionários (entraram):</span>
+                <sc-for list="{{ grupo.cessionarios }}" as="c" hint-placeholder-count="2">
+                  <span style="font-size: 12px; font-weight: 500; color: #1E3A5F; background: #DBEAFE; padding: 2px 8px; border-radius: 4px;">{{ c }}</span>
+                </sc-for>
+              </div>
+              <!-- Individual cessões -->
+              <sc-for list="{{ grupo.cessoes }}" as="row" hint-placeholder-count="2">
+                <div style="padding: 12px 20px; border-top: 1px solid #F1F5F9; display: flex; align-items: center; gap: 12px; font-size: 13px;">
+                  <div style="width: 8px; height: 8px; border-radius: 50%; background: {{ row.confiancaColor }}; flex-shrink: 0;"></div>
+                  <span style="font-weight: 600; color: #0A1628;">{{ row.cedente }}</span>
+                  <svg width="16" height="10" viewBox="0 0 16 10" fill="none" style="flex-shrink: 0;"><path d="M0 5h12m0 0l-3-3m3 3l-3 3" stroke="#1B6FE0" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  <span style="font-weight: 600; color: #1B6FE0;">{{ row.cessionario }}</span>
+                  <span style="color: #6B7A90; font-family: 'DM Mono', monospace; margin-left: auto;">{{ row.valorDisplay }}</span>
+                </div>
+              </sc-for>
+            </div>
+          </sc-if>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+</sc-if>
+
+<!-- View: Mapa de Players -->
+<sc-if value="{{ showPlayers }}" hint-placeholder-val="{{ false }}">
+  <div style="padding: 16px 32px 32px;">
+    <div style="display: flex; flex-direction: column; gap: 12px;">
+      <sc-for list="{{ playerGroups }}" as="player" hint-placeholder-count="4">
+        <div style="background: white; border-radius: 10px; border: 1px solid #E8ECF1; overflow: hidden;">
+          <div onClick="{{ player.toggle }}" style="padding: 16px 20px; cursor: pointer; display: flex; align-items: center; gap: 16px;" style-hover="background: #FAFBFC;">
+            <div style="flex: 1; min-width: 0;">
+              <div style="font-size: 15px; font-weight: 700; color: #001E36;">{{ player.name }}</div>
+              <div style="font-size: 12px; color: #6B7A90; margin-top: 2px;">{{ player.processosLabel }}</div>
+            </div>
+            <div style="display: flex; gap: 20px; align-items: center;">
+              <div style="text-align: center;">
+                <div style="font-size: 22px; font-weight: 700; color: #001E36; font-family: 'DM Mono', monospace;">{{ player.totalCessoes }}</div>
+                <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase;">cessões</div>
+              </div>
+              <div style="text-align: center;">
+                <div style="font-size: 22px; font-weight: 700; color: #1B6FE0; font-family: 'DM Mono', monospace;">{{ player.totalProcessos }}</div>
+                <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase;">processos</div>
+              </div>
+            </div>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex-shrink: 0; transition: transform 0.2s; transform: rotate({{ player.expandRotation }});">
+              <path d="M4 6l4 4 4-4" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+
+          <sc-if value="{{ player.expanded }}" hint-placeholder-val="{{ false }}">
+            <div style="border-top: 1px solid #E8ECF1;">
+              <sc-for list="{{ player.cessoes }}" as="row" hint-placeholder-count="2">
+                <div style="padding: 12px 20px; border-bottom: 1px solid #F1F5F9; display: flex; align-items: center; gap: 12px; font-size: 13px;">
+                  <div style="width: 8px; height: 8px; border-radius: 50%; background: {{ row.confiancaColor }}; flex-shrink: 0;"></div>
+                  <div style="min-width: 0; flex: 1;">
+                    <span style="font-weight: 600; color: #0A1628;">{{ row.recuperanda }}</span>
+                    <span style="color: #6B7A90; margin-left: 8px; font-size: 11px; font-family: 'DM Mono', monospace;">{{ row.cnj }}</span>
+                  </div>
+                  <span style="color: #6B7A90; font-size: 12px;">de <span style="font-weight: 600; color: #0A1628;">{{ row.cedente }}</span></span>
+                  <span style="color: #6B7A90; font-family: 'DM Mono', monospace;">{{ row.valorDisplay }}</span>
+                </div>
+              </sc-for>
+            </div>
+          </sc-if>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+</sc-if>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;$preview&quot;: { &quot;width&quot;: &quot;100%&quot;, &quot;height&quot;: &quot;100%&quot; },
+  &quot;dataSource&quot;: { &quot;editor&quot;: null, &quot;default&quot;: null, &quot;tsType&quot;: &quot;object[]&quot;, &quot;section&quot;: &quot;Dados&quot; },
+  &quot;apiBaseUrl&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Dados&quot; },
+  &quot;highlightPlayer&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Filtros&quot; },
+  &quot;defaultView&quot;: { &quot;editor&quot;: &quot;enum&quot;, &quot;default&quot;: &quot;feed&quot;, &quot;options&quot;: [&quot;feed&quot;, &quot;processos&quot;, &quot;players&quot;], &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Visualização&quot; }
+}">
+
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.abortController = null;
+    this.state = {
+      view: props.defaultView || 'feed',
+      expandedRows: {},
+      expandedProcessos: {},
+      expandedPlayers: {},
+      filterTribunal: '',
+      filterConfianca: '',
+      filterClasse: '',
+      filterSearch: props.highlightPlayer || '',
+      rows: Array.isArray(props.dataSource) ? props.dataSource : [],
+      meta: null,
+      loading: !Array.isArray(props.dataSource),
+      error: '',
+      lastLoadedAt: null,
+    };
+  }
+
+  componentDidMount() {
+    if (Array.isArray(this.props.dataSource)) {
+      this.setState({ loading: false });
+      return;
+    }
+    this.loadData();
+  }
+
+  componentWillUnmount() {
+    if (this.abortController) {
+      this.abortController.abort();
+      this.abortController = null;
+    }
+  }
+
+  apiBaseUrl() {
+    const customBase = (this.props.apiBaseUrl || '').trim();
+    if (customBase) {
+      return customBase.replace(/\/$/, '');
+    }
+    const host = window.location.hostname || 'localhost';
+    return window.location.protocol + '//' + host + ':5000/api/v1';
+  }
+
+  normalizeSearch(text) {
+    return String(text || '')
+      .normalize('NFD')
+      .replace(/[̀-ͯ]/g, '')
+      .toLowerCase();
+  }
+
+  async fetchJson(path) {
+    const response = await fetch(this.apiBaseUrl() + path, {
+      signal: this.abortController ? this.abortController.signal : undefined,
+    });
+
+    if (!response.ok) {
+      throw new Error('Falha ao carregar ' + path + ' (' + response.status + ')');
+    }
+
+    return response.json();
+  }
+
+  async fetchAllRows(pageSize) {
+    const items = [];
+    let offset = 0;
+    let total = null;
+
+    while (total == null || offset < total) {
+      const payload = await this.fetchJson('/cessoes?limit=' + pageSize + '&offset=' + offset);
+      const pageItems = Array.isArray(payload.items) ? payload.items : [];
+      const pagination = payload.pagination || {};
+      total = typeof pagination.total === 'number' ? pagination.total : pageItems.length;
+      items.push(...pageItems);
+
+      if (!pageItems.length || items.length >= total) {
+        break;
+      }
+
+      offset += pageItems.length;
+    }
+
+    return items;
+  }
+
+  async loadData() {
+    if (this.abortController) {
+      this.abortController.abort();
+    }
+
+    this.abortController = new AbortController();
+    this.setState({ loading: true, error: '' });
+
+    try {
+      const [metaPayload, rows] = await Promise.all([
+        this.fetchJson('/meta'),
+        this.fetchAllRows(500),
+      ]);
+
+      this.setState({
+        rows: rows,
+        meta: metaPayload,
+        loading: false,
+        error: '',
+        lastLoadedAt: new Date().toISOString(),
+      });
+    } catch (error) {
+      if (error && error.name === 'AbortError') {
+        return;
+      }
+
+      this.setState({
+        loading: false,
+        error: error && error.message ? error.message : 'Não foi possível carregar os dados.',
+      });
+    }
+  }
+
+  retryLoad = () => {
+    this.loadData();
+  };
+
+  applyFilters(rows) {
+    const { filterTribunal, filterConfianca, filterClasse, filterSearch } = this.state;
+    const searchNeedle = this.normalizeSearch(filterSearch);
+
+    return rows.filter((row) => {
+      if (filterTribunal && row.tribunal !== filterTribunal) return false;
+      if (filterConfianca && row.confianca !== filterConfianca) return false;
+      if (filterClasse && row.classe !== filterClasse) return false;
+
+      if (searchNeedle) {
+        const haystack = this.normalizeSearch([
+          row.cedente,
+          row.cessionario,
+          row.recuperanda,
+          row.cnj,
+          row.classe,
+        ].join(' '));
+
+        if (!haystack.includes(searchNeedle)) return false;
+      }
+
+      return true;
+    });
+  }
+
+  formatValor(value) {
+    if (value == null || value === '') return 'Valor não divulgado';
+
+    return new Intl.NumberFormat('pt-BR', {
+      style: 'currency',
+      currency: 'BRL',
+      maximumFractionDigits: 0,
+    }).format(value);
+  }
+
+  confiancaColor(confianca) {
+    if (confianca === 'alta') return '#16A34A';
+    if (confianca === 'media') return '#F59E0B';
+    return '#EF4444';
+  }
+
+  classeInfo(classe) {
+    const normalized = this.normalizeSearch(classe);
+
+    if (normalized.includes('recuperacao')) {
+      return { label: 'RJ', bg: '#EBF3FE', color: '#1B6FE0' };
+    }
+    if (normalized.includes('falencia')) {
+      return { label: 'Falência', bg: '#FEF2F2', color: '#DC2626' };
+    }
+    if (normalized.includes('impugnacao')) {
+      return { label: 'Impugnação', bg: '#FFF7ED', color: '#C2410C' };
+    }
+    return { label: 'Outro', bg: '#F3F4F6', color: '#6B7280' };
+  }
+
+  formatClasseLabel(classe) {
+    const normalized = this.normalizeSearch(classe);
+    if (normalized.includes('recuperacao')) return 'Recuperação Judicial';
+    if (normalized.includes('falencia')) return 'Falência';
+    if (normalized.includes('impugnacao')) return 'Impugnação';
+    return classe || 'Outra classe';
+  }
+
+  titleCase(text) {
+    return String(text || '')
+      .toLowerCase()
+      .replace(/\w/g, (char) => char.toUpperCase());
+  }
+
+  buildOptions(values, formatter) {
+    return values.map((value) => ({
+      value,
+      label: formatter ? formatter(value) : value,
+    }));
+  }
+
+  tribunaisLabel(rows, meta) {
+    const values = (meta && Array.isArray(meta.tribunais) ? meta.tribunais : [])
+      .map((item) => item.value)
+      .filter(Boolean);
+
+    if (values.length) return values.join(' + ');
+
+    const fallback = [...new Set(rows.map((row) => row.tribunal).filter(Boolean))];
+    return fallback.length ? fallback.join(' + ') : 'Sem tribunal';
+  }
+
+  formatDateLabel(rows, meta) {
+    const dates = rows
+      .map((row) => row.data)
+      .filter(Boolean)
+      .sort();
+
+    if (dates.length) {
+      const first = new Date(dates[0] + 'T00:00:00');
+      if (!Number.isNaN(first.getTime())) {
+        return new Intl.DateTimeFormat('pt-BR', {
+          day: '2-digit',
+          month: 'short',
+          year: 'numeric',
+        }).format(first) + ' · ' + this.tribunaisLabel(rows, meta);
+      }
+    }
+
+    return 'Base sincronizada · ' + this.tribunaisLabel(rows, meta);
+  }
+
+  renderVals() {
+    const {
+      view,
+      expandedRows,
+      expandedProcessos,
+      expandedPlayers,
+      filterTribunal,
+      filterConfianca,
+      filterClasse,
+      filterSearch,
+      rows,
+      meta,
+      loading,
+      error,
+    } = this.state;
+
+    const allRows = Array.isArray(rows) ? rows : [];
+    const filtered = this.applyFilters(allRows);
+
+    const uniqueCed = new Set(allRows.map((row) => row.cedente).filter(Boolean));
+    const uniqueCess = new Set(allRows.map((row) => row.cessionario).filter(Boolean));
+    const uniqueProc = new Set(allRows.map((row) => row.cnj).filter(Boolean));
+    const comVal = allRows.filter((row) => row.valor != null).length;
+
+    const tribunalOptions = this.buildOptions(
+      [...new Set(allRows.map((row) => row.tribunal).filter(Boolean))].sort()
+    );
+    const confiancaOptions = this.buildOptions(
+      [...new Set(allRows.map((row) => row.confianca).filter(Boolean))].sort(),
+      (value) => this.titleCase(value)
+    );
+    const classeOptions = this.buildOptions(
+      [...new Set(allRows.map((row) => row.classe).filter(Boolean))].sort(),
+      (value) => this.formatClasseLabel(value)
+    );
+
+    const hasActiveFilters = !!(
+      filterTribunal ||
+      filterConfianca ||
+      filterClasse ||
+      filterSearch
+    );
+
+    const feedRows = filtered.map((row) => {
+      const classe = this.classeInfo(row.classe);
+      const expanded = !!expandedRows[row.id];
+
+      return {
+        ...row,
+        confiancaColor: this.confiancaColor(row.confianca),
+        valorDisplay: this.formatValor(row.valor),
+        valorColor: row.valor != null ? '#0A1628' : '#94A3B8',
+        classeLabel: classe.label,
+        classeBg: classe.bg,
+        classeColor: classe.color,
+        classeCredito: row.classe_credito ? 'Classe ' + row.classe_credito : 'Não informada',
+        expanded: expanded,
+        expandRotation: expanded ? '180deg' : '0deg',
+        textoCompleto: row.texto_completo,
+        toggle: () => this.setState((state) => ({
+          expandedRows: {
+            ...state.expandedRows,
+            [row.id]: !state.expandedRows[row.id],
+          },
+        })),
+      };
+    });
+
+    const procMap = {};
+    for (const row of filtered) {
+      const key = row.cnj || row.id;
+      if (!procMap[key]) {
+        procMap[key] = {
+          cnj: row.cnj || 'Sem CNJ',
+          recuperanda: row.recuperanda || 'Sem recuperanda',
+          cessoes: [],
+          cedentesSet: new Set(),
+          cessionariosSet: new Set(),
+        };
+      }
+      procMap[key].cessoes.push(row);
+      if (row.cedente) procMap[key].cedentesSet.add(row.cedente);
+      if (row.cessionario) procMap[key].cessionariosSet.add(row.cessionario);
+    }
+
+    const processoGroups = Object.values(procMap)
+      .map((group) => {
+        const expanded = !!expandedProcessos[group.cnj];
+        return {
+          cnj: group.cnj,
+          recuperanda: group.recuperanda,
+          count: group.cessoes.length,
+          cedentesCount: group.cedentesSet.size,
+          cessionariosCount: group.cessionariosSet.size,
+          cedentes: [...group.cedentesSet],
+          cessionarios: [...group.cessionariosSet],
+          expanded: expanded,
+          expandRotation: expanded ? '180deg' : '0deg',
+          cessoes: group.cessoes.map((row) => ({
+            cedente: row.cedente,
+            cessionario: row.cessionario,
+            valorDisplay: this.formatValor(row.valor),
+            confiancaColor: this.confiancaColor(row.confianca),
+          })),
+          toggle: () => this.setState((state) => ({
+            expandedProcessos: {
+              ...state.expandedProcessos,
+              [group.cnj]: !state.expandedProcessos[group.cnj],
+            },
+          })),
+        };
+      })
+      .sort((a, b) => b.count - a.count);
+
+    const playerMap = {};
+    for (const row of filtered) {
+      const key = row.cessionario || 'Não identificado';
+      if (!playerMap[key]) {
+        playerMap[key] = {
+          name: key,
+          cessoes: [],
+          processosSet: new Set(),
+        };
+      }
+      playerMap[key].cessoes.push(row);
+      if (row.cnj) playerMap[key].processosSet.add(row.cnj);
+    }
+
+    const playerGroups = Object.values(playerMap)
+      .map((player) => {
+        const expanded = !!expandedPlayers[player.name];
+        return {
+          name: player.name,
+          totalCessoes: player.cessoes.length,
+          totalProcessos: player.processosSet.size,
+          processosLabel:
+            player.processosSet.size +
+            ' processo' +
+            (player.processosSet.size > 1 ? 's' : '') +
+            ' distinto' +
+            (player.processosSet.size > 1 ? 's' : ''),
+          expanded: expanded,
+          expandRotation: expanded ? '180deg' : '0deg',
+          cessoes: player.cessoes.map((row) => ({
+            recuperanda: row.recuperanda,
+            cnj: row.cnj,
+            cedente: row.cedente,
+            valorDisplay: this.formatValor(row.valor),
+            confiancaColor: this.confiancaColor(row.confianca),
+          })),
+          toggle: () => this.setState((state) => ({
+            expandedPlayers: {
+              ...state.expandedPlayers,
+              [player.name]: !state.expandedPlayers[player.name],
+            },
+          })),
+        };
+      })
+      .sort((a, b) => b.totalCessoes - a.totalCessoes);
+
+    const showStatusBar = !!error || loading;
+
+    return {
+      dataLabel: this.formatDateLabel(allRows, meta),
+      totalCessoes: allRows.length,
+      uniqueCedentes: uniqueCed.size,
+      uniqueCessionarios: uniqueCess.size,
+      uniqueProcessos: uniqueProc.size,
+      comValor: comVal + '/' + allRows.length,
+
+      showFeed: view === 'feed',
+      showProcessos: view === 'processos',
+      showPlayers: view === 'players',
+
+      feedTabBg: view === 'feed' ? 'rgba(27,111,224,0.15)' : 'transparent',
+      feedTabColor: view === 'feed' ? '#93C5FD' : 'rgba(255,255,255,0.5)',
+      processosTabBg: view === 'processos' ? 'rgba(27,111,224,0.15)' : 'transparent',
+      processosTabColor: view === 'processos' ? '#93C5FD' : 'rgba(255,255,255,0.5)',
+      playersTabBg: view === 'players' ? 'rgba(27,111,224,0.15)' : 'transparent',
+      playersTabColor: view === 'players' ? '#93C5FD' : 'rgba(255,255,255,0.5)',
+
+      setViewFeed: () => this.setState({ view: 'feed' }),
+      setViewProcessos: () => this.setState({ view: 'processos' }),
+      setViewPlayers: () => this.setState({ view: 'players' }),
+
+      selectedTribunal: filterTribunal,
+      selectedConfianca: filterConfianca,
+      selectedClasse: filterClasse,
+      selectedSearch: filterSearch,
+      tribunalOptions: tribunalOptions,
+      confiancaOptions: confiancaOptions,
+      classeOptions: classeOptions,
+      hasActiveFilters: hasActiveFilters,
+
+      onTribunalChange: (event) => this.setState({ filterTribunal: event.target.value }),
+      onConfiancaChange: (event) => this.setState({ filterConfianca: event.target.value }),
+      onClasseChange: (event) => this.setState({ filterClasse: event.target.value }),
+      onSearchInput: (event) => this.setState({ filterSearch: event.target.value }),
+      clearFilters: () => this.setState({
+        filterTribunal: '',
+        filterConfianca: '',
+        filterClasse: '',
+        filterSearch: '',
+      }),
+
+      filteredRows: feedRows,
+      noResults: !loading && feedRows.length === 0,
+      processoGroups: processoGroups,
+      playerGroups: playerGroups,
+
+      showStatusBar: showStatusBar,
+      statusTitle: error ? 'Falha de conexão' : 'Sincronizando dados',
+      statusMessage: error
+        ? error
+        : 'Carregando o dataset consolidado do backend Flask.',
+      statusBg: error ? '#FEF2F2' : '#EFF6FF',
+      statusBorder: error ? '#FECACA' : '#BFDBFE',
+      statusDot: error ? '#DC2626' : '#1B6FE0',
+      statusTitleColor: error ? '#B91C1C' : '#1D4ED8',
+      showRetry: !!error,
+      retryLoad: this.retryLoad,
+    };
+  }
+}
+
+</script>
+</body>
+</html>
