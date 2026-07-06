@@ -29,7 +29,7 @@ python run.py
 
 ## Filtros
 
-`/api/v1/cessoes?estado=MS&tribunal=TJMS&confianca=alta&search=travessia&limit=50&offset=0`
+`/api/v1/cessoes?estado=MS&tribunal=TJMS&confianca=alta&search=travessia&ano=2024&limit=50&offset=0`
 
 ## Observacoes de escalabilidade
 

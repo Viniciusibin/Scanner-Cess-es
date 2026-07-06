@@ -50,6 +50,9 @@
     <button onClick="{{ setViewBancos }}" style="padding: 6px 16px; border-radius: 6px; border: none; cursor: pointer; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 600; transition: all 0.2s; background: {{ bancosTabBg }}; color: {{ bancosTabColor }};">
       Bancos Cedentes
     </button>
+    <button onClick="{{ setViewMetricas }}" style="padding: 6px 16px; border-radius: 6px; border: none; cursor: pointer; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 600; transition: all 0.2s; background: {{ metricasTabBg }}; color: {{ metricasTabColor }};">
+      Métricas
+    </button>
   </div>
 
   <div style="flex: 1;"></div>
@@ -94,6 +97,13 @@
   <select value="{{ selectedClasse }}" onChange="{{ onClasseChange }}" style="padding: 6px 12px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 13px; color: #0A1628; cursor: pointer; outline: none; max-width: 260px;">
     <option value="">Todas classificações</option>
     <sc-for list="{{ classeOptions }}" as="option" hint-placeholder-count="3">
+      <option value="{{ option.value }}">{{ option.label }}</option>
+    </sc-for>
+  </select>
+
+  <select value="{{ selectedAno }}" onChange="{{ onAnoChange }}" style="padding: 6px 12px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 13px; color: #0A1628; cursor: pointer; outline: none;">
+    <option value="">Todos anos</option>
+    <sc-for list="{{ anoOptions }}" as="option" hint-placeholder-count="2">
       <option value="{{ option.value }}">{{ option.label }}</option>
     </sc-for>
   </select>
@@ -560,13 +570,159 @@
   </div>
 </sc-if>
 
+<!-- View: Métricas -->
+<sc-if value="{{ showMetricas }}" hint-placeholder-val="{{ false }}">
+  <div style="padding: 16px 32px 32px; display: flex; flex-direction: column; gap: 16px;">
+
+    <!-- Headline: principal cessionário / principal cedente -->
+    <div style="display: flex; gap: 16px;">
+      <div style="flex: 1; background: white; border-radius: 10px; border: 1px solid #E8ECF1; padding: 20px;">
+        <div style="font-size: 11px; font-weight: 600; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.05em;">Principal Cessionário</div>
+        <div style="font-size: 19px; font-weight: 700; color: #001E36; margin-top: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ principalCessionarioNome }}</div>
+        <div style="font-size: 13px; color: #1B6FE0; font-weight: 700; margin-top: 2px; font-family: 'DM Mono', monospace;">{{ principalCessionarioCessoes }}</div>
+      </div>
+      <div style="flex: 1; background: white; border-radius: 10px; border: 1px solid #E8ECF1; padding: 20px;">
+        <div style="font-size: 11px; font-weight: 600; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.05em;">Principal Cedente</div>
+        <div style="font-size: 19px; font-weight: 700; color: #001E36; margin-top: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ principalCedenteNome }}</div>
+        <div style="font-size: 13px; color: #0F766E; font-weight: 700; margin-top: 2px; font-family: 'DM Mono', monospace;">{{ principalCedenteCessoes }}</div>
+      </div>
+      <div style="flex: 1; background: white; border-radius: 10px; border: 1px solid #E8ECF1; padding: 20px;">
+        <div style="font-size: 11px; font-weight: 600; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.05em;">Principal Dupla Cedente → Cessionário</div>
+        <div style="font-size: 19px; font-weight: 700; color: #001E36; margin-top: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ principalParNome }}</div>
+        <div style="font-size: 13px; color: #4A3AA7; font-weight: 700; margin-top: 2px; font-family: 'DM Mono', monospace;">{{ principalParCessoes }}</div>
+      </div>
+    </div>
+
+    <!-- Rankings por valor -->
+    <div style="display: flex; gap: 16px; align-items: stretch;">
+      <div style="flex: 1; background: white; border-radius: 10px; border: 1px solid #E8ECF1; padding: 20px;">
+        <div style="font-size: 13px; font-weight: 700; color: #001E36; text-transform: uppercase; letter-spacing: 0.04em;">Principais Cessionários</div>
+        <div style="font-size: 12px; color: #6B7A90; margin-top: 2px; margin-bottom: 16px;">Ranking por número de cessões · mínimo 2 cessões</div>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <sc-for list="{{ topCessionarios }}" as="item" hint-placeholder-count="5">
+            <div title="{{ item.tooltip }}">
+              <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 4px;">
+                <div style="display: flex; align-items: baseline; gap: 8px; min-width: 0;">
+                  <span style="font-size: 11px; font-weight: 700; color: #94A3B8; font-family: 'DM Mono', monospace; flex-shrink: 0;">#{{ item.rank }}</span>
+                  <span style="font-size: 13px; font-weight: 600; color: #0A1628; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ item.name }}</span>
+                </div>
+                <div style="display: flex; align-items: baseline; gap: 8px; flex-shrink: 0;">
+                  <sc-if value="{{ item.hasValor }}" hint-placeholder-val="{{ false }}">
+                    <span style="font-size: 11px; color: #94A3B8; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ item.valorDisplay }}</span>
+                  </sc-if>
+                  <span style="font-size: 12px; font-weight: 700; color: #1B6FE0; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ item.cessoesLabel }}</span>
+                </div>
+              </div>
+              <div style="height: 10px; border-radius: 5px; background: #F0F4F9; overflow: hidden;">
+                <div style="height: 100%; border-radius: 0 4px 4px 0; background: #1B6FE0; width: {{ item.barWidth }};"></div>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+
+      <div style="flex: 1; background: white; border-radius: 10px; border: 1px solid #E8ECF1; padding: 20px;">
+        <div style="font-size: 13px; font-weight: 700; color: #001E36; text-transform: uppercase; letter-spacing: 0.04em;">Principais Cedentes</div>
+        <div style="font-size: 12px; color: #6B7A90; margin-top: 2px; margin-bottom: 16px;">Ranking por número de cessões · mesma quantidade de cessionários listados</div>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <sc-for list="{{ topCedentes }}" as="item" hint-placeholder-count="5">
+            <div title="{{ item.tooltip }}">
+              <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 4px;">
+                <div style="display: flex; align-items: baseline; gap: 8px; min-width: 0;">
+                  <span style="font-size: 11px; font-weight: 700; color: #94A3B8; font-family: 'DM Mono', monospace; flex-shrink: 0;">#{{ item.rank }}</span>
+                  <span style="font-size: 13px; font-weight: 600; color: #0A1628; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ item.name }}</span>
+                </div>
+                <div style="display: flex; align-items: baseline; gap: 8px; flex-shrink: 0;">
+                  <sc-if value="{{ item.hasValor }}" hint-placeholder-val="{{ false }}">
+                    <span style="font-size: 11px; color: #94A3B8; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ item.valorDisplay }}</span>
+                  </sc-if>
+                  <span style="font-size: 12px; font-weight: 700; color: #0F766E; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ item.cessoesLabel }}</span>
+                </div>
+              </div>
+              <div style="height: 10px; border-radius: 5px; background: #F0F4F9; overflow: hidden;">
+                <div style="height: 100%; border-radius: 0 4px 4px 0; background: #0F766E; width: {{ item.barWidth }};"></div>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+    </div>
+
+    <!-- Concentração + Estados -->
+    <div style="display: flex; gap: 16px; align-items: stretch;">
+      <div style="flex: 1; background: white; border-radius: 10px; border: 1px solid #E8ECF1; padding: 20px;">
+        <div style="font-size: 13px; font-weight: 700; color: #001E36; text-transform: uppercase; letter-spacing: 0.04em;">Concentração de Mercado</div>
+        <div style="font-size: 12px; color: #6B7A90; margin-top: 2px; margin-bottom: 16px;">% das cessões concentradas nos 5 maiores cessionários</div>
+        <sc-if value="{{ hasConcentracaoData }}" hint-placeholder-val="{{ true }}">
+          <div style="display: flex; align-items: baseline; gap: 8px;">
+            <div style="font-size: 34px; font-weight: 700; color: #001E36; font-family: 'DM Mono', monospace;">{{ concentracaoPct }}%</div>
+            <div style="font-size: 12px; color: #6B7A90;">das cessões do período</div>
+          </div>
+          <div style="margin-top: 12px; height: 10px; border-radius: 5px; background: #EBF3FE; overflow: hidden;">
+            <div style="height: 100%; border-radius: 5px; background: #1B6FE0; width: {{ concentracaoBarWidth }};"></div>
+          </div>
+        </sc-if>
+        <sc-if value="{{ noConcentracaoData }}" hint-placeholder-val="{{ false }}">
+          <div style="font-size: 13px; color: #94A3B8; padding: 8px 0;">Sem valores suficientes para calcular a concentração.</div>
+        </sc-if>
+      </div>
+
+      <div style="flex: 1; background: white; border-radius: 10px; border: 1px solid #E8ECF1; padding: 20px;">
+        <div style="font-size: 13px; font-weight: 700; color: #001E36; text-transform: uppercase; letter-spacing: 0.04em;">Cessões por Estado</div>
+        <div style="font-size: 12px; color: #6B7A90; margin-top: 2px; margin-bottom: 16px;">Volume de cessões e valor total por UF</div>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <sc-for list="{{ estadoRanking }}" as="item" hint-placeholder-count="4">
+            <div title="{{ item.tooltip }}">
+              <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 4px;">
+                <span style="font-size: 13px; font-weight: 600; color: #0A1628;">{{ item.estado }}</span>
+                <span style="font-size: 11px; color: #6B7A90; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ item.cessoesLabel }}</span>
+              </div>
+              <div style="height: 8px; border-radius: 4px; background: #F0F4F9; overflow: hidden;">
+                <div style="height: 100%; border-radius: 0 4px 4px 0; background: #1B6FE0; width: {{ item.barWidth }};"></div>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+    </div>
+
+    <!-- Top pares cedente -> cessionário -->
+    <div style="background: white; border-radius: 10px; border: 1px solid #E8ECF1; padding: 20px;">
+      <div style="font-size: 13px; font-weight: 700; color: #001E36; text-transform: uppercase; letter-spacing: 0.04em;">Principais Duplas Cedente → Cessionário</div>
+      <div style="font-size: 12px; color: #6B7A90; margin-top: 2px; margin-bottom: 16px;">Relações comerciais mais frequentes, por número de cessões</div>
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <sc-for list="{{ topPares }}" as="item" hint-placeholder-count="6">
+          <div title="{{ item.tooltip }}">
+            <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 4px;">
+              <div style="display: flex; align-items: baseline; gap: 8px; min-width: 0;">
+                <span style="font-size: 11px; font-weight: 700; color: #94A3B8; font-family: 'DM Mono', monospace; flex-shrink: 0;">#{{ item.rank }}</span>
+                <span style="font-size: 13px; font-weight: 600; color: #0A1628; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ item.label }}</span>
+              </div>
+              <div style="display: flex; align-items: baseline; gap: 8px; flex-shrink: 0;">
+                <sc-if value="{{ item.hasValor }}" hint-placeholder-val="{{ false }}">
+                  <span style="font-size: 11px; color: #94A3B8; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ item.valorDisplay }}</span>
+                </sc-if>
+                <span style="font-size: 12px; font-weight: 700; color: #4A3AA7; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ item.cessoesLabel }}</span>
+              </div>
+            </div>
+            <div style="height: 10px; border-radius: 5px; background: #F0F4F9; overflow: hidden;">
+              <div style="height: 100%; border-radius: 0 4px 4px 0; background: #4A3AA7; width: {{ item.barWidth }};"></div>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+
+  </div>
+</sc-if>
+
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{
   &quot;$preview&quot;: { &quot;width&quot;: &quot;100%&quot;, &quot;height&quot;: &quot;100%&quot; },
   &quot;dataSource&quot;: { &quot;editor&quot;: null, &quot;default&quot;: null, &quot;tsType&quot;: &quot;object[]&quot;, &quot;section&quot;: &quot;Dados&quot; },
   &quot;apiBaseUrl&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Dados&quot; },
   &quot;highlightPlayer&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Filtros&quot; },
-  &quot;defaultView&quot;: { &quot;editor&quot;: &quot;enum&quot;, &quot;default&quot;: &quot;feed&quot;, &quot;options&quot;: [&quot;feed&quot;, &quot;processos&quot;, &quot;players&quot;, &quot;cedentes&quot;, &quot;bancos&quot;], &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Visualização&quot; }
+  &quot;defaultView&quot;: { &quot;editor&quot;: &quot;enum&quot;, &quot;default&quot;: &quot;feed&quot;, &quot;options&quot;: [&quot;feed&quot;, &quot;processos&quot;, &quot;players&quot;, &quot;cedentes&quot;, &quot;bancos&quot;, &quot;metricas&quot;], &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Visualização&quot; }
 }">
 
 class Component extends DCLogic {
@@ -585,6 +741,7 @@ class Component extends DCLogic {
       filterClasse: '',
       filterCedente: '',
       filterCessionario: '',
+      filterAno: '',
       filterSearch: props.highlightPlayer || '',
       feedSortDir: null,
       processoSortDir: null,
@@ -852,7 +1009,7 @@ class Component extends DCLogic {
   }
 
   applyFilters(rows) {
-    const { filterTribunal, filterClasse, filterCedente, filterCessionario, filterSearch } = this.state;
+    const { filterTribunal, filterClasse, filterCedente, filterCessionario, filterAno, filterSearch } = this.state;
     const searchNeedle = this.normalizeSearch(filterSearch);
 
     return rows.filter((row) => {
@@ -860,6 +1017,7 @@ class Component extends DCLogic {
       if (filterClasse && this.classificacaoValue(row.classe) !== filterClasse) return false;
       if (filterCedente && this.normalizeEntityName(row.cedente) !== filterCedente) return false;
       if (filterCessionario && this.normalizeEntityName(row.cessionario) !== filterCessionario) return false;
+      if (filterAno && String(row.ano || '') !== String(filterAno)) return false;
 
       if (searchNeedle) {
         const haystack = this.normalizeSearch([
@@ -972,6 +1130,7 @@ class Component extends DCLogic {
       filterClasse,
       filterCedente,
       filterCessionario,
+      filterAno,
       filterSearch,
       feedSortDir,
       processoSortDir,
@@ -998,12 +1157,16 @@ class Component extends DCLogic {
     );
     const cedenteOptions = this.buildEntityOptions(allRows, 'cedente');
     const cessionarioOptions = this.buildEntityOptions(allRows, 'cessionario');
+    const anoOptions = this.buildOptions(
+      [...new Set(allRows.map((row) => row.ano).filter(Boolean))].sort((a, b) => b - a)
+    );
 
     const hasActiveFilters = !!(
       filterTribunal ||
       filterClasse ||
       filterCedente ||
       filterCessionario ||
+      filterAno ||
       filterSearch
     );
 
@@ -1370,6 +1533,128 @@ class Component extends DCLogic {
     }).sort((a, b) => b.totalCessoes - a.totalCessoes)
       .map((banco, index) => ({ ...banco, rank: index + 1 }));
 
+    const cessoesLabel = (count) => count + (count > 1 ? ' cessões' : ' cessão');
+    const MIN_CESSOES_RANKING = 2;
+
+    const cessionarioMetricMap = {};
+    for (const row of filtered) {
+      if (!row.cessionario) continue;
+      const key = this.normalizeEntityName(row.cessionario) || '__sem_cessionario__';
+      if (!cessionarioMetricMap[key]) {
+        cessionarioMetricMap[key] = { name: row.cessionario || 'Não identificado', totalValor: 0, totalCessoes: 0 };
+      }
+      cessionarioMetricMap[key].name = this.pickEntityLabel(cessionarioMetricMap[key].name, row.cessionario);
+      cessionarioMetricMap[key].totalValor += row.valor != null ? row.valor : 0;
+      cessionarioMetricMap[key].totalCessoes += 1;
+    }
+    const cessionarioRanking = Object.values(cessionarioMetricMap).sort((a, b) => b.totalCessoes - a.totalCessoes);
+    const totalCessoesCessionarios = cessionarioRanking.reduce((sum, item) => sum + item.totalCessoes, 0);
+    const maxCessionarioCessoes = cessionarioRanking.length ? cessionarioRanking[0].totalCessoes : 0;
+
+    const topCessionarios = cessionarioRanking.filter((item) => item.totalCessoes >= MIN_CESSOES_RANKING).map((item, index) => ({
+      rank: index + 1,
+      name: item.name,
+      totalCessoes: item.totalCessoes,
+      cessoesLabel: cessoesLabel(item.totalCessoes),
+      hasValor: item.totalValor > 0,
+      valorDisplay: this.formatValor(item.totalValor || null),
+      barWidth: maxCessionarioCessoes > 0 ? Math.max(Math.round((item.totalCessoes / maxCessionarioCessoes) * 100), 2) + '%' : '0%',
+      tooltip: item.name + ': ' + cessoesLabel(item.totalCessoes) + (item.totalValor > 0 ? ' · ' + this.formatValor(item.totalValor) : ''),
+    }));
+
+    const cedenteMetricMap = {};
+    for (const row of filtered) {
+      if (!row.cedente) continue;
+      const key = this.normalizeEntityName(row.cedente) || '__sem_cedente__';
+      if (!cedenteMetricMap[key]) {
+        cedenteMetricMap[key] = { name: row.cedente || 'Não identificado', totalValor: 0, totalCessoes: 0 };
+      }
+      cedenteMetricMap[key].name = this.pickEntityLabel(cedenteMetricMap[key].name, row.cedente);
+      cedenteMetricMap[key].totalValor += row.valor != null ? row.valor : 0;
+      cedenteMetricMap[key].totalCessoes += 1;
+    }
+    const cedenteRanking = Object.values(cedenteMetricMap).sort((a, b) => b.totalCessoes - a.totalCessoes);
+    const maxCedenteCessoes = cedenteRanking.length ? cedenteRanking[0].totalCessoes : 0;
+
+    const topCedentes = cedenteRanking.slice(0, topCessionarios.length).map((item, index) => ({
+      rank: index + 1,
+      name: item.name,
+      totalCessoes: item.totalCessoes,
+      cessoesLabel: cessoesLabel(item.totalCessoes),
+      hasValor: item.totalValor > 0,
+      valorDisplay: this.formatValor(item.totalValor || null),
+      barWidth: maxCedenteCessoes > 0 ? Math.max(Math.round((item.totalCessoes / maxCedenteCessoes) * 100), 2) + '%' : '0%',
+      tooltip: item.name + ': ' + cessoesLabel(item.totalCessoes) + (item.totalValor > 0 ? ' · ' + this.formatValor(item.totalValor) : ''),
+    }));
+
+    const top5CessoesCessionarios = cessionarioRanking.slice(0, 5).reduce((sum, item) => sum + item.totalCessoes, 0);
+    const hasConcentracaoData = totalCessoesCessionarios > 0;
+    const noConcentracaoData = !hasConcentracaoData;
+    const concentracaoPct = hasConcentracaoData ? Math.round((top5CessoesCessionarios / totalCessoesCessionarios) * 100) : 0;
+    const concentracaoBarWidth = Math.min(concentracaoPct, 100) + '%';
+
+    const estadoMetricMap = {};
+    for (const row of filtered) {
+      const key = row.estado || 'Não informado';
+      if (!estadoMetricMap[key]) estadoMetricMap[key] = { estado: key, totalCessoes: 0, totalValor: 0 };
+      estadoMetricMap[key].totalCessoes += 1;
+      estadoMetricMap[key].totalValor += row.valor != null ? row.valor : 0;
+    }
+    const estadoRankingUnsorted = Object.values(estadoMetricMap).sort((a, b) => b.totalCessoes - a.totalCessoes);
+    const maxEstadoCessoes = estadoRankingUnsorted.length ? estadoRankingUnsorted[0].totalCessoes : 0;
+    const estadoRanking = estadoRankingUnsorted.map((item) => ({
+      estado: item.estado,
+      totalCessoes: item.totalCessoes,
+      cessoesLabel: cessoesLabel(item.totalCessoes),
+      hasValor: item.totalValor > 0,
+      valorDisplay: this.formatValor(item.totalValor || null),
+      barWidth: maxEstadoCessoes > 0 ? Math.max(Math.round((item.totalCessoes / maxEstadoCessoes) * 100), 2) + '%' : '0%',
+      tooltip: item.estado + ': ' + cessoesLabel(item.totalCessoes) + (item.totalValor > 0 ? ' · ' + this.formatValor(item.totalValor) : ''),
+    }));
+
+    const parMetricMap = {};
+    for (const row of filtered) {
+      if (!row.cedente || !row.cessionario) continue;
+      const cedenteKey = this.normalizeEntityName(row.cedente) || '__sem_cedente__';
+      const cessionarioKey = this.normalizeEntityName(row.cessionario) || '__sem_cessionario__';
+      const parKey = cedenteKey + '::' + cessionarioKey;
+      if (!parMetricMap[parKey]) {
+        parMetricMap[parKey] = {
+          cedenteName: row.cedente || 'Não identificado',
+          cessionarioName: row.cessionario || 'Não identificado',
+          totalValor: 0,
+          totalCessoes: 0,
+        };
+      }
+      parMetricMap[parKey].cedenteName = this.pickEntityLabel(parMetricMap[parKey].cedenteName, row.cedente);
+      parMetricMap[parKey].cessionarioName = this.pickEntityLabel(parMetricMap[parKey].cessionarioName, row.cessionario);
+      parMetricMap[parKey].totalValor += row.valor != null ? row.valor : 0;
+      parMetricMap[parKey].totalCessoes += 1;
+    }
+    const parRanking = Object.values(parMetricMap).sort((a, b) => b.totalCessoes - a.totalCessoes);
+    const maxParCessoes = parRanking.length ? parRanking[0].totalCessoes : 0;
+
+    const topPares = parRanking.slice(0, 8).map((item, index) => {
+      const label = item.cedenteName + ' → ' + item.cessionarioName;
+      return {
+        rank: index + 1,
+        label: label,
+        totalCessoes: item.totalCessoes,
+        cessoesLabel: cessoesLabel(item.totalCessoes),
+        hasValor: item.totalValor > 0,
+        valorDisplay: this.formatValor(item.totalValor || null),
+        barWidth: maxParCessoes > 0 ? Math.max(Math.round((item.totalCessoes / maxParCessoes) * 100), 2) + '%' : '0%',
+        tooltip: label + ': ' + cessoesLabel(item.totalCessoes) + (item.totalValor > 0 ? ' · ' + this.formatValor(item.totalValor) : ''),
+      };
+    });
+
+    const principalCessionarioNome = cessionarioRanking.length ? cessionarioRanking[0].name : 'Sem dados';
+    const principalCessionarioCessoes = cessionarioRanking.length ? cessoesLabel(cessionarioRanking[0].totalCessoes) : '—';
+    const principalCedenteNome = cedenteRanking.length ? cedenteRanking[0].name : 'Sem dados';
+    const principalCedenteCessoes = cedenteRanking.length ? cessoesLabel(cedenteRanking[0].totalCessoes) : '—';
+    const principalParNome = parRanking.length ? parRanking[0].cedenteName + ' → ' + parRanking[0].cessionarioName : 'Sem dados';
+    const principalParCessoes = parRanking.length ? cessoesLabel(parRanking[0].totalCessoes) : '—';
+
     const showStatusBar = !!error || loading;
 
     return {
@@ -1385,6 +1670,7 @@ class Component extends DCLogic {
       showPlayers: view === 'players',
       showCedentes: view === 'cedentes',
       showBancos: view === 'bancos',
+      showMetricas: view === 'metricas',
 
       feedTabBg: view === 'feed' ? 'rgba(27,111,224,0.15)' : 'transparent',
       feedTabColor: view === 'feed' ? '#93C5FD' : 'rgba(255,255,255,0.5)',
@@ -1396,34 +1682,41 @@ class Component extends DCLogic {
       cedentesTabColor: view === 'cedentes' ? '#93C5FD' : 'rgba(255,255,255,0.5)',
       bancosTabBg: view === 'bancos' ? 'rgba(27,111,224,0.15)' : 'transparent',
       bancosTabColor: view === 'bancos' ? '#93C5FD' : 'rgba(255,255,255,0.5)',
+      metricasTabBg: view === 'metricas' ? 'rgba(27,111,224,0.15)' : 'transparent',
+      metricasTabColor: view === 'metricas' ? '#93C5FD' : 'rgba(255,255,255,0.5)',
 
       setViewFeed: () => this.setState({ view: 'feed' }),
       setViewProcessos: () => this.setState({ view: 'processos' }),
       setViewPlayers: () => this.setState({ view: 'players' }),
       setViewCedentes: () => this.setState({ view: 'cedentes' }),
       setViewBancos: () => this.setState({ view: 'bancos' }),
+      setViewMetricas: () => this.setState({ view: 'metricas' }),
 
       selectedTribunal: filterTribunal,
       selectedClasse: filterClasse,
       selectedCedente: filterCedente,
       selectedCessionario: filterCessionario,
+      selectedAno: filterAno,
       selectedSearch: filterSearch,
       tribunalOptions: tribunalOptions,
       classeOptions: classeOptions,
       cedenteOptions: cedenteOptions,
       cessionarioOptions: cessionarioOptions,
+      anoOptions: anoOptions,
       hasActiveFilters: hasActiveFilters,
 
       onTribunalChange: (event) => this.setState({ filterTribunal: event.target.value }),
       onClasseChange: (event) => this.setState({ filterClasse: event.target.value }),
       onCedenteChange: (event) => this.setState({ filterCedente: event.target.value }),
       onCessionarioChange: (event) => this.setState({ filterCessionario: event.target.value }),
+      onAnoChange: (event) => this.setState({ filterAno: event.target.value }),
       onSearchInput: (event) => this.setState({ filterSearch: event.target.value }),
       clearFilters: () => this.setState({
         filterTribunal: '',
         filterClasse: '',
         filterCedente: '',
         filterCessionario: '',
+        filterAno: '',
         filterSearch: '',
       }),
 
@@ -1433,6 +1726,21 @@ class Component extends DCLogic {
       playerGroups: playerGroups,
       cedenteGroups: cedenteGroups,
       bancoGroups: bancoGroups,
+
+      topCessionarios: topCessionarios,
+      topCedentes: topCedentes,
+      topPares: topPares,
+      estadoRanking: estadoRanking,
+      hasConcentracaoData: hasConcentracaoData,
+      noConcentracaoData: noConcentracaoData,
+      concentracaoPct: concentracaoPct,
+      concentracaoBarWidth: concentracaoBarWidth,
+      principalCessionarioNome: principalCessionarioNome,
+      principalCessionarioCessoes: principalCessionarioCessoes,
+      principalCedenteNome: principalCedenteNome,
+      principalCedenteCessoes: principalCedenteCessoes,
+      principalParNome: principalParNome,
+      principalParCessoes: principalParCessoes,
 
       feedSortArrow: this.sortArrowIcon(feedSortDir),
       toggleFeedSort: this.toggleFeedSort,

@@ -22,6 +22,7 @@ class QueryFilters:
     confianca: str | None = None
     classe: str | None = None
     search: str | None = None
+    ano: int | None = None
     offset: int = 0
     limit: int = 100
 
@@ -39,6 +40,7 @@ class QueryFilters:
             confianca=_clean(args.get("confianca")),
             classe=_clean(args.get("classe")),
             search=_clean(args.get("search")),
+            ano=_optional_int(args.get("ano")),
             offset=max(offset, 0),
             limit=max(1, min(limit, settings.max_limit)),
         )
@@ -58,6 +60,13 @@ def _safe_int(value: str | None, fallback: int) -> int:
         return fallback
 
 
+def _optional_int(value: str | None) -> int | None:
+    try:
+        return int(value) if value is not None and value.strip() else None
+    except (TypeError, ValueError):
+        return None
+
+
 class FileBackedCessaoStore:
     def __init__(self, data_dir: Path) -> None:
         self._data_dir = data_dir
@@ -66,11 +75,12 @@ class FileBackedCessaoStore:
         self._records: tuple[CessaoRecord, ...] = ()
         self._file_count = 0
         self._publication_count = 0
-        self._indices: dict[str, dict[str, tuple[int, ...]]] = {
+        self._indices: dict[str, dict[Any, tuple[int, ...]]] = {
             "estado": {},
             "tribunal": {},
             "confianca": {},
             "classe": {},
+            "ano": {},
         }
         self._metadata: dict[str, Any] = {}
 
@@ -110,6 +120,7 @@ class FileBackedCessaoStore:
                 "confianca": filters.confianca,
                 "classe": filters.classe,
                 "search": filters.search,
+                "ano": filters.ano,
             },
         }
 
@@ -136,11 +147,12 @@ class FileBackedCessaoStore:
 
     def _rebuild(self, snapshot: tuple[tuple[str, int, int], ...]) -> None:
         records: list[CessaoRecord] = []
-        index_builders: dict[str, defaultdict[str, list[int]]] = {
+        index_builders: dict[str, defaultdict[Any, list[int]]] = {
             "estado": defaultdict(list),
             "tribunal": defaultdict(list),
             "confianca": defaultdict(list),
             "classe": defaultdict(list),
+            "ano": defaultdict(list),
         }
         publication_count = 0
         file_count = 0
@@ -163,6 +175,7 @@ class FileBackedCessaoStore:
                         index_builders["confianca"], record.confianca, record_index
                     )
                     self._add_index(index_builders["classe"], record.classe, record_index)
+                    self._add_index(index_builders["ano"], record.ano, record_index)
 
         self._records = tuple(records)
         self._publication_count = publication_count
@@ -175,7 +188,7 @@ class FileBackedCessaoStore:
         self._metadata = self._build_metadata()
 
     @staticmethod
-    def _add_index(index_map: defaultdict[str, list[int]], key: str | None, value: int):
+    def _add_index(index_map: defaultdict[Any, list[int]], key: Any, value: int):
         if key:
             index_map[key].append(value)
 
@@ -194,6 +207,8 @@ class FileBackedCessaoStore:
             )
         if filters.classe:
             candidate_sets.append(set(self._indices["classe"].get(filters.classe, ())))
+        if filters.ano:
+            candidate_sets.append(set(self._indices["ano"].get(filters.ano, ())))
 
         if candidate_sets:
             candidate_indexes = set.intersection(*candidate_sets)
@@ -233,5 +248,6 @@ class FileBackedCessaoStore:
             "tribunais": count_values("tribunal"),
             "confiancas": count_values("confianca"),
             "classes": count_values("classe"),
+            "anos": count_values("ano"),
             "source_files": sorted({record.source_file for record in self._records}),
         }
