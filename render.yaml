@@ -8,3 +8,14 @@ services:
     envVars:
       - key: SCANNER_CORS_ORIGINS
         value: "*"
+
+  - type: web
+    name: scanner-cess-es
+    env: static
+    rootDir: frontend
+    buildCommand: "true"
+    staticPublishPath: .
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
