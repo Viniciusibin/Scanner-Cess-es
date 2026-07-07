@@ -1146,5 +1146,511 @@
         "motivo_classificacao": "O texto menciona homologação judicial de cessão de crédito concursal com pedido de sucessão processual e anotação no QGC, caracterizando cessão de crédito real em recuperação judicial."
       }
     ]
+  },
+  {
+    "id": null,
+    "cnj": "5000021-98.2016.8.21.0023",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO PINE S/A",
+        "cessionario": "CATALUNYA PARTICIPAÇÕES LTDA.",
+        "valor": "81143882,81",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 8000000000.0,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "5000161-42.2020.8.21.0137",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ATLANTA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADO",
+        "cessionario": "PAULO EMILIO MAZZA EIRELI",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "18/02/2022"
+      }
+    ],
+    "valor_causa": 28559143.46,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "5000621-86.2022.8.21.0160",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO ESTADO DO RIO GRANDE DO SUL S.A. - BANRISUL",
+        "cessionario": "SOLVE SECURITIZADORA DE CRÉDITOS FINANCEIROS S/A",
+        "valor": "205092,37",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "26/08/2025"
+      }
+    ],
+    "valor_causa": 4659695.36,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "5000783-48.2020.8.21.0032",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "GERDAU AÇOS LONGOS S.A.",
+        "cessionario": "RESTORE ADVISORY INTERMEDIAÇÕES LTDA.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 0.0,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "5000804-23.2020.8.21.0097",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "FERRARI INDÚSTRIA METALÚRGICA LTDA.",
+        "cessionario": "JULIANO FERRARI",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 75557152.9,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "5001168-19.2017.8.21.0026",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "IMIFARMA PRODUTOS FARMACÊUTICOS E COSMÉTICOS S.A.",
+        "cessionario": "AMPM COMESTÍVEIS LTDA.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 12323919.35,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "5001365-61.2013.8.21.0010",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO SANTANDER (BRASIL) S.A.",
+        "cessionario": "BLACKPARTNERS MIRUNA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS",
+        "valor": "4889466,35",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ITAU UNIBANCO S.A. E ITAU LEASING",
+        "cessionario": "BLACKWOOD",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 69771425.52,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "5002445-67.2017.8.21.0027",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO BRASIL S.A.",
+        "cessionario": "ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 3833566.78,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "5002532-55.2019.8.21.0026",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "EDUARDO HENRIQUE MULLER",
+        "cessionario": "CÉSAR ALEXANDRE LOPES",
+        "valor": "8885,88",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 22086608.57,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "5004099-08.2025.8.21.0028",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BRAZIL GR LTDA.",
+        "cessionario": "INV COMPANHIA SECURITIZADORA DE CRÉDITOS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 3020780.64,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "5004726-51.2021.8.21.0028",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO SANTANDER (BRASIL) S/A",
+        "cessionario": "NANBAN FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 110221506.02,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "5008261-83.2019.8.21.0019",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "SOCINAL S.A. – CRÉDITO, FINANCIAMENTO E INVESTIMENTO",
+        "cessionario": "FUNDO DE INVESTIMENTOS EM DIREITOS CREDITÓRIOS DA INDÚSTRIA EXODUS INSTITUCIONAL",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 39464079.48,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "5042532-09.2023.8.21.0010",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "FAR INDÚSTRIA E COMÉRCIO DE RAÇÕES LTDA.",
+        "cessionario": "BCA TITLES AND CHARGES LTDA.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 129872776.0,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "5147697-43.2021.8.21.0001",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ITAÚ UNIBANCO S.A.",
+        "cessionario": "BLACKPARTNERS MIRUNA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 31668698.33,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "5157803-93.2023.8.21.0001",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO SANTANDER (BRASIL) S.A.",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS NPL MASSIFICADO",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 69650304.3,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "5168965-85.2023.8.21.0001",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO ESTADO DO RIO GRANDE DO SUL – BANRISUL",
+        "cessionario": "SOLVE SECURITIZADORA DE CRÉDITOS FINANCEIROS S.A.",
+        "valor": "8651,86",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "05/12/2025"
+      }
+    ],
+    "valor_causa": 54868316.16,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "5245072-73.2023.8.21.0001",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "FUNDACAO UNIVERSITARIA DE CARDIOLOGIA",
+        "cessionario": "FUNDO TUNE",
+        "valor": "2546835,61",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 257089871.95,
+    "data_cessao_credito": null
   }
 ]

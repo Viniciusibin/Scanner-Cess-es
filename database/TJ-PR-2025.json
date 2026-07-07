@@ -54,7 +54,8 @@
         "motivo_classificacao": "Há menção expressa a cessão de crédito trabalhista habilitado em falência, com instrumentos particulares de cessão e discussão sobre homologação e pagamento no processo principal de falência."
       }
     ],
-    "valor_causa": 71764.0
+    "valor_causa": 71764.0,
+    "data_cessao_credito": "13/01/2025"
   },
   {
     "id": 214614413,
@@ -93,7 +94,8 @@
         "motivo_classificacao": "Há menção expressa à habilitação do cessionário e alteração do quadro geral de credores, indicando cessão de crédito real homologada em processo de falência."
       }
     ],
-    "valor_causa": 1000000.0
+    "valor_causa": 1000000.0,
+    "data_cessao_credito": "22/01/2025"
   },
   {
     "id": 215270207,
@@ -134,7 +136,8 @@
         "motivo_classificacao": "Há menção expressa à homologação judicial de cessão de créditos concursais, com pedido de substituição de credores no QGC e apresentação de instrumentos de cessão."
       }
     ],
-    "valor_causa": 244760739.65
+    "valor_causa": 244760739.65,
+    "data_cessao_credito": "24/01/2025"
   },
   {
     "id": 215453164,
@@ -183,7 +186,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de créditos concursais, homologação judicial das cessões, substituição de credores no QGC e contratos de cessão no contexto da recuperação judicial."
       }
     ],
-    "valor_causa": 10000.0
+    "valor_causa": 10000.0,
+    "data_cessao_credito": "24/01/2025"
   },
   {
     "id": 215575780,
@@ -225,7 +229,8 @@
         "motivo_classificacao": "Há menção expressa a instrumento particular de cessão e transferência de crédito concursal, com pedido de sucessão processual e homologação judicial no processo de falência da recuperanda."
       }
     ],
-    "valor_causa": 47567.14
+    "valor_causa": 47567.14,
+    "data_cessao_credito": "24/01/2025"
   },
   {
     "id": 217706676,
@@ -264,7 +269,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com homologação judicial e substituição do credor no processo de falência da Lembrasul Supermercados Ltda."
       }
     ],
-    "valor_causa": 500.0
+    "valor_causa": 500.0,
+    "data_cessao_credito": "28/01/2025"
   },
   {
     "id": 219017589,
@@ -305,7 +311,8 @@
         "motivo_classificacao": "Há menção expressa a proposta de cessão de direitos creditórios em processo de falência, com manifestação favorável do síndico, indicando cessão real de crédito concursal."
       }
     ],
-    "valor_causa": 10000.0
+    "valor_causa": 10000.0,
+    "data_cessao_credito": "30/01/2025"
   },
   {
     "id": 219532193,
@@ -347,7 +354,8 @@
         "motivo_classificacao": "Houve deferimento da substituição do polo ativo por cessão de crédito na recuperação judicial da Transportadora Campeoni Ltda. ME, com menção expressa à cessão e homologação judicial, caracterizando cessão de crédito real."
       }
     ],
-    "valor_causa": 5143463.01
+    "valor_causa": 5143463.01,
+    "data_cessao_credito": "31/01/2025"
   },
   {
     "id": 223282207,
@@ -392,7 +400,8 @@
         "motivo_classificacao": "Há menção expressa a cessionários de créditos concursais, documentos comprobatórios da cadeia cessionária, e vinculação ao processo principal de recuperação judicial, configurando cessão de crédito real."
       }
     ],
-    "valor_causa": 43865164.96
+    "valor_causa": 43865164.96,
+    "data_cessao_credito": "07/02/2025"
   },
   {
     "id": 224121510,
@@ -438,7 +447,8 @@
         "motivo_classificacao": "Há menção a contrato de cessão onerosa de crédito concursal, pedido de retificação do crédito no QGC da recuperanda e homologação judicial implícita na decisão."
       }
     ],
-    "valor_causa": 308104889.45
+    "valor_causa": 308104889.45,
+    "data_cessao_credito": "10/02/2025"
   },
   {
     "id": 223781221,
@@ -482,7 +492,8 @@
         "motivo_classificacao": "Há menção expressa a cedente e cessionário, pedido de retificação e homologação judicial da cessão no Quadro Geral de Credores em processo de falência da recuperanda."
       }
     ],
-    "valor_causa": 10000.0
+    "valor_causa": 10000.0,
+    "data_cessao_credito": "10/02/2025"
   },
   {
     "id": 225019179,
@@ -550,7 +561,8 @@
         "motivo_classificacao": "Há menção expressa à homologação judicial da cessão de crédito concursal, com credores cessionários incluídos no QGC da massa falida, configurando cessão de crédito real."
       }
     ],
-    "valor_causa": 45000.0
+    "valor_causa": 45000.0,
+    "data_cessao_credito": "12/02/2025"
   },
   {
     "id": 225397449,
@@ -587,7 +599,8 @@
         "motivo_classificacao": "Há menção a escritura pública de cessão de crédito, transferência de crédito concursal e cessionário em recuperação judicial, configurando cessão de crédito real."
       }
     ],
-    "valor_causa": 58141138.38
+    "valor_causa": 58141138.38,
+    "data_cessao_credito": "12/02/2025"
   },
   {
     "id": 225426899,
@@ -628,7 +641,8 @@
         "motivo_classificacao": "Há menção expressa à análise e homologação judicial de cessão de créditos concursais com pedido de substituição no quadro geral de credores, envolvendo cedentes e cessionária no processo de falência da Lembrasul Supermercados Ltda."
       }
     ],
-    "valor_causa": 500.0
+    "valor_causa": 500.0,
+    "data_cessao_credito": "12/02/2025"
   },
   {
     "id": 226819419,
@@ -671,7 +685,8 @@
         "motivo_classificacao": "Há pedido de homologação judicial de cessão parcial de crédito concursal com substituição de credor no QGC e habilitação da cessionária na AGC, configurando cessão de crédito real em recuperação judicial."
       }
     ],
-    "valor_causa": 15691334.68
+    "valor_causa": 15691334.68,
+    "data_cessao_credito": "14/02/2025"
   },
   {
     "id": 228395688,
@@ -719,7 +734,8 @@
         "motivo_classificacao": "Há menção clara à cessão de créditos da cedente para cessionário no processo de recuperação judicial, com pedido de habilitação e ciência da recuperanda, indicando cessão de crédito real."
       }
     ],
-    "valor_causa": 1076208843.35
+    "valor_causa": 1076208843.35,
+    "data_cessao_credito": "18/02/2025"
   },
   {
     "id": 231269599,
@@ -755,7 +771,8 @@
         "motivo_classificacao": "Há menção expressa à cessão dos créditos da cedente para o cessionário, com pedido de habilitação e comunicação ao juízo da recuperação judicial da recuperanda."
       }
     ],
-    "valor_causa": 10000.0
+    "valor_causa": 10000.0,
+    "data_cessao_credito": "24/02/2025"
   },
   {
     "id": 233051192,
@@ -802,7 +819,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de créditos, pedido de substituição de credor no processo de recuperação judicial e comunicação ao juízo e administradora judicial, caracterizando cessão de crédito real."
       }
     ],
-    "valor_causa": 1076208843.35
+    "valor_causa": 1076208843.35,
+    "data_cessao_credito": "27/02/2025"
   },
   {
     "id": 233184662,
@@ -850,7 +868,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de créditos, pedido de substituição de credor e habilitação de procuradores, indicando cessão real de crédito concursal em processo de recuperação judicial."
       }
     ],
-    "valor_causa": 1076208843.35
+    "valor_causa": 1076208843.35,
+    "data_cessao_credito": "27/02/2025"
   },
   {
     "id": 233470086,
@@ -889,7 +908,8 @@
         "motivo_classificacao": "Há menção expressa a acordo entre cessionária e credor original (CEF) e quitação do débito no processo de recuperação judicial, indicando cessão real de crédito concursal."
       }
     ],
-    "valor_causa": 100000.0
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "27/02/2025"
   },
   {
     "id": 233815686,
@@ -930,7 +950,8 @@
         "motivo_classificacao": "Há menção expressa a cessão de crédito apresentada e confirmada, com pedido de manifestação da recuperanda, em processo de recuperação judicial, indicando cessão real de crédito concursal."
       }
     ],
-    "valor_causa": 147227761.12
+    "valor_causa": 147227761.12,
+    "data_cessao_credito": "28/02/2025"
   },
   {
     "id": 233771872,
@@ -972,7 +993,8 @@
         "motivo_classificacao": "Há menção a contrato de cessão de crédito concursal, pedido de falência da recuperanda, discussão sobre notificação do devedor e homologação implícita na sentença, configurando cessão de crédito real em falência."
       }
     ],
-    "valor_causa": 96708.74
+    "valor_causa": 96708.74,
+    "data_cessao_credito": "28/02/2025"
   },
   {
     "id": 235562623,
@@ -1012,7 +1034,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com pedido de substituição no quadro-geral de credores e análise do síndico, configurando cessão de crédito real em falência."
       }
     ],
-    "valor_causa": 1125970.9
+    "valor_causa": 1125970.9,
+    "data_cessao_credito": "07/03/2025"
   },
   {
     "id": 236385658,
@@ -1061,7 +1084,8 @@
         "motivo_classificacao": "Há menção expressa a instrumento de sub-rogação convencional com transferência do crédito concursal, pedido de substituição no QGC, e homologação judicial parcial autorizando a colheita de votos do cessionário na assembleia de credores da recuperação judicial."
       }
     ],
-    "valor_causa": 63782712.37
+    "valor_causa": 63782712.37,
+    "data_cessao_credito": "10/03/2025"
   },
   {
     "id": 237535567,
@@ -1104,7 +1128,8 @@
         "motivo_classificacao": "Há menção expressa a cedente e cessionário, pedido de retificação no QGC, homologação judicial do laudo pericial e inclusão do crédito na classe II (garantia real), caracterizando cessão de crédito real em falência."
       }
     ],
-    "valor_causa": 100000.0
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "11/03/2025"
   },
   {
     "id": 237590924,
@@ -1153,7 +1178,8 @@
         "motivo_classificacao": "Há menção expressa a termo de cessão de crédito, concordância da administradora judicial e autorização para retificação do quadro geral de credores, configurando cessão real em recuperação judicial."
       }
     ],
-    "valor_causa": 24071263.27
+    "valor_causa": 24071263.27,
+    "data_cessao_credito": "11/03/2025"
   },
   {
     "id": 238101342,
@@ -1195,7 +1221,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com pedido de manifestação sobre quitação do preço da cessão, envolvendo o BNDES como cedente e Grupo Imcopa, Minefer e Triana como cessionários, no processo de recuperação judicial do Grupo Imcopa."
       }
     ],
-    "valor_causa": 757914724.0
+    "valor_causa": 757914724.0,
+    "data_cessao_credito": "02.12.2024"
   },
   {
     "id": 239890560,
@@ -1238,7 +1265,8 @@
         "motivo_classificacao": "Há menção a termo de cessão de crédito, concordância da administradora judicial, pedido de substituição no QGC e homologação judicial, caracterizando cessão de crédito real em recuperação judicial."
       }
     ],
-    "valor_causa": 24071263.27
+    "valor_causa": 24071263.27,
+    "data_cessao_credito": "14/03/2025"
   },
   {
     "id": 240398498,
@@ -1319,7 +1347,8 @@
         "motivo_classificacao": "Há menção expressa a instrumento de cessão de crédito, pedido de substituição de credor no processo e homologação judicial, configurando cessão de crédito real em contexto de cumprimento de sentença relacionado à recuperanda."
       }
     ],
-    "valor_causa": 1000.0
+    "valor_causa": 1000.0,
+    "data_cessao_credito": "17/03/2025"
   },
   {
     "id": 242940367,
@@ -1356,7 +1385,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito com deferimento da substituição do credor no processo de recuperação judicial, envolvendo crédito da Classe II (garantia real), configurando cessão de crédito real."
       }
     ],
-    "valor_causa": 326003179.22
+    "valor_causa": 326003179.22,
+    "data_cessao_credito": "19/03/2025"
   },
   {
     "id": 244378117,
@@ -1403,7 +1433,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito realizada, com homologação judicial e substituição do credor no processo de recuperação judicial, configurando cessão de crédito real."
       }
     ],
-    "valor_causa": 12509327.55
+    "valor_causa": 12509327.55,
+    "data_cessao_credito": "19 de setembro de 2022"
   },
   {
     "id": 244144968,
@@ -1440,7 +1471,8 @@
         "motivo_classificacao": "Há pedido de substituição de credor no QGC por cessão de crédito comprovada, envolvendo a recuperanda, com homologação judicial implícita no procedimento."
       }
     ],
-    "valor_causa": 15691334.68
+    "valor_causa": 15691334.68,
+    "data_cessao_credito": "21/03/2025"
   },
   {
     "id": 245109593,
@@ -1479,7 +1511,8 @@
         "motivo_classificacao": "Há menção a instrumentos de cessão de crédito em processo de falência da recuperanda, com pedido de manifestação do administrador judicial, indicando cessão real de crédito concursal."
       }
     ],
-    "valor_causa": 17307603.77
+    "valor_causa": 17307603.77,
+    "data_cessao_credito": "24/03/2025"
   },
   {
     "id": 245274553,
@@ -1533,7 +1566,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de créditos concursal, comunicação ao administrador judicial, homologação judicial implícita e discussão sobre o impacto da cessão no quórum da assembleia de credores, caracterizando cessão de crédito real em recuperação judicial."
       }
     ],
-    "valor_causa": 1076208843.35
+    "valor_causa": 1076208843.35,
+    "data_cessao_credito": "24/03/2025"
   },
   {
     "id": 244808946,
@@ -1571,7 +1605,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de créditos da cedente para o cessionário, com pedido de substituição processual no processo de recuperação judicial da Imcopa, indicando cessão de crédito real."
       }
     ],
-    "valor_causa": 10000.0
+    "valor_causa": 10000.0,
+    "data_cessao_credito": "24/03/2025"
   },
   {
     "id": 244840581,
@@ -1610,7 +1645,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com homologação judicial e substituição de garantias no processo de recuperação judicial da SEARA."
       }
     ],
-    "valor_causa": 320402.09
+    "valor_causa": 320402.09,
+    "data_cessao_credito": "24/03/2025"
   },
   {
     "id": 244944572,
@@ -1688,7 +1724,8 @@
         "motivo_classificacao": "Pedido de sucessão processual e comunicação da cessão para atualização do QGC indicam cessão real de crédito concursal."
       }
     ],
-    "valor_causa": 17135498.66
+    "valor_causa": 17135498.66,
+    "data_cessao_credito": "24/03/2025"
   },
   {
     "id": 246453206,
@@ -1731,7 +1768,8 @@
         "motivo_classificacao": "Há menção expressa a cessão de crédito concursal, pedido de substituição de credor no QGC, homologação judicial e análise documental pela administradora judicial."
       }
     ],
-    "valor_causa": 10000000.0
+    "valor_causa": 10000000.0,
+    "data_cessao_credito": "26/03/2025"
   },
   {
     "id": 249640790,
@@ -1788,7 +1826,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de créditos concursal, comunicação ao juízo da recuperação judicial, discussão sobre substituição de credor no QGC e homologação judicial implícita no contexto da assembleia-geral de credores."
       }
     ],
-    "valor_causa": 1076208843.35
+    "valor_causa": 1076208843.35,
+    "data_cessao_credito": "01/04/2025"
   },
   {
     "id": 249417481,
@@ -1827,7 +1866,8 @@
         "motivo_classificacao": "Há menção clara a instrumento particular de cessão de crédito concursal, inscrição da cessionária no QGC da recuperanda Sperafico Agroindustrial Ltda., e discussão sobre direito ao recebimento do crédito cedido no contexto da recuperação judicial."
       }
     ],
-    "valor_causa": 100000.0
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "10/9/2019"
   },
   {
     "id": 250514150,
@@ -1867,7 +1907,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal da recuperanda Destilaria Americana S/A, com pedido de anotação no sistema de precatórios e referência ao processo de recuperação judicial, configurando cessão de crédito real."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "02/04/2025"
   },
   {
     "id": 250540797,
@@ -1909,7 +1950,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito com alteração no Quadro Geral de Credores e concordância do administrador judicial, configurando cessão de crédito real em falência."
       }
     ],
-    "valor_causa": 100000000.0
+    "valor_causa": 100000000.0,
+    "data_cessao_credito": "02/04/2025"
   },
   {
     "id": 251187136,
@@ -1966,7 +2008,8 @@
         "motivo_classificacao": "Há menção expressa a termo de cessão de crédito, pedido de substituição processual no QGC e concordância do administrador judicial, configurando cessão de crédito real em recuperação judicial."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "03/04/2025"
   },
   {
     "id": 251609625,
@@ -2009,7 +2052,8 @@
         "motivo_classificacao": "Há pedido de substituição de credor no QGC, menção a escritura pública e contrato de cessão, e o crédito está escrito na classe quirografária do quadro-geral de credores da falência."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "21.10.2024"
   },
   {
     "id": 252378818,
@@ -2048,7 +2092,8 @@
         "motivo_classificacao": "Há menção expressa à substituição do credor no QGC, com homologação judicial da cessão de crédito concursal entre Banco Banestado e Jairo Dutra Vieira no processo de falência."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "07/04/2025"
   },
   {
     "id": 252978727,
@@ -2086,7 +2131,8 @@
         "motivo_classificacao": "Há menção expressa à cessão do crédito originário da massa falida, homologação judicial da cessão, e substituição do credor no polo ativo do processo, caracterizando cessão de crédito real em contexto de falência."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "08/04/2025"
   },
   {
     "id": 254173053,
@@ -2126,7 +2172,8 @@
         "motivo_classificacao": "Há menção expressa a proposta de cessão de crédito no processo principal de falência, com intimação para manifestação dos credores, indicando cessão real de crédito concursal."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "09/04/2025"
   },
   {
     "id": 254780534,
@@ -2167,7 +2214,8 @@
         "motivo_classificacao": "Há menção expressa a cessão de crédito e pedido de substituição de credor no processo de falência, envolvendo a massa falida da Fertimourão Agrícola."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "10/04/2025"
   },
   {
     "id": 256136761,
@@ -2216,7 +2264,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com manifestação da recuperanda e homologação judicial no processo de recuperação judicial indicado."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "14/04/2025"
   },
   {
     "id": 256911385,
@@ -2253,7 +2302,8 @@
         "motivo_classificacao": "Há menção clara à cessão de créditos concursal com pedido de substituição de credor no processo de recuperação judicial, caracterizando cessão de crédito real."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "15/04/2025"
   },
   {
     "id": 257022390,
@@ -2299,7 +2349,8 @@
         "motivo_classificacao": "Há menção expressa a contrato de cessão de crédito concursal, pedido de retificação do QGC, concordância da recuperanda e do administrador judicial, e homologação judicial da cessão."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "15/04/2025"
   },
   {
     "id": 258221876,
@@ -2341,7 +2392,8 @@
         "motivo_classificacao": "Há menção clara a cessão de crédito concursal com contrato e comunicação ao juízo, além de pedido de substituição de credor no QGC e discussão sobre direito de voto na AGC, caracterizando cessão de crédito real em recuperação judicial."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "06.02.2025"
   },
   {
     "id": 259127376,
@@ -2386,7 +2438,8 @@
         "motivo_classificacao": "Há menção expressa a cessão de crédito decorrente de contrato de parceria agrícola, com homologação judicial e substituição de credor em processo de recuperação judicial das empresas indicadas como recuperandas."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "23/04/2025"
   },
   {
     "id": 259265495,
@@ -2433,7 +2486,8 @@
         "motivo_classificacao": "O texto relata composição entre cedente e cessionária, homologação judicial da cessão, substituição no QGC e valores específicos para créditos concursais nas classes II e III."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "23/04/2025"
   },
   {
     "id": 259265546,
@@ -2472,7 +2526,8 @@
         "motivo_classificacao": "Há pedido de substituição de credor no QGC, homologação judicial da cessão e menção a cessão de crédito concursal quirografário."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "23/04/2025"
   },
   {
     "id": 263745428,
@@ -2513,7 +2568,8 @@
         "motivo_classificacao": "Há menção expressa a contrato de cessão de crédito do ex-síndico da massa falida, pedido de expedição de alvará para pagamento à cessionária, e discussão judicial no processo de falência da recuperanda."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "01/05/2025"
   },
   {
     "id": 263818572,
@@ -2558,7 +2614,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com homologação judicial e substituição de credor no QGC no processo de recuperação judicial da recuperanda ENAR."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "01/05/2025"
   },
   {
     "id": 264867512,
@@ -2607,7 +2664,8 @@
         "motivo_classificacao": "Há menção expressa à homologação judicial da cessão de crédito concursal com pedido de substituição de credor no processo de recuperação judicial."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "06/05/2025"
   },
   {
     "id": 264981726,
@@ -2646,7 +2704,8 @@
         "motivo_classificacao": "Há menção expressa a instrumento de cessão de crédito concursal, pedido de habilitação dos cessionários no processo e referência à recuperação judicial da cedente, configurando cessão de crédito real."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "06/05/2025"
   },
   {
     "id": 265746056,
@@ -2689,7 +2748,8 @@
         "motivo_classificacao": "Há menção expressa a cessão onerosa de créditos listados no QGC, homologação judicial da cessão, pedido de substituição de credor e instrumento de cessão pública, configurando cessão de crédito real em falência."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "20/07/2021"
   },
   {
     "id": 267889416,
@@ -2729,7 +2789,8 @@
         "motivo_classificacao": "Há menção expressa a cessão regular de crédito com homologação judicial e substituição de credor, configurando cessão de crédito real em contexto concursal."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "31/10/2003"
   },
   {
     "id": 273965175,
@@ -2767,7 +2828,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com pedido de notificação, reconhecimento judicial da cessão e substituição do credor no processo de execução relacionado à recuperanda."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "20/05/2025"
   },
   {
     "id": 274526338,
@@ -2820,7 +2882,8 @@
         "motivo_classificacao": "Há homologação judicial expressa da cessão de crédito com retificação do QGC, envolvendo crédito concursal na recuperação judicial da empresa recuperanda."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "20/05/2025"
   },
   {
     "id": 274953167,
@@ -2857,7 +2920,8 @@
         "motivo_classificacao": "Há menção a pagamento a cessionária em processo com administrador judicial e pedido de manifestação sobre quadro de valores, indicando cessão de crédito real em RJ."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "21/05/2025"
   },
   {
     "id": 275201129,
@@ -2903,7 +2967,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com pedido de manifestação sobre embargos, no processo de recuperação judicial da IMCOPA, indicando transferência real de crédito e substituição de credor no QGC."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "21/05/2025"
   },
   {
     "id": 276227653,
@@ -2941,7 +3006,8 @@
         "motivo_classificacao": "Há menção a instrumento de cessão de crédito na recuperação judicial da recuperanda Averama Alimentos S/A, com reconhecimento judicial da cessão e substituição do credor no cumprimento de sentença."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "22/05/2025"
   },
   {
     "id": 277418814,
@@ -2985,7 +3051,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito noticiada e retificações no QGC, em processo de recuperação judicial, indicando cessão real de crédito concursal."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "23/05/2025"
   },
   {
     "id": 277209832,
@@ -3021,7 +3088,8 @@
         "motivo_classificacao": "Substituição do polo ativo da demanda em execução contra empresa em recuperação judicial, com menção a cessão de crédito por instrumento e homologação judicial, caracterizando cessão de crédito real."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "23/05/2025"
   },
   {
     "id": 281649588,
@@ -3071,7 +3139,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de créditos, inclusão da empresa cessionária no polo ativo, retificação do quadro geral de credores e homologação judicial no contexto da recuperação judicial do Grupo Santa Terezinha."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "28/05/2025"
   },
   {
     "id": 282093054,
@@ -3139,7 +3208,8 @@
         "motivo_classificacao": "Há menção clara à cessão de crédito concursal com homologação judicial e pedido de substituição de credor no processo de recuperação judicial da OPP Indústria Têxtil Ltda."
       }
     ],
-    "valor_causa": 0.0
+    "valor_causa": 0.0,
+    "data_cessao_credito": "28/05/2025"
   },
   {
     "id": 282354773,
@@ -3181,7 +3251,8 @@
         "motivo_classificacao": "Há menção expressa à homologação judicial de cessão de crédito, substituição de credores no QGC e apresentação de documentos comprobatórios, caracterizando cessão de crédito real em falência."
       }
     ],
-    "valor_causa": 500.0
+    "valor_causa": 500.0,
+    "data_cessao_credito": "28/05/2025"
   },
   {
     "id": 284053383,
@@ -3232,7 +3303,8 @@
         "motivo_classificacao": "Pedido de registro de cessão de crédito em processo de recuperação judicial com homologação judicial e comunicação aos envolvidos."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "30/05/2025"
   },
   {
     "id": 284331008,
@@ -3280,7 +3352,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito entre credores concursais, com discussão em Assembleia Geral de Credores e homologação judicial no processo de recuperação judicial indicado."
       }
     ],
-    "valor_causa": 12474638.35
+    "valor_causa": 12474638.35,
+    "data_cessao_credito": "30/05/2025"
   },
   {
     "id": 287817594,
@@ -3325,7 +3398,8 @@
         "motivo_classificacao": "Houve pedido de substituição de credor no QGC, com homologação judicial da cessão de crédito concursal entre a Câmara de Comércio Brasil-Canadá e a EDP, em processo de recuperação judicial da I.G. Transmissão."
       }
     ],
-    "valor_causa": 10000.0
+    "valor_causa": 10000.0,
+    "data_cessao_credito": "11/04/2022"
   },
   {
     "id": 287951286,
@@ -3366,7 +3440,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito com concordância do administrador judicial e requeridos, em processo de impugnação de crédito na falência da recuperanda, indicando cessão real de crédito concursal."
       }
     ],
-    "valor_causa": 0.0
+    "valor_causa": 0.0,
+    "data_cessao_credito": "03/06/2025"
   },
   {
     "id": 287953571,
@@ -3413,7 +3488,8 @@
         "motivo_classificacao": "Há descrição clara de cessão de crédito concursal com homologação judicial, substituição no QGC, e menção a instrumento particular de cessão entre cedentes (debenturistas) e cessionária (River Back) no processo de recuperação judicial da Valoren e Personalite."
       }
     ],
-    "valor_causa": 9701682.86
+    "valor_causa": 9701682.86,
+    "data_cessao_credito": "19/07/2023"
   },
   {
     "id": 291435307,
@@ -3458,7 +3534,8 @@
         "motivo_classificacao": "Há contrato de cessão de crédito concursal, notificação da devedora, anuência da recuperanda, substituição homologada no QGC e menção expressa à classe do crédito na recuperação judicial."
       }
     ],
-    "valor_causa": 0.0
+    "valor_causa": 0.0,
+    "data_cessao_credito": "20/07/2023"
   },
   {
     "id": 292831922,
@@ -3502,7 +3579,8 @@
         "motivo_classificacao": "Há menção expressa à cessão integral de créditos concursal da cooperativa para terceiros no processo de recuperação judicial, com pedido de manifestação sobre reclassificação dos créditos e inclusão dos cessionários no processo."
       }
     ],
-    "valor_causa": 136885.8
+    "valor_causa": 136885.8,
+    "data_cessao_credito": "28 de março de 2025"
   },
   {
     "id": 294354072,
@@ -3549,7 +3627,8 @@
         "motivo_classificacao": "O texto menciona cessão de direitos creditórios anterior ao pedido de RJ, com pedido de habilitação e inclusão do crédito no QGC, confirmando cessão real de crédito concursal."
       }
     ],
-    "valor_causa": 1000.0
+    "valor_causa": 1000.0,
+    "data_cessao_credito": "30/03/2022"
   },
   {
     "id": 294616476,
@@ -3588,7 +3667,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito, ciência e não objeção da recuperanda, pedido de alteração da parte e retificação no QGC, indicando cessão real de crédito concursal."
       }
     ],
-    "valor_causa": 10000.0
+    "valor_causa": 10000.0,
+    "data_cessao_credito": "10/06/2025"
   },
   {
     "id": 296316634,
@@ -3632,7 +3712,8 @@
         "motivo_classificacao": "Há menção expressa a termo de cessão onerosa de crédito concursal, pedido de substituição no QGC, e homologação judicial discutida no processo de habilitação de crédito na recuperação judicial da Prolife."
       }
     ],
-    "valor_causa": 15691334.68
+    "valor_causa": 15691334.68,
+    "data_cessao_credito": "12/06/2025"
   },
   {
     "id": 296732589,
@@ -3683,7 +3764,8 @@
         "motivo_classificacao": "Há menção expressa a termo de cessão de crédito concursal, pedido de juntada de documentação e manifestação da recuperanda e administrador judicial, indicando cessão real em contexto de recuperação judicial."
       }
     ],
-    "valor_causa": 282256716.46
+    "valor_causa": 282256716.46,
+    "data_cessao_credito": "12/06/2025"
   },
   {
     "id": 296912422,
@@ -3727,7 +3809,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com homologação judicial e pedido de substituição no QGC em processo de recuperação judicial."
       }
     ],
-    "valor_causa": 12474638.35
+    "valor_causa": 12474638.35,
+    "data_cessao_credito": "09/06/2025"
   },
   {
     "id": 297272688,
@@ -3764,7 +3847,8 @@
         "motivo_classificacao": "Há homologação judicial de cessão de crédito concursal da massa falida para terceiro, com menção a instrumento de cessão e pedido de substituição de credor."
       }
     ],
-    "valor_causa": 0.01
+    "valor_causa": 0.01,
+    "data_cessao_credito": "12/06/2025"
   },
   {
     "id": 297829978,
@@ -3809,7 +3893,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de créditos concursal, pedido para verificação da regularidade da cessão e atualização da lista de credores, indicando cessão real homologada ou em processo de homologação no contexto da recuperação judicial."
       }
     ],
-    "valor_causa": 125570581.68
+    "valor_causa": 125570581.68,
+    "data_cessao_credito": "13/06/2025"
   },
   {
     "id": 298313616,
@@ -3849,7 +3934,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com pedido de substituição no QGC e homologação judicial em processo de recuperação judicial."
       }
     ],
-    "valor_causa": 88754953.68
+    "valor_causa": 88754953.68,
+    "data_cessao_credito": "13/06/2025"
   },
   {
     "id": 299206703,
@@ -3895,7 +3981,8 @@
         "motivo_classificacao": "Há determinação para atualização do QGC conforme cessões de crédito comunicadas, pedido de substituição de credores no QGC homologado judicialmente, e menção a cessões de crédito em contexto de recuperação judicial."
       }
     ],
-    "valor_causa": 10000000.0
+    "valor_causa": 10000000.0,
+    "data_cessao_credito": "16/06/2025"
   },
   {
     "id": 300750998,
@@ -3932,7 +4019,8 @@
         "motivo_classificacao": "Há pedido e homologação judicial de cessão de crédito com substituição de credor no QGC da massa falida, configurando cessão de crédito real."
       }
     ],
-    "valor_causa": 14610.0
+    "valor_causa": 14610.0,
+    "data_cessao_credito": "17/06/2025"
   },
   {
     "id": 304213173,
@@ -3983,7 +4071,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com pedido de substituição processual no processo de recuperação judicial da recuperanda."
       }
     ],
-    "valor_causa": 1076208843.35
+    "valor_causa": 1076208843.35,
+    "data_cessao_credito": "19/06/2025"
   },
   {
     "id": 306924012,
@@ -4024,7 +4113,8 @@
         "motivo_classificacao": "Há menção expressa a termo de reconhecimento de cessão de crédito, concordância das partes cedente e cessionários, e decisão judicial reconhecendo a legitimidade dos cessionários para receber créditos concursais da recuperanda."
       }
     ],
-    "valor_causa": 73960.48
+    "valor_causa": 73960.48,
+    "data_cessao_credito": "15 de junho de 2007"
   },
   {
     "id": 307355246,
@@ -4059,7 +4149,8 @@
         "motivo_classificacao": "Há menção expressa à determinação judicial para observância de cessão de crédito, envolvendo partes credoras distintas, em processo de impugnação de crédito na recuperação judicial da empresa."
       }
     ],
-    "valor_causa": 135884529.21
+    "valor_causa": 135884529.21,
+    "data_cessao_credito": "25/06/2025"
   },
   {
     "id": 307753761,
@@ -4100,7 +4191,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito, substituição do credor no QGC e homologação judicial da cessão em processo de falência."
       }
     ],
-    "valor_causa": 116124017.04
+    "valor_causa": 116124017.04,
+    "data_cessao_credito": "26/06/2025"
   },
   {
     "id": 312660004,
@@ -4142,7 +4234,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito entre cedente e cessionário, com discussão sobre substituição no quadro geral de credores e autorização judicial para contagem de votos, indicando cessão real em contexto de recuperação judicial."
       }
     ],
-    "valor_causa": 46206592.81
+    "valor_causa": 46206592.81,
+    "data_cessao_credito": "01/07/2025"
   },
   {
     "id": 313914201,
@@ -4187,7 +4280,8 @@
         "motivo_classificacao": "Há menção expressa a termo de cessão de crédito concursal, pedido de substituição de credor no polo ativo, e a recuperanda está em recuperação judicial, configurando cessão de crédito real."
       }
     ],
-    "valor_causa": 1166515.17
+    "valor_causa": 1166515.17,
+    "data_cessao_credito": "02/07/2025"
   },
   {
     "id": 315122044,
@@ -4230,7 +4324,8 @@
         "motivo_classificacao": "Há menção expressa à cessão integral do crédito concursal para a recuperanda, com pedido de exclusão dos cessionários anteriores e homologação judicial do acordo."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "03/07/2025"
   },
   {
     "id": 321408520,
@@ -4270,7 +4365,8 @@
         "motivo_classificacao": "O texto descreve cessão de crédito concursal com instrumentos de cessão anexados, reconhecida judicialmente, em processo contra empresa em recuperação judicial, configurando cessão de crédito real."
       }
     ],
-    "valor_causa": 35000.0
+    "valor_causa": 35000.0,
+    "data_cessao_credito": "10/07/2025"
   },
   {
     "id": 322031927,
@@ -4305,7 +4401,8 @@
         "motivo_classificacao": "Houve pedido de substituição processual do credor no processo de habilitação de crédito em concurso de credores, indicando cessão de crédito real homologada judicialmente."
       }
     ],
-    "valor_causa": 282690254.87
+    "valor_causa": 282690254.87,
+    "data_cessao_credito": "10/07/2025"
   },
   {
     "id": 324334417,
@@ -4344,7 +4441,8 @@
         "motivo_classificacao": "Há menção expressa a cessão de crédito no processo de recuperação judicial, com pedido de manifestação das recuperandas, indicando cessão real, embora sem detalhamento das partes ou valores."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "14/07/2025"
   },
   {
     "id": 324431524,
@@ -4389,7 +4487,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com comunicação e retificação do quadro geral de credores, em processo de recuperação judicial da empresa."
       }
     ],
-    "valor_causa": 100000.0
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "14/07/2025"
   },
   {
     "id": 332447756,
@@ -4426,7 +4525,8 @@
         "motivo_classificacao": "Há menção clara à aquisição de créditos concursal com manifestação do administrador judicial pela regularidade da cessão e determinação para atualização do quadro geral de credores."
       }
     ],
-    "valor_causa": 1000.0
+    "valor_causa": 1000.0,
+    "data_cessao_credito": "31/07/2025"
   },
   {
     "id": 335775146,
@@ -4488,7 +4588,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com pedido de sucessão processual e homologação judicial na recuperação judicial da AGROQUÍMICA BRASINHA LTDA."
       }
     ],
-    "valor_causa": 21424354.96
+    "valor_causa": 21424354.96,
+    "data_cessao_credito": "01/08/2025"
   },
   {
     "id": 336233947,
@@ -4539,7 +4640,8 @@
         "motivo_classificacao": "Há menção expressa a termos e instrumentos de cessão de crédito juntados nos autos da falência, com ciência da Administradora Judicial, configurando cessão de crédito real em contexto falimentar."
       }
     ],
-    "valor_causa": 17454332.47
+    "valor_causa": 17454332.47,
+    "data_cessao_credito": "01/08/2025"
   },
   {
     "id": 333631991,
@@ -4576,7 +4678,8 @@
         "motivo_classificacao": "Há menção expressa à assinatura de instrumento de cessão de direitos creditórios pelo síndico, com alvará judicial, em processo de falência, indicando cessão real de crédito concursal."
       }
     ],
-    "valor_causa": 0.01
+    "valor_causa": 0.01,
+    "data_cessao_credito": "01/08/2025"
   },
   {
     "id": 333960645,
@@ -4638,7 +4741,8 @@
         "motivo_classificacao": "Há menção expressa a contrato de cessão de crédito concursal (honorários advocatícios da massa falida), com homologação judicial e substituição de credor no processo de falência."
       }
     ],
-    "valor_causa": 1.0
+    "valor_causa": 1.0,
+    "data_cessao_credito": "01/08/2025"
   },
   {
     "id": 338044663,
@@ -4675,7 +4779,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal, pedido de substituição no QGC, homologação judicial e contrato registrado, configurando cessão de crédito real em falência."
       }
     ],
-    "valor_causa": 1219030.0
+    "valor_causa": 1219030.0,
+    "data_cessao_credito": "07/08/2025"
   },
   {
     "id": 338203631,
@@ -4716,7 +4821,8 @@
         "motivo_classificacao": "Há descrição detalhada de cessão de crédito concursal com instrumento formal (escritura pública), menção a processo de RJ/falência (classe do processo e juízo indicam falência), e pedido de substituição de credor no QGC, caracterizando cessão real."
       }
     ],
-    "valor_causa": 160510.32
+    "valor_causa": 160510.32,
+    "data_cessao_credito": "26 de janeiro de 2023"
   },
   {
     "id": 342092558,
@@ -4835,7 +4941,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com anotação no processo principal de falência da Indústria Metalúrgica Pastre Ltda, indicando transferência de crédito real."
       }
     ],
-    "valor_causa": 1.0
+    "valor_causa": 1.0,
+    "data_cessao_credito": "08/08/2025"
   },
   {
     "id": 339417819,
@@ -4874,7 +4981,8 @@
         "motivo_classificacao": "Há menção expressa à cessão onerosa de crédito, parecer favorável do síndico para retificação do QGC e autorização judicial para atualização do quadro-geral de credores, configurando cessão de crédito real em falência."
       }
     ],
-    "valor_causa": 3856.55
+    "valor_causa": 3856.55,
+    "data_cessao_credito": "08/08/2025"
   },
   {
     "id": 343429195,
@@ -4915,7 +5023,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com homologação judicial e pedido de manifestação sobre quitação plena do crédito cedido no processo principal de recuperação judicial."
       }
     ],
-    "valor_causa": 757914724.0
+    "valor_causa": 757914724.0,
+    "data_cessao_credito": "13/08/2025"
   },
   {
     "id": 348736561,
@@ -5011,7 +5120,8 @@
         "motivo_classificacao": "Há homologação judicial de cessão de crédito na recuperação judicial da empresa recuperanda, com manifestação do administrador judicial, caracterizando cessão de crédito real, embora não haja detalhamento de cedente, cessionário ou valor."
       }
     ],
-    "valor_causa": 100000.0
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "18/08/2025"
   },
   {
     "id": 350408759,
@@ -5052,7 +5162,8 @@
         "motivo_classificacao": "Há menção expressa a termo de cessão, cadeia cessionária, homologação judicial e atualização do QGC, configurando cessão de crédito real em recuperação judicial."
       }
     ],
-    "valor_causa": 125570581.68
+    "valor_causa": 125570581.68,
+    "data_cessao_credito": "21/08/2025"
   },
   {
     "id": 352884078,
@@ -5222,7 +5333,8 @@
         "motivo_classificacao": "Há menção expressa à homologação judicial de cessão de crédito concursal, com análise de procuração e termo de cessão, no processo de recuperação judicial da VEV Comercio de Medicamentos Ltda."
       }
     ],
-    "valor_causa": 282256716.46
+    "valor_causa": 282256716.46,
+    "data_cessao_credito": "22/08/2025"
   },
   {
     "id": 352316049,
@@ -5264,7 +5376,8 @@
         "motivo_classificacao": "Há menção expressa à cessão parcial de crédito concursal da Agrícola Confiagro Ltda. para a GUARDIAN FIDC, com referência a termo contratual e efeitos no processo de recuperação judicial da Tresbomm, incluindo pedido de substituição de credor e homologação judicial implícita no contexto."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "22/08/2025"
   },
   {
     "id": 355726692,
@@ -5316,7 +5429,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com pedido de alteração do polo da demanda e manifestação do Administrador Judicial, indicando cessão real homologada no processo de recuperação judicial."
       }
     ],
-    "valor_causa": 1076208843.35
+    "valor_causa": 1076208843.35,
+    "data_cessao_credito": "28 de maio de 2020"
   },
   {
     "id": 356692974,
@@ -5354,7 +5468,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito noticiada e anotada no QGC, com pedido de manifestação do administrador judicial e homologação judicial, configurando cessão de crédito real em processo falimentar."
       }
     ],
-    "valor_causa": 14467294.56
+    "valor_causa": 14467294.56,
+    "data_cessao_credito": "28/08/2025"
   },
   {
     "id": 358791184,
@@ -5400,7 +5515,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito com homologação judicial e pedido de substituição processual no processo de execução relacionado à recuperação judicial da Indústria Metalúrgica Pastre Ltda."
       }
     ],
-    "valor_causa": 6132394.0
+    "valor_causa": 6132394.0,
+    "data_cessao_credito": "29/08/2025"
   },
   {
     "id": 361689530,
@@ -5440,7 +5556,8 @@
         "motivo_classificacao": "Há menção expressa à homologação judicial da cessão de crédito concursal, com exclusão do crédito do QGC e pedido de substituição de credor, configurando cessão de crédito real em falência."
       }
     ],
-    "valor_causa": 25161.91
+    "valor_causa": 25161.91,
+    "data_cessao_credito": "03/09/2025"
   },
   {
     "id": 362318522,
@@ -5484,7 +5601,8 @@
         "motivo_classificacao": "Há menção expressa a instrumento particular de contrato de cessão de crédito concursal, reconhecimento judicial do grupo econômico, convolação da recuperação judicial em falência e execução baseada em crédito cedido, configurando cessão de crédito real."
       }
     ],
-    "valor_causa": 1491365.46
+    "valor_causa": 1491365.46,
+    "data_cessao_credito": "05/07/2016"
   },
   {
     "id": 362631884,
@@ -5527,7 +5645,8 @@
         "motivo_classificacao": "Há menção expressa a contrato de cessão de crédito concursal, pedido de sucessão processual e homologação judicial da cessão em processo de recuperação judicial."
       }
     ],
-    "valor_causa": 10002171.62
+    "valor_causa": 10002171.62,
+    "data_cessao_credito": "11/09/2019"
   },
   {
     "id": 365523323,
@@ -5570,7 +5689,8 @@
         "motivo_classificacao": "Há pedido de substituição de credores no QGC, manifestação do síndico confirmando cessão de crédito, e determinação para retificação do QGC incluindo a cessionária, configurando cessão de crédito real em falência."
       }
     ],
-    "valor_causa": 1125970.9
+    "valor_causa": 1125970.9,
+    "data_cessao_credito": "05/09/2025"
   },
   {
     "id": 365984481,
@@ -5610,7 +5730,8 @@
         "motivo_classificacao": "Há pedido e homologação judicial de cessão de crédito concursal com substituição no quadro geral de credores em processo de recuperação judicial."
       }
     ],
-    "valor_causa": 71293749.78
+    "valor_causa": 71293749.78,
+    "data_cessao_credito": "05/09/2025"
   },
   {
     "id": 364308698,
@@ -5654,7 +5775,8 @@
         "motivo_classificacao": "Há menção expressa a cessão de crédito concursal com homologação judicial, inclusão no QGC e contrato de cessão anexado ao processo de recuperação judicial."
       }
     ],
-    "valor_causa": 389276.76
+    "valor_causa": 389276.76,
+    "data_cessao_credito": "12/04/2024"
   },
   {
     "id": 368066222,
@@ -5693,7 +5815,8 @@
         "motivo_classificacao": "Há menção expressa a cessão de crédito em contexto de recuperação judicial da exequente, com intimação da cessionária e referência a contrato e cálculos, indicando cessão real; porém, não há dados claros sobre homologação judicial ou pedido de substituição no QGC, por isso confiança média."
       }
     ],
-    "valor_causa": 116330.91
+    "valor_causa": 116330.91,
+    "data_cessao_credito": "10/09/2025"
   },
   {
     "id": 368106809,
@@ -5755,7 +5878,8 @@
         "motivo_classificacao": "Há menção expressa a contrato e homologação judicial de cessão de crédito concursal na falência, com pedido de substituição de credor no QGC e concordância do Ministério Público."
       }
     ],
-    "valor_causa": 1.0
+    "valor_causa": 1.0,
+    "data_cessao_credito": "10/09/2025"
   },
   {
     "id": 369461138,
@@ -6076,7 +6200,8 @@
         "motivo_classificacao": "Há pedido de manifestação da devedora sobre cessão de crédito e menção à revisão da titularidade no QGC, configurando cessão de crédito real em recuperação judicial."
       }
     ],
-    "valor_causa": 666569306.98
+    "valor_causa": 666569306.98,
+    "data_cessao_credito": "11/09/2025"
   },
   {
     "id": 369704494,
@@ -6132,7 +6257,8 @@
         "motivo_classificacao": "Há menção expressa a contratos de cessão e aquisição de direitos de crédito concursal, com transferência da titularidade, pedido de substituição de credor no QGC e discussão judicial no processo de recuperação judicial."
       }
     ],
-    "valor_causa": 39793435.6
+    "valor_causa": 39793435.6,
+    "data_cessao_credito": "11/09/2025"
   },
   {
     "id": 369794835,
@@ -6170,7 +6296,8 @@
         "motivo_classificacao": "Há menção expressa à substituição de credor no QGC, homologação judicial e cessão entre credores na massa falida."
       }
     ],
-    "valor_causa": 14610.0
+    "valor_causa": 14610.0,
+    "data_cessao_credito": "11/09/2025"
   },
   {
     "id": 375071563,
@@ -6208,7 +6335,8 @@
         "motivo_classificacao": "Há menção expressa a cessão de crédito concursal, pedido de substituição de credor no QGC e decisão judicial envolvendo crédito sujeito à recuperação judicial da Sperafico."
       }
     ],
-    "valor_causa": 27637629.59
+    "valor_causa": 27637629.59,
+    "data_cessao_credito": "12/09/2025"
   },
   {
     "id": 370605617,
@@ -6247,7 +6375,8 @@
         "motivo_classificacao": "Há menção expressa a cessão de crédito concursal com homologação judicial anterior à recuperação judicial da empresa, e discussão sobre a substituição do credor no processo de recuperação judicial, caracterizando cessão de crédito real."
       }
     ],
-    "valor_causa": 27637629.59
+    "valor_causa": 27637629.59,
+    "data_cessao_credito": "11.9.19"
   },
   {
     "id": 380702266,
@@ -6289,7 +6418,8 @@
         "motivo_classificacao": "Há menção expressa à substituição do credor no QGC, homologação judicial da cessão e instrumento de cessão entre credores no processo de recuperação judicial."
       }
     ],
-    "valor_causa": 79386626.44
+    "valor_causa": 79386626.44,
+    "data_cessao_credito": "17/09/2025"
   },
   {
     "id": 389817055,
@@ -6324,7 +6454,8 @@
         "motivo_classificacao": "O texto menciona homologação judicial de cessão de crédito concursal em processo de recuperação judicial, com substituição de credor no QGC, caracterizando cessão de crédito real."
       }
     ],
-    "valor_causa": 135884529.21
+    "valor_causa": 135884529.21,
+    "data_cessao_credito": "19/09/2025"
   },
   {
     "id": 390353998,
@@ -6366,7 +6497,8 @@
         "motivo_classificacao": "Há menção expressa a instrumento de cessão de crédito concursal, pedido de substituição no QGC e discussão judicial sobre titularidade do crédito na falência da recuperanda."
       }
     ],
-    "valor_causa": 1.0
+    "valor_causa": 1.0,
+    "data_cessao_credito": "19/09/2025"
   },
   {
     "id": 390574399,
@@ -6413,7 +6545,8 @@
         "motivo_classificacao": "Há menção expressa à cessão integral dos créditos da cooperativa para terceiros, discussão sobre a descaracterização do ato cooperativo e reinclusão no quadro geral de credores da recuperação judicial, indicando cessão real de crédito concursal com substituição de credor no QGC."
       }
     ],
-    "valor_causa": 136885.8
+    "valor_causa": 136885.8,
+    "data_cessao_credito": "28 de março de 2025"
   },
   {
     "id": 385633370,
@@ -6455,7 +6588,8 @@
         "motivo_classificacao": "Há menção clara a instrumento de cessão de crédito formalizado, pedido de transferência do crédito para conta judicial vinculada ao processo de recuperação judicial, e discussão sobre competência do juízo da recuperação para análise do crédito cedido."
       }
     ],
-    "valor_causa": 27637629.59
+    "valor_causa": 27637629.59,
+    "data_cessao_credito": "11/09/2019"
   },
   {
     "id": 397505682,
@@ -6535,7 +6669,8 @@
         "motivo_classificacao": "Há menção expressa à sub-rogação do crédito do BRDE pela RRA, com homologação judicial e substituição do credor fiduciário no processo de recuperação judicial da ACIPAR LUBRIFICANTES LTDA."
       }
     ],
-    "valor_causa": 27933724.61
+    "valor_causa": 27933724.61,
+    "data_cessao_credito": "25/09/2025"
   },
   {
     "id": 403692609,
@@ -6575,7 +6710,8 @@
         "motivo_classificacao": "Há menção expressa a cessão de crédito, pedido de substituição de credor no QGC e discussão judicial sobre a titularidade do crédito na RJ."
       }
     ],
-    "valor_causa": 10000.0
+    "valor_causa": 10000.0,
+    "data_cessao_credito": "26/09/2025"
   },
   {
     "id": 404239258,
@@ -6611,7 +6747,8 @@
         "motivo_classificacao": "Há menção a cessão de crédito com depósito judicial pela cessionária em processo de falência da recuperanda, indicando cessão real."
       }
     ],
-    "valor_causa": 3650.0
+    "valor_causa": 3650.0,
+    "data_cessao_credito": "26/09/2025"
   },
   {
     "id": 408549757,
@@ -6651,7 +6788,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito, pedido de substituição de credor no processo de recuperação judicial e homologação judicial da cessão."
       }
     ],
-    "valor_causa": 31870765.98
+    "valor_causa": 31870765.98,
+    "data_cessao_credito": "01/10/2025"
   },
   {
     "id": 409280266,
@@ -6701,7 +6839,8 @@
         "motivo_classificacao": "Há pedido e homologação judicial expressa da cessão do crédito concursal, com manifestação favorável da administradora judicial e da recuperanda, configurando cessão de crédito real em recuperação judicial."
       }
     ],
-    "valor_causa": 10000.0
+    "valor_causa": 10000.0,
+    "data_cessao_credito": "01/10/2025"
   },
   {
     "id": 409349366,
@@ -6739,7 +6878,8 @@
         "motivo_classificacao": "Há descrição detalhada da cessão de crédito concursal via escritura pública, com cadeia de cessões homologadas e discussão sobre titularidade do crédito em precatório, caracterizando cessão real em contexto concursal."
       }
     ],
-    "valor_causa": 298417.55
+    "valor_causa": 298417.55,
+    "data_cessao_credito": "01/10/2025"
   },
   {
     "id": 416068905,
@@ -6793,7 +6933,8 @@
         "motivo_classificacao": "Há menção expressa a contratos de cessão de crédito concursal, pedido de substituição de credor no QGC e homologação judicial implícita no contexto da recuperação judicial da Pelehnsa Energia do Brasil Ltda, com credores Exodus e Trusthub como cessionários."
       }
     ],
-    "valor_causa": 39793435.6
+    "valor_causa": 39793435.6,
+    "data_cessao_credito": "03/10/2025"
   },
   {
     "id": 418161063,
@@ -6830,7 +6971,8 @@
         "motivo_classificacao": "Há menção expressa à escritura pública de cessão de crédito e à recuperação judicial da empresa cessionária, indicando cessão de crédito real em contexto de RJ."
       }
     ],
-    "valor_causa": 59265.23
+    "valor_causa": 59265.23,
+    "data_cessao_credito": "08/10/2025"
   },
   {
     "id": 423851972,
@@ -6871,7 +7013,8 @@
         "motivo_classificacao": "Há menção a instrumento de cessão de crédito, pedido de substituição no QGC e homologação judicial em processo de falência da recuperanda."
       }
     ],
-    "valor_causa": 101874.15
+    "valor_causa": 101874.15,
+    "data_cessao_credito": "10/10/2025"
   },
   {
     "id": 426556740,
@@ -6917,7 +7060,8 @@
         "motivo_classificacao": "Houve cessão real de crédito concursal com pedido de habilitação e homologação judicial, envolvendo substituição de credor no QGC da recuperação judicial da CLARION."
       }
     ],
-    "valor_causa": 899770.0
+    "valor_causa": 899770.0,
+    "data_cessao_credito": "05/06/2013"
   },
   {
     "id": 426717382,
@@ -6963,7 +7107,8 @@
         "motivo_classificacao": "O texto menciona termos de cessão de crédito, homologação judicial e substituição no QGC, caracterizando cessão de crédito real em recuperação judicial."
       }
     ],
-    "valor_causa": 332060.93
+    "valor_causa": 332060.93,
+    "data_cessao_credito": "15/10/2025"
   },
   {
     "id": 435954073,
@@ -7002,7 +7147,8 @@
         "motivo_classificacao": "Há menção expressa a instrumento de cessão, homologação judicial, substituição do credor no QGC e crédito concursal na falência da recuperanda."
       }
     ],
-    "valor_causa": 100000.0
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "23/10/2025"
   },
   {
     "id": 438528671,
@@ -7040,7 +7186,8 @@
         "motivo_classificacao": "Há menção expressa à anotação da cessão de crédito informada e pedido de substituição processual, em processo de recuperação judicial, indicando cessão real de crédito concursal."
       }
     ],
-    "valor_causa": 35505082.43
+    "valor_causa": 35505082.43,
+    "data_cessao_credito": "24/10/2025"
   },
   {
     "id": 439749144,
@@ -7086,7 +7233,8 @@
         "motivo_classificacao": "Há homologação judicial de cessão de crédito e pedido de retificação no QGC, configurando cessão de crédito real em recuperação judicial."
       }
     ],
-    "valor_causa": 10000.0
+    "valor_causa": 10000.0,
+    "data_cessao_credito": "24/10/2025"
   },
   {
     "id": 439807174,
@@ -7198,7 +7346,8 @@
         "motivo_classificacao": "Há menção expressa a diversas cessões de crédito e à retificação do quadro geral de credores para incluir cessionários, caracterizando cessão de crédito real em contexto de recuperação judicial."
       }
     ],
-    "valor_causa": 326003179.22
+    "valor_causa": 326003179.22,
+    "data_cessao_credito": "24/10/2025"
   },
   {
     "id": 439852608,
@@ -7255,7 +7404,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal válida e eficaz, com anotação no QGC e homologação judicial no processo falimentar da massa falida Supermercado Dias Ltda."
       }
     ],
-    "valor_causa": 1219030.0
+    "valor_causa": 1219030.0,
+    "data_cessao_credito": "24/10/2025"
   },
   {
     "id": 440005559,
@@ -7346,7 +7496,8 @@
         "motivo_classificacao": "Há deferimento judicial de cessão de crédito no processo principal de falência, indicando cessão real, embora detalhes específicos da cessão não estejam no texto."
       }
     ],
-    "valor_causa": 100000.0
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "24/10/2025"
   },
   {
     "id": 441176627,
@@ -7411,7 +7562,8 @@
         "motivo_classificacao": "Há menção expressa à cessão parcial de crédito habilitado em favor de cessionária, com pedido de manifestação das recuperandas, indicando cessão real de crédito concursal em processo de recuperação judicial."
       }
     ],
-    "valor_causa": 16897666.92
+    "valor_causa": 16897666.92,
+    "data_cessao_credito": "29/10/2025"
   },
   {
     "id": 444698603,
@@ -7450,7 +7602,8 @@
         "motivo_classificacao": "Há menção expressa à cessão do crédito, com crédito habilitado na recuperação judicial da EMPO, e pedido de manifestação sobre substituição de credor."
       }
     ],
-    "valor_causa": 30518038.8
+    "valor_causa": 30518038.8,
+    "data_cessao_credito": "31/10/2025"
   },
   {
     "id": 446083662,
@@ -7490,7 +7643,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com pedido de substituição de credor e homologação judicial no processo de recuperação judicial."
       }
     ],
-    "valor_causa": 71293749.78
+    "valor_causa": 71293749.78,
+    "data_cessao_credito": "31/10/2025"
   },
   {
     "id": 443406884,
@@ -7562,7 +7716,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito no âmbito do processo de recuperação judicial, com pedido de habilitação do cessionário e determinação para atualização do QGC pela síndica, caracterizando cessão de crédito real."
       }
     ],
-    "valor_causa": 2045.69
+    "valor_causa": 2045.69,
+    "data_cessao_credito": "31/10/2025"
   },
   {
     "id": 443510686,
@@ -7724,7 +7879,8 @@
         "motivo_classificacao": "Há descrição clara de cessão de crédito concursal com pedido de substituição no QGC, homologação judicial e menção a instrumento de cessão, caracterizando cessão de crédito real em recuperação judicial."
       }
     ],
-    "valor_causa": 1076208843.35
+    "valor_causa": 1076208843.35,
+    "data_cessao_credito": "22/02/2021"
   },
   {
     "id": 449509798,
@@ -7762,7 +7918,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de créditos firmada entre credores no contexto da recuperação judicial, com pedido de inclusão do cessionário no polo passivo e discussão sobre o crédito impugnado, caracterizando cessão de crédito real."
       }
     ],
-    "valor_causa": 1819933.86
+    "valor_causa": 1819933.86,
+    "data_cessao_credito": "07/11/2025"
   },
   {
     "id": 450314611,
@@ -7921,7 +8078,8 @@
         "motivo_classificacao": "Há menção expressa à substituição de credores no QGC e participação das cessionárias em substituição às cedentes, caracterizando cessão de crédito real em recuperação judicial."
       }
     ],
-    "valor_causa": 92210661.9
+    "valor_causa": 92210661.9,
+    "data_cessao_credito": "07/11/2025"
   },
   {
     "id": 451338206,
@@ -7965,7 +8123,8 @@
         "motivo_classificacao": "Há reconhecimento judicial da cessão de crédito, substituição do credor no QGC e homologação do crédito concursal na recuperação judicial da JR BOVINOS E OUTROS."
       }
     ],
-    "valor_causa": 51410985.01
+    "valor_causa": 51410985.01,
+    "data_cessao_credito": "07/11/2025"
   },
   {
     "id": 454591613,
@@ -8002,7 +8161,8 @@
         "motivo_classificacao": "Há menção expressa a termo de cessão, homologação judicial da cessão e substituição do credor no quadro geral de credores da recuperanda."
       }
     ],
-    "valor_causa": 244760739.65
+    "valor_causa": 244760739.65,
+    "data_cessao_credito": "14/11/2025"
   },
   {
     "id": 456233862,
@@ -8038,7 +8198,8 @@
         "motivo_classificacao": "Há menção expressa a contrato de cessão de crédito concursal homologado judicialmente, com substituição do credor no processo de execução, caracterizando cessão de crédito real em contexto de recuperação judicial/falência."
       }
     ],
-    "valor_causa": 35350479.42
+    "valor_causa": 35350479.42,
+    "data_cessao_credito": "14/11/2025"
   },
   {
     "id": 457085302,
@@ -8078,7 +8239,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito pela administradora judicial no processo de recuperação judicial, indicando transferência real de crédito concursal."
       }
     ],
-    "valor_causa": 34405013.46
+    "valor_causa": 34405013.46,
+    "data_cessao_credito": "14/11/2025"
   },
   {
     "id": 460142347,
@@ -8116,7 +8278,8 @@
         "motivo_classificacao": "Há menção expressa a Escritura Pública de Cessão de Direitos Creditórios com substituição de credor e a recuperanda está em Recuperação Judicial, caracterizando cessão de crédito real."
       }
     ],
-    "valor_causa": 158712.62
+    "valor_causa": 158712.62,
+    "data_cessao_credito": "20/11/2025"
   },
   {
     "id": 461937401,
@@ -8170,7 +8333,8 @@
         "motivo_classificacao": "Há homologação judicial da cessão de crédito concursal com pedido de substituição de credor no QGC e menção a instrumento de cessão e sucessão processual na recuperação judicial."
       }
     ],
-    "valor_causa": 10000.0
+    "valor_causa": 10000.0,
+    "data_cessao_credito": "21/11/2025"
   },
   {
     "id": 461937684,
@@ -8212,7 +8376,8 @@
         "motivo_classificacao": "Há menção expressa à cessão parcial do crédito concursal com homologação judicial e pedido de substituição de credor no QGC no processo principal de recuperação judicial da recuperanda."
       }
     ],
-    "valor_causa": 271172984.69
+    "valor_causa": 271172984.69,
+    "data_cessao_credito": "21/11/2025"
   },
   {
     "id": 463148948,
@@ -8256,7 +8421,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com homologação judicial, substituição no QGC e manifestação do administrador judicial confirmando a validade da cessão."
       }
     ],
-    "valor_causa": 98207484.87
+    "valor_causa": 98207484.87,
+    "data_cessao_credito": "21/11/2025"
   },
   {
     "id": 467373777,
@@ -8296,7 +8462,8 @@
         "motivo_classificacao": "Há menção expressa a contrato de cessão de crédito e pedido de retificação do polo ativo, indicando substituição de credor em processo de falência da recuperanda."
       }
     ],
-    "valor_causa": 40496.97
+    "valor_causa": 40496.97,
+    "data_cessao_credito": "28/11/2025"
   },
   {
     "id": 468088929,
@@ -8337,7 +8504,8 @@
         "motivo_classificacao": "Há menção expressa a cessão de crédito com homologação judicial e expedição de alvará para levantamento, envolvendo massa falida, configurando cessão de crédito real."
       }
     ],
-    "valor_causa": 35000000.0
+    "valor_causa": 35000000.0,
+    "data_cessao_credito": "28/11/2025"
   },
   {
     "id": 468156358,
@@ -8395,7 +8563,8 @@
         "motivo_classificacao": "Há menção expressa a cessão de crédito concursal com instrumento formalizado, pedido de inclusão no quadro geral de credores e homologação judicial em processo relacionado à massa falida ou recuperanda."
       }
     ],
-    "valor_causa": 130000.0
+    "valor_causa": 130000.0,
+    "data_cessao_credito": "28/11/2025"
   },
   {
     "id": 468597212,
@@ -8453,7 +8622,8 @@
         "motivo_classificacao": "Há menção expressa à análise e regularidade das cessões de crédito comunicadas no processo, com homologação judicial e atualização da relação de credores no QGC, caracterizando cessão de crédito real em contexto de recuperação judicial."
       }
     ],
-    "valor_causa": 17135498.66
+    "valor_causa": 17135498.66,
+    "data_cessao_credito": "01/12/2025"
   },
   {
     "id": 469050200,
@@ -8569,7 +8739,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal, pedido de apresentação do instrumento de cessão e anotação da cessão no processo de recuperação judicial da empresa AVANTE PROMOCAO DE VENDAS LTDA."
       }
     ],
-    "valor_causa": 35505082.43
+    "valor_causa": 35505082.43,
+    "data_cessao_credito": "03/12/2025"
   },
   {
     "id": 469252062,
@@ -8612,7 +8783,8 @@
         "motivo_classificacao": "Há pedido de substituição de credor no QGC, homologação judicial da cessão e menção expressa a cessão de crédito em recuperação judicial."
       }
     ],
-    "valor_causa": 5355882.39
+    "valor_causa": 5355882.39,
+    "data_cessao_credito": "03/12/2025"
   },
   {
     "id": 469381642,
@@ -8673,7 +8845,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com homologação judicial e substituição de credor no processo de falência/recuperação judicial da Usina de Açúcar Santa Terezinha Ltda."
       }
     ],
-    "valor_causa": null
+    "valor_causa": null,
+    "data_cessao_credito": "03/12/2025"
   },
   {
     "id": 470609753,
@@ -8756,7 +8929,8 @@
         "motivo_classificacao": "Há notícia e confirmação judicial de cessão de crédito concursal com anotação no QGC, envolvendo cedente e cessionário distintos em processo de recuperação judicial."
       }
     ],
-    "valor_causa": 360787967.12
+    "valor_causa": 360787967.12,
+    "data_cessao_credito": "04/12/2025"
   },
   {
     "id": 471008377,
@@ -8791,7 +8965,8 @@
         "motivo_classificacao": "Há menção expressa a instrumento público de cessão de crédito em autos de recuperação judicial, com pedido de substituição de credor, caracterizando cessão de crédito real."
       }
     ],
-    "valor_causa": 1900445.04
+    "valor_causa": 1900445.04,
+    "data_cessao_credito": "04/12/2025"
   },
   {
     "id": 473014050,
@@ -8847,7 +9022,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com pedido de substituição de credor no QGC e análise judicial da cessão no processo de recuperação judicial da AGROBRASILCHEMICAL COMERCIAL LTDA."
       }
     ],
-    "valor_causa": 72884613.65
+    "valor_causa": 72884613.65,
+    "data_cessao_credito": "12/09/2025"
   },
   {
     "id": 473310999,
@@ -9106,7 +9282,8 @@
         "motivo_classificacao": "Há menção clara à cessão de crédito concursal com homologação judicial e substituição de credor no QGC, envolvendo a massa falida e cessionária, configurando cessão de crédito real."
       }
     ],
-    "valor_causa": 467570174.48
+    "valor_causa": 467570174.48,
+    "data_cessao_credito": "05/12/2025"
   },
   {
     "id": 475652966,
@@ -9143,7 +9320,8 @@
         "motivo_classificacao": "Há menção clara à cessão de crédito concursal da massa falida para terceiro, com discussão sobre ausência de oposição do síndico e valor cedido, caracterizando cessão real em contexto falimentar."
       }
     ],
-    "valor_causa": 2113938.78
+    "valor_causa": 2113938.78,
+    "data_cessao_credito": "31/01/23"
   },
   {
     "id": 475702024,
@@ -9192,7 +9370,8 @@
         "motivo_classificacao": "Há menção clara a contrato de cessão de crédito concursal, com transferência de crédito de credores originários para River Back, e o processo principal é de recuperação judicial da Personalite."
       }
     ],
-    "valor_causa": 78068266.81
+    "valor_causa": 78068266.81,
+    "data_cessao_credito": "10/12/2025"
   },
   {
     "id": 475767959,
@@ -9229,7 +9408,8 @@
         "motivo_classificacao": "Há menção expressa à cessão do crédito originário para cessionária e subcessionário em recuperação judicial, indicando transferência de crédito concursal e pedido de manifestação sobre recuperação judicial."
       }
     ],
-    "valor_causa": 0.01
+    "valor_causa": 0.01,
+    "data_cessao_credito": "10/12/2025"
   },
   {
     "id": 476805289,
@@ -9266,7 +9446,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de créditos, homologação judicial e instrumento de confissão de dívida em contexto de recuperação judicial."
       }
     ],
-    "valor_causa": 245645890.83
+    "valor_causa": 245645890.83,
+    "data_cessao_credito": "11/12/2025"
   },
   {
     "id": 476763198,
@@ -9307,7 +9488,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal durante recuperação judicial, com pedido de autorização judicial e comunicação ao juízo da RJ, caracterizando cessão real."
       }
     ],
-    "valor_causa": 236385.69
+    "valor_causa": 236385.69,
+    "data_cessao_credito": "11/12/2025"
   },
   {
     "id": 480051954,
@@ -9731,7 +9913,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de créditos com concordância da massa falida, pedido de substituição no QGC e homologação judicial, caracterizando cessão de crédito real em falência."
       }
     ],
-    "valor_causa": 100000000.0
+    "valor_causa": 100000000.0,
+    "data_cessao_credito": "12/12/2025"
   },
   {
     "id": 480322829,
@@ -9783,7 +9966,8 @@
         "motivo_classificacao": "Houve comunicação formal de cessão de crédito concursal entre credor e cessionário no processo de recuperação judicial, com menção clara à cessão e partes envolvidas."
       }
     ],
-    "valor_causa": 4435464.72
+    "valor_causa": 4435464.72,
+    "data_cessao_credito": "12/12/2025"
   },
   {
     "id": 478417945,
@@ -9866,7 +10050,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de créditos entre credores na recuperação judicial, com pedido de retificação do QGC, caracterizando cessão de crédito real."
       }
     ],
-    "valor_causa": 14713703.66
+    "valor_causa": 14713703.66,
+    "data_cessao_credito": "12/12/2025"
   },
   {
     "id": 486498140,
@@ -9906,7 +10091,8 @@
         "motivo_classificacao": "Há menção expressa a instrumentos particulares de cessão de direitos creditórios, homologação judicial da cessão, e substituição de credor no QGC da recuperanda OI S.A., configurando cessão de crédito real em contexto de recuperação judicial."
       }
     ],
-    "valor_causa": 35000.0
+    "valor_causa": 35000.0,
+    "data_cessao_credito": "17/12/2025"
   },
   {
     "id": 487751137,
@@ -9970,7 +10156,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com pedido de substituição no Quadro Geral de Credores e homologação judicial, envolvendo créditos garantidos por seguro e sub-rogação, em processo de recuperação judicial da empresa recuperanda."
       }
     ],
-    "valor_causa": 10000000.0
+    "valor_causa": 10000000.0,
+    "data_cessao_credito": "17/12/2025"
   },
   {
     "id": 484497871,
@@ -10012,6 +10199,7 @@
         "motivo_classificacao": "Há menção clara a contrato de cessão de crédito concursal, com substituição de credor e homologação judicial no processo de falência da MEGAMIX."
       }
     ],
-    "valor_causa": 58933.33
+    "valor_causa": 58933.33,
+    "data_cessao_credito": "25/10/2024"
   }
 ]

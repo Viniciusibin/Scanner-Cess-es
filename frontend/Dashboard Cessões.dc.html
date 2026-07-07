@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="./support.js"></script>
+<script src="https://unpkg.com/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 </head>
 <body>
 <x-dc>
@@ -108,6 +109,13 @@
     </sc-for>
   </select>
 
+  <select value="{{ selectedMes }}" onChange="{{ onMesChange }}" style="padding: 6px 12px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 13px; color: #0A1628; cursor: pointer; outline: none;">
+    <option value="">Todos meses</option>
+    <sc-for list="{{ mesOptions }}" as="option" hint-placeholder-count="2">
+      <option value="{{ option.value }}">{{ option.label }}</option>
+    </sc-for>
+  </select>
+
   <sc-if value="{{ showFeed }}" hint-placeholder-val="{{ true }}">
     <select value="{{ selectedCedente }}" onChange="{{ onCedenteChange }}" style="padding: 6px 12px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 13px; color: #0A1628; cursor: pointer; outline: none; max-width: 260px;">
       <option value="">Todos cedentes</option>
@@ -165,6 +173,7 @@
         <div onClick="{{ toggleFeedSort }}" style="width: 150px; flex-shrink: 0; text-align: right; cursor: pointer; user-select: none; display: flex; align-items: center; justify-content: flex-end; gap: 4px; color: #6B7A90;" style-hover="color: #1B6FE0;">
           Valor de Causa <span style="font-size: 9px;">{{ feedSortArrow }}</span>
         </div>
+        <div style="width: 90px; flex-shrink: 0; text-align: right;">Data da Cessão</div>
         <div style="width: 96px; flex-shrink: 0;">Classificação</div>
         <div style="width: 50px; flex-shrink: 0;">Tribunal</div>
         <div style="width: 16px; flex-shrink: 0;"></div>
@@ -204,6 +213,11 @@
             <!-- Valor de Causa -->
             <div style="width: 150px; flex-shrink: 0; text-align: right;">
               <div style="font-size: 11px; font-weight: 700; color: {{ row.valorCausaColor }}; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ row.valorCausaDisplay }}</div>
+            </div>
+
+            <!-- Data da Cessão -->
+            <div style="width: 90px; flex-shrink: 0; text-align: right;">
+              <div style="font-size: 11px; font-weight: 600; color: #475569; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ row.dataCessaoDisplay }}</div>
             </div>
 
             <!-- Classe -->
@@ -277,6 +291,17 @@
         </div>
       </sc-if>
     </div>
+
+    <sc-if value="{{ feedPagination.show }}" hint-placeholder-val="{{ false }}">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 4px 0;">
+        <div style="font-size: 12px; color: #6B7A90;">{{ feedPagination.rangeLabel }}</div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <button onClick="{{ feedPagination.prev }}" disabled="{{ feedPagination.prevDisabled }}" style="padding: 6px 14px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; color: #0A1628; cursor: pointer; opacity: {{ feedPagination.prevOpacity }};">Anterior</button>
+          <span style="font-size: 12px; font-weight: 600; color: #0A1628; font-family: 'DM Mono', monospace;">{{ feedPagination.page }} / {{ feedPagination.totalPages }}</span>
+          <button onClick="{{ feedPagination.next }}" disabled="{{ feedPagination.nextDisabled }}" style="padding: 6px 14px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; color: #0A1628; cursor: pointer; opacity: {{ feedPagination.nextOpacity }};">Próxima</button>
+        </div>
+      </div>
+    </sc-if>
     </div>
   </div>
 </sc-if>
@@ -317,6 +342,9 @@
                 <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase;">valor de causa</div>
               </div>
             </div>
+            <button onClick="{{ grupo.downloadXlsx }}" title="Baixar Excel deste processo" style="width: 28px; height: 28px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; display: flex; align-items: center; justify-content: center; cursor: pointer; flex-shrink: 0;" style-hover="border-color: #1B6FE0; background: #EBF3FE;">
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M8 1.5v8.5m0 0L5 7m3 3l3-3M2.5 12v1.5a1 1 0 001 1h9a1 1 0 001-1V12" stroke="#1B6FE0" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex-shrink: 0; transition: transform 0.2s; transform: rotate({{ grupo.expandRotation }});">
               <path d="M4 6l4 4 4-4" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
@@ -354,14 +382,37 @@
         </div>
       </sc-for>
     </div>
+
+    <sc-if value="{{ processoPagination.show }}" hint-placeholder-val="{{ false }}">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 4px 0;">
+        <div style="font-size: 12px; color: #6B7A90;">{{ processoPagination.rangeLabel }}</div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <button onClick="{{ processoPagination.prev }}" disabled="{{ processoPagination.prevDisabled }}" style="padding: 6px 14px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; color: #0A1628; cursor: pointer; opacity: {{ processoPagination.prevOpacity }};">Anterior</button>
+          <span style="font-size: 12px; font-weight: 600; color: #0A1628; font-family: 'DM Mono', monospace;">{{ processoPagination.page }} / {{ processoPagination.totalPages }}</span>
+          <button onClick="{{ processoPagination.next }}" disabled="{{ processoPagination.nextDisabled }}" style="padding: 6px 14px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; color: #0A1628; cursor: pointer; opacity: {{ processoPagination.nextOpacity }};">Próxima</button>
+        </div>
+      </div>
+    </sc-if>
   </div>
 </sc-if>
 
 <!-- View: Mapa de Players -->
 <sc-if value="{{ showPlayers }}" hint-placeholder-val="{{ false }}">
   <div style="padding: 16px 32px 32px;">
-    <div style="padding: 0 20px 10px; display: flex; align-items: center; gap: 16px; font-size: 10px; font-weight: 700; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.06em;">
+    <div style="padding: 0 20px 10px; display: flex; align-items: center; justify-content: space-between; gap: 16px; font-size: 10px; font-weight: 700; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.06em;">
       <div style="flex: 1; min-width: 0;">Cessionário</div>
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <span style="font-size: 10px; font-weight: 700; color: #94A3B8; text-transform: uppercase;">Organizar cessões por:</span>
+        <div onClick="{{ togglePlayerSortRecuperanda }}" style="display: flex; align-items: center; gap: 6px; cursor: pointer; user-select: none; padding: 6px 12px; border-radius: 6px; background: white; border: 1px solid #D1D9E4; font-size: 11px; font-weight: 700; color: {{ playerSortRecuperandaColor }}; text-transform: uppercase; letter-spacing: 0.04em;" style-hover="border-color: #1B6FE0; color: #1B6FE0;">
+          Recuperanda <span style="font-size: 10px;">{{ playerSortRecuperandaArrow }}</span>
+        </div>
+        <div onClick="{{ togglePlayerSortCedente }}" style="display: flex; align-items: center; gap: 6px; cursor: pointer; user-select: none; padding: 6px 12px; border-radius: 6px; background: white; border: 1px solid #D1D9E4; font-size: 11px; font-weight: 700; color: {{ playerSortCedenteColor }}; text-transform: uppercase; letter-spacing: 0.04em;" style-hover="border-color: #1B6FE0; color: #1B6FE0;">
+          Cedente <span style="font-size: 10px;">{{ playerSortCedenteArrow }}</span>
+        </div>
+        <div onClick="{{ togglePlayerSortValorCausa }}" style="display: flex; align-items: center; gap: 6px; cursor: pointer; user-select: none; padding: 6px 12px; border-radius: 6px; background: white; border: 1px solid #D1D9E4; font-size: 11px; font-weight: 700; color: {{ playerSortValorCausaColor }}; text-transform: uppercase; letter-spacing: 0.04em;" style-hover="border-color: #1B6FE0; color: #1B6FE0;">
+          Valor de Causa <span style="font-size: 10px;">{{ playerSortValorCausaArrow }}</span>
+        </div>
+      </div>
     </div>
     <div style="display: flex; flex-direction: column; gap: 12px;">
       <sc-for list="{{ playerGroups }}" as="player" hint-placeholder-count="4">
@@ -385,6 +436,9 @@
                 <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase;">valor causa (rj/falência)</div>
               </div>
             </div>
+            <button onClick="{{ player.downloadXlsx }}" title="Baixar Excel deste cessionário" style="width: 28px; height: 28px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; display: flex; align-items: center; justify-content: center; cursor: pointer; flex-shrink: 0;" style-hover="border-color: #1B6FE0; background: #EBF3FE;">
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M8 1.5v8.5m0 0L5 7m3 3l3-3M2.5 12v1.5a1 1 0 001 1h9a1 1 0 001-1V12" stroke="#1B6FE0" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex-shrink: 0; transition: transform 0.2s; transform: rotate({{ player.expandRotation }});">
               <path d="M4 6l4 4 4-4" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
@@ -417,14 +471,28 @@
         </div>
       </sc-for>
     </div>
+
+    <sc-if value="{{ playerPagination.show }}" hint-placeholder-val="{{ false }}">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 4px 0;">
+        <div style="font-size: 12px; color: #6B7A90;">{{ playerPagination.rangeLabel }}</div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <button onClick="{{ playerPagination.prev }}" disabled="{{ playerPagination.prevDisabled }}" style="padding: 6px 14px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; color: #0A1628; cursor: pointer; opacity: {{ playerPagination.prevOpacity }};">Anterior</button>
+          <span style="font-size: 12px; font-weight: 600; color: #0A1628; font-family: 'DM Mono', monospace;">{{ playerPagination.page }} / {{ playerPagination.totalPages }}</span>
+          <button onClick="{{ playerPagination.next }}" disabled="{{ playerPagination.nextDisabled }}" style="padding: 6px 14px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; color: #0A1628; cursor: pointer; opacity: {{ playerPagination.nextOpacity }};">Próxima</button>
+        </div>
+      </div>
+    </sc-if>
   </div>
 </sc-if>
 
 <!-- View: Mapa de Cedentes -->
 <sc-if value="{{ showCedentes }}" hint-placeholder-val="{{ false }}">
   <div style="padding: 16px 32px 32px;">
-    <div style="padding: 0 20px 10px; display: flex; align-items: center; gap: 16px; font-size: 10px; font-weight: 700; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.06em;">
+    <div style="padding: 0 20px 10px; display: flex; align-items: center; justify-content: space-between; gap: 16px; font-size: 10px; font-weight: 700; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.06em;">
       <div style="flex: 1; min-width: 0;">Cedente</div>
+      <div onClick="{{ toggleCedenteSort }}" style="display: flex; align-items: center; gap: 6px; cursor: pointer; user-select: none; padding: 6px 12px; border-radius: 6px; background: white; border: 1px solid #D1D9E4; font-size: 11px; font-weight: 700; color: #475569; text-transform: uppercase; letter-spacing: 0.04em;" style-hover="border-color: #1B6FE0; color: #1B6FE0;">
+        Ordenar por Valor de Causa <span style="font-size: 10px;">{{ cedenteSortArrow }}</span>
+      </div>
     </div>
     <div style="display: flex; flex-direction: column; gap: 12px;">
       <sc-for list="{{ cedenteGroups }}" as="cedente" hint-placeholder-count="4">
@@ -448,6 +516,9 @@
                 <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase;">valor causa (rj/falência)</div>
               </div>
             </div>
+            <button onClick="{{ cedente.downloadXlsx }}" title="Baixar Excel deste cedente" style="width: 28px; height: 28px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; display: flex; align-items: center; justify-content: center; cursor: pointer; flex-shrink: 0;" style-hover="border-color: #1B6FE0; background: #EBF3FE;">
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M8 1.5v8.5m0 0L5 7m3 3l3-3M2.5 12v1.5a1 1 0 001 1h9a1 1 0 001-1V12" stroke="#1B6FE0" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex-shrink: 0; transition: transform 0.2s; transform: rotate({{ cedente.expandRotation }});">
               <path d="M4 6l4 4 4-4" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
@@ -480,6 +551,17 @@
         </div>
       </sc-for>
     </div>
+
+    <sc-if value="{{ cedentePagination.show }}" hint-placeholder-val="{{ false }}">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 4px 0;">
+        <div style="font-size: 12px; color: #6B7A90;">{{ cedentePagination.rangeLabel }}</div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <button onClick="{{ cedentePagination.prev }}" disabled="{{ cedentePagination.prevDisabled }}" style="padding: 6px 14px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; color: #0A1628; cursor: pointer; opacity: {{ cedentePagination.prevOpacity }};">Anterior</button>
+          <span style="font-size: 12px; font-weight: 600; color: #0A1628; font-family: 'DM Mono', monospace;">{{ cedentePagination.page }} / {{ cedentePagination.totalPages }}</span>
+          <button onClick="{{ cedentePagination.next }}" disabled="{{ cedentePagination.nextDisabled }}" style="padding: 6px 14px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; color: #0A1628; cursor: pointer; opacity: {{ cedentePagination.nextOpacity }};">Próxima</button>
+        </div>
+      </div>
+    </sc-if>
   </div>
 </sc-if>
 
@@ -567,6 +649,17 @@
         </div>
       </sc-for>
     </div>
+
+    <sc-if value="{{ bancoPagination.show }}" hint-placeholder-val="{{ false }}">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 4px 0;">
+        <div style="font-size: 12px; color: #6B7A90;">{{ bancoPagination.rangeLabel }}</div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <button onClick="{{ bancoPagination.prev }}" disabled="{{ bancoPagination.prevDisabled }}" style="padding: 6px 14px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; color: #0A1628; cursor: pointer; opacity: {{ bancoPagination.prevOpacity }};">Anterior</button>
+          <span style="font-size: 12px; font-weight: 600; color: #0A1628; font-family: 'DM Mono', monospace;">{{ bancoPagination.page }} / {{ bancoPagination.totalPages }}</span>
+          <button onClick="{{ bancoPagination.next }}" disabled="{{ bancoPagination.nextDisabled }}" style="padding: 6px 14px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; color: #0A1628; cursor: pointer; opacity: {{ bancoPagination.nextOpacity }};">Próxima</button>
+        </div>
+      </div>
+    </sc-if>
   </div>
 </sc-if>
 
@@ -647,6 +740,17 @@
         </div>
       </div>
     </div>
+
+    <sc-if value="{{ metricaPagination.show }}" hint-placeholder-val="{{ false }}">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 0 4px;">
+        <div style="font-size: 12px; color: #6B7A90;">{{ metricaPagination.rangeLabel }}</div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <button onClick="{{ metricaPagination.prev }}" disabled="{{ metricaPagination.prevDisabled }}" style="padding: 6px 14px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; color: #0A1628; cursor: pointer; opacity: {{ metricaPagination.prevOpacity }};">Anterior</button>
+          <span style="font-size: 12px; font-weight: 600; color: #0A1628; font-family: 'DM Mono', monospace;">{{ metricaPagination.page }} / {{ metricaPagination.totalPages }}</span>
+          <button onClick="{{ metricaPagination.next }}" disabled="{{ metricaPagination.nextDisabled }}" style="padding: 6px 14px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; color: #0A1628; cursor: pointer; opacity: {{ metricaPagination.nextOpacity }};">Próxima</button>
+        </div>
+      </div>
+    </sc-if>
 
     <!-- Concentração + Estados -->
     <div style="display: flex; gap: 16px; align-items: stretch;">
@@ -742,9 +846,19 @@ class Component extends DCLogic {
       filterCedente: '',
       filterCessionario: '',
       filterAno: '',
+      filterMes: '',
       filterSearch: props.highlightPlayer || '',
       feedSortDir: null,
       processoSortDir: null,
+      cedenteSortDir: null,
+      playerRowSortBy: 'recuperanda',
+      playerRowSortDir: 'asc',
+      pageFeed: 1,
+      pageProcessos: 1,
+      pagePlayers: 1,
+      pageCedentes: 1,
+      pageBancos: 1,
+      pageMetricas: 1,
       rows: Array.isArray(props.dataSource) ? props.dataSource : [],
       meta: null,
       loading: !Array.isArray(props.dataSource),
@@ -819,6 +933,24 @@ class Component extends DCLogic {
     return value.trim();
   }
 
+  mainDebtorName(name) {
+    let value = String(name || '').trim();
+    if (!value) return value;
+
+    if (value.includes(',')) {
+      value = value.split(',')[0].trim();
+    }
+
+    value = value.replace(/\s+E\s+OUTR[AO]S?\b\.?\s*$/i, '').trim();
+
+    const multiDebtorMatch = value.match(/^(.+?\b(?:LTDA|EIRELI|S\/A|S\.A\.?|ME|EPP)\b\.?)\s+e\s+.+$/i);
+    if (multiDebtorMatch) {
+      value = multiDebtorMatch[1].trim();
+    }
+
+    return value;
+  }
+
   entityLabelScore(name) {
     const value = this.cleanEntityDisplayLabel(name);
     if (!value) return -1;
@@ -875,7 +1007,28 @@ class Component extends DCLogic {
     return Object.values(optionMap).sort((a, b) => a.label.localeCompare(b.label, 'pt-BR'));
   }
 
-  sortPlayerRows(rows) {
+  sortRowsBy(rows, sortBy, dir) {
+    if (sortBy === 'valorCausa') {
+      return [...rows].sort((a, b) => this.compareValorCausa(a.valor_causa, b.valor_causa, dir || 'desc'));
+    }
+
+    const fieldName = sortBy === 'cedente' ? 'cedente' : 'recuperanda';
+    const direction = dir === 'desc' ? -1 : 1;
+    return [...rows].sort((a, b) => (
+      direction * this.normalizeSearch(a[fieldName] || '').localeCompare(this.normalizeSearch(b[fieldName] || ''), 'pt-BR')
+    ));
+  }
+
+  togglePlayerRowSort = (field) => {
+    this.setState((state) => {
+      if (state.playerRowSortBy === field) {
+        return { playerRowSortDir: state.playerRowSortDir === 'desc' ? 'asc' : 'desc' };
+      }
+      return { playerRowSortBy: field, playerRowSortDir: field === 'valorCausa' ? 'desc' : 'asc' };
+    });
+  };
+
+  sortPlayerRows(rows, valorCausaDir) {
     const groups = {};
 
     for (const row of rows) {
@@ -883,6 +1036,7 @@ class Component extends DCLogic {
       if (!groups[groupKey]) {
         groups[groupKey] = {
           sortKey: this.normalizeSearch(row.recuperanda || ''),
+          valorCausa: row.valor_causa != null ? row.valor_causa : null,
           rows: [],
         };
       }
@@ -891,13 +1045,21 @@ class Component extends DCLogic {
       if (currentKey && (!groups[groupKey].sortKey || currentKey < groups[groupKey].sortKey)) {
         groups[groupKey].sortKey = currentKey;
       }
+      if (groups[groupKey].valorCausa == null && row.valor_causa != null) {
+        groups[groupKey].valorCausa = row.valor_causa;
+      }
 
       groups[groupKey].rows.push(row);
     }
 
-    return Object.values(groups)
-      .sort((a, b) => a.sortKey.localeCompare(b.sortKey, 'pt-BR'))
-      .flatMap((group) =>
+    const groupList = Object.values(groups);
+    if (valorCausaDir) {
+      groupList.sort((a, b) => this.compareValorCausa(a.valorCausa, b.valorCausa, valorCausaDir));
+    } else {
+      groupList.sort((a, b) => a.sortKey.localeCompare(b.sortKey, 'pt-BR'));
+    }
+
+    return groupList.flatMap((group) =>
         group.rows.sort((left, right) => {
           const recuperandaCompare = this.normalizeSearch(left.recuperanda || '').localeCompare(
             this.normalizeSearch(right.recuperanda || ''),
@@ -988,17 +1150,63 @@ class Component extends DCLogic {
   };
 
   toggleFeedSort = () => {
-    this.setState((state) => ({ feedSortDir: state.feedSortDir === 'desc' ? 'asc' : 'desc' }));
+    this.setState((state) => ({ feedSortDir: state.feedSortDir === 'desc' ? 'asc' : 'desc', pageFeed: 1 }));
   };
 
   toggleProcessoSort = () => {
-    this.setState((state) => ({ processoSortDir: state.processoSortDir === 'desc' ? 'asc' : 'desc' }));
+    this.setState((state) => ({ processoSortDir: state.processoSortDir === 'desc' ? 'asc' : 'desc', pageProcessos: 1 }));
+  };
+
+  toggleCedenteSort = () => {
+    this.setState((state) => ({ cedenteSortDir: state.cedenteSortDir === 'desc' ? 'asc' : 'desc', pageCedentes: 1 }));
   };
 
   sortArrowIcon(dir) {
     if (dir === 'asc') return '▲';
     if (dir === 'desc') return '▼';
     return '↕';
+  }
+
+  resetPages() {
+    return {
+      pageFeed: 1,
+      pageProcessos: 1,
+      pagePlayers: 1,
+      pageCedentes: 1,
+      pageBancos: 1,
+      pageMetricas: 1,
+    };
+  }
+
+  sliceForPage(list, page, pageSize) {
+    const totalPages = Math.max(1, Math.ceil(list.length / pageSize));
+    const current = Math.min(Math.max(1, page || 1), totalPages);
+    const start = (current - 1) * pageSize;
+    return list.slice(start, start + pageSize);
+  }
+
+  paginationInfo(listLength, page, pageSize, stateKey) {
+    const totalPages = Math.max(1, Math.ceil(listLength / pageSize));
+    const current = Math.min(Math.max(1, page || 1), totalPages);
+    const rangeStart = listLength === 0 ? 0 : (current - 1) * pageSize + 1;
+    const rangeEnd = Math.min(current * pageSize, listLength);
+    const prevDisabled = current <= 1;
+    const nextDisabled = current >= totalPages;
+
+    return {
+      page: current,
+      totalPages: totalPages,
+      show: listLength > pageSize,
+      rangeLabel: listLength === 0
+        ? 'Nenhum resultado'
+        : 'Mostrando ' + rangeStart + '–' + rangeEnd + ' de ' + listLength,
+      prevDisabled: prevDisabled,
+      nextDisabled: nextDisabled,
+      prevOpacity: prevDisabled ? '0.5' : '1',
+      nextOpacity: nextDisabled ? '0.5' : '1',
+      prev: () => this.setState((state) => ({ [stateKey]: Math.max(1, (state[stateKey] || 1) - 1) })),
+      next: () => this.setState((state) => ({ [stateKey]: Math.min(totalPages, (state[stateKey] || 1) + 1) })),
+    };
   }
 
   compareValorCausa(a, b, dir) {
@@ -1009,7 +1217,7 @@ class Component extends DCLogic {
   }
 
   applyFilters(rows) {
-    const { filterTribunal, filterClasse, filterCedente, filterCessionario, filterAno, filterSearch } = this.state;
+    const { filterTribunal, filterClasse, filterCedente, filterCessionario, filterAno, filterMes, filterSearch } = this.state;
     const searchNeedle = this.normalizeSearch(filterSearch);
 
     return rows.filter((row) => {
@@ -1017,7 +1225,8 @@ class Component extends DCLogic {
       if (filterClasse && this.classificacaoValue(row.classe) !== filterClasse) return false;
       if (filterCedente && this.normalizeEntityName(row.cedente) !== filterCedente) return false;
       if (filterCessionario && this.normalizeEntityName(row.cessionario) !== filterCessionario) return false;
-      if (filterAno && String(row.ano || '') !== String(filterAno)) return false;
+      if (filterAno && String(this.cessaoYear(row) || '') !== String(filterAno)) return false;
+      if (filterMes && String(this.cessaoMonth(row) || '') !== String(filterMes)) return false;
 
       if (searchNeedle) {
         const haystack = this.normalizeSearch([
@@ -1043,6 +1252,55 @@ class Component extends DCLogic {
       currency: 'BRL',
       maximumFractionDigits: 0,
     }).format(value);
+  }
+
+  sanitizeFileName(text) {
+    return String(text || 'export').trim().replace(/[\\/:*?"<>|]+/g, '-').slice(0, 80) || 'export';
+  }
+
+  downloadGroupXlsx(rows, fileNameBase) {
+    if (!window.XLSX) {
+      console.error('[dashboard] biblioteca XLSX ainda nao carregou, tente novamente em alguns segundos.');
+      return;
+    }
+
+    const data = (rows || []).map((row) => ({
+      CNJ: row.cnj || '',
+      Recuperanda: row.recuperanda || '',
+      Cedente: row.cedente || '',
+      Cessionário: row.cessionario || '',
+      'Valor Cessão': row.valor != null ? row.valor : '',
+      'Valor de Causa': row.valor_causa != null ? row.valor_causa : '',
+      'Data da Cessão': row.data_cessao || '',
+      Classe: row.classe || '',
+      Tribunal: row.tribunal || '',
+      Confiança: row.confianca || '',
+      Link: row.link || '',
+    }));
+
+    const worksheet = window.XLSX.utils.json_to_sheet(data);
+    const workbook = window.XLSX.utils.book_new();
+    window.XLSX.utils.book_append_sheet(workbook, worksheet, 'Cessões');
+    window.XLSX.writeFile(workbook, this.sanitizeFileName(fileNameBase) + '.xlsx');
+  }
+
+  cessaoYear(row) {
+    if (!row.data_cessao) return null;
+    const match = /^(\d{4})-\d{2}-\d{2}$/.exec(row.data_cessao);
+    return match ? Number(match[1]) : null;
+  }
+
+  cessaoMonth(row) {
+    if (!row.data_cessao) return null;
+    const match = /^\d{4}-(\d{2})-\d{2}$/.exec(row.data_cessao);
+    return match ? Number(match[1]) : null;
+  }
+
+  formatDataCessao(row) {
+    if (!row.data_cessao) return '—';
+    const date = new Date(row.data_cessao + 'T00:00:00');
+    if (Number.isNaN(date.getTime())) return '—';
+    return new Intl.DateTimeFormat('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric' }).format(date);
   }
 
   confiancaColor(confianca) {
@@ -1131,15 +1389,26 @@ class Component extends DCLogic {
       filterCedente,
       filterCessionario,
       filterAno,
+      filterMes,
       filterSearch,
       feedSortDir,
       processoSortDir,
+      cedenteSortDir,
+      playerRowSortBy,
+      playerRowSortDir,
+      pageFeed,
+      pageProcessos,
+      pagePlayers,
+      pageCedentes,
+      pageBancos,
+      pageMetricas,
       rows,
       meta,
       loading,
       error,
     } = this.state;
 
+    const PAGE_SIZE = 100;
     const allRows = Array.isArray(rows) ? rows : [];
     const filtered = this.applyFilters(allRows);
 
@@ -1158,7 +1427,15 @@ class Component extends DCLogic {
     const cedenteOptions = this.buildEntityOptions(allRows, 'cedente');
     const cessionarioOptions = this.buildEntityOptions(allRows, 'cessionario');
     const anoOptions = this.buildOptions(
-      [...new Set(allRows.map((row) => row.ano).filter(Boolean))].sort((a, b) => b - a)
+      [...new Set(allRows.map((row) => this.cessaoYear(row)).filter(Boolean))].sort((a, b) => b - a)
+    );
+    const MES_LABELS = [
+      'Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho',
+      'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro',
+    ];
+    const mesOptions = this.buildOptions(
+      [...new Set(allRows.map((row) => this.cessaoMonth(row)).filter(Boolean))].sort((a, b) => a - b),
+      (value) => MES_LABELS[value - 1]
     );
 
     const hasActiveFilters = !!(
@@ -1167,6 +1444,7 @@ class Component extends DCLogic {
       filterCedente ||
       filterCessionario ||
       filterAno ||
+      filterMes ||
       filterSearch
     );
 
@@ -1185,6 +1463,7 @@ class Component extends DCLogic {
         valorColor: row.valor != null ? '#0A1628' : '#94A3B8',
         valorCausaDisplay: this.formatValor(row.valor_causa),
         valorCausaColor: row.valor_causa != null ? '#0F766E' : '#94A3B8',
+        dataCessaoDisplay: this.formatDataCessao(row),
         classeLabel: classe ? classe.label : '',
         classeBg: classe ? classe.bg : 'transparent',
         classeColor: classe ? classe.color : '#6B7280',
@@ -1261,6 +1540,10 @@ class Component extends DCLogic {
             [group.cnj]: !state.expandedProcessos[group.cnj],
           },
         })),
+        downloadXlsx: (event) => {
+          event.stopPropagation();
+          this.downloadGroupXlsx(group.cessoes, 'processo-' + (group.cnj || group.recuperanda));
+        },
       };
     });
 
@@ -1330,7 +1613,7 @@ class Component extends DCLogic {
             (player.processosSet.size > 1 ? 's' : ''),
           expanded: expanded,
           expandRotation: expanded ? '180deg' : '0deg',
-          cessoes: this.sortPlayerRows(player.cessoes).map((row) => ({
+          cessoes: this.sortRowsBy(player.cessoes, playerRowSortBy, playerRowSortDir).map((row) => ({
             recuperanda: row.recuperanda,
             cnj: row.cnj,
             cedente: row.cedente,
@@ -1344,6 +1627,10 @@ class Component extends DCLogic {
               [player.name]: !state.expandedPlayers[player.name],
             },
           })),
+          downloadXlsx: (event) => {
+            event.stopPropagation();
+            this.downloadGroupXlsx(player.cessoes, 'cessionario-' + player.name);
+          },
         };
       })
       .sort((a, b) => b.totalCessoes - a.totalCessoes);
@@ -1386,6 +1673,7 @@ class Component extends DCLogic {
           name: cedente.name,
           totalCessoes: cedente.cessoes.length,
           totalProcessos: cedente.processosSet.size,
+          valorCausa: valorCausaTotal,
           valorCausaDisplay: this.formatValor(valorCausaTotal),
           processosLabel:
             cedente.processosSet.size +
@@ -1395,8 +1683,8 @@ class Component extends DCLogic {
             (cedente.processosSet.size > 1 ? 's' : ''),
           expanded: expanded,
           expandRotation: expanded ? '180deg' : '0deg',
-          cessoes: this.sortPlayerRows(cedente.cessoes).map((row) => ({
-            recuperanda: row.recuperanda,
+          cessoes: this.sortPlayerRows(cedente.cessoes, cedenteSortDir).map((row) => ({
+            recuperanda: this.mainDebtorName(row.recuperanda),
             cnj: row.cnj,
             cessionario: row.cessionario || 'Nao identificado',
             valorDisplay: this.formatValor(row.valor),
@@ -1409,9 +1697,17 @@ class Component extends DCLogic {
               [cedente.name]: !state.expandedCedentes[cedente.name],
             },
           })),
+          downloadXlsx: (event) => {
+            event.stopPropagation();
+            this.downloadGroupXlsx(cedente.cessoes, 'cedente-' + cedente.name);
+          },
         };
       })
-      .sort((a, b) => b.totalCessoes - a.totalCessoes);
+      .sort((a, b) => (
+        cedenteSortDir
+          ? this.compareValorCausa(a.valorCausa, b.valorCausa, cedenteSortDir)
+          : b.totalCessoes - a.totalCessoes
+      ));
 
     const BANK_CANONICAL = ['Santander', 'Itaú', 'Banco do Brasil', 'Bradesco', 'Rabobank'];
 
@@ -1655,6 +1951,25 @@ class Component extends DCLogic {
     const principalParNome = parRanking.length ? parRanking[0].cedenteName + ' → ' + parRanking[0].cessionarioName : 'Sem dados';
     const principalParCessoes = parRanking.length ? cessoesLabel(parRanking[0].totalCessoes) : '—';
 
+    const feedPagination = this.paginationInfo(feedRows.length, pageFeed, PAGE_SIZE, 'pageFeed');
+    const pagedFeedRows = this.sliceForPage(feedRows, pageFeed, PAGE_SIZE);
+
+    const processoPagination = this.paginationInfo(processoGroups.length, pageProcessos, PAGE_SIZE, 'pageProcessos');
+    const pagedProcessoGroups = this.sliceForPage(processoGroups, pageProcessos, PAGE_SIZE);
+
+    const playerPagination = this.paginationInfo(playerGroups.length, pagePlayers, PAGE_SIZE, 'pagePlayers');
+    const pagedPlayerGroups = this.sliceForPage(playerGroups, pagePlayers, PAGE_SIZE);
+
+    const cedentePagination = this.paginationInfo(cedenteGroups.length, pageCedentes, PAGE_SIZE, 'pageCedentes');
+    const pagedCedenteGroups = this.sliceForPage(cedenteGroups, pageCedentes, PAGE_SIZE);
+
+    const bancoPagination = this.paginationInfo(bancoGroups.length, pageBancos, PAGE_SIZE, 'pageBancos');
+    const pagedBancoGroups = this.sliceForPage(bancoGroups, pageBancos, PAGE_SIZE);
+
+    const metricaPagination = this.paginationInfo(topCessionarios.length, pageMetricas, PAGE_SIZE, 'pageMetricas');
+    const pagedTopCessionarios = this.sliceForPage(topCessionarios, pageMetricas, PAGE_SIZE);
+    const pagedTopCedentes = this.sliceForPage(topCedentes, pageMetricas, PAGE_SIZE);
+
     const showStatusBar = !!error || loading;
 
     return {
@@ -1697,38 +2012,49 @@ class Component extends DCLogic {
       selectedCedente: filterCedente,
       selectedCessionario: filterCessionario,
       selectedAno: filterAno,
+      selectedMes: filterMes,
       selectedSearch: filterSearch,
       tribunalOptions: tribunalOptions,
       classeOptions: classeOptions,
       cedenteOptions: cedenteOptions,
       cessionarioOptions: cessionarioOptions,
       anoOptions: anoOptions,
+      mesOptions: mesOptions,
       hasActiveFilters: hasActiveFilters,
 
-      onTribunalChange: (event) => this.setState({ filterTribunal: event.target.value }),
-      onClasseChange: (event) => this.setState({ filterClasse: event.target.value }),
-      onCedenteChange: (event) => this.setState({ filterCedente: event.target.value }),
-      onCessionarioChange: (event) => this.setState({ filterCessionario: event.target.value }),
-      onAnoChange: (event) => this.setState({ filterAno: event.target.value }),
-      onSearchInput: (event) => this.setState({ filterSearch: event.target.value }),
+      onTribunalChange: (event) => this.setState({ filterTribunal: event.target.value, ...this.resetPages() }),
+      onClasseChange: (event) => this.setState({ filterClasse: event.target.value, ...this.resetPages() }),
+      onCedenteChange: (event) => this.setState({ filterCedente: event.target.value, ...this.resetPages() }),
+      onCessionarioChange: (event) => this.setState({ filterCessionario: event.target.value, ...this.resetPages() }),
+      onAnoChange: (event) => this.setState({ filterAno: event.target.value, ...this.resetPages() }),
+      onMesChange: (event) => this.setState({ filterMes: event.target.value, ...this.resetPages() }),
+      onSearchInput: (event) => this.setState({ filterSearch: event.target.value, ...this.resetPages() }),
       clearFilters: () => this.setState({
         filterTribunal: '',
         filterClasse: '',
         filterCedente: '',
         filterCessionario: '',
         filterAno: '',
+        filterMes: '',
         filterSearch: '',
+        ...this.resetPages(),
       }),
 
-      filteredRows: feedRows,
+      filteredRows: pagedFeedRows,
       noResults: !loading && feedRows.length === 0,
-      processoGroups: processoGroups,
-      playerGroups: playerGroups,
-      cedenteGroups: cedenteGroups,
-      bancoGroups: bancoGroups,
+      feedPagination: feedPagination,
+      processoGroups: pagedProcessoGroups,
+      processoPagination: processoPagination,
+      playerGroups: pagedPlayerGroups,
+      playerPagination: playerPagination,
+      cedenteGroups: pagedCedenteGroups,
+      cedentePagination: cedentePagination,
+      bancoGroups: pagedBancoGroups,
+      bancoPagination: bancoPagination,
 
-      topCessionarios: topCessionarios,
-      topCedentes: topCedentes,
+      topCessionarios: pagedTopCessionarios,
+      topCedentes: pagedTopCedentes,
+      metricaPagination: metricaPagination,
       topPares: topPares,
       estadoRanking: estadoRanking,
       hasConcentracaoData: hasConcentracaoData,
@@ -1746,6 +2072,17 @@ class Component extends DCLogic {
       toggleFeedSort: this.toggleFeedSort,
       processoSortArrow: this.sortArrowIcon(processoSortDir),
       toggleProcessoSort: this.toggleProcessoSort,
+      cedenteSortArrow: this.sortArrowIcon(cedenteSortDir),
+      toggleCedenteSort: this.toggleCedenteSort,
+      playerSortRecuperandaArrow: playerRowSortBy === 'recuperanda' ? this.sortArrowIcon(playerRowSortDir) : '↕',
+      playerSortCedenteArrow: playerRowSortBy === 'cedente' ? this.sortArrowIcon(playerRowSortDir) : '↕',
+      playerSortValorCausaArrow: playerRowSortBy === 'valorCausa' ? this.sortArrowIcon(playerRowSortDir) : '↕',
+      playerSortRecuperandaColor: playerRowSortBy === 'recuperanda' ? '#1B6FE0' : '#475569',
+      playerSortCedenteColor: playerRowSortBy === 'cedente' ? '#1B6FE0' : '#475569',
+      playerSortValorCausaColor: playerRowSortBy === 'valorCausa' ? '#1B6FE0' : '#475569',
+      togglePlayerSortRecuperanda: () => this.togglePlayerRowSort('recuperanda'),
+      togglePlayerSortCedente: () => this.togglePlayerRowSort('cedente'),
+      togglePlayerSortValorCausa: () => this.togglePlayerRowSort('valorCausa'),
 
       showStatusBar: showStatusBar,
       statusTitle: error ? 'Falha de conexão' : 'Sincronizando dados',

@@ -1,0 +1,531 @@
+[
+  {
+    "id": null,
+    "cnj": "0000324-53.2025.8.27.2728",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "INDIGO BRAZIL AGRICULTURA LTDA.",
+        "cessionario": "INDIGO FIAGRO - DIREITOS CREDITÓRIOS DO AGRONEGÓCIO",
+        "valor": "3423523,78",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "EDUARDO LOPES PEREIRA (00014781174) (00014781174),EDUARDO LOPES PEREIRA - PRODUTOR RURAL (58452570000100) (58452570000100),ARYANNE CORREIA DE OLIVEIRA PEREIRA (00379561166) (00379561166),ARYANNE CORREIA DE OLIVEIRA PEREIRA - PRODUTORA RURAL (58449475000140) (58449475000140),FERNANDO LOPES PEREIRA (99758466100) (99758466100),FERNANDO LOPES PEREIRA - PRODUTOR RURAL (58452502000133) (58452502000133),JORDANA CANDIDA ALVES MIRANDA (01290716170) (01290716170),JORDANA CANDIDA ALVES MIRANDA – PRODUTORA RURAL (58452597000195) (58452597000195)",
+        "motivo_classificacao": null,
+        "data_cessao": "10/10/2024"
+      }
+    ],
+    "valor_causa": 206754928.45,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "0000519-47.2024.8.27.2704",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "MOSAIC FERTILIZANTES DO BRASIL LTDA.",
+        "cessionario": "AGROINVEST LTDA.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SILVANA RADOLL QUEIROZ,ROSELI RADOLL,RADOLL AGROPECUÁRIA LTDA,PERLA MONIQUE DUARTE MAIA RADOLL,LIDIANE RADOLL RIBEIRO,GISELE STROHHAECKER RADOLL,DOUGLAS ALEXSANDRE RADOLL,DOUPER AGROPECUARIA LTDA,WILLY LORIBERTO RADOLL",
+        "motivo_classificacao": null,
+        "data_cessao": "23/05/2024"
+      }
+    ],
+    "valor_causa": 157007677.04,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "0000809-17.2024.8.27.2719",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ARMAZEM BECKKER LTDA",
+        "cessionario": "MAXINVESTOR FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS MULTISSETORIAL LP",
+        "valor": "500000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "11/10/2022"
+      }
+    ],
+    "valor_causa": 475000.0,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "0000937-90.2018.8.27.2737",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "UPL DO BRASIL INDÚSTRIA E COMÉRCIO DE INSUMOS AGROPECUÁRIOS S.A.",
+        "cessionario": "TRAVESSIA SECURITIZADORA DE CRÉDITOS FINANCEIROS VIII S.A.",
+        "valor": "165556555,55",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "G2 COMERCIAL AGRÍCOLA EIRELI ME (13928290000180) (13928290000180)",
+        "motivo_classificacao": null,
+        "data_cessao": "31/03/2025"
+      }
+    ],
+    "valor_causa": 16521368.25,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "0002666-68.2019.8.27.2721",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "UPL DO BRASIL INDÚSTRIA E COMÉRCIO DE INSUMOS AGROPECUÁRIOS S.A.",
+        "cessionario": "TRAVESSIA SECURITIZADORA DE CRÉDITOS FINANCEIROS VIII S.A.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SANTA TERESA AGROPECUÁRIA LTDA. (29175228000102) (29175228000102),AGROREGIONAL COMÉRCIO E REPRESENTAÇÕES DE PRODUTOS AGROPECUÁRIOS LTDA.-ME (07929567000196) (07929567000196),AGROREGIONAL COMÉRCIO E REPRESENTAÇÃO DE PRODUTOS AGRÍCOLAS LTDA. (11859294000128) (11859294000128),WALMIR ALVES DA CUNHA (05442877115) (05442877115),LUCIANO PAIVA GARCIA (02286754993) (02286754993)",
+        "motivo_classificacao": null,
+        "data_cessao": "29/07/2025"
+      }
+    ],
+    "valor_causa": 36854126.24,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "0003574-22.2024.8.27.2731",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "PORTO CEREAIS LTDA",
+        "cessionario": "STARS BANK FUNDO DE INVESTIMENTOS EM DIREITOS CREDITÓRIOS L P",
+        "valor": "301098,67",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "PORTO CEREAIS LTDA (23170146000180) (23170146000180)",
+        "motivo_classificacao": null,
+        "data_cessao": "28/09/2023"
+      }
+    ],
+    "valor_causa": 335624.65,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "0004817-60.2021.8.27.2713",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO TOPÁZIO",
+        "cessionario": "ERI BORGES REGITANO",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "EMPRESA R. JOSE SOARES DE AZEVEDO (28869195000120) (28869195000120)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 24806200.6,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "0004970-42.2016.8.27.2722",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "MASSA FALIDA DA ENCOL S/A",
+        "cessionario": "SEBASTIÃO CÂNDIDO PARREIRA RODRIGUES",
+        "valor": "500000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "OAS,GALVÃO ENGENHARIA",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 11319138.04,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "0010043-71.2016.8.27.2729",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO VOLKSWAGEN S/A",
+        "cessionario": "R MENDONCA JUNIOR",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "FUTURA AGRO COMÉRCIO DE DEFENSIVOS LTDA. (15109091000175) (15109091000175)",
+        "motivo_classificacao": null,
+        "data_cessao": "08/07/2024"
+      }
+    ],
+    "valor_causa": 1000000.0,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "0012112-82.2025.8.27.2722",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "VITORIA DOS REIS DE SOUZA",
+        "cessionario": "EVIDENCIA AGRICOLA COMERCIO E REPRESENTACAO DE PRODUTOS AGROPECUARIOS LTDA.",
+        "valor": "927955,21",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "INDUSTRIA E COMERCIO DE CEREAIS BOM DE GOSTO LTDA (08089064000112),IBGLOG - LOGISTICA DE TRANSPORTES LTDA (34578502000116)",
+        "motivo_classificacao": null,
+        "data_cessao": "03/10/2025"
+      }
+    ],
+    "valor_causa": 221093110.66,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "0014771-43.2025.8.27.2729",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "LUIZA NOGUEIRA AVELINO SOARES, RANIERI AVELINO SOARES, RENAN SOARES FILHO, NÚBIA LUIZA BEZERRA DE SOUSA SOARES, ROBÉRIO AVELINO SOARES, SIMONE LUSTOSA SANTOS SOARES, RENE AVELINO SOARES",
+        "cessionario": "BEATRIZ DA COSTA FRANCO",
+        "valor": "8000000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "ALAN KARDEC MARTINS BARBIERO (43369383187) (43369383187)",
+        "motivo_classificacao": null,
+        "data_cessao": "11/05/2022"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "LUIZA NOGUEIRA AVELINO SOARES, RANIERI AVELINO SOARES, RENAN SOARES FILHO, NÚBIA LUIZA BEZERRA DE SOUSA SOARES, ROBÉRIO AVELINO SOARES, SIMONE LUSTOSA SANTOS SOARES, RENE AVELINO SOARES",
+        "cessionario": "ALAN KARDEC MARTINS BARBIERO",
+        "valor": "8000000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "ALAN KARDEC MARTINS BARBIERO (43369383187) (43369383187)",
+        "motivo_classificacao": null,
+        "data_cessao": "11/05/2022"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "LUIZA NOGUEIRA AVELINO SOARES, RANIERI AVELINO SOARES, RENAN SOARES FILHO, NÚBIA LUIZA BEZERRA DE SOUSA SOARES, ROBÉRIO AVELINO SOARES, SIMONE LUSTOSA SANTOS SOARES, RENE AVELINO SOARES",
+        "cessionario": "JULIANO MENDES DOS SANTOS",
+        "valor": "8000000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "ALAN KARDEC MARTINS BARBIERO (43369383187) (43369383187)",
+        "motivo_classificacao": null,
+        "data_cessao": "11/05/2022"
+      }
+    ],
+    "valor_causa": 152258722.71,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "0021750-61.2023.8.27.2706",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ITAÚ UNIBANCO S/A",
+        "cessionario": "CF FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS – RESPONSABILIDADE LIMITADA",
+        "valor": "24553,61",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "LKJ – FRIGORÍFICO LTDA. (21393000000179) (21393000000179)",
+        "motivo_classificacao": null,
+        "data_cessao": "03/06/2025"
+      }
+    ],
+    "valor_causa": 103119467.07,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "0026429-35.2023.8.27.2729",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "GAMA COMERCIO DE MOVEIS E DECORAÇÕES EIRELI",
+        "cessionario": "ALFA INTERIORES LTDA",
+        "valor": "137894,68",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "HM CIRURGICA LTDA (30981531000173) (30981531000173)",
+        "motivo_classificacao": null,
+        "data_cessao": "06/10/2023"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "C L BENEDETTI LTDA (MADE ARTE MOVEIS PROJETADOS)",
+        "cessionario": "ALFA INTERIORES LTDA",
+        "valor": "84536,88",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "HM CIRURGICA LTDA (30981531000173) (30981531000173)",
+        "motivo_classificacao": null,
+        "data_cessao": "06/10/2023"
+      }
+    ],
+    "valor_causa": 13200.0,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "0031218-43.2024.8.27.2729",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ARMAZEM AGROPOLL LTDA",
+        "cessionario": "MAXINVESTOR FIDC NÃO PADRONIZADOS MULTISSETORIAL LP",
+        "valor": "473859,88",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "23/11/2023"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ARMAZEM AGROPOLL LTDA",
+        "cessionario": "MAXINVESTOR FIDC NÃO PADRONIZADOS MULTISSETORIAL LP",
+        "valor": "974217,41",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "21/12/2023"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ARMAZEM AGROPOLL LTDA",
+        "cessionario": "MAXINVESTOR FIDC NÃO PADRONIZADOS MULTISSETORIAL LP",
+        "valor": "414991,66",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "01/02/2024"
+      }
+    ],
+    "valor_causa": 1968039.39,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "0041857-23.2024.8.27.2729",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ITAÚ UNIBANCO S.A",
+        "cessionario": "RESTORE ADVISORY INTERMEDIAÇÕES LTDA",
+        "valor": "561184,26",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "QUAVI BIOMERCADO LTDA (10949781000119) (10949781000119),QUAVI SERVIÇOS LTDA (34098676000181) (34098676000181),BIOATACADO LTDA (41192027000100) (41192027000100),QUAVI SERVIÇOS ADMINISTRATIVOS LTDA (53259569000132) (53259569000132)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 5280395.63,
+    "data_cessao_credito": null
+  },
+  {
+    "id": null,
+    "cnj": "0059038-03.2025.8.27.2729",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "UNIGGEL SEMENTES, INDUSTRIA E COMERCIO LTDA",
+        "cessionario": "DANIELE MÚLTIPLO FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SOLLUS MAPITO CLI PARTICIPAÇÕES LTDA. (09642610000163),FORMOSO AGROPECUÁRIA LTDA. (26774385000138),FORMOSO PARTICIPAÇÕES LTDA. (26774384000193),UNIGGEL SEMENTES INDÚSTRIA E COMÉRCIO LTDA. (00071815000161),UNIGGEL RAÇÃO E ÓLEO LTDA. (32253294000150),UNIGGEL COTTON LTDA. (47819386000121),FAUSTO VINICIUS DE GUIMARÃES GARCIA (37048104104),SÉRGIO GUIMARÃES GARCIA (06260023898),RONAN BARBOSA GARCIA JUNIOR (45391130620),BETÂNIA DE BARROS GODOY GARCIA (77573560168),GEORGIA BRAGA DE LIMA (81911440187),ISABEL CRISTINA DINARDI GARCIA (52280799634)",
+        "motivo_classificacao": null,
+        "data_cessao": "25/04/2025"
+      }
+    ],
+    "valor_causa": 1035636913.29,
+    "data_cessao_credito": null
+  }
+]

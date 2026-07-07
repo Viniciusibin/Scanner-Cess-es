@@ -38,7 +38,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de créditos concursal com pedido de retificação do QGC, além de juntada de instrumentos de cessão, caracterizando cessão de crédito real em recuperação judicial."
       }
     ],
-    "valor_causa": 21890602.4
+    "valor_causa": 21890602.4,
+    "data_cessao_credito": "19/01/2026"
   },
   {
     "id": 506061351,
@@ -94,7 +95,8 @@
         "motivo_classificacao": "O texto menciona cessão onerosa de créditos trabalhistas com pedido de habilitação e manifestação da administradora judicial, caracterizando cessão real de crédito concursal em recuperação judicial."
       }
     ],
-    "valor_causa": 180203047.86
+    "valor_causa": 180203047.86,
+    "data_cessao_credito": "20/01/2026"
   },
   {
     "id": 518719205,
@@ -139,7 +141,8 @@
         "motivo_classificacao": "Há menção clara a acordo com previsão de cessão de crédito concursal em processo de recuperação judicial, com pedido de suspensão do incidente de impugnação ao crédito, caracterizando cessão de crédito real."
       }
     ],
-    "valor_causa": 0.0
+    "valor_causa": 0.0,
+    "data_cessao_credito": "02/02/2026"
   },
   {
     "id": 518117396,
@@ -203,7 +206,8 @@
         "motivo_classificacao": "Há pedido de substituição processual por cessão de crédito concursal, com homologação judicial e inclusão dos cessionários no QGC, em processo de recuperação judicial."
       }
     ],
-    "valor_causa": 29671267.39
+    "valor_causa": 29671267.39,
+    "data_cessao_credito": "02/02/2026"
   },
   {
     "id": 522865655,
@@ -247,7 +251,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com pedido de regularização documental e substituição do credor no polo ativo, envolvendo empresa em recuperação judicial, configurando cessão de crédito real."
       }
     ],
-    "valor_causa": 1050000.0
+    "valor_causa": 1050000.0,
+    "data_cessao_credito": "05/02/2026"
   },
   {
     "id": 525913283,
@@ -283,7 +288,8 @@
         "motivo_classificacao": "Há menção clara à cessão integral do contrato de trespasse com instrumento de cessão, homologação judicial da cessão, pedido de averbação na Junta Comercial e substituição de titularidade do crédito concursal, configurando cessão de crédito real em contexto de recuperação judicial."
       }
     ],
-    "valor_causa": 12550000.0
+    "valor_causa": 12550000.0,
+    "data_cessao_credito": "18 de fevereiro de 2025"
   },
   {
     "id": 527394162,
@@ -327,7 +333,8 @@
         "motivo_classificacao": "O texto menciona cessão de crédito com transferência comprovada, manutenção do crédito no QGC, e decisão judicial confirmando legitimidade do cessionário na recuperação judicial."
       }
     ],
-    "valor_causa": 1000.0
+    "valor_causa": 1000.0,
+    "data_cessao_credito": "março de 2017"
   },
   {
     "id": 533018700,
@@ -442,7 +449,8 @@
         "motivo_classificacao": "Cessão de crédito concursal comunicada no processo de recuperação judicial, com ciência da administradora judicial, configurando cessão real."
       }
     ],
-    "valor_causa": 120468880.78
+    "valor_causa": 120468880.78,
+    "data_cessao_credito": "16/02/2026"
   },
   {
     "id": 540882108,
@@ -479,7 +487,8 @@
         "motivo_classificacao": "Há menção expressa a termo de cessão de crédito homologado judicialmente, pedido de substituição de credor no processo falimentar, e inclusão do cessionário no polo ativo, configurando cessão de crédito real em falência."
       }
     ],
-    "valor_causa": 72870.45
+    "valor_causa": 72870.45,
+    "data_cessao_credito": "25/02/2026"
   },
   {
     "id": 546835681,
@@ -525,7 +534,8 @@
         "motivo_classificacao": "Há menção expressa à inclusão do crédito cedido na classe II do QGC da recuperação judicial da Agrodal Agropecuária Ltda., com reconhecimento judicial da cessão e substituição do credor no processo de RJ."
       }
     ],
-    "valor_causa": 1000.0
+    "valor_causa": 1000.0,
+    "data_cessao_credito": "03/03/2026"
   },
   {
     "id": 552779791,
@@ -599,7 +609,8 @@
         "motivo_classificacao": "Há menção expressa a instrumento particular de cessão, pedido de substituição de credor no QGC, e crédito concursal em processo de recuperação judicial."
       }
     ],
-    "valor_causa": 200462850.22
+    "valor_causa": 200462850.22,
+    "data_cessao_credito": "09/03/2026"
   },
   {
     "id": 558345203,
@@ -656,7 +667,8 @@
         "motivo_classificacao": "Há menção a cessão parcial de crédito concursal com pedido de substituição no QGC e homologação judicial da cessão no processo de recuperação judicial da Acofer."
       }
     ],
-    "valor_causa": 1000000.0
+    "valor_causa": 1000000.0,
+    "data_cessao_credito": "13/03/2026"
   },
   {
     "id": 558074305,
@@ -692,7 +704,8 @@
         "motivo_classificacao": "Há termo de cessão de crédito juntado, pedido de substituição processual no polo ativo, homologação judicial e manifestação da administradora judicial sem oposição, configurando cessão de crédito real em contexto de recuperação judicial."
       }
     ],
-    "valor_causa": 1000.0
+    "valor_causa": 1000.0,
+    "data_cessao_credito": "13/03/2026"
   },
   {
     "id": 559542743,
@@ -766,7 +779,8 @@
         "motivo_classificacao": "Instrumento de cessão apresentado, homologação pela administradora judicial e alteração no quadro geral de credores, configurando cessão real de crédito concursal."
       }
     ],
-    "valor_causa": 52773844.84
+    "valor_causa": 52773844.84,
+    "data_cessao_credito": "16/03/2026"
   },
   {
     "id": 561017622,
@@ -839,7 +853,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com homologação judicial e retificação da relação de credores no processo de recuperação judicial."
       }
     ],
-    "valor_causa": 180203047.86
+    "valor_causa": 180203047.86,
+    "data_cessao_credito": "17/03/2026"
   },
   {
     "id": 560685952,
@@ -875,7 +890,8 @@
         "motivo_classificacao": "Há menção expressa a termo de cessão de crédito, pedido de substituição do credor no polo ativo e homologação judicial da cessão, configurando cessão de crédito real; porém, não há indicação clara de que o processo seja de RJ ou falência, nem o nome da recuperanda ou CNJ do processo principal."
       }
     ],
-    "valor_causa": 2338462.97
+    "valor_causa": 2338462.97,
+    "data_cessao_credito": "17/03/2026"
   },
   {
     "id": 562187086,
@@ -913,7 +929,8 @@
         "motivo_classificacao": "Há menção expressa a termo de cessão assinado pelo administrador judicial da massa falida, homologação judicial da cessão e substituição processual no QGC, configurando cessão de crédito real em falência."
       }
     ],
-    "valor_causa": 25427.77
+    "valor_causa": 25427.77,
+    "data_cessao_credito": "06/10/2025"
   },
   {
     "id": 563523775,
@@ -952,7 +969,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal, inclusão no QGC e análise para homologação judicial, configurando cessão de crédito real em recuperação judicial."
       }
     ],
-    "valor_causa": 5290195.0
+    "valor_causa": 5290195.0,
+    "data_cessao_credito": "19/03/2026"
   },
   {
     "id": 564882287,
@@ -986,7 +1004,8 @@
         "motivo_classificacao": "O texto descreve a homologação judicial de cessão de crédito concursal da massa falida para terceiro, com pedido de substituição no polo ativo, caracterizando cessão de crédito real em falência."
       }
     ],
-    "valor_causa": 117885.39
+    "valor_causa": 117885.39,
+    "data_cessao_credito": "20/03/2026"
   },
   {
     "id": 573859161,
@@ -1027,52 +1046,8 @@
         "motivo_classificacao": "Há menção expressa a cessões de créditos trabalhistas com pedido de confirmação dos cedentes, manifestação da administradora judicial e homologação judicial no processo falimentar da recuperanda."
       }
     ],
-    "valor_causa": 4373610.48
-  },
-  {
-    "id": 577900443,
-    "cnj": "0015291-70.2019.8.11.0041",
-    "classe": "PROCEDIMENTO COMUM CíVEL",
-    "orgao": "1ª VARA CÍVEL DE CUIABÁ",
-    "destinatarios": [
-      "AJ1 ADMINISTRAÇÃO JUDICIAL LTDA - ME",
-      "CARBON PARTICIPACOES LTDA",
-      "OLVEPAR S.A. - INDUSTRIA E COMERCIO",
-      "TRUST SERVICOS ADMINISTRATIVOS LTDA",
-      "ANTONIO CARLOS BRASIL FIORAVANTE PIERUCCINI",
-      "COMPANHIA PARANAENSE DE ENERGIA",
-      "COPEL DISTRIBUIÇÃO S.A.",
-      "LUIZ SERGIO DA SILVA",
-      "RODOSAFRA LOGISTICA E TRANSPORTE LTDA"
-    ],
-    "link": "https://pje.tjmt.jus.br/pje/Processo/ConsultaDocumento/listView.seam?x=26033117124173400000212440647",
-    "texto_completo": "Trata-se de ação anulatória de negócio jurídico ajuizada pela MASSA FALIDA DE OLVEPAR S/A INDÚSTRIA E COMÉRCIO em face de COMPANHIA PARANAENSE DE ENERGIA – COPEL DISTRIBUIÇÃO S/A, LUIZ SÉRGIO DA SILVA, ANTÔNIO CARLOS BRASIL FIORAVANTE PIERUCCINI e RODOSAFRA LOGÍSTICA E TRANSPORTES LTDA., pleiteando a decretação de nulidade do Instrumento Particular de Cessão de Créditos Tributários, celebrado entre Olvepar e Companhia Paranaense de Energia – COPEL em 06/12/2002, bem como do aditivo contratual nº 1, datado de 10/12/2002. A autora afirma que tomou conhecimento de que, em 06/12/2002, a requerida Companhia Paranaense de Energia – COPEL, na qualidade de cessionária, firmou Instrumento Particular de Cessão de Créditos Tributários, no qual foi representada pelo requerido Luiz Sérgio da Silva, a fim de transferir a titularidade de seu crédito de ICMS junto à Secretaria de Estado da Fazenda do Paraná. Alega que o preço inicial pactuado foi de R$ 45.000.000,00 e, com o desconto convencionado, passou para R$ 39.600.000,00 (trinta e nove milhões e seiscentos mil reais), dividido em 03 (três) parcelas, cujo montante não ingressou nos cofres da massa falida, eis que foi desviado para terceiros, com cheques emitidos em favor de Luiz Sérgio da Silva, Antônio Carlos Brasil Fioravante Pieruccini e Rodosafra Logística e Transportes Ltda., o que caracteriza grave irregularidade e nulidade contratual. Sustenta que ajuizou ação de exibição de documentos contra a Copel em agosto de 2003, com o objetivo de ter acesso aos documentos concernentes à cessão de crédito, ocasião em que a concessionária confirmou que a transação e compensação ocorreram com a expressa autorização da Secretaria de Estado da Fazenda do Paraná – SEFA, por meio de procedimento administrativo. Ressalta que o procurador, ora requerido, Luiz Sérgio da Silva, não detinha poderes para tanto, ou seja, a massa falida não outorgou poderes para firmar e/ou transacionar o crédito de ICMS, tampouco para receber valores decorrentes da alienação. Em relação à requerida Rodosafra, embora credora, aponta que jamais poderia ser indicada como beneficiária, assim como os requeridos Luiz Sérgio e Antônio Carlos, eis que a primeira possuía conhecimento acerca da falência, enquanto o segundo sequer era representante legal da massa falida, sendo que os demais não se acautelaram adequadamente para a formalização do instrumento impugnado. Por essa razão, pleiteia a declaração de nulidade dos negócios jurídicos firmados em 06/12/2002 e 10/12/2002. Os réus apresentaram defesa, reconhecendo a existência do contrato, mas sustentando a sua validade e regularidade, sendo arguidas preliminares de ilegitimidade passiva, carência de ação e conexão com ação civil pública ajuizada pelo Ministério Público. Em decisão saneadora, tais preliminares foram rejeitadas, restando para o mérito apenas eventual ilegitimidade da requerida RODOSAFRA, que se confunde diretamente com o mérito. Na mesma ocasião, fixou como ponto controvertido a validade do Instrumento de Cessão de Créditos Tributários celebrado entre Olvepar S/A e COPEL, além do respectivo aditivo, deferindo-se a produção de provas, inclusive pericial (id. 77844375). Acórdão do TJPR que determinou a remessa dos autos para este Juízo (id. 77844389), aportando-se neste Juízo em 03/10/2019. O Ministério Público manifestou-se pela intimação da Nova Sociedade em razão da sentença proferida na ação falimentar que homologou o plano de realização extraordinária de ativos e, consequentemente, declarou encerrada a falência (id. 148960506). A Administradora Judicial apresentou manifestação informando que (i) o procedimento falimentar está em fase de liquidação dos ativos e que atualmente se aguarda a finalização das negociações com os entes tributários para apresentação do Relatório Preliminar pela Síndica (Cláusula 5.4.1) e, posteriormente, do Mapa de Liquidação pelos credores proponentes (Cláusula 5.4), mas que a Data de Fechamento ainda não se implementou; e (ii) não vê óbice à suspensão do presente feito, conforme entendimento adotado por este MM. Juízo nos autos das ações nºs 0006131-21.2019.8.11.0041 e 0004176-52.2019.8.11.0041, até o deslinde do procedimento de liquidação, bem como até que ocorra, em momento oportuno, a substituição processual da Massa Falida pela Nova Sociedade (id. 154169474). A Nova Sociedade, CARBON PARTICIPAÇÕES LTDA., informa que, em razão da sentença proferida na falência, tornou-se a substituta processual da Massa Falida de Olvepar S.A. Indústria e Comércio no polo ativo desta ação e de todos os incidentes decorrentes (id. 178263896). Diante disso, o Ministério Público informou a perda superveniente do interesse público, “por se tratar, atualmente, de uma lide privada, composta por interesses patrimoniais exclusivos entre as partes” (id. 182234272). É o relatório. Passo a decidir. Como os autos aportaram neste Juízo em razão da via atrativa, ratifico todos os atos praticados pelo Juízo de origem, com exceção da produção de provas, haja vista que o artigo 355, inciso I, do Código de Processo Civil dispõe que o julgamento antecipado da lide é cabível quando a matéria controvertida for exclusivamente de direito ou, sendo de fato e de direito, não houver necessidade de produção de outras provas além das já constantes nos autos. No caso em apreço, trata-se de ação que visa declarar a nulidade da cessão de crédito firmada por representação sem poderes devidamente outorgados. Logo, a controvérsia limita-se à análise da validade do instrumento contratual e da regularidade dos poderes conferidos ao representante no momento da celebração do negócio jurídico, bem como do prejuízo sofrido. A jurisprudência do STJ é no sentido de que, sendo o juiz o destinatário da prova, à luz dos princípios da livre apreciação da prova e do livre convencimento motivado, o entendimento pelo julgamento antecipado da lide não acarreta cerceamento de defesa. Por essa razão, em que pese já deferida a produção de provas no Juízo paranaense, inclusive pericial, os documentos juntados pelas partes, em especial o contrato de cessão de crédito, o instrumento procuratório, além de todos aqueles que comprovam o deslinde não só anterior, como também posterior ao que foi avençado, revelam-se suficientes para a análise dos fatos e do direito aplicável. Ou seja, não há indicação da necessidade de produção de prova testemunhal, pericial ou de qualquer outra espécie para o deslinde da controvérsia. Dessa forma, estando o processo em condições de julgamento imediato e inexistindo prejuízo ao contraditório ou à ampla defesa, passo à sentença. Pois bem. Extrai-se dos autos que, por meio do cumprimento da sentença proferida nos autos da Ação de Exibição ajuizada pela autora (id. 44861823, 44861826 e 44861831), foi obtido da COPEL: a) cópia autenticada do Instrumento Particular de Cessão de Créditos Tributários que celebraram Olvepar S/A Indústria e Comércio e a Companhia Paranaense de Energia – COPEL, em data de 06/12/2002, que transferiu créditos de ICMS no valor de R$ 45.000.000,00 mediante o pagamento de R$ 39.600.000,00; b) cópia autenticada do Aditivo nº 1 ao instrumento acima referido, datado de 10/12/2002, em que foi alterada a forma de pagamento dos créditos; c) cópia autenticada do documento autorizativo e do despacho SEFA n. 5.430.123-5, de dezembro de 2002, que fundamentou a cessão dos referidos créditos de ICMS e foi mencionado no corpo do instrumento de cessão formalizado entre a Olvepar S/A e a COPEL; d) relação dos cheques que representaram o pagamento da compra dos créditos, emitidos nominalmente à Rodosafra Logística e Transportes Ltda., Luiz Sérgio da Silva e Antônio Carlos Brasil Fioravante Pieruccini; e) cópia autenticada dos documentos que comprovaram a capacidade de representação das pessoas que atuaram como representantes da empresa Olvepar S/A Indústria e Comércio; f) cópia autenticada da autorização formalizada pela empresa Olvepar S/A Indústria e Comércio e/ou alvará judicial; g) cópia autenticada dos recibos de quitação apresentados pelos recebedores; h) cópia autenticada do lançamento contábil da operação de crédito referida no instrumento de cessão. Destacam-se, ainda, as cópias dos cheques emitidos nominalmente pela COPEL aos demais requeridos ANTÔNIO CARLOS e RODOSAFRA, seguidas dos respectivos recibos. Por essa razão, é evidente a legitimidade da requerida RODOSAFRA para figurar no polo passivo da presente ação, motivo pelo qual rejeito a preliminar por ela arguida. Quanto ao mérito, a autora alega que o negócio jurídico realizado em 06/12/2002 e seu respectivo aditivo de 10/12/2002 são nulos, uma vez que (i) Luiz Sérgio da Silva não possuía poderes para representar a massa falida; (ii) os valores do negócio não ingressaram nos cofres da massa falida, sendo desviados para terceiros; e (iii) a requerida Rodosafra, além de credora, tinha ciência do estado falimentar da empresa, enquanto os demais não adotaram as cautelas necessárias à formalização do instrumento. Da análise dos documentos acostados aos autos, extraem-se indícios robustos de irregularidades na execução dos contratos. O Instrumento de Cessão de Crédito foi assim celebrado: Denota-se que Olvepar S/A Indústria e Comércio e Olvepar Óleos e Vegetais Paraná S/A, empresas que compõem a denominada massa falida da Olvepar, foram representadas pelo procurador/requerido Luiz Sérgio da Silva, cujo objeto é a transferência de R$ 45.000.000,00 (quarenta e cinco milhões de reais) referentes a créditos junto à Secretaria de Estado da Fazenda do Paraná – SEFA, provenientes de ICMS, Imposto sobre Circulação de Mercadorias e Serviços. Ocorre que as empresas cedentes já se encontravam em concordata, de modo que somente com a autorização deste Juízo é que a transação poderia se convolar. Aliado a isso, a procuração utilizada pelo requerido Luiz Sérgio da Silva para representar as cedentes foi outorgada com os seguintes poderes: Da leitura, verifica-se a outorga especial de recebimento de retorno de ICMS, mediante detalhada prestação de contas, restando consignado, ainda, que não poderia assumir qualquer tipo de parcelamento de débito fiscal condicionado ao recebimento de crédito do referido imposto. Além disso, no id. 77841970, consta cópia da ação de restituição proposta pela COPEL contra o Estado do Paraná, a qual demonstra, por si só, não só o conhecimento das nulidades relatadas pela parte autora, como também a invalidade da cessão de crédito, eis que o objeto é justamente a indenização pelos valores que pagou indevidamente a terceiros. Sob o mesmo identificador há, ainda, cópia da ação civil pública por atos de improbidade administrativa ajuizada pelo Ministério Público do Estado do Paraná em desfavor de todos que se envolveram administrativamente na elaboração da cessão de crédito, o que evidencia a fraude perpetrada. Em vista do exposto, tem-se que o instrumento de cessão foi firmado por representante desprovido de poderes para o negócio, eis que ausente manifestação válida de vontade da pessoa jurídica. Vale ressaltar que, em pesquisa pelo andamento processual da ação civil pública ajuizada pelo Ministério Público Paranaense, foi possível verificar que os pedidos ali formulados foram julgados procedentes pelo Tribunal de Justiça do Estado do Paraná (APL nº 1482894-3/PR, Relatora Desembargadora Maria Aparecida Blanco de Lima, 4ª Câmara Cível, julgado em 16/03/2018, publicado no DJ nº 2247, em 25/04/2018). Na ocasião, o Tribunal de Justiça do Paraná identificou diversas irregularidades no procedimento administrativo de restituição dos créditos de ICMS. Destacou que a Olvepar, à época do pedido, encontrava-se com a falência decretada, o que tornava ilegítimo o requerimento formulado em seu nome, pois deveria ter sido realizado pela massa falida, representada pelo síndico, sendo que os valores não foram destinados à massa falida, mas desviados para contas de terceiros, incluindo pessoas físicas e empresas alheias, como a Rodosafra Logística e Transportes Ltda. Portanto, outro desfecho não há senão o reconhecimento da nulidade do negócio jurídico, uma vez que não apenas a ausência de representação adequada, mas também a inexistência de qualquer contabilização dos valores cedidos na contabilidade da Massa Falida evidenciam vício de consentimento e desvio de finalidade. Nos termos do art. 166, incisos IV e VI, do Código Civil, o negócio jurídico é nulo quando não revestido das formalidades legais ou quando apresenta objeto ilícito. Assim, ausente a manifestação válida de vontade da parte autora, tem-se como nulo o negócio jurídico, por se tratar de vício insuscetível de convalidação (CC, art. 169). Ademais, os documentos juntados pela Companhia Paranaense de Energia – COPEL, especialmente os cheques nominais emitidos em favor de terceiros, corroboram a tese autoral de desvio de finalidade e de apropriação indevida de valores. Tais elementos são suficientes para justificar a responsabilização solidária dos réus, com fundamento no art. 186 do Código Civil. É inequívoco que os valores decorrentes da cessão de créditos tributários, ao invés de serem revertidos em favor da Massa Falida, foram desviados para terceiros, mediante a emissão de cheques nominais a pessoas físicas e jurídicas alheias à relação jurídica original, sem qualquer respaldo contratual ou autorização judicial válida. Tal circunstância não apenas caracteriza vício insanável na formalização do negócio jurídico, ensejando sua nulidade absoluta, como também ocasionou prejuízo material direto à autora, que teve frustrada a incorporação desses ativos ao patrimônio da Massa Falida, impactando o pagamento de credores e o regular desfecho do processo falimentar. Diante disso, impõe-se o dever de restituição dos valores indevidamente apropriados, conforme estabelecem os arts. 186 e 927 do Código Civil, segundo os quais aquele que, por ato ilícito, causar dano a outrem fica obrigado a repará-lo integralmente, sob pena de enriquecimento sem causa e violação dos princípios da boa-fé objetiva e da função social do contrato. Diante de todo o exposto, JULGO PROCEDENTE a ação para: 1. Homologar a substituição do polo ativo pela nova sociedade CARBON PARTICIPAÇÕES LTDA., em razão do encerramento da falência das empresas OLVEPAR S.A. INDÚSTRIA E COMÉRCIO e OLVEPAR ALIMENTOS S.A. 2. Declarar a nulidade do Instrumento Particular de Cessão de Créditos Tributários firmado entre Olvepar S/A Indústria e Comércio e Companhia Paranaense de Energia – COPEL, bem como do respectivo aditivo contratual nº 1. 3. Como reparação pelos danos sofridos, determinar que a COPEL DISTRIBUIÇÃO S/A e, subsidiariamente, os demais requeridos promovam a restituição, em favor da Nova Sociedade CARBON PARTICIPAÇÕES LTDA., substituta da Massa Falida de Olvepar, dos valores transferidos indevidamente a terceiros, no montante de R$ 39.600.000,00 (trinta e nove milhões e seiscentos mil reais), corrigidos monetariamente pelo IPCA desde o desembolso e acrescidos de juros de mora de 1% ao mês a partir da citação, a ser apurado em 4. Condenar os requeridos ao pagamento das custas processuais e dos honorários advocatícios, que fixo em 10% (dez por cento) sobre o valor da condenação, nos termos do art. 85, § 2º, do Código de Processo Civil. Intimem-se. Cumpra-se. Cuiabá-MT, data registrada no sistema. MARCIO APARECIDO GUEDES RELATOR",
-    "keywords_cessao_fortes": [
-      "cessão de crédito",
-      "cessionária"
-    ],
-    "keywords_cessao_fracas": [
-      "cedente"
-    ],
-    "keywords_rj": [
-      "massa falida",
-      "falência"
-    ],
-    "classificacoes": [
-      {
-        "is_cessao_real": true,
-        "confianca": "alta",
-        "resumo": "O texto trata da nulidade de um instrumento de cessão de créditos tributários da massa falida de Olvepar para a COPEL, com pedido de substituição da massa falida pela nova sociedade no polo ativo e discussão sobre valores desviados.",
-        "cedente": "OLVEPAR S.A. INDÚSTRIA E COMÉRCIO",
-        "cessionario": "COMPANHIA PARANAENSE DE ENERGIA – COPEL DISTRIBUIÇÃO S.A.",
-        "valor": "R$ 39.600.000,00",
-        "classe_credito": null,
-        "cnj_rj": "0015291-70.2019.8.11.0041",
-        "recuperanda": "OLVEPAR S.A. INDÚSTRIA E COMÉRCIO",
-        "motivo_classificacao": "Há menção clara a instrumento de cessão de crédito concursal da massa falida, com pedido de substituição da massa falida pela nova sociedade e homologação judicial da cessão, caracterizando cessão de crédito real em contexto de falência."
-      }
-    ],
-    "valor_causa": 20000.0
+    "valor_causa": 4373610.48,
+    "data_cessao_credito": "31/03/2026"
   },
   {
     "id": 579161794,
@@ -1148,7 +1123,8 @@
         "motivo_classificacao": "Há menção expressa à apresentação de instrumento particular de cessão, homologação judicial da cessão e inclusão do cessionário no quadro geral de credores da recuperação judicial."
       }
     ],
-    "valor_causa": 200462850.22
+    "valor_causa": 200462850.22,
+    "data_cessao_credito": "08/04/2026"
   },
   {
     "id": 583237177,
@@ -1194,7 +1170,8 @@
         "motivo_classificacao": "Há menção expressa a instrumento de cessão, homologação judicial da cessão e substituição do credor no Quadro Geral de Credores no processo de recuperação judicial indicado."
       }
     ],
-    "valor_causa": 12885090.55
+    "valor_causa": 12885090.55,
+    "data_cessao_credito": "13/04/2026"
   },
   {
     "id": 588185968,
@@ -1233,7 +1210,8 @@
         "motivo_classificacao": "Há comprovação documental da cadeia de cessões, pedido de substituição no polo ativo e homologação judicial da cessão em processo relacionado à falência, configurando cessão de crédito real."
       }
     ],
-    "valor_causa": 347618.66
+    "valor_causa": 347618.66,
+    "data_cessao_credito": "17/04/2026"
   },
   {
     "id": 593580119,
@@ -1271,7 +1249,8 @@
         "motivo_classificacao": "Há menção expressa a cessão de crédito com pedido de manifestação do administrador judicial, em processo de falência, indicando cessão real de crédito concursal."
       }
     ],
-    "valor_causa": 3102677.41
+    "valor_causa": 3102677.41,
+    "data_cessao_credito": "27/04/2026"
   },
   {
     "id": 595485688,
@@ -1326,7 +1305,8 @@
         "motivo_classificacao": "O texto menciona expressamente a homologação judicial de cessões de crédito concursal com substituição de credores no Quadro Geral de Credores, em processo de falência da Alcopan Álcool do Pantanal Ltda."
       }
     ],
-    "valor_causa": 1000000.0
+    "valor_causa": 1000000.0,
+    "data_cessao_credito": "28/04/2026"
   },
   {
     "id": 596577777,
@@ -1361,7 +1341,8 @@
         "motivo_classificacao": "Há menção expressa à cessão do crédito concursal com homologação judicial da substituição processual no polo ativo, envolvendo a recuperanda, caracterizando cessão de crédito real em recuperação judicial."
       }
     ],
-    "valor_causa": 4424969.64
+    "valor_causa": 4424969.64,
+    "data_cessao_credito": "29/04/2026"
   },
   {
     "id": 602403968,
@@ -1403,7 +1384,8 @@
         "motivo_classificacao": "Há instrumento de cessão apresentado, pedido de substituição no QGC e homologação judicial da cessão em processo de recuperação judicial."
       }
     ],
-    "valor_causa": 3762274.87
+    "valor_causa": 3762274.87,
+    "data_cessao_credito": "06/05/2026"
   },
   {
     "id": 604209818,
@@ -1448,7 +1430,8 @@
         "motivo_classificacao": "Há menção expressa à cessão formal de crédito concursal com homologação e substituição no processo de Recuperação Judicial, envolvendo o Banco Bamerindus, Porto Seguro e Ancora, configurando cessão de crédito real."
       }
     ],
-    "valor_causa": 10000.0
+    "valor_causa": 10000.0,
+    "data_cessao_credito": "11.7.2014"
   },
   {
     "id": 603829354,
@@ -1483,7 +1466,8 @@
         "motivo_classificacao": "Há menção expressa à cessão do crédito concursal do Banco do Brasil para o Fundo de Investimento, com reconhecimento judicial da sucessão processual e determinação de correção da carta de adjudicação, caracterizando cessão de crédito real em contexto de habilitação de crédito relacionada a processo de falência ou recuperação."
       }
     ],
-    "valor_causa": 0.0
+    "valor_causa": 0.0,
+    "data_cessao_credito": "07/05/2026"
   },
   {
     "id": 607338614,
@@ -1544,7 +1528,8 @@
         "motivo_classificacao": "Há pedido de substituição de credor no QGC, homologação judicial da cessão parcial de crédito concursal e menção a documentação que comprova a sub-rogação, configurando cessão de crédito real."
       }
     ],
-    "valor_causa": 245129522.37
+    "valor_causa": 245129522.37,
+    "data_cessao_credito": "12/05/2026"
   },
   {
     "id": 608998023,
@@ -1598,7 +1583,8 @@
         "motivo_classificacao": "Há termo de cessão homologado, substituição no polo ativo, crédito concursal relacionado no QGC e menção expressa à recuperação judicial da devedora."
       }
     ],
-    "valor_causa": 77013.48
+    "valor_causa": 77013.48,
+    "data_cessao_credito": "13/05/2026"
   },
   {
     "id": 611882794,
@@ -1636,7 +1622,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal da recuperanda Sigma Agropecuária Ltda, com homologação judicial da cessão e pedido de substituição do credor no processo de execução, configurando cessão de crédito real em contexto de Recuperação Judicial."
       }
     ],
-    "valor_causa": 3248036.32
+    "valor_causa": 3248036.32,
+    "data_cessao_credito": "15/05/2026"
   },
   {
     "id": 615064526,
@@ -1709,7 +1696,8 @@
         "motivo_classificacao": "Há menção expressa a cessões de crédito entre cedentes e cessionária, com pedido de manifestação dos recuperandos e da administradora judicial, indicando cessão real de crédito concursal em processo de recuperação judicial."
       }
     ],
-    "valor_causa": 200462850.22
+    "valor_causa": 200462850.22,
+    "data_cessao_credito": "20/05/2026"
   },
   {
     "id": 618516187,
@@ -1760,7 +1748,8 @@
         "motivo_classificacao": "Há menção expressa à cessão de crédito concursal com pedido de substituição no processo de recuperação judicial e homologação judicial da cessão."
       }
     ],
-    "valor_causa": 1241850.69
+    "valor_causa": 1241850.69,
+    "data_cessao_credito": "19/12/2024"
   },
   {
     "id": 621305981,
@@ -1800,7 +1789,8 @@
         "motivo_classificacao": "Há menção expressa a cessão de direitos contratuais com contrato e termo aditivo, reconhecimento judicial do crédito, e sujeição do crédito ao plano de recuperação judicial, configurando cessão de crédito real em contexto de recuperação judicial."
       }
     ],
-    "valor_causa": 3114539.29
+    "valor_causa": 3114539.29,
+    "data_cessao_credito": "16 de abril de 2020"
   },
   {
     "id": 621389308,
@@ -1835,6 +1825,4736 @@
         "motivo_classificacao": "Há comprovação da aquisição do crédito por meio de alienação judicial autorizada pelo juízo falimentar, com pedido de substituição do credor no polo ativo e homologação judicial da cessão."
       }
     ],
-    "valor_causa": 12736.39
+    "valor_causa": 12736.39,
+    "data_cessao_credito": "26/05/2026"
+  },
+  {
+    "id": null,
+    "cnj": "0000006-05.1997.8.11.0107",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DE CRÉDITO NACIONAL S/A - BCN",
+        "cessionario": "ELTON RENATO HOLLENBACH ZIMPEL",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 0.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0000435-94.2014.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "UPL DO BRASIL INDÚSTRIA E COMÉRCIO DE INSUMOS AGROPECUÁRIOS S.A.",
+        "cessionario": "TRAVESSIA SECURITIZADORA DE CRÉDITOS FINANCEIROS VIII S.A.",
+        "valor": "205556566,55",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "DEFEND PRODUTOS E SERVIÇOS AGROPECUÁRIOS LTDA (00734929000144) (00734929000144)",
+        "motivo_classificacao": null,
+        "data_cessao": "31/03/2025"
+      }
+    ],
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0001241-26.1996.8.11.0015",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "IRINEU MARTINS",
+        "cessionario": "NÃO IDENTIFICADO",
+        "valor": "145169,78",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 0.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0001800-69.2014.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO BRASIL S/A",
+        "cessionario": "ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "FMC COBRANÇAS LTDA ME (05027049000151),AMC - ASSESSORIA E COBRANÇA LTDA (08700365000130),GARANTIA ASSESSORIA DE COBRANÇA LTDA ME (11160919000169),GARANTIA LOCAÇÃO PARA FESTA E EVENTOS LTDA ME (10579614000123)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0001897-60.2012.8.11.0002",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO SANTANDER (BRASIL) S.A",
+        "cessionario": "FUNDO DE INVESTIMENTO IPANEMA III",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "BAKANAS TRANSPORTES LTDA. ME",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 10000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0001923-05.2016.8.11.0039",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "COOPERATIVA DE CRÉDITO, POUPANÇA E INVESTIMENTO UNIVALES - SICREDI UNIVALES - MT/RO",
+        "cessionario": "JOSE BIANCHI",
+        "valor": "79904,38",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "05/10/2022"
+      }
+    ],
+    "valor_causa": 2650741.32,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0001996-56.2014.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "RENOVA COMPANHIA SECURITIZADORA DE CRÉDITO FINANCEIROS S/A",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CRÉDITOS NÃO PADRONIZADOS NPL II",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "27/04/2022"
+      }
+    ],
+    "valor_causa": 10000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0002735-92.2012.8.11.0037",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO VOLVO S/A",
+        "cessionario": "BANCO SAFRA S/A",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "GIRAMUNDO COMÉRCIO E TRANSPORTES LTDA ME (00128667000108)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0004473-72.2002.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "PCS FOSFATOS DO BRASIL LTDA.",
+        "cessionario": "ADILSON DE SIQUEIRA LIMA SOCIEDADE DE ADVOGADOS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "11/05/2021"
+      }
+    ],
+    "valor_causa": null,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0005147-81.2012.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO ITAÚ UNIBANCO S/A",
+        "cessionario": "JOÃO MARCELO GUIMARÃES FERNANDO BORGES",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 1000000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0006334-52.1997.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "NÃO IDENTIFICADO",
+        "cessionario": "ATIVOS S/A – COMPANHIA SECURITIZADORA DE CRÉDITOS FINANCEIROS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 0.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0006592-54.2012.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "OBJETIVA ENGENHARIA E CONSTRUCOES LTDA",
+        "cessionario": "ATIVOS S.A.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "06/07/2022"
+      }
+    ],
+    "valor_causa": 10000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0006648-10.2011.8.11.0040",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "GERDAU AÇOS LONGOS S.A.",
+        "cessionario": "RESTORE ADVISORY INTERMEDIAÇÕES LTDA.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CONSTRUTORA BS S/A",
+        "motivo_classificacao": null,
+        "data_cessao": "16/12/2024"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "GERDAU S.A.",
+        "cessionario": "RESTORE ADVISORY INTERMEDIAÇÕES LTDA.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CONSTRUTORA BS S/A",
+        "motivo_classificacao": null,
+        "data_cessao": "16/12/2024"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "GERDAU AÇOMINAS S.A.",
+        "cessionario": "RESTORE ADVISORY INTERMEDIAÇÕES LTDA.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CONSTRUTORA BS S/A",
+        "motivo_classificacao": null,
+        "data_cessao": "16/12/2024"
+      }
+    ],
+    "valor_causa": 500000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0006917-75.2013.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ANTONIO DALVO DE OLIVEIRA",
+        "cessionario": "SUPERMERCADO MODELO LTDA",
+        "valor": "54366,30",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SUPERMERCADO MODELO LTDA (00949610000136)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "SIDNEY CAETANO DE PAIVA",
+        "cessionario": "SUPERMERCADO MODELO LTDA",
+        "valor": "58193,97",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SUPERMERCADO MODELO LTDA (00949610000136)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "MIRIAM MOEMA VIEGAS FERREIRA MENDES",
+        "cessionario": "SUPERMERCADO MODELO LTDA",
+        "valor": "37922,71",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SUPERMERCADO MODELO LTDA (00949610000136)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0007322-36.2010.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "SÍLVIO LUIZ DE MOURA LEITE",
+        "cessionario": "MIRA INVESTIMENTOS LTDA",
+        "valor": "374751,15",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 3000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0008446-47.2016.8.11.0002",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ITAÚ UNIBANCO S/A",
+        "cessionario": "ISRAEL MOREIRA DE ALMEIDA",
+        "valor": "689,80",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "WBR LOCADORA DE VEÍCULOS LTDA",
+        "motivo_classificacao": null,
+        "data_cessao": "17/10/2022"
+      }
+    ],
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0008807-53.2019.8.11.0004",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "AGREX DO BRASIL S.A",
+        "cessionario": "PAULO ALBERTO FACHIN",
+        "valor": "369305,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "GRUPO MONTE ALEGRE",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "HACKMANN, COSTA & ADVOGADOS ASSOCIADOS",
+        "cessionario": "DANIEL SOARES",
+        "valor": "62851,33",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "GRUPO MONTE ALEGRE",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ADAMA BRASIL S A",
+        "cessionario": "DANIEL SOARES",
+        "valor": "628513,25",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "GRUPO MONTE ALEGRE",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "HIDRAPLAST COMERCIO E SERVICOS EIRELI ME",
+        "cessionario": "DOUGLAS FONSECA DE OLIVEIRA",
+        "valor": "189880,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "GRUPO MONTE ALEGRE",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "PAULO ALBERTO FACHIN",
+        "cessionario": "CARMENTA ADMINISTRAÇÃO DE BENS PRÓPRIOS LTDA",
+        "valor": "369305,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "GRUPO MONTE ALEGRE",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 409581269.25,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0008839-23.2014.8.11.0040",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO BRASIL S.A.",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS",
+        "valor": "6353462,02",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "NATIV - INDÚSTRIA BRASILEIRA DE PESCADOS AMAZÔNICOS S/A (08401835000165),NATIV - FOODS LTDA. (15012014000100),NATIV - COMÉRCIO E DISTRIBUIÇÃO DE ALIMENTOS IMPORTAÇÃO E EXPORTAÇÃO LTDA. (10227968000109)",
+        "motivo_classificacao": null,
+        "data_cessao": "07/08/2020"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS",
+        "cessionario": "TRAVESSIA SECURITIZADORA DE CRÉDITOS FINANCEIROS X S.A.",
+        "valor": "6353462,02",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "NATIV - INDÚSTRIA BRASILEIRA DE PESCADOS AMAZÔNICOS S/A (08401835000165),NATIV - FOODS LTDA. (15012014000100),NATIV - COMÉRCIO E DISTRIBUIÇÃO DE ALIMENTOS IMPORTAÇÃO E EXPORTAÇÃO LTDA. (10227968000109)",
+        "motivo_classificacao": null,
+        "data_cessao": "12/03/2021"
+      }
+    ],
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0009091-16.2009.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO BRASIL S/A",
+        "cessionario": "ATIVOS S.A. – SECURITIZADORA DE CRÉDITOS FINANCEIROS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "JÚLIA COMÉRCIO DE COMBUSTÍVEIS LTDA (01359775000110) (01359775000110),RODOMAIS TRANSPORTES LTDA - ME (03486086000100) (03486086000100)",
+        "motivo_classificacao": null,
+        "data_cessao": "16/11/2023"
+      }
+    ],
+    "valor_causa": 10000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0009734-69.2000.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "OVETRIL ÓLEOS VEGETAIS LTDA.",
+        "cessionario": "LUCAS VIEIRA AUGUSTO DOS SANTOS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "OLVEPAR S. A. INDÚSTRIA E COMÉRCIO",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "JORGE DOMINGOS ADVOGADOS ASSOCIADOS",
+        "cessionario": "ROMA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS",
+        "valor": "166920288,22",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "OLVEPAR S. A. INDÚSTRIA E COMÉRCIO",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 0.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0010935-91.2015.8.11.0002",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO BRASIL S.A.",
+        "cessionario": "ATIVOS S/A – COMPANHIA SECURITIZADORA DE CRÉDITOS FINANCEIROS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "DISPROVEL - DISTRIBUIDORA DE PRODUTOS VETERINÁRIOS LTDA EPP (07958295000155),DISPROVELVET DISTRIBUIDORA DE PRODUTOS VETERINÁRIOS LTDA (21158514000185),DISPROVEL MAXVET PRODUTOS VETERINÁRIOS LTDA - ME (15493667000140),DISPROVEL PET LINE PRODUTOS VETERINÁRIOS LTDA - ME (14042088000119)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0011427-58.2018.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO BRASIL S.A.",
+        "cessionario": "HAMILTON CARLOS DELUCCI",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "ENGEGLOBAL CONSTRUÇÕES LTDA,CONSTRUTORA E EMPREENDIMENTO GUAICURUS LTDA EPP,ADVANCED INVESTIMENTOS E PARTICIPAÇÕES S/A,GLOBAL EMPREENDIMENTOS TURISTICOS LTDA.,HOTÉIS GLOBAL S/A",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 48796901.21,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0012230-12.2016.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "PLUGMAIS DISTRIBUIDORA INFORMÁTICA E TELECOMUNICAÇÕES LTDA",
+        "cessionario": "BIGNARDI ASSESSORIA EMPRESARIAL LTDA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 1470270.87,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0012244-50.2015.8.11.0002",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO BRASIL S.A.",
+        "cessionario": "ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "TRANSPORTADORA GUANABARA LTDA-ME (04979592000196),ALGODOEIRA GUANABARA LTDA-ME (09599786000180)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0012268-24.2016.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO BRASIL S/A",
+        "cessionario": "ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "LARC CONSTRUÇÕES E SERVIÇOS LTDA",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 1000000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0012638-30.2010.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO VIPAL S/A",
+        "cessionario": "VIPAR PARTICIPAÇÕES",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "28/07/2022"
+      }
+    ],
+    "valor_causa": 10000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0012665-40.2015.8.11.0002",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ROBERT BOSCH LIMITADA",
+        "cessionario": "GAMAFER REPRESENTAÇÕES LTDA",
+        "valor": "9789,35",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "VEGAM MATERIAIS PARA CONSTRUCAO LTDA - EPP",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO BRASIL S.A.",
+        "cessionario": "ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "VEGAM MATERIAIS PARA CONSTRUCAO LTDA - EPP",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0012905-29.2015.8.11.0002",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ENERGISA MATO GROSSO - DISTRIBUIDORA DE ENERGIA S/A",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS INSOLVÊNCIA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "NOSSO POSTO COMBUSTÍVEL E LUBRIFICANTES LTDA (32998874000176) (32998874000176),NAZÁRIO COMÉRCIO DE COMBUSTÍVEL E LUBRIFICANTES LTDA (02874744000160) (02874744000160)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0014409-31.2015.8.11.0015",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "NÃO IDENTIFICADO",
+        "cessionario": "BANCO VOLKSWAGEN S/A",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 44121191.76,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0014453-78.2018.8.11.0004",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "GM INCORPORADORA LTDA ME",
+        "cessionario": "MAX SECURITIZADORA S.A",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SÃO BENTO COMÉRCIO DE MEDICAMENTOS E PERFUMARIA LTDA (15418205000169),DISTRIBUIDORA BRASIL DE MEDICAMENTOS LTDA (03119609000172),TRANSMED DISTRIBUIDORA DE MEDICAMENTOS HOSPITALARES LTDA (02281758000170),6F PARTICIPAÇÕES E EMPREENDIMENTOS LTDA (04338792000160)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 30122461.92,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0014639-12.2015.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "AFARE I – FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO-PADRONIZADOS",
+        "cessionario": "TEMPLI SECURITIZADORA DE CRÉDITOS S.A.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "ALEXANDRE AUGUSTIN,LOUIZE HONORATO DE FREITAS AUGUSTIN",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 226308944.47,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0019494-27.2009.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO BRASIL S.A.",
+        "cessionario": "ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "17/12/2020"
+      }
+    ],
+    "valor_causa": 10000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0025195-61.2012.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "RENOVA COMPANHIA SECURITIZADORA DE CRÉDITOS FINANCEIROS S.A.",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS NPL II",
+        "valor": "141228,34",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "VIAÇÃO ESTRELA D'ALVA LTDA,SANTA FELICIDADE PRESTADORA DE SERVIÇOS E TRANSPORTADORA LTDA,TRANSPORTES ARARA AZUL LTDA,EXPRESSO GARÇA BRANCA LTDA,BURITI PARTICIPAÇÕES LTDA,AGROPECUÁRIA ESTÂNCIA REUNIDAS ALVES PINTO LTDA,AGROPECUÁRIA JANDAIA LTDA,TRANSPORTES NOVA ERA LTDA",
+        "motivo_classificacao": null,
+        "data_cessao": "19/08/2020"
+      }
+    ],
+    "valor_causa": 1000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0026677-39.2015.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "GERDAU AÇOS LONGOS S.A.",
+        "cessionario": "RESTORE ADVISORY INTERMEDIAÇÕES LTDA.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "16/12/2024"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "GERDAU S.A.",
+        "cessionario": "RESTORE ADVISORY INTERMEDIAÇÕES LTDA.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "16/12/2024"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "GERDAU AÇOMINAS S.A.",
+        "cessionario": "RESTORE ADVISORY INTERMEDIAÇÕES LTDA.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "16/12/2024"
+      }
+    ],
+    "valor_causa": 7425153.49,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0026873-09.2015.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO BRASIL S.A.",
+        "cessionario": "ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "TETRANS TERRAPLANAGEM E TRANSPORTADORA LTDA (07756195000143) (07756195000143),TETRANS E MINERACAO E PARTICIPACOES LTDA (07746627000135) (07746627000135),EXTREMA TRANSPORTES LTDA (10409254000111) (10409254000111)",
+        "motivo_classificacao": null,
+        "data_cessao": "17/12/2020"
+      }
+    ],
+    "valor_causa": 1000000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0029714-40.2016.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "QUALYQUÍMICA INDÚSTRIA E COMÉRCIO DE PRODUTOS QUÍMICOS S.A.",
+        "cessionario": "SODRÉ WICHNOWSKI",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "UNIÃO TOTAL ENGENHARIA LTDA EPP",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0029997-63.2016.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "GRECA DISTRIBUIDORA DE ASFALTOS LTDA",
+        "cessionario": "OSWALDO PEREIRA CARDOSO FILHO",
+        "valor": "13196193,94",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "ENPA ENGENHARIA E PARCERIA EIRELI (00818517000192)",
+        "motivo_classificacao": null,
+        "data_cessao": "08/03/2024"
+      }
+    ],
+    "valor_causa": 71838151.23,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0030015-21.2015.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO VOLVO (BRASIL) S/A",
+        "cessionario": "SOLVE SECURITIZADORA DE CRÉDITOS FINANCEIROS S/A",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "TRÊS IRMÃOS ENGENHARIA LTDA (15046287000168) (15046287000168),VALOR ENGENHARIA LTDA (15064116000161) (15064116000161)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0031576-51.2013.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "COMAFE - COM. DE COUROS. MÁQ E FERRA. LTDA",
+        "cessionario": "CLAUDINEI TEIXEIRA DINIZ",
+        "valor": "60,51",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "01/12/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "MA COMERCIO LTDA EPP",
+        "cessionario": "CLAUDINEI TEIXEIRA DINIZ",
+        "valor": "192,45",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "01/12/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "RETÍFICA UNIVERSAL LTDA",
+        "cessionario": "CLAUDINEI TEIXEIRA DINIZ",
+        "valor": "277,02",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "01/12/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "J MARQUES INDUSTRIA DE ARTEFATOS DE CIMENTO",
+        "cessionario": "CLAUDINEI TEIXEIRA DINIZ",
+        "valor": "2072,95",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "01/12/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "MIRAMED COM REPRESENTACOES LTDA",
+        "cessionario": "CLAUDINEI TEIXEIRA DINIZ",
+        "valor": "9445,21",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "01/12/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "MARLENE MARIA BELATTO",
+        "cessionario": "MARLENE MARIA BELATTO",
+        "valor": "12149,16",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "01/12/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "MIGUEL GUIZARDI JUNIOR",
+        "cessionario": "MIGUEL GUIZARDI JUNIOR",
+        "valor": "12149,16",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "01/12/2021"
+      }
+    ],
+    "valor_causa": 10000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0035167-26.2010.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO BRASIL S.A.",
+        "cessionario": "ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CHEFE TRANSPORTES LTDA - ME (08989215000199)",
+        "motivo_classificacao": null,
+        "data_cessao": "17/12/2020"
+      }
+    ],
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0035472-34.2015.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO BRASIL S.A.",
+        "cessionario": "ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "LF CONSTRUÇÕES CIVIS LTDA (01087872000129)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS",
+        "cessionario": "ADAIR JOSÉ CAMARGO POTELLA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "LF CONSTRUÇÕES CIVIS LTDA (01087872000129)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 1002128.06,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0037362-08.2015.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DE BRASÍLIA S/A - BRB",
+        "cessionario": "LÚCIO FLÁVIO ALVES DE BRITO",
+        "valor": "15000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "ENGEPONTE CONSTRUÇÕES LTDA (05369365000101)",
+        "motivo_classificacao": null,
+        "data_cessao": "08/10/2021"
+      }
+    ],
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0050120-19.2015.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO BRASIL S/A",
+        "cessionario": "ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS",
+        "valor": "250089,67",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0050992-05.2013.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ITAÚ UNIBANCO S.A. E ITAÚ UNIBANCO HOLDING S.A.",
+        "cessionario": "SOLVE SECURITIZADORA DE CRÉDITOS FINANCEIROS S/A",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "BERGAMASCHI CONSTRUÇÕES LTDA (02960985000122),PREDICON CONSTRUÇÕES CIVIS LTDA,TEXAS CONSTRUÇÕES E INCORPORAÇÕES LTDA (04869286000105),GRUPO AGROINDUSTRIAL S/A",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0051501-33.2013.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO CHH",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS NPL II",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "FASHION TUR VIAGENS E TURISMO LTDA - ME,TRANSPORTADORA EXPRESSO JUARA LTDA,EXECUTIVA NORTH TRANSPORTES LTDA - ME,ADRIANE TRANSPORTES E TURISMO LTDA - ME,VALDIR RUELIS,VIANORTH VIAGENS E TURISMO LTDA - ME,EXPRESSO NORTE TRANSPORTES LTDA - ME,QUARTZONORTH INDUSTRIA E COMÉRCIO DE ARGAMASSA LTDA - ME (10658702000110),AVM VIAGENS E TURISMO LTDA ME,BOA VIAGEM TRANSPORTES E TURISMO LTDA - ME,MAV INDUSTRIA INCORPORADORA E CONSTRUTORA LTDA - ME,ROSARIO TUR VIAGENS E TURISMO LTDA - ME,TRANSCAPITAL TRANSPORTES E TURISMO LTDA ME,EXECUTIVA TUR VIAGENS E TURISMO LTDA - ME,TRANSRUELIS TRANSPORTES LTDA - ME",
+        "motivo_classificacao": null,
+        "data_cessao": "09/07/2024"
+      }
+    ],
+    "valor_causa": 50000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0053963-89.2015.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO TRIÂNGULO S/A",
+        "cessionario": "ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS",
+        "valor": "73478,37",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "STELLATO & STELLATO LTDA (01509763000125),LAJES PONTUAL LTDA,CONSTRUTORA E INCORPORADORA TOCANTIS LTDA (32937708000160),ETERC ENGENHARIA LTDA",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0058675-59.2014.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO BRASIL S.A.",
+        "cessionario": "TRAVESSIA SECURITIZADORA DE CRÉDITOS FINANCEIROS VIII S.A.",
+        "valor": "23166649,51",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SIGMA AGROPECUARIA LTDA (05554364000137), BANCO SANTANDER BRASIL S/A (61472676025590), BANCO ABC BRASIL S.A. (28195667000106), RIZOBACTER DO BRASIL LTDA (02517482000187), DOW AGROSCIENCES INDUSTRIAL LTDA (47180625002190), BANCO DO BRASIL S.A. (00000000000191), FERTILIZANTES HERINGER S.A. (22266175000188), CONSAGRO AGROQUIMICA LTDA. (07273677000223), ITAU UNIBANCO S.A. (60701190000104), BANCO BRADESCO S.A. (60746948000112), ALBAUGH AGRO BRASIL LTDA. (01789121000127), SUMITOMO CHEMICAL BRASIL INDUSTRIA QUIMICA S.A. (07467822000630), GERDAU ACOS LONGOS S.A. (07358761000169)",
+        "motivo_classificacao": null,
+        "data_cessao": "30/06/2025"
+      }
+    ],
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "0059123-32.2014.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO CNH",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS NPL II",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "ENSERCON ENGENHARIA LTDA (15361439000117) (15361439000117)",
+        "motivo_classificacao": null,
+        "data_cessao": "30/03/2024"
+      }
+    ],
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1000162-90.2023.8.11.0033",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ECO DISTRIBUIDORA DE PETRÓLEO S.A.",
+        "cessionario": "TREVISO FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS MULTISSETORIAL NP",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 7008538.3,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1000262-16.2021.8.11.0033",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "DESTILARIA DE ÁLCOOL LIBRA LTDA",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS DA INDÚSTRIA EXODUS INSTITUCIONAL",
+        "valor": "287292,35",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "18/09/2020"
+      }
+    ],
+    "valor_causa": 298199.31,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1000445-31.2024.8.11.0049",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO BRASIL S.A.",
+        "cessionario": "SSG FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "RAPHAEL FRANCO ANDRADE COSTA (69249016115) (69249016115),FRANCO AGRO LTDA. (41930451000105) (41930451000105),RANCHO H F AGROPECUÁRIA LTDA. (10673312000110) (10673312000110),SILIA CANDIDA DE ANDRADE NETA (29261279104) (29261279104),FAZENDA LINDA FLORA AGRONEGÓCIO LTDA. (54153266000101) (54153266000101)",
+        "motivo_classificacao": null,
+        "data_cessao": "29/10/2025"
+      }
+    ],
+    "valor_causa": 151367612.25,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1000678-38.2021.8.11.0015",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "COOPERATIVA DE CRÉDITO, POUPANÇA E INVESTIMENTO OURO VERDE DO MATO GROSSO - SICREDI OURO VERDE MT",
+        "cessionario": "LEANDRO ZAVODINI",
+        "valor": "160000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "AQUILES MAFINI (24199605991) (24199605991),SILVANA MARGARETE MAFINI (77820142987) (77820142987),MAFINI INCORPORADORA DE IMÓVEIS LTDA. (17048464000170) (17048464000170),AGROMIL TRANSPORTES LTDA. (32453671000102) (32453671000102)",
+        "motivo_classificacao": null,
+        "data_cessao": "09/11/2021"
+      }
+    ],
+    "valor_causa": 196308130.87,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1000866-96.2020.8.11.0037",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "DAYSTAR TECNOLOGIAS LTDA.",
+        "cessionario": "RENOVAGRO – AGRICULTURA RENOVÁVEL S.A.",
+        "valor": "225810,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "ANTÔNIO CARLOS IENERICH (01115844180) (01115844180),IURI FRANCO ROCHA (01523162139) (01523162139),GILBERTO BELINATO (85646881900) (85646881900),BR COMERCIO DE PRODUTOS AGRÍCOLAS LTDA. (10530266000108) (10530266000108),BR PARTICIPAÇÕES E INVESTIMENTOS LTDA. (28392121000145) (28392121000145),BR COMERCIO DE CEREAIS LTDA. (23937313000176) (23937313000176)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 58199469.59,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1001011-92.2018.8.11.0015",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "UPL DO BRASIL INDÚSTRIA E COMÉRCIO DE INSUMOS AGROPECUÁRIOS S.A.",
+        "cessionario": "TRAVESSIA SECURITIZADORA DE CRÉDITOS FINANCEIROS VIII S.A.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "TRIBUNAL DE JUSTICA DO ESTADO DE MATO GROSSO (03535606000110)",
+        "motivo_classificacao": null,
+        "data_cessao": "29/07/2025"
+      }
+    ],
+    "valor_causa": 74566735.66,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1001342-63.2018.8.11.0051",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ATIVA MATERIAIS ELÉTRICOS LTDA",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": "233640,95",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "30/11/2020"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BOMBAS DIESEL CAMPO VERDE EIRELLI-MT",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "30/11/2020"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "CARLOS GEOVANE FERREIRA BARBOSA - ME",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": "1752,35",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "30/11/2020"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "SOUTES & CIA LTDA",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": "89081,72",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "30/11/2020"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "TARCISIO MINUSSI",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": "240000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "30/11/2020"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "IND E COM DE BALANCAS MATO GROSSO LTDA",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": "3080,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "30/11/2020"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "JAIRO LUIS GRASEL",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": "38018,40",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "30/11/2020"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "MERCANTIL DE PEÇAS LTDA",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": "25968,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "30/11/2020"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "GERDAU AÇOS LONGOS S/A",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": "12084,67",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "17/12/2020"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "AUTO ELÉTRICA SÃO PAULO LTDA - ME",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": "3000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "10/02/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "DEPOSITO DE MATERIAIS DE CONSTRUÇÕES CAMPO VERDE LTDA",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": "11000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "10/02/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "E. D. P. CATELLA - ME",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": "1200,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "10/02/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "FRANCIENE MORA DE MIRANDA EIRELI-ME",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": "3000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "10/02/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "SC ALIMENTOS LTDA",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": "4000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "10/02/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "HARLEI NEANDER KAPTEINAT - ME",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": "2000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "10/02/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "HÉLIO MARTINS DA SILVA - ME",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": "3000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "10/02/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "INDUSTRIA MECANICA GONZAGA LTDA",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": "2000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "10/02/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "NILCIIN FERREIRA DE SOUZA - ME",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": "5000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "10/02/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "A. S. MATIAS & CIA LTDA ME",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": "2500,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "01/06/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "T C G SENNA LOPES E CIA LTDA EPP",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": "4900,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "01/07/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "VALDEMIR CAETANO - ME",
+        "cessionario": "IVANOR JOSÉ DE ANDRADE",
+        "valor": "900,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "21/07/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "VANGUARDA IND. COM. CORREIAS",
+        "cessionario": "ENERGISA S/A E MAXBELT LTDA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "S. NORTON DE OLIVEIRA & CIA LTDA (02608993000104),NORTON OLIVEIRA INDÚSTRIA E COMÉRCIO DE FERTILIZANTES LTDA - EPP (11034541000157),SERGIO NORTON DE OLIVEIRA JUNIOR & CIA LTDA (12378385000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "06/12/2023"
+      }
+    ],
+    "valor_causa": 3504503.32,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1001356-55.2019.8.11.0037",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "JAPUÍRA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS",
+        "cessionario": "TEMPLI SECURITIZADORA DE CRÉDITOS S/A",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "AGROPECUÁRIA ITAQUERE DO ARAGUAIA LTDA (05480855000180) (05480855000180),AGROPECUÁRIA RANCHO FUNDO DO ITAQUERE LTDA (05480865000116) (05480865000116),PARTICIPAÇÕES E EMPREENDIMENTOS EBHB LTDA (23533403000100) (23533403000100),PARTICIPAÇÕES E EMPREENDIMENTOS JUCARAMA LTDA (21496999000181) (21496999000181),PARTICIPAÇÕES E EMPREENDIMENTOS PIRAGUASSU LTDA (20099903000189) (20099903000189),PARTICIPAÇÃO E EMPREENDIMENTOS RIO SUIA LTDA (19083038000101) (19083038000101),RIO SUIÁ ENTERPRISES LLC (19159439000190) (19159439000190),ENERCOOP LTDA (26773721000128) (26773721000128),INDEPENDÊNCIA ARMAZÉNS GERAIS E SILOS LTDA (80170202000110) (80170202000110),ITAQUERE AGRO INDUSTRIAL LTDA (37459666000112) (37459666000112),ELOI BRUNETTA (16840186920) (16840186920)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "DOW AGROSCIENCES INDUSTRIAL LTDA",
+        "cessionario": "FLOSS INVESTIMENTO DE GESTÃO DE ATIVOS LTDA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "AGROPECUÁRIA ITAQUERE DO ARAGUAIA LTDA (05480855000180) (05480855000180),AGROPECUÁRIA RANCHO FUNDO DO ITAQUERE LTDA (05480865000116) (05480865000116),PARTICIPAÇÕES E EMPREENDIMENTOS EBHB LTDA (23533403000100) (23533403000100),PARTICIPAÇÕES E EMPREENDIMENTOS JUCARAMA LTDA (21496999000181) (21496999000181),PARTICIPAÇÕES E EMPREENDIMENTOS PIRAGUASSU LTDA (20099903000189) (20099903000189),PARTICIPAÇÃO E EMPREENDIMENTOS RIO SUIA LTDA (19083038000101) (19083038000101),RIO SUIÁ ENTERPRISES LLC (19159439000190) (19159439000190),ENERCOOP LTDA (26773721000128) (26773721000128),INDEPENDÊNCIA ARMAZÉNS GERAIS E SILOS LTDA (80170202000110) (80170202000110),ITAQUERE AGRO INDUSTRIAL LTDA (37459666000112) (37459666000112),ELOI BRUNETTA (16840186920) (16840186920)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "CORTEVA AGRISCIENCE DO BRASIL LTDA",
+        "cessionario": "FLOSS INVESTIMENTO DE GESTÃO DE ATIVOS LTDA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "AGROPECUÁRIA ITAQUERE DO ARAGUAIA LTDA (05480855000180) (05480855000180),AGROPECUÁRIA RANCHO FUNDO DO ITAQUERE LTDA (05480865000116) (05480865000116),PARTICIPAÇÕES E EMPREENDIMENTOS EBHB LTDA (23533403000100) (23533403000100),PARTICIPAÇÕES E EMPREENDIMENTOS JUCARAMA LTDA (21496999000181) (21496999000181),PARTICIPAÇÕES E EMPREENDIMENTOS PIRAGUASSU LTDA (20099903000189) (20099903000189),PARTICIPAÇÃO E EMPREENDIMENTOS RIO SUIA LTDA (19083038000101) (19083038000101),RIO SUIÁ ENTERPRISES LLC (19159439000190) (19159439000190),ENERCOOP LTDA (26773721000128) (26773721000128),INDEPENDÊNCIA ARMAZÉNS GERAIS E SILOS LTDA (80170202000110) (80170202000110),ITAQUERE AGRO INDUSTRIAL LTDA (37459666000112) (37459666000112),ELOI BRUNETTA (16840186920) (16840186920)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "SUMITOMO CHEMICAL BRASIL INDÚSTRIA QUÍMICA S.A.",
+        "cessionario": "FLOSS INVESTIMENTO DE GESTÃO DE ATIVOS LTDA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "AGROPECUÁRIA ITAQUERE DO ARAGUAIA LTDA (05480855000180) (05480855000180),AGROPECUÁRIA RANCHO FUNDO DO ITAQUERE LTDA (05480865000116) (05480865000116),PARTICIPAÇÕES E EMPREENDIMENTOS EBHB LTDA (23533403000100) (23533403000100),PARTICIPAÇÕES E EMPREENDIMENTOS JUCARAMA LTDA (21496999000181) (21496999000181),PARTICIPAÇÕES E EMPREENDIMENTOS PIRAGUASSU LTDA (20099903000189) (20099903000189),PARTICIPAÇÃO E EMPREENDIMENTOS RIO SUIA LTDA (19083038000101) (19083038000101),RIO SUIÁ ENTERPRISES LLC (19159439000190) (19159439000190),ENERCOOP LTDA (26773721000128) (26773721000128),INDEPENDÊNCIA ARMAZÉNS GERAIS E SILOS LTDA (80170202000110) (80170202000110),ITAQUERE AGRO INDUSTRIAL LTDA (37459666000112) (37459666000112),ELOI BRUNETTA (16840186920) (16840186920)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 482126064.7,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1001875-28.2021.8.11.0015",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BAYER S.A.",
+        "cessionario": "TRAVESSIA SECURITIZADORA DE CRÉDITOS FINANCEIROS VIII S.A.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "ALGODOEIRA VALE DO TARTARUGA LTDA.,MOACIR ANTÔNIO PICININ,VALDIR LUIZ PICININ",
+        "motivo_classificacao": null,
+        "data_cessao": "19/11/2025"
+      }
+    ],
+    "valor_causa": 239777313.48,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1002346-20.2016.8.11.0015",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO-PADRONIZADOS ALTERNATIVE ASSETS I",
+        "cessionario": "TRAVESSIA SECURITIZADORA DE CRÉDITOS FINANCEIROS VIII S.A.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SANGALETTI SANGALETTI & CIA LTDA (26777276000174) (26777276000174)",
+        "motivo_classificacao": null,
+        "data_cessao": "15/05/2020"
+      }
+    ],
+    "valor_causa": 57959984.49,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1002477-68.2019.8.11.0086",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "COOPERATIVA DE CRÉDITO, POUPANÇA E INVESTIMENTO OURO VERDE DE MATO GROSSO - SICREDI OURO VERDE MT",
+        "cessionario": "LUIS FELIPE LAMMEL",
+        "valor": "85000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CELEIRO ARMAZÉNS GERAIS LTDA (04907191000120) (04907191000120),ARROZEIRA SOMAR LTDA (05517647000109) (05517647000109),CEREALISTA FACCIO LTDA (00155593000165) (00155593000165)",
+        "motivo_classificacao": null,
+        "data_cessao": "01/02/2024"
+      }
+    ],
+    "valor_causa": 19259485.92,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1002559-69.2021.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "CONDOMINIO RURAL FAZENDA JAUQUARA",
+        "cessionario": "JOSÉ CARLOS SARTORI",
+        "valor": "2374278,04",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "ARCA S/A AGROPECUARIA (01380468000111) (01380468000111)",
+        "motivo_classificacao": null,
+        "data_cessao": "04/04/2024"
+      }
+    ],
+    "valor_causa": 48173910.97,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1002602-64.2025.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "SB CRÉDITO SECURITIZADORA S/A",
+        "cessionario": "SB CRÉDITO MULTIESTRATÉGIA II FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS DE CLASSE ÚNICA FECHADA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "LF HOLDING LTDA (27406335000160), FERREIRA CAMACHO & CIA LTDA (19391169000148), LF PECUARIA PARA LTDA (44656895000192), LF PECUARIA BAHIA LTDA (30118631000170), LF HOLDING AGRONEGOCIOS LTDA (28699410000191), LF PEC MATO GROSSO LTDA (29295477000123), LF INDUSTRIA E COMERCIO DE CARNES E DERIVADOS LTDA (27895350000110)",
+        "motivo_classificacao": null,
+        "data_cessao": "01/12/2025"
+      }
+    ],
+    "valor_causa": 193930342.15,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1002774-70.2018.8.11.0002",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO SANTANDER (BRASIL) S.A.",
+        "cessionario": "D2 CAPITAL GESTÃO DE ATIVOS FINANCEIROS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "TERRA NOVA AGROINDÚSTRIA LTDA (07175357000150) (07175357000150)",
+        "motivo_classificacao": null,
+        "data_cessao": "23/09/2022"
+      }
+    ],
+    "valor_causa": 15223575.31,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1002788-68.2025.8.11.0015",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "UY3 SOCIEDADE DE CRÉDITO DIRETO S.A.",
+        "cessionario": "911 BANK MULTI ESTRATEGIA FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS",
+        "valor": "231276,44",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "18/07/2024"
+      }
+    ],
+    "valor_causa": 289386.17,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1002999-05.2020.8.11.0040",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "METROPOLITAN LIFE INSURANCE COMPANY - METLIFE",
+        "cessionario": "ACROS RECUPERAÇÃO DE CRÉDITO LTDA",
+        "valor": "17890382,42",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "DGF PARTICIPAÇÕES LTDA. (23328779000174) (23328779000174),DGF AGROPECUÁRIA LTDA. (21231448000196) (21231448000196),DGF FAZENDAS LTDA. (22076515000108) (22076515000108),DARCY GETÚLIO FERRARIN (06167012091) (06167012091),DARCY GETÚLIO FERRARIN JÚNIOR (81380577004) (81380577004)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 381175725.67,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1003214-24.2022.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "LÉLIO JOSÉ TOSTA",
+        "cessionario": "LEANDRO ANTÔNIO FERREIRA",
+        "valor": "7261543,71",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "RODOLIBERDADE",
+        "motivo_classificacao": null,
+        "data_cessao": "29/06/2022"
+      }
+    ],
+    "valor_causa": 8846637.16,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1003476-67.2016.8.11.0040",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "MONSANTO DO BRASIL LTDA.",
+        "cessionario": "TRAVESSIA SECURITIZADORA DE CRÉDITOS MERCANTIS XXV S.A.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "AGROVERDE AGRONEGÓCIOS E LOGÍSTICA LTDA. (07632515000153) (07632515000153),CENTRO NORTE INSUMOS AGRICOLAS LTDA. (02479610000145) (02479610000145),CENTRO OESTE AGROPECUÁRIA LTDA. (02484016000142) (02484016000142),AGROPECUÁRIA TABATINGA LTDA. (04755589000199) (04755589000199),RENATO ALVES DE FREITAS (77128400672) (77128400672),RAFAEL PIVA BATTAGLINI (01777217156) (01777217156),PAULO HUMBERTO FREITAS (36966037168) (36966037168),MOACYR BATTAGLINI (61759554987) (61759554987)",
+        "motivo_classificacao": null,
+        "data_cessao": "19/11/2025"
+      }
+    ],
+    "valor_causa": 560000000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1003751-54.2021.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "SEBASTIÃO FIRMINO DE OLIVEIRA",
+        "cessionario": "WELINGTON FARAH",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "FRIGORÍFICO NOVA CARNE (12535318000156) (12535318000156),CARNE BRASIL ATACADO LTDA. (18729226000193) (18729226000193)",
+        "motivo_classificacao": null,
+        "data_cessao": "28/04/2023"
+      }
+    ],
+    "valor_causa": 18071721.19,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1003813-89.2024.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "GRUPO TISOTT",
+        "cessionario": "MPA FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "NOVOSOLO AGRONEGOCIOS LTDA (05672047000115), MALUA TRANSPORTES LTDA (23867370000126), CRISTINA LEANDRA BRUM TISOTT (53815504000126), CESAR AUGUSTO TISOTT (53813081000105)",
+        "motivo_classificacao": null,
+        "data_cessao": "16/10/2025"
+      }
+    ],
+    "valor_causa": 122165526.76,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1004067-72.2018.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ENERGISA MINAS GERAIS – DISTRIBUIDORA DE ENERGIA S.A.",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS INSOLVÊNCIA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CCONDE SUPERMECADO LTDA. (20348370000121),CREZENDE DA SILVA ME. (28240888000159)",
+        "motivo_classificacao": null,
+        "data_cessao": "04/03/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ENERGISA PARAÍBA – DISTRIBUIDORA DE ENERGIA S.A.",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS INSOLVÊNCIA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CCONDE SUPERMECADO LTDA. (20348370000121),CREZENDE DA SILVA ME. (28240888000159)",
+        "motivo_classificacao": null,
+        "data_cessao": "04/03/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ENERGISA SERGIPE – DISTRIBUIDORA DE ENERGIA S.A.",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS INSOLVÊNCIA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CCONDE SUPERMECADO LTDA. (20348370000121),CREZENDE DA SILVA ME. (28240888000159)",
+        "motivo_classificacao": null,
+        "data_cessao": "04/03/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ENERGISA MATO GROSSO – DISTRIBUIDORA DE ENERGIA S.A.",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS INSOLVÊNCIA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CCONDE SUPERMECADO LTDA. (20348370000121),CREZENDE DA SILVA ME. (28240888000159)",
+        "motivo_classificacao": null,
+        "data_cessao": "04/03/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ENERGISA MATO GROSSO DO SUL – DISTRIBUIDORA DE ENERGIA S.A.",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS INSOLVÊNCIA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CCONDE SUPERMECADO LTDA. (20348370000121),CREZENDE DA SILVA ME. (28240888000159)",
+        "motivo_classificacao": null,
+        "data_cessao": "04/03/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ENERGISA TOCANTINS – DISTRIBUIDORA DE ENERGIA S.A.",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS INSOLVÊNCIA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CCONDE SUPERMECADO LTDA. (20348370000121),CREZENDE DA SILVA ME. (28240888000159)",
+        "motivo_classificacao": null,
+        "data_cessao": "04/03/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ENERGISA SUL SUDESTE – DISTRIBUIDORA DE ENERGIA S.A.",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS INSOLVÊNCIA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CCONDE SUPERMECADO LTDA. (20348370000121),CREZENDE DA SILVA ME. (28240888000159)",
+        "motivo_classificacao": null,
+        "data_cessao": "04/03/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ENERGISA RONDÔNIA – DISTRIBUIDORA DE ENERGIA S.A.",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS INSOLVÊNCIA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CCONDE SUPERMECADO LTDA. (20348370000121),CREZENDE DA SILVA ME. (28240888000159)",
+        "motivo_classificacao": null,
+        "data_cessao": "04/03/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ENERGISA ACRE – DISTRIBUIDORA DE ENERGIA S.A.",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS INSOLVÊNCIA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CCONDE SUPERMECADO LTDA. (20348370000121),CREZENDE DA SILVA ME. (28240888000159)",
+        "motivo_classificacao": null,
+        "data_cessao": "04/03/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ENERGISA COMERCIALIZADORA DE ENERGIA LTDA.",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS INSOLVÊNCIA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CCONDE SUPERMECADO LTDA. (20348370000121),CREZENDE DA SILVA ME. (28240888000159)",
+        "motivo_classificacao": null,
+        "data_cessao": "04/03/2021"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ENERGISA S.A.",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS INSOLVÊNCIA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CCONDE SUPERMECADO LTDA. (20348370000121),CREZENDE DA SILVA ME. (28240888000159)",
+        "motivo_classificacao": null,
+        "data_cessao": "04/03/2021"
+      }
+    ],
+    "valor_causa": 7652682.21,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1004152-67.2023.8.11.0008",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "TEREZINHA PELACHIM DE LIMA E APARECIDO GONCALVES DE LIMA",
+        "cessionario": "VANESSA DE SOUZA SANDRI",
+        "valor": "80000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SUPER CAROL LTDA (10669660000113) (10669660000113)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "VERA LUCIA PELACHIM CAIONI E AMAURI CAIONI",
+        "cessionario": "VANESSA DE SOUZA SANDRI",
+        "valor": "80000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SUPER CAROL LTDA (10669660000113) (10669660000113)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "EUGÊNIO PELACHIM",
+        "cessionario": "VANESSA DE SOUZA SANDRI",
+        "valor": "80000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SUPER CAROL LTDA (10669660000113) (10669660000113)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ELVIRA PELACHIM CAIONI",
+        "cessionario": "VANESSA DE SOUZA SANDRI",
+        "valor": "80000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SUPER CAROL LTDA (10669660000113) (10669660000113)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "JOAO PELACHIM E ENIETE MARIANO DA COSTA PELACHIM",
+        "cessionario": "VANESSA DE SOUZA SANDRI",
+        "valor": "80000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SUPER CAROL LTDA (10669660000113) (10669660000113)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "LUZIA PELACHIM DE ALMEIDA",
+        "cessionario": "VANESSA DE SOUZA SANDRI",
+        "valor": "80000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SUPER CAROL LTDA (10669660000113) (10669660000113)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ELIZETE PELACHIM DE SOUZA E JOSE MARTINS DE SOUZA",
+        "cessionario": "VANESSA DE SOUZA SANDRI",
+        "valor": "80000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SUPER CAROL LTDA (10669660000113) (10669660000113)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "FRANCISCO PELACHIM",
+        "cessionario": "VANESSA DE SOUZA SANDRI",
+        "valor": "80000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SUPER CAROL LTDA (10669660000113) (10669660000113)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "EDEVANDRO PELACHIM E MARILDA MACHADO PELACHIM",
+        "cessionario": "VANESSA DE SOUZA SANDRI",
+        "valor": "80000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SUPER CAROL LTDA (10669660000113) (10669660000113)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "HELENA PELACHIM COSTA E ANTONIO ROSENDO DA COSTA",
+        "cessionario": "VANESSA DE SOUZA SANDRI",
+        "valor": "80000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SUPER CAROL LTDA (10669660000113) (10669660000113)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "JOSE PELACHIM NETO E MARIA MADALENA PELACHIM",
+        "cessionario": "VANESSA DE SOUZA SANDRI",
+        "valor": "80000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SUPER CAROL LTDA (10669660000113) (10669660000113)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "MARIA DE LOURDES PELACHIM",
+        "cessionario": "VANESSA DE SOUZA SANDRI",
+        "valor": "80000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SUPER CAROL LTDA (10669660000113) (10669660000113)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 7896146.75,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1004263-49.2023.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "MONEY PLUS SOCIEDADE DE CRÉDITO AO MICROEMPREENDEDOR E À EMPRESA DE PEQUENO PORTE LTDA",
+        "cessionario": "RED FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS REAL LP",
+        "valor": "2350000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "AVIDA CONSTRUTORA E INCORPORADORA S/A (09001183000134)",
+        "motivo_classificacao": null,
+        "data_cessao": "17/09/2021"
+      }
+    ],
+    "valor_causa": 36096154.26,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1004454-26.2025.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "PAULO ROBERTO FE OLIVEIRA",
+        "cessionario": "JOSÉ SIMÃO FERREIRA MARTINS",
+        "valor": "1854838,51",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SISAN ENGENHARIA LTDA (04751205000160)",
+        "motivo_classificacao": null,
+        "data_cessao": "22/09/2025"
+      }
+    ],
+    "valor_causa": 13852779.27,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1004743-57.2017.8.11.0002",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BLUE DISTR. DE PROD. ALIMENTICIOS LTDA",
+        "cessionario": "ABRALU REPRESENTAÇÕES COMERCIAIS LTDA ME",
+        "valor": "71060,20",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "FORTE COMERCIAL LTDA (04369167000185)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "M. DIAS BRANCO S/A IND E COM DE ALIMENTOS",
+        "cessionario": "ABRALU REPRESENTAÇÕES COMERCIAIS LTDA ME",
+        "valor": "901677,08",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "FORTE COMERCIAL LTDA (04369167000185)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "NADIR FIGUEREDO IND E COM S/A",
+        "cessionario": "ABRALU REPRESENTAÇÕES COMERCIAIS LTDA ME",
+        "valor": "258898,51",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "FORTE COMERCIAL LTDA (04369167000185)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "R & D COMERCIO IMP. EXP. MAT. ELETRICOS S/A",
+        "cessionario": "ABRALU REPRESENTAÇÕES COMERCIAIS LTDA ME",
+        "valor": "197275,15",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "FORTE COMERCIAL LTDA (04369167000185)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "SAKURA NAKAYA ALIMENTOS LTDA",
+        "cessionario": "ABRALU REPRESENTAÇÕES COMERCIAIS LTDA ME",
+        "valor": "147400,82",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "FORTE COMERCIAL LTDA (04369167000185)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ULTEC ALIMENTOS S/A",
+        "cessionario": "ABRALU REPRESENTAÇÕES COMERCIAIS LTDA ME",
+        "valor": "64782,90",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "FORTE COMERCIAL LTDA (04369167000185)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 6623250.57,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1005744-47.2023.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO BRASIL",
+        "cessionario": "ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CASSIO LUIZ DE AQUINO NUNES (01979806000136) (01979806000136),CASSIO LUIZ DE AQUINO NUNES FILHO (48982643000104) (48982643000104)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 2096836.37,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1006658-48.2022.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "DIMENSIONAL BRASIL SOLUÇÕES LTDA",
+        "cessionario": "DSA PARTICIPAÇÕES E ESTRUTURAÇÃO DE NEGÓCIOS S.A.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "AGROPECUÁRIA MALP ADMINISTRAÇÃO E PARTICIPAÇÕES LTDA (02167345000160) (02167345000160),AGROPECUÁRIA S.B.F ADMINISTRAÇÃO E PARTICIPAÇÃO LTDA (01901274000114) (01901274000114),CURITIBA AGROPECUÁRIA INDÚSTRIA E COMÉRCIO LTDA (73541658000184) (73541658000184),CURTUME ARAPUTANGA S.A – CURTUARA (01395652000135) (01395652000135),CURTUME JANGADA S.A (02166345000145) (02166345000145),FRIGORÍFICO ARAPUTANGA S.A (00958181000163) (00958181000163),FRIGORÍFICO REDENTOR S.A (02165984000196) (02165984000196),J.P.M.B INDÚSTRIA E COMÉRCIO LTDA (04536410000102) (04536410000102),KLM AGROPECUÁRIA ADMINISTRAÇÃO E PARTICIPAÇÕES LTDA (03493985000122) (03493985000122),REDENÇÃO INDÚSTRIA COMÉRCIO IMPORTAÇÃO E EXPORTAÇÃO DE COUROS LTDA (04446006000136) (04446006000136),REDENTOR FOODS – INDUSTRIA COMÉRCIO AGROINDUSTRIA E PARTICIPAÇÕES LTDA (24952749000105) (24952749000105),SÃO JOSÉ ENERGIA PCHS LTDA (16689780000169) (16689780000169)",
+        "motivo_classificacao": null,
+        "data_cessao": "31/10/2025"
+      }
+    ],
+    "valor_causa": 270666616.11,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1007082-44.2021.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "cessionario": "TERRA PREMIUM COM. DE MAQS. AGRICS. LTDA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "ADEMILSON ANTÔNIO DALMOLIN (14193359875) (14193359875)",
+        "motivo_classificacao": null,
+        "data_cessao": "19/11/2024"
+      }
+    ],
+    "valor_causa": 9379266.24,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1007134-62.2025.8.11.0015",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "RAFAEL AMORIM LTDA",
+        "cessionario": "JOÃO MARCELO BARROS MASSAROLO",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SAFRAS INDÚSTRIA E COMÉRCIO DE BIOCOMBUSTÍVEIS LTDA. (25242466000124) (25242466000124),SAFRAS AGROINDÚSTRIA S/A (04409153000148) (04409153000148),SAFRAS ARMAZÉNS GERAIS LTDA. (11644786000104) (11644786000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "24/03/2025"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "LUIZ PAULO MURARO",
+        "cessionario": "JULIO DA SILVA RIBEIRO",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SAFRAS INDÚSTRIA E COMÉRCIO DE BIOCOMBUSTÍVEIS LTDA. (25242466000124) (25242466000124),SAFRAS AGROINDÚSTRIA S/A (04409153000148) (04409153000148),SAFRAS ARMAZÉNS GERAIS LTDA. (11644786000104) (11644786000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "30/04/2025"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "FIAGRIL",
+        "cessionario": "DKFA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SAFRAS INDÚSTRIA E COMÉRCIO DE BIOCOMBUSTÍVEIS LTDA. (25242466000124) (25242466000124),SAFRAS AGROINDÚSTRIA S/A (04409153000148) (04409153000148),SAFRAS ARMAZÉNS GERAIS LTDA. (11644786000104) (11644786000104)",
+        "motivo_classificacao": null,
+        "data_cessao": "22/01/2026"
+      }
+    ],
+    "valor_causa": 1780473305.69,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1007244-17.2024.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "TAXCO SERVIÇOS CONTÁBEIS S/S",
+        "cessionario": "ABN SERVIÇOS ADMINISTRATIVOS LTDA.",
+        "valor": "593318,84",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CUIABA CORRETORA EIRELI (31762799000187), SOAMI AGROINDUSTRIAL LTDA (09022921000120)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 229192288.4,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1007913-24.2023.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO SANTANDER BRASIL S/A",
+        "cessionario": "INV COMPANHIA SECURITIZADORA DE CRÉDITO",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "ESPÓLIO DE BERTHOLDO DIEHL,JUNIOR DIEHL (89902386172),ELI DIEHL (54566169120),MARCOS DIEHL (48752436187),VERA DIEHL PEREIRA (50290428149),EDUARDO DIEHL (02783615100),GRUPO DIEHL LTDA (31841592000106)",
+        "motivo_classificacao": null,
+        "data_cessao": "22/03/2024"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "INV COMPANHIA SECURITIZADORA DE CRÉDITOS",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADO CF",
+        "valor": "4399212,94",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "ESPÓLIO DE BERTHOLDO DIEHL,JUNIOR DIEHL (89902386172),ELI DIEHL (54566169120),MARCOS DIEHL (48752436187),VERA DIEHL PEREIRA (50290428149),EDUARDO DIEHL (02783615100),GRUPO DIEHL LTDA (31841592000106)",
+        "motivo_classificacao": null,
+        "data_cessao": "04/06/2024"
+      }
+    ],
+    "valor_causa": 111894528.13,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1009136-97.2020.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "GERDAU AÇOS LONGOS S.A.",
+        "cessionario": "ZEFIROS I FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 84175.55,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1009419-11.2018.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "LGD INDÚSTRIA E COMÉRCIO LTDA.",
+        "cessionario": "DAROLT SCHMIDT HOLDING LTDA.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "BIG BAG BRASIL EMBALAGENS EIRELI (06063219000116) (06063219000116)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 7603896.82,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1009742-38.2022.8.11.0015",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "PIOVEZAN IMPLEMENTOS AGRÍCOLAS EIRELI",
+        "cessionario": "CLEBER SANCHES DE LIMA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "FBM COMERCIO DE MATERIAIS PARA CONSTRUÇÃO LTDA-EPP (09245965000119),FERRARI EMPREENDIMENTOS EIRELI (13442192000138),JUELCI FERRARI TRANSPORTES EIRELI-ME (21850633000169),JUELCI FERRARI-ME (26557335000107)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 17604447.47,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1009793-17.2024.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "UPL DO BRASIL INDÚSTRIA E COMÉRCIO DE INSUMOS AGROPECUÁRIOS S.A.",
+        "cessionario": "TRAVESSIA SECURITIZADORA DE CRÉDITOS FINANCEIROS VIII S.A.",
+        "valor": "205556566,55",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "HALID MAHMOUD DARWICHE (66663377949) (66663377949),LUCIANA VANESSA PERUCHINI VIDORI (01773932110) (01773932110),GALDINO DO AMARAL CARVALHO (01590905806) (01590905806),AGROPECUÁRIA BX LTDA (45154141000105) (45154141000105)",
+        "motivo_classificacao": null,
+        "data_cessao": "31/03/2025"
+      }
+    ],
+    "valor_causa": 61308693.66,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1011573-89.2024.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO SANTANDER (BRASIL) S/A",
+        "cessionario": "MORIA CONSULTORIA FINANCEIRA E EMPRESARIAL LTDA",
+        "valor": "910547,36",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "P A REZENDE LTDA. (05855123000128) (05855123000128)",
+        "motivo_classificacao": null,
+        "data_cessao": "18/09/2025"
+      }
+    ],
+    "valor_causa": 26946597.06,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1012095-80.2024.8.11.0015",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "MONSANTO DO BRASIL LTDA.",
+        "cessionario": "TRAVESSIA SECURITIZADORA DE CRÉDITOS MERCANTIS XXV S.A.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "MASTER COMÉRCIO E EXPORTAÇÃO DE CEREAIS LTDA. (14119613000157) (14119613000157),R.M. AGRÍCOLA LTDA. (18426776000133) (18426776000133),MASTER LOG LTDA. (28092065000123) (28092065000123)",
+        "motivo_classificacao": null,
+        "data_cessao": "19/11/2025"
+      }
+    ],
+    "valor_causa": 122925474.64,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1012518-42.2025.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "LFX SERVICOS DE TRANSPORTES E",
+        "cessionario": "BANCO SAFRA S/A",
+        "valor": "825000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "LFX SERVIÇOS DE TRANSPORTES LTDA (17330803000107) (17330803000107),LFX TERMINAIS LTDA (38239667000114) (38239667000114)",
+        "motivo_classificacao": null,
+        "data_cessao": "27/12/2023"
+      }
+    ],
+    "valor_causa": 38055293.1,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1014916-93.2024.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "GENY POLIS",
+        "cessionario": "MAICON SCHANOSKI",
+        "valor": "4344535,55",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "AGROPECUÁRIA PIRARUCU (17654122000102) (17654122000102),LUIS FELIPE AREDA GUERREIRO (00871789159) (00871789159),DOM LOCAÇÃO DE EQUIPAMENTOS LTDA (16670829000131) (16670829000131),LF EMPREENDIMENTOS E PARTICIPAÇÕES (28624976000154) (28624976000154)",
+        "motivo_classificacao": null,
+        "data_cessao": "21/07/2025"
+      }
+    ],
+    "valor_causa": 25644499.69,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1015180-47.2023.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "MONSANTO DO BRASIL LTDA",
+        "cessionario": "TRAVESSIA SECURITIZADORA DE CRÉDITOS MERCANTIS XXV S.A",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "FARM VALLEY INSUMOS AGRÍCOLAS LTDA (30291257000100) (30291257000100)",
+        "motivo_classificacao": null,
+        "data_cessao": "03/02/2026"
+      }
+    ],
+    "valor_causa": 87707308.86,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1015677-61.2023.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "NAGRO CREDITO AGRO LTDA",
+        "cessionario": "NAGRO CREDITO AGRO - FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS",
+        "valor": "515619,21",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "GEOVAN BARBOSA DIAS (43249876100) (43249876100),NARA MARIA CAMPOS DIAS (89332474168) (89332474168)",
+        "motivo_classificacao": null,
+        "data_cessao": "11/10/2022"
+      }
+    ],
+    "valor_causa": 15238854.77,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1016381-04.2024.8.11.0015",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "MULTIPLICA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADO",
+        "cessionario": "BRIT FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADO",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "MARLON ENGLER (07566606964) (07566606964)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 13791338.95,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1017008-10.2025.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "CÂNDIDA DOS SANTOS FARIA",
+        "cessionario": "TRUST AGRO COMPANY HOLDING LTDA.",
+        "valor": "28000000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "25/03/2024"
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "TRUST AGRO COMPANY HOLDING LTDA.",
+        "cessionario": "OKNO 1 FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO-PADRONIZADOS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "20/06/2024"
+      }
+    ],
+    "valor_causa": 182446500.16,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1017018-18.2025.8.11.0015",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "RUMOS DISTRIBUIDORA DE PETRÓLEO S.A.",
+        "cessionario": "ACCREDITO SOCIEDADE DE CRÉDITO DIRETO S.A.",
+        "valor": "620709,44",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "FGC DISTRIBUIDORA DE COMBUSTÍVEIS LTDA. (06537572000433),FGC TRANSPORTES LTDA. (31344719000173),FGC TRANSPORTADOR REVENDEDOR RETALHISTA LTDA. (41049722000118),GAUTENG LOG TRANSPORTES E LOGÍSTICA LTDA. (41058189000150),GAUTA IMPORTAÇÃO E COMERCIALIZAÇÃO LTDA. (44628644000102),GRANPIERE TRANSPORTES LTDA. (31767420000121)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "VALOREM FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS MULTIS",
+        "cessionario": "APPALOOSA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS",
+        "valor": "1167000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "FGC DISTRIBUIDORA DE COMBUSTÍVEIS LTDA. (06537572000433),FGC TRANSPORTES LTDA. (31344719000173),FGC TRANSPORTADOR REVENDEDOR RETALHISTA LTDA. (41049722000118),GAUTENG LOG TRANSPORTES E LOGÍSTICA LTDA. (41058189000150),GAUTA IMPORTAÇÃO E COMERCIALIZAÇÃO LTDA. (44628644000102),GRANPIERE TRANSPORTES LTDA. (31767420000121)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 183926422.37,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1018847-05.2023.8.11.0015",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "cessionario": "SUMITOMO CHEMICAL BRASIL INDUSTRIA QUIMICA S.A.",
+        "valor": "2624423,58",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CONTINENTAL AGRONEGÓCIOS LTDA. (14437954000170) (14437954000170)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 76380111.99,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1019255-37.2020.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "TRAVESSIA SECURITIZADORA DE CRÉDITOS FINANCEIROS X S.A.",
+        "cessionario": "JARBAS WEIS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "EDSON APARECIDO ANDRADE (76156826904) (76156826904),EDSON APARECIDO ANDRADE (37791799000191) (37791799000191),ELISANGELA CARISSIMI ROSALINO (81159072191) (81159072191),ELISANGELA CARISSIMI ROSALINO (37902191000197) (37902191000197)",
+        "motivo_classificacao": null,
+        "data_cessao": "03/10/2022"
+      }
+    ],
+    "valor_causa": 18162087.78,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1020035-04.2021.8.11.0015",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ROTA OESTE VEÍCULOS LTDA.",
+        "cessionario": "H.N AUTO POSTO LTDA",
+        "valor": "1056,37",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "MATOSUL TRANSPORTES LTDA (08346620000199) (08346620000199)",
+        "motivo_classificacao": null,
+        "data_cessao": "19/12/2023"
+      }
+    ],
+    "valor_causa": 37731918.31,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1020340-51.2022.8.11.0015",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "MOACIR BOLDRINI",
+        "cessionario": "SIDNEI BALDI",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "JOEL LINDOLFO HASSE (33760667953) (33760667953),SONIA SALETE VIGNAGA HASSE (63031124120) (63031124120),JULIANO HASSE (94515263153) (94515263153),JOSIANE SEGAT HASSE (01457623196) (01457623196),LUCAS DANIEL HASSE (00505645106) (00505645106),FELIPE HASSE (03023935106) (03023935106),IHAGRO AGROPECUÁRIA LTDA (35432880000150) (35432880000150)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 65964741.05,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1020702-77.2019.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "SAMUEL DE PAULA",
+        "cessionario": "UNIÃO FEDERAL",
+        "valor": "11962,50",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "MJB VIGILANCIA E SEGURANCA LTDA FALIDO (06236934000103), MJB COMERCIO DE EQUIPAMENTOS ELETRONICOS E GESTAO DE PESSOAL LTDA FALIDO (07437182000101), FORTSEG COMERCIO E PRESTACAO DE SERVICOS LTDA FALIDO (08254113000125), FORTSEG COMERCIO E PRESTACAO DE SERVICOS LTDA FALIDO (08254113000125), MJB VIGILANCIA E SEGURANCA LTDA FALIDO (06236934000103), MJB COMERCIO DE EQUIPAMENTOS ELETRONICOS E GESTAO DE PESSOAL LTDA FALIDO (07437182000101)",
+        "motivo_classificacao": null,
+        "data_cessao": "01/07/2025"
+      }
+    ],
+    "valor_causa": 10733209.32,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1021513-44.2025.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "FIBRA FORTE COMERCIAL LTDA",
+        "cessionario": "BANCO INDUSTRIAL DO BRASIL S.A.",
+        "valor": "1455505,77",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "FIBRA FORTE COMERCIAL LTDA (38.948.791/0001-59) (38948791000159),FIBRA FORTE COMERCIAL LTDA (38.948.791/0002-30) (38948791000230),FIBRA FORTE COMERCIAL LTDA (38.948.791/0003-10) (38948791000310),FIBRA FORTE COMERCIAL LTDA (38.948.791/0004-00) (38948791000400),FIBRA FORTE COMERCIAL LTDA (38.948.791/0005-82) (38948791000582),FIBRA FORTE COMERCIAL LTDA (38.948.791/0006-63) (38948791000663),FIBRA FORTE COMERCIAL LTDA (38.948.791/0007-44) (38948791000744),FIBRA FORTE COMERCIAL LTDA (38.948.791/0008-25) (38948791000825),FIBRA FORTE COMERCIAL LTDA (38.948.791/0009-06) (38948791000906),FIBRA FORTE COMERCIAL LTDA (38.948.791/0010-40) (38948791001040),FIBRA FORTE COMERCIAL LTDA (38.948.791/0011-20) (38948791001120)",
+        "motivo_classificacao": null,
+        "data_cessao": "05/06/2025"
+      }
+    ],
+    "valor_causa": 78014033.84,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1021708-29.2025.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO BRASIL S.A.",
+        "cessionario": "TRAVESSIA SECURITIZADORA DE CREDITOS MERCANTIS XXV S.A.",
+        "valor": "7954712,05",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "ALISSON LUIZ DALMASO (66421250025) (66421250025),ALMERI DALMASO (09370790063) (09370790063),CLAUDETE IRONI DALMASO (88847780004) (88847780004),ALESSANDRO DALMASO (76707229087) (76707229087),GLICIA KNEIP DUQUE DALMASO (88700224120) (88700224120),ALDERI MARCOS DALMASO (59114924072) (59114924072),SANDRA MARIA PIVETTA DALMASO (57010560153) (57010560153),AGRODAL AGROPECUÁRIA LTDA (21516566000221) (21516566000221),AGRODAL INSUMOS AGRÍCOLAS LTDA (07966800000100) (07966800000100)",
+        "motivo_classificacao": null,
+        "data_cessao": "21/12/2023"
+      }
+    ],
+    "valor_causa": 24333637.66,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1021723-32.2024.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BAYER S.A.",
+        "cessionario": "TRAVESSIA SECURITIZADORA DE CRÉDITOS FINANCEIROS VIII S.A.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "DFG S.A (15551577000169)",
+        "motivo_classificacao": null,
+        "data_cessao": "19/11/2025"
+      }
+    ],
+    "valor_causa": 304380430.96,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1022790-95.2025.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "NORTOX S.A.",
+        "cessionario": "BANCO VOTORANTIM S.A.",
+        "valor": "353150,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "HASS & ARRUDA LIMITADA (08304698000140) (08304698000140)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 92974859.9,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1022926-92.2025.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS INDIGO BARTER",
+        "cessionario": "INDIGO BRAZIL AGRICULTURA LTDA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "MAROQ AGRO LTDA. (29173826000134) (29173826000134),MAROQ AGRO PARANATINGA LTDA. (46650889000153) (46650889000153),MAROQ PARTICIPAÇOES E INVESTIMENTO LTDA. (37355073000106) (37355073000106),MAROQ PRODUÇÃO AGRICOLA LTDA. (37975427000115) (37975427000115),MAGNO SEGURADO DE SOUSA (01031754156) (01031754156),QUESLLEI MAURICIO ALVES DUTRA (02366046197) (02366046197),RONI CESAR FERREIRA ALVES MACHADO (05056001961) (05056001961)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      },
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "VENEZA S FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS",
+        "cessionario": "AGROLEND II FIAGRO",
+        "valor": "284203,60",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "MAROQ AGRO LTDA. (29173826000134) (29173826000134),MAROQ AGRO PARANATINGA LTDA. (46650889000153) (46650889000153),MAROQ PARTICIPAÇOES E INVESTIMENTO LTDA. (37355073000106) (37355073000106),MAROQ PRODUÇÃO AGRICOLA LTDA. (37975427000115) (37975427000115),MAGNO SEGURADO DE SOUSA (01031754156) (01031754156),QUESLLEI MAURICIO ALVES DUTRA (02366046197) (02366046197),RONI CESAR FERREIRA ALVES MACHADO (05056001961) (05056001961)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 76218744.83,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1022982-16.2022.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BMP MONEY PLUS SOCIEDADE DE CRÉDITO DIRETO S.A",
+        "cessionario": "FUNDO DE INVESTIMENTOS EM DIREITOS CREDITÓRIOS XPCE CRÉDITO MIDDLE",
+        "valor": "2684151,04",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "LOJAS DONA DO LAR LTDA (14459063000115) (14459063000115),SD OUTLET LTDA (39771920000149) (39771920000149)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 36686368.79,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1023680-95.2017.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO BRADESCO S.A.",
+        "cessionario": "MARIA DE FÁTIMA BENDO GORGES",
+        "valor": "231483,33",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CROACIA COMERCIO E LOCADORA DE MAQUINAS PARA CONSTRUCAO LTDA - EPP (04802373000137),CROACIA COMERCIO DE MAQUINAS E LOCADORA LTDA – ME (09280798000147)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 5258965.43,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1024093-79.2023.8.11.0015",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "SUPERMERCADO BUCHAIM LTDA",
+        "cessionario": "CREDITUM RECUPERADORA DE CREDITOS E INVESTIMENTOS LTDA",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "PETRA - COMERCIO DE DERIVADOS DE PETROLEO LTDA (03498002000140), BORSATTI - COMERCIO DE DERIVADOS DE PETROLEO LTDA (33080843000102)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 23624783.32,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1024391-22.2025.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "RAIJAN CEZAR MASCARELLO",
+        "cessionario": "BANCO ABC BRASIL S.A.",
+        "valor": "5639171,96",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "RAIJAN CEZAR MASCARELLO (60161082000188) (60161082000188),FRANCIELI APARECIDA TALINI MASCARELLO (60161324000133) (60161324000133),VITOR HUGO TALINI MASCARELLO (60161503000170) (60161503000170),AGROPECUÁRIA ALTO DO SAPEZAL LTDA. (15670133000142) (15670133000142)",
+        "motivo_classificacao": null,
+        "data_cessao": "24/04/2024"
+      }
+    ],
+    "valor_causa": 180194633.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1024551-98.2024.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BAYER S.A.",
+        "cessionario": "TRAVESSIA SECURITIZADORA DE CRÉDITOS FINANCEIROS VIII S.A.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "AGROINDUSTRIAL PRINCESA LTDA. (85489060000172) (85489060000172),PRINCESA PISCICULTURA LTDA. (49856872000145) (49856872000145),FM3 PARTICIPAÇÕES LTDA. (17866653000150) (17866653000150),AMANDA RASQUERI MENDES (03007741920) (03007741920),ANDRÉ MARASCHIN (73159506134) (73159506134),DIRCEU FERNANDO RASQUERI MENDES (04305987180) (04305987180),MARIA FRANCISCA RASQUERI MENDES (98303040944) (98303040944),PRISCILA RASQUERI MENDES MARASCHIN (00699161100) (00699161100)",
+        "motivo_classificacao": null,
+        "data_cessao": "19/11/2025"
+      }
+    ],
+    "valor_causa": 271915546.06,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1025517-27.2025.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BAYER S.A.",
+        "cessionario": "TRAVESSIA SECURITIZADORA DE CRÉDITOS FINANCEIROS VIII S.A.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "19/11/2025"
+      }
+    ],
+    "valor_causa": 609089792.61,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1025796-30.2024.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "FURUKAWA ELECTRIC LATAM S.A.",
+        "cessionario": "COFACE DO BRASIL SEGUROS DE CRÉDITO S.A.",
+        "valor": "567861,49",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "H. PAR PARTICIPAÇÕES S.A (12219876000102) (12219876000102),GLOBALTASK TECNOLOGIA E GESTÃO S.A (05522682000116) (05522682000116),GLOBALTASK TECNOLOGIA E GESTÃO S.A (FILIAL) (05522682000205) (05522682000205),SPE PIAUÍ CONECTADO S.A (30412491000149) (30412491000149),SPE PIAUÍ CONECTADO S.A (FILIAL) (30412491000220) (30412491000220),BAO BING INFRAESTRUTURA DE REDES S.A (14683248000109) (14683248000109),H. TELL TELECOM SOLUÇÕES EM TI S.A (12287925000144) (12287925000144),TELL TELECOM SOLUÇÕES EM TI S.A – (FILIAL) (12287925000225) (12287925000225),H PRINT REPROGRAFIA E AUTOMACÃO DE ESCRITORIO LTDA (00831964000181) (00831964000181),H PRINT REPROGRAFIA E AUTOMACÃO DE ESCRITORIO LTDA – (FILIAL) (00831964000505) (00831964000505)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 19775966.96,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1026688-07.2022.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "MT CEREAIS E RAÇÕES EIRELI",
+        "cessionario": "IOX II FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS DE RESPONSABILIDADE LIMITADA",
+        "valor": "105493,16",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "M. T. CEREAIS E RAZÕES LTDA (08471000000181) (08471000000181)",
+        "motivo_classificacao": null,
+        "data_cessao": "22/08/2022"
+      }
+    ],
+    "valor_causa": 4469798.57,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1028528-57.2019.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ADEVAIR GROTO",
+        "cessionario": "D. BESSA SANTOS",
+        "valor": "300000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "P.A CARDELIQUIO EIRELI ME (MATRIZ) (22038273000168),P.A CARDELIQUIO EIRELI ME (FILIAL 01) (22038273000249),P.A CARDELIQUIO EIRELI ME (FILIAL 02) (22038273000400),P.A CARDELIQUIO EIRELI ME (FILIAL 03) (22038273000591)",
+        "motivo_classificacao": null,
+        "data_cessao": "30/08/2021"
+      }
+    ],
+    "valor_causa": 880829.37,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1028621-25.2024.8.11.0015",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BAYER S.A.",
+        "cessionario": "TRAVESSIA SECURITIZADORA DE CRÉDITOS FINANCEIROS VIII S.A.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SIDNEI MANSO (06210608876) (06210608876),MARINES PARRA MANSO (11724306839) (11724306839),JOÃO VITOR PARRA MANSO (03953791133) (03953791133),MATHEUS HENRIQUE PARRA MANSO (03953790161) (03953790161),GABRIEL PARRA MANSO (03953789155) (03953789155),AGROPECUÁRIA MANSO COMÉRCIO DE INSUMOS LTDA. – EPP (27958848000184) (27958848000184),MANSO ADMINISTRAÇÃO PARTICIPAÇÕES E COMPRA E VENDA LTDA (21165876000168) (21165876000168),PARANORTE LTDA. (55929444000106) (55929444000106)",
+        "motivo_classificacao": null,
+        "data_cessao": "19/11/2025"
+      }
+    ],
+    "valor_causa": 241740069.62,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1028920-60.2020.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO BRASIL S.A.",
+        "cessionario": "ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "D.C.M. REZENDE EPP (23457891000105) (23457891000105),AIGLAOIL SERVIÇOS AUTOMOTIVOS EIRELI (26246812000105) (26246812000105),AIGLA – DISTRIBUIDORA DE ADITIVOS E LUBRIFICANTES EIRELI ME (17260493000100) (17260493000100)",
+        "motivo_classificacao": null,
+        "data_cessao": "17/12/2020"
+      }
+    ],
+    "valor_causa": 1948600.73,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1029787-24.2018.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "MARTINELLI ADVOCACIA EMPRESARIAL",
+        "cessionario": "RODOLFO BAGATELLI GONÇALVES",
+        "valor": "1439,45",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "GEOTOP CONSTRUÇÕES E TERRAPLANAGEM LTDA. (07691059000112) (07691059000112)",
+        "motivo_classificacao": null,
+        "data_cessao": "20/07/2020"
+      }
+    ],
+    "valor_causa": 1504607.19,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1030060-49.2020.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ACROSS RECUPERAÇÃO DE CRÉDITO LTDA",
+        "cessionario": "ERI BORGES REGITANO",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "ANTONIO FERNANDES DE MELLO (75831902900),ANTONIO FERNANDES DE MELLO (39938710000100)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 18705461.57,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1032319-58.2024.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO C6 S.A.",
+        "cessionario": "CF FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS - RESPONSABILIDADE LIMITADA",
+        "valor": "8500000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "FJ AGROINDUSTRIAL S/A (08533599000130),MARCOS AURELIO COSTA DA SILVA (66784441168)",
+        "motivo_classificacao": null,
+        "data_cessao": "19/12/2025"
+      }
+    ],
+    "valor_causa": 71699781.74,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1033143-97.2025.8.11.0003",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "PRO CAMPO COMERCIO DE MAQUINAS E EQUIPAMENTOS LTDA",
+        "cessionario": "ITAU UNIBANCO S.A.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "FORTE AGRO LTDA (20972052000137),PRÓ CAMPO COMÉRCIO DE MÁQUINAS E EQUIPAMENTOS LTDA (19732083000131),LR3 AGROPECUÁRIA LTDA (34633258000147),LUCIANO ALDACYR PEROZZO (63205317000184),RODRIGO NOGUEIRA LIMA (63204803000188)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 243150524.15,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1034384-60.2023.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO DO BRASIL S.A.",
+        "cessionario": "FITZ ROY SPECIAL SITUATIONS FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO-PADRONIZADOS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CARLOS ALBERTO LAURINI (43599931020) (43599931020),MARIA LUIZA LAURINI (00474963985) (00474963985),MARCOS AURÉLIO LAURINI (38075334000) (38075334000),ELIVANE LAURINI (59268468034) (59268468034),LAURINI E RUTSATZ LTDA (05026429000171) (05026429000171),TONETTI & PILONETTO LTDA – EPP (97519257000196) (97519257000196),LR TRANSPORTES RODOVIÁRIOS EIRELI (05026429000171) (05026429000171)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 24513484.82,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1036202-76.2025.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "FARMERS FIRST I FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS",
+        "cessionario": "TRAVESSIA SECURITIZADORA S.A.",
+        "valor": "6714634,05",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "GERVAZIO SINOPOLI (77190432949) (77190432949),KATIA LOPES DE SOUZA SINOPOLI (93548850120) (93548850120)",
+        "motivo_classificacao": null,
+        "data_cessao": "31/03/2026"
+      }
+    ],
+    "valor_causa": 12885090.55,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1038080-07.2023.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "OTACÍLIO PERON",
+        "cessionario": "ANDREA PINTO BIANCARDINI",
+        "valor": "100000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "SSM CONSULTORIA PROJETOS E CONSTRUÇÕES (06245457000142) (06245457000142)",
+        "motivo_classificacao": null,
+        "data_cessao": "29/05/2025"
+      }
+    ],
+    "valor_causa": 8196322.02,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1041967-33.2022.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "ELEONOR OGLIARI",
+        "cessionario": "RAFAEL LINS RIOS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "REI DAS CARNES EIRELI EPP (32215966000132),TRANSPORTADORA BARROSI LTDA (28613889000100),R.C BARROSI EIRELI ME (24021581000106)",
+        "motivo_classificacao": null,
+        "data_cessao": "14/08/2023"
+      }
+    ],
+    "valor_causa": 13142237.48,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1043494-88.2020.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO SANTANDER (BRASIL) S.A.",
+        "cessionario": "JOSÉ EDUARDO MIRANDA",
+        "valor": "5136660,42",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "FAROL EMPREENDIMENTOS E PARTICIPAÇÕES S/A (04.784.413/0001-65) (04784413000165),ENCON ENGENHARIA DE CONSTRUÇÃO S/A (01.894.955/0001-00) (01894955000100),CONSTRUTORA ATHOS S/A (12.986.862/0001-14) (12986862000114),EDIFÍCIO AMADEUS COMMERCE LTDA (13.822.421/0001-40) (13822421000140),EDIFÍCIO SAINT RIOM LTDA (14.178.486/0001-67) (14178486000167),UNION FDV PARTICIPAÇÕES LTDA (14.800.955/0001-38) (14800955000138),MC – HOTELARIA E TURISMO LTDA (10.981.042/0001-04) (10981042000104),LM – HOTELARIA E TURISMO EIRELI (23.865.875/0001-51) (23865875000151)",
+        "motivo_classificacao": null,
+        "data_cessao": "19/10/2021"
+      }
+    ],
+    "valor_causa": 11549113.06,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1043529-43.2023.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS XP CRÉDITO MIDDLE",
+        "cessionario": "SB CRÉDITO SECURITIZADORA S.A.",
+        "valor": "916464,95",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "ERNANDO CARDOSO (53964667900) (53964667900),7SETE AGROINDUSTRIAL (17085809000166) (17085809000166)",
+        "motivo_classificacao": null,
+        "data_cessao": "10/01/2025"
+      }
+    ],
+    "valor_causa": 100000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1045276-28.2023.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "AJB LOPES (LUCAS E3 AMÉRICA DO SUL)",
+        "cessionario": "LUCAS E3 BRASIL LTDA.",
+        "valor": "626327,20",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "DESTILARIA DE ÁLCOOL LIBRA LTDA (MATRIZ) (00297598000122),DESTILARIA DE ÁLCOOL LIBRA LTDA (FILIAL) (00297598000203),LIBRA ETANOL PARTICIPAÇÕES SOCIETÁRIAS LTDA (14816650000114),AGRO INDUSTRIAL RIO PORTELA LTDA (01725738000189),TELLUS MATER BIOCOMBUSTÍVEIS LTDA (10785247000114),SOLOS AGRO FLORESTAL LTDA (29935451000100),LUIZ CARLOS TICIANEL (11125055120),MARISELMA FREIRE DE ARRUDA TICIANEL (11219041220)",
+        "motivo_classificacao": null,
+        "data_cessao": "08/04/2024"
+      }
+    ],
+    "valor_causa": 534723679.56,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1047339-60.2022.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "MOGNO AFRICANO INVESTIMENTOS FLORESTAIS LTDA",
+        "cessionario": "ALIANÇA SOLAR LTDA",
+        "valor": "1500000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "MOGNO AFRICANO INVESTIMENTOS FLORESTAIS LTDA (16815838000173)",
+        "motivo_classificacao": null,
+        "data_cessao": "01/03/2023"
+      }
+    ],
+    "valor_causa": 12424921.68,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1048110-09.2020.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "AGROPECUÁRIA SANTA MARIA LTDA.",
+        "cessionario": "UNIQUE IMPORTAÇÃO E EXPORTAÇÃO LTDA.",
+        "valor": "500000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "AFG BRASIL S.A. (03209087000108) (03209087000108)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 648526742.15,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1049204-26.2019.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BANCO FIBRA S/A",
+        "cessionario": "SEC CIA SECURITIZADORA DE CRÉDITOS S/A",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "VERDE TRANSPORTES LTDA. (01.751.730/0001-97) (01751730000197),ÁRIES TRANSPORTES LTDA. - ME (05.643.777/0001-98) (05643777000198),VIAÇÃO ELDORADO LTDA.-ME (15.060.676/0001-48) (15060676000148),TIM – TRANSPORTES INTEGRADOS MATOGROSSENSES LTDA. EPP (14.421.118/0001-06) (14421118000106),MARCO POLO CONSULTORIA E TREINAMENTO EIRELI (23.317.945/0001-37) (23317945000137)",
+        "motivo_classificacao": null,
+        "data_cessao": null
+      }
+    ],
+    "valor_causa": 1000000.0,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1050728-82.2024.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "AGROMT AGRONEGOCIOS E COMERCIO DE ALIMENTOS LTDA",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS DA INDÚSTRIA EXODUS INSTITUCIONAL",
+        "valor": "586606,46",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "16/04/2024"
+      }
+    ],
+    "valor_causa": 725529.4,
+    "data_cessao_credito": "Não encontrado"
+  },
+  {
+    "id": null,
+    "cnj": "1112896-86.2025.8.11.0041",
+    "classe": null,
+    "orgao": null,
+    "destinatarios": [],
+    "link": null,
+    "texto_completo": "",
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [],
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "confianca": null,
+        "resumo": null,
+        "cedente": "BMP SOCIEDADE DE CRÉDITO AO MICROEMPREENDEDOR E A EMPRESA DE PEQUENO PORTE LTDA",
+        "cessionario": "KATCH DIVERSIFIED FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO-PADRONIZADOS MULTISSETORIAL",
+        "valor": "4500000,00",
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": null,
+        "data_cessao": "30/08/2024"
+      }
+    ],
+    "valor_causa": 249581.93,
+    "data_cessao_credito": "Não encontrado"
   }
 ]

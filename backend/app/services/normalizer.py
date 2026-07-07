@@ -67,6 +67,22 @@ def normalize_classe_credito(value: Any) -> str | None:
     return text.upper()
 
 
+DATA_CESSAO_RE = re.compile(r"^(\d{1,2})/(\d{1,2})/(\d{4})$")
+
+
+def normalize_data_cessao(value: Any) -> str | None:
+    """Converte 'DD/MM/AAAA' para ISO 'AAAA-MM-DD'. Retorna None se nao for
+    uma data valida nesse formato (ex.: "Nao encontrado", vazio, None)."""
+    text = normalize_text(value)
+    if not text:
+        return None
+    match = DATA_CESSAO_RE.match(text)
+    if not match:
+        return None
+    day, month, year = match.groups()
+    return f"{year}-{int(month):02d}-{int(day):02d}"
+
+
 def infer_source_metadata(file_path: Path) -> SourceFileMetadata:
     stem = file_path.stem.upper()
     match = re.match(r"(?P<prefix>[A-Z]{2})-(?P<state>[A-Z]{2})-(?P<year>\d{4})", stem)
@@ -119,6 +135,7 @@ def normalize_publication(
     publication_link = normalize_text(publication.get("link"))
     publication_text = normalize_text(publication.get("texto_completo"))
     publication_valor_causa = normalize_money(publication.get("valor_causa"))
+    publication_data_cessao = normalize_data_cessao(publication.get("data_cessao_credito"))
 
     for index, classificacao in enumerate(_extract_classificacoes(publication)):
         if not classificacao.get("is_cessao_real"):
@@ -131,6 +148,7 @@ def normalize_publication(
         confianca = normalize_text(classificacao.get("confianca"))
         resumo = normalize_text(classificacao.get("resumo"))
         motivo = normalize_text(classificacao.get("motivo_classificacao"))
+        data_cessao = normalize_data_cessao(classificacao.get("data_cessao")) or publication_data_cessao
 
         record_id = (
             f"{base_publication_id or source.file_name}-{index}-"
@@ -145,6 +163,7 @@ def normalize_publication(
                 tribunal=normalize_text(publication.get("tribunal")) or source.tribunal,
                 data=publication_data,
                 ano=source.year,
+                data_cessao=data_cessao,
                 cnj=cnj,
                 classe=publication_class,
                 orgao=publication_orgao,
