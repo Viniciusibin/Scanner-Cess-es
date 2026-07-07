@@ -1,9 +1,13 @@
-from flask import Flask
+from pathlib import Path
+
+from flask import Flask, send_from_directory
 from flask_cors import CORS
 
 from .api.routes import api_bp
 from .core.config import Settings
 from .services.cessao_store import FileBackedCessaoStore
+
+FRONTEND_DIR = Path(__file__).resolve().parents[2] / "frontend"
 
 
 def create_app() -> Flask:
@@ -18,15 +22,11 @@ def create_app() -> Flask:
     app.register_blueprint(api_bp, url_prefix="/api/v1")
 
     @app.get("/")
-    def root():
-        return {
-            "name": "scanner-cessoes-api",
-            "version": "v1",
-            "docs": {
-                "health": "/api/v1/health",
-                "meta": "/api/v1/meta",
-                "cessoes": "/api/v1/cessoes",
-            },
-        }
+    def index():
+        return send_from_directory(FRONTEND_DIR, "index.html")
+
+    @app.get("/<path:filename>")
+    def frontend_assets(filename):
+        return send_from_directory(FRONTEND_DIR, filename)
 
     return app

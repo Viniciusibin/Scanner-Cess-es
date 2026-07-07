@@ -1,0 +1,15 @@
+.git
+.env
+.claude
+token.json
+**/__pycache__
+**/*.pyc
+*.xlsx
+*.md
+data_cessao_credito.py
+dedup_cessoes.py
+import_lighthouse.py
+pdpj.py
+pdpj_valor_causa.py
+remove_cessoes_antigas.py
+run_valor_causa_lighthouse.py

@@ -890,8 +890,7 @@ class Component extends DCLogic {
     if (window.location.protocol === 'file:') {
       return 'http://localhost:5000/api/v1';
     }
-    const host = window.location.hostname || 'localhost';
-    return window.location.protocol + '//' + host + ':5000/api/v1';
+    return '/api/v1';
   }
 
   normalizeSearch(text) {

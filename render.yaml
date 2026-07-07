@@ -1,21 +1,9 @@
 services:
   - type: web
-    name: scanner-cessoes-api
-    runtime: python
-    rootDir: backend
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn run:app --bind 0.0.0.0:$PORT
+    name: scanner-cessoes
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
     envVars:
       - key: SCANNER_CORS_ORIGINS
         value: "*"
-
-  - type: web
-    name: scanner-cess-es
-    env: static
-    rootDir: frontend
-    buildCommand: "true"
-    staticPublishPath: .
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
