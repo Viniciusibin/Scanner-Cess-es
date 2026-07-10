@@ -1,0 +1,23 @@
+{
+  "cnj": "5000021-98.2016.8.21.0023",
+  "_fontes_database": [
+    "TJ-RS-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "RG ESTALEIRO ERG3 INDUSTRIAL S.A. e outros (5) X OS MESMOS",
+  "polos": {
+    "ATIVO": [
+      "RG ESTALEIRO ERG3 INDUSTRIAL S.A.",
+      "RG ESTALEIRO ERG2 S.A.",
+      "ENGEVIX SISTEMAS DE DEFESA LTDA.",
+      "ECOVIX CONSTRUCOES OCEANICAS S/A.",
+      "RG ESTALEIROS S.A.",
+      "RG ESTALEIRO ERG1 S.A."
+    ],
+    "PASSIVO": [
+      "OS MESMOS"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJRS"
+}

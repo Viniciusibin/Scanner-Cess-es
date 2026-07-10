@@ -1,0 +1,26 @@
+{
+  "cnj": "5002532-55.2019.8.21.0026",
+  "_fontes_database": [
+    "TJ-RS-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "SOCIEDADE DE RADIODIFUSAO FORTALEZA LTDA e outros (8) X OS MESMOS",
+  "polos": {
+    "ATIVO": [
+      "SOCIEDADE DE RADIODIFUSAO FORTALEZA LTDA",
+      "EDITORA GAZETA SANTA CRUZ LTDA.",
+      "RADIO UMBU FM LIMITADA",
+      "NJS TELECOM LTDA",
+      "IPE PARTICIPACOES E EMPREENDIMENTOS IMOBILIARIOS LTDA",
+      "GAZETA DO SUL S A",
+      "GAZETA COMUNICACOES LTDA",
+      "JOP COMUNICACAO VIRTUAL LTDA.",
+      "LEANDRO JOSE SCHUCK"
+    ],
+    "PASSIVO": [
+      "OS MESMOS"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJRS"
+}

@@ -1,0 +1,21 @@
+{
+  "cnj": "5001588-41.2020.8.13.0026",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "GEWALT INDUSTRIA & COMERCIO EIRELI X SUL BRASIL FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS ABERTO MULTISSETORIAL X MINISTERIO PUBLICO - MPMG",
+  "polos": {
+    "PASSIVO": [
+      "GEWALT INDUSTRIA & COMERCIO EIRELI"
+    ],
+    "ATIVO": [
+      "SUL BRASIL FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS ABERTO MULTISSETORIAL"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "MINISTERIO PUBLICO - MPMG"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

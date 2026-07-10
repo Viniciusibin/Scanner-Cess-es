@@ -1,0 +1,18 @@
+{
+  "cnj": "5011150-26.2023.8.13.0105",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MAFRIAL MATADOURO E FRIGORIFICO LTDA X CREDIT PARTNERS FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS",
+  "polos": {
+    "PASSIVO": [
+      "MAFRIAL MATADOURO E FRIGORIFICO LTDA"
+    ],
+    "ATIVO": [
+      "CREDIT PARTNERS FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

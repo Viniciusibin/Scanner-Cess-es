@@ -1,0 +1,20 @@
+{
+  "cnj": "0065109-66.2025.8.16.0000",
+  "_fontes_database": [
+    "TJ-PR-2025.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "CENTRO OESTE ELETROMAGAZINE LTDA. X PRESIDENTE DA 8 CAMARA DE CONCILIACAO DE PRECATORIOS  8 CCP e outros (2)",
+  "polos": {
+    "ATIVO": [
+      "CENTRO OESTE ELETROMAGAZINE LTDA."
+    ],
+    "PASSIVO": [
+      "PRESIDENTE DA 8 CAMARA DE CONCILIACAO DE PRECATORIOS  8 CCP",
+      "ESTADO DO PARANA",
+      "PROCURADOR-GERAL DO ESTADO DO PARANA"
+    ]
+  },
+  "classe": "Mandado de Segurança Cível",
+  "tribunal": "TJPR"
+}

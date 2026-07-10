@@ -1,0 +1,18 @@
+{
+  "cnj": "5130530-58.2024.8.13.0024",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ARAGUAIA NIQUEL METAIS LTDA X MDE - SERVICOS, ENGENHARIA E FABRICACAO DE EQUIPAMENTOS LTDA",
+  "polos": {
+    "PASSIVO": [
+      "ARAGUAIA NIQUEL METAIS LTDA"
+    ],
+    "ATIVO": [
+      "MDE - SERVICOS, ENGENHARIA E FABRICACAO DE EQUIPAMENTOS LTDA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

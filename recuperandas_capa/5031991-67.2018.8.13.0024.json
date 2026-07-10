@@ -1,0 +1,21 @@
+{
+  "cnj": "5031991-67.2018.8.13.0024",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "OLA COMUNICACOES LTDA X JESSICA DAIANE NUNES GOMES X SOLVE SECURITIZADORA DE CREDITOS FINANCEIROS S/A",
+  "polos": {
+    "PASSIVO": [
+      "OLA COMUNICACOES LTDA"
+    ],
+    "ATIVO": [
+      "JESSICA DAIANE NUNES GOMES"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "SOLVE SECURITIZADORA DE CREDITOS FINANCEIROS S/A"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

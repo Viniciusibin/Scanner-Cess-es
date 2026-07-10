@@ -1,0 +1,26 @@
+{
+  "cnj": "0001923-05.2016.8.11.0039",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "A. HENRIQUE DE VASCONCELOS BIANCHI - ME e outros (1) X BANCO DO BRASIL S.A. e outros (3) X TECH PERICIAS E AVALIACOES LTDA e outros (1)",
+  "polos": {
+    "ATIVO": [
+      "A. HENRIQUE DE VASCONCELOS BIANCHI - ME",
+      "ADRIANO HENRIQUE DE VASCONCELOS BIANCHI"
+    ],
+    "PASSIVO": [
+      "BANCO DO BRASIL S.A.",
+      "COOPERATIVA DE CREDITO DE LIVRE ADMISSAO DE ASSOCIADOS DO VALE DO JURUENA - SICREDI UNIVALES MT",
+      "BANCO BRADESCO S.A.",
+      "CAIXA ECONOMICA FEDERAL"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "TECH PERICIAS E AVALIACOES LTDA",
+      "ANDRE FABRICIO DOS SANTOS ZAMBON"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJMT"
+}

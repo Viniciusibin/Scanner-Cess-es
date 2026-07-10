@@ -1,0 +1,23 @@
+{
+  "cnj": "0021139-78.2005.8.13.0330",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ZEFIROS I FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS e outros (2) X VIPA TRANSPORTES E COMERCIO LTDA X VIPA TRANSPORTES E COMERCIO LTDA",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "ZEFIROS I FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS",
+      "ADRILENA SOUZA ALVES",
+      "PROCURADORIA GERAL DE JUSTICA DE MINAS GERAIS"
+    ],
+    "ATIVO": [
+      "VIPA TRANSPORTES E COMERCIO LTDA"
+    ],
+    "PASSIVO": [
+      "VIPA TRANSPORTES E COMERCIO LTDA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

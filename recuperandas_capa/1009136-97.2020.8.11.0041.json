@@ -1,0 +1,22 @@
+{
+  "cnj": "1009136-97.2020.8.11.0041",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "SUZIMARIA MARIA DE SOUZA ARTUZI X SUZIMARIA MARIA DE SOUZA ARTUZI e outros (1) X GERDAU ACOS LONGOS S.A.",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "SUZIMARIA MARIA DE SOUZA ARTUZI"
+    ],
+    "PASSIVO": [
+      "SUZIMARIA MARIA DE SOUZA ARTUZI",
+      "VIA APPIA PROJETOS E CONSTRUCOES LTDA"
+    ],
+    "ATIVO": [
+      "GERDAU ACOS LONGOS S.A."
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMT"
+}

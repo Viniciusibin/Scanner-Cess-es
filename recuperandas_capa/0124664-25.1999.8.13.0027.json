@@ -1,0 +1,22 @@
+{
+  "cnj": "0124664-25.1999.8.13.0027",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "UNIAO FEDERAL- (PFN) e outros (1) X MASSA FALIDA DE AROMEC PNEUMATICOS LTDA X ZEFIROS I FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "UNIAO FEDERAL- (PFN)",
+      "ERIKA SANTIAGO SILVA"
+    ],
+    "PASSIVO": [
+      "MASSA FALIDA DE AROMEC PNEUMATICOS LTDA"
+    ],
+    "ATIVO": [
+      "ZEFIROS I FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

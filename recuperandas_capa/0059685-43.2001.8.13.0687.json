@@ -1,0 +1,23 @@
+{
+  "cnj": "0059685-43.2001.8.13.0687",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ACESITA MOVEIS LTDA X COLIBRI INDUSTRIA E COMERCIO DE MOVEIS LTDA X TACIANI ACERBI CAMPAGNARO COLNAGO CABRAL e outros (2)",
+  "polos": {
+    "PASSIVO": [
+      "ACESITA MOVEIS LTDA"
+    ],
+    "ATIVO": [
+      "COLIBRI INDUSTRIA E COMERCIO DE MOVEIS LTDA"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "TACIANI ACERBI CAMPAGNARO COLNAGO CABRAL",
+      "MINISTERIO PUBLICO - MPMG",
+      "HUDSON GARCIA DE MENEZES"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

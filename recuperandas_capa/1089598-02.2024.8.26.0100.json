@@ -1,0 +1,24 @@
+{
+  "cnj": "1089598-02.2024.8.26.0100",
+  "_fontes_database": [
+    "TJ-RJ-2026.json",
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ROTHENBERG COMERCIO DE PERFUMES E COSMETICOS LTDA e outros (4) X BANCO PINE S/A e outros (1)",
+  "polos": {
+    "PASSIVO": [
+      "ROTHENBERG COMERCIO DE PERFUMES E COSMETICOS LTDA",
+      "MARCOS ROTHENBERG",
+      "AEGER COMERCIAL E IMPORTADORA LTDA",
+      "PASSION COMERCIO DE PERFUMES E COSMETICOS LTDA",
+      "CAFE DEL PLATA COMERCIO DE ALIMENTOS LTDA"
+    ],
+    "ATIVO": [
+      "BANCO PINE S/A",
+      "GAD FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS"
+    ]
+  },
+  "classe": "Execução de Título Extrajudicial",
+  "tribunal": "TJSP"
+}

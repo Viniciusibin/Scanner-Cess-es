@@ -1,0 +1,18 @@
+{
+  "cnj": "1000262-16.2021.8.11.0033",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS DA INDUSTRIA EXODUS INSTITUCIONAL X DESTILARIA DE ALCOOL LIBRA LTDA",
+  "polos": {
+    "ATIVO": [
+      "FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS DA INDUSTRIA EXODUS INSTITUCIONAL"
+    ],
+    "PASSIVO": [
+      "DESTILARIA DE ALCOOL LIBRA LTDA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMT"
+}

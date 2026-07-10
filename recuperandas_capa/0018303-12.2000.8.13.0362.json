@@ -1,0 +1,25 @@
+{
+  "cnj": "0018303-12.2000.8.13.0362",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MINISTERIO PUBLICO - MPMG e outros (2) X MONLEFER LTDA - ME e outros (1) X METALURGICA GERDAU SOCIEDADE ANONIMA e outros (1)",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "MINISTERIO PUBLICO - MPMG",
+      "DALMAR DO ESPIRITO SANTO PIMENTA",
+      "ARCELORMITTAL SUL FLUMINENSE S.A"
+    ],
+    "PASSIVO": [
+      "MONLEFER LTDA - ME",
+      "ZEFIROS I FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS"
+    ],
+    "ATIVO": [
+      "METALURGICA GERDAU SOCIEDADE ANONIMA",
+      "ZEFIROS I FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

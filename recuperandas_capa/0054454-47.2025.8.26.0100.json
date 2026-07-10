@@ -1,0 +1,22 @@
+{
+  "cnj": "0054454-47.2025.8.26.0100",
+  "_fontes_database": [
+    "TJ-RJ-2026.json",
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "JA CREDITO LTDA X FACEBOOK SERVICOS ONLINE DO BRASIL LTDA. X PAULO FRANCISCO SARMENTO ESTEVES FILHO",
+  "polos": {
+    "ATIVO": [
+      "JA CREDITO LTDA"
+    ],
+    "PASSIVO": [
+      "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA."
+    ],
+    "TERCEIRO": [
+      "PAULO FRANCISCO SARMENTO ESTEVES FILHO"
+    ]
+  },
+  "classe": "Cumprimento de sentença",
+  "tribunal": "TJSP"
+}

@@ -1,0 +1,22 @@
+{
+  "cnj": "5019717-27.2025.8.13.0024",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ECOCIDADES COMUNICACAO E MEIO AMBIENTE LTDA X D'ALESSANDRO GEOLOGIA E GEOTECNIA LTDA e outros (1) X REJANE DE BASTOS TELLES",
+  "polos": {
+    "PASSIVO": [
+      "ECOCIDADES COMUNICACAO E MEIO AMBIENTE LTDA"
+    ],
+    "ATIVO": [
+      "D'ALESSANDRO GEOLOGIA E GEOTECNIA LTDA",
+      "CAPITAL PARTICIPACOES E INVESTIMENTOS LTDA"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "REJANE DE BASTOS TELLES"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

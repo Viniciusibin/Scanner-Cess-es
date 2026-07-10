@@ -1,0 +1,28 @@
+{
+  "cnj": "0023615-56.2005.8.26.0224",
+  "_fontes_database": [
+    "TJ-SP-2025.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "VENANCIO LACERDA DA COSTA (ESPOLIO) X IDEROL S/A EQUIPAMENTOS RODOVIARIOS e outros (1) X KRBM LOG LTDA. e outros (6)",
+  "polos": {
+    "ATIVO": [
+      "VENANCIO LACERDA DA COSTA (ESPOLIO)"
+    ],
+    "PASSIVO": [
+      "IDEROL S/A EQUIPAMENTOS RODOVIARIOS",
+      "IDEROL S/A EQUIPAMENTOS RODOVIARIOS (MASSA FALIDA)"
+    ],
+    "TERCEIRO": [
+      "KRBM LOG LTDA.",
+      "ALFREDO LUIZ KUGELMAS",
+      "FERNANDO LOPES COSTA",
+      "JAQUELINE LOPES COSTA",
+      "JESSICA APARECIDA LOPES COMINOTTI",
+      "MARCIA DE FATIMA LOPES COSTA",
+      "VINICIUS LOPES COSTA"
+    ]
+  },
+  "classe": "Habilitação de Crédito",
+  "tribunal": "TJSP"
+}

@@ -1,0 +1,18 @@
+{
+  "cnj": "5002995-81.2020.8.13.0479",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MN X - FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO-PADRONIZADOS ABERTO - FIDC NP X RIO GRANDE MOTORS LTDA",
+  "polos": {
+    "ATIVO": [
+      "MN X - FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO-PADRONIZADOS ABERTO - FIDC NP"
+    ],
+    "PASSIVO": [
+      "RIO GRANDE MOTORS LTDA"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJMG"
+}

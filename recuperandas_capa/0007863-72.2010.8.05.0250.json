@@ -1,0 +1,20 @@
+{
+  "cnj": "0007863-72.2010.8.05.0250",
+  "_fontes_database": [
+    "TJ-BA-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ELON FELICIANO LESSA e outros (2) X MINISTERIO PUBLICO DO ESTADO DA BAHIA",
+  "polos": {
+    "ATIVO": [
+      "ELON FELICIANO LESSA",
+      "REPRESENTANTE ELON FELICIANO LESSA",
+      "ITAU UNIBANCO S.A."
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "MINISTERIO PUBLICO DO ESTADO DA BAHIA"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJBA"
+}

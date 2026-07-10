@@ -1,0 +1,27 @@
+{
+  "cnj": "0045900-87.1997.8.13.0223",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MINISTERIO PUBLICO - MPMG e outros (6) X JONEI COMERCIO E REPRESENTACOES LTDA X SIDERURGICA SAO JOAO S/A",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "MINISTERIO PUBLICO - MPMG",
+      "CAFE DIVINOPOLIS S/A",
+      "MINISTERIO DA FAZENDA",
+      "VLASTIMIL SPLICHAL",
+      "FAZENDA PUBLICA DO ESTADO DE MINAS GERAIS",
+      "EDMAR NILO DE CAMPOS",
+      "SUPERNOVA ENERGIA LTDA"
+    ],
+    "ATIVO": [
+      "JONEI COMERCIO E REPRESENTACOES LTDA"
+    ],
+    "PASSIVO": [
+      "SIDERURGICA SAO JOAO S/A"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

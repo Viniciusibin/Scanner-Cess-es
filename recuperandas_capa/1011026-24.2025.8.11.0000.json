@@ -1,0 +1,22 @@
+{
+  "cnj": "1011026-24.2025.8.11.0000",
+  "_fontes_database": [
+    "TJ-MT-2025.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "RAFAEL KOLS MARTINS X MARCIO AUGUSTO GUARIENTE e outros (1) X SCHMIDEL & ASSOCIADOS - ADVOCACIA - ME",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "RAFAEL KOLS MARTINS"
+    ],
+    "PASSIVO": [
+      "MARCIO AUGUSTO GUARIENTE",
+      "JOSE ROBERTO SCHMALTZ"
+    ],
+    "ATIVO": [
+      "SCHMIDEL & ASSOCIADOS - ADVOCACIA - ME"
+    ]
+  },
+  "classe": "Agravo de Instrumento",
+  "tribunal": "TJMT"
+}

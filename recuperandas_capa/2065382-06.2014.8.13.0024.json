@@ -1,0 +1,21 @@
+{
+  "cnj": "2065382-06.2014.8.13.0024",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MINISTERIO PUBLICO - MPMG X FIDENS ENGENHARIA S/A X FAM CONSTRUCOES METALICAS PESADAS LTDA",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "MINISTERIO PUBLICO - MPMG"
+    ],
+    "PASSIVO": [
+      "FIDENS ENGENHARIA S/A"
+    ],
+    "ATIVO": [
+      "FAM CONSTRUCOES METALICAS PESADAS LTDA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "STJ"
+}

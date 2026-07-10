@@ -1,0 +1,21 @@
+{
+  "cnj": "5003010-11.2025.8.13.0112",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "BACUTIA INDUSTRIA E COMERCIO DE COUROS EIRELI - ME X SUL BRASIL FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS ABERTO MULTISSETORIAL X MINISTERIO PUBLICO - MPMG",
+  "polos": {
+    "PASSIVO": [
+      "BACUTIA INDUSTRIA E COMERCIO DE COUROS EIRELI - ME"
+    ],
+    "ATIVO": [
+      "SUL BRASIL FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS ABERTO MULTISSETORIAL"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "MINISTERIO PUBLICO - MPMG"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

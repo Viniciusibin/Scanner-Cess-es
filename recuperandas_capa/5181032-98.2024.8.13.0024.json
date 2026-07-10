@@ -1,0 +1,19 @@
+{
+  "cnj": "5181032-98.2024.8.13.0024",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "HORIZONTE BROKER DISTRIBUICAO LTDA X LVC DISTRIBUIDORA LTDA e outros (1)",
+  "polos": {
+    "ATIVO": [
+      "HORIZONTE BROKER DISTRIBUICAO LTDA"
+    ],
+    "PASSIVO": [
+      "LVC DISTRIBUIDORA LTDA",
+      "EUMACO COMERCIAL LTDA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

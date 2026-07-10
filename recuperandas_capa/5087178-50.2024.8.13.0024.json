@@ -1,0 +1,20 @@
+{
+  "cnj": "5087178-50.2024.8.13.0024",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "VIA SUL ENERGIA LTDA e outros (2) X RENATO JUNIO GUIMARAES FARIA",
+  "polos": {
+    "PASSIVO": [
+      "VIA SUL ENERGIA LTDA",
+      "VIA SUL IMOVEIS LTDA",
+      "VIA SUL ENGENHARIA LTDA"
+    ],
+    "ATIVO": [
+      "RENATO JUNIO GUIMARAES FARIA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

@@ -1,0 +1,36 @@
+{
+  "cnj": "0126938-41.2011.8.13.0188",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MUNDO MINERACAO LTDA. X MAGOTTEAUX BRASIL LTDA e outros (15) X MUNDO MINERACAO LTDA.",
+  "polos": {
+    "ATIVO": [
+      "MUNDO MINERACAO LTDA."
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "MAGOTTEAUX BRASIL LTDA",
+      "JOSE SOARES DE AZEVEDO - ME",
+      "BANCO DO BRASIL SA",
+      "FUNDO DE RECUPERACAO DE ATIVOS",
+      "MINISTERIO PUBLICO - MPMG",
+      "12 REIS INDUSTRIA E COMERCIO DE UNIFORMES LTDA",
+      "CEMIG DISTRIBUICAO S.A",
+      "CASA MENDANHA LTDA - EPP",
+      "GLOBAL TECNOLOGIA DE MINERACAO LTDA - ME",
+      "SERGIO LOPES - ADVOGADOS ASSOCIADOS",
+      "ESPOLIO DE FIDELCINO PEDROSA",
+      "FIDELYS SEGURANCA PRIVADA E TRANSPORTE DE VALORES LTDA - EPP",
+      "DESMONTEX EXPLOSIVOS LTDA - ME",
+      "GB HIDRAULICA LTDA",
+      "MINER TOOLS DO BRASIL LTDA - ME",
+      "BANCO ITAU UNIBANCO S/A"
+    ],
+    "PASSIVO": [
+      "MUNDO MINERACAO LTDA."
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

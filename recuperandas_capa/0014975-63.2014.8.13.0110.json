@@ -1,0 +1,32 @@
+{
+  "cnj": "0014975-63.2014.8.13.0110",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MINISTERIO PUBLICO - MPMG e outros (7) X LUIZ RENATO DO LAGO CAVALCANTE e outros (3) X ANA ANGELICA ZANETT - ME e outros (1)",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "MINISTERIO PUBLICO - MPMG",
+      "MICHELE APARECIDA DE SOUZA SOARES",
+      "SMT - ASSESSORIA E FOMENTO MERCANTIL LTDA - ME",
+      "CONEXAO FACTORING FOMENTO MERCANTIL LTDA",
+      "BANCO RURAL S.A - EM LIQUIDACAO EXTRAJUDICIAL",
+      "BANCO ITAU UNIBANCO S/A",
+      "BANCO BRADESCO S.A.",
+      "LUIZ RENATO DO LAGO CAVALCANTE"
+    ],
+    "PASSIVO": [
+      "LUIZ RENATO DO LAGO CAVALCANTE",
+      "BANCO BRADESCO S.A.",
+      "BANCO ITAU UNIBANCO S/A",
+      "BANCO RURAL S.A - EM LIQUIDACAO EXTRAJUDICIAL"
+    ],
+    "ATIVO": [
+      "ANA ANGELICA ZANETT - ME",
+      "FRIGORIFICO ZANETT LTDA."
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJMG"
+}

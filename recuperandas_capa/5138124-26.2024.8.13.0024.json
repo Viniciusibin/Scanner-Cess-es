@@ -1,0 +1,18 @@
+{
+  "cnj": "5138124-26.2024.8.13.0024",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ARAGUAIA NIQUEL METAIS LTDA X WT&T SOLUTIONS LTDA",
+  "polos": {
+    "PASSIVO": [
+      "ARAGUAIA NIQUEL METAIS LTDA"
+    ],
+    "ATIVO": [
+      "WT&T SOLUTIONS LTDA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

@@ -1,0 +1,21 @@
+{
+  "cnj": "0800506-57.2021.8.12.0046",
+  "_fontes_database": [
+    "TJ-MS-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "CAMPOVITA TRANSPORTES LTDA e outros (3) X BANCO DO BRASIL S/A",
+  "polos": {
+    "ATIVO": [
+      "CAMPOVITA TRANSPORTES LTDA",
+      "AGROVIA COMERCIO DE INSUMOS AGRICOLAS E TRANSPORTES LTDA",
+      "CAMPOVITA COMERCIO DE INSUMOS AGRICOLAS E TRANSPORTES LTDA",
+      "CAMPOVITA AGRONEGOCIOS LTDA"
+    ],
+    "PASSIVO": [
+      "BANCO DO BRASIL S/A"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJMS"
+}

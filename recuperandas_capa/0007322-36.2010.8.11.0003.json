@@ -1,0 +1,34 @@
+{
+  "cnj": "0007322-36.2010.8.11.0003",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MT PERICIAS LTDA e outros (7) X COOPERATIVA DE CREDITO DE LIVRE ADMISSAO DE ASSOCIADOS VALE DO CERRADO - SICREDI VALE DO CERRADO e outros (2) X D.F. DE OLIVEIRA INDUSTRIA E COMERCIO DE BIG BAG'S E SACARIAS LTDA - EPP e outros (4)",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "MT PERICIAS LTDA",
+      "MINISTERIO PUBLICO DO ESTADO DE MATO GROSSO",
+      "CLAUDIR SACHET",
+      "JOSE CARLOS SACHET",
+      "ESTADO DE MATO GROSSO",
+      "FAZENDA NACIONAL",
+      "MUNICIPIO DE RONDONOPOLIS",
+      "VINICIUS SANTOS CIRIACO"
+    ],
+    "PASSIVO": [
+      "COOPERATIVA DE CREDITO DE LIVRE ADMISSAO DE ASSOCIADOS VALE DO CERRADO - SICREDI VALE DO CERRADO",
+      "DOUGLAS FONSECA DE OLIVEIRA SERVICOS - EPP",
+      "CREDORES"
+    ],
+    "ATIVO": [
+      "D.F. DE OLIVEIRA INDUSTRIA E COMERCIO DE BIG BAG'S E SACARIAS LTDA - EPP",
+      "JOAO DE SOUZA SALLES JUNIOR",
+      "SILVIO LUIZ SILVA DE MOURA LEITE",
+      "CARMO SACHET",
+      "C. SACHET & CIA LTDA - EPP"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMT"
+}

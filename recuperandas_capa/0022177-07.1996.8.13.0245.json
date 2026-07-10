@@ -1,0 +1,18 @@
+{
+  "cnj": "0022177-07.1996.8.13.0245",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "EDUARDO HENRIQUE VIEIRA MARTINS X INCAFE INDUSTRIA E COMERCIO DE CAFES FINOS SA",
+  "polos": {
+    "ATIVO": [
+      "EDUARDO HENRIQUE VIEIRA MARTINS"
+    ],
+    "PASSIVO": [
+      "INCAFE INDUSTRIA E COMERCIO DE CAFES FINOS SA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

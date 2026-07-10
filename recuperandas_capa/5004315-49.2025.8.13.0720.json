@@ -1,0 +1,25 @@
+{
+  "cnj": "5004315-49.2025.8.13.0720",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "BANCO VOLVO (BRASIL) S.A e outros (5) X COOPERATIVA DOS TRANSPORTADORES UNIDOS LTDA e outros (2)",
+  "polos": {
+    "PASSIVO": [
+      "BANCO VOLVO (BRASIL) S.A",
+      "SCANIA BANCO S.A.",
+      "BANCO PACCAR S.A.",
+      "BANCO BRADESCO S.A.",
+      "BANCO VOLKSWAGEN S.A.",
+      "BANCO MERCEDES-BENZ DO BRASIL S/A"
+    ],
+    "ATIVO": [
+      "COOPERATIVA DOS TRANSPORTADORES UNIDOS LTDA",
+      "VRB LOGISTICA EIRELI - EPP",
+      "G9 LOGISTICA LTDA"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJMG"
+}

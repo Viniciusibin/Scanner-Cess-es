@@ -1,0 +1,16 @@
+{
+  "cnj": "5157803-93.2023.8.21.0001",
+  "_fontes_database": [
+    "TJ-RS-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ECOSOL SOLUCOES ECOLOGICAS LTDA - EM RECUPERACAO JUDICIAL e outros (1)",
+  "polos": {
+    "ATIVO": [
+      "ECOSOL SOLUCOES ECOLOGICAS LTDA - EM RECUPERACAO JUDICIAL",
+      "IMAP INDUSTRIA E COMERCIO DE MAQUINAS E EQUIPAMENTOS LTDA - EM RECUPERACAO JUDICIAL"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJRS"
+}

@@ -1,0 +1,24 @@
+{
+  "cnj": "0008231-59.2010.8.17.0990",
+  "_fontes_database": [
+    "TJ-PE-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ALEXANDRE DE OLIVEIRA UCHOA CAVALCANTI e outros (5) X SENA SEGURANCA INTELIGENTE LTDA e outros (1)",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "ALEXANDRE DE OLIVEIRA UCHOA CAVALCANTI",
+      "2 PROMOTOR DE JUSTICA CIVEL DE OLINDA",
+      "PGE - PROCURADORIA DA FAZENDA ESTADUAL",
+      "UNIAO FEDERAL",
+      "MUNICIPIO DE OLINDA",
+      "DIOGO MATTOS DIAS MARTINS"
+    ],
+    "ATIVO": [
+      "SENA SEGURANCA INTELIGENTE LTDA",
+      "SENA TERCEIRIZACAO DE SERVICOS LTDA"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJPE"
+}

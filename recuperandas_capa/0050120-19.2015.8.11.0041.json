@@ -1,0 +1,41 @@
+{
+  "cnj": "0050120-19.2015.8.11.0041",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "CREDORES E INRERESSADOS e outros (1) X BANCO DO BRASIL S.A. e outros (7) X HORBACH & CIA LTDA e outros (12)",
+  "polos": {
+    "PASSIVO": [
+      "CREDORES E INRERESSADOS",
+      "TRIBUNAL DE JUSTICA DO ESTADO DE MATO GROSSO"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "BANCO DO BRASIL S.A.",
+      "COELHO E ALMEIDA - ADVOGADOS ASSOCIADOS",
+      "BANCO BRADESCO S.A.",
+      "ACO PRONTO SERVICOS DE CORTE E DOBRA LTDA",
+      "HORBACH & CIA LTDA",
+      "TELEFONICA BRASIL S.A.",
+      "IKEDA EMPRESARIAL LTDA",
+      "GERDAU ACOS LONGOS S.A."
+    ],
+    "ATIVO": [
+      "HORBACH & CIA LTDA",
+      "ELIANDRO F. LOPES - ME",
+      "E F LOPES DEL NERY - ME",
+      "TELEFONICA BRASIL S.A.",
+      "CREDORES/INTERESSADOS",
+      "ACO PRONTO SERVICOS DE CORTE E DOBRA LTDA",
+      "BANCO DO BRASIL SA",
+      "IKEDA EMPRESARIAL LTDA",
+      "DARIUS CANAVARROS PALMA",
+      "A. FERREIRA DE SOUZA & CIA LTDA - EPP",
+      "A. FERREIRA DE SOUZA - EPP",
+      "BANCO BRADESCO S.A.",
+      "GERDAU ACOS LONGOS S.A."
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJMT"
+}

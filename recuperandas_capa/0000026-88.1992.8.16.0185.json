@@ -1,0 +1,30 @@
+{
+  "cnj": "0000026-88.1992.8.16.0185",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MOLOTOV PASSOS e outros (9) X COMERCIO DE CEREAIS MARECHAL LTDA X MASSA FALIDA DE COMERCIO DE CEREAIS MARECHAL LTDA",
+  "polos": {
+    "TERCEIRO": [
+      "MOLOTOV PASSOS",
+      "RODRIGO PASSOS",
+      "GOVERNO DO PARANA - SECRETARIA DE ESTADO DA FAZENDA",
+      "FAZENDA PUBLICA DO MUNICIPIO DE CURITIBA",
+      "PROCURADORIA DA FAZENDA NACIONAL (PGFN)",
+      "J VOLPI CEREAIS",
+      "CF CORP SERVICOS LTDA",
+      "FARMACIA E DROGARIA NISSEI S.A.",
+      "FARMACIA E DROGARIA NISEI LTDA",
+      "MASSA FALIDA DE FULLER S. A."
+    ],
+    "ATIVO": [
+      "COMERCIO DE CEREAIS MARECHAL LTDA"
+    ],
+    "PASSIVO": [
+      "MASSA FALIDA DE COMERCIO DE CEREAIS MARECHAL LTDA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJPR"
+}

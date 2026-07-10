@@ -1,0 +1,18 @@
+{
+  "cnj": "8056172-65.2024.8.05.0001",
+  "_fontes_database": [
+    "TJ-BA-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "CREDIT PARTNERS FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS X DIA A DIA PROMOCAO DE VENDAS LTDA",
+  "polos": {
+    "ATIVO": [
+      "CREDIT PARTNERS FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS"
+    ],
+    "PASSIVO": [
+      "DIA A DIA PROMOCAO DE VENDAS LTDA"
+    ]
+  },
+  "classe": "Apelação Cível",
+  "tribunal": "TJBA"
+}

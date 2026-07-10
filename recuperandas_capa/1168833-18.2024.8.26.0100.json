@@ -1,0 +1,19 @@
+{
+  "cnj": "1168833-18.2024.8.26.0100",
+  "_fontes_database": [
+    "TJ-RJ-2026.json",
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "PAULO IVANDO KEMPFER X FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+  "polos": {
+    "ATIVO": [
+      "PAULO IVANDO KEMPFER"
+    ],
+    "PASSIVO": [
+      "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA."
+    ]
+  },
+  "classe": "Procedimento Comum Cível",
+  "tribunal": "TJSP"
+}

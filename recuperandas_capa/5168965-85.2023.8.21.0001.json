@@ -1,0 +1,15 @@
+{
+  "cnj": "5168965-85.2023.8.21.0001",
+  "_fontes_database": [
+    "TJ-RS-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "BDS AR CONDICIONADO LTDA EM RECUPERACAO JUDICIAL",
+  "polos": {
+    "ATIVO": [
+      "BDS AR CONDICIONADO LTDA EM RECUPERACAO JUDICIAL"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJRS"
+}

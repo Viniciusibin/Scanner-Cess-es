@@ -1,0 +1,24 @@
+{
+  "cnj": "0833783-73.2005.8.13.0183",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ZEFIROS I FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS e outros (1) X MINISTERIO PUBLICO - MPMG e outros (2) X TEC - TORRES EDIFICACOES E CONSTRUCOES LTDA",
+  "polos": {
+    "ATIVO": [
+      "ZEFIROS I FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS",
+      "GERDAU ACOMINAS S/A"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "MINISTERIO PUBLICO - MPMG",
+      "DALMAR DO ESPIRITO SANTO PIMENTA",
+      "NATALIA CRISTINA MARQUES PIMENTA"
+    ],
+    "PASSIVO": [
+      "TEC - TORRES EDIFICACOES E CONSTRUCOES LTDA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

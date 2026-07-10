@@ -1,0 +1,23 @@
+{
+  "cnj": "0000210-45.2014.8.13.0027",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "RONALDO SIQUEIRA DANTAS e outros (2) X LOUREIRO E CARVALHO LTDA X LOUREIRO E CARVALHO LTDA",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "RONALDO SIQUEIRA DANTAS",
+      "UNIAO FEDERAL- (PFN)",
+      "MINISTERIO PUBLICO - MPMG"
+    ],
+    "ATIVO": [
+      "LOUREIRO E CARVALHO LTDA"
+    ],
+    "PASSIVO": [
+      "LOUREIRO E CARVALHO LTDA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

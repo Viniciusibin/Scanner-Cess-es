@@ -1,0 +1,25 @@
+{
+  "cnj": "5004027-94.2021.8.13.0024",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "PROBANK S/A e outros (3) X JORGE AUGUSTO DERVICHE CASAGRANDE X MINISTERIO PUBLICO - MPMG e outros (1)",
+  "polos": {
+    "PASSIVO": [
+      "PROBANK S/A",
+      "PROBANK SOFTWARE E CONSULTORIA S/A",
+      "SERGIO MOURAO CORREA LIMA",
+      "WILSON NELIO BRUMER"
+    ],
+    "ATIVO": [
+      "JORGE AUGUSTO DERVICHE CASAGRANDE"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "MINISTERIO PUBLICO - MPMG",
+      "OSMAR BRINA CORREA LIMA - ADVOGADOS"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

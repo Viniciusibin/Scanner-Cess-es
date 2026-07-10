@@ -1,0 +1,21 @@
+{
+  "cnj": "0029449-11.1988.8.05.0001",
+  "_fontes_database": [
+    "TJ-BA-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MINISTERIO PUBLICO DO ESTADO DA BAHIA X LORENZETTI PORCELANA INDUSTRIAL PARANA S A X RECNOR REPRESENTACOES E COMERCIO DO NORDESTE LTDA",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "MINISTERIO PUBLICO DO ESTADO DA BAHIA"
+    ],
+    "ATIVO": [
+      "LORENZETTI PORCELANA INDUSTRIAL PARANA S A"
+    ],
+    "PASSIVO": [
+      "RECNOR REPRESENTACOES E COMERCIO DO NORDESTE LTDA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJBA"
+}

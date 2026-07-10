@@ -1,0 +1,18 @@
+{
+  "cnj": "5005608-66.2022.8.13.0071",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "FRIESP ALIMENTOS S/A X YAALEH FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS",
+  "polos": {
+    "PASSIVO": [
+      "FRIESP ALIMENTOS S/A"
+    ],
+    "ATIVO": [
+      "YAALEH FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

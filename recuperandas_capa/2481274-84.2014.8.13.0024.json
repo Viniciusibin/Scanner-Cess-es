@@ -1,0 +1,21 @@
+{
+  "cnj": "2481274-84.2014.8.13.0024",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "FIDENS ENGENHARIA S/A X EPC ENGENHARIA PROJETO CONSULTORIA SA X MINISTERIO PUBLICO - MPMG",
+  "polos": {
+    "PASSIVO": [
+      "FIDENS ENGENHARIA S/A"
+    ],
+    "ATIVO": [
+      "EPC ENGENHARIA PROJETO CONSULTORIA SA"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "MINISTERIO PUBLICO - MPMG"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

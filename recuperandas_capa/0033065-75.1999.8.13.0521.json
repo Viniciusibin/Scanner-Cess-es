@@ -1,0 +1,25 @@
+{
+  "cnj": "0033065-75.1999.8.13.0521",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "PONCAL ATACADISTA LTDA X JUACY NIQUINE ROSA e outros (4) X MERCUR S A",
+  "polos": {
+    "PASSIVO": [
+      "PONCAL ATACADISTA LTDA"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "JUACY NIQUINE ROSA",
+      "DOMINGOS SAVIO DE CASTRO MARQUES",
+      "ALPARGATAS S.A.",
+      "MINISTERIO PUBLICO - MPMG",
+      "ERIKA SANTIAGO SOCIEDADE INDIVIDUAL DE ADVOCACIA"
+    ],
+    "ATIVO": [
+      "MERCUR S A"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

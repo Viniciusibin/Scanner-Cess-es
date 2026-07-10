@@ -1,0 +1,31 @@
+{
+  "cnj": "0004140-74.2009.8.17.0370",
+  "_fontes_database": [
+    "TJ-PE-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "JOSE LUIZ LINDOSO DA SILVA e outros (5) X MOBILIA LTDA X SAFRA LEASING SA ARRENDAMENTO MERCANTIL e outros (5)",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "JOSE LUIZ LINDOSO DA SILVA",
+      "1 PROMOTOR DE JUSTICA CIVEL DO CABO DE SANTO AGOSTINHO",
+      "ADALBERTO JOSE DE SANTANA",
+      "BRAVO INDUSTRIA, COMERCIO, IMPORTACAO E EXPORTACAO S/A,",
+      "TATIANA MOREIRA DA SILVA ROCHA",
+      "JULIO CESAR CAVALCANTE PEREIRA"
+    ],
+    "ATIVO": [
+      "MOBILIA LTDA"
+    ],
+    "PASSIVO": [
+      "SAFRA LEASING SA ARRENDAMENTO MERCANTIL",
+      "SCHNEIDER ELECTRIC IT BRASIL INDUSTRIA E COMERCIO DE EQUIPAMENTOS LTDA",
+      "VIVO S.A.",
+      "MAPFRE SEGUROS GERAIS S/A",
+      "BANCO BRADESCO S/A",
+      "ITAU UNIBANCO"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJPE"
+}

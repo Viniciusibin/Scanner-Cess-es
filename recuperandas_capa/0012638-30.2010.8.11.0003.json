@@ -1,0 +1,32 @@
+{
+  "cnj": "0012638-30.2010.8.11.0003",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ESTADO DE MATO GROSSO e outros (2) X MINISTERIO PUBLICO DO ESTADO DE MATO GROSSO e outros (5) X CONSEG ADMINISTRADORA DE CONSORCIOS LTDA e outros (4)",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "ESTADO DE MATO GROSSO",
+      "PORTO SEGURO COMPANHIA DE SEGUROS GERAIS",
+      "MINISTERIO PUBLICO DO ESTADO DE MATO GROSSO"
+    ],
+    "PASSIVO": [
+      "MINISTERIO PUBLICO DO ESTADO DE MATO GROSSO",
+      "PARANA PNEUS LTDA - ME",
+      "VIPAR PARTICIPACOES LTDA",
+      "BANCO DO BRASIL S.A.",
+      "ERACI TEREZINHA PEDROSO DAL PONTE",
+      "RECUPERADORA DE PNEUS LODI LTDA - EPP"
+    ],
+    "ATIVO": [
+      "CONSEG ADMINISTRADORA DE CONSORCIOS LTDA",
+      "GLAUCIA ALBUQUERQUE BRASIL",
+      "LEONESIO DAL PONTE",
+      "BCD COMERCIO E RECAPAGENS DE PNEUS LTDA - ME",
+      "PARANA PNEUS LTDA - ME"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMT"
+}

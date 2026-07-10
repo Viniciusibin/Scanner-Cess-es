@@ -1,0 +1,24 @@
+{
+  "cnj": "0018273-77.2014.8.13.0073",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "IPIRANGA PRODUTOS DE PETROLEO S.A. e outros (6) X SLC COMERCIO DE COMBUSTIVEIS E SERVICOS LTDA",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "IPIRANGA PRODUTOS DE PETROLEO S.A.",
+      "HERDEIROS DE JOSE WALDIVINO DOS REIS",
+      "CAIXA ECONOMICA FEDERAL",
+      "SEAM - SOLUCAO ENGENHARIA AMBIENTAL LTDA - EPP",
+      "CEMIG DISTRIBUICAO S.A.",
+      "LAAE - LABORATORIO DE ANALISE DE AGUA E EFLUENTES LTDA",
+      "MINISTERIO PUBLICO - MPMG"
+    ],
+    "ATIVO": [
+      "SLC COMERCIO DE COMBUSTIVEIS E SERVICOS LTDA"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJMG"
+}

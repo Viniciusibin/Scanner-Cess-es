@@ -1,0 +1,22 @@
+{
+  "cnj": "0062810-38.2019.8.13.0024",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "FIDENS ENGENHARIA S/A X BIONDI CONSTRUCAO E INSTALACOES EIRELI e outros (1) X PROCURADORIA GERAL DE JUSTICA DE MINAS GERAIS",
+  "polos": {
+    "PASSIVO": [
+      "FIDENS ENGENHARIA S/A"
+    ],
+    "ATIVO": [
+      "BIONDI CONSTRUCAO E INSTALACOES EIRELI",
+      "DL PAVIMENTACAO E INSTALACOES LTDA"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "PROCURADORIA GERAL DE JUSTICA DE MINAS GERAIS"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

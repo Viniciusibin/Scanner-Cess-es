@@ -1,0 +1,21 @@
+{
+  "cnj": "5001157-46.2025.8.13.0312",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "LATICINIO DELBOM LTDA. - ME X ACREDITAR SECURITIZADORA S/A X PAOLI BALBINO & BALBINO SOCIEDADE DE ADVOGADOS",
+  "polos": {
+    "PASSIVO": [
+      "LATICINIO DELBOM LTDA. - ME"
+    ],
+    "ATIVO": [
+      "ACREDITAR SECURITIZADORA S/A"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "PAOLI BALBINO & BALBINO SOCIEDADE DE ADVOGADOS"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

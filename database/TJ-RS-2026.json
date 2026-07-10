@@ -1168,7 +1168,7 @@
         "valor": "81143882,81",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "RG ESTALEIRO ERG3 INDUSTRIAL S.A.",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1197,7 +1197,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "INDUSTRIAL COMERCIO E BENEFICIAMENTO DE ARROZ LTDA",
         "motivo_classificacao": null,
         "data_cessao": "18/02/2022"
       }
@@ -1226,7 +1226,7 @@
         "valor": "205092,37",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "MW SEGURANCA LTDA",
         "motivo_classificacao": null,
         "data_cessao": "26/08/2025"
       }
@@ -1255,7 +1255,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "TREFILACO TREFILACAO DE METAIS LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1284,7 +1284,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "KEKO ACESSORIOS S.A",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1313,7 +1313,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "PFLUG COMERCIO DE COMBUSTIVEIS - LTDA EM",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1342,7 +1342,7 @@
         "valor": "4889466,35",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "DAMBROZ EMPREENDIMENTOS E ADMINISTRACAO LTDA - EM RECUPERACAO JUDICIAL",
         "motivo_classificacao": null,
         "data_cessao": null
       },
@@ -1355,7 +1355,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "DAMBROZ EMPREENDIMENTOS E ADMINISTRACAO LTDA - EM RECUPERACAO JUDICIAL",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1384,7 +1384,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "FAISCA & FUMACA AUTOPECAS LTDA - EPP",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1413,7 +1413,7 @@
         "valor": "8885,88",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "GAZETA DO SUL S A",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1442,7 +1442,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "KB ASSESSORIA EMPRESARIAL E EMPREENDIMENTOS IMOBILIARIOS LTDA - ME",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1471,7 +1471,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "JOSE DINON & CIA LTDA - EM RECUPERACAO JUDICIAL",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1500,7 +1500,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "PRIORITY PARTICIPACOES SOCIETARIAS LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1529,7 +1529,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "HOLDINVEST FOODS S.A. EM RECUPERACAO JUDICIAL",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1558,7 +1558,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "CARNES BETANIN LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1587,7 +1587,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "ECOSOL SOLUCOES ECOLOGICAS LTDA - EM RECUPERACAO JUDICIAL",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1616,7 +1616,7 @@
         "valor": "8651,86",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "BDS AR CONDICIONADO LTDA EM RECUPERACAO JUDICIAL",
         "motivo_classificacao": null,
         "data_cessao": "05/12/2025"
       }
@@ -1645,7 +1645,7 @@
         "valor": "2546835,61",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "FUNDACAO UNIVERSITARIA DE CARDIOLOGIA EM RECUPERACAO JUDICIAL",
         "motivo_classificacao": null,
         "data_cessao": null
       }

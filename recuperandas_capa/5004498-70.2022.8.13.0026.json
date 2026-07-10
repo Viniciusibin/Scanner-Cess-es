@@ -1,0 +1,18 @@
+{
+  "cnj": "5004498-70.2022.8.13.0026",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "GEWALT INDUSTRIA & COMERCIO EIRELI X SUL BRASIL SECURITIZADORA S/A",
+  "polos": {
+    "PASSIVO": [
+      "GEWALT INDUSTRIA & COMERCIO EIRELI"
+    ],
+    "ATIVO": [
+      "SUL BRASIL SECURITIZADORA S/A"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

@@ -1,0 +1,18 @@
+{
+  "cnj": "5151580-43.2024.8.13.0024",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ZONA DA MATA MINERACAO S.A. X ARMAC LOCACAO, LOGISTICA E SERVICOS LTDA - EPP",
+  "polos": {
+    "PASSIVO": [
+      "ZONA DA MATA MINERACAO S.A."
+    ],
+    "ATIVO": [
+      "ARMAC LOCACAO, LOGISTICA E SERVICOS LTDA - EPP"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

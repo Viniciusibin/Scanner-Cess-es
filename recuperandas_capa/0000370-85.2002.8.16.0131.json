@@ -1,0 +1,43 @@
+{
+  "cnj": "0000370-85.2002.8.16.0131",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "CASSIO LISANDRO TELLES X ANDERSON DE ANDRADE e outros (7) X ITAMETAIS COM E IND DE METAIS NOBRES LTDA - EPP e outros (15)",
+  "polos": {
+    "ATIVO": [
+      "CASSIO LISANDRO TELLES"
+    ],
+    "PASSIVO": [
+      "ANDERSON DE ANDRADE",
+      "MASSA FALIDA DE CPA - CENTRAL PARANAENSE DE ALUMINIO LTDA",
+      "CLAVAH ALUMINIOS LTDA",
+      "DOALL LATINA INDUSTRIA DE ALIMENTOS LTDA",
+      "ELIZANGELA MARCIA ZUFFO DE ANDRADE",
+      "MARINES GUANDALIN CATANI",
+      "VALDELIR CATANI",
+      "REGINA MARISA MURARO"
+    ],
+    "TERCEIRO": [
+      "ITAMETAIS COM E IND DE METAIS NOBRES LTDA - EPP",
+      "HELANE GIACOMINI OLIVO",
+      "ANTONIO JOSE OLIVO",
+      "BANCO REGIONAL DE DESENVOLVIMENTO DO EXTREMO SUL",
+      "THIAGO OLIVO",
+      "SARAH CATANI",
+      "MUNICIPIO DE PATO BRANCO",
+      "INSTALADORA DE MATERIAS ELETRICOS VIVIDENCE LTDA",
+      "ALUMINIO PERFILEVE LTDA",
+      "ANTONIO DE ANDRADE",
+      "WILSON JOSE FURLANETO",
+      "RITTA GIACOMINI",
+      "MAURO CEZAR AIRES DE ANDRADE",
+      "JULIO CESAR BERA",
+      "ADRIANO DOS SANTOS MACIEL",
+      "MAURO CESAR KALINKE"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJPR"
+}

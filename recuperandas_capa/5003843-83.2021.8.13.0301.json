@@ -1,0 +1,21 @@
+{
+  "cnj": "5003843-83.2021.8.13.0301",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "SANES BRASIL AGROINDUSTRIAL S/A X BM COMERCIAL LTDA X LEANDRO FIGUEIREDO PINHEIRO",
+  "polos": {
+    "ATIVO": [
+      "SANES BRASIL AGROINDUSTRIAL S/A"
+    ],
+    "PASSIVO": [
+      "BM COMERCIAL LTDA"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "LEANDRO FIGUEIREDO PINHEIRO"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

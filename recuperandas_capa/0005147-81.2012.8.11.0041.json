@@ -1,0 +1,31 @@
+{
+  "cnj": "0005147-81.2012.8.11.0041",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "TRIBUNAL DE JUSTICA DO ESTADO DE MATO GROSSO e outros (1) X HOTERLENE LOPES DE MORAES e outros (5) X JGJ COMERCIO DE PETROLEO LTDA e outros (4)",
+  "polos": {
+    "PASSIVO": [
+      "TRIBUNAL DE JUSTICA DO ESTADO DE MATO GROSSO",
+      "CREDORES E INTERESSADOS"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "HOTERLENE LOPES DE MORAES",
+      "BANCO DO BRASIL S.A.",
+      "SASCAR - TECNOLOGIA E SEGURANCA AUTOMOTIVA S/A",
+      "ITAU UNIBANCO S.A.",
+      "BANCO SAFRA S A",
+      "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS"
+    ],
+    "ATIVO": [
+      "JGJ COMERCIO DE PETROLEO LTDA",
+      "CONEXAO COMERCIO DE PETROLEO LTDA",
+      "PETROLSTYLL COMERCIO DE PETROLEO LTDA",
+      "EMBOAVA & VIEGAS LTDA",
+      "EAP POSTOS DE COMBUSTIVEIS LTDA"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJMT"
+}

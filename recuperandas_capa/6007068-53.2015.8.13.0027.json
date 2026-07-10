@@ -1,0 +1,18 @@
+{
+  "cnj": "6007068-53.2015.8.13.0027",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "POLEODUTO - INDUSTRIA E COMERCIO DE FLEXIVEIS E ELETRO-MECANICOS LTDA X CONSORCIO PJP",
+  "polos": {
+    "ATIVO": [
+      "POLEODUTO - INDUSTRIA E COMERCIO DE FLEXIVEIS E ELETRO-MECANICOS LTDA"
+    ],
+    "PASSIVO": [
+      "CONSORCIO PJP"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

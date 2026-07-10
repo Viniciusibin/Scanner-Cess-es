@@ -1,0 +1,22 @@
+{
+  "cnj": "0002672-80.2010.8.12.0014",
+  "_fontes_database": [
+    "TJ-MS-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MUNICIPIO DE MARACAJU e outros (3) X SOUZA & MARIMON LTDA e outros (1)",
+  "polos": {
+    "TERCEIRO": [
+      "MUNICIPIO DE MARACAJU",
+      "HSBC BANK BRASIL S/A - BANCO MULTIPLO",
+      "STOLLER DO BRASIL LTDA",
+      "BANCO DO BRASIL S/A"
+    ],
+    "ATIVO": [
+      "SOUZA & MARIMON LTDA",
+      "MANSOUR ELIAS KARMOUCHE"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJMS"
+}

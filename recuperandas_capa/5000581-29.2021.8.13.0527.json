@@ -1,0 +1,21 @@
+{
+  "cnj": "5000581-29.2021.8.13.0527",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MINISTERIO PUBLICO - MPMG X ABATEDOURO PRADENSE LTDA X WESLEY DA SILVA PEREIRA",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "MINISTERIO PUBLICO - MPMG"
+    ],
+    "PASSIVO": [
+      "ABATEDOURO PRADENSE LTDA"
+    ],
+    "ATIVO": [
+      "WESLEY DA SILVA PEREIRA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

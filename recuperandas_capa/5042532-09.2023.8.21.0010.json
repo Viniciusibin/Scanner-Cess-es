@@ -1,0 +1,17 @@
+{
+  "cnj": "5042532-09.2023.8.21.0010",
+  "_fontes_database": [
+    "TJ-RS-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "LATICINIOS BONDOLEITE LTDA e outros (2)",
+  "polos": {
+    "ATIVO": [
+      "LATICINIOS BONDOLEITE LTDA",
+      "HOLDINVEST FOODS S.A. EM RECUPERACAO JUDICIAL",
+      "CARRER ALIMENTOS LTDA"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJRS"
+}

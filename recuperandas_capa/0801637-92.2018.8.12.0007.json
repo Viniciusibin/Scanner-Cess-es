@@ -1,0 +1,21 @@
+{
+  "cnj": "0801637-92.2018.8.12.0007",
+  "_fontes_database": [
+    "TJ-MS-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "REZENDE & SILVA LTDA X SILVONE GOUVEIA BARBOSA X BANCO SANTANDER (BRASIL) S.A.",
+  "polos": {
+    "PASSIVO": [
+      "REZENDE & SILVA LTDA"
+    ],
+    "TERCEIRO": [
+      "SILVONE GOUVEIA BARBOSA"
+    ],
+    "ATIVO": [
+      "BANCO SANTANDER (BRASIL) S.A."
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJMS"
+}

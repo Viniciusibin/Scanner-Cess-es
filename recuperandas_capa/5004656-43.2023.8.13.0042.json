@@ -1,0 +1,21 @@
+{
+  "cnj": "5004656-43.2023.8.13.0042",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MINISTERIO PUBLICO - MPMG X INDUSTRIA DE CAL SANTA TEREZINHA LTDA X DFG FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS MULTISSETORIAL",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "MINISTERIO PUBLICO - MPMG"
+    ],
+    "PASSIVO": [
+      "INDUSTRIA DE CAL SANTA TEREZINHA LTDA"
+    ],
+    "ATIVO": [
+      "DFG FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS MULTISSETORIAL"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

@@ -1,0 +1,19 @@
+{
+  "cnj": "0801097-55.2025.8.12.0021",
+  "_fontes_database": [
+    "TJ-MS-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MADU AGRONEGOCIOS EIRELI e outros (1) X BANCO DO BRASIL S/A",
+  "polos": {
+    "ATIVO": [
+      "MADU AGRONEGOCIOS EIRELI",
+      "MADULOG LTDA"
+    ],
+    "PASSIVO": [
+      "BANCO DO BRASIL S/A"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMS"
+}

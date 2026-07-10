@@ -1,0 +1,18 @@
+{
+  "cnj": "0027678-58.2023.8.17.3130",
+  "_fontes_database": [
+    "TJ-PE-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "SAO FRANCISCO TEXTIL S/A X FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS DA INDUSTRIA EXODUS INSTITUCIONAL",
+  "polos": {
+    "PASSIVO": [
+      "SAO FRANCISCO TEXTIL S/A"
+    ],
+    "ATIVO": [
+      "FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS DA INDUSTRIA EXODUS INSTITUCIONAL"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJPE"
+}

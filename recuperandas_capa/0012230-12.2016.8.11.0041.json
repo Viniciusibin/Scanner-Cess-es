@@ -1,0 +1,24 @@
+{
+  "cnj": "0012230-12.2016.8.11.0041",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "PLUGMAIS DISTRIBUIDORA - INFORMATICA E TELECOMUNICACOES LTDA e outros (1) X ENGEGLOBAL CONSTRUCOES LTDA e outros (2) X ZAPAZ ADMINISTRACAO JUDICIAL LTDA - EPP",
+  "polos": {
+    "ATIVO": [
+      "PLUGMAIS DISTRIBUIDORA - INFORMATICA E TELECOMUNICACOES LTDA",
+      "LORGA & MIKEJEVS ADVOGADOS ASSOCIADOS"
+    ],
+    "PASSIVO": [
+      "ENGEGLOBAL CONSTRUCOES LTDA",
+      "LUIZ CARLOS EHRET GARCIA",
+      "PEDRO AUGUSTO MOREIRA DA SILVA"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "ZAPAZ ADMINISTRACAO JUDICIAL LTDA - EPP"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMT"
+}

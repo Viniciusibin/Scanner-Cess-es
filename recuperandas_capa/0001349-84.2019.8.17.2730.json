@@ -1,0 +1,28 @@
+{
+  "cnj": "0001349-84.2019.8.17.2730",
+  "_fontes_database": [
+    "TJ-PE-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "TIAGO DE FARIAS LINS e outros (6) X COLETIVIDADE DE CREDORES e outros (1) X QUALIMAN ENGENHARIA E MONTAGENS LTDA",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "TIAGO DE FARIAS LINS",
+      "PROCURADORIA GERAL DO MUNICIPIO DE IPOJUCA",
+      "PGE - PROCURADORIA DO CONTENCIOSO CIVEL",
+      "PROCURADORIA DA FAZENDA NACIONAL 5 REGIAO",
+      "MUNICIPIO DE IPOJUCA",
+      "PGE_SAO PAULO",
+      "1 PROMOTOR DE JUSTICA CIVEL DE IPOJUCA"
+    ],
+    "PASSIVO": [
+      "COLETIVIDADE DE CREDORES",
+      "1 VARA CIVEL DA COMARCA DE IPOJUCA"
+    ],
+    "ATIVO": [
+      "QUALIMAN ENGENHARIA E MONTAGENS LTDA"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJPE"
+}

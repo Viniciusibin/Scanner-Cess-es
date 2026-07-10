@@ -1,0 +1,33 @@
+{
+  "cnj": "0008687-65.2011.8.05.0001",
+  "_fontes_database": [
+    "TJ-BA-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "GATTA BRAZIL COMERCIO DO VESTUARIO LTDA e outros (2) X PEDRO JORGE DE JESUS SOARES e outros (9) X BANCO BRADESCO SA e outros (1)",
+  "polos": {
+    "ATIVO": [
+      "GATTA BRAZIL COMERCIO DO VESTUARIO LTDA",
+      "PEDRO JORGE DE JESUS SOARES",
+      "ROSEVALTA ALVES BARRETO"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "PEDRO JORGE DE JESUS SOARES",
+      "ROSEVALTA ALVES BARRETO",
+      "ORLANDO ISAAC KALIL FILHO",
+      "BANCO DO BRASIL S/A",
+      "DEFENSORIA PUBLICA DO ESTADO DA BAHIA",
+      "FRUTO PROIBIDO COMERCIAL & INDUSTRIAL EIRELI",
+      "GLOSS STYLE COMERCIO DE ROUPAS LTDA",
+      "BANCO DO NORDESTE DO BRASIL SA",
+      "BANCO BRADESCO SA",
+      "MINISTERIO PUBLICO DO ESTADO DA BAHIA"
+    ],
+    "PASSIVO": [
+      "BANCO BRADESCO SA",
+      "BRADESCO SA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJBA"
+}

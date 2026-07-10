@@ -1,0 +1,18 @@
+{
+  "cnj": "5121806-65.2024.8.13.0024",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "AMP INDUSTRIA E COMERCIO DE CONDUTORES LTDA X SUL BRASIL FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS ABERTO MULTISSETORIAL",
+  "polos": {
+    "PASSIVO": [
+      "AMP INDUSTRIA E COMERCIO DE CONDUTORES LTDA"
+    ],
+    "ATIVO": [
+      "SUL BRASIL FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS ABERTO MULTISSETORIAL"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

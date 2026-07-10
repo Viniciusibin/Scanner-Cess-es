@@ -1,0 +1,29 @@
+{
+  "cnj": "0246330-02.1997.8.13.0079",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "CONEFRUTI COMERCIO IMPORTACAO E EXPORTACAO LTDA e outros (8) X COMERCIAL TRIUNFO DE CONTAGEM LTDA X RANDON AGRO SILVO PASTORIL LTDA",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "CONEFRUTI COMERCIO IMPORTACAO E EXPORTACAO LTDA",
+      "RASIP ALIMENTOS LTDA",
+      "AGROPECUARIA SCHIO LTDA",
+      "ORO CAPITAL GESTAO DE RECURSOS LTDA",
+      "MINISTERIO DA FAZENDA",
+      "ESTADO DE MINAS GERAIS",
+      "SINDICO",
+      "MINISTERIO PUBLICO - MPMG",
+      "MUNICIPIO DE CONTAGEM"
+    ],
+    "PASSIVO": [
+      "COMERCIAL TRIUNFO DE CONTAGEM LTDA"
+    ],
+    "ATIVO": [
+      "RANDON AGRO SILVO PASTORIL LTDA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

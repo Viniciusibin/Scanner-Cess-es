@@ -1,0 +1,22 @@
+{
+  "cnj": "5009312-35.2025.8.13.0313",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "PAOLI BALBINO & BALBINO SOCIEDADE DE ADVOGADOS e outros (1) X LATICINIOS MANIA LTDA X VALECRED SECURITIZADORA DE CREDITOS S/A",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "PAOLI BALBINO & BALBINO SOCIEDADE DE ADVOGADOS",
+      "MINISTERIO PUBLICO DO ESTADO DE MINAS GERAIS"
+    ],
+    "PASSIVO": [
+      "LATICINIOS MANIA LTDA"
+    ],
+    "ATIVO": [
+      "VALECRED SECURITIZADORA DE CREDITOS S/A"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

@@ -1,0 +1,18 @@
+{
+  "cnj": "5007720-69.2024.8.13.0707",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ALLEGRA MARKETING E PROMOCAO DE VENDAS EIRELI - ME X FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO-PADRONIZADOS MULTISETORIAL PREVIA",
+  "polos": {
+    "PASSIVO": [
+      "ALLEGRA MARKETING E PROMOCAO DE VENDAS EIRELI - ME"
+    ],
+    "ATIVO": [
+      "FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO-PADRONIZADOS MULTISETORIAL PREVIA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

@@ -1,0 +1,25 @@
+{
+  "cnj": "0107741-84.2000.8.13.0027",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "PAOLI BALBINO & BALBINO SOCIEDADE DE ADVOGADOS e outros (3) X METAL LINE INDUSTRIA E COMERCIO LTDA X GERDAU S.A. e outros (1)",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "PAOLI BALBINO & BALBINO SOCIEDADE DE ADVOGADOS",
+      "CLEBER MATEUS DA SILVA",
+      "MINISTERIO PUBLICO - MPMG",
+      "ZEFIROS I FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS"
+    ],
+    "PASSIVO": [
+      "METAL LINE INDUSTRIA E COMERCIO LTDA"
+    ],
+    "ATIVO": [
+      "GERDAU S.A.",
+      "ZEFIROS I FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

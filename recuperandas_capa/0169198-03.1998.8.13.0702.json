@@ -1,0 +1,23 @@
+{
+  "cnj": "0169198-03.1998.8.13.0702",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "TACIANI ACERBI CAMPAGNARO COLNAGO CABRAL e outros (2) X SUPERMERCADO UBERLANDIA LTDA X SUPERMERCADO UBERLANDIA LTDA",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "TACIANI ACERBI CAMPAGNARO COLNAGO CABRAL",
+      "CEMIG DISTRIBUICAO S.A.",
+      "MINISTERIO PUBLICO - MPMG"
+    ],
+    "ATIVO": [
+      "SUPERMERCADO UBERLANDIA LTDA"
+    ],
+    "PASSIVO": [
+      "SUPERMERCADO UBERLANDIA LTDA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

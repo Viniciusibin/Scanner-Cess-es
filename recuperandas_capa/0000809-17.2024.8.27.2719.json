@@ -1,0 +1,18 @@
+{
+  "cnj": "0000809-17.2024.8.27.2719",
+  "_fontes_database": [
+    "TJ-TO-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ARMAZEM BECKKER LTDA X MAXINVESTOR FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS MULTISSETORIAL LP",
+  "polos": {
+    "PASSIVO": [
+      "ARMAZEM BECKKER LTDA"
+    ],
+    "ATIVO": [
+      "MAXINVESTOR FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS MULTISSETORIAL LP"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJTO"
+}

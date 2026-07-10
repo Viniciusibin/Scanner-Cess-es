@@ -1,0 +1,27 @@
+{
+  "cnj": "0876612-51.2011.8.13.0024",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "FENIX - COMPANHIA SECURITIZADORA DE CREDITOS FINANCEIROS e outros (6) X BRAIN TECNOLOGIA LTDA. X BANK OF CHINA (BRASIL) BANCO MULTIPLO S/A",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "FENIX - COMPANHIA SECURITIZADORA DE CREDITOS FINANCEIROS",
+      "UNIAO FEDERAL- (PFN)",
+      "PROCURADORIA DA FAZENDA NACIONAL NO ESTADO DO TOCANTINS",
+      "CREDORES",
+      "BERNARDO BICALHO DE ALVARENGA MENDES",
+      "MINISTERIO PUBLICO - MPMG",
+      "ADVOCACIA GERAL DA UNIAO"
+    ],
+    "PASSIVO": [
+      "BRAIN TECNOLOGIA LTDA."
+    ],
+    "ATIVO": [
+      "BANK OF CHINA (BRASIL) BANCO MULTIPLO S/A"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

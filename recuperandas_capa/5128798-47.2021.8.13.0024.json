@@ -1,0 +1,37 @@
+{
+  "cnj": "5128798-47.2021.8.13.0024",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "BR&P ENERGY CONSULTORIA E ASSESSORIA S/A. e outros (8) X ADVOGADOS DE CREDORES e outros (5) X VIA PARTICIPACOES S/A e outros (3)",
+  "polos": {
+    "ATIVO": [
+      "BR&P ENERGY CONSULTORIA E ASSESSORIA S/A.",
+      "WILSON NELIO BRUMER",
+      "GFB EMPREENDIMENTOS E PARTICIPACOES LTDA",
+      "B&P INVESTIMENTOS E PARTICIPACOES LTDA",
+      "FELIPE NASCIMENTO BRUMER",
+      "SHIRLENE NASCIMENTO BRUMER",
+      "GUILHERME NASCIMENTO BRUMER",
+      "3NB PARTICIPACOES LTDA",
+      "SWGF EMPREENDIMENTOS E PARTICIPACOES LTDA"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "ADVOGADOS DE CREDORES",
+      "MINISTERIO PUBLICO - MPMG",
+      "OSMAR BRINA CORREA LIMA - ADVOGADOS",
+      "UNIAO FEDERAL- (PFN)",
+      "FAZENDA PUBLICA DO ESTADO DE MINAS GERAIS",
+      "FAZENDA PUBLICA DO MUNICIPIO DE BELO HORIZONTE - MG"
+    ],
+    "PASSIVO": [
+      "VIA PARTICIPACOES S/A",
+      "PROBANK S/A",
+      "VIA TELECOM S/A",
+      "PROBANK PARTICIPACOES S/A"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

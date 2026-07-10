@@ -1,0 +1,26 @@
+{
+  "cnj": "0006334-52.1997.8.11.0041",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "AMAZONIA ESPORTE LTDA e outros (1) X ALINE PONGELUPI NOBREGA BORGES e outros (4) X M.S.R ESPORTES LIMITADA - ME",
+  "polos": {
+    "PASSIVO": [
+      "AMAZONIA ESPORTE LTDA",
+      "AMAZONIA ESPORTES LTDA"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "ALINE PONGELUPI NOBREGA BORGES",
+      "CAIXA ECONOMICA FEDERAL",
+      "BANCO DO BRASIL S.A.",
+      "BANCO BRADESCO S.A.",
+      "MARCOS JOSE MARTINS FERNANDES"
+    ],
+    "ATIVO": [
+      "M.S.R ESPORTES LIMITADA - ME"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMT"
+}

@@ -1,0 +1,30 @@
+{
+  "cnj": "0803423-66.2017.8.12.0021",
+  "_fontes_database": [
+    "TJ-MS-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "FIBRALOGIC MS - COMERCIO DE FIBRAS E CELULOSE LTDA e outros (1) X MAELSON DA CRUZ e outros (11)",
+  "polos": {
+    "ATIVO": [
+      "FIBRALOGIC MS - COMERCIO DE FIBRAS E CELULOSE LTDA",
+      "FIBRALOGIC COMERCIO DE FIBRAS DE CELULOSE LTDA"
+    ],
+    "TERCEIRO": [
+      "MAELSON DA CRUZ",
+      "EDAILSON PEDROSO MORAIS",
+      "VINICIUS COUTINHO CONSULTORIA E PERICIA S/S LTDA",
+      "BANCO SANTANDER BRASIL S/A",
+      "CRM PRODUTOS E SERVICOS INDUSTRIAIS LTDA",
+      "BANCO DO BRASIL S/A",
+      "ITAU UNIBANCO S.A.",
+      "BANCO DE LAGE LANDEN BRASIL S.A.",
+      "BANCO BRADESCO S/A",
+      "IMPORCATE COMERCIO DE PECAS PARA TRATORES LTDA",
+      "TURBICENTER BALANCEAMENTOS LTDA EPP",
+      "SOTREQ S.A."
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJMS"
+}

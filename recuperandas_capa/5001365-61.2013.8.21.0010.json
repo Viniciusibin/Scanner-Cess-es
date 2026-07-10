@@ -1,0 +1,19 @@
+{
+  "cnj": "5001365-61.2013.8.21.0010",
+  "_fontes_database": [
+    "TJ-RS-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "DAMBROZ EMPREENDIMENTOS E ADMINISTRACAO LTDA - EM RECUPERACAO JUDICIAL e outros (1) X OS MESMOS",
+  "polos": {
+    "ATIVO": [
+      "DAMBROZ EMPREENDIMENTOS E ADMINISTRACAO LTDA - EM RECUPERACAO JUDICIAL",
+      "DAMBROZ IMPLEMENTOS RODOVIARIOS LTDA - EM RECUPERACAO JUDICIAL"
+    ],
+    "PASSIVO": [
+      "OS MESMOS"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJRS"
+}

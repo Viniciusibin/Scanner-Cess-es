@@ -1,0 +1,33 @@
+{
+  "cnj": "0002416-80.2014.8.13.0205",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "BANCO DO BRASIL SA e outros (12) X POSTO SAO FRANCISCO LTDA X RAIZEN S.A.",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "BANCO DO BRASIL SA",
+      "ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS",
+      "FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS NPL II",
+      "RODRIGO DE OLIVEIRA LOPES",
+      "MINISTERIO PUBLICO - MPMG",
+      "TACIANE ACERBI CAMPAGNARO COLNAGO CABRAL",
+      "TACIANI ACERBI CAMPAGNARO COLNAGO CABRAL",
+      "MUNICIPIO DE MARIA DA FE",
+      "UNIAO FEDERAL- (PFN)",
+      "BANCO SANTANDER (BRASIL) S.A.",
+      "CLARO S.A",
+      "CAIXA ECONOMICA FEDERAL",
+      "BANCO ITAU UNIBANCO S/A"
+    ],
+    "PASSIVO": [
+      "POSTO SAO FRANCISCO LTDA"
+    ],
+    "ATIVO": [
+      "RAIZEN S.A."
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

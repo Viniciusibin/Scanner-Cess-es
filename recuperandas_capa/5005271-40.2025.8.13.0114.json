@@ -1,0 +1,21 @@
+{
+  "cnj": "5005271-40.2025.8.13.0114",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MARTPLAST COMERCIO DE EMBALAGENS LTDA X TRUSTHUB SECURITIZADORA S.A. X MINISTERIO PUBLICO - MPMG",
+  "polos": {
+    "PASSIVO": [
+      "MARTPLAST COMERCIO DE EMBALAGENS LTDA"
+    ],
+    "ATIVO": [
+      "TRUSTHUB SECURITIZADORA S.A."
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "MINISTERIO PUBLICO - MPMG"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

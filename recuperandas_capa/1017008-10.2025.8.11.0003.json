@@ -1,0 +1,23 @@
+{
+  "cnj": "1017008-10.2025.8.11.0003",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "PANSIERI ADVOGADOS e outros (1) X CREDORES X JULIANA FAVA DELLA LIBERA e outros (1)",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "PANSIERI ADVOGADOS",
+      "MINISTERIO PUBLICO DO ESTADO DE MATO GROSSO"
+    ],
+    "PASSIVO": [
+      "CREDORES"
+    ],
+    "ATIVO": [
+      "JULIANA FAVA DELLA LIBERA",
+      "CARLOS ROBERTO DELLA LIBERA FILHO"
+    ]
+  },
+  "classe": "Recuperação Extrajudicial",
+  "tribunal": "TJMT"
+}

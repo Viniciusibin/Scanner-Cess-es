@@ -1,0 +1,20 @@
+{
+  "cnj": "0044823-84.2017.8.13.0112",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "PERFIL ESTRUTURAS METALICAS LTDA X CAIXA ECONOMICA FEDERAL e outros (2)",
+  "polos": {
+    "ATIVO": [
+      "PERFIL ESTRUTURAS METALICAS LTDA"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "CAIXA ECONOMICA FEDERAL",
+      "BANCO VOLKSWAGEN S.A.",
+      "ODENIR AUGUSTO DE OLIVEIRA"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJMG"
+}

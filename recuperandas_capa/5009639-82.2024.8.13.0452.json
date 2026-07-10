@@ -1,0 +1,18 @@
+{
+  "cnj": "5009639-82.2024.8.13.0452",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "AVURA INDUSTRIA E COMERCIO DE CALCADOS LTDA X FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS DA INDUSTRIA EXODUS INSTITUCIONAL",
+  "polos": {
+    "PASSIVO": [
+      "AVURA INDUSTRIA E COMERCIO DE CALCADOS LTDA"
+    ],
+    "ATIVO": [
+      "FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS DA INDUSTRIA EXODUS INSTITUCIONAL"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

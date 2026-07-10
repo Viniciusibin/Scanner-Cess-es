@@ -1,0 +1,21 @@
+{
+  "cnj": "0183435-52.2003.8.13.0351",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "RAUL ORLANDO CESPEDES RAMIREZ X GERDAU S.A. X VICTOR BARBOSA DUTRA",
+  "polos": {
+    "PASSIVO": [
+      "RAUL ORLANDO CESPEDES RAMIREZ"
+    ],
+    "ATIVO": [
+      "GERDAU S.A."
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "VICTOR BARBOSA DUTRA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

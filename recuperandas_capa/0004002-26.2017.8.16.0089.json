@@ -1,0 +1,37 @@
+{
+  "cnj": "0004002-26.2017.8.16.0089",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "CLARION S/A AGROINDUSTRIAL e outros (1) X ADRIANO PINHEIRO ANTUNES e outros (18)",
+  "polos": {
+    "ATIVO": [
+      "CLARION S/A AGROINDUSTRIAL",
+      "ROCHA NETO CONSULTORIA E AUDITORIA CONTABIL LTD"
+    ],
+    "TERCEIRO": [
+      "ADRIANO PINHEIRO ANTUNES",
+      "PONTUAL BRASIL PETROLEO LTDA",
+      "BANCO SAFRA S A",
+      "DSM PRODUTOS NUTRICIONAIS BRASIL S.A.",
+      "ANTONIO PEREIRA PLACIDO",
+      "GERALDO ALVES DA SILVA",
+      "RAPIDO TRANSPAULO LTDA",
+      "BANCO PINE S/A",
+      "SOTREQ S/A",
+      "INSTITUTO DE PESOS E MEDIDAS DO ESTADO DO PARANA",
+      "ALBERTO JOSEFINO DOS SANTOS JUNIOR",
+      "BANCO TRIANGULO S/A",
+      "PAULO SERGIO RIBEIRO",
+      "ERENITO DERALDO RIBEIRO",
+      "ALDENOR DA SILVA MOREIRA",
+      "ADEMIR CLEMENTINO DOS SANTO",
+      "BANCO BTG PACTUAL S.A.",
+      "GMA  COMERCIO  DE GRAOS LTDA",
+      "BANCO DO ESTADO DO RIO GRANDE DO SUL SA"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJPR"
+}

@@ -1,0 +1,19 @@
+{
+  "cnj": "0003138-91.2016.8.13.0093",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "WELLERSON SANTOS MESQUITA - ME X ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS e outros (1)",
+  "polos": {
+    "PASSIVO": [
+      "WELLERSON SANTOS MESQUITA - ME"
+    ],
+    "ATIVO": [
+      "ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS",
+      "WELLERSON SANTOS MESQUITA - ME"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJMG"
+}

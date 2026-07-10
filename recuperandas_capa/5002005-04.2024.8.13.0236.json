@@ -1,0 +1,19 @@
+{
+  "cnj": "5002005-04.2024.8.13.0236",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "SAFRA BAG MINAS INDUSTRIA E COMERCIO DE EMBALAGENS LTDA e outros (1) X PREMIUM RECEBIVEIS I MULTISSETORIAL - FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS",
+  "polos": {
+    "PASSIVO": [
+      "SAFRA BAG MINAS INDUSTRIA E COMERCIO DE EMBALAGENS LTDA",
+      "SKY POLIMEROS COMERCIAL LTDA"
+    ],
+    "ATIVO": [
+      "PREMIUM RECEBIVEIS I MULTISSETORIAL - FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

@@ -1,0 +1,31 @@
+{
+  "cnj": "0026677-39.2015.8.11.0041",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "J MARQUES INDUSTRIA DE ARTEFATOS DE CIMENTO LTDA X BRUNO CARVALHO DE SOUZA e outros (9) X CREDORES E INTERESADOS e outros (1)",
+  "polos": {
+    "ATIVO": [
+      "J MARQUES INDUSTRIA DE ARTEFATOS DE CIMENTO LTDA"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "BRUNO CARVALHO DE SOUZA",
+      "BANCO BRADESCO S.A.",
+      "TECNOESTE MAQUINAS E EQUIPAMENTOS LTDA",
+      "BANCO DO BRASIL S.A.",
+      "BANCO SAFRA S.A.",
+      "SENA PNEUS COMERCIO E RECAPAGENS LTDA",
+      "SENA RECUPERACAO DE PNEUS LTDA",
+      "ITAU UNIBANCO S.A.",
+      "BANCO VOLKSVAGEN S/A",
+      "CAIXA ECONOMICA FEDERAL"
+    ],
+    "PASSIVO": [
+      "CREDORES E INTERESADOS",
+      "TRIBUNAL DE JUSTICA DO ESTADO DE MATO GROSSO"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJMT"
+}

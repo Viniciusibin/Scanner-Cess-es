@@ -1,0 +1,21 @@
+{
+  "cnj": "1050728-82.2024.8.11.0041",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS DA INDUSTRIA EXODUS INSTITUCIONAL X AGROBUSINESS AGROINDUSTRIAL EIRELI X MINISTERIO PUBLICO DO ESTADO DE MATO GROSSO",
+  "polos": {
+    "ATIVO": [
+      "FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS DA INDUSTRIA EXODUS INSTITUCIONAL"
+    ],
+    "PASSIVO": [
+      "AGROBUSINESS AGROINDUSTRIAL EIRELI"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "MINISTERIO PUBLICO DO ESTADO DE MATO GROSSO"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMT"
+}

@@ -1,0 +1,27 @@
+{
+  "cnj": "0019494-27.2009.8.11.0041",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "URBANO CABELEIREIROS E MAQUIAGEM LIMITADA - ME e outros (1) X ITAU UNIBANCO S.A. e outros (4) X CREDORES E INTERESSADOS e outros (1)",
+  "polos": {
+    "ATIVO": [
+      "URBANO CABELEIREIROS E MAQUIAGEM LIMITADA - ME",
+      "ROBERTO WAGNER PAULI"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "ITAU UNIBANCO S.A.",
+      "BANCO DO BRASIL S.A.",
+      "BANCO BRADESCO S.A.",
+      "CAIXA ECONOMICA FEDERAL",
+      "CHRISTIANO ALEXANDRE GONCALVES DE SOUZA"
+    ],
+    "PASSIVO": [
+      "CREDORES E INTERESSADOS",
+      "TRIBUNAL DE JUSTICA DO ESTADO DE MATO GROSSO"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMT"
+}

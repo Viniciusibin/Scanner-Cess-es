@@ -1,0 +1,21 @@
+{
+  "cnj": "5012521-12.2025.8.13.0313",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "LATICINIOS MANIA LTDA X GLOBALCASH FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS MULTISSETORIAL X AYRTON FERREIRA JUNIOR",
+  "polos": {
+    "PASSIVO": [
+      "LATICINIOS MANIA LTDA"
+    ],
+    "ATIVO": [
+      "GLOBALCASH FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS MULTISSETORIAL"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "AYRTON FERREIRA JUNIOR"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

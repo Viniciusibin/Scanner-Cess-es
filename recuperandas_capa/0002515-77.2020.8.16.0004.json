@@ -1,0 +1,36 @@
+{
+  "cnj": "0002515-77.2020.8.16.0004",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ALESSANDRO FORMENTI e outros (6) X ADELINO DE FAVERI e outros (9) X ESTADO DO PARANA",
+  "polos": {
+    "TERCEIRO": [
+      "ALESSANDRO FORMENTI",
+      "MOVEIS ROMERA LTDA EM RECUPERACAO JUDICIAL",
+      "GOVERNO DO PARANA - SECRETARIA DE ESTADO DA FAZENDA",
+      "APOIO CONSULTORIA ASSESSORIA LTDA",
+      "CIMHSA LTDA",
+      "JORGE ADAN KRZYZANOWSKI",
+      "ANUNCIATA LUIZA MENEGON ROMERA"
+    ],
+    "ATIVO": [
+      "ADELINO DE FAVERI",
+      "ADEMAR OLIVEIRA DOS SANTOS",
+      "ADALBERTO PORTES DE FREITAS",
+      "ALFREDO BRAUNE FILHO",
+      "ALUIZIO DE SOUZA ARAUJO",
+      "ALVARO ERNESTO BAGGIO",
+      "AMADEU FERREIRA VIDAL",
+      "ANANIAS FERREIRA SANT'ANA",
+      "ANTONIO BARBOSA GIMENES",
+      "AGENELES DE JESUS CANALLES"
+    ],
+    "PASSIVO": [
+      "ESTADO DO PARANA"
+    ]
+  },
+  "classe": "Cumprimento de Sentença contra a Fazenda Pública",
+  "tribunal": "TJPR"
+}

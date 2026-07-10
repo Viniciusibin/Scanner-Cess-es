@@ -1,0 +1,19 @@
+{
+  "cnj": "5002445-67.2017.8.21.0027",
+  "_fontes_database": [
+    "TJ-RS-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "FAISCA & FUMACA AUTOPECAS LTDA - EPP e outros (1) X OS MESMOS",
+  "polos": {
+    "ATIVO": [
+      "FAISCA & FUMACA AUTOPECAS LTDA - EPP",
+      "CRM - COMERCIO DE PECAS E ACESSORIOS PARA VEICULOS LTDA"
+    ],
+    "PASSIVO": [
+      "OS MESMOS"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJRS"
+}

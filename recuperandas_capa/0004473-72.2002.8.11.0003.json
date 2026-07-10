@@ -1,0 +1,31 @@
+{
+  "cnj": "0004473-72.2002.8.11.0003",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MUNICIPIO DE RONDONOPOLIS e outros (5) X RODRIGO KURZ ROGGIA JUNIOR e outros (5) X NUTRINA-NUTRICAO ANIMAL LTDA",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "MUNICIPIO DE RONDONOPOLIS",
+      "ESTADO DE MATO GROSSO",
+      "FAZENDA NACIONAL",
+      "VALERIA CARVALHO DA SILVA BORTOLINI",
+      "MARCELO MIRANDA SANTOS",
+      "MINISTERIO PUBLICO DO ESTADO DE MATO GROSSO"
+    ],
+    "ATIVO": [
+      "RODRIGO KURZ ROGGIA JUNIOR",
+      "POLI-NUTRI ALIMENTOS S.A.",
+      "A D M EXPORTADORA E IMPORTADORA S/A",
+      "MARCELO DA SILVA LIMA",
+      "PCS FOSFATOS DO BRASIL LTDA.",
+      "EDGAR PACHECO E SOUZA DA SILVA"
+    ],
+    "PASSIVO": [
+      "NUTRINA-NUTRICAO ANIMAL LTDA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMT"
+}

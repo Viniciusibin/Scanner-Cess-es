@@ -1,0 +1,18 @@
+{
+  "cnj": "5000564-19.2023.8.13.0431",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ELETROSOM S/A X DEMOBILE - INDUSTRIA DE MOVEIS LTDA.",
+  "polos": {
+    "PASSIVO": [
+      "ELETROSOM S/A"
+    ],
+    "ATIVO": [
+      "DEMOBILE - INDUSTRIA DE MOVEIS LTDA."
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

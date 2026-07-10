@@ -1,0 +1,18 @@
+{
+  "cnj": "5065436-06.2023.8.13.0702",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "CONSTRUTORA CASSIO E ADRIANO LTDA X CERES SECURITIZACAO DE ATIVOS EMPRESARIAIS S/A",
+  "polos": {
+    "PASSIVO": [
+      "CONSTRUTORA CASSIO E ADRIANO LTDA"
+    ],
+    "ATIVO": [
+      "CERES SECURITIZACAO DE ATIVOS EMPRESARIAIS S/A"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

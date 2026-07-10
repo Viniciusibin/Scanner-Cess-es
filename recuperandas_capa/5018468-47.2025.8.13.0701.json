@@ -1,0 +1,21 @@
+{
+  "cnj": "5018468-47.2025.8.13.0701",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "COM. & IND. DE CEREAIS E TRANSPORTES MACIEL LTDA X MULTIPLO - FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO-PADRONIZADOS MULTISSETORIAL X CAIXA ECONOMICA FEDERAL",
+  "polos": {
+    "PASSIVO": [
+      "COM. & IND. DE CEREAIS E TRANSPORTES MACIEL LTDA"
+    ],
+    "ATIVO": [
+      "MULTIPLO - FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO-PADRONIZADOS MULTISSETORIAL"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "CAIXA ECONOMICA FEDERAL"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

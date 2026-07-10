@@ -1,0 +1,31 @@
+{
+  "cnj": "5001789-68.2016.8.13.0480",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MINISTERIO PUBLICO - MPMG e outros (9) X FOMENGE ENGENHARIA LTDA e outros (1) X FOMENGE ENGENHARIA LTDA",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "MINISTERIO PUBLICO - MPMG",
+      "UNIAO FEDERAL - (PU)",
+      "BANCO DE DESENVOLVIMENTO DE MINAS GERAIS S.A. - BDMG",
+      "DANIEL THIAGO DA SILVA",
+      "COOPERATIVA DE CREDITO DO ALTO PARANAIBA E REGIAO LTDA",
+      "ALMIR DA SILVA BRAGA",
+      "GUARUJA EQUIPAMENTOS PARA SANEAMENTO LTDA.",
+      "CAIXA ECONOMICA FEDERAL",
+      "BANCO BRADESCO S.A.",
+      "ACERBI CAMPAGNARO COLNAGO CABRAL SOCIEDADE INDIVIDUAL DE ADVOCACIA"
+    ],
+    "ATIVO": [
+      "FOMENGE ENGENHARIA LTDA",
+      "CAIXA ECONOMICA FEDERAL"
+    ],
+    "PASSIVO": [
+      "FOMENGE ENGENHARIA LTDA"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJMG"
+}

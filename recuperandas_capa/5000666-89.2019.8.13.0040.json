@@ -1,0 +1,32 @@
+{
+  "cnj": "5000666-89.2019.8.13.0040",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "AC PROTEINA AGROPECUARIA S/A X BANCO RABOBANK INTERNATIONAL BRASIL S/A X MINISTERIO PUBLICO - MPMG e outros (11)",
+  "polos": {
+    "PASSIVO": [
+      "AC PROTEINA AGROPECUARIA S/A"
+    ],
+    "ATIVO": [
+      "BANCO RABOBANK INTERNATIONAL BRASIL S/A"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "MINISTERIO PUBLICO - MPMG",
+      "BL CONSULTORIA E PARTICIPACOES RIBEIRAO PRETO LTDA. S/S",
+      "ESTADO DE SAO PAULO",
+      "UNIAO FEDERAL- (PFN)",
+      "MUNICIPIO DE ARAXA",
+      "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+      "JUNTA COMERCIAL DO ESTADO DE MINAS GERAIS",
+      "MUNICIPIO DE SAO PAULO",
+      "JUNTA COMERCIAL DO ESTADO DE SAO PAULO",
+      "UNIAO FEDERAL - (PU)",
+      "PAULO RICARDO BRAGA MACIEL",
+      "BANCO CENTRAL DO BRASIL"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

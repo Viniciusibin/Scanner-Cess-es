@@ -1,0 +1,21 @@
+{
+  "cnj": "2122688-30.2014.8.13.0024",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "PROCURADORIA GERAL DE JUSTICA DE MINAS GERAIS X FIDENS ENGENHARIA S/A X TRAXTERRA SERVICOS E EQUIPAMENTOS LTDA - ME",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "PROCURADORIA GERAL DE JUSTICA DE MINAS GERAIS"
+    ],
+    "PASSIVO": [
+      "FIDENS ENGENHARIA S/A"
+    ],
+    "ATIVO": [
+      "TRAXTERRA SERVICOS E EQUIPAMENTOS LTDA - ME"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

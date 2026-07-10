@@ -1,0 +1,43 @@
+{
+  "cnj": "0000006-05.1997.8.11.0107",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "BRASIL PLURAL S.A. BANCO MULTIPLO e outros (19) X HENRIQUE DA COSTA NETO e outros (2) X TRIBUNAL DE JUSTICA DO ESTADO DE MATO GROSSO e outros (1)",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "BRASIL PLURAL S.A. BANCO MULTIPLO",
+      "MARIA AMELIA ASSIS ALVES CRIVELENTE",
+      "JURANDIR PALMA",
+      "DORIVAL AGULHOM",
+      "MINISTERIO PUBLICO DO ESTADO DE MATO GROSSO",
+      "DIRCEU BIANCHIN",
+      "MANOLI EFEICHE",
+      "FAZENDA NACIONAL",
+      "L.C. ASSESSORIA LTDA",
+      "MUNICIPIO DE SINOP",
+      "FRANCISCO ADREOTTI",
+      "ALEXANDRE BORGES LEITE",
+      "ISABEL SCHEFFEL",
+      "FLORINDO PILHALARME",
+      "CARTORIO DO 1 OFICIO DE NOTAS E ANEXOS",
+      "BANCO DO BRASIL S.A.",
+      "MUNICIPIO DE NOVA UBIRATA",
+      "ESTADO DE MATO GROSSO",
+      "MUNICIPIO DE PIEDADE",
+      "ESTADO DE SAO PAULO"
+    ],
+    "ATIVO": [
+      "HENRIQUE DA COSTA NETO",
+      "ISABEL SCHEFFEL",
+      "COLONIZADORA VALE DO RIO FERRO LTDA"
+    ],
+    "PASSIVO": [
+      "TRIBUNAL DE JUSTICA DO ESTADO DE MATO GROSSO",
+      "ALEXANDRE BORGES LEITE"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMT"
+}

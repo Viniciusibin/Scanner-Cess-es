@@ -1077,7 +1077,7 @@
         "valor": "R$ 126.000,00",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "LAURA JARESKI TORRENS FURTADO",
         "motivo_classificacao": "Há menção expressa a cessão de crédito concursal com homologação judicial e substituição no quadro geral de credores, configurando cessão de crédito real em contexto de recuperação judicial/falência."
       }
     ],
@@ -1191,7 +1191,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "ADELINO DE FAVERI",
         "motivo_classificacao": "Há menção a cessão de crédito com escrituras e transferência de percentual do crédito concursal, com homologação judicial e substituição de credor."
       },
       {
@@ -1215,7 +1215,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "ADELINO DE FAVERI",
         "motivo_classificacao": "Há menção a cessão de crédito com contratos e diligências para habilitação dos cessionários no processo."
       },
       {
@@ -1227,7 +1227,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "ADELINO DE FAVERI",
         "motivo_classificacao": "Há menção a cessão de crédito com contrato e diligências para habilitação dos cessionários no processo."
       }
     ],
@@ -1641,7 +1641,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "COMERCIAL LUSO BANDEIRANTES LTDA",
         "motivo_classificacao": "O texto descreve cessão de crédito concursal com disputa judicial sobre validade e excesso de cessões, envolvendo credores e cessionários, com menção a quadro geral de credores e homologação judicial implícita, caracterizando cessão de crédito real em contexto de recuperação judicial/falência."
       }
     ],
@@ -2344,7 +2344,7 @@
         "valor": "18256,59",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "COOPERATIVA DE CREDITO SICOOB VALE SUL",
         "motivo_classificacao": "Há homologação judicial de sub-rogação de crédito com menção expressa à habilitação no quadro geral de credores da recuperação judicial, caracterizando cessão de crédito real."
       }
     ],
@@ -4291,7 +4291,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "COMERCIO DE CEREAIS MARECHAL LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -4320,7 +4320,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "CASSIO LISANDRO TELLES",
         "motivo_classificacao": null,
         "data_cessao": null
       },
@@ -4333,7 +4333,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "CASSIO LISANDRO TELLES",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -4449,7 +4449,7 @@
         "valor": "12000000,00",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "DESTILARIA AMERICANA S/A",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -4507,7 +4507,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "IRMAOS NETTO LTDA",
         "motivo_classificacao": null,
         "data_cessao": "30/10/2023"
       }
@@ -4536,7 +4536,7 @@
         "valor": "64083,04",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "ADUPLAN COMERCIO DE INSUMOS AGRICOLAS LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -4678,7 +4678,7 @@
         "valor": "2765292,94",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "MOVEIS BELO INDUSTRIA E COMERCIO LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       },
@@ -4691,7 +4691,7 @@
         "valor": "263082,77",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "MOVEIS BELO INDUSTRIA E COMERCIO LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -4807,7 +4807,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "DEXTER LATINA INDUSTRIA E COMERCIO DE PRODUTOS QUIMICOS LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -4836,7 +4836,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "FRESNOMAQ INDUSTRIA DE MAQUINAS S/A",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -4865,7 +4865,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "CLARION S/A AGROINDUSTRIAL",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -4894,7 +4894,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "AVERAMA MATRIZEIROS S.A.",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -4981,7 +4981,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "CASAALTA CONSTRUCOES LTDA",
         "motivo_classificacao": null,
         "data_cessao": "16/06/2021"
       }
@@ -5010,7 +5010,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "ESTADO DO PARANA",
         "motivo_classificacao": null,
         "data_cessao": "17/12/2020"
       }
@@ -5039,7 +5039,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "BANCO DO BRASIL S/A",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -5097,7 +5097,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "PERFIMEC S/A CENTRO DE SERVICOS EM ACO",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -5155,7 +5155,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "PERFIPAR S/A MANUFATURADOS DE ACO - EM RECUPERACAO JUDICIAL",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -5371,7 +5371,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "HISPANO AMERICANA DE FERTILIZANTES S/A",
         "motivo_classificacao": null,
         "data_cessao": null
       }

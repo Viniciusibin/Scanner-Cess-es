@@ -1,0 +1,26 @@
+{
+  "cnj": "0003347-32.2005.8.11.0051",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "COOPERATIVA AGROINDUSTRIAL DE CAMPO VERDE e outros (4) X MILTON DABUL POMPEU DE BARROS X FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADO INVISTA CF e outros (1)",
+  "polos": {
+    "PASSIVO": [
+      "COOPERATIVA AGROINDUSTRIAL DE CAMPO VERDE",
+      "ALBERTO DA ROCHA",
+      "ELIZETH CRISTOVAO DA ROCHA",
+      "ANTONIO CESAR DOS SANTOS",
+      "ROSEMARY GRANDI DOS SANTOS"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "MILTON DABUL POMPEU DE BARROS"
+    ],
+    "ATIVO": [
+      "FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADO INVISTA CF",
+      "BAYER S.A"
+    ]
+  },
+  "classe": "Cumprimento de sentença",
+  "tribunal": "TJMT"
+}

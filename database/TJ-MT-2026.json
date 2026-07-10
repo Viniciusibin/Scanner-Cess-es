@@ -886,7 +886,7 @@
         "valor": "42279750,00",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "BAYER S.A",
         "motivo_classificacao": "Há menção expressa a termo de cessão de crédito, pedido de substituição do credor no polo ativo e homologação judicial da cessão, configurando cessão de crédito real; porém, não há indicação clara de que o processo seja de RJ ou falência, nem o nome da recuperanda ou CNJ do processo principal."
       }
     ],
@@ -1462,7 +1462,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": "0000573-64.2006.8.11.0028",
-        "recuperanda": null,
+        "recuperanda": "BANCO DO BRASIL S.A.",
         "motivo_classificacao": "Há menção expressa à cessão do crédito concursal do Banco do Brasil para o Fundo de Investimento, com reconhecimento judicial da sucessão processual e determinação de correção da carta de adjudicação, caracterizando cessão de crédito real em contexto de habilitação de crédito relacionada a processo de falência ou recuperação."
       }
     ],
@@ -1849,7 +1849,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "COLONIZADORA VALE DO RIO FERRO LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1907,7 +1907,7 @@
         "valor": "145169,78",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "REGISPEL INDUSTRIA E COMERCIO DE BOBINAS S.A.",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1994,7 +1994,7 @@
         "valor": "79904,38",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "A. HENRIQUE DE VASCONCELOS BIANCHI - ME",
         "motivo_classificacao": null,
         "data_cessao": "05/10/2022"
       }
@@ -2023,7 +2023,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "BANCO DO BRASIL S.A.",
         "motivo_classificacao": null,
         "data_cessao": "27/04/2022"
       }
@@ -2081,7 +2081,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "POLI-NUTRI ALIMENTOS S.A.",
         "motivo_classificacao": null,
         "data_cessao": "11/05/2021"
       }
@@ -2110,7 +2110,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "JGJ COMERCIO DE PETROLEO LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -2139,7 +2139,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "M.S.R ESPORTES LIMITADA - ME",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -2168,7 +2168,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "TELEFONICA BRASIL S.A.",
         "motivo_classificacao": null,
         "data_cessao": "06/07/2022"
       }
@@ -2307,7 +2307,7 @@
         "valor": "374751,15",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "D.F. DE OLIVEIRA INDUSTRIA E COMERCIO DE BIG BAG'S E SACARIAS LTDA - EPP",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -2617,7 +2617,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "PLUGMAIS DISTRIBUIDORA - INFORMATICA E TELECOMUNICACOES LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -2704,7 +2704,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "CONSEG ADMINISTRADORA DE CONSORCIOS LTDA",
         "motivo_classificacao": null,
         "data_cessao": "28/07/2022"
       }
@@ -2804,7 +2804,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "CONTINI & CIA LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -2891,7 +2891,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "URBANO CABELEIREIROS E MAQUIAGEM LIMITADA - ME",
         "motivo_classificacao": null,
         "data_cessao": "17/12/2020"
       }
@@ -2949,7 +2949,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "J MARQUES INDUSTRIA DE ARTEFATOS DE CIMENTO LTDA",
         "motivo_classificacao": null,
         "data_cessao": "16/12/2024"
       },
@@ -2962,7 +2962,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "J MARQUES INDUSTRIA DE ARTEFATOS DE CIMENTO LTDA",
         "motivo_classificacao": null,
         "data_cessao": "16/12/2024"
       },
@@ -2975,7 +2975,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "J MARQUES INDUSTRIA DE ARTEFATOS DE CIMENTO LTDA",
         "motivo_classificacao": null,
         "data_cessao": "16/12/2024"
       }
@@ -3120,7 +3120,7 @@
         "valor": "60,51",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "OI S.A. - EM RECUPERACAO JUDICIAL",
         "motivo_classificacao": null,
         "data_cessao": "01/12/2021"
       },
@@ -3133,7 +3133,7 @@
         "valor": "192,45",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "OI S.A. - EM RECUPERACAO JUDICIAL",
         "motivo_classificacao": null,
         "data_cessao": "01/12/2021"
       },
@@ -3146,7 +3146,7 @@
         "valor": "277,02",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "OI S.A. - EM RECUPERACAO JUDICIAL",
         "motivo_classificacao": null,
         "data_cessao": "01/12/2021"
       },
@@ -3159,7 +3159,7 @@
         "valor": "2072,95",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "OI S.A. - EM RECUPERACAO JUDICIAL",
         "motivo_classificacao": null,
         "data_cessao": "01/12/2021"
       },
@@ -3172,7 +3172,7 @@
         "valor": "9445,21",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "OI S.A. - EM RECUPERACAO JUDICIAL",
         "motivo_classificacao": null,
         "data_cessao": "01/12/2021"
       },
@@ -3185,7 +3185,7 @@
         "valor": "12149,16",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "OI S.A. - EM RECUPERACAO JUDICIAL",
         "motivo_classificacao": null,
         "data_cessao": "01/12/2021"
       },
@@ -3198,7 +3198,7 @@
         "valor": "12149,16",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "OI S.A. - EM RECUPERACAO JUDICIAL",
         "motivo_classificacao": null,
         "data_cessao": "01/12/2021"
       }
@@ -3327,7 +3327,7 @@
         "valor": "250089,67",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "TELEFONICA BRASIL S.A.",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -3501,7 +3501,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "TREVISO FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS MULTISSETORIAL",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -3530,7 +3530,7 @@
         "valor": "287292,35",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS DA INDUSTRIA EXODUS INSTITUCIONAL",
         "motivo_classificacao": null,
         "data_cessao": "18/09/2020"
       }
@@ -4219,7 +4219,7 @@
         "valor": "231276,44",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "911 BANK MULTI ESTRATEGIA FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS",
         "motivo_classificacao": null,
         "data_cessao": "18/07/2024"
       }
@@ -5089,7 +5089,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "GERDAU ACOS LONGOS S.A.",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -5408,7 +5408,7 @@
         "valor": "28000000,00",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "JULIANA FAVA DELLA LIBERA",
         "motivo_classificacao": null,
         "data_cessao": "25/03/2024"
       },
@@ -5421,7 +5421,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "JULIANA FAVA DELLA LIBERA",
         "motivo_classificacao": null,
         "data_cessao": "20/06/2024"
       }
@@ -5940,7 +5940,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "GOUVEIA HOLDING E AGROPECUARIA LTDA",
         "motivo_classificacao": null,
         "data_cessao": "19/11/2025"
       }
@@ -6520,7 +6520,7 @@
         "valor": "586606,46",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS DA INDUSTRIA EXODUS INSTITUCIONAL",
         "motivo_classificacao": null,
         "data_cessao": "16/04/2024"
       }
@@ -6549,7 +6549,7 @@
         "valor": "4500000,00",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "MASTER S/A CORRETORA DE CAMBIO, TITULOS E VALORES MOBILIARIOS",
         "motivo_classificacao": null,
         "data_cessao": "30/08/2024"
       }

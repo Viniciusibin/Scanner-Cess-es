@@ -1,0 +1,24 @@
+{
+  "cnj": "0004907-47.2018.8.13.0358",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "AUTO POSTO SAO MIGUEL LTDA - EPP e outros (2) X BANCO BRADESCO S.A. e outros (4)",
+  "polos": {
+    "ATIVO": [
+      "AUTO POSTO SAO MIGUEL LTDA - EPP",
+      "JUCELIO DIAS DA SILVA",
+      "CRISTIANE COSTA OLIVEIRA"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "BANCO BRADESCO S.A.",
+      "CAIXA ECONOMICA FEDERAL",
+      "SANTOS TINUM DOS SANTOS",
+      "COOPERATIVA DE CREDITO - SICOOB CREDIVALE",
+      "NELSON FERREIRA SANTOS"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJMG"
+}

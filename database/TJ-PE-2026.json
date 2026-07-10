@@ -165,7 +165,7 @@
         "valor": "7349,37",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "CONSTRUTORA ANDRADE GUEDES LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -310,7 +310,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "QUALIMAN ENGENHARIA E MONTAGENS LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -368,7 +368,7 @@
         "valor": "143125,30",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "MASTER COMMERCE INDUSTRIA E COMERCIO ATACADISTA DE ALIMENTOS LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -397,7 +397,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "NUTRIR PRODUTOS LACTEOS LTDA.",
         "motivo_classificacao": null,
         "data_cessao": "29/05/2026"
       }
@@ -426,7 +426,7 @@
         "valor": "165556555,55",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "ARYSTA LIFESCIENCE DO BRASIL INDUSTRIA QUIMICA E AGROPECUARIA LTDA.",
         "motivo_classificacao": null,
         "data_cessao": "31/03/2025"
       }
@@ -484,7 +484,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "MOBILIA LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       },
@@ -497,7 +497,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "MOBILIA LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -613,7 +613,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "ALIANCA DISTRIBUIDORA DE GENEROS ALIMENTICIOS LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -642,7 +642,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "GUARDIOES SERVICOS TECNICOS LTDA - MASSA FALIDA",
         "motivo_classificacao": null,
         "data_cessao": null
       },
@@ -655,7 +655,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "GUARDIOES SERVICOS TECNICOS LTDA - MASSA FALIDA",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -713,7 +713,7 @@
         "valor": "223,77",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "SENA SEGURANCA INTELIGENTE LTDA",
         "motivo_classificacao": null,
         "data_cessao": "19/08/2020"
       }
@@ -1003,7 +1003,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "CASA ORANGE S.A. EM RECUPERACAO JUDICIAL",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1090,7 +1090,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "RIMA SEGURANCA LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1119,7 +1119,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "LACOMEX INDUSTRIA COMERCIO E REPRESENTACOES LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1177,7 +1177,7 @@
         "valor": "526185,21",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS DA INDUSTRIA EXODUS INSTITUCIONAL",
         "motivo_classificacao": null,
         "data_cessao": "17/11/2023"
       }
@@ -1206,7 +1206,7 @@
         "valor": "1907682,80",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "SPORT CLUB DO RECIFE",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1264,7 +1264,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "PROVIDER SOLUCOES TECNOLOGICAS LTDA",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1400,7 +1400,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "IGB-INDUSTRIA GRAFICA BRASILEIRA S/A",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -1429,7 +1429,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "BANCO INTERCAP S/A.",
         "motivo_classificacao": null,
         "data_cessao": null
       }

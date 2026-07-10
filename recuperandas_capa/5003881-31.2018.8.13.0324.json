@@ -1,0 +1,23 @@
+{
+  "cnj": "5003881-31.2018.8.13.0324",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ACROSS RECUPERACAO DE CREDITO LTDA e outros (1) X PIMENTA & PIMENTA SOCIEDADE DE ADVOGADOS e outros (1) X FRIGORIFICO VALE DO SAPUCAI LTDA",
+  "polos": {
+    "ATIVO": [
+      "ACROSS RECUPERACAO DE CREDITO LTDA",
+      "VANDERSON GOULART JUNHO"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "PIMENTA & PIMENTA SOCIEDADE DE ADVOGADOS",
+      "MINISTERIO PUBLICO - MPMG"
+    ],
+    "PASSIVO": [
+      "FRIGORIFICO VALE DO SAPUCAI LTDA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

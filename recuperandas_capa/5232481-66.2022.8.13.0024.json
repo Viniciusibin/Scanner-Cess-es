@@ -1,0 +1,22 @@
+{
+  "cnj": "5232481-66.2022.8.13.0024",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "RODRIGO PIERRE DE FREITAS e outros (1) X BANCO SOFISA SA X MINISTERIO PUBLICO - MPMG",
+  "polos": {
+    "PASSIVO": [
+      "RODRIGO PIERRE DE FREITAS",
+      "PORTAL NORTE SEGURANCA PATRIMONIAL EIRELI - ME"
+    ],
+    "ATIVO": [
+      "BANCO SOFISA SA"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "MINISTERIO PUBLICO - MPMG"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

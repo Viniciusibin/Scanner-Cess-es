@@ -1,0 +1,18 @@
+{
+  "cnj": "5003732-76.2022.8.13.0071",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "FRIESP ATACADAO LTDA X IB SIGMA FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS",
+  "polos": {
+    "PASSIVO": [
+      "FRIESP ATACADAO LTDA"
+    ],
+    "ATIVO": [
+      "IB SIGMA FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

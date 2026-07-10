@@ -2785,7 +2785,7 @@
         "valor": "R$ 251.102,88",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "MOINHO COLONIAL ALAMEDA LTDA",
         "motivo_classificacao": "Há menção expressa a cessão regular de crédito com homologação judicial e substituição de credor, configurando cessão de crédito real em contexto concursal."
       }
     ],
@@ -6874,7 +6874,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "CENTRO OESTE ELETROMAGAZINE LTDA.",
         "motivo_classificacao": "Há descrição detalhada da cessão de crédito concursal via escritura pública, com cadeia de cessões homologadas e discussão sobre titularidade do crédito em precatório, caracterizando cessão real em contexto concursal."
       }
     ],
@@ -8194,7 +8194,7 @@
         "valor": "34.500.000,00",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "ATIVOS JUDICIAIS PEC - FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS",
         "motivo_classificacao": "Há menção expressa a contrato de cessão de crédito concursal homologado judicialmente, com substituição do credor no processo de execução, caracterizando cessão de crédito real em contexto de recuperação judicial/falência."
       }
     ],
@@ -8961,7 +8961,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": "0001254-59.2024.8.16.0094",
-        "recuperanda": null,
+        "recuperanda": "VALOR CONSULTORES ASSOCIADOS LTDA",
         "motivo_classificacao": "Há menção expressa a instrumento público de cessão de crédito em autos de recuperação judicial, com pedido de substituição de credor, caracterizando cessão de crédito real."
       }
     ],

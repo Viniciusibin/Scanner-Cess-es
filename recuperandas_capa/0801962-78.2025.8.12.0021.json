@@ -1,0 +1,18 @@
+{
+  "cnj": "0801962-78.2025.8.12.0021",
+  "_fontes_database": [
+    "TJ-MS-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "AGROTEN SECURITIZADORA S.A. X TILABRAS AQUACULTURA LTDA",
+  "polos": {
+    "ATIVO": [
+      "AGROTEN SECURITIZADORA S.A."
+    ],
+    "PASSIVO": [
+      "TILABRAS AQUACULTURA LTDA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMS"
+}

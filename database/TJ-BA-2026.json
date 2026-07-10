@@ -20,7 +20,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "ITAU UNIBANCO S.A.",
         "motivo_classificacao": null,
         "data_cessao": "30/06/2021"
       },
@@ -33,7 +33,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "ITAU UNIBANCO S.A.",
         "motivo_classificacao": null,
         "data_cessao": "30/06/2021"
       }
@@ -62,7 +62,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "GATTA BRAZIL COMERCIO DO VESTUARIO LTDA",
         "motivo_classificacao": null,
         "data_cessao": "17/12/2020"
       }
@@ -91,7 +91,7 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "LORENZETTI PORCELANA INDUSTRIAL PARANA S A",
         "motivo_classificacao": null,
         "data_cessao": null
       }
@@ -897,7 +897,7 @@
         "valor": "80000,00",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "BEX FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS - RESPONSABILIDADE LIMITADA",
         "motivo_classificacao": null,
         "data_cessao": "09/04/2024"
       }
@@ -926,7 +926,7 @@
         "valor": "234474,10",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "CREDIT PARTNERS FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS",
         "motivo_classificacao": null,
         "data_cessao": "03/11/2023"
       },
@@ -939,7 +939,7 @@
         "valor": "67394,86",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "CREDIT PARTNERS FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS",
         "motivo_classificacao": null,
         "data_cessao": "17/11/2023"
       },
@@ -952,7 +952,7 @@
         "valor": "107525,13",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "CREDIT PARTNERS FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS",
         "motivo_classificacao": null,
         "data_cessao": "28/11/2023"
       }

@@ -1,0 +1,19 @@
+{
+  "cnj": "0000573-64.2006.8.11.0028",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "DONIZETTI PRADO FILHO X BANCO DO BRASIL S.A. e outros (1)",
+  "polos": {
+    "PASSIVO": [
+      "DONIZETTI PRADO FILHO"
+    ],
+    "ATIVO": [
+      "BANCO DO BRASIL S.A.",
+      "FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS CREDITOS NAO-PADRONIZADOS I"
+    ]
+  },
+  "classe": "Habilitação de Crédito",
+  "tribunal": "TJMT"
+}

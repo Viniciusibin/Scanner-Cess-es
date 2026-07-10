@@ -1,0 +1,21 @@
+{
+  "cnj": "5004261-67.2025.8.13.0596",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MEMOWISE TECNOLOGIA INDUSTRIA ELETRONICA LTDA X FRAGATA CREDIT SECURITIZADORA S/A X MINISTERIO PUBLICO - MPMG",
+  "polos": {
+    "PASSIVO": [
+      "MEMOWISE TECNOLOGIA INDUSTRIA ELETRONICA LTDA"
+    ],
+    "ATIVO": [
+      "FRAGATA CREDIT SECURITIZADORA S/A"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "MINISTERIO PUBLICO - MPMG"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

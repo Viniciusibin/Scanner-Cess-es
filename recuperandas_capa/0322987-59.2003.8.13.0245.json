@@ -1,0 +1,21 @@
+{
+  "cnj": "0322987-59.2003.8.13.0245",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "GERDAU S.A. X DEMETAL ENGENHARIA E CONSTRUCOES LTDA X ERIKA SANTIAGO SILVA",
+  "polos": {
+    "ATIVO": [
+      "GERDAU S.A."
+    ],
+    "PASSIVO": [
+      "DEMETAL ENGENHARIA E CONSTRUCOES LTDA"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "ERIKA SANTIAGO SILVA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

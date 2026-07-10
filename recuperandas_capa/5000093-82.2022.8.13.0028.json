@@ -1,0 +1,21 @@
+{
+  "cnj": "5000093-82.2022.8.13.0028",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "UNIAO FEDERAL- (PFN) X FIDUSSIA - FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS X ECO CARVAO VEGETAL LTDA - ME",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "UNIAO FEDERAL- (PFN)"
+    ],
+    "ATIVO": [
+      "FIDUSSIA - FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS"
+    ],
+    "PASSIVO": [
+      "ECO CARVAO VEGETAL LTDA - ME"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMG"
+}

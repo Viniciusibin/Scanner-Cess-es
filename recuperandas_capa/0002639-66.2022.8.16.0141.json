@@ -1,0 +1,20 @@
+{
+  "cnj": "0002639-66.2022.8.16.0141",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "COOPERATIVA DE CREDITO SICOOB VALE SUL X VILMAR ANTONIO COMIN e outros (2)",
+  "polos": {
+    "ATIVO": [
+      "COOPERATIVA DE CREDITO SICOOB VALE SUL"
+    ],
+    "PASSIVO": [
+      "VILMAR ANTONIO COMIN",
+      "VILMAR ANTONIO COMIN CIA LTDA",
+      "RENAN DANIEL COMIN"
+    ]
+  },
+  "classe": "Monitória",
+  "tribunal": "TJPR"
+}

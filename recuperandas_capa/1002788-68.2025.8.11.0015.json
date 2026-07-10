@@ -1,0 +1,18 @@
+{
+  "cnj": "1002788-68.2025.8.11.0015",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MONTREAL FOODS ALIMENTOS EIRELI X 911 BANK MULTI ESTRATEGIA FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS",
+  "polos": {
+    "PASSIVO": [
+      "MONTREAL FOODS ALIMENTOS EIRELI"
+    ],
+    "ATIVO": [
+      "911 BANK MULTI ESTRATEGIA FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJMT"
+}
