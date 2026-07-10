@@ -402,7 +402,7 @@
     <div style="padding: 0 20px 10px; display: flex; align-items: center; justify-content: space-between; gap: 16px; font-size: 10px; font-weight: 700; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.06em;">
       <div style="flex: 1; min-width: 0;">Cessionário</div>
       <div style="display: flex; align-items: center; gap: 8px;">
-        <span style="font-size: 10px; font-weight: 700; color: #94A3B8; text-transform: uppercase;">Organizar cessões por:</span>
+        <span style="font-size: 10px; font-weight: 700; color: #94A3B8; text-transform: uppercase;">Ordenar players por:</span>
         <div onClick="{{ togglePlayerSortRecuperanda }}" style="display: flex; align-items: center; gap: 6px; cursor: pointer; user-select: none; padding: 6px 12px; border-radius: 6px; background: white; border: 1px solid #D1D9E4; font-size: 11px; font-weight: 700; color: {{ playerSortRecuperandaColor }}; text-transform: uppercase; letter-spacing: 0.04em;" style-hover="border-color: #1B6FE0; color: #1B6FE0;">
           Recuperanda <span style="font-size: 10px;">{{ playerSortRecuperandaArrow }}</span>
         </div>
@@ -851,8 +851,8 @@ class Component extends DCLogic {
       feedSortDir: 'desc',
       processoSortDir: null,
       cedenteSortDir: null,
-      playerRowSortBy: 'recuperanda',
-      playerRowSortDir: 'asc',
+      playerRowSortBy: 'valorCausa',
+      playerRowSortDir: 'desc',
       pageFeed: 1,
       pageProcessos: 1,
       pagePlayers: 1,
@@ -1021,9 +1021,16 @@ class Component extends DCLogic {
   togglePlayerRowSort = (field) => {
     this.setState((state) => {
       if (state.playerRowSortBy === field) {
-        return { playerRowSortDir: state.playerRowSortDir === 'desc' ? 'asc' : 'desc' };
+        return {
+          playerRowSortDir: state.playerRowSortDir === 'desc' ? 'asc' : 'desc',
+          pagePlayers: 1,
+        };
       }
-      return { playerRowSortBy: field, playerRowSortDir: field === 'valorCausa' ? 'desc' : 'asc' };
+      return {
+        playerRowSortBy: field,
+        playerRowSortDir: field === 'valorCausa' ? 'desc' : 'asc',
+        pagePlayers: 1,
+      };
     });
   };
 
@@ -1603,6 +1610,7 @@ class Component extends DCLogic {
           name: player.name,
           totalCessoes: player.cessoes.length,
           totalProcessos: player.processosSet.size,
+          valorCausa: valorCausaTotal,
           valorCausaDisplay: this.formatValor(valorCausaTotal),
           processosLabel:
             player.processosSet.size +
@@ -1632,7 +1640,11 @@ class Component extends DCLogic {
           },
         };
       })
-      .sort((a, b) => b.totalCessoes - a.totalCessoes);
+      .sort((a, b) => (
+        playerRowSortBy === 'valorCausa'
+          ? this.compareValorCausa(a.valorCausa, b.valorCausa, playerRowSortDir)
+          : b.totalCessoes - a.totalCessoes
+      ));
 
     const normalizedCedenteMap = {};
     for (const row of filtered) {
