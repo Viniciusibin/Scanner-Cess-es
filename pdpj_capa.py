@@ -352,33 +352,75 @@ def _salvar_saida_cnj(cnj: str, dados: dict) -> None:
 
 
 # ============================================================
-# MERGE — preenche "recuperanda" no database a partir do polo ATIVO
+# MERGE — preenche "recuperanda" no database a partir da capa
 # ============================================================
 
-# Ordem de prioridade quando ha mais de um nome no polo ativo.
+# Ordem de prioridade quando ha mais de um nome candidato.
 _PADROES_PRIORIDADE_ATIVO = [
     re.compile(r"\bS[\s./]A\.?\b"),  # S A, S/A, S.A, S.A.
     re.compile(r"\bLTDA\.?\b"),
     re.compile(r"\bM[\s.]?E\.?\b"),  # ME, M E, M.E
 ]
 
+# Nomes que sao claramente credores/interessados institucionais, nunca a
+# recuperanda/falida (bancos, orgaos publicos, MP, fazenda...).
+_PALAVRAS_INSTITUCIONAIS = [
+    "MINISTERIO PUBLICO", "UNIAO FEDERAL", "ESTADO DE ", "ESTADO DO ",
+    "FAZENDA NACIONAL", "FAZENDA PUBLICA", "PROCURADORIA", "PGFN", "PGE",
+    "CAIXA ECONOMICA", "INSS", "RECEITA FEDERAL", "TRIBUNAL DE JUSTICA",
+    "DEFENSORIA", "BANCO ", "ITAU", "BRADESCO", "SANTANDER", "UNIBANCO",
+    "MUNICIPIO DE", "GOVERNO DO", "GOVERNO DE", "SECRETARIA DE ESTADO",
+    "ADVOCACIA GERAL DA UNIAO", "JUSTICA FEDERAL",
+]
 
-def escolher_recuperanda_do_ativo(nomes_ativo: list[str]) -> str:
-    """Escolhe qual nome do polo ativo preenche 'recuperanda'.
-    Prioridade: variacao de S/A > LTDA > variacao de ME > primeiro da lista."""
-    if not nomes_ativo:
-        return ""
+RECUPERANDA_FONTE = "capa_pdpj"
+
+
+def _e_institucional(nome: str) -> bool:
+    norm = _normalizar(nome)
+    return any(palavra in norm for palavra in _PALAVRAS_INSTITUCIONAIS)
+
+
+def _melhor_nome(nomes: list[str]) -> str:
+    """Descarta institucionais (se houver alternativa) e prioriza S/A > LTDA > ME."""
+    candidatos = [n for n in nomes if not _e_institucional(n)] or nomes
     for padrao in _PADROES_PRIORIDADE_ATIVO:
-        for nome in nomes_ativo:
+        for nome in candidatos:
             if padrao.search(_normalizar(nome)):
                 return nome
-    return nomes_ativo[0]
+    return candidatos[0]
+
+
+def escolher_recuperanda(polos: dict[str, list[str]], classe: str | None) -> str:
+    """Escolhe qual parte da capa e a recuperanda/falida.
+    Recuperacao Judicial so pode ser pedida pela propria empresa -> ela e ATIVO.
+    Falencia requerida por credor -> quem pede e o credor (ATIVO); a empresa
+    fica no PASSIVO. Nomes institucionais (bancos, MP, fazenda...) sao
+    descartados quando houver alternativa, com sufixo S/A > LTDA > ME no
+    desempate."""
+    ativo = polos.get("ATIVO") or []
+    passivo = polos.get("PASSIVO") or []
+    classe_norm = _normalizar(classe or "")
+
+    eh_falencia = "FALENCIA" in classe_norm
+    eh_rj = "RECUPERACAO JUDICIAL" in classe_norm
+
+    if eh_falencia and not eh_rj and passivo:
+        return _melhor_nome(passivo)
+    if ativo:
+        return _melhor_nome(ativo)
+    if passivo:
+        return _melhor_nome(passivo)
+    return ""
 
 
 def mesclar_com_database(pasta_database: str = PASTA_DATABASE) -> None:
-    """Preenche o campo 'recuperanda' vazio em database/*.json usando o polo
-    ATIVO encontrado em recuperandas_capa/{cnj}.json. Nao chama a PDPJ — usa
-    somente o que ja foi salvo localmente. Sobrescreve os arquivos alterados."""
+    """Preenche/corrige o campo 'recuperanda' em database/*.json a partir da
+    capa salva em recuperandas_capa/{cnj}.json. Nao chama a PDPJ — usa somente
+    o que ja foi salvo localmente. So mexe em classificacoes vazias ou que ja
+    tinham sido preenchidas por este proprio script (recuperanda_fonte), nunca
+    em valor extraido originalmente do texto da publicacao. Sobrescreve os
+    arquivos alterados."""
     for caminho in sorted(glob.glob(os.path.join(pasta_database, "*.json"))):
         with open(caminho, encoding="utf-8") as f:
             itens = json.load(f)
@@ -388,7 +430,10 @@ def mesclar_com_database(pasta_database: str = PASTA_DATABASE) -> None:
             for classificacao in item.get("classificacoes") or []:
                 if not classificacao.get("is_cessao_real"):
                     continue
-                if not _campo_vazio(classificacao.get("recuperanda")):
+
+                vazio = _campo_vazio(classificacao.get("recuperanda"))
+                nosso = classificacao.get("recuperanda_fonte") == RECUPERANDA_FONTE
+                if not (vazio or nosso):
                     continue
 
                 cnj = (classificacao.get("cnj_rj") or item.get("cnj") or "").strip()
@@ -399,17 +444,18 @@ def mesclar_com_database(pasta_database: str = PASTA_DATABASE) -> None:
                 if capa_dados.get("status") != "ok":
                     continue
 
-                nomes_ativo = (capa_dados.get("polos") or {}).get("ATIVO") or []
-                if not nomes_ativo:
+                escolha = escolher_recuperanda(capa_dados.get("polos") or {}, capa_dados.get("classe"))
+                if not escolha:
                     continue
 
-                classificacao["recuperanda"] = escolher_recuperanda_do_ativo(nomes_ativo)
+                classificacao["recuperanda"] = escolha
+                classificacao["recuperanda_fonte"] = RECUPERANDA_FONTE
                 preenchidos += 1
 
         if preenchidos:
             with open(caminho, "w", encoding="utf-8") as f:
                 json.dump(itens, f, ensure_ascii=False, indent=2)
-        print(f"  [{os.path.basename(caminho)}] {preenchidos} recuperanda(s) preenchida(s).")
+        print(f"  [{os.path.basename(caminho)}] {preenchidos} recuperanda(s) preenchida(s)/corrigida(s).")
 
 
 # ============================================================
