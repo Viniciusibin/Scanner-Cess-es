@@ -149,6 +149,7 @@ def normalize_publication(
         resumo = normalize_text(classificacao.get("resumo"))
         motivo = normalize_text(classificacao.get("motivo_classificacao"))
         data_cessao = normalize_data_cessao(classificacao.get("data_cessao")) or publication_data_cessao
+        descoberto_em = normalize_text(classificacao.get("descoberto_em"))
 
         record_id = (
             f"{base_publication_id or source.file_name}-{index}-"
@@ -164,6 +165,7 @@ def normalize_publication(
                 data=publication_data,
                 ano=source.year,
                 data_cessao=data_cessao,
+                descoberto_em=descoberto_em,
                 cnj=cnj,
                 classe=publication_class,
                 orgao=publication_orgao,

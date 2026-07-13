@@ -54,6 +54,9 @@
     <button onClick="{{ setViewMetricas }}" style="padding: 6px 16px; border-radius: 6px; border: none; cursor: pointer; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 600; transition: all 0.2s; background: {{ metricasTabBg }}; color: {{ metricasTabColor }};">
       Métricas
     </button>
+    <button onClick="{{ setViewDiario }}" style="padding: 6px 16px; border-radius: 6px; border: none; cursor: pointer; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 600; transition: all 0.2s; background: {{ diarioTabBg }}; color: {{ diarioTabColor }};">
+      Diário
+    </button>
   </div>
 
   <div style="flex: 1;"></div>
@@ -820,19 +823,108 @@
   </div>
 </sc-if>
 
+<!-- View: Diário -->
+<sc-if value="{{ showDiario }}" hint-placeholder-val="{{ false }}">
+  <div style="padding: 16px 32px 32px;">
+
+    <!-- Controle de execução -->
+    <div style="background: white; border-radius: 10px; border: 1px solid #E8ECF1; padding: 16px 20px; margin-bottom: 16px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
+      <button onClick="{{ rodarDiario }}" style="padding: 8px 18px; border-radius: 6px; border: none; cursor: pointer; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 600; background: #1B6FE0; color: white; opacity: {{ diarioButtonOpacity }};">
+        {{ diarioButtonLabel }}
+      </button>
+
+      <sc-if value="{{ diarioRunning }}" hint-placeholder-val="{{ false }}">
+        <div style="display: flex; align-items: center; gap: 8px; font-size: 13px; color: #1B6FE0; font-weight: 600;">
+          <div style="width: 8px; height: 8px; border-radius: 50%; background: #1B6FE0;"></div>
+          Rodando o monitoramento diário...
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ diarioError }}" hint-placeholder-val="{{ false }}">
+        <div style="font-size: 13px; color: #DC2626; font-weight: 600;">{{ diarioError }}</div>
+      </sc-if>
+
+      <div style="flex: 1;"></div>
+
+      <select value="{{ selectedDiarioTribunal }}" onChange="{{ onDiarioTribunalChange }}" style="padding: 6px 12px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 13px; color: #0A1628; cursor: pointer; outline: none;">
+        <option value="">Todos tribunais</option>
+        <sc-for list="{{ tribunalOptions }}" as="option" hint-placeholder-count="2">
+          <option value="{{ option.value }}">{{ option.label }}</option>
+        </sc-for>
+      </select>
+
+      <input type="date" value="{{ selectedDescobertoEm }}" onChange="{{ onDescobertoEmChange }}" style="padding: 6px 12px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 13px; color: #0A1628; outline: none;" />
+    </div>
+
+    <!-- Resumo da última execução -->
+    <sc-if value="{{ diarioResumoList.length }}" hint-placeholder-val="{{ false }}">
+      <div style="background: #EFF6FF; border: 1px solid #BFDBFE; border-radius: 10px; padding: 12px 16px; margin-bottom: 16px; display: flex; flex-direction: column; gap: 4px;">
+        <div style="font-size: 11px; font-weight: 700; color: #1D4ED8; text-transform: uppercase; letter-spacing: 0.05em;">Última execução</div>
+        <sc-for list="{{ diarioResumoList }}" as="item" hint-placeholder-count="2">
+          <div style="font-size: 13px; color: #0A1628;"><strong>{{ item.tribunal }}</strong>: {{ item.label }}</div>
+        </sc-for>
+      </div>
+    </sc-if>
+
+    <!-- Lista de cessões novas -->
+    <div style="font-size: 13px; font-weight: 600; color: #6B7A90; margin-bottom: 10px;">{{ diarioCount }} cessão(ões) nova(s) encontrada(s)</div>
+
+    <div style="display: flex; flex-direction: column; gap: 8px;">
+      <sc-for list="{{ diarioRows }}" as="row" hint-placeholder-count="4">
+        <div style="background: white; border-radius: 10px; border: 1px solid #E8ECF1; padding: 14px 20px; display: flex; align-items: center; gap: 16px;">
+          <div style="width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; background: {{ row.confiancaColor }};"></div>
+
+          <div style="width: 200px; flex-shrink: 0;">
+            <div style="font-size: 13px; font-weight: 600; color: #0A1628; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ row.recuperanda }}</div>
+            <div style="font-size: 11px; color: #6B7A90; margin-top: 1px; font-family: 'DM Mono', monospace;">{{ row.cnj }}</div>
+          </div>
+
+          <div style="flex: 1; display: flex; align-items: center; gap: 10px; min-width: 0;">
+            <div style="background: #F0F4F9; border-radius: 6px; padding: 4px 10px; max-width: 220px;">
+              <div style="font-size: 13px; font-weight: 600; color: #0A1628; white-space: normal; overflow-wrap: anywhere; line-height: 1.35;">{{ row.cedente }}</div>
+            </div>
+            <svg width="20" height="12" viewBox="0 0 20 12" fill="none" style="flex-shrink: 0;">
+              <path d="M0 6h16m0 0l-4-4m4 4l-4 4" stroke="#1B6FE0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <div style="background: #EBF3FE; border-radius: 6px; padding: 4px 10px; max-width: 280px;">
+              <div style="font-size: 13px; font-weight: 600; color: #001E36; white-space: normal; overflow-wrap: anywhere; line-height: 1.35;">{{ row.cessionario }}</div>
+            </div>
+          </div>
+
+          <div style="width: 130px; flex-shrink: 0; text-align: right;">
+            <div style="font-size: 11px; font-weight: 600; color: #0A1628; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ row.valorDisplay }}</div>
+          </div>
+
+          <div style="width: 90px; flex-shrink: 0; text-align: right; font-size: 11px; font-weight: 600; color: #475569; font-family: 'DM Mono', monospace;">{{ row.descobertoEm }}</div>
+
+          <div style="width: 50px; flex-shrink: 0; font-size: 12px; font-weight: 600; color: #6B7A90; font-family: 'DM Mono', monospace;">{{ row.tribunal }}</div>
+
+          <a href="{{ row.link }}" target="_blank" style="flex-shrink: 0; font-size: 11px; font-weight: 600; color: #1B6FE0; text-decoration: none;">Abrir</a>
+        </div>
+      </sc-for>
+    </div>
+
+    <sc-if value="{{ diarioNoResults }}" hint-placeholder-val="{{ false }}">
+      <div style="padding: 40px; text-align: center; color: #6B7A90; font-size: 13px;">Nenhuma cessão nova para esse filtro.</div>
+    </sc-if>
+
+  </div>
+</sc-if>
+
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{
   &quot;$preview&quot;: { &quot;width&quot;: &quot;100%&quot;, &quot;height&quot;: &quot;100%&quot; },
   &quot;dataSource&quot;: { &quot;editor&quot;: null, &quot;default&quot;: null, &quot;tsType&quot;: &quot;object[]&quot;, &quot;section&quot;: &quot;Dados&quot; },
   &quot;apiBaseUrl&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Dados&quot; },
   &quot;highlightPlayer&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Filtros&quot; },
-  &quot;defaultView&quot;: { &quot;editor&quot;: &quot;enum&quot;, &quot;default&quot;: &quot;feed&quot;, &quot;options&quot;: [&quot;feed&quot;, &quot;processos&quot;, &quot;players&quot;, &quot;cedentes&quot;, &quot;bancos&quot;, &quot;metricas&quot;], &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Visualização&quot; }
+  &quot;defaultView&quot;: { &quot;editor&quot;: &quot;enum&quot;, &quot;default&quot;: &quot;feed&quot;, &quot;options&quot;: [&quot;feed&quot;, &quot;processos&quot;, &quot;players&quot;, &quot;cedentes&quot;, &quot;bancos&quot;, &quot;metricas&quot;, &quot;diario&quot;], &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Visualização&quot; }
 }">
 
 class Component extends DCLogic {
   constructor(props) {
     super(props);
     this.abortController = null;
+    this.diarioPollTimer = null;
     this.state = {
       view: props.defaultView || 'feed',
       expandedRows: {},
@@ -848,6 +940,11 @@ class Component extends DCLogic {
       filterAno: '',
       filterMes: '',
       filterSearch: props.highlightPlayer || '',
+      filterDiarioTribunal: '',
+      filterDescobertoEm: new Date().toISOString().slice(0, 10),
+      diarioRunning: false,
+      diarioError: '',
+      diarioResumo: null,
       feedSortDir: 'desc',
       processoSortDir: null,
       cedenteSortDir: null,
@@ -873,6 +970,14 @@ class Component extends DCLogic {
       return;
     }
     this.loadData();
+    this.fetchJson('/diario/status')
+      .then((status) => {
+        this.setState({ diarioRunning: !!status.running, diarioResumo: status.resumo_por_tribunal || null });
+        if (status.running) {
+          this.iniciarPollDiario();
+        }
+      })
+      .catch(() => {});
   }
 
   componentWillUnmount() {
@@ -880,6 +985,7 @@ class Component extends DCLogic {
       this.abortController.abort();
       this.abortController = null;
     }
+    this.pararPollDiario();
   }
 
   apiBaseUrl() {
@@ -902,10 +1008,14 @@ class Component extends DCLogic {
 
   normalizeEntityName(name) {
     let normalized = this.normalizeSearch(name)
+      .replace(/\([^)]*\)/g, ' ')
       .replace(/[^a-z0-9\s]/g, ' ')
       .replace(/\b(?=[ivxlcdm]+\b)m{0,4}(cm|cd|d?c{0,3})(xc|xl|l?x{0,3})(ix|iv|v?i{0,3})\b/g, ' ')
       .replace(/\b(s\s*\/?\s*a|sa)\b/g, ' ')
-      .replace(/\b(ltda|eireli|me|epp)\b/g, ' ')
+      .replace(/\bfundo\s+de\s+investimentos?\s+em\s+direitos\s+creditorios\b/g, ' ')
+      .replace(/\bnao\s+padronizados?\b/g, ' ')
+      .replace(/\bde\s+responsabilidade(\s+limitada)?\b/g, ' ')
+      .replace(/\b(ltda|eireli|me|epp|fidc|np|multissegmentos?)\b/g, ' ')
       .replace(/\s+/g, ' ')
       .trim();
 
@@ -1155,6 +1265,81 @@ class Component extends DCLogic {
     this.loadData();
   };
 
+  async postJson(path, body) {
+    const response = await fetch(this.apiBaseUrl() + path, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body || {}),
+    });
+
+    if (!response.ok && response.status !== 409) {
+      throw new Error('Falha ao chamar ' + path + ' (' + response.status + ')');
+    }
+
+    return response.json();
+  }
+
+  pararPollDiario() {
+    if (this.diarioPollTimer) {
+      clearInterval(this.diarioPollTimer);
+      this.diarioPollTimer = null;
+    }
+  }
+
+  iniciarPollDiario = () => {
+    if (this.diarioPollTimer) return;
+    this.diarioPollTimer = setInterval(async () => {
+      try {
+        const status = await this.fetchJson('/diario/status');
+        this.setState({
+          diarioRunning: !!status.running,
+          diarioResumo: status.resumo_por_tribunal || null,
+          diarioError: status.erro || '',
+        });
+
+        if (!status.running) {
+          this.pararPollDiario();
+          this.loadData();
+        }
+      } catch (error) {
+        // Falha pontual de rede não deve parar o polling nem travar a UI.
+      }
+    }, 4000);
+  };
+
+  rodarDiario = async () => {
+    if (this.state.diarioRunning) return;
+
+    this.setState({ diarioError: '' });
+    try {
+      const payload = await this.postJson('/diario/rodar', {});
+      this.setState({
+        diarioRunning: !!payload.running,
+        diarioError: payload.status === 'ja_rodando' ? '' : (payload.erro || ''),
+      });
+      this.iniciarPollDiario();
+    } catch (error) {
+      this.setState({
+        diarioError: error && error.message ? error.message : 'Não foi possível iniciar o monitoramento.',
+      });
+    }
+  };
+
+  buildDiarioResumoList(resumo) {
+    if (!resumo) return [];
+
+    return Object.keys(resumo).map((tribunal) => {
+      const r = resumo[tribunal] || {};
+      let label = 'concluído';
+      if (r.status) {
+        label = r.status;
+      } else if (typeof r.novas_no_database === 'number') {
+        label = r.novas_no_database + ' nova(s) no database, de ' + (r.matches || 0) + ' match(es) e ' + (r.cessoes_reais || 0) + ' cessão(ões) real(is)';
+      }
+      return { tribunal: tribunal, label: label };
+    });
+  }
+
   toggleFeedSort = () => {
     this.setState((state) => ({ feedSortDir: state.feedSortDir === 'desc' ? 'asc' : 'desc', pageFeed: 1 }));
   };
@@ -1397,6 +1582,11 @@ class Component extends DCLogic {
       filterAno,
       filterMes,
       filterSearch,
+      filterDiarioTribunal,
+      filterDescobertoEm,
+      diarioRunning,
+      diarioError,
+      diarioResumo,
       feedSortDir,
       processoSortDir,
       cedenteSortDir,
@@ -1417,6 +1607,29 @@ class Component extends DCLogic {
     const PAGE_SIZE = 100;
     const allRows = Array.isArray(rows) ? rows : [];
     const filtered = this.applyFilters(allRows);
+
+    const diarioFiltered = allRows.filter((row) => {
+      if (!row.descoberto_em) return false;
+      if (filterDescobertoEm && row.descoberto_em !== filterDescobertoEm) return false;
+      if (filterDiarioTribunal && row.tribunal !== filterDiarioTribunal) return false;
+      return true;
+    });
+    const diarioRows = diarioFiltered
+      .slice()
+      .sort((a, b) => String(b.descoberto_em || '').localeCompare(String(a.descoberto_em || '')))
+      .map((row) => ({
+        id: row.id,
+        recuperanda: row.recuperanda || 'Não identificada',
+        cnj: row.cnj || '—',
+        cedente: row.cedente || 'Não identificado',
+        cessionario: row.cessionario || 'Não identificado',
+        valorDisplay: this.formatValor(row.valor),
+        confiancaColor: this.confiancaColor(row.confianca),
+        tribunal: row.tribunal,
+        descobertoEm: row.descoberto_em,
+        link: row.link,
+      }));
+    const diarioResumoList = this.buildDiarioResumoList(diarioResumo);
 
     const uniqueCed = new Set(filtered.map((row) => this.normalizeEntityName(row.cedente)).filter(Boolean));
     const uniqueCess = new Set(filtered.map((row) => this.normalizeEntityName(row.cessionario)).filter(Boolean));
@@ -1997,6 +2210,7 @@ class Component extends DCLogic {
       showCedentes: view === 'cedentes',
       showBancos: view === 'bancos',
       showMetricas: view === 'metricas',
+      showDiario: view === 'diario',
 
       feedTabBg: view === 'feed' ? 'rgba(27,111,224,0.15)' : 'transparent',
       feedTabColor: view === 'feed' ? '#93C5FD' : 'rgba(255,255,255,0.5)',
@@ -2010,6 +2224,8 @@ class Component extends DCLogic {
       bancosTabColor: view === 'bancos' ? '#93C5FD' : 'rgba(255,255,255,0.5)',
       metricasTabBg: view === 'metricas' ? 'rgba(27,111,224,0.15)' : 'transparent',
       metricasTabColor: view === 'metricas' ? '#93C5FD' : 'rgba(255,255,255,0.5)',
+      diarioTabBg: view === 'diario' ? 'rgba(27,111,224,0.15)' : 'transparent',
+      diarioTabColor: view === 'diario' ? '#93C5FD' : 'rgba(255,255,255,0.5)',
 
       setViewFeed: () => this.setState({ view: 'feed' }),
       setViewProcessos: () => this.setState({ view: 'processos' }),
@@ -2017,6 +2233,7 @@ class Component extends DCLogic {
       setViewCedentes: () => this.setState({ view: 'cedentes' }),
       setViewBancos: () => this.setState({ view: 'bancos' }),
       setViewMetricas: () => this.setState({ view: 'metricas' }),
+      setViewDiario: () => this.setState({ view: 'diario' }),
 
       selectedTribunal: filterTribunal,
       selectedClasse: filterClasse,
@@ -2094,6 +2311,20 @@ class Component extends DCLogic {
       togglePlayerSortRecuperanda: () => this.togglePlayerRowSort('recuperanda'),
       togglePlayerSortCedente: () => this.togglePlayerRowSort('cedente'),
       togglePlayerSortValorCausa: () => this.togglePlayerRowSort('valorCausa'),
+
+      diarioRows: diarioRows,
+      diarioCount: diarioRows.length,
+      diarioNoResults: !loading && diarioRows.length === 0,
+      diarioRunning: diarioRunning,
+      diarioError: diarioError,
+      diarioButtonLabel: diarioRunning ? 'Rodando...' : 'Rodar agora',
+      diarioButtonOpacity: diarioRunning ? '0.6' : '1',
+      rodarDiario: this.rodarDiario,
+      selectedDiarioTribunal: filterDiarioTribunal,
+      onDiarioTribunalChange: (event) => this.setState({ filterDiarioTribunal: event.target.value }),
+      selectedDescobertoEm: filterDescobertoEm,
+      onDescobertoEmChange: (event) => this.setState({ filterDescobertoEm: event.target.value }),
+      diarioResumoList: diarioResumoList,
 
       showStatusBar: showStatusBar,
       statusTitle: error ? 'Falha de conexão' : 'Sincronizando dados',

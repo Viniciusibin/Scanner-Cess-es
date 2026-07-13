@@ -23,6 +23,7 @@ class QueryFilters:
     classe: str | None = None
     search: str | None = None
     ano: int | None = None
+    descoberto_em: str | None = None
     offset: int = 0
     limit: int = 100
 
@@ -41,6 +42,7 @@ class QueryFilters:
             classe=_clean(args.get("classe")),
             search=_clean(args.get("search")),
             ano=_optional_int(args.get("ano")),
+            descoberto_em=_clean(args.get("descoberto_em")),
             offset=max(offset, 0),
             limit=max(1, min(limit, settings.max_limit)),
         )
@@ -81,6 +83,7 @@ class FileBackedCessaoStore:
             "confianca": {},
             "classe": {},
             "ano": {},
+            "descoberto_em": {},
         }
         self._metadata: dict[str, Any] = {}
 
@@ -121,6 +124,7 @@ class FileBackedCessaoStore:
                 "classe": filters.classe,
                 "search": filters.search,
                 "ano": filters.ano,
+                "descoberto_em": filters.descoberto_em,
             },
         }
 
@@ -153,6 +157,7 @@ class FileBackedCessaoStore:
             "confianca": defaultdict(list),
             "classe": defaultdict(list),
             "ano": defaultdict(list),
+            "descoberto_em": defaultdict(list),
         }
         publication_count = 0
         file_count = 0
@@ -176,6 +181,9 @@ class FileBackedCessaoStore:
                     )
                     self._add_index(index_builders["classe"], record.classe, record_index)
                     self._add_index(index_builders["ano"], record.ano, record_index)
+                    self._add_index(
+                        index_builders["descoberto_em"], record.descoberto_em, record_index
+                    )
 
         self._records = tuple(records)
         self._publication_count = publication_count
@@ -209,6 +217,10 @@ class FileBackedCessaoStore:
             candidate_sets.append(set(self._indices["classe"].get(filters.classe, ())))
         if filters.ano:
             candidate_sets.append(set(self._indices["ano"].get(filters.ano, ())))
+        if filters.descoberto_em:
+            candidate_sets.append(
+                set(self._indices["descoberto_em"].get(filters.descoberto_em, ()))
+            )
 
         if candidate_sets:
             candidate_indexes = set.intersection(*candidate_sets)

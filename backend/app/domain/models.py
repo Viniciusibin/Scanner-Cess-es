@@ -22,6 +22,7 @@ class CessaoRecord:
     data: str | None
     ano: int | None
     data_cessao: str | None
+    descoberto_em: str | None
     cnj: str | None
     classe: str | None
     orgao: str | None
@@ -48,6 +49,7 @@ class CessaoRecord:
             "data": self.data,
             "ano": self.ano,
             "data_cessao": self.data_cessao,
+            "descoberto_em": self.descoberto_em,
             "cnj": self.cnj,
             "classe": self.classe,
             "orgao": self.orgao,
