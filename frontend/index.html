@@ -866,47 +866,147 @@
       </div>
     </sc-if>
 
-    <!-- Lista de cessões novas -->
-    <div style="font-size: 13px; font-weight: 600; color: #6B7A90; margin-bottom: 10px;">{{ diarioCount }} cessão(ões) nova(s) encontrada(s)</div>
-
-    <div style="display: flex; flex-direction: column; gap: 8px;">
+    <!-- Lista de cessões novas — mesmo layout/funções do Feed Diário -->
+    <div style="display: flex; flex-direction: column; gap: 0;">
+      <!-- Table header -->
+      <div style="padding: 10px 20px; display: flex; align-items: center; gap: 16px; font-size: 10px; font-weight: 700; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.06em;">
+        <div style="width: 8px; flex-shrink: 0;"></div>
+        <div style="width: 200px; flex-shrink: 0;">Recuperanda / CNJ</div>
+        <div style="flex: 1;">Cedente → Cessionário</div>
+        <div style="width: 130px; flex-shrink: 0; text-align: right;">Valor Cessão</div>
+        <div onClick="{{ toggleDiarioSort }}" style="width: 150px; flex-shrink: 0; text-align: right; cursor: pointer; user-select: none; display: flex; align-items: center; justify-content: flex-end; gap: 4px; color: #6B7A90;" style-hover="color: #1B6FE0;">
+          Valor de Causa <span style="font-size: 9px;">{{ diarioSortArrow }}</span>
+        </div>
+        <div style="width: 90px; flex-shrink: 0; text-align: right;">Data da Cessão</div>
+        <div style="width: 96px; flex-shrink: 0;">Classificação</div>
+        <div style="width: 50px; flex-shrink: 0;">Tribunal</div>
+        <div style="width: 16px; flex-shrink: 0;"></div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 8px;">
       <sc-for list="{{ diarioRows }}" as="row" hint-placeholder-count="4">
-        <div style="background: white; border-radius: 10px; border: 1px solid #E8ECF1; padding: 14px 20px; display: flex; align-items: center; gap: 16px;">
-          <div style="width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; background: {{ row.confiancaColor }};"></div>
+        <div style="background: white; border-radius: 10px; border: 1px solid #E8ECF1; transition: all 0.15s; overflow: hidden;" style-hover="border-color: #1B6FE0; box-shadow: 0 2px 8px rgba(27,111,224,0.08);">
+          <!-- Main row -->
+          <div onClick="{{ row.toggle }}" style="padding: 14px 20px; display: flex; align-items: center; gap: 16px; cursor: pointer;">
+            <!-- Confidence badge -->
+            <div style="width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; background: {{ row.confiancaColor }};"></div>
 
-          <div style="width: 200px; flex-shrink: 0;">
-            <div style="font-size: 13px; font-weight: 600; color: #0A1628; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ row.recuperanda }}</div>
-            <div style="font-size: 11px; color: #6B7A90; margin-top: 1px; font-family: 'DM Mono', monospace;">{{ row.cnj }}</div>
-          </div>
-
-          <div style="flex: 1; display: flex; align-items: center; gap: 10px; min-width: 0;">
-            <div style="background: #F0F4F9; border-radius: 6px; padding: 4px 10px; max-width: 220px;">
-              <div style="font-size: 13px; font-weight: 600; color: #0A1628; white-space: normal; overflow-wrap: anywhere; line-height: 1.35;">{{ row.cedente }}</div>
+            <!-- Recuperanda -->
+            <div style="width: 200px; flex-shrink: 0;">
+              <div style="font-size: 13px; font-weight: 600; color: #0A1628; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ row.recuperanda }}</div>
+              <div style="font-size: 11px; color: #6B7A90; margin-top: 1px; font-family: 'DM Mono', monospace;">{{ row.cnj }}</div>
             </div>
-            <svg width="20" height="12" viewBox="0 0 20 12" fill="none" style="flex-shrink: 0;">
-              <path d="M0 6h16m0 0l-4-4m4 4l-4 4" stroke="#1B6FE0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+            <!-- Arrow: cedente → cessionario -->
+            <div style="flex: 1; display: flex; align-items: center; gap: 10px; min-width: 0;">
+              <div style="background: #F0F4F9; border-radius: 6px; padding: 4px 10px; max-width: 220px;">
+                <div style="font-size: 13px; font-weight: 600; color: #0A1628; white-space: normal; overflow-wrap: anywhere; line-height: 1.35;">{{ row.cedente }}</div>
+              </div>
+              <svg width="20" height="12" viewBox="0 0 20 12" fill="none" style="flex-shrink: 0;">
+                <path d="M0 6h16m0 0l-4-4m4 4l-4 4" stroke="#1B6FE0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <div style="background: #EBF3FE; border-radius: 6px; padding: 4px 10px; max-width: 280px;">
+                <div style="font-size: 13px; font-weight: 600; color: #001E36; white-space: normal; overflow-wrap: anywhere; line-height: 1.35;">{{ row.cessionario }}</div>
+              </div>
+            </div>
+
+            <!-- Valor Cessão -->
+            <div style="width: 130px; flex-shrink: 0; text-align: right;">
+              <div style="font-size: 11px; font-weight: 600; color: {{ row.valorColor }}; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ row.valorDisplay }}</div>
+            </div>
+
+            <!-- Valor de Causa -->
+            <div style="width: 150px; flex-shrink: 0; text-align: right;">
+              <div style="font-size: 11px; font-weight: 700; color: {{ row.valorCausaColor }}; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ row.valorCausaDisplay }}</div>
+            </div>
+
+            <!-- Data da Cessão -->
+            <div style="width: 90px; flex-shrink: 0; text-align: right;">
+              <div style="font-size: 11px; font-weight: 600; color: #475569; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ row.dataCessaoDisplay }}</div>
+            </div>
+
+            <!-- Classe -->
+            <div style="width: 96px; flex-shrink: 0;">
+              <sc-if value="{{ row.showClassificacao }}" hint-placeholder-val="{{ true }}">
+                <span style="font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; background: {{ row.classeBg }}; color: {{ row.classeColor }};">{{ row.classeLabel }}</span>
+              </sc-if>
+            </div>
+
+            <!-- Tribunal -->
+            <div style="width: 50px; flex-shrink: 0; font-size: 12px; font-weight: 600; color: #6B7A90; font-family: 'DM Mono', monospace;">{{ row.tribunal }}</div>
+
+            <!-- Expand icon -->
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex-shrink: 0; transition: transform 0.2s; transform: rotate({{ row.expandRotation }});">
+              <path d="M4 6l4 4 4-4" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
-            <div style="background: #EBF3FE; border-radius: 6px; padding: 4px 10px; max-width: 280px;">
-              <div style="font-size: 13px; font-weight: 600; color: #001E36; white-space: normal; overflow-wrap: anywhere; line-height: 1.35;">{{ row.cessionario }}</div>
+          </div>
+
+          <!-- Expanded detail -->
+          <sc-if value="{{ row.expanded }}" hint-placeholder-val="{{ false }}">
+            <div style="border-top: 1px solid #E8ECF1; padding: 20px; background: #FAFBFC;">
+              <!-- Summary -->
+              <div style="font-size: 13px; color: #374151; line-height: 1.6; margin-bottom: 16px;">{{ row.resumo }}</div>
+
+              <!-- Meta grid -->
+              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 16px;">
+                <div>
+                  <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.05em;">Classe Processo</div>
+                  <div style="font-size: 13px; font-weight: 500; color: #0A1628; margin-top: 2px;">{{ row.classe }}</div>
+                </div>
+                <div>
+                  <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.05em;">Órgão</div>
+                  <div style="font-size: 13px; font-weight: 500; color: #0A1628; margin-top: 2px;">{{ row.orgao }}</div>
+                </div>
+                <div>
+                  <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.05em;">Classe Crédito</div>
+                  <div style="font-size: 13px; font-weight: 500; color: #0A1628; margin-top: 2px;">{{ row.classeCredito }}</div>
+                </div>
+              </div>
+
+              <!-- Motivo -->
+              <sc-if value="{{ row.motivo }}" hint-placeholder-val="{{ true }}">
+                <div style="margin-bottom: 16px;">
+                  <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">Motivo da Classificação</div>
+                  <div style="font-size: 12px; color: #374151; line-height: 1.5; background: white; border-radius: 6px; padding: 10px 12px; border: 1px solid #E8ECF1;">{{ row.motivo }}</div>
+                </div>
+              </sc-if>
+
+              <!-- Full text -->
+              <div style="margin-bottom: 16px;">
+                <div style="font-size: 10px; font-weight: 600; color: #6B7A90; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">Texto Completo da Publicação</div>
+                <div style="font-size: 12px; color: #374151; line-height: 1.6; background: white; border-radius: 6px; padding: 12px 14px; border: 1px solid #E8ECF1; max-height: 200px; overflow-y: auto; font-family: 'DM Mono', monospace; white-space: pre-wrap;">{{ row.textoCompleto }}</div>
+              </div>
+
+              <!-- Actions -->
+              <div style="display: flex; gap: 8px;">
+                <a href="{{ row.link }}" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: 6px; background: #001E36; color: white; font-size: 12px; font-weight: 600; text-decoration: none; font-family: 'DM Sans', sans-serif;">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5.5 2.5h-2a1 1 0 00-1 1v7a1 1 0 001 1h7a1 1 0 001-1v-2m-4-5h4m0 0v4m0-4l-5 5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  Abrir no DJEN
+                </a>
+              </div>
             </div>
-          </div>
-
-          <div style="width: 130px; flex-shrink: 0; text-align: right;">
-            <div style="font-size: 11px; font-weight: 600; color: #0A1628; font-family: 'DM Mono', monospace; white-space: nowrap;">{{ row.valorDisplay }}</div>
-          </div>
-
-          <div style="width: 90px; flex-shrink: 0; text-align: right; font-size: 11px; font-weight: 600; color: #475569; font-family: 'DM Mono', monospace;">{{ row.descobertoEm }}</div>
-
-          <div style="width: 50px; flex-shrink: 0; font-size: 12px; font-weight: 600; color: #6B7A90; font-family: 'DM Mono', monospace;">{{ row.tribunal }}</div>
-
-          <a href="{{ row.link }}" target="_blank" style="flex-shrink: 0; font-size: 11px; font-weight: 600; color: #1B6FE0; text-decoration: none;">Abrir</a>
+          </sc-if>
         </div>
       </sc-for>
-    </div>
 
-    <sc-if value="{{ diarioNoResults }}" hint-placeholder-val="{{ false }}">
-      <div style="padding: 40px; text-align: center; color: #6B7A90; font-size: 13px;">Nenhuma cessão nova para esse filtro.</div>
-    </sc-if>
+      <sc-if value="{{ diarioNoResults }}" hint-placeholder-val="{{ false }}">
+        <div style="text-align: center; padding: 48px 0; color: #94A3B8;">
+          <div style="font-size: 15px; font-weight: 600;">Nenhuma cessão nova encontrada</div>
+          <div style="font-size: 13px; margin-top: 4px;">Ajuste os filtros de tribunal/data ou rode o monitoramento</div>
+        </div>
+      </sc-if>
+      </div>
+
+      <sc-if value="{{ diarioPagination.show }}" hint-placeholder-val="{{ false }}">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 4px 0;">
+          <div style="font-size: 12px; color: #6B7A90;">{{ diarioPagination.rangeLabel }}</div>
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <button onClick="{{ diarioPagination.prev }}" disabled="{{ diarioPagination.prevDisabled }}" style="padding: 6px 14px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; color: #0A1628; cursor: pointer; opacity: {{ diarioPagination.prevOpacity }};">Anterior</button>
+            <span style="font-size: 12px; font-weight: 600; color: #0A1628; font-family: 'DM Mono', monospace;">{{ diarioPagination.page }} / {{ diarioPagination.totalPages }}</span>
+            <button onClick="{{ diarioPagination.next }}" disabled="{{ diarioPagination.nextDisabled }}" style="padding: 6px 14px; border-radius: 6px; border: 1px solid #D1D9E4; background: white; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; color: #0A1628; cursor: pointer; opacity: {{ diarioPagination.nextOpacity }};">Próxima</button>
+          </div>
+        </div>
+      </sc-if>
+    </div>
 
   </div>
 </sc-if>
@@ -945,6 +1045,9 @@ class Component extends DCLogic {
       diarioRunning: false,
       diarioError: '',
       diarioResumo: null,
+      expandedDiarioRows: {},
+      diarioSortDir: 'desc',
+      pageDiario: 1,
       feedSortDir: 'desc',
       processoSortDir: null,
       cedenteSortDir: null,
@@ -1344,6 +1447,10 @@ class Component extends DCLogic {
     this.setState((state) => ({ feedSortDir: state.feedSortDir === 'desc' ? 'asc' : 'desc', pageFeed: 1 }));
   };
 
+  toggleDiarioSort = () => {
+    this.setState((state) => ({ diarioSortDir: state.diarioSortDir === 'desc' ? 'asc' : 'desc', pageDiario: 1 }));
+  };
+
   toggleProcessoSort = () => {
     this.setState((state) => ({ processoSortDir: state.processoSortDir === 'desc' ? 'asc' : 'desc', pageProcessos: 1 }));
   };
@@ -1587,6 +1694,9 @@ class Component extends DCLogic {
       diarioRunning,
       diarioError,
       diarioResumo,
+      expandedDiarioRows,
+      diarioSortDir,
+      pageDiario,
       feedSortDir,
       processoSortDir,
       cedenteSortDir,
@@ -1614,21 +1724,39 @@ class Component extends DCLogic {
       if (filterDiarioTribunal && row.tribunal !== filterDiarioTribunal) return false;
       return true;
     });
-    const diarioRows = diarioFiltered
-      .slice()
-      .sort((a, b) => String(b.descoberto_em || '').localeCompare(String(a.descoberto_em || '')))
-      .map((row) => ({
-        id: row.id,
-        recuperanda: row.recuperanda || 'Não identificada',
-        cnj: row.cnj || '—',
-        cedente: row.cedente || 'Não identificado',
-        cessionario: row.cessionario || 'Não identificado',
-        valorDisplay: this.formatValor(row.valor),
+    const diarioSorted = diarioSortDir
+      ? [...diarioFiltered].sort((a, b) => this.compareValorCausa(a.valor_causa, b.valor_causa, diarioSortDir))
+      : diarioFiltered;
+    const diarioFeedRows = diarioSorted.map((row) => {
+      const classe = this.classeInfo(row.classe);
+      const expanded = !!expandedDiarioRows[row.id];
+
+      return {
+        ...row,
         confiancaColor: this.confiancaColor(row.confianca),
-        tribunal: row.tribunal,
-        descobertoEm: row.descoberto_em,
-        link: row.link,
-      }));
+        valorDisplay: this.formatValor(row.valor),
+        valorColor: row.valor != null ? '#0A1628' : '#94A3B8',
+        valorCausaDisplay: this.formatValor(row.valor_causa),
+        valorCausaColor: row.valor_causa != null ? '#0F766E' : '#94A3B8',
+        dataCessaoDisplay: this.formatDataCessao(row),
+        classeLabel: classe ? classe.label : '',
+        classeBg: classe ? classe.bg : 'transparent',
+        classeColor: classe ? classe.color : '#6B7280',
+        showClassificacao: !!classe,
+        classeCredito: row.classe_credito ? 'Classe ' + row.classe_credito : 'Não informada',
+        expanded: expanded,
+        expandRotation: expanded ? '180deg' : '0deg',
+        textoCompleto: row.texto_completo,
+        toggle: () => this.setState((state) => ({
+          expandedDiarioRows: {
+            ...state.expandedDiarioRows,
+            [row.id]: !state.expandedDiarioRows[row.id],
+          },
+        })),
+      };
+    });
+    const diarioPagination = this.paginationInfo(diarioFeedRows.length, pageDiario, PAGE_SIZE, 'pageDiario');
+    const pagedDiarioRows = this.sliceForPage(diarioFeedRows, pageDiario, PAGE_SIZE);
     const diarioResumoList = this.buildDiarioResumoList(diarioResumo);
 
     const uniqueCed = new Set(filtered.map((row) => this.normalizeEntityName(row.cedente)).filter(Boolean));
@@ -2312,18 +2440,20 @@ class Component extends DCLogic {
       togglePlayerSortCedente: () => this.togglePlayerRowSort('cedente'),
       togglePlayerSortValorCausa: () => this.togglePlayerRowSort('valorCausa'),
 
-      diarioRows: diarioRows,
-      diarioCount: diarioRows.length,
-      diarioNoResults: !loading && diarioRows.length === 0,
+      diarioRows: pagedDiarioRows,
+      diarioNoResults: !loading && diarioFeedRows.length === 0,
+      diarioPagination: diarioPagination,
+      diarioSortArrow: this.sortArrowIcon(diarioSortDir),
+      toggleDiarioSort: this.toggleDiarioSort,
       diarioRunning: diarioRunning,
       diarioError: diarioError,
       diarioButtonLabel: diarioRunning ? 'Rodando...' : 'Rodar agora',
       diarioButtonOpacity: diarioRunning ? '0.6' : '1',
       rodarDiario: this.rodarDiario,
       selectedDiarioTribunal: filterDiarioTribunal,
-      onDiarioTribunalChange: (event) => this.setState({ filterDiarioTribunal: event.target.value }),
+      onDiarioTribunalChange: (event) => this.setState({ filterDiarioTribunal: event.target.value, pageDiario: 1 }),
       selectedDescobertoEm: filterDescobertoEm,
-      onDescobertoEmChange: (event) => this.setState({ filterDescobertoEm: event.target.value }),
+      onDescobertoEmChange: (event) => this.setState({ filterDescobertoEm: event.target.value, pageDiario: 1 }),
       diarioResumoList: diarioResumoList,
 
       showStatusBar: showStatusBar,
