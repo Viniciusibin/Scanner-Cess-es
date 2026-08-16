@@ -1,0 +1,17 @@
+{
+  "cnj": "0016849-19.2015.8.11.0041",
+  "_fontes_database": [],
+  "status": "ok",
+  "recuperanda_capa": "TRAVESSIA SECURITIZADORA DE CREDITOS FINANCEIROS VIII S.A. X ERI BORGES REGITANO e outros (1)",
+  "polos": {
+    "ATIVO": [
+      "TRAVESSIA SECURITIZADORA DE CREDITOS FINANCEIROS VIII S.A."
+    ],
+    "PASSIVO": [
+      "ERI BORGES REGITANO",
+      "VIVIANE MARTINS FRANGE REGITANO"
+    ]
+  },
+  "classe": "Execução de Título Extrajudicial",
+  "tribunal": "TJMT"
+}

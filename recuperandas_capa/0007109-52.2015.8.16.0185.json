@@ -1,0 +1,25 @@
+{
+  "cnj": "0007109-52.2015.8.16.0185",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "E.J.WAGNER ENGENHARIA E CONSTRUCAO LTDA e outros (1) X BAT NIVEL SERVICOS E TRANSPORTES LTDA X MASSA FALIDA BAT NIVEL SERVICOS E TRANSPORTES LTDA e outros (3)",
+  "polos": {
+    "ATIVO": [
+      "E.J.WAGNER ENGENHARIA E CONSTRUCAO LTDA",
+      "PAULO ROBERTO OLIVEIRA"
+    ],
+    "PASSIVO": [
+      "BAT NIVEL SERVICOS E TRANSPORTES LTDA"
+    ],
+    "TERCEIRO": [
+      "MASSA FALIDA BAT NIVEL SERVICOS E TRANSPORTES LTDA",
+      "IRMAOS HOLZ DESCARTAVEIS CONFECCOES E COMERCIO DE EMBALAGENS LTDA",
+      "MASTER CARGAS BRASIL LTDA",
+      "POLIMIX CONCRETO LTDA"
+    ]
+  },
+  "classe": "Apelação Cível",
+  "tribunal": "TJPR"
+}

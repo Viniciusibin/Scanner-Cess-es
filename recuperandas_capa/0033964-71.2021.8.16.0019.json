@@ -1,0 +1,19 @@
+{
+  "cnj": "0033964-71.2021.8.16.0019",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "RENATA RIBAS VARGAS e outros (1) X RENATO WENDLING VARGAS",
+  "polos": {
+    "ATIVO": [
+      "RENATA RIBAS VARGAS",
+      "A.R. L. GUIMARAES LTDA"
+    ],
+    "PASSIVO": [
+      "RENATO WENDLING VARGAS"
+    ]
+  },
+  "classe": "Cumprimento de sentença",
+  "tribunal": "TJPR"
+}

@@ -1,0 +1,19 @@
+{
+  "cnj": "0365710-47.2004.8.19.0001",
+  "_fontes_database": [
+    "TJ-RJ-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ANTONIO AUGUSTO ALVES e outros (1) X MASSA FALIDA DE DESENVOLVIMENTO ENGENHARIA LTDA",
+  "polos": {
+    "ATIVO": [
+      "ANTONIO AUGUSTO ALVES",
+      "RIC-10 SPE RIO CENTRO EMPREENDIMENTOS IMOBILIARIOS LTDA."
+    ],
+    "PASSIVO": [
+      "MASSA FALIDA DE DESENVOLVIMENTO ENGENHARIA LTDA"
+    ]
+  },
+  "classe": "Habilitação de Crédito",
+  "tribunal": "TJRJ"
+}

@@ -2169,9 +2169,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "ELIANE CARLOS RODRIGUES",
         "motivo_classificacao": "A presença do termo 'cessionário Vagne' em contexto de habilitação de crédito e manifestação no processo indica cessão de crédito, embora detalhes como cedente e valores não estejam explícitos.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -2214,9 +2215,10 @@
         "valor": "R$ 144.846.772,16",
         "classe_credito": "garantia real e quirografária",
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "TRAVESSIA SECURITIZADORA DE CREDITOS MERCANTIS XXV S.A.",
         "motivo_classificacao": "O texto relata expressamente a alteração do polo ativo decorrente de cessão de créditos, com valores e classes de crédito indicados, confirmando tratar-se de cessão de crédito no contexto da recuperação judicial.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "alta"
@@ -2306,9 +2308,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "LOGISTICA E TRANSPORTES LOT LTDA",
         "motivo_classificacao": "O texto menciona especificamente cessão de crédito e requer documentos para comprovar poderes de representação, indicando cessão real, porém sem detalhar valores, classes ou partes cedentes, o que limita a confiança.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -2348,11 +2351,194 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "BANCO DO BRASIL S/A",
         "motivo_classificacao": "O texto menciona autorização judicial para cessão de direitos creditórios no âmbito de recuperação judicial, caracterizando cessão de crédito, porém não detalha partes, valores ou classe do crédito, o que limita a precisão da identificação.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "alta"
+  },
+  {
+    "id": 677216937,
+    "cnj": "0810184-35.2025.8.12.0021",
+    "classe": "RECUPERAçãO JUDICIAL",
+    "orgao": "4ª Vara Civel e Regional de Falências e Recuperações",
+    "destinatarios": [
+      "C.C.C.V.",
+      "C.C.V.C.",
+      "C.C.V.C.",
+      "R.C.C.",
+      "R.C.C."
+    ],
+    "link": "https://esaj.tjms.jus.br/cdje/",
+    "texto_completo": "Intimação do r. despacho de fls. 3849/3850: \"Fls. 3718/3713 - Expedientes Cartorários. Fls. 3641/3713 - Banco Santander (Brasil) S.A., informando cessão de crédito realizada com Travessia Securitizadora de Créditos Financeiros VIII S.A. Fls. 3714/3717, 3724/3728 - Informação do Sistema e decisões iniciais de Agravo de Instrumento. Fls. 3729/3764 - Produtec Comércio e Representações S.A., apresentando impugnação à relação de credores e ao relatório da fase administrativa. Fls. 3765/3794 - Corteva Agriscience do Brasil Ltda., juntando documentos constitutivos para habilitação nos autos. Fls. 3795/3797 - Cibrafertil - Companhia Brasileira de Fertilizantes, manifestando quanto à relação de credores e requerendo a retificação do Quadro Geral de Credores. Fls. 3798/3809 e 3810/3830 - Banco Bradesco S/A e Travessia Securitizadora de Créditos Financeiros VIII S.A., apresentando objeções ao Plano de Recuperação Judicial. Fls. 3831/3848 - Recuperandos, apresentando manifestação sobre as pendências processuais e requerendo a prorrogação do stay period. É o relatório. Decido. Antes de qualquer decisão, mostra-se necessária a prévia manifestação da Administradora Judicial. Assim, manifeste-se a Administradora Judicial, no prazo de 5 (cinco) dias, quanto às petições descritas no relatório. Após, concluso na fila de urgentes. Int.\"",
+    "data": "2026-07-24",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessão de crédito"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "recuperação judicial",
+      "quadro geral de credores",
+      "plano de recuperação judicial",
+      "stay period"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJMS\\2026-07\\2026-07-24\\matches_2026-07-24.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "media",
+        "resumo": "Banco Santander comunicou cessão de crédito para Travessia Securitizadora no processo de recuperação judicial.",
+        "cedente": "Banco Santander (Brasil) S.A.",
+        "cessionario": "Travessia Securitizadora de Créditos Financeiros VIII S.A.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": null,
+        "motivo_classificacao": "Cessão de crédito comunicada entre banco e securitizadora em processo de RJ, indicando cessão concursal com cessionário institucional.",
+        "descoberto_em": "2026-07-24"
+      }
+    ]
+  },
+  {
+    "id": 671747668,
+    "cnj": "0803598-16.2024.8.12.0021",
+    "classe": "RECUPERAçãO JUDICIAL",
+    "orgao": "4ª Vara Civel e Regional de Falências e Recuperações",
+    "destinatarios": [
+      "A.B.T.S.O.",
+      "M.T.S.",
+      "S.S.O.J."
+    ],
+    "link": "https://esaj.tjms.jus.br/cdje/",
+    "texto_completo": "Fls. 3779/3784 - Expedientes Cartorários. FLS. 3785/3786 - Calcário Monte Negro Ltda., requerendo a juntada do PRJ, assegurando tempo hábil para análise prévia antes da continuidade da AGC. Fls. 3787/3800 - Administradora Judicial, juntando Ata de Assembleia Geral de Credores, realizada em continuação ao ato instalado em 2ª Convocação, no dia 08/06/2026; lista de presença; e demais documentos pertinentes. Fls. 3801/4032 - Blackpartners Miruna Fundo de Investimento em Direitos Creditórios Multissegmentos de Responsabilidade Limitada, informando cessão de crédito realizada com o Banco do Brasil S/A. É o relatório. Decido. Manifestem-se partes, credores e demais interessados, querendo, sobre os documentos juntados às fls. 3787/3800, pela Administradora Judicial. Manifeste-se a Administradora Judicial, no prazo de 5 dias, sobre a cessão de crédito informada às fls. 3801/4032. Aguarde-se a realização da Assembleia Geral de Credores, em continuação, no dia 07/08/2026, aprovada com quórum de 88,04 dos votantes. Int.",
+    "data": "2026-07-20",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessão de crédito"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "assembleia geral de credores"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJMS\\2026-07\\2026-07-20\\matches_2026-07-20.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "media",
+        "resumo": "Cessão de crédito informada pelo Blackpartners Miruna FIDC com Banco do Brasil em processo de recuperação judicial.",
+        "cedente": "Banco do Brasil S/A",
+        "cessionario": "Blackpartners Miruna Fundo de Investimento em Direitos Creditórios Multissegmentos de Responsabilidade Limitada",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "Calcário Monte Negro Ltda.",
+        "motivo_classificacao": "Cessão de crédito entre instituições financeiras em processo de RJ, com participação da administradora judicial e AGC, indica cessão concursal relevante.",
+        "descoberto_em": "2026-07-24"
+      }
+    ]
+  },
+  {
+    "id": 691887237,
+    "cnj": "0810184-35.2025.8.12.0021",
+    "classe": "RECUPERAçãO JUDICIAL",
+    "orgao": "4ª Vara Civel e Regional de Falências e Recuperações",
+    "destinatarios": [
+      "C.C.C.V.",
+      "C.C.V.C.",
+      "C.C.V.C.",
+      "R.C.C.",
+      "R.C.C."
+    ],
+    "link": "https://esaj.tjms.jus.br/cdje/",
+    "texto_completo": "Intimação da r. decisão de fls. 3871/2874: \"Fls. 3851/3852 - Expedientes Cartorários. Fls. 3853/3870 - Administradora Judicial, manifestando nos termos da determinação de fls. 3849/3850. É o relatório. Decido. Verifica-se dos autos que a manifestação da Administradora Judicial foi apresentada em observância às atribuições previstas nos artigos 22 e seguintes da Lei n. 11.101/2005, tendo enfrentado de forma individualizada as insurgências deduzidas pelas partes e pelos credores. Cadastrem-se partes e respectivos patronos, conforme requerido. As objeções apresentadas ao Plano de Recuperação Judicial serão analisadas por ocasião da realização da Assembleia Geral de Credores. No tocante à comunicação de cessão de crédito realizada entre Banco Santander (Brasil) S.A. e Travessia Securitizadora de Créditos Financeiros VIII S.A., o instrumento apresentado revela, em análise perfunctória própria desta fase processual, a transferência da titularidade do crédito, inexistindo impugnação apta a infirmar a regularidade formal do negócio jurídico. Assim, cabível a substituição do credor no quadro geral de credores, preservando-se os valores e a classificação anteriormente reconhecidos. Proceda a Administradora Judicial às anotações pertinentes e adote as providências necessárias ao cumprimento desta decisão. Quanto à insurgência apresentada por Produtec Comércio e Representações S.A., a controvérsia versa sobre valor e classificação de crédito sujeito ao procedimento específico previsto nos arts. 8º, 13 a 15 da Lei n. 11.101/2005. A mesma conclusão se aplica à manifestação formulada por Cibrafertil - Companhia Brasileira de Fertilizantes, cuja pretensão demanda cognição própria e produção de elementos incompatíveis com a apreciação incidental nos autos principais. Nessas hipóteses, a legislação recuperacional determina o processamento das impugnações em autos apartados, preservando-se o contraditório e a ampla defesa. Determino a autuação em apartado das insurgências, mantendo-se, até ulterior deliberação, os créditos nos valores apurados administrativamente. No que se refere ao pedido de levantamento do segredo de justiça, verifica-se que os autos contêm expressivo volume de documentos fiscais, bancários, patrimoniais e dados pessoais sensíveis. Nessas circunstâncias, a manutenção do regime atualmente adotado revela-se proporcional e adequada à proteção da intimidade, da proteção de dados e dos sigilos legalmente tutelados, sem impedir o acesso das partes, credores e interessados regularmente habilitados. Assim, mantenho o segredo de justiça atualmente vigente. Deve ser preservada, entretanto, a ampla publicidade dos editais e atos cuja divulgação é exigida pela legislação recuperacional. No tocante à publicação dos editais previstos nos arts. 7º, § 2º, e 53, parágrafo único, da Lei n. 11.101/2005, a providência é imprescindível para a regular fluência dos prazos de impugnação e objeção, razão pela qual determino à serventia sua imediata publicação e certificação nos autos, observando-se a regular abertura dos prazos dos artigos 8º e 55 do referido diploma legal. Se o caso, solicite-se as minutas à Administradora Judicial. Por fim, quanto ao pedido de prorrogação do stay period, verifica-se a presença dos requisitos legais. Nos termos do art. 6º, § 4º, da Lei 11.101/05, \"na recuperação judicial, as suspensões e a proibição de que tratam os incisos I, II e III do caput deste artigo perdurarão pelo prazo de 180 (cento e oitenta) dias, contado do deferimento do processamento da recuperação, prorrogável por igual período, uma única vez, em caráter excepcional, desde que o devedor não haja concorrido com a superação do lapso temporal\". Conforme demonstrado pela Administradora Judicial, o Plano foi apresentado tempestivamente, os documentos exigidos vêm sendo regularmente apresentados, inexistindo demonstração de desídia ou comportamento imputável às partes Recuperandas que tenha ocasionado a superação do prazo originalmente estabelecido. A retomada de execuções individuais neste momento comprometeria a finalidade coletiva da Recuperação Judicial, com risco de fragmentação patrimonial e prejuízo à preservação da atividade empresarial, princípio consagrado no art. 47 da Lei n. 11.101/2005. Assim, considerando que o Grupo Recuperando não praticou qualquer ato para superação do lapso temporal, de rigor o deferimento da prorrogação do stay period por mais 180 (cento e oitenta), contados do primeiro dia subsequente ao término do prazo de suspensão de 180 dias inicialmente concedidos ou até a realização da Assembleia Geral de Credores (o que ocorrer primeiro). Int.\"",
+    "data": "2026-08-12",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessão de crédito"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "recuperação judicial",
+      "quadro geral de credores",
+      "plano de recuperação judicial",
+      "assembleia geral de credores",
+      "stay period",
+      "recuperanda",
+      "lei 11.101"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJMS\\2026-08\\2026-08-12\\matches_2026-08-12.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Houve comunicação formal de cessão de crédito entre Banco Santander e Travessia Securitizadora em processo de recuperação judicial, com substituição do credor no quadro geral.",
+        "cedente": "Banco Santander (Brasil) S.A.",
+        "cessionario": "Travessia Securitizadora de Créditos Financeiros VIII S.A.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "Grupo Recuperando",
+        "motivo_classificacao": "Cessão formal de crédito concursal entre instituições financeiras em processo de RJ, com homologação judicial e substituição do credor.",
+        "descoberto_em": "2026-08-13"
+      }
+    ]
+  },
+  {
+    "id": 696525219,
+    "cnj": "0804417-16.2025.8.12.0021",
+    "classe": "RECUPERAçãO JUDICIAL",
+    "orgao": "4ª Vara Civel e Regional de Falências e Recuperações",
+    "destinatarios": [
+      "ANDRE & ANDRE LTDA."
+    ],
+    "link": "https://esaj.tjms.jus.br/cdje/",
+    "texto_completo": "Intimação da r. decisão de fls. 2481/2485: \"Fls. 1926/1930, 2337 e 2345, - Expedientes Cartorários. Fls. 1931/1951, 1952/1972 e 1975/1992 - Administradora Judicial - juntando a 2ª relação de credores, edital e intimação da Recuperanda para recolhimento de custas; apresentando relatório de análise do Plano de Recuperação Judicial do Grupo Agromano; Fls. 1973/1974, 1993/1996, 1997/1999, 2000/2009 e 2338/2344 - Fortgreen Comercial Agricola Ltda., requerendo intimação da AJ para que conste nos autos as RMAs da Recuperanda; reiterando o pedido de intimação para apresentação de RMAs; manifestando sobre pedido de aplicação de multa em seu desfavor; apresentando Objeção ao Plano de Recuperação Judicial; manifestando em resposta às alegações dos Recuperandos de fls. 2304/2315, pelo indeferimento de aplicação de multa. Fls. 2010/2296, 2297/2303, 2304/2315 e 2471/2474 - Recuperandos, juntando laudos de avaliação de bens imóveis; requerendo liberação de valores indevidamente retidos pelo credor Banco do Brasil; requerendo que a Fortgreen seja condenada ao pagamento de multa; e, requerendo a prorrogação do stay period, bem como reiterando o pedido de levantamento de valores. Fls. 2316/2336 e 2441/2470 - Lepta Gestora de Crédito Ltda., informando a celebração de contratos de cessão de direitos creditórios com o credor originário AIG Seguros Brasil S/A., requerendo retificação nos autos; e, também, com os credores Fortgreen Comercial Agricola Ltda. e F1rst Agbiotech Ltda. Fls. 2346/2353 - TJMS, encaminhando ofício com decisão de Agravo de Instrumento: homologado pedido de desistência. Fls. 2354/2356 - Certidão do Sistema, informando decisão de Agravo de Instrumento: indeferido pedido de adiamento do julgamento. Fls. 2357/2440 - Coface do Brasil Seguros de Crédito S.A., informando que sub-rogou-se nos direitos de crédito e ações da Alta-America Latina Tecnologia Agrícola Ltda. Fls. 2475/2480 - CCAB-AGRO S/A., apresentando Objeção ao Plano de Recuperação Judicial. É o relatório. Decido. Certifique a Serventia se as peças de fls. 1952/1972 são idênticas às de fls. 1931/1951. Se positivo, tornem sem efeito as peças reproduzidas. As objeções apresentadas ao Plano de Recuperação Judicial serão analisadas por ocasião da realização da Assembleia Geral de Credores. Reconheço a sucessão creditória formulados por Lepta Gestora de Crédito Ltda., os documentos acostados aos autos demonstram a celebração de cessões de crédito com os credores originários Fortgreen Comercial Agrícola Ltda. e F1rst Agbiotech Ltda., envolvendo créditos sujeitos aos efeitos da Recuperação Judicial, com expressa transferência de todos os direitos e acessórios inerentes aos créditos cedidos, nos termos dos arts. 286 e seguintes do Código Civil. Determino à Administradora Judicial que promova as anotações e atualizações pertinentes em seus registros e na relação de credores. Ademais, com a respectiva cessão de crédito, as alegações da credora Fortgreen Comercial Agrícola Ltda. perderam seu objeto. Ainda, a aplicação da multa prevista no art. 77, §§ 1º e 2º, do CPC, não merece acolhimento. Embora a constrição tenha sido efetivada posteriormente ao deferimento do processamento da Recuperação Judicial, verifica-se que o requerimento de penhora foi formulado anteriormente, não havendo prova de que a credora tenha adotado ulterior conduta dolosa voltada ao descumprimento das determinações deste Juízo. A aplicação dessa penalidade exige demonstração inequívoca de má-fé ou de deliberada afronta à ordem judicial, circunstâncias não evidenciadas nos autos. Também, reconheço a sub-rogação apresentada por Coface do Brasil Seguros de Crédito S.A., a documentação evidencia sub-rogação parcial nos direitos creditórios de Alta América Latina Tecnologia Agrícola Ltda., em razão do pagamento de indenização securitária no valor de R$ 100.440,00, permanecendo o saldo remanescente em titularidade da credora originária. Às anotações pela Administradora Judicial. Não há óbice ao reconhecimento das alterações subjetivas promovidas, porquanto a cessão de crédito independe da anuência do devedor, bastando sua comprovação nos autos para fins de atualização da relação processual e dos registros mantidos pela Administração Judicial. Por outro lado, o pedido de prorrogação do stay period formulado pelos Recuperandos demanda análise conjunta com o estágio atual do processo recuperacional, especialmente diante da existência de objeções ao plano e da necessidade de realização da Assembleia Geral de Credores. Considerando a orientação consolidada do Superior Tribunal de Justiça e a redação do art. 6º, § 4º-A, da Lei n. 11.101/2005, revela-se possível a manutenção dos efeitos protetivos da Recuperação Judicial até a deliberação da assembleia, desde que ausente demonstração de desídia imputável aos Recuperandos e preservada a finalidade do procedimento recuperacional. No caso concreto, verifica-se que o transcurso do prazo legal decorreu da própria tramitação do procedimento e dos incidentes processuais instaurados, inexistindo elementos que evidenciem comportamento procrastinatório dos Recuperandos. Assim, a fim de preservar a utilidade do processo recuperacional e viabilizar a deliberação dos credores sobre o Plano apresentado, mostra-se cabível a prorrogação do período de suspensão das ações e execuções. Defiro a prorrogação do stay period pelo prazo de 180 (cento e oitenta) dias, ou até a realização da Assembleia Geral de Credores, o que ocorrer primeiro, permanecendo resguardadas as disposições do art. 6º da Lei n. 11.101/2005.7. Por fim, o pedido de levantamento dos valores alegadamente retidos pelo Banco do Brasil demanda prévia manifestação das partes. Manifeste-se a Administradora Judicial e o credor envolvido, no prazo de 15 (quinze) dias. Em razão das objeções regularmente apresentadas ao Plano de Recuperação Judicial, determino a convocação de Assembleia Geral de Credores, na forma dos arts. 35, I, a, 36 e 56 da Lei n. 11.101/2005, incumbindo à Administradora Judicial a adoção das providências legais necessárias. Ademais, certifique a Serventia o integral cumprimento da decisão de fls. 1922/1925, quanto à publicação dos editais. Int.\"",
+    "data": "2026-08-14",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessão de crédito",
+      "cessão de direitos creditórios"
+    ],
+    "keywords_cessao_fracas": [
+      "sub-rogação"
+    ],
+    "keywords_rj": [
+      "recuperação judicial",
+      "plano de recuperação judicial",
+      "assembleia geral de credores",
+      "stay period",
+      "recuperanda"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJMS\\2026-08\\2026-08-14\\matches_2026-08-14.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Reconhecida cessão de créditos sujeitos à recuperação judicial pela Lepta Gestora de Crédito Ltda. com credores originários Fortgreen Comercial Agrícola Ltda. e F1rst Agbiotech Ltda.",
+        "cedente": "Fortgreen Comercial Agrícola Ltda. e F1rst Agbiotech Ltda.",
+        "cessionario": "Lepta Gestora de Crédito Ltda.",
+        "valor": null,
+        "classe_credito": "outro",
+        "cnj_rj": null,
+        "recuperanda": "Grupo Agromano",
+        "motivo_classificacao": "Cessão de crédito formalmente reconhecida em processo de recuperação judicial envolvendo cessionário institucional e créditos sujeitos aos efeitos da RJ.",
+        "descoberto_em": "2026-08-14"
+      }
+    ]
   }
 ]

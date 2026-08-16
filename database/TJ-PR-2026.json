@@ -5526,9 +5526,10 @@
         "valor": "R$5.405.585,00",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "BLACKPARTNERS MIRUNA FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS",
         "motivo_classificacao": "O texto relata expressamente a cessão do crédito e a substituição do exequente no processo, caracterizando cessão de crédito dentro de execução relacionada a recuperação judicial.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "alta"
@@ -5691,9 +5692,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": "5887803-78.2024.8.09.0051",
-        "recuperanda": null,
+        "recuperanda": "FERRARI ZAGATTO COMERCIO DE INSUMOS S/A",
         "motivo_classificacao": "O texto relata cessão de crédito dentro de processo de recuperação judicial, com menção expressa à necessidade de autorização do juízo recuperacional, confirmando tratar-se de cessão de crédito real.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -6031,9 +6033,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "ELCIO AZEVEDO PINTO - ME",
         "motivo_classificacao": "O texto trata especificamente de cessão de crédito discutida judicialmente, com alegações sobre validade, notificação do devedor e comprovação do preço, caracterizando cessão de crédito real no contexto de execução.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "alta"
@@ -6238,9 +6241,10 @@
         "valor": "R$ 5.094.166,72 (valor de um dos créditos mencionados)",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "HELENA GOULARTE ZANET",
         "motivo_classificacao": "O texto relata expressamente cessões de créditos judiciais, com pedidos de habilitação e homologação, caracterizando cessão de crédito dentro do processo, não sendo cessão de cotas ou menção incidental.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -6281,9 +6285,10 @@
         "valor": "R$ 142.033,27",
         "classe_credito": "crédito previdenciário inscrito em precatório",
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "PRECS INTERMEDIADORA S.A.",
         "motivo_classificacao": "O texto trata explicitamente da cessão de crédito judicial previdenciário, com pedido de homologação e substituição do credor, e detalha valores e jurisprudência aplicável, confirmando ser cessão de crédito real.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "alta"
@@ -6409,9 +6414,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": "0007109-52.2015.8.16.0185",
-        "recuperanda": null,
+        "recuperanda": "E.J.WAGNER ENGENHARIA E CONSTRUCAO LTDA",
         "motivo_classificacao": "O texto menciona cessão integral de direitos decorrentes de arrematação judicial, caracterizando substituição de titularidade de crédito/direitos no âmbito falimentar, confirmando cessão real.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -6495,9 +6501,10 @@
         "valor": "R$175.000,00",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS INVISTA CF (\"FUNDO\")",
         "motivo_classificacao": "O texto trata da cessão de crédito exequendo com homologação judicial e substituição processual, caracterizando cessão de crédito real no contexto do cumprimento de sentença.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "alta"
@@ -6538,9 +6545,10 @@
         "valor": "R$187.414,07",
         "classe_credito": "quirografário",
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "TTSCD SOCIEDADE DE CREDITO DIRETO S.A",
         "motivo_classificacao": "O texto trata da sub-rogação (cessão) de crédito dentro do processo de recuperação judicial, com pedido de reconhecimento e votação do crédito pelo cessionário na assembleia de credores.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -6722,9 +6730,10 @@
         "valor": "70% dos direitos hereditários sobre os créditos descritos",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "PADO S/A INDUSTRIAL COMERCIAL E IMPORTADORA",
         "motivo_classificacao": "O texto trata de cessão de direitos hereditários sobre créditos de precatório, com análise e homologação judicial, caracterizando cessão de crédito real no contexto do processo.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -6805,9 +6814,10 @@
         "valor": "R$14.142,38",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "TRAVESSIA SECURITIZADORA DE CREDITOS FINANCEIROS S.A.",
         "motivo_classificacao": "O texto menciona expressamente instrumento de cessão de direitos e legitimação da autora para ação de busca e apreensão, caracterizando cessão de crédito fiduciário, não sendo mera menção incidental.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "alta"
@@ -6958,9 +6968,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": "0002981-77.2022.8.16.0044",
-        "recuperanda": null,
+        "recuperanda": "EFFE PRODUTORA E COMERCIALIZADORA DE EPI LTDA",
         "motivo_classificacao": "O texto trata explicitamente de cessão parcial de crédito dentro do processo de recuperação judicial, com pedido formal para apresentação do instrumento de cessão, confirmando a existência de cessão de crédito real.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "alta"
@@ -6999,9 +7010,10 @@
         "valor": null,
         "classe_credito": "extraconcursal",
         "cnj_rj": "3003608-89.2025.8.19.0028",
-        "recuperanda": null,
+        "recuperanda": "R Y SERVICOS TECNICOS E INDUSTRIAIS LTDA",
         "motivo_classificacao": "O texto trata explicitamente de cessão de crédito (trava bancária/fomento) em contexto de recuperação judicial, com discussão sobre a titularidade e natureza do crédito cedido.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -7140,9 +7152,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "PEDRINI EMPREENDIMENTO IMOBILIARIOS LTDA.",
         "motivo_classificacao": "O texto relata habilitação da cessionária em razão de cessão de crédito, confirmando a substituição do credor no processo, caracterizando cessão de crédito real.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -7233,9 +7246,10 @@
         "valor": "R$ 2.790.529,30",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "OKNO 1 FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO-PADRONIZADOS",
         "motivo_classificacao": "O texto relata cessão de crédito de nota comercial inadimplida, com contrato de cessão e execução em curso, caracterizando cessão de crédito real no contexto de recuperação judicial/falência.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "alta"
@@ -7437,9 +7451,10 @@
         "valor": "R$ 794.538,66",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "HERBIOESTE HERBICIDAS LTDA",
         "motivo_classificacao": "O texto trata explicitamente de cessão de crédito oriunda da recuperanda para outra empresa, com análise da Administradora Judicial e decisão judicial sobre a operação, confirmando tratar-se de cessão de crédito no contexto da recuperação judicial.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "alta"
@@ -7484,9 +7499,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "GERALDO SUZUKI",
         "motivo_classificacao": "O texto menciona explicitamente créditos cedidos a cessionárias, caracterizando cessão de crédito dentro do contexto do processo.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -7612,9 +7628,10 @@
         "valor": "R$115.500,00",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "PEDRA BRILHANTE TRADING DE GRAOS LTDA",
         "motivo_classificacao": "O texto descreve claramente a cessão de crédito entre a autora e a ré, com discussão judicial sobre a validade e efeitos da cessão, caracterizando uma cessão de crédito real no contexto do processo.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "alta"
@@ -7840,9 +7857,10 @@
         "valor": "R$16.743,38",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "BANCO C6 S.A.",
         "motivo_classificacao": "O texto menciona instrumento de cessão de direitos que legitima o autor na ação, caracterizando cessão de crédito, porém não detalha cedente nem classe do crédito na recuperação judicial, nem processo de RJ/falência específico.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "alta"
@@ -8434,9 +8452,10 @@
         "valor": "R$ 20.631,00",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "BRUNA GABRIELLE FERNANDES CHAGAS",
         "motivo_classificacao": "O texto menciona expressamente cessão de crédito em favor da Bridgestone, com discussão sobre sua eficácia, caracterizando cessão de crédito real no contexto do processo.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -8699,9 +8718,10 @@
         "valor": "R$ 858.953,49",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "A.R. L. GUIMARAES LTDA",
         "motivo_classificacao": "O texto trata da cessão de crédito para fins de cumprimento de sentença, com menção expressa à cessão realizada e sua validade, configurando cessão de crédito real no contexto do processo.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -8754,9 +8774,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "ESPOLIO DE PAULO ROBERTO GEYER",
         "motivo_classificacao": "A comunicação extrajudicial da cessão de crédito foi formalmente reconhecida e produz efeitos no processo, caracterizando cessão real de crédito.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -8798,9 +8819,10 @@
         "valor": "R$ 202.053,25",
         "classe_credito": "alimentar (honorários advocatícios sucumbenciais)",
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "SAGE SECURITIZADORA DE APOIO A GESTAO EMPRESARIAL S/A",
         "motivo_classificacao": "O texto descreve claramente a formalização de cessão de crédito, com pedido e deferimento de sucessão processual no polo ativo, caracterizando cessão de crédito real no processo executivo.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "alta"
@@ -8880,9 +8902,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "JUELINTON SILVEIRA",
         "motivo_classificacao": "O texto menciona expressamente cessão de crédito entre partes no contexto de execução relacionada a crédito anotado em processo de recuperação judicial, caracterizando cessão real, embora sem detalhamento do valor, classe do crédito ou dados específicos do processo de recuperação.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -9095,9 +9118,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": "0005893-07.2021.8.16.0004",
-        "recuperanda": null,
+        "recuperanda": "VOLFFER MANUFATURA E DISTRIBUIDORA DE PECAS LTDA",
         "motivo_classificacao": "O texto relata cessão parcial de crédito indenizatório com desmembramento para individualização e habilitação dos cessionários, caracterizando cessão de crédito real no contexto de execução e concurso de credores.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -9978,9 +10002,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "ALAIN DANIEL RUTHENBERG",
         "motivo_classificacao": "O texto trata especificamente da cessão de direitos discutida em ação indenizatória, com análise da validade da escritura pública de cessão, caracterizando cessão de crédito e substituição processual, não sendo menção incidental ou outro tipo de cessão.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -10065,9 +10090,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "JOSE MAGATAO NETO",
         "motivo_classificacao": "O texto trata da habilitação e apuração de créditos cedidos (cessões) no âmbito de cumprimento de sentença, com discussão sobre cálculo e ordem de satisfação dos créditos cedidos, caracterizando cessão de crédito real.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -10413,9 +10439,10 @@
         "valor": "R$ 8.430.623,50",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "SUPREMO BANK FOMENTO LTDA",
         "motivo_classificacao": "O texto relata cessão de créditos para fins de execução, com discussão sobre a titularidade e responsabilidade pela inadimplência, caracterizando cessão de crédito real no contexto do processo.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -10581,9 +10608,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": "0017861-53.2025.8.16.0017",
-        "recuperanda": null,
+        "recuperanda": "COOPERATIVA DE CREDITO E INVESTIMENTO COM INTERACAO SOLIDARIA TRADICAO - CRESOL TRADICAO",
         "motivo_classificacao": "O texto menciona expressamente 'cessão de crédito noticiada' no processo de recuperação judicial, indicando uma cessão real, porém sem detalhes adicionais.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -10625,9 +10653,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "VERONICA MARIA PINTO",
         "motivo_classificacao": "O texto aborda diretamente cessão de crédito no contexto de execução, com análise de insolvência e má-fé, confirmando que é cessão de crédito real e não menção incidental ou outro tipo de cessão.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -10665,9 +10694,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "COOPERATIVA DE CREDITO E INVESTIMENTO COM INTERACAO SOLIDARIA NORTE PARANAENSE - CRESOL NORTE PARANAENSE",
         "motivo_classificacao": "O texto menciona explicitamente instrumento de cessão de direitos e legitimidade para ação judicial decorrente da cessão, caracterizando cessão de crédito; não há indicação de cessão de cotas ou uso diverso do termo.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -10708,9 +10738,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "ALMEIDA MERCADOS - COMERCIO, DISTRIBUIDORA E IMPORTADORA LTDA",
         "motivo_classificacao": "O texto aborda diretamente cessões de crédito em execução de precatório, com discussão sobre titularidade e pagamento, caracterizando cessão de crédito real no contexto processual.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -10758,11 +10789,668 @@
         "valor": "R$320.121,32",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "GUGELMIN CONSTRUCOES E EMPREENDIMENTOS LTDA",
         "motivo_classificacao": "O texto menciona a existência de créditos cedidos entre partes (cessionárias) no contexto de cumprimento de sentença, com discussão sobre pagamento e habilitação, caracterizando cessão de crédito; porém, não há detalhamento claro de cedente e cessionário nem vínculo explícito com processo de recuperação judicial/falência.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
+  },
+  {
+    "id": 662283916,
+    "cnj": "0089705-80.2026.8.16.0000",
+    "classe": "AGRAVO DE INSTRUMENTO",
+    "orgao": "6ª Câmara Cível",
+    "destinatarios": [
+      "AGROGALAXY FORNECEDORES III FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS DO AGRONEGOCIO (FIAGRO)",
+      "AGRO 100 COMERCIO DE PRODUTOS AGRICOLAS LTDA - EM RECUPERACAO JUDICIAL",
+      "MARCO ANTONIO RUFINO"
+    ],
+    "link": "https://projudi.tjpr.jus.br/projudi/processo/validacaoDocumentos.do?_tj=8a6c53f8698c7ff7826b4c776d71316d1925abc508bbf0c37395a1a670526233a68aac561a0d31bb52ea0a0021bde9f533076c70079be5b3",
+    "texto_completo": "  PODER JUDICIÁRIO DO ESTADO DO PARANÁ TRIBUNAL DE JUSTIÇA   AGRAVO DE INSTRUMENTO NPU 0089705-80.2026.8.16.0000, DA 10ª VARA CÍVEL DE LONDRINA Agravante: AGROGALAXY FORNECEDORES III FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS DO AGRONEGÓCIO (FIAGRO) Agravados: AGRO 100 COMÉRCIO DE PRODUTOS AGRÍCOLAS LTDA - EM RECUPERAÇÃO JUDICIAL E MARCO ANTONIO RUFINO         Vistos. 1. A requerida Agrogalaxy insurgiu-se contra a decisão (M. 25.1), proferida nos autos da ação de declaração de inexigibilidade de dívida c/c indenização por danos morais e sustação de protesto NPU 0034668-26.2026.8.16.0014, que concedeu a tutela provisória postulada na exordial, nos seguintes termos:   “A probabilidade do direito encontra-se evidenciada pelos documentos acostados à petição inicial, especialmente pelo Contrato de Compra e Venda de Grãos n.º 5149, pelo recibo de entrega da produção agrícola, pelo documento de compensação/quitação das duplicatas e, ainda, pelo e-mail interno emitido por preposto da primeira requerida, no qual há aparente reconhecimento de falha administrativa relacionada à baixa dos títulos posteriormente encaminhados a protesto (seqs. 1.4 a 1.11). Ao menos em sede de cognição sumária, os elementos constantes dos autos indicam que os títulos levados a protesto podem estar vinculados a obrigação já adimplida, circunstância que, em tese, compromete sua exigibilidade. O perigo de dano igualmente se mostra presente, haja vista que a manutenção do apontamento e eventual lavratura do protesto possuem aptidão para gerar restrições creditícias imediatas à parte autora, produtor rural que depende da regularidade de seu nome para obtenção de crédito e continuidade de sua atividade econômica. Outrossim, a medida pretendida revela-se reversível, pois eventual improcedência da demanda não impedirá a retomada dos meios ordinários de cobrança pelas requeridas. Diante do exposto, DEFIRO o pedido de antecipação de tutela para determinar a suspensão da exigibilidade dos títulos n.º 69160/001, 69161/001 e 69196/001, bem como a sustação do respectivo protesto, até ulterior deliberação deste Juízo”.   Nas suas razões recursais, alegou que: “a cessão dos créditos (06/10/2025) é anterior ao próprio contrato de barter (30/12/2025), à notificação formal da cessão (janeiro/2026), à entrega da soja (10/03/2026) e ao ‘encontro de contas’ (16/04/2026). Quando o Autor entregou os grãos e recebeu ‘quitação’ da Agro 100, esta já não era titular dos créditos havia meses – e o Autor havia sido formalmente notificado da cessão, com registro de entrega e leitura, desde janeiro de 2026, dispondo ainda, desde março de 2026, de boletos que estampavam a identidade do verdadeiro credor. Nenhum desses marcos foi enfrentado pela decisão agravada”; “os protestos foram lavrados em 27/05/2026, antes da chegada do ofício judicial ao Tabelionato, o qual, em 12/06/2026, procedeu à averbação de suspensão dos seus efeitos (M. 48.1). O que se busca neste recurso, portanto, é o restabelecimento dos efeitos de protestos regularmente lavrados e da exigibilidade dos títulos que os aparelharam”; “o pagamento somente extingue a obrigação quando feito ao credor ou a quem de direito o represente, e a quitação apenas libera o devedor quando emanada de quem detenha o crédito”; “no caso concreto, o ‘Recibo nº 36660’ e o recibo manuscrito de 16/04/2026 (mov. 1.7) emanam da Agro 100 – que, desde 06/10/2025, não era credora das duplicatas. O Termo de Cessão de Direitos Creditórios celebrado naquela data (doc. 03), firmado com a interveniência e anuência expressa de todas as sociedades do Grupo Agrogalaxy, individualiza as três cártulas em seu Anexo B (nº 69160/001, 69161/001 e 69196/001, vencimento 30/04/2026), com os respectivos preços de aquisição efetivamente desembolsados pelo Fundo (R$ 30.853,97, R$ 4.836,04 e R$ 20.812,27)”; “a consequência jurídica é singela: a ‘quitação’ de 16/04/2026 é, em relação ao Fundo, res inter alios acta – negócio celebrado entre o devedor e um terceiro (o ex-credor), do qual o titular do crédito não participou, ao qual não anuiu e que não pode, por definição, atingir sua esfera jurídica. Não houve ratificação pelo Fundo, tampouco reversão em seu proveito (art. 308, parte final): o produto da soja foi recebido e retido pela Agro 100, sociedade em recuperação judicial. Em suma, quem recebeu não era credor; quem era credor nada recebeu. Não há, tecnicamente, quitação – há, quando muito, crédito do Autor contra a Agro 100, a ser exercido pela via do regresso, jamais inexigibilidade do crédito do Cessionário”; “a causa extintiva invocada na inicial não é sequer pagamento em sentido estrito, mas compensação (‘encontro de contas’). E a compensação possui pressuposto estrutural inafastável, positivado no art. 368 do Código Civil: [...] exige-se reciprocidade atual de créditos e débito entre as mesmas pessoas”; “essa reciprocidade jamais existiu. O crédito do Autor pela entrega da soja nasceu em março de 2026, contra a Agro 100; sua dívida, representada pelas duplicatas, era devida, desde outubro de 2025, ao Fundo. Em momento algum as mesmas duas pessoas foram, simultaneamente, credora e devedora uma da outra. O art. 371 é expresso ao dispor que o devedor somente pode compensar com o credor o que este lhe dever; e o art. 380 arremata: ‘não se admite a compensação em prejuízo de direito de terceiro’”; “há mais. A própria Cláusula 11.9 do Contrato nº 5149, invocada na inicial como ‘pré-autorização’ do encontro de contas, desautoriza a tese autoral: [...] a cláusula pressupõe que a compradora (Agro 100) possua créditos contra o vendedor. Em 16/04/2026, a Agro 100 não os possuía – havia-os cedido, onerosamente, em 06/10/2025. E ainda que assim não fosse: o Contrato nº 5149 foi celebrado em 30/12/2025, depois da cessão. Convenção firmada entre o devedor e o ex-credor, em data posterior à transferência dos créditos, não pode instituir mecanismo extintivo oponível ao cessionário que os adquirira meses antes, sob pena de afronta direta ao art. 380 do Código Civil e à relatividade dos contratos”; “o Autor construiu sua pretensão sobre o regime da cessão civil de crédito, invocando os arts. 290, 292 e 294 do Código Civil. Pois bem: é exatamente dentro desse regime – o escolhido pelo próprio Autor – que sua tese sucumbe”; “o art. 294 do CC delimita temporalmente as exceções oponíveis: apenas aquelas já constituídas até a cessão ou até a ciência dela. Exceção formada posteriormente, a partir de negócio igualmente posterior celebrado com o ex-credor, não integra o rol de defesas transportáveis contra o cessionário”; “é precisamente a hipótese dos autos: a pretensa quitação data de 16/04/2026 – seis meses após a cessão (06/10/2025) – e decorre de contrato de barter firmado em 30/12/2025, também posterior à transferência. Não existia, ao tempo da cessão, exceção alguma: as duplicatas eram hígidas, vincendas e lastreadas em mercadorias entregues e recebidas sem ressalva (doc. 04), tanto que o Grupo Agrogalaxy declarou, no próprio Termo de Cessão (Cláusula 4.1), a inexistência de créditos vencidos ou de renegociações em curso (doc. 03)”; “resta ao Autor, então, apenas o socorro dos arts. 292 e 309 do Código Civil – o pagamento de boa-fé ao credor primitivo ou putativo, antes do conhecimento da cessão. Sucede que a proteção legal tem pressuposto inegociável: o desconhecimento da cessão. E esse pressuposto está documentalmente eliminado: a cessão foi formalmente notificada ao devedor, nos termos e para os efeitos do art. 290 do Código Civil, por e-mail entregue e aberto em 19/01/2026 e por mensagem de WhatsApp entregue e lida em 26/01/2026, ambos com registro de telemetria de entrega e leitura (doc. 05). As comunicações foram dirigidas a ‘Marco Antonio Rufino e Outros’ (CNPJ 18.384.079/0004-00) – exatamente o sacado das duplicatas e o vendedor do Contrato nº 5149 – e encaminhadas precisamente aos canais oficiais de contato do devedor – o endereço eletrônico luiz.eduardo_fernandes@yahoo.com.br e o telefone (43) 9141-3498 –, exatamente os que constam do Comprovante de Inscrição e de Situação Cadastral do CNPJ perante a Receita Federal do Brasil (doc. 06). Deram-se, ainda, em reforço de notificação anteriormente encaminhada, e identificaram a Cedente (CNPJ 01.236.287/0037-27, filial emitente das próprias NF e) e o Fundo Agravante como credor atual dos créditos de insumos”; “a disciplina legal, a partir daí, é linear: notificado o devedor, a cessão tornou-se plenamente eficaz perante ele (art. 290 do Código Civil); o pagamento posteriormente feito ao cedente não o libera perante o cessionário (art. 292 do Código Civil, a contrario sensu); e o devedor que, notificado, nada opôs à cessão não pode opor ao cessionário compensação (art. 377 do Código Civil) – a fortiori quando o pretenso contracrédito sequer existia ao tempo da cessão e da notificação. A soja foi entregue em 10/03/2026 e o ‘encontro de contas’ formalizado em 16/04/2026: ambos os atos são posteriores, em mais de um mês, à ciência formal e comprovada da cessão – e as duplicatas venceram em 30/04/2026, mais de três meses depois da notificação”; “não bastasse, a ciência é corroborada por documentos juntados pelo próprio Autor: os boletos de cobrança das três duplicatas, acostados à inicial como Anexo III (M. 1.6), foram emitidos e processados em 02/03/2026 – igualmente antes da entrega da soja e do ‘encontro de contas’ –, indicam como beneficiário o Fundo Agravante (CNPJ 62.588.649/0001-22)”; “o devedor que, além de formalmente notificado, detém instrumento de cobrança nominando o novo credor – e que o exibe em juízo como documento próprio – não pode alegar ignorância da cessão para validar ‘quitação’ obtida do antigo credor, tampouco extrair de negócio celebrado com o ex-credor efeito extintivo oponível ao verdadeiro titular do crédito”; “a decisão agravada valorou o e-mail interno (M. 1.11) como ‘aparente reconhecimento de falha administrativa relacionada à baixa dos títulos’. Lido na íntegra, todavia, o documento prova o contrário do que dele se extraiu”; “a mensagem, remetida em 16/04/2026 – o mesmo dia do ‘encontro de contas’ – por preposto administrativo da filial da Agro 100, sob o assunto ‘recompra de títulos cedidos – Marco Antonio Rufino’, informa que o cliente ‘possui alguns títulos cedidos’, que as baixas foram realizadas no sistema interno da companhia como encontro de contas e, ‘por esse motivo’, solicita ‘que seja realizada a recompra desses títulos’, relacionando exatamente as duplicatas nº 69160, 69161 e 69196”; “o documento, portanto: (i) confirma que os títulos estavam cedidos — a titularidade era do Fundo; (ii) revela que a baixa promovida na filial foi ato meramente interno, lançado em sistema gerencial da própria Cedente, sem qualquer participação ou anuência do credor; (iii) demonstra que a própria filial sabia, no ato, que a extinção dos títulos dependia de providência ulterior e distinta – a recompra dos créditos junto ao Fundo –, que solicitou à matriz e que não há nos autos prova alguma de que tenha ocorrido; e (iv) aloca a falha exclusivamente na esfera interna da Cedente”; “trata-se, pois, de declaração emanada da Agro 100, que faz prova contra ela – não contra o Fundo, que dela não participou. A consequência jurídica que o documento autoriza é a responsabilização da Cedente perante o Autor (e perante o próprio Fundo, nos termos das Cláusulas 4.1, 5 e 8 do Termo de Cessão – doc. 03), pela via do regresso; jamais a inexigibilidade do crédito do Cessionário que pagou preço de aquisição pela carteira amparado em declaração formal de higidez dos créditos. A decisão agravada, ao converter confissão da Cedente em prova de quitação oponível ao terceiro adquirente, incorreu em manifesto erro de valoração”; “anote-se, por fim, resposta que se antecipa: a circunstância de as notas fiscais consignarem a condição comercial ‘barter soja’ não transfere ao Cessionário o risco do fluxo interno de recompra da Cedente. A obrigação documentada nas duplicatas é pecuniária, líquida e com vencimento certo; a sistemática do grupo previa – como o próprio e-mail comprova – que a liquidação por entrega de grãos de títulos já cedidos se operasse mediante recompra prévia junto ao Fundo. O descumprimento desse fluxo é inadimplemento da Cedente, contratualmente alocado a ela, e resolve-se em perdas e danos e regresso – não em sacrifício do crédito de quem nada recebeu”; “as duplicatas em questão têm lastro integralmente comprovado: as mercadorias foram entregues e recebidas em setembro de 2025, com canhotos das NF-e firmados sem qualquer ressalva (doc. 04), e não houve recusa de aceite pelas vias e nos prazos dos arts. 7º e 8º da Lei nº 5.474/68. Nos termos do art. 15, inciso II, da mesma lei, a duplicata sem aceite, protestada e acompanhada do comprovante de entrega da mercadoria, sem recusa tempestiva e motivada, constitui obrigação líquida, certa e exigível”; “vencidos os títulos em 30/04/2026 sem pagamento ao credor neles indicado — insista-se: o Fundo, identificado nos boletos exibidos pelo próprio Autor —, o encaminhamento a protesto por falta de pagamento configura exercício regular de direito (art. 188, inciso I, do Código Civil), na exata finalidade do art. 1º da Lei nº 9.492/97: provar, formal e solenemente, o inadimplemento. Não há ilicitude alguma na conduta do Agravante; há credor exercendo, pela via legal típica, a tutela de crédito impago”; “ainda que se admitisse, por hipótese, a presença dos requisitos do art. 300 do CPC – o que se rejeita –, a decisão agravada padeceria de vício autônomo e suficiente à sua reforma: sustou o protesto de títulos que somam R$ 67.521,75 sem exigir qualquer contracautela e sem uma linha de fundamentação sobre sua dispensa”; “a decisão agravada sequer mencionou o tema nº 902/STJ: não exigiu caução, não fundamentou a dispensa e não cogitou da hipossuficiência do requerente (art. 300, § 1º, parte final, do CPC) – hipossuficiência que, de resto, não foi alegada, não sendo o Autor beneficiário de gratuidade e tendo recolhido integralmente as custas processuais. Configura-se, assim, dupla violação: ao precedente qualificado de observância obrigatória (art. 927, inciso III, do CPC) e ao dever de fundamentação analítica (art. 489, § 1º, incisos IV e VI, do CPC), seja por deixar de enfrentar questão apta a infirmar a conclusão adotada – a cessão, a titularidade do crédito e a cronologia documental –, seja por deixar de seguir o Tema 902/STJ sem demonstrar distinção ou superação”; “o perigo de dano reconhecido na origem – restrição creditícia ao produtor rural – merece temperamento à luz de dado objetivo dos autos: o sacado das duplicatas, o vendedor do Contrato nº 5149 e o devedor indicado nos apontamentos de protesto é ‘Marco Antonio Rufino e outros’, inscrição no CNPJ sob o nº 18.384.079/0004-00 (Ms. 1.4, 1.6 e 1.8/1.10). A ação, contudo, foi proposta por Marco Antonio Rufino, pessoa física (CPF 531.295.559-00), em nome próprio. Os protestos não recaem sobre o CPF do Autor, o que fragiliza sensivelmente a premissa de comprometimento imediato de suas linhas pessoais de crédito”; “em contrapartida, o periculum in mora inverso é concreto. O Agravante é fundo de investimento, veículo de poupança coletiva de cotistas, que pagou preço de aquisição pelos créditos e se vê privado, sem contracautela alguma, dos únicos instrumentos de conservação do crédito – o protesto e a própria exigibilidade –, em face de devedor cujo patrimônio relevante é a safra, bem consumível e de fácil alienação, e cuja corresponsável solidária apontada na própria inicial (Agro 100) encontra-se em recuperação judicial. Deferida e mantida a medida como está, eventual improcedência da demanda encontrará crédito desguarnecido e, possivelmente, irrecuperável”; “por fim, a extensão da tutela excede a própria finalidade que a justificaria: ao suspender ‘a exigibilidade dos títulos’ de forma ampla – e não apenas os efeitos publicísticos dos protestos –, a decisão agravada obsta inclusive a cobrança judicial do crédito, antecipando, na prática, o próprio resultado da demanda declaratória, em cognição sumária e sem garantia. Trata-se de provimento materialmente satisfativo, dissociado da finalidade acautelatória que o inspirou”. Postulou, inicialmente, a atribuição de efeito suspensivo ao recurso. Ao final, pleiteou o seu provimento, a fim de que a tutela provisória concedida na origem seja revogada, “com o restabelecimento definitivo da exigibilidade das duplicatas nº 69160/001, 69161/001 e 69196/001 e dos efeitos dos respectivos protestos”. Subsidiariamente, postulou que, em caso de manutenção da medida, seja exigido do autor a prestação de caução em dinheiro e limitado o seu alcance à suspensão dos efeitos dos protestos, tão somente. Pois bem. 2. A concessão do efeito suspensivo, nos termos dos art. 995, parágrafo único, e 1.019, I, do Código de Processo Civil, depende da existência cumulativa da probabilidade de provimento do recurso e do risco de dano grave, de difícil ou impossível reparação. Na espécie, em juízo sumário de cognição, vislumbro a presença apenas do primeiro requisito. Isso porque, conforme asseverado pela parte agravante, a cessão do crédito que originou os protestos contestados se deu antes (06.10.2025 – M. 1.7/AI) da conclusão do contrato de “barter” (30.12.2025 – M. 1.4) e da operação de compensação (16.04.2026 – M. 1.7), ocorrida, por sua vez, após a ciência do autor acerca da cessão (janeiro/2016 – Ms. 1.11/AI a 1.15/AI). A rigor, então, o pagamento feito por ele à cedente, através das sacas de soja, não possui o condão de obstar a exigibilidade dos títulos, nos termos do art. 377 do Código Civil:   Art. 377. O devedor que, notificado, nada opõe à cessão que o credor faz a terceiros dos seus direitos, não pode opor ao cessionário a compensação, que antes da cessão teria podido opor ao cedente. Se, porém, a cessão lhe não tiver sido notificada, poderá opor ao cessionário compensação do crédito que antes tinha contra o cedente.   A suposta falha administrativa da cedente na recompra dos títulos não pode ser oposta à cessionária de boa-fé que, em tese, não praticou qualquer irregularidade durante o desenvolvimento da relação jurídica travada entre as partes. Logo, a priori, não houve protesto irregular. De outro lado, no entanto, o perigo na demora relatado pela agravante é puramente hipotético e não se encontra lastreado em qualquer prova concreta de potencial insolvência do autor. A mera possibilidade de escoamento da safra financiada com os recursos da Agro 100, por si só, não é indicativo suficiente de fragilidade financeira do requerente e da consequente “inefetividade do crédito”. No entanto, assiste razão à recorrente no que tange à necessidade de prestação de caução. De acordo com o Tema Repetitivo nº 902/STJ, a concessão da medida de sustação do protesto exige contracautela:   “A legislação de regência estabelece que o documento hábil a protesto extrajudicial é aquele que caracteriza prova escrita de obrigação pecuniária líquida, certa e exigível. Portanto, a sustação de protesto de título, por representar restrição a direito do credor, exige prévio oferecimento de contracautela, a ser fixada conforme o prudente arbítrio do magistrado”.   Na espécie, além de o direito reclamado na exordial não ser altamente provável – diante das circunstâncias relatadas acima –, o autor não demonstrou a existência de hipossuficiência passível de eximi-lo da prestação da garantia. Sendo assim, a medida que melhor se adequa ao presente momento do feito é o condicionamento dos efeitos da tutela provisória concedida na origem à prestação de caução, no valor atualizado dos títulos, sob pena de suspensão dos seus efeitos até o julgamento deste recurso e posterior revogação da medida. Para o depósito da garantia em Juízo, concede-se o prazo de 15 dias ao requerente. 3. Comunique-se o Juízo a quo dos termos desta decisão, a fim de que lhe dê cumprimento. 4. Concomitantemente, intime-se a parte agravada para que, querendo, responda aos termos deste recurso, no prazo de 15 dias (art. 1019, II, CPC), podendo juntar a documentação que reputar necessária. 5. Oportunamente, voltem conclusos.   Curitiba, data de inserção no sistema.   LILIAN ROMERO Desembargadora Relatora",
+    "data": "2026-07-16",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessionário",
+      "cessionária",
+      "cessão de direitos creditórios"
+    ],
+    "keywords_cessao_fracas": [
+      "cedente"
+    ],
+    "keywords_rj": [
+      "recuperação judicial",
+      "em recuperação judicial"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJPR\\2026-07\\2026-07-16\\matches_2026-07-16.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Cessão de créditos em processo de recuperação judicial da Agro 100 para fundo de investimento FIAGRO, com notificação formal e discussão sobre quitação e compensação.",
+        "cedente": "Agro 100 Comércio de Produtos Agrícolas Ltda",
+        "cessionario": "Agrogalaxy Fornecedores III Fundo de Investimento nas Cadeias Produtivas do Agronegócio (FIAGRO)",
+        "valor": "R$ 30.853,97, R$ 4.836,04 e R$ 20.812,27",
+        "classe_credito": "quirografário",
+        "cnj_rj": null,
+        "recuperanda": "Agro 100 Comércio de Produtos Agrícolas Ltda",
+        "motivo_classificacao": "Cessão de crédito em recuperação judicial para fundo de investimento, com notificação formal e discussão sobre validade da quitação e compensação, envolvendo crédito concursal.",
+        "descoberto_em": "2026-07-16"
+      }
+    ]
+  },
+  {
+    "id": 662203589,
+    "cnj": "0017227-42.2020.8.16.0014",
+    "classe": "EXECUçãO DE TíTULO EXTRAJUDICIAL",
+    "orgao": "4ª Vara Cível de Londrina",
+    "destinatarios": [
+      "CVPAR I FUNDO DE INVESTIMENTO EM DIREITOS CREDITóRIOS RESPONSABILIDADE LIMITADA",
+      "FOREMAN CONFECçõES EIRELI - EM RECUPERAçãO JUDICIAL",
+      "RODOLFO KOURI",
+      "RUBENS MILESKI",
+      "CAIXA ECONôMICA FEDERAL",
+      "RIVO FUNDO DE INVESTIMENTO EM DIREITOS CREDITóRIOS"
+    ],
+    "link": "https://projudi.tjpr.jus.br/projudi/processo/validacaoDocumentos.do?_tj=8a6c53f8698c7ff7826b4c776d71316d1925abc508bbf0c37395a1a67052623380141b7cacf3d5171e3a5c4bce69e8112f87e56e2e6feb39",
+    "texto_completo": "PODER JUDICIÁRIO DO ESTADO DO PARANÁ COMARCA DA REGIÃO METROPOLITANA DE LONDRINA - FORO CENTRAL DE LONDRINA 4ª VARA CÍVEL DE LONDRINA - PROJUDI Avenida Duque de Caxias, 689 - Anexo I, 4º And - Caiçaras - Londrina/PR - CEP: 86.015-902 - Fone: (43) 3342.2732 - E-mail: lon-4vj-e@tjpr.jus.br Autos nº. 0017227-42.2020.8.16.0014   Processo:   0017227-42.2020.8.16.0014 Classe Processual:   Execução de Título Extrajudicial Assunto Principal:   Cessão de Crédito Valor da Causa:   R$1.579.067,05 Exequente(s):   CVPAR I FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS RESPONSABILIDADE LIMITADA Executado(s):   FOREMAN CONFECÇÕES EIRELI - Em Recuperação Judicial RODOLFO KOURI RUBENS MILESKI Vistos. Tornam os autos conclusos para decisão.  Londrina, 06 de julho de 2026.   Jamil Riechi Filho Juiz de Direito",
+    "data": "2026-07-16",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessão de crédito"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "recuperação judicial",
+      "em recuperação judicial"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJPR\\2026-07\\2026-07-16\\matches_2026-07-16.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "media",
+        "resumo": "Cessão de crédito no valor de R$1.579.067,05 envolvendo fundo de investimento em direitos creditórios e empresa em recuperação judicial.",
+        "cedente": null,
+        "cessionario": "CVPAR I FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS RESPONSABILIDADE LIMITADA",
+        "valor": "R$1.579.067,05",
+        "classe_credito": "outro",
+        "cnj_rj": null,
+        "recuperanda": "FOREMAN CONFECÇÕES EIRELI",
+        "motivo_classificacao": "Cessão de crédito realizada por fundo de investimento em direitos creditórios em processo de recuperação judicial, caracterizando crédito concursal relevante.",
+        "descoberto_em": "2026-07-16"
+      }
+    ]
+  },
+  {
+    "id": 668202486,
+    "cnj": "0003537-55.2023.8.16.0170",
+    "classe": "RECUPERAçãO JUDICIAL",
+    "orgao": "1ª Vara Estadual de Falências e Recuperação Judicial",
+    "destinatarios": [
+      "ADM TRANSPORTE E LOGíSTICA LTDA",
+      "ALEXANDRE SPERAFICO",
+      "COBRAZEM AGROINDUSTRIAL LTDA",
+      "CURY SOCIEDADE INDIVIDUAL DE ADVOCACIA (ADMINISTRADOR JUDICIAL DO(A) SPERAFICO AGROINDUSTRIAL LTDA EM RECUPERACAO JUDICIAL) REPRESENTADO(A) POR CURY SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+      "DALTON SPERAFICO",
+      "DENIS SPERAFICO",
+      "DILSO SPERAFICO",
+      "ESPóLIO DE LEVINO JOSE SPERAFICO REPRESENTADO(A) POR DENIS SPERAFICO",
+      "ITACIR ANTONIO SPERAFICO",
+      "MARCOS JOSé SPERAFICO",
+      "RICARDO LUIZ SPERAFICO",
+      "RODRIGO VICENTE SPERAFICO",
+      "SPERAFICO AGROINDUSTRIAL LTDA EM RECUPERACAO JUDICIAL",
+      "SPERAFICO DA AMAZONIA S.A.",
+      "AGRICOLA HORIZONTE LTDA",
+      "AGROCAT DISTRIBUIDORA DE INSUMOS AGRíCOLAS LTDA.",
+      "AGROINDUSTRIAL S. FRANCISCO LTDA",
+      "AGROSANTIN - EIRELI",
+      "AMN AGROPECUáRIA E TRANSPORTES LTDA (AMN)",
+      "ANA PAULA GUARENGHI",
+      "ASSOCIAçãO DOS ADVOGADOS DO BANCO DO BRASIL - ASABB",
+      "BALNEI LORENçO ROTTA",
+      "BANCO BESA S.A.",
+      "BANCO BRADESCO S.A.",
+      "BANCO DA AMAZONIA S/A",
+      "BANCO DAYCOVAL S/A",
+      "BANCO DO ESTADO DO RIO GRANDE DO SUL  BANRISUL S.A",
+      "BANCO PLENO SA",
+      "BANCO RURAL S.A - EM LIQUIDACAO EXTRAJUDICIAL",
+      "BANCO SAFRA S A",
+      "BANCO SANTANDER (BRASIL) S.A.",
+      "BATISTA, PEREIRA & OLIVEIRA ADVOGADOS ASSSOCIADOS",
+      "BENIR ADãO ROTTA",
+      "BLAZIUS & LORENZETTI ADVOGADOS ASSOCIADOS",
+      "BRF S.A.",
+      "CAMILOTTI CASTELLANI SOCIEDADE DE ADVOGADOS",
+      "CARLOS ALBERTO PAVAN",
+      "CEMATU PARTICIPAçõES LTDA.",
+      "CEPAM HOLDING LTDA",
+      "CEREALE BRASIL AGROINDUSTRIAL LTDA",
+      "CIAMARA INSUMOS LTDA",
+      "CLAUDIOMIR NUNES CORREIA",
+      "COOATOL COMERCIO DE INSUMOS AGROPECUáRIOS LTDA",
+      "COOPAVEL COOPERATIVA AGROINDUSTRIAL",
+      "COOPERATIVA DE CREDITO, POUPANCA E INVESTIMENTO PROGRESSO - SICREDI PROGRESSO PR/SP",
+      "COPEL COMERCIALIZAçãO S.A.",
+      "COPEL DISTRIBUIçãO S.A.",
+      "COTRIGUACU COOPERATIVA CENTRAL",
+      "C.VALE - COOPERATIVA AGROINDUSTRIAL",
+      "CVP CONSULTORIA EMPRESARIAL LTDA",
+      "DIRCEU GILSON PRASS",
+      "DISTRIBUIDORA MERIDIONAL DE MOTORES CUMMINS S/A",
+      "DOMINGOS ROTTA",
+      "ENAR EMPRESA NAçãO DE ARMAZéNS GERAIS LTDA.",
+      "ENéCIO HERPICH",
+      "ESPóLIO DE MARCOS MASAGAO RIBEIRO REPRESENTADO(A) POR FERNANDA CARUSO CONDE MASAGãO RIBEIRO",
+      "ESTADO DE MATO GROSSO DO SUL",
+      "ESTADO DO PARANá",
+      "ESTEVãO RUCHINSKI ADVOGADOS ASSOCIADOS S/C",
+      "FERNANDO ANGST",
+      "FLOWINVEST FUNDO DE INVESTIMENTO EM DIREITOS CREDITíCIOS",
+      "FRANCISCO CARLOS RIBAS MARCONDES",
+      "FRIESE EQUIPAMENTOS INDUSTRIAIS LTDA",
+      "FRIGORíFICO RAINHA DA PAZ LTDA",
+      "FRIZZO & FERIATO ADVOCACIA EMPRESARIAL",
+      "FUNDO DE INVESTIMENTO EM DIREITOS CREDITóRIOS NãO PADRONIZADOS INVISTA CF (\"FUNDO\")",
+      "FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO-PADRONIZADOS PCG-BRASIL MULTICARTEIRA",
+      "GFM FUNDO DE INVESTIMENTO EM DIREITOS CREDITóRIOS MULTICRéDITO",
+      "GLéBITON SILVA DE AQUINO",
+      "GRANSOL GRANEIS SóLIDOS LTDA.",
+      "GRASEL & CIA LTDA",
+      "GUAPORé PARTICIPAçõES E NEGóCIOS S/C LTDA",
+      "GUSTAVO TEPEDINO ADVOGADOS",
+      "HéRCULES FUNDO DE INVESTIMENTO",
+      "ICAVEL VEICULOS LTDA",
+      "IMCOPA IMPORTAçãO EXPORTAçãO E INDúSTRIA DE ÓLEOS S.A.",
+      "INDúSTRIA QUíMICA CMT LTDA",
+      "INVISTA CRéDITO E INVESTIMENTO S/A",
+      "IOB INFORMAçõES OBJETIVAS PUBLICAçõES LTDA",
+      "IRANí UHLEIN HERPICH",
+      "I RIEDI E CIA LTDA",
+      "JAGUAFRANGOS INDUSTRIA E COMERCIO DE ALIMENTOS LTDA",
+      "JANETE RODRIGUES",
+      "JOãO LOPES",
+      "JULIERME ROMERO",
+      "JULIO CESAR GARCIA",
+      "KRIKOR KAYSSERLIAN E ADVOGADOS ASSOCIADOS",
+      "LéIA PESSOA FREIRE",
+      "LEOMAR ANTONIO BERGAMO",
+      "LIA MASAGAO RIBEIRO CASABONA",
+      "LUCAS EDUARDO VIEIRA PRESTES",
+      "LUCIO MAURO ELGER",
+      "LUIZ MASAGãO RIBEIRO",
+      "MáRCIO HERPICH",
+      "MARIA CECILIA CAVALCANTE CIAMPOLINI",
+      "MARIA ELIZETE TABORDA NACONESKI",
+      "MARIA LUCIA CIAMPOLINI",
+      "MARIANO, GUIMARãES & CIA LTDA",
+      "MARINO BERWANGES",
+      "MARIO HENRIQUE MARCON",
+      "MAURO MACHADO DA SILVA",
+      "MEANDRO SOUZA FREIRE",
+      "MGT BRASIL COMERCIAL IMPORTADORA E EXPORTADORA",
+      "MILTON WACHHOLZ",
+      "MUNICíPIO DE CAMPO GRANDE - MS",
+      "NEDER GREGOL MARQUES",
+      "NELSI MARIA SCHERER",
+      "NEODI MARIO GABARDO",
+      "O B - COMERCIO DE CEREAIS LTDA",
+      "ORLANDO BELINE FRANCA",
+      "PARODI E CIA LTDA",
+      "PAULO MASAGAO RIBEIRO",
+      "PITHAN & LOUBET ADVOCACIA",
+      "PROCURADORIA DA FAZENDA NACIONAL (PGFN)",
+      "RAMOS ZUANON E MANASSERO ADVOGADOS",
+      "RECH AGRíCOLA S/A",
+      "RITA SCHERER WEBLER",
+      "ROBSON FERNANDO BARROS DE SOUSA",
+      "RUBI FACHIN",
+      "RUCKER CURI ADVOCACIA E CONSULTORIA JURIDICA",
+      "SANDRA JASIRA STIEBE",
+      "SANTA LUZIA EMPREENDIMENTOS IMOBILIARIOS S. A. - EM LIQUIDACAO",
+      "SERGIO SCHIMILOSKI",
+      "SICREDI SUDOESTE MT- AGêNCIA DE SAPEZAL",
+      "SOLAE DO BRASIL INDúSTRIA E COMéRCIO DE ALIMENTOS LTDA.",
+      "SUEZ - TECNOLOGIAS E SOLUçõES PARA TRATAMENTO DE ÁGUAS LTDA.",
+      "TATIANE WEBLER FREITAS",
+      "T.B. LAB INTERMEDIAçãO DE NEGóCIOS EIRELI",
+      "TRAVESSIA SECURITIZADORA DE CREDITOS FINANCEIROS VIII S.A.",
+      "UNAVANTI FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS",
+      "VITERRA BRASIL S.A.",
+      "ZANETTI & ADVOGADOS ASSOCIADOS",
+      "ZIRO MURATA JUNIOR"
+    ],
+    "link": "https://projudi.tjpr.jus.br/projudi/processo/validacaoDocumentos.do?_tj=8a6c53f8698c7ff7826b4c776d71316d1925abc508bbf0c37395a1a670526233ff04be0ad915c5ce1229aa633dbf6554b4847cdde55862de",
+    "texto_completo": "PODER JUDICIÁRIO DO ESTADO DO PARANÁ COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - FORO CENTRAL DE CURITIBA 1ª VARA ESTADUAL DE FALÊNCIAS E RECUPERAÇÃO JUDICIAL - PROJUDI Rua da Glória, 362 - 6º andar - Centro - Curitiba/PR - CEP: 80.030-060 - Fone: 41-32004732 - E-mail: ctba-27vj-s@tjpr.jus.br Autos nº. 0003537-55.2023.8.16.0170 Processo:   0003537-55.2023.8.16.0170 Classe Processual:   Recuperação Judicial Assunto Principal:   Autofalência Valor da Causa:   R$1.076.208.843,35 Autor(s):   ADM TRANSPORTE E LOGÍSTICA LTDA ALEXANDRE SPERAFICO Cobrazem Agroindustrial Ltda Cury Sociedade Individual de Advocacia (ADMINISTRADOR JUDICIAL DO(A) SPERAFICO AGROINDUSTRIAL LTDA EM RECUPERACAO JUDICIAL) representado(a) por Cury Sociedade Individual de Advocacia DALTON SPERAFICO DENIS SPERAFICO DILSO SPERAFICO ITACIR ANTONIO SPERAFICO ESPÓLIO DE LEVINO JOSE SPERAFICO representado(a) por DENIS SPERAFICO MARCOS JOSÉ SPERAFICO RICARDO LUIZ SPERAFICO RODRIGO VICENTE SPERAFICO SPERAFICO AGROINDUSTRIAL LTDA EM RECUPERACAO JUDICIAL SPERAFICO DA AMAZONIA S.A. Réu(s):   1. Apresentado pelo Administrador Judicial o relatório pormenorizado do andamento processual em cumprimento ao despacho anterior, passo a deliberar sobre os expedientes pendentes, organizando a marcha processual para garantir a regularidade e a celeridade do feito. 2. Do status do plano de recuperação judicial e exigência de regularidade fiscal. O Plano de Recuperação Judicial (PRJ) foi submetido à Assembleia Geral de Credores (AGC) realizada em duas sessões (26/03/2025 e 02/04/2025), sendo concluída em 14/04/2025 (Mov. 4258.1). O plano obteve aprovação dos credores em ambos os cenários de votação determinados pelo Tribunal de Justiça (com e sem o voto da credora Cepam). O feito aguarda, atualmente, a decisão de homologação judicial.  Paralelamente, o Estado do Paraná compareceu aos autos (Mov. 5221.1) noticiando a manutenção de expressivos débitos fiscais ativos e informando que os mandados de segurança impetrados pelas devedoras foram denegados, pugnando pela apresentação das devidas Certidões Negativas de Débito (CND). Considerando a aprovação do plano de recuperação pelos credores e a iminência da análise de sua homologação por este Juízo, resta indispensável aferir a regularização do passivo tributário das devedoras.  Assim, diante do informado pelo Estado do Paraná no Mov. 5221.1, intimem-se as Recuperandas para que, no prazo de 10 (dez) dias, apresentem as certidões de regularidade fiscal para todos os entes federados (União, Estado e Municípios de atuação), nos exatos termos do artigo 57 da Lei nº 11.101/2005 e em cumprimento ao item 15.1 da decisão de Mov. 4635, sob pena de inviabilizar a concessão e homologação do plano recuperacional.    3. Da ciência das decisões recursais e conflito de competência. Tomo ciência das decisões proferidas pelas instâncias superiores acostadas recentemente aos autos, conforme síntese abaixo: Mov. 5098.1: Decisão monocrática da 17ª Câmara Cível do TJPR que indeferiu o efeito suspensivo pleiteado por Maria Elizete Taborda Naconeski, mantendo hígida a convalidação da cessão de crédito promovida pelas Recuperandas em favor de terceiros, por não vislumbrar prejuízo ou fraude ao concurso de credores. Mov. 5226.1: Acórdão da 17ª Câmara Cível do TJPR que negou provimento ao recurso interposto por Batista, Pereira & Oliveira Advogados Associados e ENAR, chancelando a decisão que autorizou a oneração da \"Fazenda Paraíso\" para compra de insumos agrícolas e determinou o levantamento de penhoras no rosto dos autos por força da atratividade do juízo universal. Mov. 5227.2 (Conflito de Competência nº 216501/PR): Decisão liminar do Superior Tribunal de Justiça (STJ), sob relatoria da Ministra Maria Isabel Gallotti, que conheceu do conflito para declarar competente este Juízo para deliberar sobre a submissão de créditos, destinação e atos de constrição sobre os bens do Grupo Sperafico, suspendendo medidas expropriatórias que tramitavam perante o Juízo de Dourados/MS. Intimem-se as partes sobre o teor das decisões acima indicadas.   4. Das propostas de cessão de crédito, permutas e transferências de bens. Para a organização dos pleitos individuais apresentados pelas Recuperandas e terceiros, determino as seguintes providências: A) A empresa Kpital Invest Ltda. (mov. 5224) formalizou proposta para adquirir, mediante pagamento à vista de R$ 5.647.595,94, o crédito quirografário de R$ 125.502.132,14 que o Grupo Sperafico detém junto à Liquidação Extrajudicial do Banco Rural S.A. Intimem-se o Administrador Judicial e as Recuperandas para que se manifestem sobre a vantajosidade e viabilidade da proposta no prazo comum de 05 (cinco) dias. Em seguida, dê-se vista ao Ministério Público para sua manifestação. B) As Recuperandas (mov. 5104) postulam autorização judicial para permutar 22 caminhões antigos (avaliados em R$ 2.292.000,00) por 6 veículos novos, bem como permutar 1 semirreboque por 600 toneladas de adubo orgânico com a empresa Compostec Soluções Agroambientais Ltda. Intime-se o Administrador Judicial para que emita parecer técnico e opinativo sobre o pedido de permuta no prazo de 05 (cinco) dias. C) As Recuperandas requerem autorização para outorga de escrituras públicas de mais de 20 matrículas de imóveis rurais (Chácara Paraíso) vendidos a Ilmo Bauermann em 2017 (antes do pedido de RJ), alegando que a posse já foi transmitida na assinatura do contrato. Intimem-se o Administrador Judicial e o Ministério Público para que, sucessivamente, manifestem-se sobre o pedido de transferência no prazo de 05 (cinco) dias cada um. D) As devedoras relatam que, embora a permuta de caminhões tenha sido autorizada no Mov. 4635, restam pendentes bloqueios judiciais inseridos via RENAJUD sobre 5 veículos específicos (placas: ADK9I96, ADK9I97, AHR0815, EMU2D50 e EMU2D86). Em que pese o contido no item 2 da decisão de Mov. 4635, intime-se o Administrador Judicial para que se manifeste sobre a situação atualizada desses bens e as restrições indicadas, em conformidade com o que requereu no relatório de Mov. 5223, no prazo de 05 (cinco) dias.   5. A 16ª Vara Federal de Curitiba enviou ofício solicitando a anotação de penhora no rosto dos autos desta Recuperação Judicial sobre eventuais créditos de titularidade da credora IMCOPA Importação, Exportação e Indústria de Óleos S.A., em razão de Execução Fiscal que cobra o montante de R$ 46.024.136,90 (Mov. 5113.2).  Sabendo-se que a IMCOPA se encontra sob processo de Recuperação Judicial próprio, qualquer ato de constrição que atinja seu patrimônio de direitos deve passar pelo crivo do juízo universal competente por sua reestruturação nos próprios autos da recuperação. A penhora de seus créditos tributários federais sem tal análise prévia violaria as normas de preservação da empresa e a competência exclusiva estabelecida pela Lei nº 11.101/2005. Por conseguinte, determino a suspensão dos efeitos de anotação da penhora solicitada no ofício de Mov. 5113.2 até que a matéria seja formalmente debatida e decidida no bojo dos autos principais da Recuperação Judicial da IMCOPA, cabendo ao juízo exercer o controle de essencialidade sobre tais direitos creditórios e deliberar sobre a viabilidade ou não da constrição.  Oficie-se ao Juízo Federal de origem comunicando esta decisão.   6. Dos esclarecimentos prestados pela administradora judicial (mov. 5223.1) Acolho e analiso os esclarecimentos técnicos prestados pela Administradora Judicial no Mov. 5223.1: A) Da Interação com a Falência das Fazendas Reunidas Boi Gordo. A Administradora Judicial informou a existência de ação de extensão de falência cumulada com desconsideração de personalidade jurídica em trâmite perante a 3ª Vara de Falências de SP (nº 0032966-17.2017.8.26.0100), na qual houve determinação de arresto de bens das Recuperandas. O AJ pontuou que diligenciará para obter acesso aos autos, que tramitam em segredo de justiça. Cumpre pontuar, de início, que o prazo de suspensão (stay period) desta recuperação judicial já se encontra findo, de modo que, nos termos da legislação de regência e da jurisprudência consolidada, não cabe mais reabrir discussões acerca de essencialidade de bens de capital após o escoamento de referido prazo legal.  No mais, considerando que o Administrador Judicial informou não possuir acesso aos autos da falência em São Paulo, intime-se o AJ para que proceda ao seu cadastramento na referida demanda e, ato contínuo, emita manifestação técnica minuciosa detalhando a extensão e os efeitos práticos da decisão que decretou o arresto sobre o patrimônio das devedoras.   B) Dos Pedidos de Alienação de Imóveis (Mov. 5082 e Previsão no PRJ). A Administradora Judicial esclareceu (mov. 5223) que as alienações de imóveis pretendidas no Mov. 5082 (Matrículas 2.380, 7.046 e 3.343) não estão individualizadas no Plano de Recuperação Judicial aprovado, constando apenas previsão genérica de venda de ativos. Embora o Plano de Recuperação do Grupo Sperafico preveja genericamente a alienação de ativos em sua cláusula 3.5, tal plano e seus modificativos ainda não foram homologados por este Juízo. Portanto, qualquer alienação de bens do ativo não circulante carece de criteriosa análise documental e prévia autorização judicial específica para garantir a lisura e a segurança jurídica do ato. Diante disso, intime-se a Recuperanda para que, no prazo de 10 (dez) dias, apresente os esclarecimentos complementares e todos os documentos requisitados pela Administradora Judicial nos Movs. 5070 e 5223 (incluindo laudos atualizados, matrículas recentes, prova de regularização de gravames e certidões de indisponibilidade).   7. Intimem-se as Recuperandas e o Administrador Judicial para que, no prazo de 10 (dez) dias, manifestem-se de forma detalhada e específica sobre o alegado pelo credor IMCOPA no Mov. 5228.1, bem como sobre a penhora comunicada no Mov. 5230.1.   8. Em mov. 5232, a Recuperanda informa que o credor Rubi Fachin promove execução de título extrajudicial contra a co-recuperanda Cobrazem e Denis Sperafico perante a 3ª Vara Cível de Cuiabá/MT (autos nº 0001842-41.2002.8.11.0041). Informa que naqueles autos ocorreu o bloqueio via SISBAJUD das contas da devedora. Argumenta que, se tratando de crédito concursal (fato gerador de 2006, anterior à RJ), a retenção de valores viola flagrantemente a igualdade de credores. Alega, ainda, que, a competência para deliberar sobre a constrição e levantamento de valores é do juízo universal. Requer a determinação de suspensão imediata da execução que tramita em Cuiabá/MT; determinação da liberação imediata dos valores constritos em favor das Recuperandas; expedição de ofício com força de mandado ao Juízo da 3ª Vara Cível de Cuiabá/MT para cumprimento da liberação.  A) Antes de deliberar acerca do Requerido, determino a oitiva das partes. Assim, intimem-se a parte Exequente e o Administrador Judicial para que se manifestem sobre o mérito do pedido.   9. Diligências necessárias, intimem-se.  Curitiba, 13 de julho de 2026. Pedro Ivo Lins Moreira Juiz de Direito",
+    "data": "2026-07-23",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessão de crédito"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "recuperação judicial",
+      "administrador judicial",
+      "plano de recuperação judicial",
+      "assembleia geral de credores",
+      "crédito concursal",
+      "recuperanda",
+      "lei nº 11.101",
+      "falência"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJPR\\2026-07\\2026-07-23\\matches_2026-07-23.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": false,
+        "confianca": "media",
+        "resumo": "Foi formalizada proposta para aquisição de crédito quirografário do Grupo Sperafico junto à Liquidação Extrajudicial do Banco Rural S.A. por empresa Kpital Invest Ltda.",
+        "cedente": "Grupo Sperafico",
+        "cessionario": "Kpital Invest Ltda.",
+        "valor": "R$ 125.502.132,14",
+        "classe_credito": "quirografário",
+        "cnj_rj": "0003537-55.2023.8.16.0170",
+        "recuperanda": "Sperafico Agroindustrial Ltda em Recuperação Judicial",
+        "motivo_classificacao": "Proposta formalizada para compra de crédito quirografário em processo de recuperação judicial, envolvendo empresa institucional como cessionário.",
+        "descoberto_em": "2026-07-24"
+      }
+    ]
+  },
+  {
+    "id": 668294675,
+    "cnj": "0015613-03.2014.8.16.0017",
+    "classe": "CUMPRIMENTO DE SENTENçA",
+    "orgao": "4ª Vara Cível de Maringá",
+    "destinatarios": [
+      "BANCO SANTANDER (BRASIL) S.A.",
+      "NEWLABOR INDUSTRIA E COMERCIO LTDA"
+    ],
+    "link": "https://projudi.tjpr.jus.br/projudi/processo/validacaoDocumentos.do?_tj=8a6c53f8698c7ff7826b4c776d71316d1925abc508bbf0c37395a1a670526233da4e77b8fbef5fc10db5ba8d0f929a43638e071689dc95ee",
+    "texto_completo": "PODER JUDICIÁRIO DO ESTADO DO PARANÁ COMARCA DA REGIÃO METROPOLITANA DE MARINGÁ - FORO CENTRAL DE MARINGÁ 4ª VARA CÍVEL DE MARINGÁ - PROJUDI Av. Pedro Taques, 294 - 1ª Sobreloja - Torre Norte - Atendimento ao público: das 12h às 18h - Maringá/PR - CEP: 87.030-008 - Fone: (44) 3472-2304 - Celular: (44) 3472-2304 - E-mail: mar-4vj-s@tjpr.jus.br Autos nº. 0015613-03.2014.8.16.0017 Autos nº 0015613-03.2014.8.16.0017 1. RELATÓRIO Trata-se de fase de cumprimento de sentença, originada de ação monitória ajuizada em 07 de agosto de 2014 (mov. 1.1) por BANCO SANTANDER (BRASIL) S.A. em face de NEWLABOR INDÚSTRIA E COMÉRCIO LTDA., fundada em contrato de desconto de cheques (operação nº 0005004699799001694), com débito inicial de R$ 102.619,98. O mandado de citação foi expedido e, após tentativas infrutíferas nos endereços da inicial e em endereço indicado pelo autor (Rodovia PR-317), a ré foi citada por oficial de justiça em 14 de abril de 2016 (mov. 77.1). Decorrido o prazo sem pagamento ou embargos, o mandado inicial foi convertido em mandado executivo em 05 de julho de 2016 (mov. 81.1). Inaugurada a fase executiva, o exequente requereu medidas de constrição. A primeira tentativa de bloqueio de ativos via sistema Bacenjud, ocorrida em 12 de julho de 2017 (mov. 112.2), resultou no bloqueio de apenas R$ 1,11 (mov. 113.2), valor considerado irrisório e imediatamente desbloqueado (mov. 115.1). A pesquisa no sistema Renajud, em 18 de agosto de 2017 (mov. 116.2), localizou quatro veículos (VW/Gol 2011/2012, M.Benz/Atego 2428 2010/2011, M.Benz/Atego 2425 2010, M.Benz/Atego 1418 2009), todos, porém, já com restrições judiciais pré-existentes, inviabilizando a penhora. Diante do insucesso na localização de bens, o processo foi suspenso a pedido do credor por 360 dias a partir de 07 de dezembro de 2017 (mov. 130.1), com fulcro no art. 921, inciso III, do Código de Processo Civil. Em 14 de setembro de 2018, sobreveio comunicação da 6ª Vara Cível de Maringá informando a decretação da falência da empresa executada nos autos nº 0020053-13.2012.8.16.0017 (mov. 132.1 e 132.2). Em razão da falência, o feito foi suspenso em 18 de setembro de 2018 (mov. 134.1), com fundamento no art. 6º da Lei nº 11.101/2005, permanecendo arquivado provisoriamente. A suspensão foi levantada em 24 de junho de 2025 (mov. 140.0), e a Secretaria, por meio de ato ordinatório (mov. 141.1), intimou as partes para se manifestarem sobre a eventual ocorrência de prescrição intercorrente, nos termos do art. 921, §§ 4º e 5º, do CPC. O exequente original, Banco Santander, informou a cessão do crédito (mov. 158.1). A alegada cessionária, FIDC MULTISEGMENTOS NPL IPANEMA VI RESPONSABILIDADE LIMITADA, manifestou-se por intermédio de seu advogado (mov. 163.1). Em sua defesa, sustentou a inocorrência da prescrição, argumentando que sempre impulsionou o feito com requerimentos de diligências e que a paralisação decorreu de determinação judicial (falência) e da ausência de bens do executado, não de sua inércia. Requereu, ainda, a juntada do termo de cessão e procuração para regularização do polo ativo. Os autos vieram conclusos para prolação de sentença. 2. FUNDAMENTAÇÃO 2.1. Premissa do instituto A prescrição intercorrente, no âmbito da execução, é instrumento voltado à concretização da segurança jurídica e à vedação da perpetuação indefinida de processos executivos inviáveis. Sua função é impor um limite temporal à pretensão executória quando, constatada a impossibilidade fática de satisfação do crédito, o transcurso do prazo prescricional do direito material opera a extinção da execução. 2.2. Evolução normativa Até o CPC/2015, a prescrição intercorrente era construção jurisprudencial fundada no art. 202, parágrafo único, do Código Civil. Com o CPC/2015, o instituto ganhou disciplina legal expressa (arts. 921 a 924). Na redação original, o art. 921, III, estabelecia a suspensão da execução por um ano quando não localizados o executado ou bens penhoráveis. Durante esse ano, a prescrição também ficava suspensa (§ 1º). Decorrido o prazo sem manifestação útil do exequente, iniciava-se a contagem do prazo da prescrição intercorrente (art. 921, § 4º, redação original). A Lei nº 14.195/2021, publicada em 26 de agosto de 2021, alterou substancialmente o regime, tornando o marco inicial objetivo e automático: o termo inicial da prescrição passou a ser a ciência da primeira tentativa infrutífera de localização do devedor ou de bens penhoráveis; o prazo fica suspenso por uma única vez pelo período máximo de um ano; encerrada a suspensão, o prazo corre ininterruptamente, sendo irrelevantes requerimentos de diligências infrutíferas para interrompê-lo ou suspendê-lo. 2.3. Natureza objetiva A alteração legislativa consolidou a natureza objetiva do instituto. A prescrição intercorrente não é sanção à inércia do credor, mas consequência da inviabilidade fática de satisfação do crédito. Requerimentos genéricos e pedidos repetidos de pesquisa em sistemas conveniados (Sisbajud, Renajud, Infojud) não têm o condão de interromper ou suspender o prazo prescricional; apenas ato concreto e eficaz de expropriação patrimonial produz esse efeito. 2.4. Direito intertemporal A norma processual não retroage (art. 14 do CPC), aplicando-se imediatamente aos processos em curso, respeitados os atos processuais praticados e as situações jurídicas consolidadas. A jurisprudência do STJ sistematizou quatro hipóteses intertemporais: (i) Processos novos ou execução infrutífera após 27.08.2021: aplica-se integralmente o novo regime da Lei 14.195/2021; (ii) Processos anteriores sem decisão de suspensão até a vigência da Lei 14.195/2021: aplica-se o novo regime; (iii) Processos nos quais o prazo da prescrição já havia sido deflagrado sob a redação original do CPC/2015: mantém-se o regime anterior, por respeito ao ato jurídico perfeito; (iv) Casos em que a Lei 14.195/2021 entrou em vigor durante o período de suspensão já fixado sob a redação original: prevalece a disciplina anterior, vedada a recontagem ou alteração retroativa do termo inicial. No caso concreto, a decisão de suspensão por 360 dias foi proferida em 07 de dezembro de 2017 (mov. 130.1), com fundamento no art. 921, III, do CPC, antes, portanto, da vigência da Lei 14.195/2021. Ademais, a primeira tentativa de constrição (Bacenjud em julho de 2017) também é anterior à nova lei. O caso se enquadra na terceira hipótese intertemporal: o prazo da prescrição intercorrente já havia sido deflagrado sob a redação original do CPC/2015, motivo pelo qual o regime anterior deve ser mantido. 2.5. Subsunção ao caso concreto Aplicando a redação original do CPC/2015, o marco inicial da prescrição intercorrente é o término do prazo ânuo de suspensão determinado nos autos. A suspensão formal de 360 dias, iniciada em 07 de dezembro de 2017 (mov. 130.1), exauriu-se em 07 de dezembro de 2018. A partir de 08 de dezembro de 2018, portanto, iniciou-se a contagem do prazo prescricional. O prazo prescricional aplicável é o da respectiva ação de conhecimento, por força da Súmula 150/STF (\"A execução prescreve no mesmo prazo de prescrição da ação\"). Tratando-se de cumprimento de sentença oriundo de ação monitória fundada em contrato de desconto de cheques (dívida líquida em instrumento particular), incide o prazo de 5 (cinco) anos, nos termos do art. 206, § 5º, inciso I, do Código Civil. Assim, o lapso prescricional de 5 anos, iniciado em 08 de dezembro de 2018, consumou-se em 08 de dezembro de 2023. Durante todo esse período, não se verificou nenhum ato concreto e eficaz de expropriação patrimonial capaz de interromper ou suspender a prescrição. As tentativas de bloqueio via Bacenjud resultaram em valores irrisórios (R$ 1,11 em 2017), que foram imediatamente desbloqueados por manifesta insuficiência. A localização de veículos no Renajud não se converteu em penhora, pois todos os bens já possuíam restrições judiciais anteriores. As demais diligências — reiterações de consultas eletrônicas, pedidos de inclusão no cadastro de inadimplentes — são absolutamente inaptas a interromper o prazo prescricional, conforme jurisprudência consolidada. A suspensão do processo em razão da falência da executada, ocorrida em 18 de setembro de 2018 (mov. 134.1), não altera a conclusão. A falência suspende as ações e execuções (art. 6º, LRF), mas a prescrição intercorrente, que já havia começado a fluir em 08 de dezembro de 2018 (após o término da suspensão ânua), continuou a correr ininterruptamente. Não há nos autos comprovação de que o crédito foi habilitado no juízo falimentar, o que, em tese, poderia interromper a prescrição. Ademais, ainda que se adotasse a hipótese mais benéfica ao credor, utilizando o marco do fim da suspensão por falência (24 de junho de 2025) como termo inicial, o prazo de 5 anos já teria transcorrido entre 08 de dezembro de 2018 e 08 de dezembro de 2023, antes mesmo do término da suspensão falimentar. A penhora de valores irrisórios ocorrida em 2024 (R$ 105,64) é posterior à consumação da prescrição. 2.6. Afastamento das teses do exequente O argumento do exequente de que não houve inércia, pois requereu diversas diligências, não impede o reconhecimento da prescrição intercorrente sob o regime aplicável (redação original do CPC/2015). A jurisprudência do STJ é firme no sentido de que \"os requerimentos para realização de diligências que se mostraram infrutíferas em localizar bens não têm o condão de suspender ou interromper a prescrição intercorrente, pois apenas a efetiva constrição patrimonial é apta a este fim\". No caso, nenhuma das diligências promovidas pelo exequente resultou em constrição patrimonial eficaz. A tentativa de penhora de veículo esbarrou em restrições pré-existentes inviabilizadoras. Os bloqueios eletrônicos produziram valores ínfimos, incapazes de representar ato expropriatório útil. A falência da executada, embora tenha gerado suspensão processual, não constitui ato de expropriação em favor do exequente, que não demonstrou ter habilitado seu crédito. 2.7. Contraditório e sucumbência Foi observado o contraditório prévio, com a intimação das partes para se manifestarem sobre a prescrição (mov. 141.1), em atenção ao princípio da não surpresa (art. 921, § 5º, CPC). O exequente exerceu seu direito de manifestação (mov. 163.1), não logrando, contudo, demonstrar causa interruptiva ou suspensiva válida. Quanto aos ônus sucumbenciais, o art. 921, § 5º, do CPC (com redação da Lei 14.195/2021) é categórico: o reconhecimento da prescrição intercorrente extingue o processo \"sem ônus para as partes\". Trata-se de norma processual de aplicação imediata, que prepondera sobre a regra geral da causalidade. Ainda que o exequente tenha requerido, em caráter subsidiário, a condenação do executado em custas e honorários com base na causalidade, esse pedido deve ser afastado, pois a legislação específica isenta ambas as partes do pagamento de custas finais e honorários advocatícios pela extinção. 3. DISPOSITIVO Ante o exposto, com fundamento nos arts. 921, §§ 4º, 5º e 7º, e 924, V, todos do Código de Processo Civil, RECONHEÇO a ocorrência da prescrição intercorrente e, por consequência, JULGO EXTINTA a presente fase de cumprimento de sentença promovida por BANCO SANTANDER (BRASIL) S.A. (sucedido por FIDC MULTISEGMENTOS NPL IPANEMA VI RESPONSABILIDADE LIMITADA) em face de NEWLABOR INDÚSTRIA E COMÉRCIO LTDA. Sem condenação das partes ao pagamento de custas processuais finais ou honorários advocatícios, nos termos do art. 921, § 5º, do Código de Processo Civil. Publique-se. Registre-se eletronicamente. Intimem-se as partes por seus procuradores. Transitada em julgado, proceda a Secretaria ao levantamento de todas as restrições, bloqueios e penhoras que pendam sobre o patrimônio da executada por força exclusiva deste processo. Cumpridas as averbações e comunicações ao Distribuidor, arquivem-se em definitivo, observadas as normas da Corregedoria-Geral da Justiça do Estado do Paraná. Maringá, data registrada pelo sistema   Bruno Henrique Golon Juiz de Direito Substituto  ",
+    "data": "2026-07-23",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessionária"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "lei nº 11.101",
+      "falência"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJPR\\2026-07\\2026-07-23\\matches_2026-07-23.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Banco Santander cedeu crédito para FIDC Multisegmentos NPL Ipanema VI em processo de execução suspenso por falência.",
+        "cedente": "Banco Santander (Brasil) S.A.",
+        "cessionario": "FIDC MULTISEGMENTOS NPL IPANEMA VI RESPONSABILIDADE LIMITADA",
+        "valor": "R$ 102.619,98",
+        "classe_credito": "quirografário",
+        "cnj_rj": null,
+        "recuperanda": "NEWLABOR INDÚSTRIA E COMÉRCIO LTDA.",
+        "motivo_classificacao": "Cessão de crédito em processo de execução originado de contrato de desconto de cheques, com cessionário institucional (FIDC) e suspensão por falência da devedora.",
+        "descoberto_em": "2026-07-24"
+      }
+    ]
+  },
+  {
+    "id": 663685305,
+    "cnj": "0005036-92.2006.8.16.0001",
+    "classe": "EXECUçãO DE TíTULO EXTRAJUDICIAL",
+    "orgao": "1ª Vara Cível de Curitiba",
+    "destinatarios": [
+      "DUDALOG TRANSPORTES E LOGISTICA LTDA",
+      "ADEMIR FRANCISCO FOLETTO MORO",
+      "ATILA IMOVEIS LTDA-EPP",
+      "FEDERICA CASSI MORO",
+      "RUBENS SLAVIERO"
+    ],
+    "link": "https://projudi.tjpr.jus.br/projudi/processo/validacaoDocumentos.do?_tj=8a6c53f8698c7ff7826b4c776d71316d1925abc508bbf0c37395a1a67052623323aa06d480b6ac0b39f35e0dc1dc24036cb791feca994b4a",
+    "texto_completo": "PODER JUDICIÁRIO DO ESTADO DO PARANÁ COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - FORO CENTRAL DE CURITIBA 1ª VARA CÍVEL DE CURITIBA - PROJUDI Avenida Cândido de Abreu, 535 - 1º andar - Centro Cívico - Curitiba/PR - CEP: 80.530-906 - Fone: 41 3353-2862 - Celular: (41) 3353-2862 - E-mail: 01civelcuritiba@assejepar.com.br Autos nº. 0005036-92.2006.8.16.0001   Processo:   0005036-92.2006.8.16.0001 Classe Processual:   Execução de Título Extrajudicial Assunto Principal:   Compra e Venda Valor da Causa:   R$12.844.960,37 Exequente(s):   DEUCHER RESTAURANTE LTDA Executado(s):   ADEMIR FRANCISCO FOLETTO MORO ATILA IMOVEIS LTDA-EPP FEDERICA CASSI MORO   Trata-se de execução de título extrajudicial proposta por Deucher e Deucher Ltda. em face de Átila Imóveis Ltda., Ademir Francisco Foletto Moro e Federica Cassi Moro, cujo processamento se prolonga há anos e atualmente envolve questões relacionadas à recuperação judicial da executada Átila, ao prosseguimento da execução contra os coexecutados pessoas físicas, à cessão do crédito exequendo e ao crédito autônomo de honorários advocatícios. Em decisão anterior, este Juízo deferiu parcialmente o pedido formulado pela executada Átila Imóveis Ltda. para suspender os atos constritivos em relação à recuperanda pelo prazo ali fixado, mas ressalvou que a suspensão não afetava os executados Ademir Francisco Foletto Moro e Federica Cassi Moro, devendo a execução prosseguir em relação a eles (mov. 282). Posteriormente, o Juízo deferiu a expedição de certidão de habilitação dos créditos da exequente para fins de obtenção perante o Juízo recuperacional e determinou a intimação da exequente para manifestação sobre eventual extinção do feito (mov. 343). A exequente apresentou manifestação informando que o plano de recuperação judicial da Átila Imóveis Ltda. havia sido aprovado, mas ainda pendia de homologação judicial, e requereu a manutenção da suspensão da execução em face da recuperanda, bem como o prosseguimento contra Ademir Francisco Foletto Moro e Federica Cassi Moro, com penhora de quotas sociais por eles detidas (mov. 356). Na sequência, os patronos da exequente formularam pedido de prosseguimento da execução exclusivamente quanto aos honorários sucumbenciais, com inclusão da sociedade de advogados no polo ativo e realização de bloqueio de ativos via Sisbajud, pedido posteriormente reiterado (mov. 357 e mov. 363).  A Deucher e a Dudalog Transportes e Logística Ltda. noticiaram cessão de crédito e requereram a substituição processual da cedente pela cessionária, com ratificação de todos os atos anteriormente praticados pela cedente (mov. 370). O Juízo determinou a regularização documental da cessão de crédito, com juntada de instrumento com reconhecimento de firma, contratos sociais atualizados, documentos pessoais dos representantes legais, procuração da Dudalog e informação sobre habilitação do crédito perante o Juízo do soerguimento (mov. 371). Deucher e Dudalog apresentaram petição de cumprimento da intimação, juntaram documentos e informaram que o crédito foi habilitado na recuperação judicial, com anotação no Quadro Geral de Credores pelo Administrador Judicial (mov. 375). Vieram os autos conclusos. É o relatório. Decido. I. Da cessão de crédito A Deucher e a Dudalog informaram a cessão do crédito objeto da execução e requereram a substituição processual da cedente pela cessionária, com expressa ratificação dos atos processuais anteriores (mov. 370). Após a determinação de regularização documental, as peticionantes juntaram instrumento de cessão, contratos sociais, documentos pessoais e procurações, além de informarem a habilitação do crédito perante o Juízo do soerguimento (mov. 375). Diante da cessão noticiada e da ratificação expressa dos atos pretéritos pela cessionária, deve ser deferida a substituição da parte exequente Deucher & Deucher Ltda. por Dudalog Transportes e Logística Ltda., sem prejuízo da ciência dos executados acerca da sucessão processual e da preservação dos atos processuais já praticados.  II. Da recuperação judicial da Átila Imóveis Ltda. e do prosseguimento contra os coexecutados A própria exequente, agora substituída pela cessionária, requereu que a execução permaneça suspensa em face da Átila Imóveis Ltda., em razão da recuperação judicial e da pendência de homologação do plano de recuperação judicial (mov. 356). Esse pedido está em consonância com a organização processual já adotada nos autos, pois o Juízo havia determinado a suspensão dos atos constritivos em relação à recuperanda e ressalvado que a suspensão não alcançava Ademir Francisco Foletto Moro e Federica Cassi Moro (mov. 282). Assim, a execução deve permanecer suspensa em face da Átila Imóveis Ltda. no tocante aos atos constritivos, sem prejuízo da comunicação com o Juízo recuperacional e da observância da habilitação do crédito informada pelas peticionantes (mov. 375). Por outro lado, o feito deve prosseguir em face dos coexecutados pessoas físicas, nos limites já definidos anteriormente por este Juízo, uma vez que a suspensão da recuperanda não foi estendida a Ademir Francisco Foletto Moro e Federica Cassi Moro (mov. 282). III. Da penhora de cotas sociais dos executados Ademir Francisco Foletto Moro e Federica Cassi Moro A exequente requereu a penhora das cotas sociais pertencentes aos executados Ademir Francisco Foletto Moro e Federica Cassi Moro em sociedades indicadas na petição. Sustentou que a medida é cabível diante das várias providências executivas já adotadas e da insuficiência de bens para quitação do débito (mov. 356). O pedido deve ser deferido. A execução se realiza no interesse do credor e recai sobre o patrimônio do devedor. As cotas sociais constituem direitos patrimoniais integrantes do acervo econômico do sócio e, por isso, podem ser objeto de penhora quando pertencentes ao executado. A constrição pretendida não se dirige, neste momento, ao patrimônio das sociedades indicadas, mas à participação societária de titularidade de Ademir Francisco Foletto Moro e Federica Cassi Moro. Essa distinção é relevante. A penhora de cotas não importa, por si só, expropriação imediata de bens das sociedades. A medida atinge a posição patrimonial dos sócios executados, preservando-se a personalidade jurídica das empresas e a autonomia patrimonial das sociedades. Por isso, a existência de sociedades em recuperação judicial entre aquelas indicadas pela exequente não impede a averbação da penhora das cotas pertencentes aos sócios devedores, desde que a medida seja limitada à participação societária dos executados e não envolva, neste momento, atos de liquidação, alienação forçada de ativos sociais ou interferência direta na atividade empresarial das sociedades. Também se justifica a medida pelo histórico do feito. A execução tramita há longo período, há notícia de insuficiência de bens para satisfação da dívida, e a própria exequente indicou as cotas sociais como bens passíveis de constrição após outras providências executivas.  Nesse contexto, a penhora das participações societárias atende à finalidade da execução sem adotar, de imediato, providência mais gravosa que a expropriação direta de bens das sociedades indicadas. A constrição deve observar uma sequência prudente. Primeiro, deve ser determinada a penhora das cotas pertencentes aos executados pessoas físicas. Em seguida, deve ser expedido ofício à Junta Comercial competente para averbação da restrição e para que sejam encaminhadas as informações societárias atualizadas. Depois, devem ser intimadas as sociedades para ciência da constrição e para que informem eventual existência de restrições contratuais, valor patrimonial das cotas, quadro societário atualizado e demais dados necessários à futura avaliação. Essa providência preserva o contraditório, evita surpresa às sociedades e permite que eventual etapa posterior de avaliação, liquidação ou alienação das cotas seja apreciada com base em informações atualizadas. Além disso, impede que a penhora seja confundida com constrição direta sobre bens das sociedades ou com ingerência imediata na administração empresarial. Dessa forma, é cabível a penhora das cotas sociais de titularidade de Ademir Francisco Foletto Moro e Federica Cassi Moro nas sociedades indicadas pela exequente, limitada a constrição aos direitos patrimoniais dos executados pessoas físicas. IV. Dos pedidos dos advogados relativos aos honorários sucumbenciais Os advogados formularam pedido de prosseguimento da execução quanto aos honorários sucumbenciais, com inclusão da sociedade de advogados no polo ativo e realização de bloqueio de ativos (mov. 357 e mov. 363). O pedido não deve ser processado nestes autos principais. O feito já envolve a execução do crédito principal, a cessão desse crédito à Dudalog, a suspensão em relação à Átila Imóveis Ltda. e o prosseguimento contra os executados pessoas físicas. A reunião, no mesmo fluxo processual, do crédito principal cedido e do crédito autônomo de honorários gera tumulto processual e dificulta a adequada delimitação do polo ativo, dos sujeitos interessados e das providências executivas cabíveis. Assim, os requerimentos dos advogados devem seguir em autos apartados, com traslado das peças necessárias, sem prejuízo de posterior análise do crédito de honorários no procedimento próprio. V. Decisão  Diante do exposto: a) Defiro a substituição processual da exequente Deucher & Deucher Ltda. por Dudalog Transportes e Logística Ltda., em razão da cessão de crédito noticiada e documentada, com registro de que a cessionária ratificou os atos processuais anteriormente praticados pela cedente; b) Determino à Secretaria que retifique o polo ativo para fazer constar Dudalog Transportes e Logística Ltda. como exequente; c) Mantenho a suspensão da execução em face da executada Átila Imóveis Ltda., em razão da recuperação judicial e da informação de habilitação do crédito no procedimento recuperacional; d) Determino o prosseguimento da execução em face dos executados Ademir Francisco Foletto Moro e Federica Cassi Moro (mov. 356); e) Defiro a penhora das cotas sociais pertencentes aos executados Ademir Francisco Foletto Moro e Federica Cassi Moro nas sociedades indicadas pela exequente, limitada a constrição aos direitos patrimoniais dos sócios executados, sem atingir diretamente os bens das sociedades e sem autorizar, neste momento, liquidação, alienação ou intervenção na administração das pessoas jurídicas; f) Expeça-se ofício à Junta Comercial competente para averbação da penhora das cotas sociais de titularidade dos executados Ademir Francisco Foletto Moro e Federica Cassi Moro nas sociedades indicadas pela exequente, bem como para encaminhamento dos atos constitutivos, alterações contratuais e quadro societário atualizado, se disponíveis; g) Após a resposta da Junta Comercial, intimem-se as sociedades indicadas para ciência da penhora e para que informem, no prazo de 15 dias, o quadro societário atualizado, a quantidade de cotas pertencentes aos executados, eventual valor patrimonial das cotas, eventual restrição contratual à transferência e demais informações necessárias à futura avaliação;  h) Determino que os pedidos formulados pelos advogados relativos aos honorários sucumbenciais sejam processados em autos apartados, com traslado das peças essenciais e posterior conclusão no incidente próprio.  Intimem-se. Cumpra-se. Diligências necessárias.     Curitiba, data do sistema.   Lilian Resende Castanho Schelbauer Juíza de Direito    NM",
+    "data": "2026-07-17",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessionária"
+    ],
+    "keywords_cessao_fracas": [
+      "cedente"
+    ],
+    "keywords_rj": [
+      "recuperanda"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJPR\\2026-07\\2026-07-17\\matches_2026-07-17.json",
+    "relevancia_btg": "baixa",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": false,
+        "confianca": "alta",
+        "resumo": "Houve cessão de crédito em processo de execução relacionado à recuperação judicial da Átila Imóveis Ltda., com substituição processual da exequente pela Dudalog Transportes e Logística Ltda. e habilitação do crédito no juízo recuperacional.",
+        "cedente": "Deucher & Deucher Ltda.",
+        "cessionario": "Dudalog Transportes e Logística Ltda.",
+        "valor": "R$12.844.960,37",
+        "classe_credito": "quirografário",
+        "cnj_rj": null,
+        "recuperanda": "Átila Imóveis Ltda.",
+        "motivo_classificacao": "Cessão de crédito noticiada e documentada em processo com recuperação judicial, com substituição processual e habilitação do crédito no juízo recuperacional, configurando crédito concursal relevante para investidor distressed.",
+        "descoberto_em": "2026-07-24"
+      }
+    ]
+  },
+  {
+    "id": 689363304,
+    "cnj": "0099407-50.2026.8.16.0000",
+    "classe": "AGRAVO DE INSTRUMENTO",
+    "orgao": "17ª Câmara Cível",
+    "destinatarios": [
+      "FUNDO DE INVESTIMENTO EM DIREITOS CREDITóRIOS SIGA ENERGIA DE RESPONSABILIDADE LIMITADA",
+      "FUNDO DE INVESTIMENTO EM DIREITOS CREDITóRIOS SIGA ENERGIA PORTFóLIO DE RESPONSABILIDADE LIMITADA",
+      "ELECTRA COMERCIALIZADORA DE ENERGIA LTDA.",
+      "ELECTRA COMERCIALIZADORA VAREJISTA LTDA",
+      "INTREPID INVESTIMENTOS E PARTICIPAçõES S/A.",
+      "PRIME PARTICIPAçõES S.A.",
+      "ABC BRASIL COMERCIALIZADORA DE ENERGIA LTDA",
+      "AGROPECUáRIA VISTA ALEGRE LTDA",
+      "AGROZACCA ALIMENTOS LTDA",
+      "ALIMENTOS ZAELI LTDA",
+      "ALPHA INFRAESTRUTURA LTDA.",
+      "AMJ ARMAZéM GERAL LTDA",
+      "APERAM INOX AMéRICA DO SUL S/A",
+      "ARAMES TOP INDUSTRIAL LTDA",
+      "AZTEC METAL INDUSTRIA LTDA",
+      "BANCO DO BRASIL S/A",
+      "BANCO PINE S/A",
+      "BANCO SAFRA S A",
+      "BEMOL S/A",
+      "BRASCAL CALCAREO DO BRASIL LTDA",
+      "BRITANIA ELETRODOMESTICOS S/A",
+      "CAIXA ECONôMICA FEDERAL",
+      "CâMARA DE COMERCIALIZAçãO DE ENERGIA ELéTRICA (CCEE)",
+      "CELULOSE IRANI S/A",
+      "CERâMICA MEDEANA LTDA",
+      "CERâMICA STRUFALDI LTDA",
+      "CESUMAR - CENTRO DE ENSINO SUPERIOR DE MARINGA LTDA",
+      "CGN BRASIL COMERCIALIZADORA DE ENERGIA SA",
+      "CIFA TEXTIL LTDA",
+      "COMPANHIA CAMPOLARGUENSE DE ENERGIA COCEL",
+      "COMPANHIA JAGUARí DE ENERGIA ELETRICA - CPFL JAGUARI",
+      "COMP - INDúSTRIA E COMéRCIO DE METAIS LTDA",
+      "CONCREM WOOD AGROINDUSTRIAL LTDA",
+      "CONSTRUTORA PELOTENSE LTDA",
+      "COOPERATIVA AGROINDUSTRIAL ALFA",
+      "COOPERATIVA CENTRAL AURORA ALIMENTOS",
+      "COOPERATIVA DE CRéDITO DE LIVRE ADMISSãO DE ASSOCIADOS SãO MIGUEL DO OESTE",
+      "COOPERATIVA DE CREDITO, POUPANCA E INVESTIMENTO CAMPOS GERAIS, GRANDE CURITIBA, VALE DO RIBEIRA E FORCA DOS VENTOS",
+      "COOPERATIVA DE CREDITO SUL - SICOOB SUL",
+      "COOPERATIVA DE DISTRIBUIçãO DE ENERGIA TEUTôNIA  CERTEL ENERGIA",
+      "COOPERATIVA DE ELETRICIDADE DE PRAIA GRANDE CEPRAG",
+      "COOPERATIVA DE ELETRIFICAçãO CENTRO JACUI",
+      "COOPERATIVA DE TRABALHO CAXIAS DE MóVEIS LTDA",
+      "COOPERATIVA FUMACENSE DE ELETRICIDADE  CERMOFUL ENERGIA",
+      "COOPERCOCAL - COOPERATIVA ENERGéTICA COCAL",
+      "COPEL COMERCIALIZAçãO S.A.",
+      "CREDIBILITà ADMINISTRAçãO JUDICIAL E SERVIçOS LTDA-ME",
+      "CRERAL  COOPERATIVA REGIONAL DE ELETRIFICAçãO RURAL DO ALTO URUGUAI",
+      "C.VALE - COOPERATIVA AGROINDUSTRIAL",
+      "CZARNIKOW BRASIL LTDA",
+      "DANGLASS DO BRASIL LTDA",
+      "DEL REI INDúSTRIA DE ARTEFATOS DE LATEX LTDA.",
+      "DIPãES IND. DE PãES LTDA",
+      "DRY COLOR ESPECIALIDADES QUIMICAS LTDA",
+      "ECOM ENERGIA LTDA.",
+      "ECO SECURITIZADORA DE DIREITOS CREDITóRIOS DO AGRONEGóCIO S.A.",
+      "EDITORA GAZETA DO POVO S/A",
+      "ELECTROLUX DO BRASIL S/A",
+      "ENGENHARIA E COMERCIO BANDEIRANTES LTDA",
+      "FAZENDA PúBLICA DO MUNICíPIO DE CURITIBA",
+      "FERRO SUL INDUSTRIA DE FUNDIDOS LTDA.",
+      "F.M. PNEUS LTDA",
+      "FORFEST INDúSTRIA DE DESCARTáVEIS EIRELI",
+      "FRIGORíFICO BETTER BEEF LTDA",
+      "FRIGORíFICO BETTER BEEF LTDA",
+      "FRIGORíFICO JR LTDA",
+      "FRUTICULTURA MALKE LTDA.",
+      "FUTURA FUNDIçãO LTDA ME",
+      "GALZERANO INDúSTRIA DE CARRINHOS E BERçOS LTDA",
+      "GDC ALIMENTOS S/A",
+      "GLA AMAZôNIA INDúSTRIA DE EMBALAGENS PLáSTICOS LTDA",
+      "GLOBO CENTRAL DE USINAGEM LTDA.",
+      "GOVERNO DO PARANA - SECRETARIA DE ESTADO DA FAZENDA",
+      "HERGEN S/A MáQUINAS E EQUIPAMENTOS",
+      "HIDROMINERAL TERMAL DE ARMAZéM LTDA.",
+      "HOSPITAL SAO JOSE",
+      "INAB - INDUSTRIA NACIONAL DE BEBIDAS LTDA",
+      "INDUSTRIA E COMERCIO DE CONFECçõES LA MODA LTDA",
+      "I.S. COMéRCIO E DISTRIBUIçãO LTDA.",
+      "ITAú UNIBANCO COMERCIALIZADORA DE ENERGIA LTDA",
+      "KURASHIKI CHEMICAL PRODUCTS DO BRASIL LTDA",
+      "LF PLáSTICOS LTDA",
+      "LIGHTCOM COMERCIALIZADORA DE ENERGIA S.A.",
+      "LIGHT SERVIçOS DE ELETRICIDADE S.A.",
+      "MADEL INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
+      "MALIBER INDúSTRIA E COMéRCIO TêXTIL LTDA.",
+      "MAROMBI ALIMENTOS LTDA",
+      "MAX TEMPER - INDUSTRIA E COMERCIO DE VIDROS LTDA",
+      "MEGA COMERCIALIZADORA DE ENERGIA E GáS SA",
+      "MINERAçãO NOSSA SENHORA DO CARMO LTDA",
+      "MOVIESYSTEM CINEMATOGRAFIA LTDA",
+      "MULTIAçOS INDúSTRIA E COMéRCIO DE PRODUTOS TéCNICOS LTDA",
+      "NEUGEBAUER ALIMENTOS S/A",
+      "NEW FISH COMéRCIO DE PESCADOS LTDA",
+      "NOBRE LAMINADOS SINTETICOS",
+      "ONESUBSEA DO BRASIL LTDA.",
+      "OPETRA INDúSTRIA E COMéRCIO DE TRAVESSEIROS LTDA (UOFLEX)",
+      "PARATY ENERGIA LTDA.",
+      "PESCADOS SOUSA LTDA",
+      "PHILCO ELETRôNICOS S.A.",
+      "POLO FILMS INDúSTRIA E COMéRCIO S/A",
+      "PRIME PARTICIPAçõES S.A.",
+      "PROADEC BRASIL LTDA",
+      "QRZ COMPLEXO INDUSTRIAL SA",
+      "REBRAS RECICLAGEM DE PAPEL BRASIL LTDA.",
+      "RECIPLAST RECICLAGEM DE PLASTICOS EIRELI",
+      "REIS, SOUZA, TAKEISHI & ARSUFFI",
+      "REPLABOR INDUSTRIA E COMERCIO DE BORRACHAS LTDA",
+      "S. E. COMERCIO E RECICLAGEM DE PLASTICOS LTDA - ME",
+      "SEMPER ENERGIA LTDA",
+      "SERGIO DACHERI - ME",
+      "SOLAR IRECE 3 SIR3 LTDA.",
+      "SOLAR IRECE S.A.",
+      "SUPERMERCADO PIERIM LTDA",
+      "SUZANO S.A.",
+      "TERRAPLAST INDUSTRIAL DE PLáSTICOS LTDA.",
+      "TREVISO EMPREENDIMENTOS E PARTICIPAçõES S.A",
+      "TUPER S/A",
+      "UNINORTE",
+      "USINA BARRALCOOL S.A.",
+      "VENDRAMINI FILHOS LTDA",
+      "VENTURINI  FLORENCIO INDúSTRIA E COMéRCIO DE BEBIDAS LTDA.",
+      "VIBRACOUSTIC SOUTH AMERICA LTDA.",
+      "VITAL ALIMENTOS LTDA",
+      "WILLRICH INDúSTRIA TêXTIL LTDA",
+      "WILLRICH INDúSTRIA TêXTIL LTDA",
+      "ZENAPLAST INDúSTRIA E COMéRCIO DE ARTEFATOS DE PLáSTICOS LTDA."
+    ],
+    "link": "https://projudi.tjpr.jus.br/projudi/processo/validacaoDocumentos.do?_tj=8a6c53f8698c7ff7826b4c776d71316d1925abc508bbf0c37395a1a670526233247c983f3d73fb268538253efbae33d18da4716aef1c9034",
+    "texto_completo": "TRIBUNAL DE JUSTIÇA DO ESTADO DO PARANÁ 17ª CÂMARA CÍVEL   Autos nº. 0099407-50.2026.8.16.0000   Recurso:   0099407-50.2026.8.16.0000 AI Classe Processual:   Agravo de Instrumento Assunto Principal:   Concurso de Credores Agravante(s):   FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS SIGA ENERGIA PORTFÓLIO DE RESPONSABILIDADE LIMITADA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS SIGA ENERGIA DE RESPONSABILIDADE LIMITADA Agravado(s):   Electra Comercializadora Varejista Ltda INTREPID INVESTIMENTOS E PARTICIPAÇÕES S/A. PRIME PARTICIPAÇÕES S.A. Electra Comercializadora de Energia Ltda. I. Relatório Trata-se de agravo de instrumento, com pedido de atribuição de efeito suspensivo, interposto por FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS SIGA ENERGIA PORTFÓLIO DE RESPONSABILIDADE LIMITADA e FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS SIGA ENERGIA DE RESPONSABILIDADE LIMITADA contra decisões proferidas (mov. 173 e 229.1) nos autos da recuperação judicial de ELECTRA COMERCIALIZADORA DE ENERGIA S.A., ELECTRA COMERCIALIZADORA VAREJISTA LTDA., INTREPID INVESTIMENTOS E PARTICIPAÇÕES S.A. e PRIME PARTICIPAÇÕES S.A. Sustentam os agravantes, em síntese, que a decisão recorrida, ao acolher embargos de declaração opostos pelas recuperandas com efeitos modificativos, autorizou o cancelamento ou zeramento de registros de contratos de comercialização de energia no Ambiente de Contratação Livre perante a Câmara de Comercialização de Energia Elétrica, não obstante a existência de controvérsia acerca da validade das rescisões, distratos ou encerramentos unilaterais invocados pelas recuperandas. Afirmam que a deliberação foi proferida sem prévia oitiva dos interessados diretamente atingidos, inclusive dos próprios Fundos, embora estes já tivessem comparecido aos autos de origem e informado a existência de cessões de direitos creditórios vinculados a parte dos contratos abrangidos pela ordem judicial. Aduzem que a Electra teria celebrado, antes do ajuizamento da recuperação judicial, instrumentos de cessão de direitos creditórios em favor dos agravantes, mediante os quais foram transferidos recebíveis atuais e futuros oriundos de contratos de comercialização de energia. Sob esse fundamento, defendem que o cancelamento ou zeramento dos registros perante a CCEE atinge não apenas relação contratual entre a recuperanda e suas contrapartes, mas também direitos que afirmam já terem sido transferidos aos cessionários. Sustentam, ainda, que os instrumentos de cessão imporiam à cedente obrigações de manutenção dos contratos de energia e de seus registros perante a CCEE, além de vedarem alterações relevantes sem anuência dos Fundos. Por esse motivo, alegam que a ordem de cancelamento esvaziaria o lastro econômico dos direitos creditórios cedidos. Os agravantes também impugnam o capítulo da decisão que revogou a suspensão cautelar do pagamento de R$ 14.875.768,48 apurado em favor da Continental Comercializadora de Energia Ltda. no âmbito da CCEE. Alegam que a operação teria origem em contratos intragrupo celebrados em período imediatamente anterior ao pedido recuperacional, envolvendo empresa integrante do grupo econômico, mas não incluída no polo ativo da recuperação judicial. Sustentam que, diante da ausência de esclarecimento completo sobre a origem, regularidade econômica, fluxo financeiro e destinação dos recursos, a liberação imediata do valor poderia gerar risco de deslocamento patrimonial de difícil recomposição. Requerem, liminarmente, a atribuição de efeito suspensivo ao agravo para: a) suspender a ordem de cancelamento ou zeramento dos registros dos contratos junto à CCEE, ou determinar seu imediato restabelecimento à última posição consensualmente validada, caso já implementada a medida; e b) restabelecer a suspensão cautelar do pagamento atribuído à Continental, ou, se já liberado, determinar a segregação ou recomposição do montante até ulterior deliberação. É o relatório. II. Fundamentação Nos termos dos arts. 995, parágrafo único, e 1.019, inciso I, do Código de Processo Civil, a atribuição de efeito suspensivo ao agravo de instrumento exige demonstração, em cognição sumária, da probabilidade de provimento do recurso e do risco de dano grave, de difícil ou impossível reparação. No caso, a análise liminar deve ser feita com especial cautela, pois a controvérsia envolve recuperação judicial de agentes do setor elétrico, contratos registrados em ambiente regulado, eventual cessão de direitos creditórios a terceiros. Não se trata, portanto, de antecipar juízo definitivo sobre a validade das rescisões noticiadas, sobre a extensão das cessões alegadas ou sobre a regularidade das operações intragrupo debatidas. O que se examina, neste momento, é apenas a necessidade de preservar a utilidade do recurso até julgamento mais aprofundado. II.1. Do pedido de suspensão do cancelamento ou zeramento dos registros perante a CCEE Em juízo preliminar, o pedido de efeito suspensivo merece acolhimento quanto ao capítulo que determinou o cancelamento ou zeramento dos registros dos contratos do Ambiente de Contratação Livre perante a CCEE. A decisão agravada autorizou medida de relevante impacto operacional, consistente na alteração dos registros mantidos no ambiente de contabilização e liquidação do setor elétrico, embora a própria controvérsia subjacente, relativa à existência, validade, eficácia e alcance dos alegados distratos, rescisões ou encerramentos contratuais, permaneça controvertida. O cancelamento do registro não constitui providência meramente cadastral ou neutra. A alteração imediata desses registros, antes da formação de contraditório mais amplo e antes de definição minimamente segura sobre a subsistência dos vínculos contratuais, pode produzir efeitos práticos de difícil reversão. Esse mesmo capítulo decisório já foi objeto de análise por esta 17ª Câmara Cível nos Agravos de Instrumento nº 0084058-07.2026.8.16.0000, interposto por Itaú Unibanco Comercializadora de Energia Ltda., nº 0084358-66.2026.8.16.0000, interposto por ABC Brasil Comercializadora de Energia Ltda., e nº 0084990-92.2026.8.16.0000, interposto por Czarnikow Brasil Ltda., todos voltados contra a decisão proferida no mov. 173.1 dos autos de origem, especificamente no ponto em que determinado o cancelamento ou zeramento dos registros dos contratos do Ambiente de Contratação Livre perante a CCEE. Em tais recursos, foi deferido efeito suspensivo para paralisar, até ulterior deliberação, a eficácia desse capítulo decisório, diante da necessidade de preservação do estado anterior dos registros enquanto não examinada, com contraditório adequado e cognição mais aprofundada, a situação jurídica dos contratos indicados pelas recuperandas. No presente caso, há elemento adicional que reforça a prudência da medida. Os agravantes não se apresentam apenas como contrapartes contratuais que impugnam rescisões unilaterais promovidas pelas recuperandas. Afirmam ser cessionários de direitos creditórios decorrentes de determinados contratos de energia, inclusive recebíveis futuros. Essa alegação, já submetida ao Juízo de origem, foi reputada relevante pela própria decisão agravada (mov. 173.1), que determinou a manifestação das recuperandas e da Administradora Judicial sobre as cessões noticiadas. Também merece consideração, neste momento processual, a alegação de violação ao contraditório. Segundo narrado, a decisão que modificou substancialmente o entendimento anterior foi proferida em sede de embargos de declaração, com efeitos infringentes, sem prévia manifestação dos terceiros atingidos pela alteração. A utilidade do contraditório, especialmente em matéria de elevada complexidade técnica e econômica, recomenda que a alteração dos registros seja suspensa até que a questão possa ser examinada com maior amplitude. Não se está, com isso, declarando a invalidade das rescisões invocadas pelas recuperandas, reconhecendo a plena eficácia dos contratos ou definindo a extensão das cessões celebradas com os Fundos. Tais matérias dependem de exame mais aprofundado. A providência ora adotada tem natureza estritamente conservativa, evitando-se que a execução imediata da decisão agravada produza efeitos regulatórios e patrimoniais potencialmente irreversíveis antes do exame mais completo da controvérsia. Presentes, portanto, a probabilidade do direito e o perigo de dano, impõe-se a atribuição de efeito suspensivo quanto a esse ponto. II.2. Do pedido relacionado aos valores atribuídos à Continental Também deve ser examinado, em cognição sumária, o pedido de atribuição de efeito suspensivo relativamente ao capítulo da decisão agravada que revogou a suspensão cautelar do pagamento de valores apurados em favor da Continental Comercializadora de Energia Ltda. Segundo narram os agravantes, a controvérsia teve origem em operações intragrupo envolvendo a Electra e a Continental Comercializadora de Energia Ltda., sociedade apontada nos autos como subsidiária integral da Electra, mas não incluída formalmente no polo ativo da recuperação judicial. A preocupação deduzida consiste, em síntese, no risco de que recursos relevantes, oriundos de operações celebradas em período próximo ao ajuizamento da recuperação judicial, fossem liberados a sociedade integrante da estrutura societária do grupo, porém não submetida diretamente ao regime recuperacional. A decisão agravada revogou a cautelar anteriormente deferida, ao fundamento de que, naquele momento, não havia demonstração concreta de fraude, simulação, ocultação patrimonial ou desvio de recursos, reputando insuficiente a mera atipicidade temporal da operação para manutenção da retenção. Ao mesmo tempo, determinou que a Continental Comercializadora de Energia Ltda. e as recuperandas apresentassem relatório completo da operação envolvendo os contratos nº 4809962, 4807362 e 4686484, com indicação de datas de negociação, registro, validação, emissão de notas fiscais, liquidação, fluxo financeiro, destinação dos recursos e eventual reflexo sobre o caixa das recuperandas (mov. 173.1). A determinação de apresentação de relatório demonstra que, embora a cautelar tenha sido revogada, a operação ainda demandava esclarecimentos no primeiro grau, principalmente quanto ao fluxo financeiro e à destinação econômica dos valores. Ocorre que há elemento superveniente que deve ser considerado nesta fase recursal. Em manifestação posterior (mov. 574.1), a Administradora Judicial informou ter analisado a documentação apresentada pelas recuperandas nos movs. 161 e 367, relativa aos contratos nº 4686484, 4809962 e 4807362, e consignou não ter identificado irregularidade econômica nas operações examinadas, tampouco elementos indicativos de desvio de finalidade, simulação ou prejuízo aos interesses da recuperação judicial. A Administradora Judicial, contudo, ressalvou que permanece pendente a comprovação da destinação do saldo de R$ 2.093.781,97. Diante desse quadro, não se mostra proporcional, em sede liminar, restabelecer a retenção cautelar integral do montante originalmente discutido, sobretudo diante da manifestação técnica da auxiliar do Juízo no sentido de que não foram identificados, até o momento, elementos de irregularidade econômica nas operações analisadas. Por outro lado, a ressalva expressa feita pela Administradora Judicial quanto à ausência de comprovação da destinação do saldo de R$ 2.093.781,97 justifica providência cautelar limitada. Embora não se esteja afirmando irregularidade na operação, a pendência objetiva quanto à destinação desse valor recomenda sua preservação ou segregação até que seja prestado o esclarecimento correspondente, evitando-se que a posterior fiscalização se torne inócua. Assim, em juízo de cognição sumária, não se mostra proporcional restabelecer a retenção cautelar integral do montante inicialmente discutido, sobretudo diante da manifestação superveniente da Administradora Judicial no sentido de que, a partir da documentação analisada, não foram identificados elementos indicativos de irregularidade econômica, desvio de finalidade, simulação ou prejuízo à recuperação judicial. Contudo, como a própria auxiliar do Juízo ressalvou a pendência de comprovação da destinação do saldo de R$ 2.093.781,97, mostra-se prudente preservar, apenas quanto a esse montante, a utilidade da apuração ainda em curso na origem. A medida ora adotada, portanto, não substitui a análise do Juízo de primeiro grau nem antecipa conclusão sobre a regularidade da operação, limitando-se a impedir a livre disposição do saldo ainda não esclarecido até ulterior deliberação, à vista da comprovação a ser realizada nos autos originários. III. Conclusão Diante do exposto, defiro parcialmente pedido de atribuição de efeito suspensivo ao presente agravo de instrumento, para: a) suspender os efeitos da decisão agravada no ponto em que determinou o cancelamento ou zeramento dos registros dos contratos do Ambiente de Contratação Livre perante a CCEE, relativamente aos contratos indicados pelos agravantes como vinculados aos direitos creditórios cedidos aos Fundos; b) caso o cancelamento ou zeramento já tenha sido implementado, determinar que a CCEE restabeleça, em relação aos contratos abrangidos por esta decisão, a última posição registrada no sistema com validação bilateral das partes, isto é, a situação anterior ao ajuste unilateral para volume zero; c) quanto ao capítulo relativo à Continental Comercializadora de Energia Ltda., defiro parcialmente o pedido de efeito suspensivo, apenas para determinar que, até ulterior deliberação do Juízo de origem ou deste Relator, seja preservado/segregado o saldo de R$ 2.093.781,97, apontado pela Administradora Judicial como pendente de comprovação de destinação, abstendo-se a Continental Comercializadora de Energia Ltda. e/ou as recuperandas de utilizá-lo, transferi-lo, compensá-lo, onerá-lo ou destiná-lo a terceiros; d) fica ressalvada a possibilidade de reavaliação da medida relativa à Continental após a comprovação, nos autos de origem, da destinação do referido saldo e manifestação da Administradora Judicial. Comunique-se, com urgência, ao Juízo de origem e à CCEE, para imediato cumprimento. Intimem-se as agravadas para apresentação de contrarrazões, no prazo legal. Intime-se a Administradora Judicial. Intimem-se a Continental Comercializadora de Energia Ltda. Intime-se a CCEE e a ANEEL. Dê-se vista à Procuradoria-Geral de Justiça. Curitiba, 30 de julho de 2026.   Desembargador Substituto Diego Santos Teixeira Magistrado",
+    "data": "2026-08-14",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessionário",
+      "cessão de direitos creditórios"
+    ],
+    "keywords_cessao_fracas": [
+      "cedente"
+    ],
+    "keywords_rj": [
+      "recuperação judicial",
+      "recuperanda"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJPR\\2026-08\\2026-08-14\\matches_2026-08-14.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Fundos de investimento em direitos creditórios alegam cessão de direitos creditórios em recuperação judicial da Electra, com discussão sobre validade e efeitos da cessão.",
+        "cedente": "Electra Comercializadora de Energia S.A.",
+        "cessionario": "Fundo de Investimento em Direitos Creditórios Siga Energia Portfólio de Responsabilidade Limitada e Fundo de Investimento em Direitos Creditórios Siga Energia de Responsabilidade Limitada",
+        "valor": null,
+        "classe_credito": "outro",
+        "cnj_rj": null,
+        "recuperanda": "Electra Comercializadora de Energia S.A.",
+        "motivo_classificacao": "Trata-se de cessão de direitos creditórios em processo de recuperação judicial, com cessionários institucionais (fundos de investimento em direitos creditórios), caracterizando cessão concursal relevante.",
+        "descoberto_em": "2026-08-14"
+      }
+    ]
+  },
+  {
+    "id": 691152058,
+    "cnj": "0000087-93.1996.8.16.0124",
+    "classe": "FALêNCIA DE EMPRESáRIOS, SOCIEDADES EMPRESáRIAIS, MICROEMPRESAS E EMPRESAS DE PEQUENO PORTE",
+    "orgao": "3ª Vara Estadual de Falências e Recuperação Judicial",
+    "destinatarios": [
+      "CTM ADMINISTRAçãO DE BENS LTDA",
+      "HAZA INVESTIMENTOS LTDA",
+      "VALMOR TOZETTO (ADMINISTRADOR JUDICIAL DO(A) IREM S/A-INDUSTRIA E COMERCIO - MASSA FALIDA)"
+    ],
+    "link": "https://projudi.tjpr.jus.br/projudi/processo/validacaoDocumentos.do?_tj=8a6c53f8698c7ff7826b4c776d71316d1925abc508bbf0c37395a1a670526233365140344802de538746c537e610dbb2346c339dbfcfbdd0",
+    "texto_completo": "PODER JUDICIÁRIO DO ESTADO DO PARANÁ 3ª Vara Estadual Empresarial de Falência, Recuperação Judicial e Arbitragem Autos nº 0000087-93.1996.8.16.0124 I. RELATÓRIO 1. Trata-se de processo de falência de IREM S/A Indústria e Comércio, ajuizado em 9 de março de 1996 por J.L. Batista Santos & Cia. Ltda., com fundamento em crédito de R$ 47.567,14 (mov. 1.2). A quebra foi decretada em 13 de agosto de 1996, com fixação do termo legal no sexagésimo dia anterior ao primeiro protesto e nomeação de síndico (mov. 1.2, fls. 106-110). Seguiram-se a lacração do estabelecimento, a arrecadação de bens, a apresentação do quadro geral de credores e sucessivos atos de realização do ativo, sob a regência do Decreto-lei nº 7.661/45. 2. No curso da liquidação, o juízo homologou proposta de aquisição da totalidade dos ativos da massa formulada por CTM Administração de Bens Ltda, avaliados em R$ 3.684.060,37, mediante assunção do pagamento dos créditos trabalhistas homologados, arbitrando honorários do síndico em 2% sobre o produto dos bens arrecadados (mov. 1.22, fls. 2126/2128). 3. A carta de adjudicação foi expedida e, diante de recusa de registro imobiliário, retificada, lavrando-se termo em 16/04/2021 (mov. 1.23, fl. 2465). A homologação da adjudicação transitou em julgado em 11.11.2014 (mov. 345). 4. Sobrevieram a desapropriação de imóvel rural da massa para fins de reforma agrária, com depósito judicial de títulos da dívida agrária e levantamentos autorizados em favor de CTM (movs. 1.24 a 1.28 e movs. 57, 75, 112, 118, 193 e 212), a arrecadação superveniente do imóvel objeto da matrícula nº 11.031 do Registro de Imóveis, recebido em dação em pagamento do Município (movs. 39.1 e 51.1/2), as habilitações de crédito e penhoras no rosto dos autos, as manifestações da União, do Estado do Paraná, de Municípios, do INSS e da Caixa Econômica Federal acerca de créditos fiscais e de FGTS.PODER JUDICIÁRIO DO ESTADO DO PARANÁ 3ª Vara Estadual Empresarial de Falência, Recuperação Judicial e Arbitragem 5. Quanto ao FGTS, o síndico requereu que a decisão sobre o privilégio dos créditos permanecesse suspensa até o julgamento da prescrição intercorrente suscitada em execução fiscal (mov. 347), com concordância da União (mov. 355.1). 6. A Caixa Econômica Federal informou que a PGFN reassumiu a atuação nos feitos relativos à dívida ativa do FGTS (mov. 408.1) e requereu sua desabilitação, para que as comunicações passem a ser dirigidas unicamente à PGFN (mov. 438.1). 7. A União requereu a retificação do termo de autuação para persecução dos créditos de FGTS e apontou a ausência de inclusão de créditos na classe trabalhista do quadro de mov. 413, juntando os cálculos respectivos (mov. 450.1). 8. M4 Capital Securitizadora S/A apresentou proposta de aquisição, por R$ 33.450,00, com pagamento à vista, do ativo da massa relativo ao empréstimo compulsório de energia elétrica da Eletrobrás (mov. 357). 9. O síndico apontou a existência de proposta anterior pendente de decisão e a necessidade de apuração do valor atual do ativo (mov. 362.1), postulando a expedição de ofícios aos Bancos Itaú e Bradesco (mov. 401.1). Os ofícios foram expedidos (movs. 410.1 e 411.1) e protocolados pelo síndico junto aos destinatários (mov. 424.1). 10. Haza Investimentos Ltda, cessionária de crédito anteriormente titularizado por CTM, habilitou-se nos autos e passou a requerer o prosseguimento do feito, notadamente a avaliação e a alienação do imóvel da matrícula nº 11.031 do Registro de Imóveis de Palmeira/PR, cujas custas de avaliação foram recolhidas (movs. 370.1/2, 380.1, 403.1, 421.1 e 439.1). 11 . O feito foi redistribuído à 1ª Vara Cível e Empresarial Regional de Ponta Grossa, sendo proferida decisão ao mov. 467, em que o juízo estabeleceu diretrizes para o prosseguimento da falência, com aplicação do Decreto-Lei nº 7.661/1945. Reconheceu-se a sucessão processual da HAZA INVESTIMENTOS LTDA. em relação à CTM, inclusive quanto aos ativos e passivos assumidos naPODER JUDICIÁRIO DO ESTADO DO PARANÁ 3ª Vara Estadual Empresarial de Falência, Recuperação Judicial e Arbitragem proposta anteriormente homologada, determinando-se a apresentação de relação dos débitos abrangidos e de novo quadro-geral de credores remanescentes. Determinaram-se, ainda, providências para liquidação dos bens remanescentes (nomeação de leiloeiro, avaliação dos imóveis de matrículas nº 4.387, 10.745 e 11.031), análise da proposta de cessão de crédito apresentada pela M4 Capital e prestação de contas pela CTM. 12. Quanto às árvores arrecadadas, derrubadas pelo grupamento de bombeiros do Município em razão do risco que ofereciam (mov. 141), houve proposta única de aquisição no valor de R$ 2.000,00, sobre a qual o síndico se manifestou favoravelmente (movs. 141 e 143.2), com publicação de aviso aos interessados (mov. 142.1), concordância dos credores instados (movs. 160.1 e 173.1) e parecer favorável do Ministério Público (mov. 259.1). O síndico registrou o interesse na venda em caráter de urgência (mov. 235.1) e informou que a alienação aguarda autorização judicial (mov. 393.1). 13. Josiane Monteiro e Marlene Kuhn (mov. 371) e Marlene do Rocio Kmexif Genari (mov. 423.1) requereram o levantamento de valores que afirmam lhes ser devidos. 14. Consta dos autos a existência de saldo depositado em conta poupança da Caixa Econômica Federal, no valor histórico de R$ 17.203,94, referente a credores trabalhistas não localizados à época dos pagamentos (mov. 292.1), sobre o qual o síndico postulou destinação diversa, para pagamento do perito judicial nomeado nos autos de prestação de contas (movs. 292.1 e 315.1). 15. Na decisão de mov. 577, o juízo rejeitou os embargos de declaração opostos por Haza contra a decisão de mov. 467, determinou o prosseguimento do procedimento relativo à cessão de crédito à M4 Capital, apreciou a prestação de contas de CTM, determinou o acompanhamento da ação de indenização por desapropriação movida em face do Município de Palmeira (autos nº 0000866- 32.2025.8.16.0124), registrou o cumprimento de penhora no rosto dos autos, consignou a expedição de certidão de trânsito em julgado da sentença falimentar e fixou providências de reorganização do feito.PODER JUDICIÁRIO DO ESTADO DO PARANÁ 3ª Vara Estadual Empresarial de Falência, Recuperação Judicial e Arbitragem 16. Haza opôs novos embargos de declaração (mov. 584), sustentando omissões, contradições e erro de interpretação da cessão de mov. 370, ao argumento de que adquiriu exclusivamente direitos creditórios. 17. O leiloeiro ANTONIO MAGNO JACOB DA ROCHA (mov. 588) apresentou manifestação, em que alegou que, mesmo após diligências, não localizou os imóveis de matrículas nº 10.745 e 4.387. Ainda, asseverou que, no que se refere ao imóvel de matrícula nº 11.031, a Prefeitura informou que houve a desapropriação de parte do imóvel, contudo, sem saber apontar a área exata, motivo pelo qual não realizou as avaliações, solicitando informações. 18. CTM igualmente opôs embargos de declaração, voltados ao esclarecimento das obrigações assumidas quando da aquisição dos imóveis da massa (mov. 589). 19. No mov. 595 foi protocolado pedido de habilitação de sucessores de credor falecido, instruído com formal de partilha, documentos do inventário, certidões e documentos pessoais. 20. O síndico, ao mov. 622, informou que, quanto aos imóveis de matrículas nº 10.745 e 4.387 \"não tem conhecimento da existência deles, tampouco o Falido relacionou quando da quebra\" e, quanto ao imóvel de matrícula 11.031, informou que ajuizou ação indenizatória por desapropriação e que a desapropriação recaiu apenas sobre parte do imóvel (área de 1.110,65m²), restando 7.461,09m². 21. O Ministério Público ofertou parecer sobre os embargos (mov. 626), e na decisão de mov. 629, o juízo não acolheu os embargos de declaração de Haza e da CTM, mas determinou a intimação do síndico para falar sobre a prescrição alegada. Ainda, determinou-se a expedição de ofício ao Banco Itaú, para análise da proposta apresentada pela M4 Capital, e expedição de ofício à Prefeitura de Palmeira/PR e ao Registro de Imóveis daquele Município para obtenção de matrículas e informações atualizadas acerca dos imóveis sobre os quais o leiloeiro solicitou informações. 22. O síndico apresentou manifestação ao mov. 638, em que opinou:PODER JUDICIÁRIO DO ESTADO DO PARANÁ 3ª Vara Estadual Empresarial de Falência, Recuperação Judicial e Arbitragem “a) pelo acolhimento da prescrição, extinguindo-se qualquer pretensão de prestação de contas; b) pelo reconhecimento de que a massa falida se encontra integralmente quitada quanto ao passivo trabalhista existentes na época da proposta de adjudicação e em relação a débitos que recaíam sobre os imóveis adjudicados; c) pelo reconhecimento de que os débitos perante o Município de Palmeira são de responsabilidade da Massa falida, pois recaem a imóvel ainda pertencente a massa falida e arrecadados após a adjudicação pela CTM; d) pela consequente estabilização definitiva da situação jurídica consolidada há décadas.” 23. O Município de Palmeira apresentou informações sobre os imóveis de matrículas nº 10.745 e 4.387 (mov. 643), juntando as cópias das matrículas atualizadas. 24. Resposta do Banco Itaú (mov. 648), informando que não foram localizados ativos junto à corretora. 25. No mov. 659, Haza requereu: a imediata nomeação de leiloeiro para avaliação e venda do imóvel da matrícula nº 11.031; a declaração de que jamais assumiu obrigações de CTM, na medida em que adquiriu apenas determinados créditos trabalhistas, não respondendo pelos passivos assumidos por aquela empresa em 2006; o reconhecimento da prescrição de qualquer pretensão da massa falida para exigir prestação de contas, ressarcimentos ou cumprimento de obrigações assumidas por CTM, com invocação dos arts. 189, 205 e 206 do Código Civil. 26. A Procuradoria da Fazenda Estadual juntou cálculo atualizado dos créditos tributários estaduais inscritos em dívida ativa (mov. 664). 27. Realizada a redistribuição do feito à 3ª Vara Estadual de Falências e Recuperação Judicial, o juízo determinou a apresentação de relatório do processo falimentar (mov. 660), o qual foi apresentado pelo síndico ao mov. 668, em que, ao final, requereu: (i) a intimação dos credores e demais interessados para ciência do relatório; (ii) o registro da adequação da relação de credores, sem prejuízo de nova retificação após o julgamento definitivo da exceção de pré- executividade; (iii) o prosseguimento do feito, para avaliação e alienação do imóvel da matrícula nº 11.031 em conjunto com os direitos indenizatórios a elePODER JUDICIÁRIO DO ESTADO DO PARANÁ 3ª Vara Estadual Empresarial de Falência, Recuperação Judicial e Arbitragem atrelados; (iv) a expedição de ofício ao Banco Itaú S/A para resposta ao pedido de informações sobre as ações da Eletrobrás encaminhado no mov. 410.1. 28. O síndico informou a extinção de três execuções fiscais por prescrição intercorrente (mov. 675). 29. É o relatório. Decido. II. FUNDAMENTAÇÃO II.1. Regime jurídico aplicável: 30. A falência foi decretada em 13 de agosto de 1996, de modo que o feito permanece regido pelo Decreto-lei nº 7.661/45, por força do art. 192, caput, da Lei nº 11.101/2005, admitida a aplicação subsidiária das normas processuais vigentes naquilo que não conflitar com o regime originário. 31. As providências de realização do ativo remanescente e de atualização do passivo observarão, portanto, os arts. 63, 70 e 114 e seguintes do Decreto-lei nº 7.661/45. Registro, ainda, que o feito foi redistribuído a esta 3ª Vara Estadual de Falências e Recuperação Judicial, perante a qual prossegue o juízo universal da falência. II.2. Habilitação por sucessão processual (mov. 595): 32. O requerimento de mov. 595 tem por objeto a substituição de credor falecido por seus sucessores, para fins de recebimento de eventuais pagamentos futuros, e veio instruído com formal de partilha, documentos do inventário, certidões e documentos pessoais. 33. Cuida-se de sucessão processual, disciplinada pelos arts. 110 e 687 a 692 do Código de Processo Civil, aplicáveis subsidiariamente ao feito falimentar. 34. Antes da deliberação, é necessária a oitiva dos demais interessados.PODER JUDICIÁRIO DO ESTADO DO PARANÁ 3ª Vara Estadual Empresarial de Falência, Recuperação Judicial e Arbitragem 35. Assim, determino a intimação do síndico para que se manifeste, no prazo de 15 dias, sobre o pedido de habilitação por sucessão, indicando o credor originário, a posição do crédito no quadro geral e a regularidade da documentação apresentada. 36. Após, dê-se vista ao Ministério Público. Em seguida, venham conclusos para decisão. II.3. Imóveis de matrículas nº 10.745, 4.387 e 11.031: 37. O leiloeiro nomeado informou não ter localizado os imóveis de matrículas nº 10.745 e 4.387 (mov. 588). O síndico, por sua vez, declarou desconhecer a existência de tais bens, que tampouco foram relacionados pelo falido quando da quebra (mov. 622). Na sequência, o Município de Palmeira prestou informações e juntou as matrículas respectivas (mov. 643). 38. Compulsando os autos, noto que a existência dos referidos imóveis foi noticiada nos autos pelo juízo da 1ª Vara Empresarial Regional de Ponta Grossa na decisão de mov. 467, ainda em 05/12/2024. 39. Portanto, cabia ao síndico ter diligenciado a localização dos referidos bens, matrículas e informações acerca da existência de ocupantes e a que título se encontram nos imóveis. 40. Contudo, passados mais de um ano e meio, as primeiras informações relevantes sobre os imóveis foram apresentadas ao mov. 643, pelo Município de Palmeira. 41. Da análise das matrículas acostadas aos movs. 643.2 e 643.3, verifico que o imóvel de matrícula 10.745 corresponde ao imóvel da transcrição n. 15.947, Livro 3-G, fls. 111, SRI da Comarca de Palmeira/PR, imóvel esse que integra o ativo adquirido e adjudicado pela CTM. 42. Já no que se refere ao imóvel de matrícula nº 4.387, consta no R-1, de 30/10/1985, o registro de usucapião em favor da falida, não havendo qualquer outro registro ou averbação.PODER JUDICIÁRIO DO ESTADO DO PARANÁ 3ª Vara Estadual Empresarial de Falência, Recuperação Judicial e Arbitragem 43. Portanto, remanescem os imóveis de matrículas nº 4.387 e 11.031 para serem avaliados e alienados. 44. O imóvel da matrícula nº 11.031 do Registro de Imóveis de Palmeira/PR foi arrecadado supervenientemente à adjudicação homologada em favor de CTM, recebido em dação em pagamento, conforme arrecadação realizada ao mov. 39.1, com matrícula acostada ao mov. 51.2. 45. Outrossim, o óbice apontado pelo leiloeiro para a avaliação, consistente na indefinição da área desapropriada pelo Município (mov. 588), foi superado pela manifestação do síndico de mov. 622, em que informou o ajuizamento da ação indenizatória e indicou que a desapropriação recaiu sobre área de 1.110,65 m², remanescendo 7.461,09 m² em favor da massa. 46 . Assim, considerando tais esclarecimentos, bem como as informações prestadas pelo Município de Palmeira ao mov. 643, determino o prosseguimento da avaliação dos referidos imóveis. 47. Outrossim, considerando o grande lapso temporal entre a decretação da falência e a arrecadação dos bens, determino: a) que o leiloeiro-avaliador já nomeado nos autos apresente laudo de avaliação dos imóveis de matrículas 4.387 e 11.031, bem como apresente mapa e memorial descritivo dos referidos imóveis, contendo a indicação dos limites, com imagens; b) no que se refere ao imóvel de matrícula nº 11.031, deverá o leiloeiro promover a avaliação considerando a área remanescente de 7.461,09 m², com indicação destacada dos eventuais direitos indenizatórios atrelados ao bem, inclusive os discutidos na ação nº 0000866-32.2025.8.16.0124, a fim de viabilizar a alienação conjunta do imóvel e dos direitos a ele vinculados, na linha do requerido pelo síndico no item (iii) do mov. 668; c) a expedição de mandado de constatação, a ser cumprido por Oficial de Justiça, que deverá acompanhar o leiloeiro-avaliador na diligência acima, devendo certificar se os imóveis se encontram ocupados e, em caso positivo, identificar as pessoas que estejam exercendo posse sobre os imóveis, solicitando a que título se encontram ocupando os imóveis. 48. O laudo de avaliação e o mandado de constatação deverão ser apresentados no prazo de 30 dias. 49. Sobrevindo o laudo, intimem-se o síndico, Haza, CTM e o Ministério Público para, em 15 dias, manifestarem-se sobre a forma de alienação, observados osPODER JUDICIÁRIO DO ESTADO DO PARANÁ 3ª Vara Estadual Empresarial de Falência, Recuperação Judicial e Arbitragem arts. 114 e seguintes do Decreto-lei nº 7.661/45, ocasião em que será deliberada a designação do leilão. II.4. Limitação de responsabilidade de Haza (mov. 659, item “ii”): 50. A extensão das obrigações decorrentes da cessão de mov. 370 e a alegada inexistência de sucessão de Haza nas obrigações de CTM foram objeto das decisões de movs. 467 e 577, contra as quais a interessada opôs sucessivos embargos de declaração, os quais foram rejeitados (mov. 577 e mov. 629). 51. A reiteração da mesma matéria por simples petição não constitui via adequada para a rediscussão de questão já decidida, à qual se aplicam a preclusão e a vedação do art. 505 do Código de Processo Civil. Eventual inconformismo deve ser veiculado pela via recursal própria. 52. Outrossim, verifico que a Haza interpôs agravo de instrumento (autos nº 0030053-35.2026.8.16.0000 AI), o qual está pendente de julgamento, de modo que a matéria já foi submetida à instância superior. 53. Diante disso, deixo de analisar o pedido de declaração de limitação de responsabilidade. II.5. Prescrição (movs. 659, item \"c\"): 54. Na decisão de mov. 629, o juízo determinou a intimação do síndico para manifestação sobre a prescrição alegada. 55. Em cumprimento, o síndico opinou pelo acolhimento da prescrição, com a extinção de qualquer pretensão de prestação de contas, e postulou, ainda, o reconhecimento da quitação integral do passivo trabalhista existente à época da proposta de adjudicação e dos débitos que recaíam sobre os imóveis adjudicados, o reconhecimento da responsabilidade da massa pelos débitos perante o Município de Palmeira relativos a imóvel arrecadado após aPODER JUDICIÁRIO DO ESTADO DO PARANÁ 3ª Vara Estadual Empresarial de Falência, Recuperação Judicial e Arbitragem adjudicação e a consequente estabilização da situação jurídica consolidada (mov. 638). 56. No mov. 659, Haza requereu o reconhecimento da prescrição de qualquer pretensão da massa para exigir prestação de contas, ressarcimentos ou cumprimento de obrigações assumidas por CTM, com invocação dos arts. 189, 205 e 206 do Código Civil. 57. A matéria não comporta decisão imediata. Os reconhecimentos postulados alcançam a pretensão de prestação de contas determinada na decisão de mov. 577 e a definição da alocação de responsabilidades entre a massa, CTM e Haza, além de projetarem efeitos sobre a coletividade de credores e sobre as Fazendas Públicas interessadas, razão pela qual a deliberação deve ser precedida de contraditório e da manifestação do Ministério Público. 58. Determino, ainda, que os credores e interessados sejam cientificados também da manifestação do síndico de mov. 638 e do pedido de mov. 659, facultando-se manifestação no mesmo prazo de 15 dias. 59. Após, dê-se vista ao Ministério Público para parecer específico sobre a prescrição e desdobramentos. Em seguida, venham conclusos para decisão. II.6. Relatório do síndico, quadro geral de credores e execuções fiscais extintas: 60. O relatório apresentado no mov. 668 atende ao determinado na decisão de mov. 660 e consolida o passivo remanescente e o ativo residual da massa. 61. Intimem-se os credores constantes do quadro, as Fazendas Públicas (União, Estado do Paraná e Municípios credores), a PGFN, o INSS, Haza, CTM e demais habilitados, mediante publicação, para que, no prazo de 15 dias, tomem ciência do relatório de mov. 668 e se manifestem, querendo, sobre a relação retificada de credores. 62. Fica consignado que a relação de credores permanece sujeita a nova retificação após o julgamento definitivo da exceção de pré-executividadePODER JUDICIÁRIO DO ESTADO DO PARANÁ 3ª Vara Estadual Empresarial de Falência, Recuperação Judicial e Arbitragem apresentada na execução fiscal nº 0000010-70.1985.8.16.0124, conforme ressalvado pelo próprio síndico (item \"ii\" do mov. 668). 63. Quanto à notícia de extinção de três execuções fiscais por prescrição intercorrente (mov. 675), a repercussão sobre o quadro geral de credores exige identificação precisa dos feitos e a comprovação do trânsito em julgado. 64. Assim, determino a intimação do síndico para que, em 15 dias, indique as execuções fiscais extintas, comprove o trânsito em julgado das respectivas sentenças e apresente quadro geral retificado, com a exclusão dos créditos correspondentes, dando-se ciência à União e ao Estado do Paraná, conforme a titularidade dos créditos atingidos. 65. Quanto aos créditos de FGTS, mantenho a suspensão da deliberação sobre o privilégio respectivo até o julgamento da prescrição intercorrente suscitada na via executiva própria, conforme requerido pelo síndico (mov. 347) e anuído pela União (mov. 355.1), permanecendo os valores registrados no quadro em caráter provisório. II.7. Pedidos da União (mov. 450) e da CEF (mov. 438): 66. Considerando a informação de que a PGFN reassumiu a representação judicial relativa à dívida ativa do FGTS (mov. 408.1): (i) retifique a Serventia o termo de autuação e os registros do sistema, para que a persecução dos créditos de FGTS passe a ser vinculada à União, representada pela PGFN; (ii) defiro a desabilitação da Caixa Econômica Federal, devendo as comunicações dos atos processuais relativas ao FGTS ser dirigidas unicamente à PGFN. 67. No tocante à alegada ausência de inclusão de créditos na classe própria do quadro de mov. 413, observo que o síndico apresentou relação retificada no mov. 668, contemplando classe específica de credores de FGTS. A suficiência da retificação poderá ser impugnada pela União no prazo de manifestação fixado no item 61.PODER JUDICIÁRIO DO ESTADO DO PARANÁ 3ª Vara Estadual Empresarial de Falência, Recuperação Judicial e Arbitragem II.8. Venda das árvores arrecadadas 68. Foram arrecadadas aproximadamente 20 árvores derrubadas pelo grupamento de bombeiros do Município em razão do risco que ofereciam (mov. 141), havendo proposta única de aquisição no valor de R$ 2.000,00, sobre a qual o síndico se manifestou favoravelmente (movs. 141 e 143.2), com aviso publicado aos interessados (mov. 142.1), concordância dos credores instados (movs. 160.1 e 173.1) e parecer favorável do Ministério Público (mov. 259.1). O síndico registrou o interesse na venda em caráter de urgência (mov. 235.1) e informou que a alienação aguarda apenas autorização judicial (mov. 393.1). 69. Tratando-se de bens sujeitos a deterioração, cuja manutenção não aproveita à massa, e não havendo impugnação à proposta única apresentada, intime-se o síndico para informar se a proposta ainda está válida, devendo entrar em contato com o proponente. 70. Em caso positivo, fica, desde já, autorizada a venda das árvores arrecadadas pelo valor de R$ 2.000,00, na forma dos arts. 114 e seguintes do Decreto-lei nº 7.661/45. O produto da alienação deverá ser depositado em conta judicial vinculada a estes autos, comprovando o síndico o depósito no prazo de 10 dias contados do recebimento. II.9. Requerimentos de levantamento de valores (movs. 371 e 423): 71. Josiane Monteiro e Marlene Kuhn (mov. 371) e Marlene do Rocio Kmexif Genari (mov. 423.1) requereram o levantamento de valores que afirmam lhes ser devidos. 72. Consta dos autos a existência de saldo depositado em conta poupança da Caixa Econômica Federal, no valor histórico de R$ 17.203,94, referente a credores trabalhistas não localizados à época dos pagamentos (mov. 292.1), sobre o qual o síndico chegou a postular destinação diversa, para pagamento do perito judicial nomeado nos autos de prestação de contas (movs. 292.1 e 315.1).PODER JUDICIÁRIO DO ESTADO DO PARANÁ 3ª Vara Estadual Empresarial de Falência, Recuperação Judicial e Arbitragem 73. Os autos não contêm elementos que permitam, desde logo, aferir a titularidade e o valor atualizado devido a cada requerente. 74. Determino a intimação do síndico para que, em 15 dias, se manifeste sobre os requerimentos, informando: (i) se as requerentes figuram entre os credores trabalhistas contemplados nos rateios e não localizados à época; (ii) o valor individualizado devido a cada uma, com atualização; (iii) a compatibilização entre os levantamentos pretendidos e a destinação anteriormente sugerida para o saldo remanescente. 75. Após, dê-se vista ao Ministério Público e venham conclusos. II.10. Crédito perante a Eletrobrás e proposta da M4 Capital: 76. A deliberação sobre a proposta de aquisição formulada por M4 Capital Securitizadora S/A (mov. 357.1/3), bem como sobre a proposta anterior mencionada pelo síndico (mov. 362.1), depende da apuração da quantidade e do valor atual das ações e créditos titularizados pela massa. 77. Para tanto, a decisão de mov. 629 determinou a expedição de ofício ao Banco Itaú, cuja resposta foi juntada no mov. 648. Contudo, observo que a resposta não possui relação com o requerimento formulado. 78. Assim, determino a reiteração do ofício determinado no item 4.3 da decisão de mov. 629, devendo o ofício ser instruído com as peças relevantes – resposta da Eletrobrás ao mov. 384 e a proposta de mov. 357. 79. Solicite-se resposta no prazo de 15 dias. 80 . Sobrevindo resposta, intime-se o síndico para que, em 15 dias, se manifeste de forma conclusiva sobre a proposta da M4 Capital e sobre a proposta anterior pendente, indicando a alternativa mais vantajosa para a massa, inclusive quanto à eventual oferta do ativo em leilão. 81. Após, dê-se vista ao Ministério Público e venham conclusos.PODER JUDICIÁRIO DO ESTADO DO PARANÁ 3ª Vara Estadual Empresarial de Falência, Recuperação Judicial e Arbitragem III. CONCLUSÃO: 82. Ante o exposto, ficam consolidadas, em síntese, as determinações desta decisão: a) Habilitação por sucessão (mov. 595): intime-se o síndico para manifestação no prazo de 15 dias (item 35); após, vista ao Ministério Público e conclusos (item 36); b) Imóveis de matrículas nº 4.387 e 11.031: intime-se o leiloeiro-avaliador para que, em 30 dias, apresente laudo de avaliação, mapa e memorial descritivo dos imóveis, com imagens, observadas as diretrizes do item 47, alíneas \"a\" e \"b\"; c) Mandado de constatação: expeça-se mandado, a ser cumprido por Oficial de Justiça em acompanhamento ao leiloeiro-avaliador, para certificação de eventual ocupação dos imóveis e identificação dos ocupantes, nos termos do item 47, alínea \"c\"; d) sobrevindo o laudo de avaliação, intimem-se o síndico, Haza, CTM e o Ministério Público para manifestação, em 15 dias, sobre a forma de alienação (item 49); e) Prescrição (movs. 638 e 659): cientifiquem-se os credores e interessados da manifestação do síndico de mov. 638 e do pedido de mov. 659, facultando- se manifestação em 15 dias (item 58); após, vista ao Ministério Público para parecer específico e conclusos (item 59); f) Relatório e quadro geral de credores (mov. 668): intimem-se, mediante publicação, os credores constantes do quadro, as Fazendas Públicas (União, Estado do Paraná e Municípios credores), a PGFN, o INSS, Haza, CTM e demais habilitados para ciência do relatório e manifestação, em 15 dias, sobre a relação retificada de credores (item 61); g) Execuções fiscais extintas (mov. 675): intime-se o síndico para que, em 15 dias, indique as execuções fiscais extintas, comprove o trânsito em julgado das sentenças e apresente quadro geral retificado, dando-se ciência à União e ao Estado do Paraná (item 64); h) FGTS: retifique a Serventia o termo de autuação e os registros do sistema, vinculando a persecução dos créditos de FGTS à União, representada pela PGFN; fica desabilitada a Caixa Econômica Federal, devendo as comunicações relativas ao FGTS ser dirigidas unicamente à PGFN (item 66); i) Venda das árvores arrecadadas: intime-se o síndico para informar se a proposta ainda está válida (item 69), e, em caso positivo, fica autorizada a alienação pelo valor de R$ 2.000,00, intime-se o síndico para promover a venda e comprovar o depósito do produto em conta judicial vinculada a estes autos, em 10 dias contados do recebimento (item 70); j) Levantamento de valores (movs. 371 e 423): intime-se o síndico para manifestação em 15 dias, nos termos do item 74; após, vista ao Ministério Público e conclusos (item 75); k) Crédito Eletrobrás – proposta da M4 Capital: reitere-se o ofício ao Banco Itaú determinado no item 4.3 da decisão de mov. 629, instruído com a resposta da Eletrobrás (mov. 384) e a proposta de mov. 357, solicitando-se resposta em 15 dias (itens 78/79); sobrevindo resposta, intime-se o síndico para manifestação conclusiva em 15 dias (item 80); após, vista ao Ministério Público e conclusos (item 81).PODER JUDICIÁRIO DO ESTADO DO PARANÁ 3ª Vara Estadual Empresarial de Falência, Recuperação Judicial e Arbitragem 83. Intimem-se. Diligências necessárias. Curitiba, datado eletronicamente. PEDRO IVO LINS MOREIRA MAGISTRADO",
+    "data": "2026-08-14",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessão de crédito",
+      "cessionária",
+      "substituição de credor"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "recuperação judicial",
+      "quadro geral de credores",
+      "lei nº 11.101",
+      "massa falida",
+      "falência"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJPR\\2026-08\\2026-08-14\\matches_2026-08-14.json",
+    "relevancia_btg": "baixa",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Haza Investimentos Ltda, cessionária de crédito anteriormente titularizado por CTM, habilitou-se no processo de falência e requereu prosseguimento do feito, com reconhecimento de sucessão processual.",
+        "cedente": "CTM Administração de Bens Ltda",
+        "cessionario": "Haza Investimentos Ltda",
+        "valor": null,
+        "classe_credito": "outro",
+        "cnj_rj": null,
+        "recuperanda": "IREM S/A Indústria e Comércio",
+        "motivo_classificacao": "Habilitação e sucessão processual de cessionário institucional em processo falimentar, com cessão de crédito relevante no contexto concursal.",
+        "descoberto_em": "2026-08-14"
+      }
+    ]
+  },
+  {
+    "id": 691256668,
+    "cnj": "0008466-22.2024.8.16.0001",
+    "classe": "EMBARGOS à EXECUçãO",
+    "orgao": "6ª Vara Cível de Curitiba",
+    "destinatarios": [
+      "MARCO ANTONIO MAIA VELASQUE",
+      "LAKE SECURITIZADORA S.A"
+    ],
+    "link": "https://projudi.tjpr.jus.br/projudi/processo/validacaoDocumentos.do?_tj=8a6c53f8698c7ff7826b4c776d71316d1925abc508bbf0c37395a1a67052623318feb4ae2cfae9afa5a6b3dbb4f135fb047df186423a0861",
+    "texto_completo": "PODER JUDICIÁRIO DO ESTADO DO PARANÁ COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - FORO CENTRAL DE CURITIBA 6ª VARA CÍVEL DE CURITIBA - PROJUDI Rua Cândido de Abreu, 535 - 6º Andar - Centro Cívico - Curitiba/PR - CEP: 80.530-906 - Celular: (41) 98820-6079 - E-mail: 06civelcuritiba@assejepar.com.br Autos nº. 0008466-22.2024.8.16.0001 Processo:   0008466-22.2024.8.16.0001 Classe Processual:   Embargos à Execução Assunto Principal:   Efeito Suspensivo / Impugnação / Embargos à Execução Valor da Causa:   R$1.000,00 Embargante(s):   MARCO ANTONIO MAIA VELASQUE (RG: 055305171 SSP/RJ e CPF/CNPJ: 708.906.257-00) Rua Raul Pompéia, 182 apto 301 bloco 3 - Engenho do Porto - DUQUE DE CAXIAS/RJ - CEP: 25.015-270 Embargado(s):   LAKE SECURITIZADORA S.A (CPF/CNPJ: 11.862.719/0001-58) Rua Bom Jesus, 212 Salas 1307 à 1310, 13° andar. - Juvevê - CURITIBA/PR - CEP: 80.035-010       SENTENÇA  I – Relatório  Trata-se de embargos à execução opostos por Marco Antonio Maia Velasque em face de Lake Securitizadora S.A., por dependência aos autos de execução de título extrajudicial n. 0029943-72.2022.8.16.0001, nos quais a embargada pretende receber crédito indicado na inicial executiva.  Na execução apensa, a exequente afirmou ser credora em razão do Contrato Particular de Compromisso de Cessão de Direito de Crédito e Outras Avenças n. 841, firmado com Dutraplast Comércio de Plásticos e Tecidos Ltda., bem como da nota promissória vinculada à operação, com indicação do embargante como devedor solidário e avalista.  O contrato juntado na execução registra que Dutraplast figura como cedente e Lake Securitizadora S.A. como cessionária, tendo o embargante sido qualificado como devedor solidário, fiador ou avalista da operação, com assinatura digital aposta nessa condição.  A execução foi instruída com relação de cheques cedidos, no valor de face total de R$ 351.179,00, e com planilha de débito que, aplicando correção monetária, multa de 2%, juros moratórios de 0,33% ao dia e honorários contratuais de 20%, apontou o total geral de R$ 445.948,11 para dezembro de 2022, conforme seqs. 1.10 e 1.11 da execução.  Na petição inicial destes embargos, o embargante alegou incompetência territorial deste Juízo, sustentando que o feito deveria tramitar na Comarca de Duque de Caxias, Estado do Rio de Janeiro, por ser o local de domicílio dos devedores e de sede da empresa Dutraplast.  Afirmou, ainda, existir prejudicialidade externa em razão da recuperação judicial do chamado Grupo Riviera ou Dutraplast, sustentando que o crédito exequendo estaria relacionado no processo recuperacional e deveria observar os efeitos da recuperação, inclusive quanto à atualização do crédito e eventual pagamento nos termos do plano.  O embargante também defendeu que, por não integrar o Sistema Financeiro Nacional, a embargada não poderia cobrar juros moratórios de 0,33% ao dia. Por isso, pediu a limitação dos juros a 1% ao mês, o reconhecimento de excesso de execução de R$ 86.137,98 e a aplicação da sanção do art. 940 do Código Civil.  A gratuidade da justiça foi inicialmente indeferida, mas o Tribunal de Justiça do Estado do Paraná deu provimento ao agravo de instrumento interposto pelo embargante, deferindo o benefício, conforme seq. 33.1.   Em seguida, a decisão de seq. 35.1 anotou a gratuidade, corrigiu o valor da causa para R$ 86.137,98, recebeu os embargos e indeferiu o efeito suspensivo.  A embargada apresentou impugnação na seq. 38.1.   Sustentou, em síntese, a validade da eleição do foro de Curitiba, a inexistência de prejudicialidade externa, a possibilidade de prosseguimento da execução contra coobrigado solidário, a inaplicabilidade do plano de recuperação judicial ao embargante e a legalidade dos encargos contratuais.  O embargante manifestou-se sobre a impugnação na seq. 42.1, reiterando as teses iniciais e insistindo na necessidade de reconhecimento da submissão do crédito aos efeitos da recuperação judicial, da limitação dos juros e do excesso de execução.  Intimadas para especificar provas, o embargante requereu prova pericial contábil e documental suplementar, afirmando serem necessárias para apurar os encargos e os efeitos da recuperação judicial, conforme seq. 50.1.   A embargada requereu prova testemunhal, depoimento pessoal do embargante e juntada documental complementar, conforme seq. 51.1.  O embargante voltou a se manifestar na seq. 54.1, opondo-se à prova oral requerida pela embargada e reiterando o pedido de perícia contábil.   Pela decisão de seq. 56.1, foi reconhecido que a controvérsia era documental e jurídica, indeferida a dilação probatória e determinado o julgamento antecipado do mérito.  Foram opostos embargos de declaração por ambas as partes contra a decisão de julgamento antecipado, conforme seqs. 59.1 e 60.1.   Os aclaratórios foram rejeitados pela decisão de seq. 68.1, que manteve a conclusão de desnecessidade de outras provas.  É o relatório.  II – Fundamentação  A controvérsia versa sobre competência, efeitos da recuperação judicial, validade dos encargos e excesso de execução, matérias que não dependem de prova oral ou pericial para a conclusão jurídica ora adotada.  A preliminar de incompetência territorial não procede.   A execução fundada em título extrajudicial pode ser proposta no foro de eleição constante do título, e o contrato celebrado entre as partes elegeu expressamente o foro da Comarca de Curitiba para dirimir controvérsias decorrentes da avença, conforme cláusula décima quinta reproduzida na seq. 1.4 da execução.  A competência territorial é relativa e pode ser afastada quando a cláusula de eleição de foro for abusiva ou dificultar de modo relevante a defesa.  No caso concreto, porém, não há relação de consumo, a operação é empresarial e o embargante assinou o instrumento como devedor solidário e avalista, não sendo suficiente a residência em outro Estado para invalidar a cláusula contratual.  Também não há prejudicialidade externa apta a suspender estes embargos ou a execução apensa.   A recuperação judicial de Dutraplast pode repercutir na forma de cobrança do crédito contra a recuperanda, mas não impede, por si só, a cobrança contra coobrigados, avalistas ou devedores solidários.  A Lei n. 11.101/2005 preserva de modo expresso os direitos do credor contra terceiros garantidores ou coobrigados. O art. 49, § 1º, dispõe:  Os credores do devedor em recuperação judicial conservam seus direitos e privilégios contra os coobrigados, fiadores e obrigados de regresso.  Esse entendimento foi consolidado na Súmula 581 do Superior Tribunal de Justiça:   “A recuperação judicial do devedor principal não impede o prosseguimento das ações e execuções ajuizadas contra terceiros devedores solidários ou coobrigados em geral, por garantia cambial, real ou fidejussória.”  No caso, o embargante consta do contrato e da nota promissória como devedor solidário, fiador ou avalista, conforme seqs. 1.4 e 1.5 da execução.  Assim, ainda que o crédito esteja relacionado no processo recuperacional, fato indicado na relação de credores da seq. 1.6, essa circunstância não retira a exigibilidade da obrigação em face do embargante.  Também não procede a pretensão de limitar a atualização do débito à data do pedido de recuperação judicial ou de impor ao embargante o pagamento nos moldes do plano que vier a ser homologado.   A regra do concurso recuperacional disciplina a relação entre credor e recuperanda, sem importar novação liberatória em favor de devedor solidário não submetido à recuperação.  Ressalva-se apenas que eventual pagamento comprovadamente recebido pela embargada no processo recuperacional ou por qualquer outro coobrigado deverá ser abatido do saldo da execução, para impedir enriquecimento sem causa e duplicidade de recebimento. Não há, contudo, prova de pagamento apta a reduzir desde logo o débito executado.  Quanto aos encargos, assiste razão parcial ao embargante.   A própria planilha executiva aplicou juros moratórios de 0,33% ao dia, conforme seq. 1.11 da execução, com fundamento na cláusula oitava do contrato, que prevê tal taxa para a hipótese de recompra dos títulos inadimplidos, conforme seq. 1.4 da execução.  A embargada, contudo, não demonstrou integrar o Sistema Financeiro Nacional.   A Súmula 596 do Supremo Tribunal Federal afasta a incidência do Decreto n. 22.626/1933 apenas em relação às operações realizadas por instituições públicas ou privadas integrantes do sistema financeiro, o que não foi comprovado nestes autos.  Tratando-se de securitizadora, definida pelo art. 18 da Lei n. 14.430/2022 como instituição não financeira, não incide a exceção prevista na Súmula 596 do Supremo Tribunal Federal, reservada às operações realizadas por instituições integrantes do Sistema Financeiro Nacional.   A relação contratual, portanto, submete-se à disciplina comum dos juros e aos limites da Lei de Usura.  A cláusula que prevê juros moratórios de 0,33% ao dia, correspondentes a aproximadamente 9,9% ao mês, ultrapassa de forma manifesta o limite admitido para os encargos de mora.   Nos termos do art. 5º do Decreto n. 22.626/1933, e em consonância com a orientação consolidada na Súmula 379 do Superior Tribunal de Justiça, os juros moratórios convencionais devem ser reduzidos ao patamar de 1% ao mês.  Por essa razão, há excesso de execução apenas quanto à incidência dos juros moratórios de 0,33% ao dia, devendo o débito ser recalculado com aplicação de juros de mora de 1% ao mês, mantidos os demais encargos que não foram especificamente afastados.  O excesso, entretanto, não corresponde ao valor de R$ 86.137,98 indicado na inicial. A própria planilha apresentada pelo embargante na seq. 1.7, ao final, mantém a incidência dos honorários contratuais de 20% e aponta total geral de R$ 430.366,86, não o valor de R$ 359.810,13 isoladamente considerado antes da soma dessa verba.  Como a fundamentação dos embargos atacou especificamente a taxa dos juros moratórios, e não demonstrou invalidade autônoma da cláusula de honorários contratuais de 20%, o excesso reconhecido limita-se à diferença entre o total executado com juros de 0,33% ao dia e o total apurado com juros legais, mantidos os demais critérios não desconstituídos.  Assim, tomando-se a mesma data de atualização utilizada na execução, a diretriz acolhida conduz, em princípio, ao total geral de R$ 430.366,86 indicado na seq. 1.7, em substituição ao total de R$ 445.948,11 da seq. 1.11 da execução. A apuração definitiva, com atualização posterior, deverá ser feita nos autos executivos mediante memória discriminada.  Não há fundamento para aplicação do art. 940 do Código Civil. A sanção nele prevista pressupõe cobrança por dívida já paga ou cobrança deliberadamente superior ao devido, com comportamento malicioso do credor, o que não se presume do simples reconhecimento parcial de excesso decorrente da revisão de encargo contratual controvertido.  No caso, a cobrança foi embasada em cláusula expressa do contrato, embora reconhecida sua limitação jurídica nesta sentença.   Essa circunstância afasta a caracterização de má-fé qualificada e torna incabível a condenação da embargada ao pagamento do equivalente ao excesso.  III - Dispositivo  Diante do exposto, julgo PARCIALMENTE PROCEDENTES os embargos à execução, com resolução do mérito, para reconhecer o excesso apenas quanto à aplicação de juros moratórios de 0,33% ao dia, determinando que o débito seja recalculado com substituição desses juros por juros de mora de 1% ao mês, nos termos do art. 5º do Decreto n. 22.626/1933, mantidos a correção monetária, a multa contratual de 2% e os honorários contratuais de 20%, na forma da fundamentação. Rejeito os pedidos de reconhecimento de incompetência territorial, suspensão por prejudicialidade externa, submissão do embargante ao plano de recuperação judicial, limitação da atualização à data do pedido recuperacional, aplicação do art. 940 do Código Civil e extinção da execução.  Em razão da sucumbência recíproca, mas preponderante do embargante, distribuo as custas processuais na proporção de 80% ao embargante e 20% à embargada.   Fixo honorários advocatícios em 10% sobre o valor do excesso apurado, observada a mesma proporção, vedada a compensação.  A exigibilidade das verbas impostas ao embargante fica suspensa, em razão da gratuidade da justiça deferida, nos termos do art. 98, § 3º, do Código de Processo Civil.   Após o trânsito em julgado, traslade-se cópia desta sentença aos autos de execução para adequação do saldo e regular prosseguimento.  Publique-se. Registre-se. Intimem-se.   Cumpram-se as pertinentes disposições do Código de Normas da Corregedoria-Geral da Justiça.  Curitiba, data da assinatura digital.L  Maria Silvia Cartaxo Fernandes Mesquita  Juíza de Direito Substituta ",
+    "data": "2026-08-14",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessionária"
+    ],
+    "keywords_cessao_fracas": [
+      "cedente"
+    ],
+    "keywords_rj": [
+      "recuperação judicial",
+      "plano de recuperação judicial",
+      "recuperanda",
+      "em recuperação judicial"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJPR\\2026-08\\2026-08-14\\matches_2026-08-14.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Cessão de crédito realizada pela Dutraplast para Lake Securitizadora, com crédito discutido em execução vinculada a recuperação judicial da Dutraplast.",
+        "cedente": "Dutraplast Comércio de Plásticos e Tecidos Ltda.",
+        "cessionario": "Lake Securitizadora S.A.",
+        "valor": "R$ 445.948,11",
+        "classe_credito": "quirografário",
+        "cnj_rj": null,
+        "recuperanda": "Dutraplast Comércio de Plásticos e Tecidos Ltda.",
+        "motivo_classificacao": "Cessão de crédito em processo relacionado à recuperação judicial, com cessionário institucional (securitizadora) e crédito relevante discutido em execução.",
+        "descoberto_em": "2026-08-14"
+      }
+    ]
+  },
+  {
+    "id": 692104001,
+    "cnj": "0015798-89.2024.8.16.0017",
+    "classe": "EXECUçãO DE TíTULO EXTRAJUDICIAL",
+    "orgao": "5ª Vara Cível de Maringá",
+    "destinatarios": [
+      "BLACKPARTNERS MIRUNA FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS",
+      "MARCIO TELES DA SILVA"
+    ],
+    "link": "https://projudi.tjpr.jus.br/projudi/processo/validacaoDocumentos.do?_tj=8a6c53f8698c7ff7826b4c776d71316d1925abc508bbf0c37395a1a6705262334f70372b7d5e34ce522d764e70fd4871527f5b9fc8ef9d30",
+    "texto_completo": "PODER JUDICIÁRIO DO ESTADO DO PARANÁ COMARCA DA REGIÃO METROPOLITANA DE MARINGÁ - FORO CENTRAL DE MARINGÁ 5ª VARA CÍVEL DE MARINGÁ - PROJUDI Av. Pedro Taques, 294 - Átrium Centro Empresarial - Torre Norte - 1 andar - Zona 10 - Maringá/PR - CEP: 87.030-008 - Fone: (44) 3025-3744 - Celular: (44) 98868-5116 - E-mail: mar-5vj-e@tjpr.jus.br Autos nº. 0015798-89.2024.8.16.0017 Processo:   0015798-89.2024.8.16.0017 Classe Processual:   Execução de Título Extrajudicial Assunto Principal:   Cédula de Crédito Bancário Valor da Causa:   R$1.440.969,56 Exequente(s):   Banco do Brasil S/A Executado(s):   MARCIO TELES DA SILVA 1. Relatório dos autos nas decisões de eventos 15, 20, 48 e 63, tendo esta deferido o pedido de suspensão dos autos pelo prazo de 180 dias. Processo suspenso (evento 65). Levantada a suspensão (evento 69), a terceira BLACKPARTNERS informou que o BANCO DO BRASIL lhe cedeu os créditos objeto desta demanda e requereu a substituição do polo ativo da execução (evento 72). Juntada manifestação da parte exequente em conjunto com a terceira BLACKPARTNERS MIRUNA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS MULTISSEGMENTOS DE RESPONSABILIDADE LIMITADA, requerendo a substituição do polo ativo (evento 75). Expedida intimação ao executado, acerca do petitório juntado no evento 72 (evento 73). É o relatório do essencial.    2. Primeiramente, à Secretaria para que se atente para não encaminhar processos conclusos quando o prazo para cumprimento de determinada intimação estiver em curso, eis o encaminhamento dos autos à conclusão com prazo em curso prejudica não apenas o andamento processual, como a pertinência das próprias decisões, que poderão se tornar inócuas quando publicadas.   3. Da substituição processual. Tendo em conta a “escritura pública de cessão de créditos” de eventos 72.2 e 75.2, indicando que houve cessão da cédula de crédito bancário n° 762.802.774, firmado com o executado, com fundamento no artigo 778, §1.º, inciso III, do Código de Processo Civil, defiro os pedidos de eventos 72 e 75 e autorizo a sucessão processual, passando a constar no polo ativo BLACKPARTNERS MIRUNA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS MULTISSEGMENTOS DE RESPONSABILIDADE LIMITADA. 3.1. Regularizado o polo ativo, intime-se o credor para que, no prazo de 15 (quinze) dias, dê prosseguimento ao feito, manifestando-se sobre a fase processual em que a Recuperação Judicial do executado se encontra e sobre a (im)possibilidade de retomada da ação executiva, sob pena de suspensão.    4. Intime-se. Maringá, data e horário de inserção no sistema. (assinado digitalmente) Suzie Caproni Ferreira Fortes (ag) Juíza de Direito",
+    "data": "2026-08-14",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessão de crédito"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "recuperação judicial"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJPR\\2026-08\\2026-08-14\\matches_2026-08-14.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "extraconcursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Cessão de crédito bancário realizada pelo Banco do Brasil para fundo de investimento em direitos creditórios, com substituição processual autorizada.",
+        "cedente": "Banco do Brasil S/A",
+        "cessionario": "BLACKPARTNERS MIRUNA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS MULTISSEGMENTOS DE RESPONSABILIDADE LIMITADA",
+        "valor": "R$1.440.969,56",
+        "classe_credito": "extraconcursal",
+        "cnj_rj": null,
+        "recuperanda": "MARCIO TELES DA SILVA",
+        "motivo_classificacao": "Cessão de crédito bancário para fundo de investimento com substituição processual em execução, sem menção a processo de recuperação judicial ou falência em curso.",
+        "descoberto_em": "2026-08-14"
+      }
+    ]
   }
 ]

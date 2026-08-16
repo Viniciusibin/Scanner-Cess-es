@@ -1,0 +1,20 @@
+{
+  "cnj": "0013401-74.2026.8.16.0021",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "CRESTIANE ANDREIA ZANROSSO e outros (2) X VERONICA MARIA PINTO",
+  "polos": {
+    "PASSIVO": [
+      "CRESTIANE ANDREIA ZANROSSO",
+      "PICOLI & ZANROSSO ADV. ASSOC.",
+      "GIOVANA PICOLI"
+    ],
+    "ATIVO": [
+      "VERONICA MARIA PINTO"
+    ]
+  },
+  "classe": "Petição Cível",
+  "tribunal": "TJPR"
+}

@@ -1,0 +1,30 @@
+{
+  "cnj": "0009075-10.2020.8.16.0174",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "PRISCILA VIDIGAL RUTHENBERG e outros (4) X VIRGILIO CESAR DE MELO X ALAIN DANIEL RUTHENBERG e outros (5)",
+  "polos": {
+    "TERCEIRO": [
+      "PRISCILA VIDIGAL RUTHENBERG",
+      "OLIVIA DOS SANTOS NERES",
+      "ESTADO DO PARANA",
+      "ANA RITA SINHORIWERZBITZKI",
+      "ALDAIR DA SILVA NERES"
+    ],
+    "PASSIVO": [
+      "VIRGILIO CESAR DE MELO"
+    ],
+    "ATIVO": [
+      "ALAIN DANIEL RUTHENBERG",
+      "BRUNO RUTHENBERG",
+      "ESPOLIO DE DELANO RUTHEMBERG",
+      "NADIA RUTHENBERG BENEDICT",
+      "PAULA RUTHENBERG",
+      "CHRISTIAN VIDIGAL RUTHENBERG"
+    ]
+  },
+  "classe": "Incidente de Falsidade",
+  "tribunal": "TJPR"
+}

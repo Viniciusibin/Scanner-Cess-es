@@ -1,0 +1,22 @@
+{
+  "cnj": "2287314-29.2024.8.26.0000",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "PLENITUDE FOMENTO COMERCIAL LTDA X CAPITAL ADMINISTRADORA JUDICIAL LTDA X ELFE OPERACAO E MANUTENCAO S.A. e outros (1)",
+  "polos": {
+    "ATIVO": [
+      "PLENITUDE FOMENTO COMERCIAL LTDA"
+    ],
+    "TERCEIRO": [
+      "CAPITAL ADMINISTRADORA JUDICIAL LTDA"
+    ],
+    "PASSIVO": [
+      "ELFE OPERACAO E MANUTENCAO S.A.",
+      "MOBITEL S/A"
+    ]
+  },
+  "classe": "Agravo de Instrumento",
+  "tribunal": "TJSP"
+}

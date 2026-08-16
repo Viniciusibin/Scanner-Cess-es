@@ -1,0 +1,23 @@
+{
+  "cnj": "0132006-60.2023.8.19.0001",
+  "_fontes_database": [
+    "TJ-RJ-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "BANCO VOTORANTIM S A e outros (3) X OSX BRASIL S/A - EM RECUPERACAO JUDICIAL e outros (2)",
+  "polos": {
+    "PASSIVO": [
+      "BANCO VOTORANTIM S A",
+      "PORTO DO ACU OPERACOES S.A.",
+      "CAIXA ECONOMICA FEDERAL",
+      "BANCO SANTANDER (BRASIL) S.A."
+    ],
+    "ATIVO": [
+      "OSX BRASIL S/A - EM RECUPERACAO JUDICIAL",
+      "OSX BRASIL - PORTO DO ACU S/A - EM RECUPERACAO JUDICIAL",
+      "OSX SERVICOS OPERACIONAIS LDA - EM RECUPERACAO JUDICIAL"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJRJ"
+}

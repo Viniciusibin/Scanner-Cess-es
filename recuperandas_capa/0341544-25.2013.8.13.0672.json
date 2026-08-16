@@ -1,0 +1,19 @@
+{
+  "cnj": "0341544-25.2013.8.13.0672",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "JORASA EMPREENDIMENTOS E PARTICIPACOES LTDA X SOLVE SECURITIZADORA DE CREDITOS FINANCEIROS S/A e outros (1)",
+  "polos": {
+    "PASSIVO": [
+      "JORASA EMPREENDIMENTOS E PARTICIPACOES LTDA"
+    ],
+    "ATIVO": [
+      "SOLVE SECURITIZADORA DE CREDITOS FINANCEIROS S/A",
+      "BANCO ITAU UNIBANCO S/A"
+    ]
+  },
+  "classe": "Busca e Apreensão em Alienação Fiduciária",
+  "tribunal": "TJMG"
+}

@@ -1,0 +1,21 @@
+{
+  "cnj": "1000261-14.2024.8.26.0581",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ROMERO JOSE DOS SANTOS X COMPANHIA NACIONAL DE BEBIDAS NOBRES (CESSIONARIA) X ORLANDO GERALDO PAMPADO",
+  "polos": {
+    "ATIVO": [
+      "ROMERO JOSE DOS SANTOS"
+    ],
+    "PASSIVO": [
+      "COMPANHIA NACIONAL DE BEBIDAS NOBRES (CESSIONARIA)"
+    ],
+    "TERCEIRO": [
+      "ORLANDO GERALDO PAMPADO"
+    ]
+  },
+  "classe": "Habilitação de Crédito",
+  "tribunal": "TJSP"
+}

@@ -1,0 +1,21 @@
+{
+  "cnj": "0002948-83.2006.8.26.0072",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "LUIS CARLOS PEREIRA DA CONCEICAO e outros (1) X OLIVEIRO CASTILHO NETO e outros (2)",
+  "polos": {
+    "ATIVO": [
+      "LUIS CARLOS PEREIRA DA CONCEICAO",
+      "PAULO NARDACHIONE"
+    ],
+    "PASSIVO": [
+      "OLIVEIRO CASTILHO NETO",
+      "GLAUCIA SAPIA CASTILHO",
+      "JIMMY CARLOS PEREIRA DA CONCEICAO"
+    ]
+  },
+  "classe": "Execução de Título Extrajudicial",
+  "tribunal": "TJSP"
+}

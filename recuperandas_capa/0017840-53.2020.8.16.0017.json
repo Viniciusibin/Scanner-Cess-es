@@ -1,0 +1,20 @@
+{
+  "cnj": "0017840-53.2020.8.16.0017",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ALAN ROGERIO MINCACHE e outros (2) X INSOL INTERTRADING DO BRASIL INDUSTRIA E COMERCIO S/A",
+  "polos": {
+    "ATIVO": [
+      "ALAN ROGERIO MINCACHE",
+      "ADRIANA ELIZA FEDERICHE MINCACHE",
+      "SAGE SECURITIZADORA DE APOIO A GESTAO EMPRESARIAL S/A"
+    ],
+    "PASSIVO": [
+      "INSOL INTERTRADING DO BRASIL INDUSTRIA E COMERCIO S/A"
+    ]
+  },
+  "classe": "Cumprimento de sentença",
+  "tribunal": "TJPR"
+}

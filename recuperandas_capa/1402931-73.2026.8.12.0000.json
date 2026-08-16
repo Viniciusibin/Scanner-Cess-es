@@ -1,0 +1,35 @@
+{
+  "cnj": "1402931-73.2026.8.12.0000",
+  "_fontes_database": [
+    "TJ-MS-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ALBAUGH AGRO BRASIL LTDA e outros (14) X BANCO DO BRASIL S/A X EVANDRO LUIS BIAZUS",
+  "polos": {
+    "TERCEIRO": [
+      "ALBAUGH AGRO BRASIL LTDA",
+      "CAROLINE SEIBT KRUSE",
+      "ABREU & BUENO LTDA - ME",
+      "ASTER MAQUINAS E SOLUCOES INTEGRADAS LTDA",
+      "SINOVA INOVACOES AGRICOLAS S.A",
+      "AQUIFER PRE FABRICADOS LTDA",
+      "ADM DO BRASIL LTDA.",
+      "VINICIUS COUTINHO CONSULTORIA E PERICIA S/S LTDA",
+      "BANCO SANTANDER (BRASIL) S.A.",
+      "ESTADO DE MATO GROSSO DO SUL",
+      "MUNICIPIO DE SAO GABRIEL DO OESTE",
+      "UNIAO - PROCURADORIA DA FAZENDA NACIONAL - PFN/MS",
+      "RODOBELO DISTRIBUIDORA DE PETROLEO LTDA.",
+      "HELIX SEMENTES E MUDAS LTDA",
+      "CAIXA ECONOMICA FEDERAL"
+    ],
+    "ATIVO": [
+      "BANCO DO BRASIL S/A"
+    ],
+    "PASSIVO": [
+      "EVANDRO LUIS BIAZUS"
+    ]
+  },
+  "classe": "Recurso Especial",
+  "tribunal": "TJMS"
+}

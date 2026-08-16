@@ -1,0 +1,22 @@
+{
+  "cnj": "0118476-28.2006.8.26.0053",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "TEREZA YOSHIKO IMAMURA e outros (4) X IPESP - INSTITUTO DE PREVIDENCIA DO ESTADO DE SAO PAULO",
+  "polos": {
+    "ATIVO": [
+      "TEREZA YOSHIKO IMAMURA",
+      "MAURICIO NORIAKI IMAMURA",
+      "CARLA TERUMI IMAMURA",
+      "MARCIO AKIO IMAMURA",
+      "MAITE AKIE SANTOS IMAMURA"
+    ],
+    "PASSIVO": [
+      "IPESP - INSTITUTO DE PREVIDENCIA DO ESTADO DE SAO PAULO"
+    ]
+  },
+  "classe": "Precatório",
+  "tribunal": "TJSP"
+}

@@ -1,0 +1,22 @@
+{
+  "cnj": "1041127-44.2023.8.26.0114",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MARCUS VINICIUS EL HUAICK DE ARAUJO e outros (4) X BFC FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS MULTISSETORIAL",
+  "polos": {
+    "ATIVO": [
+      "MARCUS VINICIUS EL HUAICK DE ARAUJO",
+      "ADRIANA BASTOS EL-HUAICK DE ARAUJO",
+      "FLAVIO OZON BOGHOSSIAN",
+      "BOGHOZ PARTICIPACOES LTDA",
+      "SURIYAH PARTICIPACOES LTDA"
+    ],
+    "PASSIVO": [
+      "BFC FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS MULTISSETORIAL"
+    ]
+  },
+  "classe": "Apelação Cível",
+  "tribunal": "TJSP"
+}

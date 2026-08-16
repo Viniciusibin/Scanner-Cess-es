@@ -1,0 +1,20 @@
+{
+  "cnj": "0012929-82.2022.8.16.0031",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MAICON RODRIGO FERREIRA MIRANDA e outros (2) X INSTITUTO NACIONAL DO SEGURO SOCIAL - INSS",
+  "polos": {
+    "ATIVO": [
+      "MAICON RODRIGO FERREIRA MIRANDA",
+      "PRECS INTERMEDIADORA S.A.",
+      "CHIMERA ALTERNATIVE ASSETS V FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS"
+    ],
+    "PASSIVO": [
+      "INSTITUTO NACIONAL DO SEGURO SOCIAL - INSS"
+    ]
+  },
+  "classe": "Procedimento Comum Cível",
+  "tribunal": "TJPR"
+}

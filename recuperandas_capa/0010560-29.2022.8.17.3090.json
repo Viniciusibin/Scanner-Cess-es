@@ -1,0 +1,28 @@
+{
+  "cnj": "0010560-29.2022.8.17.3090",
+  "_fontes_database": [
+    "TJ-PE-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ROBSON RAMOS MARQUES e outros (9) X ESTADO DE PERNAMBUCO e outros (1)",
+  "polos": {
+    "ATIVO": [
+      "ROBSON RAMOS MARQUES",
+      "JOSEFA SANTANA DE OLIVEIRA",
+      "MARIA JOSE RODRIGUES MENINO",
+      "MIGUEL RODRIGUES MENINO",
+      "LILIANE MARIA DA SILVA SANTOS",
+      "JOSE ROBERTO ROGERIO DOS SANTOS JUNIOR",
+      "GIVANILDO JOSE DAS NEVES",
+      "ANA KAROLINA COELHO DA SILVA",
+      "KLENIO DA SILVA VANDERLEY",
+      "ALEXSANDRA TEIXEIRA"
+    ],
+    "PASSIVO": [
+      "ESTADO DE PERNAMBUCO",
+      "PGE - PROCURADORIA DA FAZENDA ESTADUAL"
+    ]
+  },
+  "classe": "Cumprimento de Sentença contra a Fazenda Pública",
+  "tribunal": "TJPE"
+}

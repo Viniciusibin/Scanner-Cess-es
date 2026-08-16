@@ -1,0 +1,20 @@
+{
+  "cnj": "0005342-05.2011.8.05.0256",
+  "_fontes_database": [
+    "TJ-BA-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "FSA ASSESSORIA EMPRESARIAL LTDA e outros (1) X C & V SUL BAHIA AGROPECUARIA LTDA e outros (1)",
+  "polos": {
+    "ATIVO": [
+      "FSA ASSESSORIA EMPRESARIAL LTDA",
+      "SYNGENTA SEEDS LTDA."
+    ],
+    "PASSIVO": [
+      "C & V SUL BAHIA AGROPECUARIA LTDA",
+      "JOSE CARLOS BENTO"
+    ]
+  },
+  "classe": "Monitória",
+  "tribunal": "TJBA"
+}

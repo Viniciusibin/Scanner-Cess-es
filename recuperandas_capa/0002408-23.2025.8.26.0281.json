@@ -1,0 +1,18 @@
+{
+  "cnj": "0002408-23.2025.8.26.0281",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "LUZIA JOCELIA NAVES X INSTITUTO NACIONAL DO SEGURO SOCIAL - INSS",
+  "polos": {
+    "ATIVO": [
+      "LUZIA JOCELIA NAVES"
+    ],
+    "PASSIVO": [
+      "INSTITUTO NACIONAL DO SEGURO SOCIAL - INSS"
+    ]
+  },
+  "classe": "Cumprimento de Sentença contra a Fazenda Pública",
+  "tribunal": "TJSP"
+}

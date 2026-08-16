@@ -34672,9 +34672,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "RIC-10 SPE RIO CENTRO EMPREENDIMENTOS IMOBILIARIOS LTDA.",
         "motivo_classificacao": "O texto trata da restituição de valor recebido pela cessionária do crédito do falecido habilitante, confirmando a existência de cessão de crédito no contexto da habilitação de crédito na falência.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -35201,9 +35202,10 @@
         "valor": null,
         "classe_credito": "extraconcursal",
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "COSTA ESMERALDA ENGENHARIA E INCORPORACOES DE IMOVEIS LTDA",
         "motivo_classificacao": "O texto menciona expressamente a retificação do QGC para constar o BANCO GENIAL S.A. como cessionário, indicando cessão de crédito dentro do processo falimentar.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "alta"
@@ -35326,9 +35328,10 @@
         "valor": "R$ 2.734,97",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "LLZ SOLUCAO COBRANCA S.A",
         "motivo_classificacao": "O texto relata expressamente a celebração de cessão de crédito e a admissão da cessionária no polo ativo da ação monitória, configurando cessão de crédito real no contexto da cobrança judicial.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -35512,9 +35515,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "OSX BRASIL S/A - EM RECUPERACAO JUDICIAL",
         "motivo_classificacao": "O texto descreve claramente uma cessão de crédito com substituição processual autorizada judicialmente, confirmando a existência de cessão de direitos creditórios no contexto da recuperação judicial.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -35856,9 +35860,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "DARP JIVE FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS",
         "motivo_classificacao": "Pedido de substituição do polo ativo em razão de cessão de créditos indica cessão real dentro do processo.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "alta"
@@ -35994,5 +35999,594 @@
       }
     ],
     "relevancia_btg": "alta"
+  },
+  {
+    "id": 669566691,
+    "cnj": "0219168-69.2018.8.19.0001",
+    "classe": "RECUPERAçãO JUDICIAL",
+    "orgao": "Comarca da Capital- Cartório da 1ª Vara Empresarial",
+    "destinatarios": [
+      "AMBIENT AIR AR CONDICIONADO LTDA",
+      "AMBIENT AIR COMERCIAL DE ELETRODOMÉSTICOS LTDA",
+      "KPMG CORPORTE FINANCE LTDA.",
+      "SKR PARTICIPAÇÕES LTDA"
+    ],
+    "link": null,
+    "texto_completo": "Passo a apreciar as petições pendentes de apreciação desde a decisão de fls. 6816/6817.    1)Fls. 6830/6832: Manifestação da Recuperanda na qual, em atenção à decisão de fls. 6816/6817, (i) informa que o crédito do Sr. Jeferson dos Santos Abel foi quitado na forma do Plano de Recuperação Judicial; (ii) em relação ao início dos pagamentos em favor dos credores das classes II, III e IV, remete à decisão de fls. 5618, a qual determinou que se deve aguardar a conclusão do julgamento dos recursos pendentes em face da decisão  que homologou o PRJ, atualmente em trâmite no  STJ (AREsp nº 2.343.714/RJ); e (iii) informa ciência acerca dos RMAs de fls. 6561e 6629.    Dê-se vista aos interessados.   2)Fls. 6834/6867, 6869/6896, 6898/6911e 6976/7008: Relatórios de Atividades apresentadas pelo Administrador Judicial.    Dê-se vista às Recuperandas e ao Ministério Público.   3)Fl. 6913: Pedido de habilitação dos patronos de VERZANI E SANDRINI S.A nos autos.    Cumpre-me esclarecer que o feito tramita sem segredo de justiça.   Sendo assim, não há que se falar em habilitação dos patronos de terceiros interessados ou liberação de acesso para visualização dos autos.    Ressalta-se, ainda, que não serão cadastrados os patronos de credores ou terceiros interessados nos autos, a fim de evitar tumulto processual.    4)Fls. 6971/6972 e 7031/7032: Petição da Recuperanda em que requer a expedição de certidão cartorária acerca do feito.    Nada a prover diante das certidões expedidas às fls.6974 e 7073.    5)Fls. 7010/7018: Manifestação do Administrador Judicial informando que o AREsp nº 2.343.714/RJ foi parcialmente conhecido e provido, para restabelecer as cláusulas que dispõem sobre o deságio, o prazo de carência e a supressão das garantias do PRJ, pugnando, por isso, início dos pagamentos das Classes II, III e IV.    Dê-se vista ao Ministério Público.   6)Fls. 7020/7021, 7025/7026, 7185 e 7186: Manifestação de credores informando os dados bancários para pagamento.    Dê-se vista às Recuperandas e ao Administrador Judicial.    7)Fls. 7028/7029: Ofício expedido pela 4ª Vara Federal de Execução Fiscal do Rio de Janeiro, solicitando cópia do anexo à manifestação de fls. 6667/6672.   Ao cartório para atender ao solicitado, enviando a respectiva cópia do anexo à manifestação de fls. 6667/6672, a fim de informar os bens indicados à substituição da constrição realizada.    8)Fls. 7034/7062: Manifestação de DSA PARTICIPAÇÕES informando a cessão de créditos realizada com a sociedade DIMENSIONAL BRASIL SOLUÇÕES LTDA.   Intimem-se a Recuperanda e o Administrador Judicial para se manifestarem.  Após, dê-se vista ao MP.    9)Fls. 7067/7068: Manifestação da Recuperanda informando o trânsito em julgado do AREsp nº 2.343.714/RJ, e que os créditos serão pagos na forma, nos prazos e nas condições estipulados no Plano de Recuperação Judicial.    Dê-se vista aos interessados.   10)Fls. 7078/7086, 7088/7094, 7096/7104, 7105/7112 e 7128/7153: informações acerca do julgamento dos seguintes recursos: (i) agravo de instrumento 0083810-04.2019.8.19.0000, (ii) agravo de instrumento 0046703-86.2020.8.19.0000, (iii) agravo de instrumento 0081524-53.2019.8.19.0000, (iv) 0006196-83.2020.8.19.0000.   Aos interessados e ao Administrador Judicial acerca das informações.    11)Fl. 7114: Manifestação da Recuperanda informando a realização de acordo junto à Procuradoria-Geral da Fazenda Nacional.    Dê-se vista ao Administrador Judicial e ao Ministério Público.     12)Fls. 7155/7160: Manifestação do Município do Rio de Janeiro informando a existência de créditos públicos em face da Recuperanda.    Intimem-se as Recuperandas e o Administrador Judicial para que se manifestem.    13)Fls. 7167/7169: Manifestação das Recuperandas requerendo a publicação de AVISO AOS CREDORES no Diário Oficial, comunicando o trânsito em julgado da sentença homologatória do Aditivo Plano de Recuperação Judicial e início dos pagamentos, indicando aos credores que os dados bancários atualizados devem ser enviados às Recuperandas, na forma da Cláusula 6.3 do Aditivo Plano de Recuperação Judicial.   Intime-se o Administrador Judicial para se manifestar.   Após, dê-se vista ao MP.   14)Fls. 7174/7175: Manifestação de ATIVOS  S.A. SECURITIZADORA informando a cessão de créditos realizada com o Banco do Brasil S.A.    Intimem-se a Recuperanda e a Administrador Judicial para que se manifestem.   Dê-se vista ao MP.    15)Fl. 7190: Parecer do Ministério Público informando ciência acerca dos andamentos do feito.    Destaca-se que a presente decisão vale como ofício.   Intimem-se.",
+    "data": "2026-07-16",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessão de crédito"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "recuperação judicial",
+      "administrador judicial",
+      "plano de recuperação judicial",
+      "recuperanda"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJRJ\\2026-07\\2026-07-16\\matches_2026-07-16.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "media",
+        "resumo": "Cessão de créditos realizada por DSA Participações para Dimensional Brasil Soluções Ltda e por Banco do Brasil para Ativos S.A. Securitizadora no contexto da recuperação judicial.",
+        "cedente": "DSA Participações; Banco do Brasil S.A.",
+        "cessionario": "Dimensional Brasil Soluções Ltda; Ativos S.A. Securitizadora",
+        "valor": null,
+        "classe_credito": "outro",
+        "cnj_rj": null,
+        "recuperanda": "AMBIENT AIR AR CONDICIONADO LTDA",
+        "motivo_classificacao": "Cessões de crédito informadas formalmente no processo de recuperação judicial com cessionários institucionais, caracterizando cessão concursal relevante.",
+        "descoberto_em": "2026-07-16",
+        "recuperanda_fonte": "capa_pdpj"
+      }
+    ]
+  },
+  {
+    "id": 669693392,
+    "cnj": "0042427-02.2026.8.19.0000",
+    "classe": "AGRAVO DE INSTRUMENTO",
+    "orgao": "SECRETARIA DA 6ª CÂMARA DE DIREITO PRIVADO (ANTIGA 13ª CÂMARA CÍVEL)",
+    "destinatarios": [
+      "CPM FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO - PADRONIZADOS",
+      "BMW PARTICIPAÇÕES LTDA EM RECUPERAÇÃO JUDICIAL",
+      "INJETRIO INDUSTRIA DE PLASTICO LTDA EM RECUPERAÇÃO JUDICIAL",
+      "RESIN PLASTICOS LTDA EM RECUPERAÇÃO JUDICIAL",
+      "RIOPET EMBALAGENS S.A. EM RECUPERAÇÃO JUDICIAL"
+    ],
+    "link": "https://www3.tjrj.jus.br/gedcacheweb/default.aspx?UZIP=1&GEDID=00043CCB4F32CCEFA5D85AA2636BBC49869DC51B09622F06",
+    "texto_completo": "*** SECRETARIA DA 6ª CÂMARA DE DIREITO PRIVADO (ANTIGA 13ª CÂMARA CÍVEL) ***\n\r-------------------------\n\rDECISÃO\n\r-------------------------\n\r - AGRAVO DE INSTRUMENTO - CÍVEL 0042427-02.2026.8.19.0000 Assunto: Administração judicial / Recuperação judicial e Falência / Empresas / DIREITO CIVIL Origem: NOVA IGUACU 3 VARA CIVEL Ação: 0829258-97.2023.8.19.0038 Protocolo: 3204/2026.00521217 AGTE: CPM FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO - PADRONIZADOS ADVOGADO: GUILHERME EDUARDO NOVARETTI OAB/SP-219348 AGDO: RIOPET EMBALAGENS S.A. EM RECUPERAÇÃO JUDICIAL AGDO: INJETRIO INDUSTRIA DE PLASTICO LTDA EM RECUPERAÇÃO JUDICIAL AGDO: RESIN PLASTICOS LTDA EM RECUPERAÇÃO JUDICIAL AGDO: BMW PARTICIPAÇÕES LTDA EM RECUPERAÇÃO JUDICIAL ADVOGADO: JULIANA HOPPNER BUMACHAR SCHMIDT OAB/RJ-113760 ADVOGADO: HAYNA BITTENCOURT ZECCHIN OAB/RJ-174213 ADVOGADO: MARCELLY VERDAM FARIAS OAB/RJ-208296  Relator: DES. MARIA DA PENHA NOBRE MAURO  DECISÃO: AGRAVO DE INSTRUMENTO Nº 0042427-02.2026.8.19.0000\r\nAGRAVANTE: CPM FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO - PADRONIZADOS\r\nAGRAVADOS: RIOPET EMBALAGENS S.A. EM RECUPERAÇÃO JUDICIAL, INJETRIO INDUSTRIA DE PLASTICO LTDA. EM RECUPERAÇÃO JUDICIAL, RESIN PLASTICOS LTDA. EM RECUPERAÇÃO JUDICIAL e BMW PARTICIPAÇÕES LTDA. EM RECUPERAÇÃO JUDICIAL.\r\nRELATORA: DES. MARIA DA PENHA NOBRE MAURO \r\n\r\nDECISÃO\r\n                          \r\n             Trata-se de pedido de efeito suspensivo formulado nos autos do agravo de instrumento interposto por CPM FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO - PADRONIZADOS contra decisão proferida pelo Juízo da 3ª Vara Cível da Comarca de Nova Iguaçu/RJ, que, nos autos originários, 0829258-97.2023.8.19.0038, em ID 284741260, negou provimento ao recurso de embargos de declaração.\r\n\r\n     A decisão agravada foi assim lançada: \r\n     \r\n\"(...) Dessa forma, impõe-se a improcedência da impugnação, mantendo-se a classificação do crédito na Classe III - quirografária, como bem avaliado pelo Administrador Judicial.\r\nIII - DISPOSITIVO\r\nAnte o exposto, JULGO IMPROCEDENTE a impugnação de crédito formulada pelo BANCO ABC BRASIL S.A. (sucedido pelo CPM FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO - PADRONIZADOS), nos termos da fundamentação supra, e, por conseguinte:\r\nMANTENHO o crédito do impugnante no valor total de R$ 9.474.300,33 (nove milhões, quatrocentos e setenta e quatro mil, trezentos reais e trinta e três centavos) na Classe III - Quirografária, na forma constante da relação de credores organizada pelo Administrador Judicial (Ids 60755294 e seguintes), incluindo os valores decorrentes das Cédulas de Crédito Bancário nº 8288321 e 8913321.\r\nDETERMINO ao Administrador Judicial que mantenha inalterada a classificação já lançada, não procedendo a qualquer exclusão.\r\nSem custas processuais adicionais, nos termos do art. 4º, §2º da Lei 11.101/2005.\r\nP.R.I. (Publique-se, Registre-se, Intimem-se).\"\r\n             Defende o cabimento do agravo, com fundamento no art. 1.015, XIII, do CPC e no art. 17 da Lei nº 11.101/2005. No mérito, afirma que o Banco ABC Brasil S.A., sucedido pelo agravante, figura como credor no valor total de R$ 9.474.300,33, dos quais R$ 489.801,68 decorrem das Cédulas de Crédito Bancário nº 8288321 e nº 8913321, garantidas por cessão fiduciária de duplicatas e direitos creditórios. \r\n             \r\n             Alega que tal parcela possui natureza extraconcursal, não se submetendo aos efeitos da recuperação judicial, nos termos do art. 49, § 3º, da Lei nº 11.101/2005. Aduz que o Administrador Judicial reconheceu o valor total do crédito, mas manteve integralmente a classificação como crédito quirografário, sob o fundamento da essencialidade dos recebíveis à atividade empresarial. Afirma, ainda, que as recuperandas e o Administrador Judicial se opuseram à impugnação, enquanto o Ministério Público opinou favoravelmente à pretensão do credor. \r\n             \r\n             Sustenta que recebíveis, duplicatas e fluxos financeiros não se enquadram no conceito de bem de capital essencial, por se tratar de bens incorpóreos, fungíveis e consumíveis, de modo que a preservação da empresa não autoriza o esvaziamento da garantia fiduciária nem a submissão do crédito fiduciário ao concurso recuperacional. Requer, ao final, o provimento do recurso para reconhecer a extraconcursalidade da quantia de R$ 489.801,68 e determinar a retificação da relação de credores.\r\n             \r\n             \r\n             É o relatório. Decido.\r\n              \r\n             Inicialmente, registro que a presente decisão se limita à análise do pedido de efeito suspensivo no agravo de instrumento interposto.   \r\n             \r\n             Neste momento processual, é descabida qualquer apreciação quanto ao mérito da demanda, devendo-se perquirir, tão-só, acerca da presença dos elementos autorizadores da concessão do efeito suspensivo pleiteado. \r\n             \r\n             Compulsando os presentes autos, mostra-se presente a probabilidade de direito que justifica a concessão do efeito suspensivo, a demandar o trâmite do processo até a resolução do recurso pelo órgão colegiado, mormente considerando que, a sentença agravada reconhece que a controvérsia envolve créditos decorrentes das Cédulas de Crédito Bancário nº 8288321 e nº 8913321, garantidos por cessão fiduciária de duplicatas e direitos creditórios. \r\n             \r\n             A despeito disso, mantém a parcela controvertida no concurso recuperacional, com fundamento na essencialidade dos recebíveis à manutenção das atividades empresariais das recuperandas.\r\n             \r\n             Ocorre que, segundo a orientação consolidada do Superior Tribunal de Justiça, os créditos garantidos por cessão fiduciária de recebíveis não se submetem aos efeitos da recuperação judicial, por força do art. 49, § 3º, da Lei nº 11.101/2005. Também prevalece naquela Corte o entendimento de que recebíveis, direitos creditórios e valores em conta vinculada não se enquadram no conceito de bem de capital essencial, por tratar-se de bens incorpóreos, fungíveis e consumíveis, cuja utilização pela recuperanda esvazia a própria garantia fiduciária.\r\n             \r\n             A probabilidade de provimento do recurso, portanto, decorre da aparente incompatibilidade entre o fundamento adotado na origem e a jurisprudência superior sobre a matéria, especialmente porque a ressalva final do art. 49, § 3º, da Lei nº 11.101/2005, se dirige aos bens de capital corpóreos, utilizados diretamente no processo produtivo e passíveis de restituição ao credor fiduciário após o período legal de suspensão.\r\n             \r\n             O perigo de dano também está caracterizado. A manutenção imediata da parcela de R$ 489.801,68 na Classe III, quirografária, pode submetê-la aos efeitos do plano de recuperação judicial, a deliberações assembleares e a eventual novação recuperacional, comprometendo a utilidade do julgamento do agravo e produzindo risco de esvaziamento prático da garantia antes da apreciação colegiada.\r\n             \r\n             Ressalte-se que a presente decisão não importa julgamento definitivo da impugnação de crédito, tampouco autoriza, por ora, levantamento irrestrito de valores por qualquer das partes. Trata-se apenas de preservar a eficácia do recurso e evitar que a classificação impugnada produza efeitos irreversíveis antes do contraditório recursal.\r\n             \r\n             \r\n             Ante o exposto, DEFIRO PARCIALMENTE O PEDIDO DE EFEITO SUSPENSIVO, com eficácia ativa limitada, para suspender os efeitos da decisão agravada no ponto em que mantém como quirografária a parcela de R$ 489.801,68z, vinculada às Cédulas de Crédito Bancário nº 8288321 e nº 8913321, determinando que tal quantia permaneça destacada, provisoriamente, sem submissão aos efeitos do plano de recuperação judicial, a deliberações assembleares ou a atos de pagamento na Classe III, até ulterior deliberação desta Relatoria ou julgamento do presente recurso.\r\n             \r\n             Comunique-se, com urgência, ao Juízo de origem, para ciência e adoção das providências necessárias junto ao Administrador Judicial.\r\n             Dispenso informações.\r\n             Intime-se a Douta Procuradoria de Justiça.\r\n             Intime-se o agravado em contrarrazões. \r\n             Após, voltem conclusos.\r\n             \r\nRio de Janeiro, na data da assinatura digital.\r\n\r\nMARIA DA PENHA NOBRE MAURO\r\nDesembargadora Relatora\r\n\r\n\r\nPoder Judiciário do Estado do Rio de Janeiro \r\nSexta Câmara de Direito Privado\r\nDesembargadora Maria da Penha Nobre Mauro \r\n\r\n\r\n\r\n\r\n\r\nSexta Câmara de Direito Privado\r\nProcesso nº 0042427-02.2026.8.19.0000 G\r\nPágina 1 de 1",
+    "data": "2026-07-16",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [
+      "cedente"
+    ],
+    "keywords_rj": [
+      "recuperação judicial",
+      "administrador judicial",
+      "plano de recuperação judicial",
+      "recuperanda",
+      "lei 11.101",
+      "lei nº 11.101",
+      "falência",
+      "em recuperação judicial"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJRJ\\2026-07\\2026-07-16\\matches_2026-07-16.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "extraconcursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Decisão sobre crédito garantido por cessão fiduciária de duplicatas e direitos creditórios no valor de R$ 489.801,68, pertencente a CPM Fundo de Investimento em Direitos Creditórios, discutido em processo de recuperação judicial.",
+        "cedente": null,
+        "cessionario": "CPM FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO - PADRONIZADOS",
+        "valor": "R$ 489.801,68",
+        "classe_credito": "extraconcursal",
+        "cnj_rj": "0829258-97.2023.8.19.0038",
+        "recuperanda": "RIOPET EMBALAGENS S.A., INJETRIO INDUSTRIA DE PLASTICO LTDA., RESIN PLASTICOS LTDA., BMW PARTICIPAÇÕES LTDA.",
+        "motivo_classificacao": "Crédito fiduciário de recebíveis discutido em processo de recuperação judicial, com valor relevante e cessionário institucional, classificado como extraconcursal conforme jurisprudência do STJ.",
+        "descoberto_em": "2026-07-16"
+      }
+    ]
+  },
+  {
+    "id": 668331238,
+    "cnj": "0092170-12.2025.8.19.0001",
+    "classe": "HABILITAçãO DE CRéDITO",
+    "orgao": "Comarca da Capital- Cartório da 2ª Vara Empresarial",
+    "destinatarios": [
+      "DELTA FOMENTO MERCANTIL LTDA.",
+      "DELTA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS MULTISEGMENTOS",
+      "ESTAMPARIA SANTA EDWIGES LTDA.",
+      "LEITE & ROZEMBERG ADVOGADOS"
+    ],
+    "link": null,
+    "texto_completo": "Vistos, etc.    Trata-se de Habilitação de Crédito  proposta por DELTA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS MULTISEGMENTOS  em face de  MASSA  FALIDA  DE  ESTAMPARIA  SANTA  EDWIGES  LTDA. O habilitante instruiu o pedido com os documentos do processo judicial que tramitou perante a 41ª Vara Cível  do Rio de Janeiro/RJ. A inicial veio instruída com os documentos de fls. 06/132.     O Administrador Judicial concordou com o pedido de habilitação do crédito, e juntou, às fls. 163/165, planilha atualizada no valor total de R$ 163.131,31.   Regularmente intimado, o habilitante concordou com os cálculos elaborados pelo Administrador Judicial (fls. 170).   O Ministério Público opinou pela inclusão do crédito na forma apontada pelo AJ (fls. 174).     É O BREVE RELATÓRIO. DECIDO.     Regularmente intimado, o Administrador Judicial concordou com o pedido do credor.    Nesse sentido, verifico que o valor indicado na planilha apresentada pelo Administrador Judicial está correto, visto que foram observados os parâmetros estabelecidos pelo Juízo Trabalhista, bem como os termos do artigo 9º, inciso II, da Lei nº 11.101/2005.    Isto posto, considerando o mais que dos autos consta, JULGO PROCEDENTE O PEDIDO, para determinar a inclusão do crédito no Quadro Geral de Credores,, em favor do habilitante,  DELTA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS MULTISSEGMENTOS, no valor de R$ 127.109,49 (cento e vinte e sete mil, cento e nove reais e quarenta e nove centavos) e de  da DELTA FOMENTO MERCANTIL LTDA., no valor de R$ 36.021,82 (trinta e seis mil, vinte e um reais e oitenta e dois centavos), ambos classificados na Classe VI - Quirografária.   Sem condenação em custas processuais e honorários advocatícios.    Dê-se ciência ao Ministério Público.    Ao Administrador Judicial para as providências cabíveis.   Certificado o trânsito em julgado, dê-se baixa e arquivem-se os autos.   P.R. I.",
+    "data": "2026-07-15",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [
+      "cedente"
+    ],
+    "keywords_rj": [
+      "quadro geral de credores",
+      "administrador judicial",
+      "habilitação de crédito",
+      "lei nº 11.101"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJRJ\\2026-07\\2026-07-15\\matches_2026-07-15.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Habilitação de crédito concursal por fundo de investimento em direitos creditórios em processo de falência.",
+        "cedente": null,
+        "cessionario": "DELTA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS MULTISEGMENTOS",
+        "valor": "R$ 127.109,49",
+        "classe_credito": "quirografário",
+        "cnj_rj": null,
+        "recuperanda": "MASSA FALIDA DE ESTAMPARIA SANTA EDWIGES LTDA",
+        "motivo_classificacao": "Habilitação de crédito por fundo de investimento em processo falimentar, com valor relevante e inclusão no QGC.",
+        "descoberto_em": "2026-07-16"
+      }
+    ]
+  },
+  {
+    "id": 667698569,
+    "cnj": "3017777-65.2025.8.19.0001",
+    "classe": "RECUPERAçãO JUDICIAL",
+    "orgao": "3ª Vara Empresarial da Comarca da Capital",
+    "destinatarios": [
+      "TECHNION ENGENHARIA E TECNOLOGIA LTDA",
+      "AJ ELO ZANGIROLAMI & BAPTISTA LTDA",
+      "CONDOMINIO DOWNTOWN"
+    ],
+    "link": "https://eproc1g.tjrj.jus.br/eproc/externo_controlador.php?acao=consulta_publica_documento&numProcesso=30177776520258190001&idDocumento=191783953070333422353889472929&hash=be4102b0888daf861e0a3b662a282db563c2fa5bfc033c1fc6ed41d3234c0887",
+    "texto_completo": "<html>\n\t<head>\n\t\t<meta>\n\t\t\n\t\t<style></style>\n\t</head>\n\t<body>\n\t\t<article>\n\n\n\n\n\n<header>\n\t\t\t\t<div></div> \n                                \n                                \n                                \t&emsp;\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t</header>\n<section><b>Recupera&ccedil;&atilde;o Judicial  N&ordm; 3017777-65.2025.8.19.0001/RJ</b></section>\n<section><b><table><tr><td>AUTOR</td><td>: TECHNION ENGENHARIA E TECNOLOGIA LTDA</td></tr><tr><td>ADVOGADO(A)</td><td>: CAMILLA CARVALHO DE OLIVEIRA (OAB RJ205969)</td></tr><tr><td>ADVOGADO(A)</td><td>: FABIANA MARQUES LIMA RAMOS (OAB RJ169829)</td></tr><tr><td>INTERESSADO</td><td>: CONDOMINIO DOWNTOWN</td></tr><tr><td>ADVOGADO(A)</td><td>: GUSTAVO FONTES VALENTE SALGUEIRO</td></tr></table></b></section>\n<section>\n\t\t\t\t<p align=\"center\">DESPACHO/DECIS&Atilde;O</p>\n\t\t\t</section>\n<section>\n<p><strong>1) Evento 160.</strong> Embargos de declara&ccedil;&atilde;o de BANCO SAFRA S/A.</p>\n<p>N&atilde;o houve forma&ccedil;&atilde;o e nem requerimento para a constitui&ccedil;&atilde;o de Comit&ecirc; de Credores. Logo, s&atilde;o inaplic&aacute;veis os artigos 66 e 69-A da Lei n.&ordm; 11.101/2005.</p>\n<p>No que tange &agrave; conveni&ecirc;ncia e oportunidade do financiamento DIP, tenho que os fundamentos da decis&atilde;o agravada s&atilde;o prejudiciais aos argumentos do embargante, raz&atilde;o pela qual n&atilde;o vislumbro omiss&atilde;o quanto a quest&atilde;o relevante.</p>\n<p><strong>Rejeito os embargos</strong>.</p>\n<p>&nbsp;</p>\n<p><strong>2) Evento 162.</strong> Peti&ccedil;&atilde;o da recuperanda requerendo prorroga&ccedil;&atilde;o do <em>stay period</em>, que expirar&aacute; no pr&oacute;ximo dia 20 de julho de 2026. Informa, ainda, o recolhimento das custas para publica&ccedil;&atilde;o dos editais do artigo 7.&ordm;, &sect; 2.&ordm;, e 53, &sect; &uacute;nico, da Lei n.&ordm; 11.101/2005.</p>\n<p>Estando as custas regulares, <strong>publique-se o edital de que trata o artigo </strong><strong>7&ordm;, &sect;2&ordm;, da Lei n&ordm; 11.101/2005, </strong>conforme minuta do <strong>evento 157, bem como publique-se o edital do artigo 53, &sect; &uacute;nico, daquela Lei, </strong>tendo em vista o plano de recupera&ccedil;&atilde;o judicial anexado ao <strong>evento 127</strong>.</p>\n<p>Relativamente &agrave; prorroga&ccedil;&atilde;o do <em>stay period</em>, <strong>diga a AJ e o Minist&eacute;rio P&uacute;blico. </strong></p>\n<p>&nbsp;</p>\n<p><strong>3) Eventos 168 e 170.</strong> Peti&ccedil;&atilde;o de CONDOM&Iacute;NIO DO CONJUNTO ARQUITET&Ocirc;NICO DENOMINADO DOWNTOWN (&ldquo;Downtown&rdquo;) informando a interposi&ccedil;&atilde;o de agravo de instrumento contra a decis&atilde;o do evento 151, que autorizou a contrata&ccedil;&atilde;o de financiamento DIP, bem como requerendo a reconsidera&ccedil;&atilde;o por este ju&iacute;zo.</p>\n<p>Consta, ainda, no <strong>evento 171</strong>, traslado da decis&atilde;o monocr&aacute;tica proferida no &acirc;mbito do Agravo de Instrumento n.&ordm; 3015651-11.2026.8.19.0000, comunicando a concess&atilde;o de efeito suspensivo e solicitando informa&ccedil;&otilde;es.</p>\n<p>A quest&atilde;o se relaciona com o conte&uacute;do da cl&aacute;usula de garantia do financiamento que, al&eacute;m de prever a aliena&ccedil;&atilde;o fiduci&aacute;ria de 100% (cem por cento) das quotas da sociedade empres&aacute;ria ILHA OPEN MALL LTDA. (&ldquo;IOM&rdquo;), menciona tamb&eacute;m a cess&atilde;o fiduci&aacute;ria dos direitos credit&oacute;rios que tem a receber no processo judicial n&ordm; 0056510.93.2021.8.19.0001, ajuizado em face de Petr&oacute;leo Brasileiro S/A &ndash; Petrobr&aacute;s (&ldquo;Petrobr&aacute;s&rdquo;), em tr&acirc;mite perante a 32&ordf; Vara C&iacute;vel da Comarca da Capital do Estado do Rio de Janeiro, em percentual equivalente a 200% do valor antecipado da opera&ccedil;&atilde;o.</p>\n<p>Diz o condom&iacute;nio agravante que a decis&atilde;o agravada contradiz aquela do <strong>evento 27</strong>, que determinou a retifica&ccedil;&atilde;o do Termo de Apoio ao Plano de Recupera&ccedil;&atilde;o Judicial com Compromisso de Concess&atilde;o de Financiamento DIP para ressalvar, na garantia outorgada, a exclus&atilde;o dos cr&eacute;ditos provenientes do processo judicial n&ordm; 0056510.93.2021.8.19.0001 que j&aacute; foram objeto de cess&atilde;o a terceiros. Diz, tamb&eacute;m, que a aliena&ccedil;&atilde;o fiduci&aacute;ria da participa&ccedil;&atilde;o societ&aacute;ria da recuperanda na empresa IOM implicaria uma liquida&ccedil;&atilde;o substancial disfar&ccedil;ada de seus ativos.</p>\n<p>&Eacute; o relat&oacute;rio.</p>\n<p>Em rela&ccedil;&atilde;o &agrave; conveni&ecirc;ncia do DIP e a aliena&ccedil;&atilde;o fiduci&aacute;ria em garantia da participa&ccedil;&atilde;o societ&aacute;ria da recuperanda na empresa IOM, tenho que os motivos para a autoriza&ccedil;&atilde;o do financiamento s&atilde;o prejudiciais aos argumentos da credora-agravante. Conforme salientado na decis&atilde;o agravada, a preocupa&ccedil;&atilde;o em n&atilde;o comprometer os ativos da devedora n&atilde;o deixa alternativas para a viabiliza&ccedil;&atilde;o da empresa, princ&iacute;pio que norteia todo o processo de recupera&ccedil;&atilde;o judicial, conforme artigo 47 da Lei n.&ordm; 11.101/2005.</p>\n<p>No que tange aos receb&iacute;veis provenientes do processo judicial n&ordm; 0056510.93.2021.8.19.0001, &eacute; certo que a recuperanda esclareceu, em sua peti&ccedil;&atilde;o do <strong>evento 36</strong>, que a cess&atilde;o dos direitos credit&oacute;rios respectivos n&atilde;o tem o cond&atilde;o de prejudicar a garantia da agravante, uma vez que os valores cedidos em garantia para o financiamento DIP, de R$ 4,1 milh&otilde;es, &eacute; pouco significativo diante do valor do cr&eacute;dito projetado naquele processo, de R$ 54.500.000,00. A cess&atilde;o de cr&eacute;dito em favor do condom&iacute;nio, agravante, por sua vez, tem o valor de R$ 25.200.000,00, conforme peti&ccedil;&atilde;o da pr&oacute;pria agravante no <strong>evento 25</strong>.</p>\n<p>Em consulta ao processo 0056510.93.2021.8.19.0001, verifico que a Petrobr&aacute;s foi condenada em primeira inst&acirc;ncia nos seguintes termos:</p>\n<p>&ldquo;Pelo exposto, e o mais contido nos autos, JULGO PROCEDENTE O PEDIDO para condenar a Petrobr&aacute;s ao pagamento da quantia hist&oacute;rica apurada na per&iacute;cia R$ 21.782.582,81 (vinte e um milh&otilde;es, setecentos e oitenta e dois mil, quinhentos e oitenta e dois reais e oitenta e um centavos), de modo a ressarcir os preju&iacute;zos causados &agrave; autora em raz&atilde;o das despesas extraordin&aacute;rias em que incorreu e acarretou desequil&iacute;brio contratual entre as partes, acrescida de corre&ccedil;&atilde;o monet&aacute;ria, a contar do preju&iacute;zo, e juros legais, a contar da cita&ccedil;&atilde;o, considerando se tratar de responsabilidade contratual&rdquo;.</p>\n<p>Aquela condena&ccedil;&atilde;o foi mantida em segunda inst&acirc;ncia, estando o processo, agora, em fase de recurso especial. Considerando que a demanda foi ajuizada em 2021, com fatos geradores anteriores, &eacute; plaus&iacute;vel o argumento da recuperanda de que os receb&iacute;veis provenientes do processo atualmente ultrapassem os 50 milh&otilde;es de reais, suficientes para fazer frente ao cr&eacute;dito extraconcursal da agravante e, ainda, para a garantia do financiamento DIP submetido &agrave; autoriza&ccedil;&atilde;o judicial.</p>\n<p>Da&iacute; o motivo pelo qual a decis&atilde;o agravada ter reconsiderado o posicionamento anterior do <strong>evento 27</strong>, &eacute;poca em que os valores envolvidos n&atilde;o estavam claros.</p>\n<p>Vale dizer, eventual cr&eacute;dito da agravante que ultrapasse o valor da garantia fiduci&aacute;ria da qual &eacute; titular (R$ 25.200.000,00) dever&aacute; se submeter &agrave; recupera&ccedil;&atilde;o judicial, conforme j&aacute; definido pela Segunda Se&ccedil;&atilde;o do STJ:</p>\n<p>DIREITO EMPRESARIAL E PROCESSUAL CIVIL. AGRAVO INTERNO NOS EMBARGOS DE DELCARA&Ccedil;&Atilde;O NO CONFLITO DE COMPET&Ecirc;NCIA. EXECU&Ccedil;&Atilde;O DE CR&Eacute;DITO PARCIALMENTE GARANTIDO POR ALIENA&Ccedil;&Atilde;O FIDUCI&Aacute;RIA. RECUPERA&Ccedil;&Atilde;O EXTRAJUDICIAL HOMOLOGADA. INCID&Ecirc;NCIA DOS EFEITOS SUSPENSIVOS SOBRE O SALDO N&Atilde;O GARANTIDO. AGRAVO INTERNO DESPROVIDO.</p>\n<p>I. CASO EM EXAME</p>\n<p>1. Agravo interno interposto por Banco Safra S.A. contra decis&atilde;o monocr&aacute;tica que acolheu embargos de declara&ccedil;&atilde;o com efeitos infringentes para reconhecer a exist&ecirc;ncia de saldo de cr&eacute;dito (\"sobejo\") n&atilde;o coberto por garantia fiduci&aacute;ria em execu&ccedil;&atilde;o ajuizada na 2&ordf; Vara C&iacute;vel de S&atilde;o Paulo (processo n. 1084599-89.2013.8.26.0100), determinando a suspens&atilde;o dessa fra&ccedil;&atilde;o da execu&ccedil;&atilde;o por estar submetida ao plano de recupera&ccedil;&atilde;o extrajudicial homologado pela 1&ordf; Vara C&iacute;vel da Comarca de Cuiab&aacute;/MT (processo n. 1032396-67.2024.8.11.0041).</p>\n<p>II. QUEST&Atilde;O EM DISCUSS&Atilde;O</p>\n<p>2. A quest&atilde;o em discuss&atilde;o consiste em definir se a fra&ccedil;&atilde;o do cr&eacute;dito exequendo, n&atilde;o coberta por aliena&ccedil;&atilde;o fiduci&aacute;ria, pode ser validamente inclu&iacute;da no plano de recupera&ccedil;&atilde;o extrajudicial e, por conseguinte, sujeitar-se aos efeitos suspensivos previstos na Lei n. 11.101/2005.</p>\n<p>III. RAZ&Otilde;ES DE DECIDIR</p>\n<p>3. O art. 49, &sect; 3&ordm;, da Lei n. 11.101/2005, estabelece que o cr&eacute;dito garantido por aliena&ccedil;&atilde;o fiduci&aacute;ria n&atilde;o se submete aos efeitos da recupera&ccedil;&atilde;o, permitindo o prosseguimento da execu&ccedil;&atilde;o exclusivamente na fra&ccedil;&atilde;o garantida.</p>\n<p><strong><u>4. O cr&eacute;dito excedente ao valor da garantia - o \"sobejo\" - tem natureza quirograf&aacute;ria e, por isso, se sujeita ao plano de recupera&ccedil;&atilde;o, conforme interpreta&ccedil;&atilde;o sistem&aacute;tica dos arts. 49, &sect; 3&ordm;, 6&ordm;, &sect; 4&ordm;, e 163, &sect; 8&ordm;, da LRF.</u></strong></p>\n<p><strong><u>5. A aus&ecirc;ncia de cl&aacute;usula contratual espec&iacute;fica sobre o fracionamento do cr&eacute;dito n&atilde;o impede o reconhecimento do \"sobejo\", que decorre da despropor&ccedil;&atilde;o entre o valor da d&iacute;vida e o bem dado em garantia, verificada objetivamente nos autos.</u></strong></p>\n<p><strong><u>6. A jurisprud&ecirc;ncia do STJ &eacute; firme ao reconhecer que o saldo devedor n&atilde;o coberto por garantia fiduci&aacute;ria deve ser habilitado na recupera&ccedil;&atilde;o como cr&eacute;dito quirograf&aacute;rio (REsp n. 1.933.995/SP; AgInt no AREsp n. 2078718/GO; CC n. 128194/GO).</u></strong></p>\n<p>7. A qualifica&ccedil;&atilde;o do cr&eacute;dito como \"sem garantia\" no plano de recupera&ccedil;&atilde;o extrajudicial expressamente admitida no processo de homologa&ccedil;&atilde;o.</p>\n<p>8. O agravo interno busca rediscutir o m&eacute;rito da execu&ccedil;&atilde;o, o que n&atilde;o se coaduna com os limites do presente incidente, tampouco autoriza o reexame de cl&aacute;usulas contratuais ou a revis&atilde;o da sufici&ecirc;ncia da garantia no &acirc;mbito deste recurso.</p>\n<p>IV. DISPOSITIVO E TESE</p>\n<p>9. Agravo interno desprovido.</p>\n<p>Tese de julgamento: 1. A fra&ccedil;&atilde;o do cr&eacute;dito n&atilde;o coberta por garantia fiduci&aacute;ria pode ser inclu&iacute;da em plano de recupera&ccedil;&atilde;o extrajudicial homologado judicialmente, submetendo-se aos seus efeitos. 2. O fracionamento entre cr&eacute;dito garantido e n&atilde;o garantido decorre da verifica&ccedil;&atilde;o objetiva da sufici&ecirc;ncia da garantia, independentemente de cl&aacute;usula contratual expressa. 3. O saldo remanescente do cr&eacute;dito com garantia fiduci&aacute;ria insuficiente tem natureza quirograf&aacute;ria e est&aacute; sujeito &agrave; recupera&ccedil;&atilde;o, conforme interpreta&ccedil;&atilde;o dos arts. 49, &sect; 3&ordm;, e 163, &sect; 8&ordm;, da Lei n. 11.101/2005.</p>\n<p>Dispositivos relevantes citados: Lei n. 11.101/2005, arts. 49, &sect; 3&ordm;; 6&ordm;, &sect; 4&ordm;; 163, &sect; 8&ordm;; CPC/2015, art. 1.021, &sect; 4&ordm;.</p>\n<p>Jurisprud&ecirc;ncia relevante citada: STJ, AgInt no AREsp n. 2078718/GO, relator Ministro Marco Buzzi, Quarta Turma, julgado em 20/3/2023;</p>\n<p>STJ, REsp n. 1.933.995/SP, relatora Ministra Nancy Andrighi, Terceira Turma, julgado em 25/11/2021; STJ, CC n. 128194/GO, relator Ministro Raul Ara&uacute;jo, Segunda Se&ccedil;&atilde;o, julgado em 28/6/2017; STJ, AgInt no CC n. 201510/SP, relatora Ministra Regina Helena Costa, Primeira Se&ccedil;&atilde;o, julgado em 19/3/2024.</p>\n<p>(AgInt nos EDcl no CC n. 209.575/SP, relator Ministro Jo&atilde;o Ot&aacute;vio de Noronha, Segunda Se&ccedil;&atilde;o, julgado em 15/4/2025, DJEN de 25/4/2025.)</p>\n<p>Neste sentido, n&atilde;o se justifica a preocupa&ccedil;&atilde;o da agravante, haja vista que os valores de sua garantia fiduci&aacute;ria est&atilde;o preservados. De outro lado, conforme salientado pela Administra&ccedil;&atilde;o Judicial, o financiamento DIP autorizado est&aacute; de acordo com o mercado e se mostra fundamental para a viabiliza&ccedil;&atilde;o da empresa.</p>\n<p>Por estes motivos, mantenho a decis&atilde;o agravada.</p>\n<p>Junte-se uma via das informa&ccedil;&otilde;es prestadas.</p>\n<p><strong>4) Evento 174.&nbsp;</strong>Expe&ccedil;a-se mandado de pagamento em favor do administrador judicial, por seus honor&aacute;rios.&nbsp;</p></section>\n<section>\n\t\t\t</section>\n<section>\n<p>&nbsp;</p>\n<hr>\n<p>&nbsp;</p></section>\n<footer>\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t</footer></article></body></html>",
+    "data": "2026-07-14",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [
+      "cedente"
+    ],
+    "keywords_rj": [
+      "administrador judicial",
+      "stay period",
+      "recuperanda"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJRJ\\2026-07\\2026-07-14\\matches_2026-07-14.json",
+    "relevancia_btg": "baixa",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "extraconcursal",
+        "cessionario_institucional": false,
+        "confianca": "alta",
+        "resumo": "Cessão fiduciária de direitos creditórios em processo judicial vinculada a financiamento DIP em recuperação judicial.",
+        "cedente": "recuperanda (não nome especificado)",
+        "cessionario": "CONDOMÍNIO DO CONJUNTO ARQUITETÔNICO DENOMINADO DOWNTOWN",
+        "valor": "R$ 25.200.000,00",
+        "classe_credito": "extraconcursal",
+        "cnj_rj": "3017777-65.2025.8.19.0001",
+        "recuperanda": "TECHNION ENGENHARIA E TECNOLOGIA LTDA",
+        "motivo_classificacao": "Cessão fiduciária de crédito discutida no contexto de recuperação judicial com valor relevante e identificação clara de cedente e cessionário.",
+        "descoberto_em": "2026-07-16"
+      }
+    ]
+  },
+  {
+    "id": 678135287,
+    "cnj": "0016834-68.2026.8.19.0000",
+    "classe": "AGRAVO DE INSTRUMENTO",
+    "orgao": "SECRETARIA DA 19ª CÂMARA DE DIREITO PRIVADO (ANTIGA 25ª CÂMARA CÍVEL)",
+    "destinatarios": [
+      "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS QW1 - RESPONSABILIDADE ILIMITADA",
+      "PRASS FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS II",
+      "QI QUATÁ FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS",
+      "QUATÁ FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS MULTISETORIAL",
+      "QUATÁ NX FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS",
+      "ZINZANE COMERCIO E CONFECÇÃO DE VESTUÁRIO LTDA"
+    ],
+    "link": "https://www3.tjrj.jus.br/gedcacheweb/default.aspx?UZIP=1&GEDID=0004E0E59CD61E3B9B7F89CFC122681ACF2AC51B0E1C0638",
+    "texto_completo": "*** SECRETARIA DA 19ª CÂMARA DE DIREITO PRIVADO (ANTIGA 25ª CÂMARA CÍVEL) ***\n\r-------------------------\n\rCONCLUSÕES DE ACÓRDÃO\n\r-------------------------\n\r - AGRAVO DE INSTRUMENTO - CÍVEL 0016834-68.2026.8.19.0000 Assunto: Antecipação de Tutela / Tutela Específica / Processo e Procedimento / DIREITO PROCESSUAL CIVIL E DO TRABALHO Origem: CAPITAL 5 VARA EMPRESARIAL Ação: 0909171-74.2025.8.19.0001 Protocolo: 3204/2026.00203932 AGTE: QUATÁ FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS MULTISETORIAL AGTE: PRASS FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS II AGTE: QUATÁ NX FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS AGTE: QI QUATÁ FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS AGTE: FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS QW1 - RESPONSABILIDADE ILIMITADA ADVOGADO: GABRIEL JOSÉ DE ORLEANS E BRAGANÇA OAB/RJ-132374 AGDO: ZINZANE COMERCIO E CONFECÇÃO DE VESTUÁRIO LTDA ADVOGADO: ANA TEREZA BASILIO OAB/RJ-074802  Relator: DES. LUCIANO SABOIA RINALDI DE CARVALHO Ementa: AGRAVO DE INSTRUMENTO. DIREITO EMPRESARIAL. RECUPERAÇÃO JUDICIAL. PRORROGAÇÃO DE MEDIDAS ANTERIORMENTE DEFERIDAS EM SEDE DE TUTELA CAUTELAR ANTECEDENTE E RATIFICADAS NO PROCESSAMENTO DA RECUPERAÇÃO JUDICIAL. TRAVA BANCÁRIA. CESSÃO FIDUCIÁRIA DE RECEBÍVEIS. LIMITAÇÃO TEMPORÁRIA DE RETENÇÕES. PRESERVAÇÃO DA EMPRESA. DECISÃO DE PRORROGAÇÃO.1. Controvérsia acerca da legalidade da decisão que prorrogou, por mais 60 dias, a limitação das retenções decorrentes de cessão fiduciária de recebíveis anteriormente estabelecida em favor da recuperanda, com fundamento em relatório apresentado pelo Administrador Judicial.2. Recurso dos credores fiduciários visando à reforma da decisão, sustentando a extraconcursalidade dos créditos garantidos por cessão fiduciária, a impossibilidade de limitação das travas bancárias, a inaplicabilidade da teoria dos bens de capital essenciais aos recebíveis e a incompatibilidade da medida com o disposto nos arts. 6º, §7º-A, e 49, §3º, da Lei nº 11.101/2005.3. Decisão proferida em sede de cognição sumária, fundada em elementos indicativos da necessidade de preservação do fluxo mínimo de caixa da recuperanda e da manutenção das condições necessárias ao desenvolvimento do processo de soerguimento empresarial.4. Prorrogação temporária da limitação das retenções decorrentes de cessão fiduciária de recebíveis inserida no contexto das medidas provisórias destinadas à preservação da atividade empresarial e à superação da situação de crise econômico-financeira da recuperanda.5. Questões relativas à incidência dos arts. 6º, §7º-A, e 49, §3º, da Lei nº 11.101/2005, à natureza dos créditos, à validade e extensão das garantias fiduciárias e aos limites de atuação do juízo recuperacional que demandam análise aprofundada no âmbito do processo de recuperação judicial.6. Inexistência de elementos aptos a evidenciar ilegalidade manifesta ou teratologia que justifiquem a reforma da decisão agravada neste momento processual.7. Desprovimento do recurso.  Conclusões: Por unanimidade de votos, negou-se provimento ao recurso, nos termos do voto do Relator.\r\nPref nº 10 - Pelo Agravado - Dr Felipe Vieira de Araújo Corrêa OAB/RJ 153.480.",
+    "data": "2026-07-24",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [
+      "cedente"
+    ],
+    "keywords_rj": [
+      "recuperação judicial",
+      "administrador judicial",
+      "recuperanda",
+      "lei nº 11.101"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJRJ\\2026-07\\2026-07-24\\matches_2026-07-24.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "fiduciaria",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Decisão judicial prorroga limitação das retenções decorrentes de cessão fiduciária de recebíveis em recuperação judicial, envolvendo fundos de investimento em direitos creditórios.",
+        "cedente": "ZINZANE COMERCIO E CONFECÇÃO DE VESTUÁRIO LTDA",
+        "cessionario": "QUATÁ FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS MULTISETORIAL, PRASS FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS II, QUATÁ NX FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS, QI QUATÁ FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS, FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS QW1 - RESPONSABILIDADE ILIMITADA",
+        "valor": null,
+        "classe_credito": "extraconcursal",
+        "cnj_rj": null,
+        "recuperanda": "ZINZANE COMERCIO E CONFECÇÃO DE VESTUÁRIO LTDA",
+        "motivo_classificacao": "Cessão fiduciária de recebíveis discutida no contexto de recuperação judicial com participação de fundos de investimento em direitos creditórios.",
+        "descoberto_em": "2026-07-24"
+      }
+    ]
+  },
+  {
+    "id": 676357596,
+    "cnj": "0064335-35.2014.8.19.0001",
+    "classe": "APELAçãO CíVEL",
+    "orgao": "SECRETARIA DA 12ª CÂMARA DE DIREITO PRIVADO (ANTIGA 14ª CÂMARA CÍVEL)",
+    "destinatarios": [
+      "AMERICANAS S.A. - EM RECUPERAÇÃO JUDICIAL",
+      "PRS INCORPORADORA LTDA",
+      "AMALY JABOR",
+      "DIP FINANCING 11 FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO-PADRONIZADOS",
+      "ESPÓLIO DE SARVAT JABOR HACHICH",
+      "LUIZ GONZAGA OLIVEIRA DE LARA RESENDE",
+      "OS MESMOS",
+      "SUELY JABOR DE LARA RESENDE"
+    ],
+    "link": "https://www3.tjrj.jus.br/gedcacheweb/default.aspx?UZIP=1&GEDID=00043F17F79F667A31D49B8C58F7DC430E4BC51B0C2A5608",
+    "texto_completo": "*** SECRETARIA DA 12ª CÂMARA DE DIREITO PRIVADO (ANTIGA 14ª CÂMARA CÍVEL) ***\n\r-------------------------\n\rDECISÃO\n\r-------------------------\n\r - APELAÇÃO 0064335-35.2014.8.19.0001 Assunto: Alteração de Coisa Comum / Condomínio em Edifício / Propriedade / Coisas / DIREITO CIVIL Origem: CAPITAL 39 VARA CIVEL Ação: 0064335-35.2014.8.19.0001 Protocolo: 3204/2019.00473739 APELANTE: AMERICANAS S.A. - EM RECUPERAÇÃO JUDICIAL ADVOGADO: ALEXANDRE JOSÉ RIBEIRO BANDEIRA DE MELLO OAB/RJ-088556 ADVOGADO: PEDRO LUIZ PAPI DE MORAES OAB/RJ-027795 APELANTE: PRS INCORPORADORA LTDA ADVOGADO: ARMANDO MICELI FILHO OAB/RJ-048237 ASSISTENTE: DIP FINANCING 11 FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO-PADRONIZADOS ADVOGADO: LUCIANA FREITAS GORGES ROCHA OAB/RJ-095337 ADVOGADO: LARISSA COELHO MORAES OAB/RJ-257997 APELADO: OS MESMOS APELADO: ESPÓLIO DE SARVAT JABOR HACHICH ADVOGADO: NAYARA TAYLLA GOMES DE SOUZA OAB/RJ-179822 APELADO: AMALY JABOR APELADO: LUIZ GONZAGA OLIVEIRA DE LARA RESENDE APELADO: SUELY JABOR DE LARA RESENDE ADVOGADO: ELIZABETH ACCIOLY GOMES BENSUSAN OAB/RJ-050930  Relator: DES. CLEBER GHELFENSTEIN  DECISÃO: TRIBUNAL DE JUSTIÇA DO ESTADO DO RIO DE JANEIRO\r\nDÉCIMA SEGUNDA CÂMARA DE DIREITO PRIVADO\r\nAPELAÇÃO CÍVEL Nº 0064335-35.2014.8.19.0001\r\nAPELANTE 1: AMERICANAS S.A. - EM RECUPERAÇÃO JUDICIAL\r\nAPELANTE 2: PRS INCORPORADORA LTDA.\r\nAPELANTE 3: DIP FINANCING 11 FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO-PADRONIZADOS (ASSISTENTE LITISCONSORCIAL DE PRS INCORPORADORA LTDA.)\r\nAPELADO 1: OS MESMOS\r\nAPELADO 2: ESPÓLIO DE SARVAT JABOR HACHICH\r\nAPELADO 3: AMALY JABOR\r\nAPELADO 4: LUIZ GONZAGA OLIVEIRA DE LARA RESENDE\r\nAPELADO 5: SUELY JABOR DE LARA RESENDE\r\nRELATOR: DESEMBARGADOR CLEBER GHELFENSTEIN\r\n\r\n\r\nDECISÃO\r\n            \r\n            1) Após expirado o prazo de suspensão processual concedido pela decisão na fl. 1.036-001036, e devidamente provocado pelas partes Amaly Jabor e Suely Jabor de Lara Resende nas fls. 1.040/1.048-001040, Americanas S.A. - Em Recuperação Judicial informou sobre a impossibilidade de composição amigável com a empresa PRS Incorporadora Ltda., conforme fls. 1.056/1.058-001056.\r\n            \r\n            Noutra senda, Dip Financing 11 Fundo de Investimento em Direitos Creditórios Não-Padronizados formulou pedido de sucessão processual da PRS Incorporadora Ltda. em virtude da alegada aquisição superveniente da fração ideal objeto da lide (fls. 1.059/1.060-001059).\r\n            \r\n            Instada a se manifestar acerca do referido pedido, Americanas S.A. - Em Recuperação Judicial foi contrária (fls. 1.144/1.151-001144), sob os fundamentos, em suma, de que, (i) \"(...) se a PRS INCORPORADORA, como declara, era titular de um quinhão de 31/70 do imóvel se despiu, mediante dação, de 26/70 do bem, não alienou a totalidade de seu quinhão, eis que reservou parte dele em seu domínio - preservando, assim, a sua condição de condômina (...)\" (sic; caixa alta no original, mas sem seus grifos), bem como que, (ii) ainda que se admita a aquisição superveniente do direito litigioso, a sucessão processual pretendida igualmente não se pode dar sem a concordância da parte contrária, pois o sistema processual civil brasileiro consagra, como regra, a estabilidade subjetiva da demanda, impedindo que negócios jurídicos supervenientes sejam utilizados como mecanismo de alteração compulsória das partes originárias do processo, na forma prevista no artigo 109, § 1º, do Código de Processo Civil (CPC), segundo o qual o adquirente ou cessionário da coisa ou do direito litigioso, por ato entre vivos, não poderá ingressar em juízo, sucedendo o alienante ou cedente, sem que o consinta a parte contrária.\r\n            \r\n            Não houve manifestação das demais partes (fl. 1.152-001152).\r\n            \r\n            Nova manifestação do Dip Financing 11 Fundo de Investimento em Direitos Creditórios Não-Padronizados na fl. 1.158-001158 insistindo no pleito de reconhecimento de sucessão processual.\r\n            \r\n            Nova resistência da Americanas S.A. - Em Recuperação Judicial nas fls. 1.177/1.182-001177 com argumentos idênticos aos anteriores, salientando que os documentos acostados aos autos revelam que a empresa PRS Incorporadora Ltda. permanece titular de fração ideal do imóvel em tela, sendo incabível sua exclusão do polo ativo, concluindo que a empresa PRS Incorporadora Ltda. adquiriu 35/70 do imóvel, posteriormente alienou 5/70 e, mais recentemente, transferiu ao DIP Financing apenas 26/70, permanecendo titular da fração remanescente de 4/70, não havendo, portanto, alienação integral do direito material objeto da demanda. Subsidiariamente, admite o ingresso da DIP Financing como assistente litisconsorcial, na forma prevista no artigo 109, § 2º, do CPC.\r\n            \r\n            Relatei sucintamente. Decido.\r\n            \r\n            Com efeito, o pedido formulado por Dip Financing 11 Fundo de Investimento em Direitos Creditórios Não-Padronizados de sucessão processual da empresa PRS Incorporadora Ltda. deve ser apreciado à luz das regras processuais previstas no artigo 109, §§ 1º ao 3º, do CPC. É ver:\r\n\r\n\"[...]\r\nPARTE GERAL\r\n[...]\r\nLIVRO III\r\n\r\nDOS SUJEITOS DO PROCESSO\r\n\r\nTÍTULO I\r\n\r\nDAS PARTES E DOS PROCURADORES\r\n[...]\r\nCAPÍTULO IV\r\n\r\nDA SUCESSÃO DAS PARTES E DOS PROCURADORES\r\n\r\n[...]\r\nArt. 109. A alienação da coisa ou do direito litigioso por ato entre vivos, a título particular, não altera a legitimidade das partes.\r\n\r\n§ 1º O adquirente ou cessionário não poderá ingressar em juízo, sucedendo o alienante ou cedente, sem que o consinta a parte contrária.\r\n\r\n§ 2º O adquirente ou cessionário poderá intervir no processo como assistente litisconsorcial do alienante ou cedente.\r\n\r\n§ 3º Estendem-se os efeitos da sentença proferida entre as partes originárias ao adquirente ou cessionário.\r\n[...]\"\r\n            \r\n            Pois bem.\r\n            \r\n            Segundo a regra prevista no artigo 109, § 1º, do CPC, o adquirente ou cessionário (Dip Financing 11 Fundo de Investimento em Direitos Creditórios Não-Padronizados) não poderá ingressar em juízo, sucedendo o alienante ou cedente (PRS Incorporadora Ltda.), sem que o consinta a parte contrária (Americanas S.A. - Em Recuperação Judicial), que manifestou expressa discordância. Já seria fundamento suficiente.\r\n            \r\n            Ademais, a certidão registral nas fls. 1.159/1.171-001159 revela que o Dip Financing 11 Fundo de Investimento em Direitos Creditórios Não-Padronizados adquiriu da PRS Incorporadora Ltda. parte ideal correspondente a 26/70 do imóvel em comento, permanecendo a PRS Incorporadora Ltda. como proprietária da fração ideal restante correspondente a 4/70.\r\n            \r\n            Nesta linha de raciocínio, o pedido de reconhecimento de sucessão processual deve ser indeferido.\r\n            \r\n            Contudo, diante da regra processual prevista no artigo 109, § 2º, do CPC, o adquirente ou cessionário (Dip Financing 11 Fundo de Investimento em Direitos Creditórios Não-Padronizados) poderá intervir no processo como assistente litisconsorcial do alienante ou cedente (PRS Incorporadora Ltda.), em relação à parcela adquirida ou cedida.\r\n            \r\n            Desta forma, impõe-se a manutenção na lide da empresa PRS Incorporadora Ltda. e o ingresso de Dip Financing 11 Fundo de Investimento em Direitos Creditórios Não-Padronizados como seu assistente litisconsorcial quanto à fração transacionada entre as partes.\r\n            \r\n            Sem mais considerações, (a) indefiro o pedido de reconhecimento de sucessão processual formulado por Dip Financing 11 Fundo de Investimento em Direitos Creditórios Não-Padronizados e (b) admito o seu ingresso como assistente litisconsorcial de PRS Incorporadora Ltda. apenas em relação à fração objeto da transação entre as partes.\r\n            \r\n            2) Como corolário da decisão acima, altere-se a autuação para que dela passe a constar (a) DIP FINANCING 11 FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO-PADRONIZADOS como assistente litisconsorcial de PRS INCORPORADORA LTDA. e (b) o atual nome da empresa ré apelante, qual seja, AMERICANAS S.A. - EM RECUPERAÇÃO JUDICIAL.\r\n            \r\n            3) Intimem-se as partes, certifique-se a intimação e voltem imediatamente para lançamento de relatório.\r\n            \r\nRio de Janeiro, na data da assinatura eletrônica.\r\n\r\nDESEMBARGADOR CLEBER GHELFENSTEIN\r\nRELATOR\r\n\r\nPágina 4 de 4",
+    "data": "2026-07-23",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessionário"
+    ],
+    "keywords_cessao_fracas": [
+      "cedente"
+    ],
+    "keywords_rj": [
+      "recuperação judicial",
+      "em recuperação judicial"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJRJ\\2026-07\\2026-07-23\\matches_2026-07-23.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Dip Financing 11 Fundo de Investimento em Direitos Creditórios Não-Padronizados adquiriu parte ideal de imóvel da PRS Incorporadora Ltda. dentro de processo envolvendo Americanas S.A. em recuperação judicial, com pedido de sucessão processual negado, mas admitido como assistente litisconsorcial.",
+        "cedente": "PRS Incorporadora Ltda.",
+        "cessionario": "Dip Financing 11 Fundo de Investimento em Direitos Creditórios Não-Padronizados",
+        "valor": null,
+        "classe_credito": "outro",
+        "cnj_rj": null,
+        "recuperanda": "Americanas S.A.",
+        "motivo_classificacao": "Cessão de crédito dentro de processo de recuperação judicial com cessionário institucional, envolvendo sucessão processual e participação como assistente litisconsorcial.",
+        "descoberto_em": "2026-07-24"
+      }
+    ]
+  },
+  {
+    "id": 675607386,
+    "cnj": "0803798-46.2024.8.19.0209",
+    "classe": "MONITóRIA",
+    "orgao": "5ª Vara Cível da Regional da Barra da Tijuca",
+    "destinatarios": [
+      "CONDOMINIO JARDIM MARAMBAIA",
+      "L1X COMPRA E VENDA DE IMOVEIS EIRELI"
+    ],
+    "link": "https://tjrj.pje.jus.br/1g/Processo/ConsultaDocumento/listView.seam?x=26071511155265600000279291980",
+    "texto_completo": "Poder Judiciário do Estado do Rio de Janeiro Comarca da Capital 5ª Vara Cível da Regional da Barra da Tijuca Avenida Luís Carlos Prestes, S/N, Barra da Tijuca, RIO DE JANEIRO - RJ - CEP: 22775-055 SENTENÇA Processo:0803798-46.2024.8.19.0209 Classe:MONITÓRIA (40) CONDOMÍNIO: CONDOMINIO JARDIM MARAMBAIA RÉU: L1X COMPRA E VENDA DE IMOVEIS EIRELI CONDOMINIO JARDIM MARAMBAIA, devidamente qualificado na inicial, propõe ação monitória em face deL1X COMPRA E VENDA DE IMÓVEIS EIRELI,igualmente qualificado, narrando, em síntese, que a parte ré é proprietária da fração 231 do condomínio autor e está inadimplente com a obrigação de pagar as contribuições condominiais. Requer, portanto, a citação do Réu para pagamento do débito de R$2.737,39 e, caso não seja realizado o pagamento ou opostos embargos, seja constituído o título executivo judicial (art. 702, (sec) 8º, do CPC), com a condenação dos Réus ao pagamento do débito atualizado, bem como das despesas processuais e de honorários de sucumbência. A fundamentar sua pretensão junta os documentos encartados na petição de 07/02/2024. Regularmente citada a ré apresentou embargos monitórios de índex 179453604 arguindo, preliminarmente, continência e conexão, bem como ilegitimidade passiva. Requer a improcedência dos pedidos. Réplica em índex 193358494. Solicitação de sucessão processual no polo ativo em índex 224454779 para que passe a constar no polo ativoLLZ SOLUCAO COBRANCA S.A. Considerando a cessão de créditos, defiro a substituição porLLZ SOLUCAO COBRANCA S.A. Anote-se no polo ativo, exclua-se o CONDOMINIO cedente. O patrono indicado na cessão de crédito, Dr. JOÃO PAULO já se encontra cadastrado. Instados a se manifestarem em provas, o Autor requereu em índex 226712320 o julgamento antecipado do mérito, ficando silente o Réu. Após o que, os autos vieram conclusos para sentença. É o relatório. Passo a decidir. Rejeito as preliminares de conexão e continência em relação ao processo nº 0007490-72.2018.8.19.0023, eis que, embora sejam processos entre as mesmas partes, tem como objeto débitos distintos de unidades distintas, não havendo risco de decisões conflitantes. Rejeito a preliminar de ilegitimidade passiva, pois o débito referente às cotas condominiais decorre da posse do imóvel, sendo certo que a anulação do contrato que transmitiu a propriedade ao Réu não afasta, por si só, a presunção de posse decorrente do registro no RGI. A demanda comporta julgamento antecipado, a teor do disposto no artigo 355, inciso II, do Código de Processo Civil, assim como porque o próprio Autor requereu o julgamento no estado do processo. Alega o Réu que não é mais o proprietário do imóvel objeto da lide, eis que o título que lhe transmitiu a propriedade do bem foi anulado por decisão judicial. Como visto, o registro da propriedade no RGI implica a presunção de posse do imóvel pelo proprietário, no caso, o Réu, que não é afastada automaticamente pela anulação do contrato que transmitiu a propriedade, sendo ônus do embargante, até a alteração do registro, comprovar a transferência da posse ao proprietário anterior. O Superior Tribunal de Justiça e este E. Tribunal têm entendido que somente após a imissão na posse, ou seja, a partir do momento em que as chaves são entregues, com ciência do condomínio, passa a existir a responsabilidade pelo pagamento das cotas. Em sede de recursos repetitivos, restou assentado: \"RECURSOS REPETITIVOS - DIREITO CIVIL E PROCESSUAL CIVIL. LEGITIMIDADE PASSIVA EM AÇÃO DE COBRANÇA DE DÍVIDAS CONDOMINIAIS. RECURSO REPETITIVO (ART. 543-C DO CPC E RES. 8/2008 - STJ). TEMA 886. A respeito da legitimidade passiva em ação de cobrança de dívidas condominiais, firmaram- se as seguintes teses: a) o que define a responsabilidade pelo pagamento das obrigações condominiais não é o registro do compromisso de compra e venda, mas a relação jurídica material com o imóvel, representada pela imissão na posse pelo promissário comprador e pela ciência inequívoca do condomínio acerca da transação; b) havendo compromisso de compra e venda não levado a registro, a responsabilidade pelas despesas de condomínio pode recair tanto sobre o promitente vendedor quanto sobre o promissário comprador, dependendo das circunstâncias de cada caso concreto; e c) se ficar comprovado (i) que o promissário comprador se imitira na posse e (ii) o condomínio teve ciência inequívoca da transação, afasta-se a legitimidade passiva do promitente vendedor para responder por despesas condominiais relativas a período em que a posse foi exercida pelo promissário comprador. [...].Na verdade, será imprescindível aferir com quem, de fato, foi estabelecida a relação jurídica material. Frise-se, ademais, que não há nenhuma relevância, para o efeito de definir a responsabilidade pelas despesas condominiais, se o contrato de promessa de compra e venda foi ou não registrado, pois, conforme assinalado, não é aquele que figura no registro como proprietário que, necessariamente, responderá por tais encargos. Assim, ficando demonstrado que (i) o promissário comprador se imitira na posse do bem e (ii) o condomínio tivera ciência inequívoca da transação, deve-se afastar a legitimidade passiva do promitente vendedor para responder por despesas condominiais relativas a período em que a posse foi exercida pelo promissário comprador (REsp 1.297.239-RJ, Terceira Turma, DJe 29/4/2014; e AgRg no AREsp 526.651-SP, Quarta Turma, DJe 11/11/2014).\" Tal entendimento tem sido seguido por este E. Tribunal: 0821772-85.2022.8.19.0203- APELAÇÃO | | Des(a). CARLOS FERNANDO POTYGUARA PEREIRA - Julgamento: 15/04/2026 - OITAVA CAMARA DE DIREITO PRIVADO (ANTIGA 17ª CÂMARA CÍVEL) | | | Ementa: DIREITO CIVIL. APELAÇÃO CÍVEL. EMBARGOS À EXECUÇÃO. COBRANÇA DE COTAS CONDOMINIAIS. PROMESSA DE COMPRA E VENDA SEM REGISTRO. AUSÊNCIA DE COMPROVAÇÃO DE IMISSÃO NA POSSE E CIÊNCIA INEQUÍVOCA DO CONDOMÍNIO. IMPROCEDÊNCIA DOS EMBARGOS. RECURSO DESPROVIDO. I. CASO EM EXAME 1. Embargos à execução opostos por Calçada Empreendimentos Imobiliários S.A., em recuperação judicial, em face de execução de título extrajudicial promovida pelo Condomínio do Edifício Residencial Sicília, visando à cobrança de cotas condominiais referentes ao período de abril a setembro de 2021, no valor de R$ 8.777,27. A embargante suscita ilegitimidade passiva, por ter celebrado, em 2005, promessa de compra e venda do imóvel com terceiros, os quais teriam se imitido na posse do bem, com ciência do condomínio. Sentença que julgou improcedentes os embargos, reconhecendo a legitimidade passiva da embargante para o processo de execução com base na ausência de registro da alienação e de prova da ciência do condomínio. II. QUESTÃO EM DISCUSSÃO 2. A questão em discussão consiste em saber se, diante de contrato particular de promessa de compra e venda não levado a registro e da suposta imissão na posse pelos adquirentes, com ciência do condomínio, deve ser afastada a legitimidade passiva da embargante para responder por débitos condominiais. III. RAZÕES DE DECIDIR 3. A obrigação de pagamento das cotas condominiais tem natureza propter rem, recaindo sobre o titular do domínio ou sobre quem exerce a posse do imóvel, com ciência do condomínio (Tema 886/STJ). 4. A embargante não comprovou a imissão da compradora na posse. 5. A certidão do registro imobiliário aponta a embargante como proprietária formal da unidade e não há provas de que tenha ocorrido entrega das chaves ou outro ato inequívoco de transferência da posse. 6. Em razão da ausência de comprovação cumulativa da posse pelos compradores e da ciência do condomínio, resta caracterizada a legitimação da embargante para responder pelos encargos condominiais vencidos. 7. Correta a sentença ao julgar improcedentes os embargos à execução. Aplicação da tese firmada pelo STJ no Tema 886. 8. Honorários recursais majorados para 12% sobre o valor atualizado da causa, nos termos do art. 85, (sec)11, do CPC. IV. DISPOSITIVO E TESE 9. Recurso conhecido e desprovido. \"Tese de julgamento: 1. A obrigação de pagar cotas condominiais recai sobre o proprietário registral ou sobre quem exerce a posse do imóvel com ciência inequívoca do condomínio. 2. A simples promessa de compra e venda não registrada e desacompanhada de prova da imissão na posse e da ciência do condomínio não afasta a legitimidade passiva do proprietário registral para responder pela dívida condominial.\" Dispositivos relevantes citados: C, arts. 1.336, I; Lei nº 4.591/1964, art. 12; CPC, art. 85, (sec)11 Jurisprudência relevante citada: STJ, REsp 1.345.331/RS (Tema 886); TJRJ, Apelação Cível nº 0000575-20.2021.8.19.0211, Rel. Des. Valéria Dacheux Nascimento, j. 11.12.2025. | | Portanto, é devido o valor deR$2.737,39, corrigidos e acrescidos de juros de mora. Pelo exposto,JULGO PROCEDENTEo pedido para constituir o título executivo pelo valor de R$2.737,39e, ainda, os débitos condominiais vencidos no curso do processo, corrigidos monetariamente e acrescido de juros de mora 1% ao mês, ambos a contar da data do inadimplemento, além de multa de 2% do valor do débito tal qual previsto na cláusula 24º da Convenção. Condeno os Réus, ainda, ao pagamento das custas processuais e honorários advocatícios que fixo em 10% (dez por cento) sobre o valor condenação. Publique-se. Intimem-se. Certificado o trânsito em julgado, aguarde-se por 15 dias. Nada sendo requerido, dê-se baixa e arquivem-se. RIO DE JANEIRO, 14 de julho de 2026. ADRIANA ANGELI DE ARAUJO DE AZEVEDO MAIA Juiz Titular",
+    "data": "2026-07-22",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessão de crédito"
+    ],
+    "keywords_cessao_fracas": [
+      "cedente"
+    ],
+    "keywords_rj": [
+      "recuperação judicial",
+      "em recuperação judicial"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJRJ\\2026-07\\2026-07-22\\matches_2026-07-22.json",
+    "relevancia_btg": "baixa",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Habilitação de LLZ Solução Cobrança S.A. como cessionária em ação monitória por cessão de crédito condominial.",
+        "cedente": "CONDOMINIO JARDIM MARAMBAIA",
+        "cessionario": "LLZ SOLUCAO COBRANCA S.A.",
+        "valor": "R$2.737,39",
+        "classe_credito": "outro",
+        "cnj_rj": null,
+        "recuperanda": "CONDOMINIO JARDIM MARAMBAIA",
+        "motivo_classificacao": "Substituição processual por cessionário institucional em processo judicial envolvendo crédito condominial, com valor relevante e formalização da cessão.",
+        "descoberto_em": "2026-07-24",
+        "recuperanda_fonte": "capa_pdpj"
+      }
+    ]
+  },
+  {
+    "id": 674219683,
+    "cnj": "0015372-76.2026.8.19.0000",
+    "classe": "AGRAVO DE INSTRUMENTO",
+    "orgao": "SECRETARIA DA 19ª CÂMARA DE DIREITO PRIVADO (ANTIGA 25ª CÂMARA CÍVEL)",
+    "destinatarios": [
+      "BANCO SOFISA S A",
+      "ZINZANE COMERCIO E CONFECCAO DE VESTUARIO LTDA"
+    ],
+    "link": "https://www3.tjrj.jus.br/gedcacheweb/default.aspx?UZIP=1&GEDID=0004EE8EC1FB1831A48B4D1E8E68A434C196C51B0951385C",
+    "texto_completo": "*** SECRETARIA DA 19ª CÂMARA DE DIREITO PRIVADO (ANTIGA 25ª CÂMARA CÍVEL) ***\n\r-------------------------\n\rCONCLUSÕES DE ACÓRDÃO\n\r-------------------------\n\r - AGRAVO DE INSTRUMENTO - CÍVEL 0015372-76.2026.8.19.0000 Assunto: Obrigação de Fazer / Não Fazer / Liquidação / Cumprimento / Execução / DIREITO PROCESSUAL CIVIL E DO TRABALHO Origem: CAPITAL 5 VARA EMPRESARIAL Ação: 0909171-74.2025.8.19.0001 Protocolo: 3204/2026.00185154 AGTE: BANCO SOFISA S A ADVOGADO: JOSE MIGUEL GARCIA MEDINA OAB/PR-021731 ADVOGADO: RAFAEL DE OLIVEIRA GUIMARAES OAB/PR-035979 AGDO: ZINZANE COMERCIO E CONFECCAO DE VESTUARIO LTDA ADVOGADO: ANA TEREZA BASILIO OAB/RJ-074802  Relator: DES. LUCIANO SABOIA RINALDI DE CARVALHO Ementa: AGRAVO DE INSTRUMENTO. DIREITO EMPRESARIAL. RECUPERAÇÃO JUDICIAL. PRORROGAÇÃO DE MEDIDAS ANTERIORMENTE DEFERIDAS EM SEDE DE TUTELA CAUTELAR ANTECEDENTE E RATIFICADAS NO PROCESSAMENTO DA RECUPERAÇÃO JUDICIAL. TRAVA BANCÁRIA. CESSÃO FIDUCIÁRIA DE RECEBÍVEIS. LIMITAÇÃO TEMPORÁRIA DE RETENÇÕES. PRESERVAÇÃO DA EMPRESA. DECISÃO DE PRORROGAÇÃO.1. Controvérsia acerca da legalidade da decisão que prorrogou, por mais 60 dias, a limitação das retenções decorrentes de cessão fiduciária de recebíveis anteriormente estabelecida em favor da recuperanda, com fundamento em relatório apresentado pelo Administrador Judicial.2. Recurso do credor fiduciário visando à reforma da decisão, sustentando a extraconcursalidade dos créditos garantidos por cessão fiduciária, a impossibilidade de limitação das travas bancárias, a inaplicabilidade da teoria dos bens de capital essenciais aos recebíveis e a incompatibilidade da medida com o disposto no art. 49, §3º, da Lei nº 11.101/2005.3. Decisão proferida em sede de cognição sumária, fundada em elementos indicativos da necessidade de preservação do fluxo mínimo de caixa da recuperanda e da manutenção das condições necessárias ao desenvolvimento do processo de soerguimento empresarial.4. Prorrogação temporária da limitação das retenções decorrentes de cessão fiduciária de recebíveis inserida no contexto das medidas provisórias destinadas à preservação da atividade empresarial e à superação da situação de crise econômico-financeira da recuperanda.5. Questões relativas à incidência do art. 49, §3º, da Lei nº 11.101/2005, à natureza dos créditos, à validade e extensão das garantias fiduciárias e aos limites de atuação do juízo recuperacional que demandam análise aprofundada no âmbito do processo de recuperação judicial.6. Inexistência de elementos aptos a evidenciar ilegalidade manifesta ou teratologia que justifiquem a reforma da decisão agravada neste momento processual.7. Desprovimento do recurso.  Conclusões: Após votar o Relator, negando provimento ao recurso, sendo acompanhado pela Des. Mônica Sardas, divergiu o Des. Werson Rêgo dando provimento. Ficando assim o julgamento: Por maioria de votos, negou-se provimento ao recurso, vencido o Des. Werson Rêgo que dava provimento. Lavrará o acórdão o Des. Luciano Rinaldi e o voto vencido o Des. Werson Rêgo.",
+    "data": "2026-07-21",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [
+      "cedente"
+    ],
+    "keywords_rj": [
+      "recuperação judicial",
+      "administrador judicial",
+      "recuperanda",
+      "lei nº 11.101"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJRJ\\2026-07\\2026-07-21\\matches_2026-07-21.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "fiduciaria",
+        "cessionario_institucional": true,
+        "confianca": "media",
+        "resumo": "Decisão judicial sobre prorrogação de limitação de retenções decorrentes de cessão fiduciária de recebíveis em recuperação judicial.",
+        "cedente": null,
+        "cessionario": "Banco Sofisa S A",
+        "valor": null,
+        "classe_credito": "extraconcursal",
+        "cnj_rj": null,
+        "recuperanda": "Zinzane Comercio e Confeccao de Vestuario Ltda",
+        "motivo_classificacao": "Trata-se de cessão fiduciária de recebíveis discutida no contexto de recuperação judicial com cessionário institucional (Banco Sofisa).",
+        "descoberto_em": "2026-07-24"
+      }
+    ]
+  },
+  {
+    "id": 686727250,
+    "cnj": "0251817-82.2021.8.19.0001",
+    "classe": "FALêNCIA DE EMPRESáRIOS, SOCIEDADES EMPRESáRIAIS, MICROEMPRESAS E EMPRESAS DE PEQUENO PORTE",
+    "orgao": "Comarca da Capital- Cartório da 2ª Vara Empresarial",
+    "destinatarios": [
+      "AVM EDUCACIONAL LTDA.",
+      "GUSTAVO BANHO LICKS"
+    ],
+    "link": null,
+    "texto_completo": "1 - Fls. 2946 - Última decisão acerca dos pedidos constantes às fls. 2858 e 2930, relativos ao auto de leilão e à apresentação do relatório do Administrador Judicial referente a maio de 2026. No item 3 dessa decisão, houve determinação do juízo para que os autos retornassem a fim de serem apreciadas as matérias ainda pendentes de decisão.   2 - Fls. 2784/2787 - Trata-se de embargos de declaração opostos por Solve Securitizadora de Créditos Financeiros S/A contra AVM Educacional Ltda., nos quais a Embargante informa ter adquirido créditos do Itaú Unibanco S.A., já arrolados no Quadro Geral de Credores da massa falida, e requer sua inclusão como nova titular, a correção da representação processual, a ratificação dos atos praticados pelo cedente e a intimação da Recuperanda para apresentar planilha detalhada. O despacho determinou a formulação de incidente de habilitação, mas a Embargante sustenta que não se trata de habilitação ou divergência, e sim de sucessão processual decorrente da cessão, prevista no CPC e no Código Civil, sem necessidade de incidente. Argumenta que a cessão não cria novo crédito, apenas transfere titularidade, e que o despacho apresenta obscuridade ao confundir o pedido. Assim, requer o provimento dos embargos para esclarecer que se trata de sucessão processual, com a inclusão da Solve como nova titular dos créditos e a ratificação dos atos praticados pelo cedente.   3 - Fls. 2791/2801 - (AJ) - Apresenta o RMA de Novembro de 2025.   4 - Fls. 2804 - Suzana Costa Duncan requer que o Administrador Judicial inclua seu crédito trabalhista de R$ 25.000, já reconhecido por sentença transitada em julgado, no Quadro Geral de Credores da Recuperação Judicial da AVM Educacional Ltda., pois não consta nas últimas listas apresentadas.   5 - Fls. 2837 - (AJ) - Apresenta o RMA de Dezembro de 2025.   6 - Fls. 2862 - Decisão do juízo determinando o envio ao Administrador Judicial e ao Ministério Público sobre fls. 2858 (auto de leilão, já decidido na decisão de fls. 2946).   7 - Fls. 2868/2876 - Relatório do Administrador Judicial sobre o relatório de fevereiro de 2026 que já foi provido na decisão de fls. 2946.   8 - Fls. 2877/2880 - Relatório do Administrador Judicial sobre o leilão que também já foi decido conforme decisão de fls. 2946.   9 - Fls. 2881 - Atos da Serventia intimando a Massa Falida sobre os embargos de declaração opostos às fls. 2784//2787 e intimação do AJ e MP sobre fls. 2878/2880. Em relação ao leilão, este já foi decidido na decisão de fls. 2946.   10 - Fls. 2885/2886 - Decisão do juízo sobre fls.2775, 2784, 2791, 2804, 2819, 2828, 2834 e 2837.    11 - Fls. 2889 - O Ministério Público relata que tomou ciência da manifestação constante às fls. 2.775/2.781 e opina pelo conhecimento e provimento dos embargos de declaração de fls. 2.784/2.787, a fim de alterar a titularidade do credor no Quadro Geral de Credores (QGC).   12 - Fls. 2891 - (AJ) Apresenta o RMA de Março de 2026.   13 - Fls. 2906/2917 - (AJ) Apresenta o RMA de Abril de 2026.   14 - Fls. 2918/2923 - O leiloeiro informa ao Juízo que o Administrador Judicial concordou com a homologação do único lance ofertado e que o Ministério Público também se manifestou favoravelmente. O arrematante já realizou o depósito judicial e foi orientado a peticionar nos autos. Para facilitar a desocupação do imóvel onde se encontram os bens leiloados, sugere que o Administrador Judicial seja autorizado a proceder à entrega direta dos bens ao arrematante.   15 - Fls. 2925/2927 - José Robson Roseno de Araújo, vencedor do leilão judicial eletrônico nos autos da falência de AVM Educacional Ltda., já quitou integralmente suas obrigações financeiras referentes ao lote arrematado, composto por mobiliário de escritório, carteiras escolares, arquivos e equipamentos. Os bens encontram-se na antiga sede da empresa, localizada em condomínio comercial que restringe movimentações de carga em dias úteis, permitindo-as apenas nos finais de semana mediante agendamento. Para cumprir tais normas, o arrematante programou a retirada para o dia 20 de junho de 2026, sábado, das 09h às 14h, e requer autorização judicial para efetivar a posse e retirada dos bens, expedição de mandado de entrega ou ofício para apresentação ao condomínio, intimação do administrador judicial para acompanhar ou fornecer acesso às dependências, e que a decisão funcione como alvará de liberação perante autoridades policiais e condominiais, garantindo a execução da diligência sem impedimentos.   16 - Fls. 2929/2937 - (AJ) Apresenta o RMA de Maio de 2026.   17 - Fls. 2938/2941 - O Administrador Judicial, em seu relato, informa que foram opostos embargos de declaração por Solve Securitizadora S/A, os quais apontam obscuridade na decisão de fls. 2.749 e pleiteiam o reconhecimento de sucessão processual, em razão de cessão de crédito firmada com o Itaú Unibanco. Ressalta que o Ministério Público, às fls. 2.889, se manifestou pelo conhecimento e provimento do recurso, visando retificar a titularidade do credor no Quadro Geral de Credores (QGC).  Todavia, ao analisar os autos, verifica-se que inexiste qualquer crédito arrolado em favor do Itaú Unibanco na Relação de Credores apresentada no id. 2.418. Diante da ausência de crédito habilitado apto a sofrer a sucessão pretendida, não há fundamento para acolher os embargos.  Assim, o Administrador Judicial conclui e opina pelo não provimento dos embargos de declaração, reafirmando a necessidade de manter íntegro o Quadro Geral de Credores da Massa Falida.  Por fim, informa que o crédito da Sra. Suzana Costa Duncan foi devidamente incluído na Relação de Credores da Massa Falida.   18 - Fls. 2942/2944 - O Administrador Judicial reitera o pedido de expedição de novo ofício ao Banco Itaú para que transfira os saldos das contas nº 80468-7 e 35801-5 da agência 0310 para conta judicial vinculada ao processo e proceda ao encerramento das referidas contas. Apesar de já ter havido deferimento judicial e expedição de ofício anterior, o banco não cumpriu a determinação. O Ministério Público não se opôs ao requerimento e, diante da inércia da instituição financeira, solicita que o novo ofício seja expedido com imposição de multa diária em caso de descumprimento.   19 - Fls.2952 - José Robson Roseno de Araújo, por meio de sua advogada, informa que participou do leilão judicial da falência da AVM Educacional Ltda. e arrematou o lote único de bens móveis, tendo quitado integralmente o valor da arrematação e a comissão do leiloeiro, conforme comprovantes juntados aos autos. Diante do cumprimento das obrigações, requer ao juízo a lavratura e assinatura do Auto de Arrematação, a expedição imediata de Mandado de Entrega ou autorização para retirada dos bens, e a ciência ao Administrador Judicial sobre a quitação e retirada, a fim de formalizar a arrematação e permitir a posse plena dos bens adquiridos.   20 - Fls. 2995/2956 - Parecer do Ministério Público, concordando com o pedido formulado pelo Administrador Judicial às fls. 2943/2944.   21 - Fls. 2958/2959 - O Administrador Judicial informa ao Juízo que a arrematação dos bens já foi homologada e que aguarda apenas a expedição do mandado de entrega para possibilitar a retirada dos bens do local.   É o relatório. Decido.   Trata-se de embargos de declaração opostos por Solve Securitizadora de Créditos Financeiros S/A em face de AVM Educacional Ltda. A Embargante sustenta ter adquirido créditos do Itaú Unibanco S.A., já arrolados no Quadro Geral de Credores, requerendo sua inclusão como nova titular, a correção da representação processual e a ratificação dos atos praticados pelo cedente. Aduz que se trata de sucessão processual decorrente de cessão de crédito, não havendo necessidade de incidente de habilitação.   Em contrarrazões, o Administrador Judicial apresente manifestação pelo não provimento dos embargos, destacando que não há crédito habilitado em favor do Itaú Unibanco nos autos, inexistindo, portanto, título apto a sofrer a sucessão pretendida.    O Ministério Público opinou pelo provimento dos embargos.   No mérito, não merecem acolhimento as alegações da Embargante, considerando que sequer há crédito a ser habilitado, conforme manifestação do Administrador Judicial. A questão relativa à existência ou inexistência do crédito, bem como sua eventual inclusão ou substituição, deve ser discutida no competente incidente de habilitação de crédito, nos termos do art. 9º, da Lei nº 11.101/2005.   Isto posto, conheço dos embargos de declaração, mas nego-lhes provimento, mantendo a decisão tal como proferida.   Em relação aos diversos Relatórios Mensais de Atividades (RMAs) apresentados às fls. 2791/2801, 2837, 2891, 2906/2917 e 2929/2937, determino que sejam encaminhados aos interessados e ao Ministério Público para ciência e manifestação.   Quanto ao leilão judicial já homologado, e diante da quitação integral pelo arrematante José Robson Roseno de Araújo (fls. 2925/2927 e 2952), determino a expedição da carta de arrematação e do respectivo mandado de entrega, autorizando a retirada dos bens.   Por fim, intime-se o Banco Itaú para proceder à transferência e encerramento das contas nº 80468-7 e 35801-5, conforme requerido pelo Administrador Judicial.   Dê-se ciência, ainda, da inclusão do crédito da Sra. Suzana Costa Duncan na Relação de Credores da Massa Falida.",
+    "data": "2026-08-04",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessão de crédito"
+    ],
+    "keywords_cessao_fracas": [
+      "cedente"
+    ],
+    "keywords_rj": [
+      "recuperação judicial",
+      "quadro geral de credores",
+      "administrador judicial",
+      "recuperanda",
+      "habilitação de crédito",
+      "lei nº 11.101",
+      "massa falida",
+      "falência"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJRJ\\2026-08\\2026-08-04\\matches_2026-08-04.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Solve Securitizadora de Créditos Financeiros S/A requereu a sucessão processual da titularidade de créditos do Itaú Unibanco S.A. no processo de falência da AVM Educacional Ltda.",
+        "cedente": "Itaú Unibanco S.A.",
+        "cessionario": "Solve Securitizadora de Créditos Financeiros S/A",
+        "valor": null,
+        "classe_credito": "outro",
+        "cnj_rj": null,
+        "recuperanda": "AVM Educacional Ltda.",
+        "motivo_classificacao": "Cessão de crédito concursal com habilitação e pedido de sucessão processual por cessionário institucional em processo de falência.",
+        "descoberto_em": "2026-08-14"
+      }
+    ]
+  },
+  {
+    "id": 682480732,
+    "cnj": "0818000-83.2023.8.19.0008",
+    "classe": "MONITóRIA",
+    "orgao": "2ª Vara Cível da Comarca de Belford Roxo",
+    "destinatarios": [
+      "BANCO CRUZEIRO DO SUL S.A.",
+      "RAUL VINICIUS DE OLIVEIRA ATADEMA"
+    ],
+    "link": "https://tjrj.pje.jus.br/1g/Processo/ConsultaDocumento/listView.seam?x=26072910103345000000281430005",
+    "texto_completo": "| PODER JUDICIÁRIO DO ESTADO DO RIO DE JANEIRO | | Comarca de Belford Roxo | | 2ª Vara Cível | | Av. Joaquim da Costa Lima, s/n 2º andar CEP: 26165-830 - São Bernardo - Belford Roxo - RJ Tel.: 2786-8383 | PROCESSO:0818000-83.2023.8.19.0008 CLASSE/ASSUNTO:MONITÓRIA (40) [Contratos Bancários] AUTOR: BANCO CRUZEIRO DO SUL S.A. RÉU: RAUL VINICIUS DE OLIVEIRA ATADEMA D E C I S Ã O Trata-se de Ação Monitória ajuizada originalmente por Banco Cruzeiro do Sul S.A. em face de Raul Vinicius de Oliveira Atadema. Pretende a empresa B6 Assignee Assets Ltda. a sua inclusão no polo ativo da presente demanda, na qualidade de cessionária dos direitos creditórios postulados, em decorrência do leilão judicial homologado pelo Egrégio Tribunal de Justiça do Estado de São Paulo nos autos da falência originária. Instada a se manifestar pelo despacho de ID 223123846, o autor originário se quedou inerte. A sucessão processual por ato entre vivos encontra guarida no artigo 109, (sec) 1º, do Código de Processo Civil, que condiciona a alteração subjetiva do processo à anuência do réu. Todavia, na espécie, a relação jurídica processual sequer foi angularizada, haja vista que o réu não foi citado. Ademais, na fase de conhecimento ou de execução de títulos, a jurisprudência consolidada do Superior Tribunal de Justiça reconhece a plena validade da sucessão de credores derivada de cessão de crédito regularmente instruída. A cessionária instruiu o pedido com o respectivo contrato social, procuração e cópia da decisão judicial homologatória com comprovação de pagamento do lance, restando satisfatoriamente comprovada a titularidade do crédito subjacente. Desta forma, imperioso o deferimento da substituição processual para figurar no polo ativo a empresa B6 Assignee Assets Ltda. Ultrapassada a questão da legitimidade ativa, constata-se pendência atinente ao recolhimento das custas processuais de ingresso. Compulsando os autos, verifica-se que a decisão de fl. 150725302 indeferiu de forma irrecorrida a gratuidade e o parcelamento de custas, determinando expressamente o recolhimento das despesas de distribuição no prazo legal, sob pena de cancelamento do feito, na forma do artigo 290 do Código de Processo Civil. O Agravo de Instrumento interposto tempestivamente pela Massa Falida originária teve seu provimento negado pelo Tribunal de Justiça do Estado do Rio de Janeiro, mantendo-se hígido o dever de recolhimento. Contudo, até a presente data, nem a autora originária nem a cessionária adquirente efetuaram o recolhimento do valor certificado pela serventia às fls. 98446687. A substituição do polo ativo transferiu à nova credora o direito postulado, mas também os ônus e obrigações processuais pendentes. Assim, antes de se determinar o cancelamento sumário da distribuição, faz-se estritamente necessária a intimação da cessionária ora admitida para que regularize as custas de ingresso incidentes. Ante o exposto: 1. DEFIRO o pedido de substituição processual formulado à fl. 181262907, para determinar a inclusão de B6 ASSIGNEE ASSETS LTDA. no polo ativo da presente demanda, em substituição à Massa Falida do Banco Cruzeiro do Sul S.A.. À serventia para retificação. 2. INTIME-SE a nova autora (B6 Assignee Assets Ltda.), por publicação no Diário da Justiça Eletrônico em nome de seus patronos, para que comprove o recolhimento integral das custas processuais iniciais certificadas à fl. 98446687, no prazo de 15 (quinze) dias, sob pena de imediato cancelamento da distribuição, nos termos do artigo 290 do Código de Processo Civil. Com o recolhimento, voltem conclusos para a apreciação da petição inicial e expedição do mandado monitório. Inerte a parte, certifique-se e façam os autos conclusos para extinção. Publique-se. Intimem-se. BELFORD ROXO, 24 de julho de 2026. NILSON LUIS LACERDA Juiz Titular",
+    "data": "2026-07-30",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessão de crédito",
+      "cessionária"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "massa falida",
+      "falência"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJRJ\\2026-07\\2026-07-30\\matches_2026-07-30.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "B6 Assignee Assets Ltda. foi incluída como cessionária dos direitos creditórios da Massa Falida do Banco Cruzeiro do Sul S.A. em ação monitória.",
+        "cedente": "Massa Falida do Banco Cruzeiro do Sul S.A.",
+        "cessionario": "B6 Assignee Assets Ltda.",
+        "valor": null,
+        "classe_credito": "outro",
+        "cnj_rj": null,
+        "recuperanda": "Banco Cruzeiro do Sul S.A.",
+        "motivo_classificacao": "Substituição processual formalizada em processo concursal com cessionário institucional adquirindo crédito da massa falida.",
+        "descoberto_em": "2026-08-14"
+      }
+    ]
+  },
+  {
+    "id": 679979476,
+    "cnj": "0029326-65.2021.8.19.0001",
+    "classe": "CUMPRIMENTO DE SENTENçA",
+    "orgao": "Comarca da Capital- Cartório da 27ª Vara Cível",
+    "destinatarios": [
+      "ACRUX SECURITIZADORA S.A.",
+      "CELIA DO SOCORRO ADAO CAMARA"
+    ],
+    "link": null,
+    "texto_completo": "Trata-se de Embargos de Declaração opostos por CÉLIA DO SOCORRO ADÃO CÂMARA contra a decisão interlocutória de ind. 522/526, que rejeitou a impugnação ao cumprimento de sentença apresentada pela executada. O recurso veio instruído com  Nota de Instrução Técnica  contendo contracheques, laudos médicos, extratos e contrato de locação.  A embargante sustenta a ocorrência de omissões, contradições e erros materiais no decisum, alegando, em síntese que o Juízo silenciou sobre a tese de excesso instruída com perícia contábil, apontando que a exequente incorreu em dupla incidência de encargos ao utilizar como base de cálculo as parcelas inadimplidas (que já embutem juros remuneratórios da Tabela Price) e sobre elas aplicar cumulativamente correção monetária e juros de mora legais; a ausência de manifestação sobre o bloqueio eletrônico ter atingido conta de natureza estritamente salarial (servidora pública da Prefeitura de Goiânia), violando o art. 833, IV, do CPC; falta de apreciação da tese de rasura/adulteração na data de emissão da CCB nº 09151109 (datada em um domingo); que a decisão validou a citação postal recebida por terceiro sem que houvesse nos autos qualquer prova de vínculo familiar ou de residência comum entre a signatária do AR e a executada; que o Juízo indeferiu o benefício pautando-se exclusivamente na renda bruta, ignorando o comprometimento da renda líquida por descontos compulsórios, múltiplos consignados e licença médica; a falta de análise, de ofício, da legitimidade ativa da securitizadora ante a ausência de endosso ou cessão formal individualizada dos títulos arrematados na falência do Banco Morada.  Paralelamente, a executada peticionou requerendo a prioridade na tramitação processual com fulcro no Estatuto do Idoso, por contar com 66 anos de idade.  Intimada, a exequente ACRUX SECURITIZADORA S.A. apresentou contrarrazões, aduzindo a tempestividade de sua manifestação, a ausência de quaisquer dos vícios do art. 1.022 do CPC e o nítido caráter de rediscussão do mérito por mero inconformismo, pugnando pela rejeição dos aclaratórios.  É o relatório. Decido.  Defiro, de plano, a prioridade na tramitação do feito. A embargante conta com mais de 60 anos de idade, preenchendo o requisito objetivo inserto no art. 1.048, I, do CPC e no art. 71 da Lei nº 10.741/2003 (Estatuto do Idoso). Anote-se no distribuidor e no sistema eletrônico.  Os aclaratórios são tempestivos e merecem conhecimento. No mérito, o recurso comporta integral acolhimento com a concessão de efeitos infringentes, visto que a decisão impugnada incorreu em omissões e contradições com o acervo documental dos autos, violando o dever de fundamentação analítica (art. 489, § 1º, IV, do CPC).  A decisão embargada incorreu em manifesta contradição com o estado probatório dos autos ao afirmar que o AR de ind. 262 foi regularmente recebido  por pessoa que residia com a Ré no mesmo domicílio .  Não há nos autos um único elemento probatório que ateste o vínculo de parentesco, afinidade ou coabitação da sra. Marilza B. Santos com a executada. O ônus de comprovar a validade da citação por correspondência entregue a terceiro é da exequente, que dele não se desincumbiu. Ademais, o contrato de locação colacionado demonstra que a embargante reside em endereço diverso daquele diligenciado desde 2019.  A citação de pessoa física pelo correio exige a entrega direta ao citando, colhendo-se sua assinatura (art. 248, § 1º, do CPC), sob pena de nulidade absoluta (art. 280, CPC). Alinha-se o posicionamento ao pacificado pelo Superior Tribunal de Justiça:   RECURSO ESPECIAL Nº 1.840.466 - SP (2019/0032450-9)  RELATOR : MINISTRO MARCO AURÉLIO BELLIZZE  RECORRENTE : GIOVANI LASTE  ADVOGADO : DANILO MARTELLI JUNIOR - SC030989  RECORRIDO : PAVAN FAMILY ADMINISTRACAO E PARTICIPACAO DE BENS LTDA ADVOGADO : ANACLETO JORGE GELESCO E OUTRO(S) - SP033111  EMENTA  RECURSO ESPECIAL. AÇÃO MONITÓRIA. REVELIA. CUMPRIMENTO DE SENTENÇA. EXCEÇÃO DE PRÉ-EXECUTIVIDADE. CITAÇÃO POSTAL. MANDADO CITATÓRIO RECEBIDO POR TERCEIRO. IMPOSSIBILIDADE. RÉU PESSOA FÍSICA. NECESSIDADE DE RECEBIMENTO E ASSINATURA PELO PRÓPRIO CITANDO, SOB PENA DE NULIDADE DO ATO, NOS TERMOS DO QUE DISPÕEM OS ARTS. 248, § 1º, E 280 DO CPC/2015. TEORIA DA APARÊNCIA QUE NÃO SE APLICA AO CASO. NULIDADE DA CITAÇÃO RECONHECIDA. RECURSO PROVIDO.  1. A citação de pessoa física pelo correio se dá com a entrega da carta citatória diretamente ao citando, cuja assinatura deverá constar no respectivo aviso de recebimento, sob pena de nulidade do ato, nos termos do que dispõem os arts. 248, § 1º, e 280 do CPC/2015.  2. Na hipótese, a carta citatória não foi entregue ao citando, ora recorrente, mas sim à pessoa estranha ao feito, em clara violação aos referidos dispositivos legais.  3. Vale ressaltar que o fato de a citação postal ter sido enviada ao estabelecimento comercial onde o recorrente exerce suas atividades como sócio administrador não é suficiente para afastar norma processual expressa, sobretudo porque não há como se ter certeza de que o réu tenha efetivamente tomado ciência da ação monitória contra si ajuizada, não se podendo olvidar que o feito correu à sua revelia.  4. A possibilidade da carta de citação ser recebida por terceira pessoa somente ocorre quando o citando for pessoa jurídica, nos termos do disposto no § 2º do art. 248 do CPC/2015, ou nos casos em que, nos condomínios edilícios ou loteamentos com controle de acesso, a entrega do mandado for feita a funcionário da portaria responsável pelo recebimento da correspondência, conforme estabelece o § 4º do referido dispositivo legal, hipóteses, contudo, que não se subsumem ao presente caso.  5. Recurso especial provido..  Configura-se, ainda, o erro material na certidão cartorária de ind. 264/266, que atestou a citação da  parte autora  em vez da ré. Sendo a citação pressuposto de validade do processo (art. 239, CPC), a quebra de sua formalidade contamina de nulidade absoluta todos os atos subsequentes.  O julgado embargado restou completamente silente sobre o excesso de execução alegado e amparado por cálculo pericial contábil. A omissão assume relevo em razão da nítida inadequação metodológica dos cálculos apresentados pela exequente.  A ACRUX adotou como  valor originário  a soma das parcelas inadimplidas (R$ 37.011,82 e R$ 5.826,60), as quais já carregam em sua estrutura interna os juros remuneratórios embutidos pelo sistema Price. Sobre esse montante globalizado, incidiu nova atualização monetária e juros moratórios de 1% ao mês.  Essa metodologia acarreta um anatocismo vedado e uma dupla incidência de encargos (bis in idem) sobre a mesma base econômica, transformando uma dívida contratual ponderada em um montante exorbitante de R$ 213.952,57, enquanto o valor apontado pela contadoria técnica da executada limita-se a R$ 19.087,07. O erro metodológico que gera indébita diferença reclama estirpe corretiva.  Sanando a omissão correlata à constrição, a Nota de Instrução Técnica evidencia que o bloqueio via SISBAJUD atingiu a conta corrente nº 8126-9 (Agência 3935-0, Banco Itaú), utilizada exclusivamente para o recebimento dos proventos da executada como servidora pública municipal de Goiânia.  A proteção das verbas de natureza salarial e alimentar é absoluta, nos moldes do art. 833, IV, do CPC, não se confundindo com a impenhorabilidade de poupança (inciso X) tratada no Tema 1.235 do STJ. Os contracheques apresentados demonstram que os saldos líquidos auferidos pela embargante são insuficientes até para fazer frente às suas despesas básicas e de saúde, violando a dignidade da pessoa humana a manutenção da constrição.  É nula a decisão que indefere a gratuidade judiciária baseando-se apenas no teto da remuneração bruta nominal da requerente. O direito ao benefício (art. 98, CPC) deve ser balizado pela capacidade financeira líquida e real.  Os autos demonstram que, após os descontos compulsórios em folha, empréstimos consignados legítimos e despesas fixas de subsistência habitacional e médica (a autora encontra-se afastada por licença médica decorrente de episódios depressivos e ansiedade generalizada - CIDs F41.1 e F32.1), o balanço mensal da executada é francamente deficitário. A hipossuficiência momentânea restou cabalmente demonstrada.  Tratando-se a legitimidade ativa ad causam de matéria de ordem pública cognoscível a qualquer tempo (art. 485, VI, e § 3º, CPC), constata-se que a exequente não demonstrou de forma robusta o nexo de circulação cambial das CCBs (art. 44 da Lei nº 10.931/2004). O auto de arrematação genérico de uma  carteira de títulos  na falência do Banco Morada colide com o próprio espelho de pagamento da exequente, que aponta a Massa Falida como beneficiária/cessionária atual ( 9999 MF ), demandando detida regularização e instrução.  Ademais, a verificação de rasura física na data de emissão da CCB nº 09151109 retira-lhe a necessária certeza e exigibilidade (art. 783, CPC), carecendo de dilação probatória especializada.  Ante todo o exposto, ACOLHO OS EMBARGOS DE DECLARAÇÃO opostos por CÉLIA DO SOCORRO ADÃO CÂMARA, conferindo-lhes efeitos infringentes, para tornar sem efeito a decisão de ind. 522/526 e, em sede substitutiva:  1. DECLARAR A NULIDADE ABSOLUTA DA CITAÇÃO da executada realizada no ind. 262 e, por conseguinte, de todos os atos processuais subsequentes, inclusive a certidão de revelia e os atos de constrição patrimonial, com fulcro nos arts. 239, 248, § 1º, and 280 do CPC.  2. DETERMINAR O IMEDIATO DESBLOQUEIO e levantamento de quaisquer valores constritos via SISBAJUD na conta corrente nº 8126-9, Agência 3935-0, Banco Itaú Unibanco S.A., em razão de sua impenhorabilidade absoluta (art. 833, IV, CPC), devendo o Cartório expedir o respectivo aviso com urgência.  3. CONCEDER O BENEFÍCIO DA GRATUIDADE DE JUSTIÇA em favor da embargante (art. 98, CPC).  4. DETERMINAR A REMESSA dos autos à Contadoria Judicial para que, tomando por base o valor histórico real dos mútuos deduzidos os juros embutidos da Tabela Price de forma linear, apure o real saldo devedor e verifique o excesso de execução, servindo a planilha de balizamento para o prosseguimento regular do feito a partir da citação ora renovada.  5. INTIMAR a exequente ACRUX SECURITIZADORA S.A. para que, no prazo de 15 (quinze) dias, regularize sua legitimidade ativa trazendo aos autos o instrumento de cessão específico ou endosso em preto individualizado das CCBs nº 09151109 e nº 09191020, sob pena de extinção da execução sem julgamento de mérito.  Anote-se a prioridade na tramitação (idoso).   Ante a declaração de nulidade de citação, e tendo a ré intervido validamente no processo, demonstrando plena ciência da existência da presente, devolvo a partir desta, o prazo para embargos monitórios.",
+    "data": "2026-07-28",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessionária"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "massa falida",
+      "falência"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJRJ\\2026-07\\2026-07-28\\matches_2026-07-28.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Houve discussão sobre a legitimidade ativa da securitizadora AcRux, que adquiriu créditos em processo falimentar do Banco Morada, indicando cessão de crédito concursal.",
+        "cedente": "Massa Falida do Banco Morada",
+        "cessionario": "ACRUX SECURITIZADORA S.A.",
+        "valor": null,
+        "classe_credito": "quirografário",
+        "cnj_rj": null,
+        "recuperanda": "Banco Morada",
+        "motivo_classificacao": "Cessão formal de créditos em processo falimentar para securitizadora institucional, com discussão sobre legitimidade ativa no processo concursal.",
+        "descoberto_em": "2026-08-14"
+      }
+    ]
+  },
+  {
+    "id": 679467060,
+    "cnj": "0010261-54.2017.8.19.0024",
+    "classe": "RECUPERAçãO JUDICIAL",
+    "orgao": "Comarca de Itaguaí- Cartório da 2ª Vara Cível",
+    "destinatarios": [
+      "CONSTRUTORA LYTORÂNEA S.A.",
+      "JULIO MATUCH DE CARVALHO"
+    ],
+    "link": null,
+    "texto_completo": "Trata-se de pedido de recuperação judicial, com fundamento nos artigos 47 e seguintes da Lei n.º 11.101/05 da Lei n.º 11.101/05, formulado pela empresa CONSTRUTORA LYTORÂNEA S/A.   Fls. 939. Deferido o processamento da recuperação judicial.   Fls. 7548. Pedido de homologação do Plano de Recuperação Judicial e a concessão da Recuperação Judicial.   Fls. 7551/7554. Juntada de certidões, nos termos do art. 57 da LRF.    Fls. 7931. O Ministério opinou favoravelmente à homologação do Plano de Recuperação Judicial acostado às fls.  1497/1515 e aditivo às fls.  7125/7132, aprovados na Assembleia Geral de Credores, conforme ata acostada às fls. 7135/1742, e concessão da Recuperação Judicial na forma do artigo 58 da Lei 11.101/2005.   Fls. 8300/8304. Renine  de  Fátima  Mattos  Fernandes  requereu  a  intimação  da  recuperanda  para  que  preste  os devidos esclarecimentos, apresentando documentos que comprovem o recebimento dessas obras, previsão de pagamentos;  processos  judiciais  de  cobrança  dos  valores  devidos,  provas  dos  valores  efetivos  a  serem recebidos, bem como como pretende cumprir com o pagamento aos seus credores trabalhistas através dos recebimentos  de  faturas,  acaso  efetivamente  existentes;  a  intimação  do  Administrador  Judicial  para fornecer e exigir do devedor informações concretas e robustas acerca dos referidos contratos, notas e faturas, mais especificamente quanto aos valores e prazos de recebimento envolvidos, bem como para se manifestar quanto às provas que deverão ser efetivamente apresentadas, na forma do art. 22, I, alíneas  b  e  d , da Lei n.º 11.101/05; e a intimação do Ministério Público para manifestação, bem como para que promova as medidas cabíveis.   Fls. 8465. O Parecer ministerial apresentado sintetizou o trâmite processual em compasso com o disposto na Lei 11.101/2005, opinando pela homologação do Plano de Recuperação Judicial.   Fls. 8493/8496. Depósito judicial dos valores penhorados pela Justiça do Trabalho.   Fls. 8502. Manifestação da recuperanda informando que segue buscando o adimplemento de contratos pelas vias cabíveis junto aos órgãos devedores, tendo, inclusive, já diligenciado administrava e judicialmente o seu recebimento.     Fls. 8505. Renine de Fátima Mattos Fernandes requereu a intimação da recuperanda para que preste esclarecimentos, nos termos do requerido às fls. 8300, a intimação do administrador judicial para fornecer e exigir do devedor informações concretas e   robustas acerca dos referidos contratos, notas e faturas, mais especificamente quanto aos valores e prazos de recebimento envolvidos, bem como manifestar-se quanto às provas que deverão ser efetivamente apresentadas, a intimação do Ministério Público, a nulidade do despacho de fls. 8460 por ausência de intimação regular e a habilitação da patronesse  subscritora da presente manifestação.   Fls. 8553. Embargos de declaração opostos pelo Banco do Brasil, alegando que a decisão de fls. 8460 foi omissa quanto a concessão da recuperação judicial à sociedade empresarial requerente.    Fls. 8612. Manifestação da Fazenda Nacional informando que a recuperanda abandonou a negociação de transação individual, tendo o requerimento sido encerrado em 07/05/2025.   Fls. 8635. Opinou o Ministério Público pela intimação da recuperanda para que se manifestasse de forma objetiva e por meio de documentos que comprovassem suas alegações de recebimento de valores referentes a obras a receber, previsão de pagamentos, processos judiciais de cobrança dos valores devidos, provas dos valores efetivos a serem recebidos, bem como a forma como pretendia cumprir com o pagamento aos seus credores trabalhistas e para que juntasse os documentos requeridos pela Fazenda Nacional, pela intimação do administrador judicial para que se manifestasse a respeito do acrescido e para que apresentasse o relatório de atividade da recuperanda do primeiro trimestre de 2025 e quanto ao pedido fls. 8545, requereu fosse certificado sobre a efetiva intimação da advogada da parte credora.   Fls. 8564, 8607, 8642, 8678, 8700, 8707, 8716, 8741, 8756, 8758, 8779, 8808, 9003, 9640, 10198, 10209, 10989, 11015, 11018, 11026, 11307/11353, 11411, 11699. Pedido de habilitação de crédito.   Fls. 8648. Manifestação da recuperanda alegando que o pedido de habilitação fls. 8564, já foi decidido às fls. 8460/8462, quando da decisão de fls. 8460/8462. Requereu o acolhimento dos embargos do Banco do Brasil S/A com a realização de juízo de legalidade sobre o Plano de Recuperação Judicial e aditivo deliberados em AGC, nos termos do artigo 58 da Lei 11.101/2005. Asseverou que a transação tributária junto à união está em andamento.   Fls. 8657. Informou o administrador Judicial que já se manifestou sobre todos os pontos suscitados pela recuperanda, tendo opinado às fls. 8450/8457: (i) pelo desentranhamento da petição de fls. 7964; (ii) pelo indeferimento dos pedidos formulados pelos credores às fls. 8225/8228, 8230 e 8235/8236; (iii) pela expedição de ofício ao r. Juízo da 5ª Vara do Trabalho de Nova Iguaçu - RJ, informando que os valores devem ser transferidos ao Banco do Brasil S/A, agência nº 0729, em conta judicial vinculada a este processo, gerada automaticamente no ato da transferência; e (iv)  pelo acolhimento  dos  pedidos formulados pela recuperanda às fls. 8427/8433, bem como que o juízo já se  manifestou, por meio da r. decisão de fls. 8460/8462, sobre a integralidade das questões mencionadas pela recuperanda na petição de fls. 8435/8439. No que tange aos embargos de declaração opostos pelo Banco do Brasil S/A, entendeu tratar-se de mero inconformismo do embargante com a decisão proferida por este r. Juízo, em plena consonância, com a legislação de regência e sua finalidade primeira. Aduziu que o credor Genilson Soares Espiridião já apresentou requerimento idêntico às fls. 8225/8228, que foi objeto de esclarecimentos apresentados pela administração judicial às fls.  8450/8457 e indeferido por este r. Juízo por meio da r. decisão de fls. 8460/8462. Requereu o desprovimento dos embargos de declaração de fls. 8553/8554, opostos pelo Banco do Brasil S/A. e o desentranhamento do pedido de habilitação de fls. 8450/8457.   Fls. 8663/8676, 8931/8999. Pedido de habilitação de ADGM BANCO SECURITIZADORA DE CRÉDITO S/A em sucessão ao Banco do Brasil S.A. e ALE COMBUSTÍVEIS S/A, em razão da cessão de crédito dos direitos creditórios detidos contra a recuperanda.   Fls. 9626/9637. Requereu o Ministério Público a intimação do administrador judicial para: (i) se manifestar a respeito da cessão de crédito realizada entre o Banco do Brasil S/A e a ADGM Banco Securitizadora de Crédito S/A; (ii) atualizar a lista de credores diante da cessão de todos os direitos creditórios detidos contra a recuperanda pelo credor ALE COMBUSTÍVEIS S/A; e (iii) apresentar os relatórios das atividades da recuperanda no ano de 2025 em autos apartados e a intimação da Fazenda Nacional para se manifestar a respeito dos documentos juntados no id. 8652/8655 pela recuperanda.   Fls. 11391. Informado o pagamento do credor Jair Rodrigues.    Fls. 10395. Informou a recuperanda que firmou Termo de Transação Individual em junto à Procuradoria-Geral da Fazenda Nacional.     Fls. 11400. Requerimento de informações pelo SJT no conflito positivo de competência.   Fls. 11421. Manifestação do administrador judicial acerca do pedido de informações em conflito positivo de competência, asseverando que não há dúvidas da competência deste r. Juízo recuperacional para deliberar acerca de eventuais atos de constrição, levantamento e satisfação do referido crédito, que, em razão da manifesta natureza concursal, está sujeito aos efeitos da presente recuperação judicial e ao regime coletivo de satisfação disciplinado pela Lei nº 11.101/2005, não podendo ser satisfeito no âmbito da Justiça do Trabalho.   Fls. 11426. Prestadas as informações ao STJ.   Fls. 11704. Alegou o administrador judicial que as habilitações e impugnações de crédito, na presente fase processual, devem ser realizadas mediante o ajuizamento de incidente distribuído por dependência a este feito principal, com observância ao disposto no art. 8º e seguintes da Lei 11.101/2005. Requereu o desentranhamento de todos os requerimentos de habilitação ou impugnação de crédito feitos através de protocolo nestes autos principais, tanto os já feitos, quanto os futuros.   Fls. 11712/11713. Juntada de Certidão Positiva com Efeitos de Negativa de Débitos. Requereu a recuperanda a análise das petições de fls. 8021/8028, fls. 8427/8430, fls. 8435/8439, fls. 8648/8655 e fls. 10395/10416, para a homologação do Plano de Recuperação Judicial e concessão da Recuperação Judicial da Lytorânea, na forma do art. 58 da Lei 11.101/05.     Fls. 11720. O administrador judicial, diante do parecer favorável do Ministério Público e da juntada da Certidão Positiva com Efeitos de Negativa de fls. 11.713, emitida pela Procuradoria Geral da Fazenda Nacional, se manifestou pela aprovação do Plano de Recuperação Judicial de fls. 1.497-1.515 e de seu Aditivo de fls. 7.125-7.132 em assembleia geral de credores e o devido cumprimento da obrigação prevista no art.  57 da LRF pela recuperanda, e concessão da recuperação judicial, na forma do art. 58 da Lei 11.101/2005.   É o relatório. Fundamento e decido.   A Recuperação Judicial tem por objetivo viabilizar a superação da situação de crise econômico-financeira do devedor, a fim de permitir a manutenção da fonte produtora, do emprego dos trabalhadores e dos interesses dos credores, promovendo assim a preservação da empresa, sua função social e o estímulo à atividade econômica - art. 47 da Lei 11.101/2005.   Para a concessão da Recuperação Judicial, exige-se o cumprimento dos requisitos dos arts. 51, 53 e 57 da LRF.   No caso, o Plano de Recuperação Judicial e seu aditivo foram aprovados em Assembleia Geral de Credores, conforme ata de fls. 7135/7142, não tendo havido objeções capazes de impedir sua homologação.   Foram juntadas as certidões de regularidade fiscal exigidas pelo art. 57 da LRF, inclusive Certidão Positiva com Efeitos de Negativa de Débitos Federais às fls. 11712/11713, suprindo-se assim o requisito legal.   Quanto aos esclarecimentos requeridos pela credora Renine de Fátima Mattos Fernandes às fls. 8300/8304 e 8505, as informações requeridas constam dos relatórios da administração judicial. Ademais, a objeção ao plano de recuperação judicial já fora indeferida em razão da sua intempestividade. No que concerne a falta de intimação da sua patronesse, foi indeferida a sua habilitação na decisão de fls. 8461/8462.   Em relação aos embargos de declaração opostos pelo Banco do Brasil S/A às fls. 8553, não verifico omissão na decisão de fls. 8460/8462. A matéria relativa à homologação do Plano e concessão da Recuperação Judicial encontrava-se pendente de análise conjunta com a juntada das certidões do art. 57 da LRF e manifestação do Ministério Público, o que ora se faz.    No que tange aos pedidos de habilitação e impugnação de crédito protocolados nestes autos, tais incidentes devem ser distribuídos por dependência, nos termos do art. 8º e seguintes da Lei 11.101/2005 e as habilitações e impugnações já deferidas deverão aguardar a homologação do Plano de Recuperação Judicial e o início dos pagamentos.    Em respeito às cessões de crédito informadas às fls. 8663/8676 e 8931/8999, caberá ao administrador judicial atualizar a lista de credores, nos termos do art. 22, I,  f , da LRF.   O Ministério Público e o administrador judicial, após análise do Plano de Recuperação Judicial e do aditivo, opinaram expressamente pela homologação e concessão da Recuperação Judicial, não tendo apontado qualquer ilegalidade ou abusividade nas cláusulas.   Diante do exposto:   Recebo os embargos de declaração de fls. 8553 e NEGO-LHES provimento.   HOMOLOGO O PLANO DE RECUPERAÇÃO JUDICIAL de fls. 1497/1515 e seu aditivo de fls. 7125/7132, aprovado na Assembleia Geral de Credores de fls. 7135/7142, CONCEDO A RECUPERAÇÃO JUDICIAL à sociedade empresária CONSTRUTORA LYTORÂNEA S/A em Recuperação Judicial, CNPJ. 07.792.269/0001-05, com fundamento nos arts. 58 e 61 da Lei nº 11.101/2005, para que produza seus efeitos jurídicos e legais.  Ausente apontamentos pela administração judicial, pela recuperanda e pelo Ministério Público quanto à eventual irregularidade nas cessões de crédito noticiadas às fls. 8663/8676, 8931/8999, defiro a sucessão processual de ADGM BANCO SECURITIZADORA DE CRÉDITO S/A, a qual passa a titularizar o crédito referente às sociedades empresárias Banco do Brasil S/A. e ALE COMBUSTÍVEIS S/A.   Passo ainda a determinar o que segue:   a) o prazo de carência iniciará com a publicação da presente decisão, devendo o Plano de Recuperação Judicial ser cumprido independentemente do trânsito em julgado;   b) ao administrador judicial deve atualizar a lista de credores em razão das cessões de crédito noticiadas; apresentar, por meio de incidente processual, os relatórios mensais de atividades das devedoras e o relatório de acompanhamento do cumprimento do Plano de Recuperação Judicial e fiscalizar o cumprimento do Termo de Transação com a PGFN;   c) os pagamentos previstos no plano de pagamento deverão ser efetivados diretamente aos credores pela recuperanda, com prestação de contas ao administrador judicial, que informará ao Juízo, conforme disposto no art. 22, II,  a  da Lei 11.101/05, não devendo ser efetivados depósitos judiciais nos autos, visto que ausente previsão legal para tanto;   d) o quadro geral de credores, após consolidado, deve ser publicado;   e) com a presente decisão, consigno que não mais serão admitidas habilitações de créditos e/ou impugnações, sendo que, para eventuais alterações ao quadro de credores, deverá ser observado o procedimento ordinário, conforme disposto nos arts. 10, § 6º e 19, ambos da Lei 11.101/05; a este comando exceptuam-se as habilitações de caráter trabalhistas que poderão continuar a ser recebidas pelo Administrador de forma administrativa a qualquer tempo;   f) delego ao Responsável pelo expediente que proceda à assinatura de eventuais documentos que se fizerem necessários expedir para o cumprimento das decisões;   g) determino o desentranhamento de todos os pedidos de habilitação e impugnação de crédito protocolados nestes autos, devendo os interessados, ser for o caso, distribui-los por dependência, nos termos do art. 8º da LRF;   h) encerrado o prazo de suspensão previsto no art. 6º, §4º, da LRF, ficam os credores e a recuperanda sujeitos ao Plano homologado e a todas as obrigações nele contidas, a partir desta data, nos termos do art. 59 da LRF;   i) expeça-se mandado de pagamento dos valores depositados em conta vinculada aos autos em favor da recuperanda, em conta a ser informada por ela;   O devedor permanecerá em recuperação judicial até que se cumpram todas as obrigações previstas no plano que se vencerem até 2 (dois) anos depois da concessão da recuperação judicial, conforme determina o art. 61, caput, da Lei nº 11.101/2005.    Transitada em julgado, durante o período de 2 anos previsto no art. 61 da Lei 11.101/2005, os autos permanecerão em cartório para fiscalização do cumprimento do plano.   Publique-se, dê-se ciência pessoal ao MP e demais órgãos com a mesma prerrogativa.   Intimem-se e cumpra-se.",
+    "data": "2026-07-27",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessão de crédito"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "recuperação judicial",
+      "quadro geral de credores",
+      "administrador judicial",
+      "plano de recuperação judicial",
+      "assembleia geral de credores",
+      "recuperanda",
+      "habilitação de crédito",
+      "lei 11.101",
+      "lei nº 11.101",
+      "em recuperação judicial"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJRJ\\2026-07\\2026-07-27\\matches_2026-07-27.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Habilitação de crédito e cessão de direitos creditórios da recuperanda entre Banco do Brasil S.A. e ADGM Banco Securitizadora de Crédito S/A, em processo de recuperação judicial.",
+        "cedente": "Banco do Brasil S.A.",
+        "cessionario": "ADGM Banco Securitizadora de Crédito S/A",
+        "valor": null,
+        "classe_credito": "outro",
+        "cnj_rj": null,
+        "recuperanda": "CONSTRUTORA LYTORÂNEA S/A",
+        "motivo_classificacao": "Cessão de crédito em processo de recuperação judicial com cessionário institucional (securitizadora) e habilitação formal no processo.",
+        "descoberto_em": "2026-08-14"
+      }
+    ]
+  },
+  {
+    "id": 679604272,
+    "cnj": "0317476-43.2018.8.19.0001",
+    "classe": "CARTA PRECATóRIA CíVEL",
+    "orgao": "Comarca da Capital- Cartório da 3ª Vara Empresarial",
+    "destinatarios": [
+      "ESTRUTURAL LOGISTICA INTEGRADA LTDA",
+      "CLEVERSON DE LIMA NEVES",
+      "SCHULZ BC EQUIPAMENTOS E ACESSORIOS TUBULARES LTDA"
+    ],
+    "link": null,
+    "texto_completo": "1-ID 1735- As recuperandas opuseram EMBARGOS DE DECLARAÇÃO da decisão de ID 1731, ao argumento de omissão. Alega que  a decisão  de ID 910,  determinou a penhora de bens que compõe a UPI das Recuperandas, que já foi inclusive alienada, sagrando-se vencedora a EBSE, única a apresentar proposta de aquisição da UPI, englobando os bens objetos desta demanda.     2-ID 1778- A EBSE ENGENHARIA DE SOLUÇÕES S.A. na qualidade de cessionária da ESTRUTURAL requer a substituição processual e sua habilitação nos autos.     3-A EBSE (ID 1844) apresentou contrarrazões aos embargos de declaração pelo seu não conhecimento por não se enquadram nas hipóteses legais dos embargos de declaração e visarem apenas rediscutir matéria já definitivamente decidida.    4-ID 1842- Anote-se onde couber a renúncia.        DETERMINO:      (I)Certifique o cartório se as Recuperandas estão devidamente representadas nestes autos.     (II) Às Recuperandas quanto ao item 2.    (III) Após, à AJ e, por último,  ao MP.",
+    "data": "2026-07-27",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessionária"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "recuperanda"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJRJ\\2026-07\\2026-07-27\\matches_2026-07-27.json",
+    "relevancia_btg": "baixa",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "media",
+        "resumo": "EBSE Engenharia de Soluções S.A. requereu substituição processual como cessionária da Estrutural em processo de recuperação judicial.",
+        "cedente": "Estrutural",
+        "cessionario": "EBSE Engenharia de Soluções S.A.",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "Estrutural",
+        "motivo_classificacao": "Substituição processual por cessionário institucional em processo de recuperação judicial indica cessão de crédito concursal.",
+        "descoberto_em": "2026-08-14"
+      }
+    ]
   }
 ]

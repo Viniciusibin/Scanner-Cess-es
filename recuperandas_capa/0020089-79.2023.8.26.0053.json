@@ -1,0 +1,18 @@
+{
+  "cnj": "0020089-79.2023.8.26.0053",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "NELSON CHIAVONE X CBPM - CAIXA BENEFICENTE DA POLICIA MILITAR",
+  "polos": {
+    "ATIVO": [
+      "NELSON CHIAVONE"
+    ],
+    "PASSIVO": [
+      "CBPM - CAIXA BENEFICENTE DA POLICIA MILITAR"
+    ]
+  },
+  "classe": "Precatório",
+  "tribunal": "TJSP"
+}

@@ -1,0 +1,22 @@
+{
+  "cnj": "2392213-44.2025.8.26.0000",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "COMPLETA CONSULTORIA EM ENERGIA LTDA X MONTE CABRAL DISTRIBUIDORA DE COMBUSTIVEIS LTDA. e outros (1) X AUTO POSTO HARMONIA DE ARARAQUARA LTDA.",
+  "polos": {
+    "ATIVO": [
+      "COMPLETA CONSULTORIA EM ENERGIA LTDA"
+    ],
+    "TERCEIRO": [
+      "MONTE CABRAL DISTRIBUIDORA DE COMBUSTIVEIS LTDA.",
+      "AUTO POSTO TREVO DE ARARAQUARA LTDA"
+    ],
+    "PASSIVO": [
+      "AUTO POSTO HARMONIA DE ARARAQUARA LTDA."
+    ]
+  },
+  "classe": "Agravo de Instrumento",
+  "tribunal": "TJSP"
+}

@@ -1,0 +1,18 @@
+{
+  "cnj": "0031622-65.2005.8.26.0053",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "VITOR VILELA REIS X IPESP - INSTITUTO DE PREVIDENCIA DO ESTADO DE SAO PAULO",
+  "polos": {
+    "ATIVO": [
+      "VITOR VILELA REIS"
+    ],
+    "PASSIVO": [
+      "IPESP - INSTITUTO DE PREVIDENCIA DO ESTADO DE SAO PAULO"
+    ]
+  },
+  "classe": "Requisição de Pequeno Valor",
+  "tribunal": "TJSP"
+}

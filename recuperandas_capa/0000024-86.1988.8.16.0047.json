@@ -1,0 +1,31 @@
+{
+  "cnj": "0000024-86.1988.8.16.0047",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "GERALDO SUZUKI e outros (6) X DEPARTAMENTO DE ESTRADAS DE RODAGEM DO ESTADO DO PARANA - DER X LEAO DIESEL LTDA e outros (4)",
+  "polos": {
+    "ATIVO": [
+      "GERALDO SUZUKI",
+      "JOAO RODRIGUES",
+      "ERONDINA RODRIGUES ANTAL",
+      "TAKENORI NAKAGAWA",
+      "DORACI BERNARDO RODRIGUES",
+      "ANDRE ANTAL",
+      "ANEZIA TOMIKO NAKAGAWA"
+    ],
+    "PASSIVO": [
+      "DEPARTAMENTO DE ESTRADAS DE RODAGEM DO ESTADO DO PARANA - DER"
+    ],
+    "TERCEIRO": [
+      "LEAO DIESEL LTDA",
+      "DROGARIA PAVAREL LTDA",
+      "MARCELO PITTNER",
+      "DROGARIA MASSAROTTO LTDA - ME",
+      "ESTADO DO PARANA"
+    ]
+  },
+  "classe": "Cumprimento de sentença",
+  "tribunal": "TJPR"
+}

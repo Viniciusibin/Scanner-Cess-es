@@ -1154,9 +1154,10 @@
         "valor": "R$ 2.489,08",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "ASA RECUPERA SERVICOS DE COBRANCA LTDA",
         "motivo_classificacao": "O texto descreve claramente um contrato de cessão de crédito com pagamento à vista, caracterizando substituição de credor e aquisição de crédito extrajudicial, confirmando cessão real.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -1407,9 +1408,10 @@
         "valor": "R$ 554.287,49",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "FSA ASSESSORIA EMPRESARIAL LTDA",
         "motivo_classificacao": "O texto descreve claramente a cessão de direitos creditórios e a habilitação do cessionário no polo ativo do processo, configurando uma cessão de crédito válida e formalmente reconhecida judicialmente.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "alta"
@@ -1731,9 +1733,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "MARIA DA CONCEICAO DE JESUS SANTOS",
         "motivo_classificacao": "O texto menciona expressamente a juntada de cessão de crédito e a alteração do polo ativo, caracterizando uma cessão de crédito real no processo.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -1775,9 +1778,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "LUIZ GONZAGA AMORA DE MENEZES",
         "motivo_classificacao": "A cessão refere-se à sucessão processual e transferência de direitos contratuais relacionados ao imóvel em litígio, configurando cessão de crédito/direitos dentro do processo.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -1876,9 +1880,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": "8001113-46.2024.8.05.0081",
-        "recuperanda": null,
+        "recuperanda": "L C PARTICIPACOES LTDA.",
         "motivo_classificacao": "Decisão determina substituição processual para cessionários, caracterizando cessão de crédito no contexto da execução de título extrajudicial.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -2102,9 +2107,10 @@
         "valor": "R$ 66.610,67",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "BANCO DO BRASI8L S/A",
         "motivo_classificacao": "O texto relata expressamente a cessão de crédito decorrente de contrato securitizado, com pedido formal de habilitação do crédito pela União no processo.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "alta"
@@ -2149,9 +2155,10 @@
         "valor": null,
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "BANCO DO BRASIL S/A",
         "motivo_classificacao": "Pedido de sucessão processual no polo ativo pela cessionária indica cessão de crédito real.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "alta"
@@ -2608,9 +2615,10 @@
         "valor": "R$ 14.149,73",
         "classe_credito": null,
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "BANCO DO BRASIL S/A.",
         "motivo_classificacao": "O texto relata expressamente a cessão do crédito objeto da demanda para a empresa Ativos S.A., com atualização do débito e habilitação do crédito no processo, caracterizando cessão de crédito real.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "alta"
@@ -2779,9 +2787,10 @@
         "valor": "R$ 158.989,05",
         "classe_credito": "crédito trabalhista",
         "cnj_rj": null,
-        "recuperanda": null,
+        "recuperanda": "CLAUDIONOR TEIXEIRA",
         "motivo_classificacao": "O texto trata explicitamente da cessão de crédito trabalhista e da substituição processual do exequente, confirmando que a cessão não altera a natureza do crédito nem a competência da Justiça do Trabalho.",
-        "descoberto_em": "2026-07-13"
+        "descoberto_em": "2026-07-13",
+        "recuperanda_fonte": "capa_pdpj"
       }
     ],
     "relevancia_btg": "baixa"
@@ -2873,5 +2882,802 @@
       }
     ],
     "relevancia_btg": "alta"
+  },
+  {
+    "id": 667131299,
+    "cnj": "8193604-29.2024.8.05.0001",
+    "classe": "EXECUçãO DE TíTULO EXTRAJUDICIAL",
+    "orgao": "4ª V CÍVEL E COMERCIAL DE SALVADOR",
+    "destinatarios": [
+      "BRUNO HENRIQUE DE OLIVEIRA VANDERLEI REGISTRADO(A) CIVILMENTE COMO BRUNO HENRIQUE DE OLIVEIRA VANDERLEI",
+      "ITAU UNIBANCO S.A.",
+      "PAULO ROBERTO JOAQUIM DOS REIS",
+      "GUSTAVO LISBOA PAIXAO",
+      "INDUSTRIA BRASCOCO DE ALIMENTOS LTDA",
+      "MARCUS VINICIUS ALCANTARA KALIL",
+      "MAX FOMENTO MERCANTIL LTDA",
+      "TAIS RIBEIRO GALVAO DE MORAES"
+    ],
+    "link": "https://pje.tjba.jus.br/pje/Processo/ConsultaDocumento/listView.seam?x=26071313024259600000540896897",
+    "texto_completo": "   PODER JUDICIÁRIO DO ESTADO DA BAHIA Comarca de Salvador4ª Vara CívelRua do Tingui, s/n, - Fórum Ruy Barbosa - 1º andar - CEP: 40.040-380Campo da Pólvora - Salvador/BA               D E C I S Ã O       Processo nº: 8193604-29.2024.8.05.0001   Classe - Assunto: EXECUÇÃO DE TÍTULO EXTRAJUDICIAL (12154)   Requerente EXEQUENTE: ITAU UNIBANCO S.A.    Requerido(a)  EXECUTADO: INDUSTRIA BRASCOCO DE ALIMENTOS LTDA, GUSTAVO LISBOA PAIXAO, MAX FOMENTO MERCANTIL LTDA       1. RELATÓRIO Trata-se de ação de execução de título extrajudicial proposta originalmente por Itaú Unibanco S.A. em face de Indústria Brascoco de Alimentos Ltda. e Gustavo Lisboa Paixão, fundada em Cédula de Crédito Bancário emitida em 08/02/2024, no valor de R$ 1.300.000,00 (ID 479223331).     O exequente apontou como saldo devedor atualizado o montante de R$ 967.092,93 (ID 479223331).    Na petição inicial, o banco requereu, de forma cumulada, a desconsideração da personalidade jurídica da devedora principal para inclusão e responsabilização solidária da empresa Max Crédito Empresa Simples de Crédito Ltda. (ID 479223331).  A decisão de ID 479597730 indeferiu o pedido de arresto cautelar e determinou a alteração dos registros processuais para inclusão da empresa Max Crédito Empresa Simples de Crédito Ltda. no polo passivo, ordenando a sua citação para responder ao pedido de desconsideração da personalidade jurídica, bem como a citação dos executados originais para pagamento da dívida (ID 479597730).  A cessionária MM Gestão de Créditos Ltda. peticionou nos autos informando a celebração de termo de cessão de direitos de crédito com o banco exequente, requerendo a sua sucessão processual no polo ativo da demanda (ID 513010899).  O pedido foi instruído com o respectivo Termo de Cessão de Crédito (ID 513010900).  A devedora principal, Indústria Brascoco de Alimentos Ltda., opôs Exceção de Pré-Executividade alegando, preliminarmente, a incompetência absoluta deste juízo cível em razão do deferimento do processamento de sua recuperação judicial (processo nº 8154317-59.2024.8.05.0001, em trâmite na 2ª Vara Empresarial de Salvador) e a consequente necessidade de suspensão da execução por força do stay period (ID 500697151).   Sustentou, ainda, a inépcia da petição inicial por cumulação indevida do pedido de desconsideração da personalidade jurídica no bojo da ação executiva (ID 500697151).  A empresa Max Crédito Empresa Simples de Crédito Ltda. apresentou contestação ao pedido de desconsideração da personalidade jurídica, arguindo a inexistência de grupo econômico familiar, a ausência de confusão patrimonial e de desvio de finalidade, bem como a regularidade de suas operações e a autonomia societária (ID 500454160).   O exequente apresentou réplica defendendo a adequação do pedido de desconsideração formulado na inicial e a caracterização do grupo econômico familiar Lisboa Paixão, marcado por intensa confusão patrimonial e desvio de finalidade (ID 506085259).  Apresentou também impugnação à exceção de pré-executividade, sustentando a inadequação da via eleita e a possibilidade de prosseguimento da execução em face do devedor solidário (ID 506080553).  Intimadas as partes para especificarem as provas que pretendiam produzir (ID 509653947), o exequente (ID 512804572), a Brascoco (ID 513116887) e a Max Crédito (ID 513098162) informaram que não tinham outras provas a produzir, pugnando pelo julgamento antecipado da lide.    A certidão de ID 565982025 atestou a inexistência de custas pendentes de recolhimento (ID 565982025).  Os autos vieram conclusos para decisão. 2. FUNDAMENTAÇÃO Os incidentes e pedidos pendentes de apreciação serão analisados de forma compartimentada para melhor ordenação processual. 2.1. Da Sucessão Processual O pedido de sucessão processual formulado pela empresa MM Gestão de Créditos Ltda. (ID 513010899) encontra amparo no ordenamento processual civil.  De fato, a cessão de crédito restou devidamente comprovada por meio do Termo de Cessão de Crédito acostado aos autos (ID 513010900), assinado eletronicamente pelas partes e por testemunhas instrumentárias (ID 513010900).  Nos termos do art. 778, § 1º, inciso III, do Código de Processo Civil, o cessionário pode promover a execução forçada ou nela prosseguir em sucessão ao exequente originário quando o direito resultante do título executivo lhe for transferido por ato entre vivos. Ademais, o § 2º do mesmo dispositivo legal estabelece expressamente que a sucessão do cessionário independe do consentimento do executado,  afastando a regra geral do processo de conhecimento contida no art. 109, § 1º, do Código de Processo Civil.  Dessa forma, a regularidade da cessão do crédito representado pela Cédula de Crédito Bancária autoriza a imediata sucessão processual no polo ativo da presente execução, devendo figurar como exequente a cessionária MM Gestão de Créditos Ltda. 2.2. Da Exceção de Pré-Executividade (Competência e Efeitos da Recuperação Judicial) A devedora principal, Indústria Brascoco de Alimentos Ltda., sustenta a incompetência absoluta deste juízo cível e a necessidade de extinção ou suspensão da execução, em razão do deferimento do processamento de sua recuperação judicial (ID 500697151).   O exame dos autos revela que o processamento da recuperação judicial da Brascoco foi deferido em 26/11/2024 pelo Juízo da 2ª Vara Empresarial de Salvador (ID 500697153).  A Cédula de Crédito Bancária que embasa a presente execução foi emitida em 08/02/2024 (ID 479226439), data anterior à distribuição do pedido recuperacional, ocorrida em 22/10/2024 (ID 500697153).   De acordo com o art. 49, caput, da Lei nº 11.101/2005, sujeitam-se à recuperação judicial todos os créditos existentes na data do pedido, ainda que não vencidos.  Sendo o fato gerador do crédito exequendo anterior ao pedido de soerguimento, o débito possui natureza nitidamente concursal, devendo submeter-se aos efeitos do plano de recuperação judicial da devedora principal. Por conseguinte, incide na espécie a regra de suspensão contida no art. 6º, inciso II, da Lei nº 11.101/2005, que determina a suspensão das execuções ajuizadas contra o devedor relativas a créditos sujeitos à recuperação judicial. Essa suspensão, conforme o § 4º do mesmo artigo, perdura pelo prazo de 180 (cento e oitenta) dias contado do deferimento do processamento, prorrogável por igual período.  Ocorre que a suspensão da execução e a proibição de atos constritivos aplicam-se exclusivamente à devedora principal em recuperação judicial. O art. 49, § 1º, da Lei nº 11.101/2005 é categórico ao dispor que os credores do devedor em recuperação judicial conservam seus direitos e privilégios contra os coobrigados, fiadores e obrigados de regresso.  A obrigação do avalista e devedor solidário possui natureza autônoma e solidária, não sendo afetada pelo deferimento da recuperação judicial ou pela novação das obrigações da devedora principal. Portanto, a presente execução deve ser suspensa apenas em relação à executada Indústria Brascoco de Alimentos Ltda., devendo prosseguir regularmente em relação ao executado solidário Gustavo Lisboa Paixão e em relação à empresa que vier a ser integrada ao polo passivo por força da desconsideração da personalidade jurídica. Por fim, afasta-se a preliminar de inépcia da petição inicial por cumulação de pedidos. O art. 134, § 2º, do Código de Processo Civil autoriza expressamente a dispensa da instauração do incidente autônomo se a desconsideração da personalidade jurídica for requerida diretamente na petição inicial, hipótese em que o sócio ou a pessoa jurídica será citado para integrar a lide.  Não há, portanto, nenhuma incompatibilidade de ritos ou inépcia a ser declarada, uma vez que o próprio legislador previu essa modalidade de cumulação objetiva para prestigiar a celeridade e a economia processual. Acolhe-se, assim, apenas em parte a exceção de pré-executividade para determinar a suspensão do feito unicamente em relação à devedora principal Indústria Brascoco de Alimentos Ltda. 2.3. Do Pedido de Desconsideração da Personalidade Jurídica O exequente postula a desconsideração da personalidade jurídica da devedora principal para alcançar e responsabilizar solidariamente a empresa Max Crédito Empresa Simples de Crédito Ltda. (ID 479223331).  O art. 50 do Código Civil adota a teoria maior da desconsideração da personalidade jurídica, exigindo, para a extensão das obrigações a sócios ou a outras empresas, a caracterização do abuso da personalidade jurídica, revelado pelo desvio de finalidade ou pela confusão patrimonial.  O § 4º do art. 50 do Código Civil adverte que a mera existência de grupo econômico sem a presença dos requisitos do caput não autoriza a desconsideração da autonomia patrimonial.  Todavia, a análise minuciosa das provas constantes dos autos demonstra que, além da estreita relação societária e familiar, restaram caracterizados de forma inequívoca o desvio de finalidade e a confusão patrimonial entre as empresas. No que tange à estrutura das sociedades, a consulta ao Cadastro Nacional da Pessoa Jurídica e ao Quadro de Sócios e Administradores revela que a devedora principal, Indústria Brascoco de Alimentos Ltda., e a interveniente passiva, Max Crédito Empresa Simples de Crédito Ltda., possuem o mesmo sócio-administrador, Gustavo Lisboa Paixão, que detém o controle de ambas as empresas (ID 479226445).  Ademais, as empresas compartilham o mesmo imóvel físico, situado na Rua da Etiópia, nº 10, bairro Granjas Rurais Presidente Vargas, em Salvador, ocupando os galpões vizinhos de números 3 e 4 (ID 479226445).  A estreita ligação familiar e a administração centralizada e sobreposta são confirmadas pelas procurações públicas outorgadas entre os irmãos Gustavo, Rogério e Dário Lisboa Paixão. A Brascoco outorgou procuração pública com poderes amplos e ilimitados de gestão e representação bancária a Dário Lisboa Paixão (ID 506080556).  De igual modo, a Max Crédito (sob a antiga denominação de Max Fomento Mercantil) outorgou procuração com idênticos poderes de movimentação financeira a Dário Lisboa Paixão (ID 506080557).  Há, ainda, procurações cruzadas entre Gustavo e Rogério Lisboa Paixão para administração de bens e resgate de ativos (ID 506080555)  (ID 506085259).  Embora a contestante alegue que tais procurações decorreram de problemas de saúde de Gustavo no ano de 2020 (ID 500454160),  o exame dos documentos revela que os mandatos outorgados a Dário Lisboa Paixão foram lavrados com prazo de validade indeterminado (ID 506080556)  (ID 506080557), mantendo-se ativos e eficazes, o que demonstra uma estrutura de gestão compartilhada e familiar permanente.  Para além da identidade de sócio, endereço e gestão, a confusão patrimonial resta materializada pelas vultosas e constantes transferências financeiras cruzadas entre as duas empresas, sem nenhuma justificativa operacional ou contratual idônea. Os extratos bancários da conta corrente da Brascoco (ID 479226447) revelam a realização de inúmeras transferências eletrônicas e movimentações de elevados valores em favor da Max Crédito (identificada nos extratos como Max Fomento/Max Factoring).  A alegação da contestante de que tais repasses consistiam em operações de mútuo financeiro regular (ID 500454160)  não veio acompanhada de qualquer lastro documental, como contratos de mútuo formalizados com taxas de mercado, garantias ou escrituração contábil recíproca que justificasse a regularidade desses fluxos. A transferência de vultosos ativos financeiros sem a devida contraprestação ou justificativa jurídica idônea caracteriza a hipótese de confusão patrimonial prevista no art. 50, § 2º, inciso II, do Código Civil, evidenciando a inexistência de separação de fato entre os patrimônios das duas sociedades.  O desvio de finalidade também se mostra configurado. A utilização da Max Crédito (empresa simples de crédito) como conta de passagem e escoamento de recursos da Brascoco serviu para desviar ativos da devedora principal na iminência de sua insolvência, esvaziando o seu caixa em prejuízo dos credores da indústria alimentícia, conduta que amolda-se perfeitamente ao art. 50, § 1º, do Código Civil.  A autonomia patrimonial da pessoa jurídica é um benefício legal destinado a proteger a atividade econômica lícita, não podendo ser utilizada como escudo para ocultação de bens ou blindagem patrimonial fraudulenta em prejuízo de credores de boa-fé. Preenchidos os requisitos legais do art. 50, §§ 1º e 2º, do Código Civil,  impõe-se o acolhimento do pedido de desconsideração da personalidade jurídica para estender os efeitos das obrigações decorrentes da presente execução à empresa Max Crédito Empresa Simples de Crédito Ltda., que passará a responder solidariamente pelo débito exequendo. 3. DISPOSITIVO Ante o exposto, resolvo as questões pendentes adotando as seguintes providências: a) defiro o pedido de sucessão processual formulado pela cessionária (ID 513010899), determinando a alteração do polo ativo da presente execução para que passe a constar a empresa MM Gestão de Créditos Ltda., devidamente qualificada nos autos, em sucessão ao exequente originário, nos termos do art. 778, § 1º, inciso III, e § 2º, do Código de Processo Civil;   b) acolho em parte a Exceção de Pré-Executividade oposta por Indústria Brascoco de Alimentos Ltda. (ID 500697151) tão somente para determinar a suspensão do curso da presente execução unicamente em relação a ela, devedora principal em recuperação judicial, nos termos do art. 6º, inciso II, da Lei nº 11.101/2005;   c) determino o regular prosseguimento da execução em relação ao executado solidário Gustavo Lisboa Paixão, por força do art. 49, § 1º, da Lei nº 11.101/2005;  d) acolho o pedido de desconsideração da personalidade jurídica formulado na petição inicial para incluir no polo passivo da presente execução a empresa Max Crédito Empresa Simples de Crédito Ltda. (CNPJ 18.900.107/0001-51), declarando a sua responsabilidade solidária pelo adimplemento do débito exequendo, nos termos do art. 50, §§ 1º e 2º, do Código Civil;   e) determino o prosseguimento dos atos executivos em face dos executados Gustavo Lisboa Paixão e Max Crédito Empresa Simples de Crédito Ltda., devendo a Secretaria Judiciária proceder à imediata retificação do polo passivo no sistema processual; f) intime-se a exequente MM Gestão de Créditos Ltda. para, no prazo de 5 (cinco) dias, apresentar demonstrativo atualizado do débito e indicar bens dos executados Gustavo Lisboa Paixão e Max Crédito Empresa Simples de Crédito Ltda. passíveis de penhora.  Publique-se e intimem-se.  Salvador(BA), 13 de julho de 2026.           GEORGE JAMES COSTA VIEIRAJuiz de Direito Titular da 4ª Vara Cível da Comarca de Salvador ",
+    "data": "2026-07-14",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessão de crédito",
+      "cessionário",
+      "cessionária"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "recuperação judicial",
+      "plano de recuperação judicial",
+      "stay period",
+      "lei nº 11.101",
+      "em recuperação judicial"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJBA\\2026-07\\2026-07-14\\matches_2026-07-14.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Cessão de crédito bancário em processo de execução com sucessão processual reconhecida, envolvendo empresa em recuperação judicial.",
+        "cedente": "ITAU UNIBANCO S.A.",
+        "cessionario": "MM Gestão de Créditos Ltda.",
+        "valor": "R$ 1.300.000,00",
+        "classe_credito": "quirografário",
+        "cnj_rj": "8154317-59.2024.8.05.0001",
+        "recuperanda": "Indústria Brascoco de Alimentos Ltda.",
+        "motivo_classificacao": "Cessão de crédito bancário com sucessão processual em execução contra empresa em recuperação judicial, crédito anterior ao pedido, natureza concursal, cessionário institucional.",
+        "descoberto_em": "2026-07-16"
+      }
+    ]
+  },
+  {
+    "id": 675876843,
+    "cnj": "0507091-29.2017.8.05.0146",
+    "classe": "APELAçãO CíVEL",
+    "orgao": "Des. Rilton Goes Ribeiro",
+    "destinatarios": [
+      "CAMPELO INDUSTRIA E COMERCIO LTDA.",
+      "FONSECA, CERQUEIRA E TEIXEIRA ADVOGADOS ASSOCIADOS - EPP",
+      "HERNANI LOPES DE SA NETO",
+      "MATHEUS DE CERQUEIRA Y COSTA",
+      "RAFAEL COLAVOLPE BRITTO SOUZA",
+      "RODRIGO BORGES VAZ DA SILVA",
+      "DIOGO ASSUMPCAO REZENDE DE ALMEIDA",
+      "FERNANDA MEDINA PANTOJA",
+      "GABRIEL FERNANDES MEIRELES DUTRA",
+      "LEONARDO MENDES CRUZ",
+      "MANUELA SAMPAIO SARMENTO E SILVA",
+      "THIAGO SILVA UCHOA",
+      "YURI ATHAYDE DA COSTA NASCIMENTO",
+      "ADAUTA VALGUEIRO DINIZ",
+      "ALESSANDRA MIYO UEHARA",
+      "ANA CATARINA ALENCAR CAMARA SIMOES",
+      "BANCO DO BRASIL S/A",
+      "BANCO DO NORDESTE DO BRASIL SA",
+      "BANCO SANTANDER (BRASIL) S.A.",
+      "BANCO VOTORANTIM S.A.",
+      "BRASIL SPECIAL SITUATIONS I FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS",
+      "CARLOS AUGUSTO TORTORO JUNIOR",
+      "CATARINA MARIA PEREIRA DE ANDRADE",
+      "CELSO UMBERTO LUCHESI",
+      "CHINA CONSTRUCTION BANK (BRASIL) BANCO MULTIPLO S/A",
+      "CLARIANT BRASIL LTDA.",
+      "CLAUDINE DE ALMEIDA SILVA",
+      "COPENOR COMPANHIA PETROQUIMICA DO NORDESTE",
+      "CRISTINA ROCHA TROCOLI",
+      "DANIELA NALIO SIGLIANO NICO",
+      "DANIELLE PATRICIA BEZERRA DE SOUZA",
+      "DESENBAHIA-AGENCIA DE FOMENTO DO ESTADO DA BAHIA S/A",
+      "EDILBERTO FERRAZ BENJAMIN",
+      "EDUARDO JOSE FERNANDES DOS SANTOS REGISTRADO(A) CIVILMENTE COMO EDUARDO JOSE FERNANDES DOS SANTOS",
+      "ERIVALDO OLIVEIRA LIMA JUNIOR",
+      "EVERALDO GONCALVES DA SILVA",
+      "FABRICIO BIZERRA DE AMORIM",
+      "FELIPE ZORZAN ALVES",
+      "FENIX GESTAO DE BENS E SERVICOS",
+      "GR SERVICOS E ALIMENTACAO LTDA.",
+      "GUSTAVO GERBASI GOMES DIAS",
+      "ITAU UNIBANCO S.A.",
+      "IVONE MARIA DOS SANTOS PINTO",
+      "JARVIS CLAY COSTA RODRIGUES",
+      "JBS S/A",
+      "LEANDRO REIS BENJAMIN",
+      "MANOEL ALVES DE SOUZA NETO",
+      "MARCOS MENDO DE MENDONCA",
+      "MARCUS BOREL SILVA MOREIRA",
+      "MARIA DO SOCORRO MARTINS SARAIVA",
+      "MARINA CARIBE CAVALCANTI DANTAS",
+      "MINISTERIO PUBLICO DO ESTADO DA BAHIA",
+      "MK QUIMICA DO BRASIL LTDA",
+      "MONTBLANC PARTICIPACOES S.A.",
+      "NALENE DE ARAUJO COELHO COSTA",
+      "OXITENO NORDESTE S A INDUSTRIA E COMERCIO",
+      "PAULO FERNANDO DE GOUVEA JUNQUEIRA",
+      "PLAYBANCO SECURITIZADORA DE CREDITOS S.A.",
+      "RAFAELA MARIA FERRAZ",
+      "SAMUEL DE JESUS BARBOSA",
+      "SARMENTO E SILVA ADVOGADOS ASSOCIADOS",
+      "SERGIO DA CUNHA BARROS REGISTRADO(A) CIVILMENTE COMO SERGIO DA CUNHA BARROS",
+      "VINICIUS SECCATO ALVES",
+      "VITOR BIZARRO FRAGA"
+    ],
+    "link": "https://pje2g.tjba.jus.br/pje/Processo/ConsultaDocumento/listView.seam?x=26072113140039600000159754313",
+    "texto_completo": "   PODER JUDICIÁRIO TRIBUNAL  DE JUSTIÇA DO ESTADO DA BAHIA   Quinta Câmara Cível       Processo: APELAÇÃO CÍVEL n. 0507091-29.2017.8.05.0146   Órgão Julgador: Quinta Câmara Cível   APELANTE: CAMPELO INDUSTRIA E COMERCIO LTDA. e outros   Advogado(s): HERNANI LOPES DE SA NETO (OAB:BA15502-A), MATHEUS DE CERQUEIRA Y COSTA (OAB:BA14144-A), RODRIGO BORGES VAZ DA SILVA (OAB:BA15462-A), RAFAEL COLAVOLPE BRITTO SOUZA (OAB:BA53851-A)   APELADO: CAMPELO INDUSTRIA E COMERCIO LTDA. e outros (6)   Advogado(s): HERNANI LOPES DE SA NETO (OAB:BA15502-A), MATHEUS DE CERQUEIRA Y COSTA (OAB:BA14144-A), IVAN FERNANDEZ BAQUEIRO PERRUCHO (OAB:BA25961-A), DIOGO ASSUMPCAO REZENDE DE ALMEIDA (OAB:SP364858-A), FERNANDA MEDINA PANTOJA (OAB:RJ125644), GABRIEL FERNANDES MEIRELES DUTRA (OAB:RJ245634), THIAGO SILVA UCHOA (OAB:RJ261230), YURI ATHAYDE DA COSTA NASCIMENTO (OAB:RJ221784), MANUELA SAMPAIO SARMENTO E SILVA (OAB:BA18454-A), EVERALDO GONCALVES DA SILVA (OAB:PE17013-A), JARVIS CLAY COSTA RODRIGUES (OAB:BA20451-A), RAFAEL COLAVOLPE BRITTO SOUZA (OAB:BA53851-A), LEONARDO MENDES CRUZ (OAB:BA25711-A)        DECISÃO      Trata-se de Recursos de Apelação Cível interpostos por CAMPELO COMÉRCIO E EMPREENDIMENTOS IMOBILIÁRIOS LTDA. (ID 106206529) e por CERQUEIRA Y COSTA SOCIEDADE DE ADVOGADOS (ID 106206537) contra a sentença de (ID 106206391), proferida pelo Juízo de Direito da 1ª Vara Cível e de Registros Públicos da Comarca de Juazeiro/BA, que julgou extinto o processo de recuperação judicial, sem resolução de mérito, com fulcro no art. 485, inciso VI, do Código de Processo Civil, por superveniente ausência de interesse processual. Durante a tramitação em segundo grau, antes da análise dos pressupostos de admissibilidade, sobreveio petição de (ID 109261679), protocolada por CERQUEIRA Y COSTA SOCIEDADE DE ADVOGADOS, manifestando expressamente a desistência do recurso de apelação por ela interposto, ressalvando a sua manutenção na lide na condição de apelada em relação ao apelo da devedora. Pende de análise, também, o pedido de sucessão processual formulado por MB FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS MULTISEGMENTO (ID 106206670), instruído com documentos de representação (ID 106206671) e Termo de Cessão de Crédito (ID 106206672), por meio do qual noticiou a aquisição dos direitos creditórios de titularidade do Banco Bradesco S.A. Instados a se manifestar sobre a referida sucessão, os credores Desenbahia (ID 109303403) e Vibra Energia S/A (ID 109302186) informaram que não possuem oposição ao deferimento do pleito. Vieram-me os autos conclusos.  É o relatório. Decido. O pedido de desistência recursal formulado pela CERQUEIRA Y COSTA SOCIEDADE DE ADVOGADOS preenche os requisitos do art. 998 do Código de Processo Civil, o qual dispõe que o recorrente poderá, a qualquer tempo e sem a anuência do recorrido ou dos litisconsortes, desistir do recurso interposto. Cumpre salientar, todavia, que a homologação da desistência não obsta a apreciação das contrarrazões apresentadas pelo referido escritório em (ID 106206580). Quanto ao pedido de sucessão processual voluntária de (ID 106206670), observa-se que o adquirente comprovou documentalmente a celebração do Termo de Cessão de Crédito junto ao BANCO BRADESCO S.A. , sub-rogando-se nos direitos e obrigações decorrentes da relação concursal de origem. Considerando que os credores concorrentes e interessados intimados não manifestaram qualquer oposição, imperiosa é a aplicação do art. 109, § 1º, do Código de Processo Civil, impondo-se o deferimento da sucessão processual para que o cessionário passe a integrar a relação jurídica de segundo grau na condição de credor interessado. Por fim, no que toca à regularidade das futuras publicações e intimações dirigidas à credora Desenbahia, cumpre acolher o requerimento formulado em petição de (ID 109303403), de modo a resguardar a validade dos atos processuais subsequentes. Ademais, tratando-se de processo de recuperação judicial extinto na origem, a intervenção do Ministério Público em segundo grau de jurisdição é obrigatória, na qualidade de fiscal da ordem jurídica, nos termos do art. 178, I, do CPC, impondo-se a abertura de vista imediata à douta Procuradoria de Justiça. Ante o exposto, no uso das atribuições que me são conferidas pelo art. 932, inciso III, do Código de Processo Civil e pelo Regimento Interno deste Egrégio Tribunal de Justiça, resolvo o expediente saneador para determinar as seguintes providências: a) HOMOLOGO, para que produza seus jurídicos e legais efeitos, a desistência do recurso de apelação manifestada pela Cerqueira Y Costa Sociedade de Advogados (ID 109261679), declarando prejudicado o recurso por ela interposto (ID 106206537), com fulcro no art. 998 c/c art. 932, III, do CPC, devendo a Secretaria certificar o trânsito em julgado imediato deste capítulo decisório; b) DEFIRO o pedido de sucessão processual formulado em (ID 106206670), determinando que a Secretaria proceda à imediata retificação da autuação e dos registros cadastrais eletrônicos para excluir o Banco Bradesco S.A. e incluir, no polo respectivo, o cessionário MB Fundo de Investimento em Direitos Creditórios Multisegmento, habilitando-se os seus patronos constituídos; c) DETERMINO que a Secretaria cadastre e direcione todas as intimações e publicações destinadas à Desenbahia - Agência de Fomento do Estado da Bahia S/A, exclusivamente em nome do advogado Leonardo Mendes Cruz, OAB/BA nº 25.711, sob pena de nulidade (ID 109303403); d) DETERMINO, após o cumprimento das providências supra, a remessa imediata dos autos à douta Procuradoria de Justiça para que, no prazo de 15 (quinze) dias, emita parecer sobre o recurso de apelação remanescente de CAMPELO COMÉRCIO E EMPREENDIMENTOS IMOBILIÁRIOS LTDA. (ID 106206529). Retornado o feito com o parecer ministerial, certifique-se a regularidade e conclusão para julgamento colegiado.  Publique-se.  Intimem-se.  Cumpra-se. Salvador/BA, data de assinatura eletrônica.  RILTON GÓES RIBEIRO DESEMBARGADOR RELATOR    RR05/RR02",
+    "data": "2026-07-23",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessão de crédito",
+      "cessionário"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "recuperação judicial"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJBA\\2026-07\\2026-07-23\\matches_2026-07-23.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Homologada sucessão processual em processo de recuperação judicial com aquisição de crédito pelo MB Fundo de Investimento em Direitos Creditórios Multisegumento.",
+        "cedente": "Banco Bradesco S.A.",
+        "cessionario": "MB Fundo de Investimento em Direitos Creditórios Multisegumento",
+        "valor": null,
+        "classe_credito": "outro",
+        "cnj_rj": null,
+        "recuperanda": "Campeio Industria e Comercio Ltda.",
+        "motivo_classificacao": "Cessão de crédito concursal com sucessão processual homologada envolvendo fundo de investimento em direitos creditórios.",
+        "descoberto_em": "2026-07-24"
+      }
+    ]
+  },
+  {
+    "id": 673627875,
+    "cnj": "0006213-45.2014.8.05.0154",
+    "classe": "EXECUçãO DE TíTULO EXTRAJUDICIAL",
+    "orgao": "1ª V DOS FEITOS DE REL DE CONS CIV E COMERCIAIS DE LUIS EDUARDO MAGALHÃES",
+    "destinatarios": [
+      "ADRIANA DAL MASO",
+      "FERNANDA ELISSA DE CARVALHO AWADA",
+      "GUILHERME DAL MASO JUNGBECK",
+      "SOLUTTA COMERCIO AGRICOLA LTDA",
+      "CELSO CANDIDO DE SOUZA",
+      "FABRICIO CANDIDO GOMES DE SOUZA",
+      "MARIO MASSAHIKO YAMADA E DIRCE TIYE YAMADA"
+    ],
+    "link": "https://pje.tjba.jus.br/pje/Processo/ConsultaDocumento/listView.seam?x=26071812272406000000541887381",
+    "texto_completo": "PODER JUDICIÁRIO TRIBUNAL  DE JUSTIÇA DO ESTADO DA BAHIA   1ª V DOS FEITOS DE REL DE CONS CIV E COMERCIAIS DE LUIS EDUARDO MAGALHÃES       Processo: EXECUÇÃO DE TÍTULO EXTRAJUDICIAL n. 0006213-45.2014.8.05.0154   Órgão Julgador: 1ª V DOS FEITOS DE REL DE CONS CIV E COMERCIAIS DE LUIS EDUARDO MAGALHÃES   EXEQUENTE: SOLUTTA COMERCIO AGRICOLA LTDA   Advogado(s): ADRIANA DAL MASO (OAB:BA665-B), GUILHERME DAL MASO JUNGBECK (OAB:BA67676), FERNANDA ELISSA DE CARVALHO AWADA (OAB:SP132649)   EXECUTADO: MARIO MASSAHIKO YAMADA E DIRCE TIYE YAMADA   Advogado(s): FABRICIO CANDIDO GOMES DE SOUZA (OAB:GO22145), CELSO CANDIDO DE SOUZA (OAB:GO2967)         DECISÃO      Cuida-se de ação de execução de título extrajudicial ajuizada por SOLUTTA COMERCIO AGRICOLA LTDA. em face de MARIO MASSAHIKO YAMADA e DIRCE TIYE YAMADA. No curso do processo, a empresa INV COMPANHIA SECURITIZADORA DE CRÉDITOS, anteriormente denominada G2 COMPANHIA SECURITIZADORA DE CRÉDITOS FINANCEIROS S.A., peticionou nos autos informando a celebração de contrato de cessão de crédito, por meio do qual a exequente originária lhe transferiu a totalidade dos direitos creditórios objeto desta demanda. Com base nesse negócio jurídico, requereu a sucessão processual no polo ativo do feito, pedido que foi reiterado em diversas manifestações subsequentes.  Por sua vez, os executados apresentaram a petição de ID 541873224, na qual noticiaram a homologação do Plano de Recuperação Extrajudicial do Grupo Yamada nos autos do processo nº 8002770-66.2022.8.05.0154, em trâmite perante este mesmo Juízo. Juntaram a respectiva sentença homologatória (ID 541873225) e requereram a suspensão da presente execução até o trânsito em julgado da referida decisão homologatória.  Intimada para se manifestar sobre o pedido de suspensão (ID 566392571), a cessionária INV COMPANHIA SECURITIZADORA DE CRÉDITOS apresentou petição (ID 567466137) informando que não se opõe ao deferimento da suspensão do feito, desde que previamente regularizado o polo ativo da demanda com o deferimento da sucessão processual.  Ademais, este Juízo determinou a realização de verificação de segurança nos autos digitais para apuração de eventuais anomalias ou comandos ocultos inseridos nas peças processuais. Vieram os autos conclusos para deliberação. O pedido de sucessão processual formulado pela INV COMPANHIA SECURITIZADORA DE CRÉDITOS merece acolhimento. A cessionária comprovou a regularidade do negócio jurídico de transmissão do crédito por meio do Termo de Cessão de Créditos acostado ao ID 174115917, devidamente assinado pelas partes e por testemunhas, com firmas reconhecidas e assinaturas eletrônicas certificadas. Ademais, os documentos de representação societária e as procurações outorgadas demonstram a regularidade de sua representação processual (IDs 174115921, 174115924).  No âmbito do processo de execução, a sucessão do credor originário pelo cessionário é regida por norma específica e de natureza cogente. O Código de Processo Civil estabelece em seu artigo 778, parágrafo 1º, inciso III, que o cessionário pode promover a execução forçada ou nela prosseguir, em sucessão ao exequente originário, quando o direito resultante do título executivo lhe for transferido por ato entre vivos.  Os executados requereram a suspensão da presente execução sob o argumento de que o crédito exequendo está submetido ao Plano de Recuperação Extrajudicial homologado judicialmente nos autos do processo nº 8002770-66.2022.8.05.0154 (ID 541873224).  A existência e a homologação do referido plano de recuperação extrajudicial restaram devidamente comprovadas pela sentença homologatória proferida pelo Juízo da 1ª Vara Cível de Luís Eduardo Magalhães/BA, acostada ao ID 541873225 destes autos. A referida sentença julgou procedente o pedido de homologação do plano do Grupo Yamada, do qual os executados fazem parte.  A Lei nº 11.101/2005 estabelece que o plano de recuperação extrajudicial homologado obriga todos os credores por ele abrangidos, operando a novação dos créditos sujeitos aos seus efeitos, nos termos do artigo 163, parágrafo 1º. A homologação do plano vincula inclusive os credores dissidentes ou ausentes que integrem as classes atingidas, impondo-lhes as novas condições de pagamento pactuadas pela maioria. No caso concreto, verifica-se que a exequente sucessora, INV COMPANHIA SECURITIZADORA DE CRÉDITOS, manifestou expressa concordância com o pedido de suspensão do feito (ID 567466137), limitando-se a requerer que tal providência fosse adotada após a regularização do polo ativo da execução.  Havendo a homologação judicial do plano de reestruturação de dívidas e a anuência da própria credora quanto à suspensão do feito executivo, a paralisação temporária da demanda é medida imperiosa para assegurar a viabilidade do cumprimento das obrigações assumidas no plano de recuperação extrajudicial e evitar atos de constrição patrimonial que conflitem com a competência do Juízo recuperacional. A suspensão da execução encontra amparo legal no artigo 921, inciso I, do Código de Processo Civil, que remete às hipóteses de suspensão previstas na legislação extravagante, combinando-se com os efeitos decorrentes da homologação do plano de recuperação extrajudicial previstos na Lei nº 11.101/2005.  Portanto, regularizado o polo ativo da demanda, impõe-se o acolhimento do pedido de suspensão da execução até que ocorra o trânsito em julgado da sentença homologatória proferida nos autos da recuperação extrajudicial nº 8002770-66.2022.8.05.0154, momento em que as partes deverão informar o desfecho do feito para fins de extinção ou prosseguimento da execução nos termos do plano novado.   Ante o exposto: a) Defiro o pedido de sucessão processual formulado pela INV COMPANHIA SECURITIZADORA DE CRÉDITOS, qualificada no ID 174115916, para que passe a figurar no polo ativo da presente execução de título extrajudicial, em substituição à exequente originária SOLUTTA COMERCIO AGRICOLA LTDA., nos termos do artigo 778, parágrafo 1º, inciso III, e parágrafo 2º, do Código de Processo Civil;  b) Determino que a Secretaria deste Juízo proceda às retificações necessárias no sistema de cadastro processual para regularizar a autuação do feito, fazendo constar a cessionária INV COMPANHIA SECURITIZADORA DE CRÉDITOS como exequente, bem como proceda ao cadastramento exclusivo de seus procuradores indicados na petição de ID 567466137, a fim de viabilizar as futuras intimações;  c) Acolho o pedido formulado pelos executados e determino a suspensão da presente execução de título extrajudicial, com fundamento no artigo 921, inciso I, do Código de Processo Civil, c/c artigo 163 da Lei nº 11.101/2005, em virtude da homologação do Plano de Recuperação Extrajudicial do Grupo Yamada nos autos do processo nº 8002770-66.2022.8.05.0154;  d) Estabeleço que a suspensão da execução perdurará até o trânsito em julgado da sentença homologatória proferida nos autos da referida recuperação extrajudicial, incumbindo às partes, imediatamente após a ocorrência de tal marco processual, peticionar nestes autos informando o desfecho do feito recuperacional para as deliberações subsequentes deste Juízo; e) Determino a Secretaria que certifique a ausência de óbices ou comandos ocultos nos autos digitais, arquivando-se o relatório de integridade documental realizado por este Gabinete. P.R.I.C. força de mandado/ofício.   Tônia de Oliveira Barouche Juíza de Direito   Núcleo de Saneamento - Decreto Judiciário nº 596/2026  LUÍS EDUARDO MAGALHÃES/BA, 18 de julho de 2026.  ",
+    "data": "2026-07-21",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessão de crédito",
+      "cessionário",
+      "cessionária"
+    ],
+    "keywords_cessao_fracas": [
+      "cedente"
+    ],
+    "keywords_rj": [
+      "lei nº 11.101",
+      "recuperação extrajudicial"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJBA\\2026-07\\2026-07-21\\matches_2026-07-21.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "extraconcursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Cessão de crédito extrajudicial realizada pela Solutta Comércio Agrícola Ltda. para a INV Companhia Securitizadora de Créditos, com sucessão processual deferida em execução de título extrajudicial.",
+        "cedente": "Solutta Comércio Agrícola Ltda.",
+        "cessionario": "INV Companhia Securitizadora de Créditos",
+        "valor": null,
+        "classe_credito": "extraconcursal",
+        "cnj_rj": "8002770-66.2022.8.05.0154",
+        "recuperanda": "Grupo Yamada",
+        "motivo_classificacao": "Cessão de crédito extrajudicial com sucessão processual deferida em processo de execução, vinculada a plano de recuperação extrajudicial homologado, envolvendo securitizadora como cessionária institucional.",
+        "descoberto_em": "2026-07-24"
+      }
+    ]
+  },
+  {
+    "id": 673785890,
+    "cnj": "8080422-94.2026.8.05.0001",
+    "classe": "MONITóRIA",
+    "orgao": "2ª VARA DE RELAÇÕES DE CONSUMO DA COMARCA DE SALVADOR",
+    "destinatarios": [
+      "B6 ASSIGNEE ASSETS LTDA",
+      "LINEKER BERTINO CRUZ FIGUEIRA",
+      "WALDIR BERNARDO CRUZ FIGUEIRA",
+      "MACIO PROFETA OLIVEIRA"
+    ],
+    "link": "https://pje.tjba.jus.br/pje/Processo/ConsultaDocumento/listView.seam?x=26062913520145800000538764715",
+    "texto_completo": "TRIBUNAL DE JUSTIÇA DO ESTADO DA BAHIA 2ª Vara de Relações de Consumo - Salvador 1º Cartório Integrado das Varas de Relações de Consumo de Salvador Rua do Tingui, s/n, Campo da Pólvora, Fórum Prof. Orlando Gomes, 1º Andar, Nazaré, Salvador - Bahia. CEP 40.040-380. salvador2vrconsumo@tjba.jus.br / 1cartoriointegrado@tjba.jus.br    Processo n. 8080422-94.2026.8.05.0001 AUTOR: B6 ASSIGNEE ASSETS LTDA  REU: MACIO PROFETA OLIVEIRA    Trata-se de Ação Monitória proposta por B6 ASSIGNEE ASSETS LTDA, devidamente qualificada nos autos, em face de MACIO PROFETA OLIVEIRA, também devidamente identificado (ID 556380902). A parte autora aduz, em apertada síntese, ser cessionária de direitos de crédito originariamente pertencentes à Massa Falida do Banco Cruzeiro do Sul S.A., adquiridos mediante processo de alienação judicial promovido perante o Juízo da 2ª Vara de Falências e Recuperações Judiciais da Comarca de São Paulo/SP (ID 556380902). Alega a requerente que o demandado celebrou contratos de mútuo financeiro na modalidade de empréstimo consignado, representados pelas avenças sob os números 470985224, 471554430 e 474601595 (ID 556380902). Argumenta que, a despeito do regular desembolso dos montantes financiados pela instituição financeira originária, o réu inadimpliu as obrigações pactuadas, deixando de realizar o pagamento das contraprestações mensais devidas, o que ensejou o vencimento antecipado do débito e a consolidação de uma dívida que atinge, atualmente, o montante atualizado de R$ 1.216.817,51 (ID 556380902). Com a petição inicial, foram acostados diversos documentos probatórios, dentre os quais destacam-se os termos de adesão contratuais, demonstrativos de evolução do débito, relatórios de cobrança e os respectivos comprovantes de transferências eletrônicas disponíveis (TED) demonstrando o efetivo repasse dos valores mutuados ao requerido (IDs 556384412, 556384415, 556384420, 556384422, 556384431 e 556384432). Preliminarmente, a parte autora pleiteou o parcelamento das custas processuais iniciais em 10 (dez) prestações mensais e sucessivas, alegando que o recolhimento integral imediato, estimado em R$ 24.336,35, comprometeria o fluxo de caixa de sua atividade corporativa massificada, voltada à gestão e cobrança de milhares de ativos em âmbito nacional (ID 556380902). A Seção de Controle e Distribuição de 1º Grau (SECODI) emitiu certidão atestando a regularidade formal do feito, apontando especificamente a existência do sobredito pedido de recolhimento fracionado da taxa de ingresso (ID 556417354). Em seguida, vieram os autos conclusos para análise dos pressupostos de admissibilidade da demanda monitória, do pedido de parcelamento de despesas, bem como para o exame de eventual ocorrência da prescrição da pretensão de cobrança. DO PREENCHIMENTO DOS REQUISITOS DE ADMISSIBILIDADE DA VIA MONITÓRIA A propositura da Ação Monitória pressupõe a existência de prova escrita sem eficácia de título executivo que ateste a existência de uma obrigação de pagar quantia em dinheiro, entregar coisa ou adimplir obrigação de fazer ou não fazer. Trata-se de procedimento documental de cognição sumária em sua fase inicial, destinado a propiciar a célere formação de um título executivo judicial em favor de credor que disponha de lastro documental idôneo e plausível da relação de crédito. No caso concreto, verifica-se que a legitimidade ativa da empresa demandante encontra-se plenamente demonstrada. O acervo documental revela que a requerente adquiriu os direitos creditórios decorrentes dos contratos em debate por meio de leilão judicial homologado nos autos do processo falimentar de número 1071548-40.2015.8.26.0100, em trâmite perante a 2ª Vara de Falências e Recuperações Judiciais da Comarca de São Paulo/SP (ID 556380907, fls. 28). O Termo de Cessão acostado formaliza a transferência definitiva, irrevogável e irretratável dos direitos sobre a referida carteira de inadimplentes (ID 556380907), estando os contratos ora sub judice devidamente listados no respectivo anexo eletrônico, o que confere à autora plena pertinência subjetiva para a postulação. Outrossim, no que tange ao interesse processual e à adequação da via eleita, a inicial veio instruída com farta prova escrita desprovida de força executiva autônoma, atendendo rigorosamente ao escopo do procedimento monitório. O lastro probatório é composto pelos instrumentos de contrato individuais que revelam as condições das operações financeiras, as taxas de juros incidentes e as obrigações de amortização consignada assumidas pelo devedor (IDs 556384416 e 556384425). Complementando a robustez documental, a autora apresentou os respectivos comprovantes de transferência eletrônica (TED) emitidos pelo Banco Cruzeiro do Sul S.A. direcionados para a conta de titularidade do réu mantida na Caixa Econômica Federal (IDs 556384415, 556384422 e 556384432). Esses comprovantes atestam a efetiva entrega do numerário mutuado nos dias 29 de abril de 2011, 26 de maio de 2011 e 1 de agosto de 2011, respectivamente, materializando a perfectibilização dos contratos de mútuo e afastando qualquer dúvida quanto ao recebimento do crédito pelo mutuário (IDs 556384415, 556384422 e 556384432). Por fim, a evolução do saldo devedor encontra-se pormenorizada por demonstrativos matemáticos claros, que relacionam os indexadores aplicados (INPC-IBGE), as taxas de juros compensatórios pactuadas e o montante em aberto de cada uma das parcelas não pagas (IDs 556384412, 556384420 e 556384431). Essa documentação fornece a liquidez e a certeza necessárias para a instauração do contraditório monitório, permitindo ao requerido o exato conhecimento da composição do débito cobrado e a possibilidade de ampla defesa por meio de embargos. Desta forma, preenchidos os requisitos formais de admissibilidade, cumpre analisar as questões de fundo prejudiciais e os pedidos incidentais. DO AFASTAMENTO DA PREJUDICIAL DE PRESCRIÇÃO Antes da análise das providências de citação, impõe-se verificar a ocorrência de eventual prescrição, por se tratar de matéria de ordem pública. Nos termos do art. 206, § 5º, I, do Código Civil, a pretensão de cobrança de dívida líquida constante de instrumento particular prescreve em cinco anos. A jurisprudência consolidada do Superior Tribunal de Justiça estabelece que, nos contratos de mútuo parcelado, o vencimento antecipado da dívida não altera o termo inicial da prescrição, que permanece sendo a data originalmente prevista para o vencimento da última parcela (AgInt no REsp 1.520.483/MS). No caso, o Contrato nº 470985224 teve como vencimento final o dia 30/04/2021, o Contrato nº 471554430 o dia 30/06/2021 e o Contrato nº 474601595 o dia 30/08/2021 (IDs 556384412, 556384420 e 556384431). Assim, os respectivos prazos prescricionais encerrariam em 30/04/2026, 30/06/2026 e 30/08/2026. Considerando que a presente ação monitória foi distribuída em 29/04/2026 (ID 556380902), verifica-se que o ajuizamento ocorreu antes do escoamento do prazo prescricional de todos os contratos, inclusive um dia antes do termo final referente ao contrato mais antigo. Dessa forma, afasta-se a prejudicial de prescrição, devendo o feito prosseguir regularmente. DA ANÁLISE DO PEDIDO DE PARCELAMENTO DAS CUSTAS PROCESSUAIS Passa-se ao exame do pleito incidental formulado pela parte autora no sentido de obter o parcelamento das custas processuais iniciais em 10 (dez) parcelas mensais e sucessivas. A possibilidade de parcelamento das despesas indispensáveis à prestação jurisdicional encontra-se positivada na legislação processual civil como um mecanismo de harmonização entre o dever de custeio dos serviços públicos de justiça e o direito de acesso ao Poder Judiciário: O dispositivo do Código de Processo Civil de 2015 concede ao magistrado a faculdade de autorizar o fracionamento do pagamento das taxas quando as circunstâncias do caso demonstrarem que o desembolso integral imediato pode embaraçar ou inviabilizar o regular andamento do feito judicial (artigo 98, § 6º, do Código de Processo Civil). Ocorre que, no que concerne ao deferimento de tal beneplácito em favor de pessoas jurídicas de direito privado, a concessão da medida não constitui direito potestativo da parte, tampouco mera conveniência operacional de fluxos de caixa empresariais. Revela-se indispensável que a requerente demonstre cabalmente que a sua situação econômico-financeira atual encontra-se severamente comprometida, de tal sorte que a exigência do pagamento integral imediato represente barreira insuperável de acesso à jurisdição. No caso em tela, verifica-se que a parte autora fundamenta o seu pleito unicamente na circunstância de estar assumindo o polo ativo em milhares de demandas em todo o território nacional, decorrentes da aquisição de carteira de ativos inadimplidos da Massa Falida do Banco Cruzeiro do Sul S.A. (ID 556380902). Argumenta que o parcelamento se justifica para alinhar o desembolso de recursos em razão do expressivo volume de custas que deve despender em sua carteira de processos massificados. Ocorre que tal alegação traduz-se em argumento estritamente de conveniência empresarial e planejamento financeiro estratégico da sociedade empresária, não caracterizando a impossibilidade material ou a hipossuficiência econômica exigida para o diferimento ou fracionamento das taxas públicas. A autora é sociedade empresária limitada devidamente qualificada, cuja atividade econômica principal consiste em outras atividades de serviços financeiros não especificadas anteriormente (ID 556380904), operando de forma regular e ativa no mercado de aquisição e recuperação de ativos de alta monta. Ademais, o expressivo valor atribuído à causa, qual seja, R$ 1.216.817,51 (ID 556380902), indica que a parte autora maneja créditos de elevadíssimo potencial de retorno econômico, evidenciando uma capacidade financeira incompatível com a concessão de benesses destinadas a mitigar óbices de acesso à justiça de necessitados. A circunstância de a autora optar por propor milhares de demandas concomitantemente no país faz parte do risco e do planejamento operacional de sua atividade fim, não cabendo ao Poder Judiciário arcar com o ônus de financiar o fluxo de caixa de suas operações por meio da moratória ou do parcelamento indiscriminado das custas processuais. Constata-se, portanto, que a requerente não colacionou aos autos nenhum documento idôneo, tal como balanços patrimoniais, demonstrações de resultados do exercício, extratos de contas bancárias ou certidões de protestos, que pudessem comprovar uma real incapacidade financeira ou asfixia de liquidez no momento. Limitou-se a fundamentar o pedido no vultoso montante das custas iniciais e no volume de sua carteira (ID 556380902), elementos meramente subjetivos que não autorizam o deferimento do benefício. Ausente, pois, a comprovação inequívoca da impossibilidade de adiantamento das despesas do processo, o indeferimento do pedido de parcelamento é medida que se impõe, devendo a parte autora providenciar o recolhimento integral das custas iniciais devidas no prazo legal, sob pena de cancelamento da distribuição. Ante o exposto, observado o preenchimento dos pressupostos processuais da ação monitória e as regras aplicáveis à espécie, decido o feito nos seguintes termos: a) AFASTO de ofício a prejudicial de prescrição do crédito cobrado, reconhecendo a tempestividade da propositura da demanda em relação a todos os contratos que compõem o objeto da lide (IDs 556380902, 556384412, 556384420 e 556384431); b) INDEFIRO o pedido de parcelamento das custas processuais iniciais formulado por B6 ASSIGNEE ASSETS LTDA, com fulcro no artigo 98, § 6º, do Código de Processo Civil (ID 556380902), por não restar demonstrada a real dificuldade financeira da pessoa jurídica a autorizar a concessão do benefício; c) INTIMO a parte autora para, no prazo impreterível de 15 (quinze) dias, efetuar o recolhimento integral das custas processuais iniciais pendentes, estimadas no montante de R$ 24.336,35 (ID 556380902), sob pena de cancelamento da distribuição do feito e consequente extinção sem resolução do mérito, nos termos do artigo 290 do Código de Processo Civil; d) Decorrido o prazo sem o devido recolhimento, certifique-se e faça-se a conclusão dos autos para imediato cancelamento da distribuição; e) Havendo o regular e integral recolhimento das custas processuais no prazo estipulado, determino, de logo, com base no artigo 701, caput, do Código de Processo Civil, a expedição de Mandado de Pagamento e de Citação dirigido ao réu MACIO PROFETA OLIVEIRA, a ser cumprido no endereço fornecido na petição inicial (ID 556380902), assinalando-lhe o prazo de 15 (quinze) dias para que efetue o pagamento do valor consolidado de R$ 1.216.817,51 (um milhão, duzentos e dezesseis mil, oitocentos e dezessete reais e cinquenta e um centavos), atualizado monetariamente até a data do efetivo adimplemento (ID 556380902), ou, querendo, apresente embargos ao mandado monitório, sob pena de constituição de pleno direito do título executivo judicial; f) Fixo os honorários advocatícios para a hipótese de cumprimento tempestivo do mandado monitório no percentual de 5% (cinco por cento) sobre o valor atribuído à causa, registrando que o réu ficará isento do pagamento de custas processuais caso cumpra a obrigação no prazo assinalado, nos termos do artigo 701, § 1º, do Código de Processo Civil; g) Faça-se constar do mandado que, caso o requerido ofereça embargos monitórios (artigo 702 do CPC), a eficácia do mandado de pagamento ficará suspensa até o julgamento em definitivo da controvérsia em primeiro grau de jurisdição. Intime-se a parte autora, por seus advogados devidamente constituídos nos autos, acerca da presente decisão.  SALVADOR - REGIÃO METROPOLITANA/BA, [data do sistema]. TIAGO LIMA SELAU Juiz de Direito Auxiliar Decreto Judiciário nº 138/2026  ",
+    "data": "2026-07-21",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessionária"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "massa falida",
+      "falência"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJBA\\2026-07\\2026-07-21\\matches_2026-07-21.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Cessão de créditos inadimplidos da Massa Falida do Banco Cruzeiro do Sul S.A. adquiridos por B6 Assignee Assets Ltda., empresa institucional, em processo falimentar.",
+        "cedente": "Massa Falida do Banco Cruzeiro do Sul S.A.",
+        "cessionario": "B6 Assignee Assets Ltda.",
+        "valor": "R$ 1.216.817,51",
+        "classe_credito": "quirografário",
+        "cnj_rj": "1071548-40.2015.8.26.0100",
+        "recuperanda": "Banco Cruzeiro do Sul S.A.",
+        "motivo_classificacao": "Compra de crédito concursal da massa falida por fundo institucional, com processo falimentar identificado e valor relevante.",
+        "descoberto_em": "2026-07-24"
+      }
+    ]
+  },
+  {
+    "id": 691698475,
+    "cnj": "8098857-92.2021.8.05.0001",
+    "classe": "CUMPRIMENTO DE SENTENçA",
+    "orgao": "2ª VARA DE RELAÇÕES DE CONSUMO DA COMARCA DE SALVADOR",
+    "destinatarios": [
+      "LINEKER BERTINO CRUZ FIGUEIRA",
+      "MASSA FALIDA DO BANCO CRUZEIRO DO SUL S/A",
+      "ORESTE NESTOR DE SOUZA LASPRO",
+      "ISABEL CRISTINA SOUSA LARANGEIRAS",
+      "JORDAN DOS ANJOS SILVA"
+    ],
+    "link": "https://pje.tjba.jus.br/pje/Processo/ConsultaDocumento/listView.seam?x=26080617310942800000545227693",
+    "texto_completo": "                                                                                        TRIBUNAL DE JUSTIÇA DO ESTADO DA BAHIA 2ª Vara de Relações de Consumo - Salvador 1º Cartório Integrado das Varas de Relações de Consumo de Salvador Rua do Tingui, s/n, Campo da Pólvora, Fórum Prof. Orlando Gomes, 1º Andar, Nazaré, Salvador - Bahia. CEP 40.040-380. salvador2vrconsumo@tjba.jus.br / 1cartoriointegrado@tjba.jus.br    Processo n. 8098857-92.2021.8.05.0001 EXEQUENTE: MASSA FALIDA DO BANCO CRUZEIRO DO SUL S/A  EXECUTADO: ISABEL CRISTINA SOUSA LARANGEIRAS  Trata-se de fase de CUMPRIMENTO DE SENTENÇA deflagrada originalmente por MASSA FALIDA DO BANCO CRUZEIRO DO SUL S/A em face de ISABEL CRISTINA SOUSA LARANGEIRAS, fundada em título executivo judicial constituído na ação monitória antecedente (id. 445619084). A ação monitória foi proposta para cobrança do saldo devedor relativo ao contrato de crédito pessoal com consignação em folha nº 477112307, firmado em 10/10/2011 (id's. 135863591, 135863599). Regularmente citada por Oficial de Justiça (id. 200076155), a parte ré permaneceu inerte, sem apresentar embargos monitórios (id. 412709555). Em razão do decurso do prazo, proferiu-se sentença de procedência, constituindo de pleno direito o título executivo judicial no montante indicado (id. 426548670). Em 21/05/2024, a exequente requereu o cumprimento de sentença pelo valor atualizado de R$ 61.933,50 (id. 445619084). Deferida a intimação da devedora para pagamento voluntário (id. 474192307), expediu-se carta com aviso de recebimento (id.485520560), sem adimplemento no prazo legal. No curso da fase executiva, B6 ASSIGNEE ASSETS LTDA requereu a sua habilitação e a substituição do polo ativo (id. 490923653), noticiando a aquisição da carteira de créditos consignados inadimplentes em leilão judicial realizado no juízo falimentar da 2ª Vara de Falências e Recuperações Judiciais de São Paulo, devidamente homologado por acórdão do Tribunal de Justiça do Estado de São Paulo (id. 490929164). Posteriormente, a executada ingressou nos autos apresentando EXCEÇÃO DE PRÉ-EXECUTIVIDADE (id. 527768317). Postulou a concessão de prioridade na tramitação por ser pessoa idosa e o deferimento da assistência judiciária gratuita. No mérito do incidente, alegou a prescrição quinquenal de parcelas do contrato original, sustentando que a pretensão deveria ser contada mês a mês a partir do vencimento de cada prestação. Afirmou, ainda, não ter recebido o valor integral financiado no instrumento pactuado em 2011, reputando indevida a execução e pleiteando a liberação dos valores bloqueados e a extinção do feito. Intimada para se manifestar, a cessionária/exequente apresentou resposta (id. 542361691). Impugnou a gratuidade da justiça postulada. No mérito da exceção, sustentou o descabimento da via eleita para discutir matérias afetas à fase de conhecimento, acobertadas pela eficácia preclusiva da coisa julgada material. Asseverou, de todo modo, a inocorrência de prescrição, haja vista o termo inicial coincidir com o vencimento da última parcela do mútuo, bem como a regularidade da disponibilização do crédito renegociado. Nesse interregno, realizou-se a penhora online de valores via SISBAJUD (id's. 517137882 e 517137885), culminando no bloqueio parcial e transferência da quantia de R$ 1.221,42 para conta judicial vinculada ao juízo (id's. 568049456, 568049457). Intimada do resultado da penhora, a executada reiterou os termos de sua exceção de pré-executividade (id. 568572957). É o relatório. DECIDO. Da alteração do polo ativo e da desnecessidade de consentimento da devedora Inicialmente, aprecia-se o pedido de alteração do polo ativo formulado por B6 ASSIGNEE ASSETS LTDA (id. 490923653). A requerente demonstrou de forma inequívoca haver adquirido a carteira de créditos consignados da Massa Falida do Banco Cruzeiro do Sul S/A em leilão judicial promovido perante o Juízo da 2ª Vara de Falências e Recuperações Judiciais da Comarca de São Paulo, restando a arrematação devidamente homologada pela Primeira Câmara Reservada de Direito Empresarial do Tribunal de Justiça do Estado de São Paulo nos autos do Agravo de Instrumento nº 2278977-51.2024.8.26.0000, com a comprovação do pagamento integral da arrematação (id. 490929164). No procedimento executivo, a sucessão processual por ato entre vivos é regida pela norma especial expressa no art. 778, § 1º, inciso III, do Código de Processo Civil. Dissentindo da regra do processo de conhecimento, a sucessão no polo ativo da execução promovida pelo cessionário do crédito independe de autorização ou consentimento do executado, conforme preceitua o § 2º do aludido dispositivo legal. Essa matéria restou pacificada pelo Superior Tribunal de Justiça sob a sistemática dos recursos repetitivos. A jurisprudência do Superior Tribunal de Justiça é no sentido de que a alteração subjetiva na execução independe de concordância da parte devedora. TEMA REPETITIVO STJ Tema 1: A substituição processual, no polo ativo da execução, do exequente originário pelo cessionário dispensa a autorização ou o consentimento do devedor. Destarte, comprovada a regularidade do negócio jurídico translativo e do título de cessão do crédito exequendo, defere-se a substituição do polo ativo da presente demanda para figurar como exequente a empresa B6 ASSIGNEE ASSETS LTDA. Prioridade na tramitação e gratuidade da justiça A executada comprovou contar com mais de 60 anos de idade, fazendo jus à prioridade na tramitação dos atos processuais, nos termos do art. 1.048, inciso I, do Código de Processo Civil, e do art. 71 da Lei nº 10.741/2003 (Estatuto da Pessoa Idosa). Lado outro, quanto ao pedido de gratuidade da justiça, a prova documental carreada aos autos demonstra que a devedora percebe proventos de aposentadoria como servidora pública federal no valor líquido aproximado de R$ 2.728,71, o que evidencia o comprometimento de sua renda para com a manutenção básica do lar. Sendo a pessoa física beneficiária da presunção relativa de veracidade da declaração de hipossuficiência (art. 99, § 3º, do CPC), e inexistindo elementos concretos em sentido contrário, defere-se o benefício da gratuidade da justiça em favor da executada. Da exceção de pré-executividade  Superadas as questões proemiais, passa-se ao exame da Exceção de Pré-Executividade oposta pela devedora (id. 527768317). A exceção de pré-executividade consubstancia construção doutrinária e jurisprudencial destinada à apreciação de matérias cognoscíveis de ofício pelo magistrado, concernentes aos pressupostos processuais, condições da ação ou vícios no título executivo, desde que demonstradas de plano por prova documental preconstituída, sem necessidade de dilação probatória. Ocorre que a presente fase processual cuida do cumprimento de sentença fundado em título executivo judicial oriundo de decisão de mérito transitada em julgado. A executada foi devidamente citada na ação monitória antecedente por Oficial de Justiça (id. 200076155) e deixou transcorrer in albis o prazo para oferecimento de embargos (id. 412709555), o que culminou no julgamento de procedência do pedido originário e na formação da coisa julgada material. O rol de matérias passíveis de arguição no cumprimento de sentença é restrito e taxativo, nos moldes do art. 525, § 1º, do Código de Processo Civil, alcançando tão somente fatos ou causas modificativas ou extintivas da obrigação que sejam supervenientes à sentença (inciso VII). As teses ventiladas na exceção, concernentes à alegação de prescrição da pretensão monitória e à alegada ausência de repasse integral do valor do contrato em 2011, constituem típica matéria de defesa da fase de conhecimento. Tais fundamentos deveriam ter sido deduzidos oportunamente em sede de embargos monitórios. Uma vez operado o trânsito em julgado, incide expressamente a eficácia preclusiva da coisa julgada estabelecida no art. 508 do Código de Processo Civil, segundo o qual se consideram deduzidas e repelidas todas as alegações e defesas que a parte poderia ter oposto ao acolhimento do pedido. Dessa forma, a tentativa de reabrir a cognição exauriente quanto aos fatos constitutivos do crédito exequendo ou à prescrição antecedente à formação do título esbarra na imutabilidade da coisa julgada (art. 502 do CPC), restando manifestamente inadequada a via eleita. Da higidez do título e da inocorrência de prescrição  Apenas a título argumentativo, ainda que ultrapassado o óbice intransponível da coisa julgada, as alegações da executada não prosperariam. A tese de que a prescrição em contrato de mútuo bancário deve ser contada individualmente parcela por parcela não encontra respaldo no ordenamento jurídico. O mútuo feneratício constitui obrigação única desdobrada em prestações sucessivas. Por essa razão, a jurisprudência sumulada e consolidada no Superior Tribunal de Justiça orienta que o termo inicial do prazo prescricional quinquenal (art. 206, § 5º, inciso I, do Código Civil) é a data do vencimento da última parcela contratada. No caso sob exame, o contrato de empréstimo previa 60 parcelas com vencimento final ajustado para 07/11/2016 (id. 135863599). Tendo a ação monitória sido ajuizada em 08/09/2021, evidencia-se que a pretensão foi deduzida dentro do quinquênio legal, inexistindo qualquer prescrição a ser declarada. Do mesmo modo, a alegação de que não teria havido a liberação dos recursos resta desprovida de veracidade fática. O próprio instrumento contratual deixa claro que a operação de crédito envolveu a renegociação e liquidação de débito preexistente no montante de R$ 6.007,04, liberando-se em espécie em favor da mutuária o valor líquido remanescente de R$ 500,29 via TED (id's. 135863599, 135863607), fato corroborado pelo próprio extrato bancário por ela apresentado (id. 527768326). Portanto, por qualquer ângulo que se analise a controvérsia, a pretensão da executada revela-se improcedente. Da penhora de valores via SISBAJUD A penhora de dinheiro em espécie ou em depósito bancário ostenta prioridade na ordem de gradação legal dos bens penhoráveis (art. 835, inciso I, do CPC). Efetivado o bloqueio e a transferência da quantia de R$ 1.221,42 para conta judicial vinculada a este processo, e restando rejeitada a defesa da executada, converte-se a indisponibilidade efetuada em penhora definitiva sobre o valor apreendido. Assim, imperioso o prosseguimento dos atos executivos em relação ao saldo devedor remanescente. DISPOSITIVO Ante o exposto, DECIDO: a) DEFERIR a alteração do polo ativo do processo, com esteio no art. 778, § 1º, inciso III, e § 2º, do CPC, para determinar a inclusão de B6 ASSIGNEE ASSETS LTDA na qualidade de exequente, em substituição à Massa Falida do Banco Cruzeiro do Sul S/A.; b) DEFERIR à executada ISABEL CRISTINA SOUSA LARANGEIRAS a prioridade na tramitação processual (art. 1.048, I, do CPC) e os benefícios da gratuidade da justiça (art. 99, § 3º, do CPC); c) REJEITAR a Exceção de Pré-Executividade oposta pela executada, dada a inadequação da via eleita para desconstituir a eficácia preclusiva da coisa julgada material (arts. 502, 508 e 525, § 1º, do CPC); d) CONVERTER EM PENHORA a indisponibilidade de valores realizada via SISBAJUD no montante de R$ 1.221,42 (id. 568049457); e) INTIMAR a exequente cessionária para que, no prazo de 15 (quinze) dias, manifeste-se sobre o resultado parcial da penhora e requeira o que entender de direito quanto ao prosseguimento dos atos de satisfação do crédito remanescente. Publique-se. Intimem-se. Cumpra-se.  SALVADOR - REGIÃO METROPOLITANA/BAAssinado digitalmente por Juiz(a) de DireitoData registrada no sistema PJE",
+    "data": "2026-08-10",
+    "valor_causa": 37038.01,
+    "keywords_cessao_fortes": [
+      "cessionário",
+      "cessionária"
+    ],
+    "keywords_cessao_fracas": [
+      "cedente"
+    ],
+    "keywords_rj": [
+      "massa falida",
+      "falência"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJBA\\2026-08\\2026-08-10\\matches_2026-08-10.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "B6 ASSIGNEE ASSETS LTDA adquiriu carteira de créditos consignados inadimplentes da massa falida do Banco Cruzeiro do Sul S/A em leilão judicial, com substituição processual homologada.",
+        "cedente": "Massa Falida do Banco Cruzeiro do Sul S/A",
+        "cessionario": "B6 ASSIGNEE ASSETS LTDA",
+        "valor": "R$ 61.933,50",
+        "classe_credito": "quirografário",
+        "cnj_rj": null,
+        "recuperanda": "Banco Cruzeiro do Sul S/A",
+        "motivo_classificacao": "Cessão de crédito concursal homologada em processo falimentar, com substituição processual por cessionário institucional (B6 ASSIGNEE ASSETS LTDA).",
+        "descoberto_em": "2026-08-13"
+      }
+    ]
+  },
+  {
+    "id": 692029460,
+    "cnj": "8058628-20.2026.8.05.0000",
+    "classe": "AGRAVO DE INSTRUMENTO",
+    "orgao": "Desa. Maria do Socorro Barreto Santiago",
+    "destinatarios": [
+      "MARCUS VINICIUS ALCANTARA KALIL",
+      "MAX FOMENTO MERCANTIL LTDA",
+      "ITAU UNIBANCO S.A.",
+      "MM GESTAO DE CREDITOS LTDA"
+    ],
+    "link": "https://pje2g.tjba.jus.br/pje/Processo/ConsultaDocumento/listView.seam?x=26080711371829500000161258981",
+    "texto_completo": "PODER JUDICIÁRIO TRIBUNAL  DE JUSTIÇA DO ESTADO DA BAHIA   Segunda Câmara Cível       Processo: AGRAVO DE INSTRUMENTO Nº 8058628-20.2026.8.05.0000   Órgão Julgador: Segunda Câmara Cível   AGRAVANTE: MAX FOMENTO MERCANTIL LTDA   Advogado(s): MARCUS VINICIUS ALCANTARA KALIL (OAB:BA16714-A)   AGRAVADO: ITAU UNIBANCO S.A. e outros   Advogado(s):          DECISÃO         Trata-se de agravo de instrumento, com pedido de efeito suspensivo, interposto por MAX CRÉDITO EMPRESA SIMPLES DE CRÉDITO LTDA, ID do processo nº 8058628-20.2026.8.05.0000, contra decisão proferida pelo Juízo da 4ª Vara Cível e Comercial da Comarca de Salvador, Bahia, ID 568626689, nos autos da Execução de Título Extrajudicial, tombada sob o nº 8193604-29.2024.8.05.0001, proposta por MM GESTÃO DE CRÉDITOS LTDA, ora agravada, que acolheu o incidente de desconsideração da personalidade jurídica da empresa Indústria Brascoco de Alimentos Ltda. para incluir a agravante no polo passivo da execução, nos seguintes termos:   [...]   Ante o exposto, resolvo as questões pendentes adotando as seguintes providências:   a) defiro o pedido de sucessão processual formulado pela cessionária (ID 513010899), determinando a alteração do polo ativo da presente execução para que passe a constar a empresa MM Gestão de Créditos Ltda., devidamente qualificada nos autos, em sucessão ao exequente originário, nos termos do art. 778, § 1º, inciso III, e § 2º, do Código de Processo Civil;   b) acolho em parte a Exceção de Pré-Executividade oposta por Indústria Brascoco de Alimentos Ltda. (ID 500697151) tão somente para determinar a suspensão do curso da presente execução unicamente em relação a ela, devedora principal em recuperação judicial, nos termos do art. 6º, inciso II, da Lei nº 11.101/2005;   c) determino o regular prosseguimento da execução em relação ao executado solidário Gustavo Lisboa Paixão, por força do art. 49, § 1º, da Lei nº 11.101/2005;   d) acolho o pedido de desconsideração da personalidade jurídica formulado na petição inicial para incluir no polo passivo da presente execução a empresa Max Crédito Empresa Simples de Crédito Ltda. (CNPJ 18.900.107/0001-51), declarando a sua responsabilidade solidária pelo adimplemento do débito exequendo, nos termos do art. 50, §§ 1º e 2º, do Código Civil;   e) determino o prosseguimento dos atos executivos em face dos executados Gustavo Lisboa Paixão e Max Crédito Empresa Simples de Crédito Ltda., devendo a Secretaria Judiciária proceder à imediata retificação do polo passivo no sistema processual;   f) intime-se a exequente MM Gestão de Créditos Ltda. para, no prazo de 5 (cinco) dias, apresentar demonstrativo atualizado do débito e indicar bens dos executados Gustavo Lisboa Paixão e Max Crédito Empresa Simples de Crédito Ltda. passíveis de penhora.   Publique-se e intimem-se.   Nas razões recursais, a agravante sustenta, de início, a não configuração dos requisitos para a desconsideração da personalidade jurídica. Alega que a decisão se baseou em presunções, como a mera identidade de sócios e o compartilhamento de endereço, o que, segundo o art. 50, §4º, do Código Civil e a jurisprudência do STJ, não autoriza a medida.   Afirma a inexistência de confusão patrimonial. Aponta que as transferências financeiras entre as empresas, no valor de R$ 192.935,98, representam apenas 0,7% do volume total debitado da conta da devedora no período. Tal percentual seria insignificante e enquadrar-se-ia na ressalva do art. 50, §2º, II, do Código Civil, não caracterizando o uso da agravante como \"conta de passagem\".   Justifica que as procurações outorgadas por um sócio a seus familiares, em maio de 2020, decorreram de situação emergencial e humanitária, pois ele se encontrava em estado grave de saúde (COVID-19), internado em UTI. Refuta, assim, a tese de gestão unificada, argumentando que não há prova de que tais mandatos foram efetivamente usados para fins fraudulentos.   Aduz que a empresa devedora principal é solvente, conforme atestado em Laudo de Constatação Prévia no âmbito da sua Recuperação Judicial. O laudo aponta crescimento do ativo total de R$ 4,9 milhões para R$ 17,7 milhões e faturamento superior a R$ 20 milhões em 2024, com índice de liquidez geral superior a 1,0, o que afastaria a premissa de esvaziamento patrimonial.   Por fim, alega violação ao art. 6º-C da Lei nº 11.101/2005, que veda a responsabilização de terceiros pelo simples inadimplemento de obrigações de empresa em recuperação judicial, ressaltando que o crédito exequendo foi devidamente arrolado no processo de soerguimento da devedora principal.   Pede, assim, a concessão de efeito suspensivo para obstar quaisquer atos de constrição patrimonial em seu desfavor e que, ao final, seja definitivamente provido o agravo de instrumento para reformar a decisão agravada, julgando improcedente o pedido de desconsideração de sua personalidade jurídica.   Remetidos os autos a este Tribunal e distribuídos a esta Segunda Câmara Cível, coube-me, por sorteio, o encargo de relatá-los.    É o sucinto relatório.   I. DO JUÍZO DE ADMISSIBILIDADE   Em análise perfunctória dos autos, própria deste momento processual, verifico que o recurso preenche os pressupostos de admissibilidade.   O cabimento do Agravo de Instrumento é manifesto, pois a insurgência volta-se contra decisão que versou sobre incidente de desconsideração da personalidade jurídica, hipótese expressamente prevista no art. 1.015, inciso IV, do Código de Processo Civil.   Quanto à tempestividade, a publicação da decisão agravada ocorreu em 15/07/2026, iniciando-se o prazo no primeiro dia útil subsequente. O presente recurso foi interposto em 05/08/2026. Portanto, a interposição ocorreu dentro do prazo legal de 15 (quinze) dias úteis, conforme o disposto nos artigos 219 e 1.003, § 5º, do CPC.   O preparo recursal foi devidamente comprovado, com a juntada do Documento de Arrecadação Judicial e Extrajudicial (DAJE) e do respectivo comprovante de pagamento.   Por fim, a petição recursal atende à regularidade formal, estando instruída com as peças obrigatórias e essenciais à compreensão da controvérsia, em conformidade com os artigos 1.016 e 1.017 do CPC.   Presentes os pressupostos de admissibilidade, conheço do recurso e passo à análise do pedido liminar.   II. DO PEDIDO DE EFEITO SUSPENSIVO   Ao tratar do recurso de Agravo de Instrumento, o Código de Processo Civil, I, do art. 1.019, faculta ao Relator atribuir efeito suspensivo ao recurso, bem como deferir a antecipação da tutela recursal, total ou parcial:   Art. 1.019. Recebido o agravo de instrumento no tribunal e distribuído imediatamente, se não for o caso de aplicação do art. 932, inciso III e IV, o relator, no prazo de 5 (cinco) dias:   I - poderá atribuir efeito suspensivo ao recurso ou deferir, em antecipação de tutela, total ou parcial, a pretensão recursal, comunicando ao juiz sua decisão;    Para que seja possível o deferimento da antecipação dos efeitos da tutela o legislador estabeleceu que devem estar presentes elementos que evidenciem a probabilidade do direito e o perigo de dano ou o risco ao resultado útil do processo, nos termos do art. 300, caput, do CPC de 2015:   Art. 300. A tutela de urgência será concedida quando houver elementos que evidenciem a probabilidade do direito e o perigo de dano ou o risco ao resultado útil do processo.   Logo, na sistemática processual, para a concessão do efeito suspensivo ao recurso de agravo de instrumento, ou mesmo para o deferimento da antecipação da tutela recursal, é necessário ao relator aferir a presença inequívoca do fumus boni iuris (fumaça do bom direito) e do periculum in mora (perigo da demora).    Destarte, no que tange à fumaça do bom direito, esta é representada pelo convencimento que se firma no julgador de que a alegação que lhe é submetida à apreciação se revela verossímil, ou seja, que a lógica da narrativa leva à conclusão, ao menos inicial e num juízo típico de cognição sumária, de que o quanto aduzido pela parte representa um direito que a ele assiste e que deve ser amparado, normalmente por medidas dotadas do caráter de urgência e de cautela.   O ponto central do presente Agravo de Instrumento consiste em verificar se a decisão que acolheu o incidente de desconsideração da personalidade jurídica da empresa executada, para incluir a Agravante no polo passivo da execução, observou os estritos requisitos legais.   Da análise perfunctória dos autos, própria deste momento processual, verifico que estão presentes os requisitos autorizadores para a concessão da medida liminar pleiteada.   A personalidade jurídica é um pilar do direito empresarial, conferindo autonomia patrimonial à empresa e estimulando a atividade econômica. A sua desconsideração, ou disregard doctrine, é medida excepcionalíssima, aplicável apenas quando a autonomia da pessoa jurídica é utilizada de forma abusiva, para fins fraudulentos ou ilícitos. A Lei da Liberdade Econômica (Lei nº 13.874/2019) reforçou essa excepcionalidade, alterando o art. 50 do Código Civil para exigir a prova inequívoca do abuso da personalidade, caracterizado pelo desvio de finalidade ou pela confusão patrimonial.   In casu, a Agravante logrou êxito em apresentar uma narrativa coesa e amparada em documentos que, à primeira vista, fragilizam os fundamentos da decisão agravada, evidenciando a presença do fumus boni iuris. A análise se sustenta em três pilares.   Primeiro, no que tange à confusão patrimonial, a Agravante contrapõe a alegação de \"transferências vultosas\" com uma análise quantitativa baseada nos extratos bancários da devedora (ID 112585798). Demonstra que o montante transferido (R$ 192.935,98) equivale a apenas 0,7% do fluxo total de débitos da conta no período (R$ 27.690.241,20). Este percentual, de fato, parece coadunar-se com a ressalva legal de \"valor proporcionalmente insignificante\" (art. 50, § 2º, II, CC), afastando a presunção de um esvaziamento patrimonial relevante.   Segundo, quanto ao desvio de finalidade presumido pela gestão sobreposta, a Agravante oferece uma justificativa plausível para a outorga de procurações. Os relatórios médicos (IDs 112585791 e 112585796) atestam que o sócio Gustavo Lisboa Paixão esteve internado em UTI entre 22 de maio e 16 de junho de 2020. A procuração questionada foi outorgada em 02 de julho de 2020. A contemporaneidade entre a emergência médica e o ato notarial confere elevada verossimilhança à tese de que os mandatos foram um ato de necessidade para a gestão dos negócios durante a recuperação do sócio, e não um instrumento para a prática de fraudes.   Por fim, o fundamento mais robusto do recurso é a prova da solvência e capacidade operacional da devedora, atestada pelo Laudo de Constatação Prévia (ID 112585162). O laudo, elaborado por um Administrador Judicial imparcial, demonstra que o ativo da Brascoco cresceu de R$ 4,9 milhões para R$ 17,7 milhões entre 2021 e 2024, mantendo um índice de liquidez geral positivo (1,14). Uma empresa que cresce e se mostra operacional e solvente a ponto de ter sua recuperação judicial deferida não se amolda ao perfil de entidade \"esvaziada\" para lesar credores.   A tese adotada neste juízo preliminar encontra amparo na jurisprudência recente do Superior Tribunal de Justiça, que tem reiteradamente exigido prova robusta e inequívoca do abuso para a aplicação da medida extrema, não bastando a mera existência de grupo econômico de fato. Nesse sentido:   RECURSO ESPECIAL. CIVIL. INCIDENTE DE DESCONSIDERAÇÃO DA PERSONALIDADE JURÍDICA. MÉRITO. ART. 50, § 4º, DO CÓDIGO CIVIL. GRUPO ECONÔMICO. INSUFICIÊNCIA. SOLIDARIEDADE PASSIVA. INEXISTÊNCIA. 1. A controvérsia dos autos resume-se em definir se a existência de grupo econômico é suficiente para ao deferimento do pedido de desconsideração da personalidade jurídica. 2. O simples fato de sociedades empresárias integrarem o mesmo grupo econômico não autoriza a atribuição de responsabilidade solidária ou a desconsideração da autonomia patrimonial, exceto quando presentes os pressupostos do art. 50, caput, do Código Civil. 3. Como a verificação da presença dos requisitos do art. 50 do Código Civil demanda o revolvimento de aspectos fáticos da causa, inviável no âmbito dessa instância especial, há necessidade de retorno dos autos à origem para que, superada essa questão, aplique o entendimento jurisprudencial desta Corte à espécie. 4. Recurso especial provido. (STJ - REsp: 2180804 SP 2024/0418814-2, Relator: Ministro RICARDO VILLAS BÔAS CUEVA, Data de Julgamento: 17/02/2025, T3 - TERCEIRA TURMA, Data de Publicação: DJEN 21/02/2025)    O periculum in mora, por sua vez, é cristalino. A manutenção da decisão implica a sujeição imediata da Agravante a atos de constrição em uma execução de valor elevado, com potencial para paralisar seu capital de giro e comprometer a continuidade de suas atividades, configurando dano grave e de difícil reparação.   III - DISPOSTIVO   Em razão de todo exposto, CONHEÇO o recurso e DEFIRO O PEDIDO DE ATRIBUIÇÃO DE EFEITO SUSPENSIVO ao presente Agravo de Instrumento para sustar os efeitos da decisão de ID 568626689, proferida pelo Juízo da 4ª Vara Cível e Comercial da Comarca de Salvador, especificamente no que tange à inclusão da Agravante, MAX CRÉDITO EMPRESA SIMPLES DE CRÉDITO LTDA, no polo passivo da Execução de Título Extrajudicial nº 8193604-29.2024.8.05.0001, e a quaisquer atos de constrição dela decorrentes, até o julgamento final deste recurso.   Oficie-se ao MM. Juízo de origem, COM URGÊNCIA, sobre o teor dessa decisão, para o devido cumprimento.   Intime-se o agravado para que, querendo, apresente contrarrazões ao recurso, no prazo de 15 (quinze) dias.   Com o escopo de garantir a efetividade e celeridade processual, atribuo força de mandado/ofício ao presente pronunciamento judicial, incluindo a possibilidade da Secretaria realizar as notificações e intimações por meio eletrônico, notadamente na hipótese dos processos submetidos ao Juízo 100% digital, conforme os termos do ato conjunto nº 07/2022.   Publique-se. Intimem-se. Cumpra-se.    Salvador, DATADO E ASSINADO ELETRONICAMENTE.      MARTA MOREIRA SANTANA Juíza Substituta de 2º Grau Relatora    ",
+    "data": "2026-08-10",
+    "valor_causa": 967092.93,
+    "keywords_cessao_fortes": [
+      "cessionária"
+    ],
+    "keywords_cessao_fracas": [
+      "cedente"
+    ],
+    "keywords_rj": [
+      "recuperação judicial",
+      "administrador judicial",
+      "lei nº 11.101",
+      "em recuperação judicial"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJBA\\2026-08\\2026-08-10\\matches_2026-08-10.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "media",
+        "resumo": "Habilitação de MM Gestão de Créditos Ltda. como cessionária em execução contra empresa em recuperação judicial, com sucessão processual reconhecida.",
+        "cedente": null,
+        "cessionario": "MM Gestão de Créditos Ltda.",
+        "valor": null,
+        "classe_credito": "outro",
+        "cnj_rj": null,
+        "recuperanda": "Indústria Brascoco de Alimentos Ltda.",
+        "motivo_classificacao": "Reconhecimento judicial de sucessão processual da cessionária institucional em execução contra empresa em RJ, configurando cessão concursal relevante.",
+        "descoberto_em": "2026-08-13"
+      }
+    ]
+  },
+  {
+    "id": 689535677,
+    "cnj": "8000846-87.2022.8.05.0164",
+    "classe": "HABILITAçãO",
+    "orgao": "V DOS FEITOS DE REL DE CONS CIV E COMERCIAIS DE MATA DE SÃO JOÃO",
+    "destinatarios": [
+      "BANCO DO BRASIL S/A",
+      "JARVIS CLAY COSTA RODRIGUES REGISTRADO(A) CIVILMENTE COMO JARVIS CLAY COSTA RODRIGUES",
+      "B B FERTIL INDUSTRIA E COMERCIO DE BIG BAGS LTDA",
+      "CATA TECIDOS E EMBALAGENS INDUSTRIAIS LIMITADA",
+      "CD - EMBALAGENS LTDA",
+      "CONTENE LTDA",
+      "JOSE ARNALDO VIANNA CIONE FILHO",
+      "LEANDRO MARQUES PIMENTA",
+      "LUIZ JOSE PIMENTA",
+      "MATHEUS INACIO DE CARVALHO",
+      "MILTON LIMA DE OLIVEIRA",
+      "PRISCILA SACRAMENTO AMORIM REGISTRADO(A) CIVILMENTE COMO PRISCILA SACRAMENTO AMORIM",
+      "SPIN SOCIEDADE, PARTICIPACOES E INVESTIMENTOS LTDA"
+    ],
+    "link": "https://pje.tjba.jus.br/pje/Processo/ConsultaDocumento/listView.seam?x=26080511064930700000544761012",
+    "texto_completo": "PODER JUDICIÁRIO TRIBUNAL  DE JUSTIÇA DO ESTADO DA BAHIA   V DOS FEITOS DE REL DE CONS CIV E COMERCIAIS DE MATA DE SÃO JOÃO       Processo: HABILITAÇÃO n. 8000846-87.2022.8.05.0164   Órgão Julgador: V DOS FEITOS DE REL DE CONS CIV E COMERCIAIS DE MATA DE SÃO JOÃO   REQUERENTE: BANCO DO BRASIL S/A   Advogado(s): JARVIS CLAY COSTA RODRIGUES registrado(a) civilmente como JARVIS CLAY COSTA RODRIGUES (OAB:BA20451)   REQUERIDO: CATA TECIDOS E EMBALAGENS INDUSTRIAIS LIMITADA e outros (5)   Advogado(s): MATHEUS INACIO DE CARVALHO (OAB:SP248577), JOSE ARNALDO VIANNA CIONE FILHO (OAB:SP160976), PRISCILA SACRAMENTO AMORIM registrado(a) civilmente como PRISCILA SACRAMENTO AMORIM (OAB:BA47327), MILTON LIMA DE OLIVEIRA (OAB:BA13655), LEANDRO MARQUES PIMENTA (OAB:BA31905)         DESPACHO       Intimem-se as empresas Recuperandas para que, no prazo de 5 (cinco) dias, manifestem-se acerca do pedido de sucessão processual formulado por BLACKPARTNERS MIRUNA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS em razão da cessão de crédito informada no ID 429643046, nos termos do art. 109, § 1º, do Código de Processo Civil. Cumpra-se. Mata de São João/BA, datado eletronicamente.    CARLOS EDUARDO DA SILVA LIMONGE Juiz de Direito Núcleo de Saneamento - Decreto Judiciário nº 596/2026  ",
+    "data": "2026-08-06",
+    "valor_causa": 395743.61,
+    "keywords_cessao_fortes": [
+      "cessão de crédito"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "recuperanda"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJBA\\2026-08\\2026-08-06\\matches_2026-08-06.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Pedido de sucessão processual por fundo de investimento em direitos creditórios em processo de recuperação judicial.",
+        "cedente": null,
+        "cessionario": "BLACKPARTNERS MIRUNA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS",
+        "valor": null,
+        "classe_credito": null,
+        "cnj_rj": null,
+        "recuperanda": "CATA TECIDOS E EMBALAGENS INDUSTRIAIS LIMITADA",
+        "motivo_classificacao": "Fundo de investimento adquiriu crédito em processo de recuperação judicial e requereu sucessão processual.",
+        "descoberto_em": "2026-08-13"
+      }
+    ]
+  },
+  {
+    "id": 689649081,
+    "cnj": "8099372-88.2025.8.05.0001",
+    "classe": "IMPUGNAçãO DE CRéDITO",
+    "orgao": "2ª V EMPRESARIAL DE SALVADOR",
+    "destinatarios": [
+      "CAMILA ABOUD GOMES",
+      "INDUSTRIA BRASCOCO DE ALIMENTOS LTDA",
+      "TAIS RIBEIRO GALVAO DE MORAES",
+      "BANCO SAFRA S A",
+      "MARIA RITA SOBRAL GUZZO",
+      "PAULO CESAR GUZZO REGISTRADO(A) CIVILMENTE COMO PAULO CESAR GUZZO",
+      "CASTRO OLIVEIRA ADVOGADOS",
+      "MINISTéRIO PúBLICO DO ESTADO DA BAHIA",
+      "RODRIGO RIBEIRO ACCIOLY REGISTRADO(A) CIVILMENTE COMO RODRIGO RIBEIRO ACCIOLY"
+    ],
+    "link": "https://pje.tjba.jus.br/pje/Processo/ConsultaDocumento/listView.seam?x=26080417245136200000544428389",
+    "texto_completo": "PODER JUDICIÁRIO TRIBUNAL  DE JUSTIÇA DO ESTADO DA BAHIA   2ª V EMPRESARIAL DE SALVADOR       Processo: IMPUGNAÇÃO DE CRÉDITO n. 8099372-88.2025.8.05.0001   Órgão Julgador: 2ª V EMPRESARIAL DE SALVADOR   IMPUGNANTE: INDUSTRIA BRASCOCO DE ALIMENTOS LTDA   Advogado(s): TAIS RIBEIRO GALVAO DE MORAES (OAB:BA62061), CAMILA ABOUD GOMES (OAB:BA51433)   IMPUGNADO: BANCO SAFRA S A   Advogado(s): MARIA RITA SOBRAL GUZZO (OAB:SP142246), PAULO CESAR GUZZO registrado(a) civilmente como PAULO CESAR GUZZO (OAB:SP192487)         SENTENÇA         Trata-se de Impugnação de Crédito ajuizada por Indústria BRASCOCO DE ALIMENTOS LTDA em face da relação de credores apresentada nos autos da sua Recuperação Judicial (processo principal n. 8154317-59.2024.8.05.0001), questionando a classificação e o montante do crédito de titularidade do BANCO SAFRA S/A.   Na petição inicial (Id 503916562), a Recuperanda/Impugnante reconheceu a existência de dívida originada da Cédula de Crédito Bancário (CCB) n. 005445689, firmada no valor nominal de R$ 1.100.000,00. Contudo, sustentou que o crédito arrolado pela Administração Judicial - qual seja, R$ 119.527,16 classificado como extraconcursal (decorrente de garantia fiduciária de 10%) e R$ 1.075.744,47 classificado como concursal quirografário (Classe III) - encontra-se incorreto.   Argumentou a Impugnante que, após o ajuizamento do pedido de recuperação judicial (ocorrido em 22/10/2024), o Banco Impugnado procedeu à apropriação integral das garantias fiduciárias vinculadas ao contrato, promovendo o resgate de aplicações em CDBs e a retenção de recebíveis da conta vinculada nos meses de novembro de 2024, perfazendo o montante total de R$ 222.313,78 amortizados. Defendeu que, diante do esvaziamento e da execução prévia dessas garantias pelo credor, não subsiste qualquer garantia fiduciária sobre o crédito remanescente, devendo a totalidade do saldo devedor ser submetida aos efeitos da recuperação judicial como crédito quirografário.   Ademais, apontou erro no cálculo do saldo devedor realizado pelo credor quanto às parcelas com vencimento em 30/09/2024 e 30/10/2024, afirmando que os valores cobrados (R$ 48.931,24 cada) divergem do quanto expressamente contratado (R$ 18.191,49 e R$ 17.600,00, respectivamente). Diante de tais correções e abatimentos, requereu a procedência do incidente para declarar o saldo devedor da CCB n. 005445689 no montante retificado de R$ 910.032,16, classificado integralmente como crédito quirografário. Com a inicial, juntou procuração, guias de recolhimento de custas e documentos (Ids 503916564 a 503916574).   Devidamente intimado, o BANCO SAFRA S/A apresentou contestação (Id 508277779), alegando que o débito atualizado da operação até a data do pedido de recuperação judicial (22/10/2024) perfez o montante de R$ 1.195.296,00. Sustentou a higidez da extraconcursalidade da parcela de 10% coberta pela cessão fiduciária pactuada (R$ 119.527,16), ressaltando que o eventual esvaziamento ou apropriação posterior das garantias não descaracteriza a natureza extraconcursal da parcela garantida na data do pedido. Asseverou, ainda, a inadequação da via da impugnação de crédito para promover revisão contratual ou rediscussão de critérios de cálculo e encargos, pugnando pela improcedência do incidente e manutenção do quadro elaborado pelo Administrador Judicial. Juntou procuração e documentos (Ids 508277800 a 508281869).   O Administrador Judicial manifestou-se no Id 519027872. Destacou que o marco legal insuperável para a consolidação do valor e da classificação do crédito é a data do pedido da recuperação judicial (22/10/2024), sendo irrelevantes para a fixação do quadro de credores as movimentações, resgates ou amortizações ocorridos em momento posterior. Asseverou que a cessão fiduciária regularmente constituída antes do ajuizamento mantém o caráter extraconcursal da fração garantida, independentemente de liquidação superveniente. Salientou, por fim, a natureza declaratória do incidente, inadequado para a discussão de revisão de cláusulas ou encargos contratuais, opinando pela improcedência da impugnação e manutenção do crédito no valor extraconcursal de R$ 119.527,16 e concursal quirografário de R$ 1.075.744,47.   A Impugnante apresentou réplica no Id 539178591, reiterando a tese de que o exaurimento da garantia fiduciária mediante apropriação pelo credor retira a proteção extraconcursal do saldo remanescente, insistindo na retificação dos cálculos e no reconhecimento do crédito quirografário pelo valor de R$ 910.032,16.   O Ministério Público ofereceu parecer final no Id 551515027, opinando pela improcedência da impugnação de crédito, fundamentando que a pretensão da Recuperanda envolve complexa revisão de cálculos e critérios de amortização contratual, matéria incompatível com a cognição sumária e de natureza estritamente declaratória do incidente de impugnação de crédito.   Vieram os autos conclusos.   É o relatório. Decido.   A controvérsia vertida nos autos cinge-se a dois pontos fundamentais: a) a possibilidade de alteração da classificação e do montante do crédito em razão de amortizações/resgates de garantias fiduciárias efetuados pelo credor em momento posterior ao ajuizamento da recuperação judicial; e b) a viabilidade de retificação do valor do saldo devedor contratual no âmbito do presente incidente processual.   De início, insta consignar a regra insculpida no art. 49, caput, da Lei n. 11.101/2005, a qual estabelece que estão sujeitos à recuperação judicial todos os créditos existentes na data do pedido, ainda que não vencidos. Por corolário lógico e normativo, a data do ajuizamento do pedido de recuperação judicial (no caso vertente, 22/10/2024) constitui o marco temporal para a fixação do valor, da liquidez e da classificação de todos os créditos submetidos ou não ao processo de soerguimento.   No tocante às garantias fiduciárias, o art. 49, § 3º, da Lei n. 11.101/2005 preconiza categoricamente que o crédito detido pelo proprietário fiduciário de bens móveis ou imóveis, ou titular de cessão fiduciária de direitos creditórios e títulos de crédito, não se submete aos efeitos da recuperação judicial, prevalecendo os direitos de propriedade sobre a coisa e as condições contratuais pactuadas.   Na espécie, resta incontroverso que a Cédula de Crédito Bancário n. 005445689 possui garantia de cessão fiduciária regularmente pactuada, cobrindo o patamar de 10% (dez por cento) do saldo devedor atualizado da operação.   Nessa linha de inteleção, a pretensão da Impugnante de desconsiderar a extraconcursalidade da parcela garantida e abater do crédito concursal os valores correspondentes a resgates de CDBs e retenções de recebíveis promovidos pelo Banco em novembro de 2024 não merece acolhida.  Isso porque as apropriações e liquidações efetuadas pelo credor fiduciário após a data do pedido de recuperação judicial (22/10/2024) representam o próprio exercício dos direitos decorrentes da propriedade fiduciária sobre as garantias extraconcursais que lhe pertenciam juridicamente.    Nessa senda, admitir que o exercício da garantia fiduciária pós-ajuizamento desfigure a extraconcursalidade originária ou reduza proporcionalmente o crédito concursal já consolidado violaria a estabilidade do quadro-geral de credores e o regramento do art. 49, caput e § 3º, da LREF.    Nesse sentido, quanto à extraconcursalidade decorrente do contrato de cessão fiduciária e à irrelevância de intercorrências posteriores para desnaturar a garantia constituída antes do pedido de soerguimento, pronuncia-se o STJ:   DIREITO EMPRESARIAL E PROCESSUAL CIVIL. RECURSO ESPECIAL. RECUPERAÇÃO JUDICIAL. CESSÃO FIDUCIÁRIA DE DIREITOS CREDITÓRIOS. EXTENSÃO DA GARANTIA FIDUCIÁRIA A CRÉDITOS PERFORMADOS APÓS O PEDIDO DE RECUPERAÇÃO. NATUREZA EXTRACONCURSAL DOS CRÉDITOS. INEXISTÊNCIA DE DIVERGÊNCIA JURISPRUDENCIAL. APLICAÇÃO DA SÚMULA N. 83 DO STJ. RECURSO NÃO CONHECIDO. 1. O Superior Tribunal de Justiça entende que os créditos garantidos por cessão fiduciária de direitos creditórios são extraconcursais e não se submetem aos efeitos da recuperação judicial, nos termos do art. 49, § 3º, da Lei n. 11.101/2005. 2. A cessão fiduciária transfere a titularidade dos créditos ao cessionário desde a contratação, bastando o cumprimento dos requisitos previstos no art. 66-B da Lei do Mercado de Capitais e no art. 18 da Lei n. 9.514/1997, o que caracteriza a propriedade fiduciária e afasta o crédito do regime recuperacional. 3. A jurisprudência consolidada do STJ reforça que o momento da performação do crédito é irrelevante para fins de submissão aos efeitos da recuperação judicial. 4. O recurso especial, quanto à alegada divergência jurisprudencial, não apresentou o necessário cotejo analítico nem demonstrou similitude fática, inviabilizando sua análise, nos termos do art. 1.029, § 1º, do CPC e do art. 255, § 1º, do RISTJ. 5. Aplica-se a Súmula n. 83 do STJ, que impede o conhecimento do recurso especial quando a decisão recorrida está em consonância com a jurisprudência consolidada da Corte, independentemente do fundamento invocado. 6. Recurso não conhecido. (REsp n. 2.127.857/SP, relator Ministro João Otávio de Noronha, Quarta Turma, julgado em 24/3/2025, DJEN de 28/3/2025.)   Sendo assim, correta a conduta da Administração Judicial ao isolar a fração de 10% correspondente à garantia fiduciária no montante de R$ 119.527,16 como crédito extraconcursal, mantendo o saldo remanescente apurado na data do pedido sob a disciplina concursal.    Salienta-se que eventuais amortizações, saques ou apropriações levadas a efeito após o marco do ajuizamento (22/10/2024) devem ser equacionadas e abatidas na execução própria da parcela extraconcursal ou no cumprimento do plano recuperacional, mas não alteram a natureza jurídica e o montante fixado no momento da instauração da recuperação judicial.   De outra parte, quanto ao questionamento formulado pela Impugnante referente ao valor das parcelas de setembro e outubro de 2024 e ao recálculo do saldo devedor total, alinho-me ao entendimento expendido pelo Administrador Judicial e pelo Ministério Público.   O incidente de impugnação de crédito possui natureza declaratória, destinando-se tão somente a averiguar a existência, a quantificação e a classificação do crédito com base nos títulos existentes na data do pedido de recuperação. Portanto, não se presta o presente incidente como sucedâneo de ação revisional de contrato ou ação anulatória, sendo descabida a discussão aprofundada sobre critérios de evolução do débito, cobrança de encargos ou supostas abusividades contratuais que exijam readequação da avença.   Destarte, os cálculos apresentados pela Administração Judicial refletem com precisão a posição contábil do contrato na data do pedido da recuperação judicial (22/10/2024), devendo ser preservados a classificação e os montantes arrolados no edital do artigo 7º, § 2º, da Lei n. 11.101/2005.   Ante o exposto, com fundamento no art. 49, caput e § 3º, da Lei n. 11.101/2005, e no art. 487, I, do CPC, JULGO IMPROCEDENTE a presente Impugnação de Crédito.   Em consequência, mantenho inalterada a classificação do crédito titularizado pelo BANCO SAFRA S/A decorrente da Cédula de Crédito Bancário n. 005445689 no Quadro Geral de Credores, conforme apurado pelo Administrador Judicial na 2ª lista de credores (art. 7º, § 2º, da LREF).   Isento de custas (Id 504852568).   Publique-se. Intimem-se.    Ciência ao MP.   Considerando o princípio da causalidade, condeno a Impugnante ao pagamento de honorários advocatícios no importe de 10% (dez por cento) do valor da causa atualizado.   Sem recursos, certifique-se o trânsito em julgado e, adotadas as cautelas de praxe, arquivem-se os autos com baixa na Distribuição.   Diligências necessárias.   Salvador/BA, data registrada no sistema.     João Paulo da Silva Antal Juiz de Direito Documento assinado eletronicamente     bcs      ",
+    "data": "2026-08-06",
+    "valor_causa": 1000.0,
+    "keywords_cessao_fortes": [
+      "cessionário"
+    ],
+    "keywords_cessao_fracas": [
+      "cedente"
+    ],
+    "keywords_rj": [
+      "recuperação judicial",
+      "quadro geral de credores",
+      "administrador judicial",
+      "crédito concursal",
+      "recuperanda",
+      "crédito extraconcursal"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJBA\\2026-08\\2026-08-06\\matches_2026-08-06.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "extraconcursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Decisão confirma crédito extraconcursal de 10% garantido por cessão fiduciária de direitos creditórios em recuperação judicial, mantido pelo Banco Safra S/A.",
+        "cedente": "Indústria Brascoco de Alimentos Ltda",
+        "cessionario": "Banco Safra S/A",
+        "valor": "R$ 119.527,16",
+        "classe_credito": "extraconcursal",
+        "cnj_rj": "8154317-59.2024.8.05.0001",
+        "recuperanda": "Indústria Brascoco de Alimentos Ltda",
+        "motivo_classificacao": "Cessão fiduciária de crédito garantido antes do pedido de recuperação judicial, mantida como extraconcursal conforme art. 49, §3º da Lei 11.101/2005 e jurisprudência do STJ.",
+        "descoberto_em": "2026-08-13"
+      }
+    ]
+  },
+  {
+    "id": 688356844,
+    "cnj": "8005457-82.2026.8.05.0022",
+    "classe": "EMBARGOS à EXECUçãO",
+    "orgao": "3ª V DOS FEITOS DE REL DE CONS CIV E COMERCIAIS DE BARREIRAS",
+    "destinatarios": [
+      "FRIBARREIRAS AGRO INDUSTRIAL DE ALIMENTOS EIRELI",
+      "WALMOR DE ARAUJO BAVAROTI",
+      "FATTOR FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS",
+      "FELIPE DO CANTO ZAGO",
+      "JOSE RENATO CAMILOTTI"
+    ],
+    "link": "https://pje.tjba.jus.br/pje/Processo/ConsultaDocumento/listView.seam?x=26080411141099000000536218890",
+    "texto_completo": "PODER JUDICIÁRIO TRIBUNAL DE JUSTIÇA DO ESTADO DA BAHIA 3ª Vara de Feitos de Relações de Consumo, Cível, Comerciais e de Registros Públicos da Comarca de Barreiras Fórum Tarcilo Vieira de Melo, Rua Aníbal Alves Barbosa, s/n - 2ºandar, Centro - CEP 47800-163, Barreiras/BA, Tel. (77) 3614-3634, e-mail: barreiras3vcivel@tjba.jus.br  DECISÃO INTERLOCUTÓRIA  PROCESSO: 8005457-82.2026.8.05.0022 CLASSE: EMBARGOS À EXECUÇÃO (172) / [Efeito Suspensivo / Impugnação / Embargos à Execução] AUTOR: FRIBARREIRAS AGRO INDUSTRIAL DE ALIMENTOS EIRELI RÉU: FATTOR FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS    Vistos, etc.  Atuo nos autos em virtude da Decisão proferida no processo nº 0001759-62.2025.2.00.0805, publicada no DJE nº 3933, no dia 18/11/2025.  Trata-se de Embargos à Execução, com pedido de atribuição de efeito suspensivo, opostos por FRIBARREIRAS AGROINDUSTRIAL DE ALIMENTOS EIRELI (EM RECUPERAÇÃO JUDICIAL) em face da ação executiva tombada sob o nº 8002313-03.2026.8.05.0022, movida por FATTOR FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS. Em sua exordial (ID 561174218), a Embargante sustenta, preliminarmente: (i) a nulidade da execução por ausência de certeza, liquidez e exigibilidade, ante a inexistência de cadeia de procurações e atos constitutivos aptos a validar a cessão de crédito celebrada entre a Embargada e a empresa cedente (J. A. Gomes Comércio Atacadista); (ii) a ineficácia da cessão em relação ao devedor por ausência de notificação válida, nos termos do art. 290 do Código Civil; (iii) a inépcia da inicial executiva por falta de lastro probatório mínimo; e (iv) a ausência de executividade das duplicatas mercantis, as quais estariam desprovidas de aceite, de prova de entrega das mercadorias e de instrumento de protesto regular. No mérito, aduz que a cobrança se baseia em notas fiscais emitidas unilateralmente, sem nexo causal com qualquer negócio jurídico subjacente. Aponta, ainda, excesso de execução e divergência nos valores cobrados. Pugnou pela concessão de efeito suspensivo aos embargos, independentemente de garantia do juízo, sob o argumento de que a empresa se encontra em processo de recuperação judicial (nº 8000749-33.2019.8.05.0022) e que atos constritivos poderiam inviabilizar o plano de soerguimento econômico. Inicialmente, este Juízo determinou a comprovação do recolhimento das custas (ID 561179051). A parte opôs Embargos de Declaração (ID 562155109) pleiteando o parcelamento das custas, contudo, posteriormente, promoveu o recolhimento integral do preparo (ID 562758681 e ID 562758682). Vieram os autos conclusos. É o breve relatório.   Fundamento e Decido. 2. FUNDAMENTAÇÃO 2.1. Da Admissibilidade e do Preparo Compulsando os autos, verifica-se que a Embargante, apesar de ter inicialmente pleiteado o parcelamento das custas processuais via aclaratórios, procedeu ao recolhimento integral das custas iniciais e das despesas de citação, conforme comprovantes juntados no (ID 562758681) e (ID 562758682). Desta forma, restam preenchidos os pressupostos processuais de admissibilidade, restando prejudicada a análise dos Embargos de Declaração de (ID 562155109) pela perda superveniente do objeto quanto ao pedido de parcelamento. 2.2. Do Efeito Suspensivo A regra geral insculpida no art. 919, caput, do Código de Processo Civil, estabelece que os embargos à execução não possuem, efeito suspensivo. Contudo, o § 1º do referido dispositivo autoriza o magistrado a atribuir tal eficácia quando, mediante requerimento do embargante, restarem demonstrados os requisitos para a concessão da tutela de urgência e a execução já estiver garantida por penhora, depósito ou caução suficientes. No caso sub examine, a análise perfunctória das alegações e dos documentos colacionados revela a presença da probabilidade do direito (fumus boni iuris). A Embargante sustenta que a execução se funda em duplicatas mercantis sem aceite. Nos termos do art. 15, inciso II, da Lei nº 5.474/1968, a executividade da duplicata não aceita é condicionada, cumulativamente, ao protesto do título e à prova da efetiva entrega e recebimento da mercadoria. Consta da petição inicial (ID 561174218) a afirmação de que tais requisitos não foram atendidos pela Embargada na ação principal. A ausência de comprovação imediata do lastro causal do título de crédito, que possui natureza causal, retira-lhe, a princípio, a força executiva, amoldando-se à hipótese de nulidade prevista no art. 803, inciso I, do CPC. Quanto ao perigo de dano (periculum in mora), este é manifesto e de natureza grave. A Embargante é empresa em processo de Recuperação Judicial, conforme demonstra o estatuto social e a procuração acostados no (ID 561174222) e (ID 561174226). O prosseguimento de atos expropriatórios, tais como bloqueios de ativos financeiros via SISBAJUD ou penhora de bens essenciais à atividade produtiva, possui o condão de comprometer o fluxo de caixa necessário ao cumprimento do Plano de Recuperação Judicial, podendo levar à convolação em falência e ao consequente prejuízo à coletividade de credores e à função social da empresa. No tocante à garantia do juízo, requisito previsto na parte final do § 1º do art. 919 do CPC, a doutrina e a prática processual moderna admitem a sua mitigação em situações excepcionais. No caso de empresas em regime de recuperação judicial, a exigência de garantia integral do juízo como condição para a suspensão da execução pode configurar barreira intransponível ao exercício do direito de defesa e ao próprio princípio da preservação da empresa (art. 47 da Lei nº 11.101/2005). Considerando que a discussão travada nos presentes embargos versa sobre a própria higidez do título executivo (matéria de ordem pública) e que a constrição patrimonial imediata apresenta risco de dano irreversível à solvabilidade da Embargante em soerguimento, entendo prudente e razoável a dispensa da garantia para fins de concessão do efeito suspensivo, sob o prisma do poder geral de cautela e da interpretação sistemática do ordenamento jurídico. A suspensão da execução é medida que se impõe para evitar o esvaziamento do patrimônio da devedora antes que se decida sobre a existência e a exigibilidade do crédito perseguido, especialmente diante das graves alegações de ausência de protesto e de prova de entrega das mercadorias. 3. DISPOSITIVO Ante o exposto: 3.1. RECEBO OS EMBARGOS À EXECUÇÃO para discussão, com fundamento no art. 914 e seguintes do CPC, uma vez que são tempestivos e o preparo foi devidamente comprovado (ID 562758681 e ID 562758682). 3.2. ATRIBUO EFEITO SUSPENSIVO aos presentes embargos, com fulcro no art. 919, § 1º, do CPC, determinando o sobrestamento do curso da Ação de Execução nº 8002313-03.2026.8.05.0022 até o julgamento final desta lide incidental. Certifique-se o teor desta decisão nos autos da execução referida. 3.3. INTIME-SE a Embargada, por seu patrono constituído nos autos da execução, para que, no prazo de 15 (quinze) dias úteis, ofereça impugnação aos presentes embargos, nos moldes do art. 920, inciso I, do CPC. 3.4. Diante do recolhimento integral das custas, dou por prejudicado o exame dos Embargos de Declaração de (ID 562155109). 3.5. Sirva-me o presente com força de ofício/mandado/carta. Intime-se e cumpra-se. Barreiras/BA, datado e assinado digitalmente.   Antonio Marcos Tomaz MartinsJuiz de Direito em 1ª Substituição",
+    "data": "2026-08-05",
+    "valor_causa": 306066.56,
+    "keywords_cessao_fortes": [
+      "cessão de crédito"
+    ],
+    "keywords_cessao_fracas": [
+      "cedente"
+    ],
+    "keywords_rj": [
+      "recuperação judicial",
+      "plano de recuperação judicial",
+      "convolação em falência",
+      "lei nº 11.101",
+      "falência",
+      "em recuperação judicial"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJBA\\2026-08\\2026-08-05\\matches_2026-08-05.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Embargos à execução opostos por empresa em recuperação judicial contra FIDC que adquiriu crédito via cessão, discutindo validade da cessão e execução.",
+        "cedente": "J. A. Gomes Comércio Atacadista",
+        "cessionario": "FATTOR FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS",
+        "valor": null,
+        "classe_credito": "quirografário",
+        "cnj_rj": "8000749-33.2019.8.05.0022",
+        "recuperanda": "FRIBARREIRAS AGRO INDUSTRIAL DE ALIMENTOS EIRELI",
+        "motivo_classificacao": "Cessão de crédito realizada para FIDC em processo de recuperação judicial, com habilitação e discussão judicial da cessão e execução.",
+        "descoberto_em": "2026-08-13"
+      }
+    ]
+  },
+  {
+    "id": 688693964,
+    "cnj": "0532230-64.2016.8.05.0001",
+    "classe": "EXECUçãO DE TíTULO EXTRAJUDICIAL",
+    "orgao": "5ª V CÍVEL E COMERCIAL DE SALVADOR",
+    "destinatarios": [
+      "BANCO DO BRASIL S/A",
+      "LAERTES ANDRADE MUNHOZ REGISTRADO(A) CIVILMENTE COMO LAERTES ANDRADE MUNHOZ",
+      "LOUISE RAINER PEREIRA GIONEDIS",
+      "RAFAEL MACEDO DA ROCHA LOURES",
+      "RICARDO LOPES GODOY",
+      "ASA MOTO CENTER COMERCIO E SERVICOS LTDA",
+      "BRUNA RODRIGUES SANTOS COSTA",
+      "FRANCISCO DE PAULA GOMES MARTINELLI",
+      "LUCIANY GASPARINI MARTINELLI",
+      "MAURICIO BRITO PASSOS SILVA"
+    ],
+    "link": "https://pje.tjba.jus.br/pje/Processo/ConsultaDocumento/listView.seam?x=26073014475542400000543955294",
+    "texto_completo": "PODER JUDICIÁRIO DO ESTADO DA BAHIA  Comarca de Salvador 5ª Vara Cível e Comercial Rua do Tingui, s/n, Campo da Pólvora, Fórum Ruy Barbosa, Sala 125, 1º Andar, Nazaré - CEP 40040-380, Salvador-BA E-mail: salvador5vcivelcom@tjba.jus.br DESPACHO Processo nº 0532230-64.2016.8.05.0001 Classe - Assunto: EXECUÇÃO DE TÍTULO EXTRAJUDICIAL (12154) - [Pagamento, Cédula de Crédito Bancário] EXEQUENTE: BANCO DO BRASIL S/A  EXECUTADO: ASA MOTO CENTER COMERCIO E SERVICOS LTDA, FRANCISCO DE PAULA GOMES MARTINELLI, LUCIANY GASPARINI MARTINELLI       Vistos.  Compulsando os autos, verifica-se que o feito atravessa estágio de profunda alteração subjetiva e objetiva. Inicialmente, cumpre registrar a decisão (Id 541463902), que reconheceu a natureza concursal do crédito exequendo e a ocorrência de novação pelo Plano de Recuperação Judicial homologado e encerrado nos autos do processo nº 0507922-61.2016.8.05.0001, sendo determinado o imediato desbloqueio dos valores constritos via SISBAJUD em nome da executada ASA MOTO CENTER COMÉRCIO E SERVIÇOS LTDA., face à impossibilidade de cobrança do título originário contra a recuperada. No (Id 550805081), noticiou-se a cessão do crédito do Banco do Brasil S/A para o ATLÂNTICO CORPORATE FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS.  Ato contínuo, a petição (Id 567706761) informou nova cessão, desta vez do fundo Atlântico para a empresa LL2 APOIO ADMINISTRATIVO E FINANCEIRO LTDA. (CNPJ nº 24.386.868/0001-30), vindo aos autos o respectivo Termo de Cessão de Créditos (Id 567706765).  Ocorre que, em análise ao acervo probatório coligido via sistema INFOJUD, especificamente a Declaração de Ajuste Anual de Imposto de Renda do executado FRANCISCO DE PAULA GOMES MARTINELLI (Id 540619434), este Juízo constatou que o referido devedor detém a titularidade societária da empresa cessionária, LL2 APOIO ADMINISTRATIVO E FINANCEIRO LTDA., figurando como seu principal sócio e credor de vultosos empréstimos perante a própria pessoa jurídica. Diante do exposto e em observância ao princípio do contraditório e da vedação à decisão surpresa (art. 9º e 10 do CPC), determino as seguintes providências: A) Intime-se a empresa LL2 APOIO ADMINISTRATIVO E FINANCEIRO LTDA., por via postal com Aviso de Recebimento (AR) no endereço declinado (Id 567706761), para que, no prazo de 15 (quinze) dias, promova sua regular habilitação processual, instruindo o feito com procuração e atos constitutivos atualizados.  Na mesma oportunidade, deverá se manifestar sobre o interesse no prosseguimento do feito e esclarecer a relação societária com o executado FRANCISCO DE PAULA GOMES MARTINELLI, sob pena de indeferimento da sucessão processual e extinção do feito por abandono ou ausência de pressupostos. B) Intimem-se os executados ASA MOTO CENTER COMÉRCIO E SERVIÇOS LTDA. e LUCIANY GASPARINI MARTINELLI, por meio de seus patronos habilitados, para que tomem ciência das cessões de crédito informadas e, querendo, manifestem-se sobre a eventual ocorrência de confusão patrimonial e extinção da dívida no prazo de 15 (quinze) dias. C) Certifique a Secretaria a pendência de citação do executado FRANCISCO DE PAULA GOMES MARTINELLI, observando que o peticionamento (Id 468429413) não supre a necessidade do ato citatório, ante a ausência de poderes específicos para tal fim, conforme fundamentado no despacho (Id 464557095). Cumpridas as determinações acima, voltem os autos conclusos e da viabilidade do prosseguimento do feito executivo. P.I.C. Salvador/BA, data da assinatura eletrônica.   DARIO GURGEL DE CASTROJuiz de Direito",
+    "data": "2026-08-05",
+    "valor_causa": 594548.21,
+    "keywords_cessao_fortes": [
+      "cessão de crédito",
+      "cessionária"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "recuperação judicial",
+      "plano de recuperação judicial"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJBA\\2026-08\\2026-08-05\\matches_2026-08-05.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Houve cessão de crédito concursal do Banco do Brasil para fundo Atlântico e posterior cessão para empresa LL2 no processo de execução relacionado à recuperação judicial.",
+        "cedente": "Banco do Brasil S/A",
+        "cessionario": "ATLÂNTICO CORPORATE FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS",
+        "valor": null,
+        "classe_credito": "quirografário",
+        "cnj_rj": "0507922-61.2016.8.05.0001",
+        "recuperanda": "ASA MOTO CENTER COMERCIO E SERVICOS LTDA",
+        "motivo_classificacao": "Cessão de crédito concursal em processo de execução ligado a recuperação judicial, com cessionário institucional (fundo de investimento).",
+        "descoberto_em": "2026-08-13"
+      }
+    ]
+  },
+  {
+    "id": 684122487,
+    "cnj": "0000098-16.1989.8.05.0079",
+    "classe": "HABILITAçãO",
+    "orgao": "1ª V DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS DE EUNÁPOLIS",
+    "destinatarios": [
+      "CANDIDA ROSA DE SOUZA PEREIRA REGISTRADO(A) CIVILMENTE COMO CANDIDA ROSA DE SOUZA PEREIRA",
+      "JOAO HUMBERTO DE FARIAS MARTORELLI",
+      "MAURO FONSECA GUIMARAES E SOUZA REGISTRADO(A) CIVILMENTE COMO MAURO FONSECA GUIMARAES E SOUZA",
+      "MEDASA - MEDEIROS NETO DESTILARIA DE ALCOOL S/A",
+      "ARNALDO HENRIQUE ANDRADE DA SILVA",
+      "DESENBAHIA-AGENCIA DE FOMENTO DO ESTADO DA BAHIA S/A",
+      "BANCO BRADESCO SA"
+    ],
+    "link": "https://pje.tjba.jus.br/pje/Processo/ConsultaDocumento/listView.seam?x=26071316052952300000540440916",
+    "texto_completo": "PODER JUDICIÁRIO TRIBUNAL  DE JUSTIÇA DO ESTADO DA BAHIA   1ª V DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS DE EUNÁPOLIS       Processo: HABILITAÇÃO n. 0000098-16.1989.8.05.0079   Órgão Julgador: 1ª V DOS FEITOS RELATIVOS ÀS RELAÇÕES DE CONSUMO, CÍVEIS, COMERCIAIS DE EUNÁPOLIS   REQUERENTE: MEDASA - MEDEIROS NETO DESTILARIA DE ALCOOL S/A   Advogado(s): CANDIDA ROSA DE SOUZA PEREIRA registrado(a) civilmente como CANDIDA ROSA DE SOUZA PEREIRA (OAB:PE5292), MAURO FONSECA GUIMARAES E SOUZA registrado(a) civilmente como MAURO FONSECA GUIMARAES E SOUZA (OAB:PE08624), JOAO HUMBERTO DE FARIAS MARTORELLI (OAB:PE7489)   REQUERIDO: DESENBAHIA-AGENCIA DE FOMENTO DO ESTADO DA BAHIA S/A   Advogado(s): ARNALDO HENRIQUE ANDRADE DA SILVA (OAB:PA10176)         DECISÃO       Vistos, etc.  Compulsando os autos, verifica-se que se trata de um incidente de Habilitação de Crédito instaurado por MEDASA - MEDEIROS NETO DESTILARIA DE ALCOOL S/A em face da MASSA FALIDA DE EMBAÚBA S/A DESENVOLVIMENTO ENERGÉTICO, objetivando a sua admissão no feito em substituição ao credor originário Banco de Desenvolvimento do Estado da Bahia S/A (DESENBANCO), por força de contrato de cessão de direitos creditórios (ID 110206136).      O MM. Juízo proferiu decisão em 05/04/2010 (ID 110206590) determinando a baixa do presente feito e a juntada dos documentos referentes à Habilitação de Crédito nº 935/89 e, em seguida, determinou que fossem ouvidos todos os interessados e o Ministério Público.      Posteriormente, foi proferida a decisão de ID 499693037 (09/05/2025), em que se destaocu que, apesar da ordem de baixa, o processo seguiu, tendo sido proferidos despachos determinando a manifestação das partes quanto ao interesse processual. Certificou-se que a DESENBAHIA se manifestou alegando ilegitimidade ativa, visto que o crédito objeto da presente demanda, originário do extinto BANEB, não lhe foi transferido. (ID. 480180979). Bem assim, se requereu a intimação do BANCO BRADESCO S/A para informar se possui interesse na continuação do processo. Por fim, a decisão determinou a baixa do presente feito.  Em seguida, foi proferida nova decisão (ID 513269064) que reiterou a ordem de baixa imediata, tendo inclusive condenado a parte autora ao pagamento de custas processuais, com exigibilidade suspensa em razão da concessão da gratuidade da justiça.        Não obstante as sucessivas e claras ordens judiciais, a Secretaria da Vara descumpriu as determinações de baixa e, por meio de ato ordinatório de ID 523093672 (01/10/2025), promoveu a intimação do Banco Bradesco S/A para manifestar interesse no feito, o que ensejou o peticionamento de ID 536110759 e a manifestação do Ministério Público em ID 560722602.  Em manifestação, o Ministério Público requereu o imediato cumprimento das decisões supramencionadas, com a posterior juntada de seus documentos à Habilitação de Crédito nº 935/89, onde serão ouvidos os interessados, sem prejuízo do devido apensamento aos autos principais de falência. (ID 560722602).  É o relatório. Decido.  Assiste integral razão ao órgão ministerial, por isso, acolho seus requerimentos. O andamento conferido a este feito após a digitalização decorreu de manifesto equívoco da Secretaria da Vara, que descumpriu as ordens judiciais de baixa proferidas em Decisões anteriores ( ID110206590, ID 499693037 e ID 513269064).  A tramitação autônoma e paralela deste incidente, quando já determinada a sua reunião com a Habilitação de Crédito nº 935/89, gera tumulto processual e viola os princípios da celeridade e da economia processual. A análise da cessão de crédito (ID 110206481) e a oitiva dos interessados, incluindo o Banco Bradesco S/A, na qualidade de sucessor do BANEB, o síndico da massa falida e a própria falida, devem ocorrer de forma concentrada nos autos da Habilitação nº 935/89, conforme rito do Decreto-Lei nº 7.661/1945. Cumpre ressaltar que, muito embora o referido diploma legal tenha sido revogado, sua aplicação ao presente feito é obrigatória por expressa determinação da regra de transição esculpida no artigo 192 da Lei nº 11.101/2005, haja vista tratar-se de processo falimentar ajuizado sob a égide da legislação anterior.  Ante o exposto, acolho a manifestação do Ministério Público (ID 560722602) e determino as seguintes providências:  a) Chamo o feito à ordem para tornar sem efeito o ato ordinatório de ID 523093672 e todos os atos subsequentes praticados nestes autos de forma autônoma;  b) Determino à Secretaria da Vara que proceda, de forma imediata e definitiva, à baixa destes autos no sistema PJe;  c) Ordene-se o traslado de cópia integral das peças deste incidente (petição inicial, documentos de representação, escritura de cessão de crédito e planilha de atualização) para os autos da Habilitação de Crédito nº 935/89.   Publique-se. Intimem-se. Cumpra-se.   Núcleo de Justiça 4.0, data de assinatura eletrônica.  GUSTAVO SILVA PEQUENO JUIZ DE DIREITO Designado - Dec. Jud. 690 de 21.05.2026   ",
+    "data": "2026-07-31",
+    "valor_causa": 65.64,
+    "keywords_cessao_fortes": [
+      "cessão de crédito",
+      "cessão de direitos creditórios"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "habilitação de crédito",
+      "lei nº 11.101",
+      "massa falida",
+      "falência"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJBA\\2026-07\\2026-07-31\\matches_2026-07-31.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Habilitação de crédito em processo falimentar envolvendo cessão de direitos creditórios do BANEB para MEDASA, com manifestação do Banco Bradesco como sucessor.",
+        "cedente": "Banco de Desenvolvimento do Estado da Bahia S/A (DESENBANCO)",
+        "cessionario": "MEDASA - MEDEIROS NETO DESTILARIA DE ALCOOL S/A",
+        "valor": null,
+        "classe_credito": "outro",
+        "cnj_rj": null,
+        "recuperanda": "EMBAÚBA S/A DESENVOLVIMENTO ENERGÉTICO",
+        "motivo_classificacao": "Trata-se de cessão de crédito em processo falimentar com habilitação em substituição ao credor originário, envolvendo instituição financeira e empresa em falência.",
+        "descoberto_em": "2026-08-13"
+      }
+    ]
+  },
+  {
+    "id": 682452678,
+    "cnj": "0573083-47.2018.8.05.0001",
+    "classe": "IMPUGNAçãO DE CRéDITO",
+    "orgao": "2ª V EMPRESARIAL DE SALVADOR",
+    "destinatarios": [
+      "AUGUSTO BOMFIM NERY",
+      "BRUNO NASCIMENTO ANASTACIO",
+      "CAIXA ECONOMICA FEDERAL",
+      "FABRICIO DOS REIS BRANDAO",
+      "LUIS CARLOS MONTEIRO LAURENÇO",
+      "OLIVEIRA E GUIMARÃES ADVOGADOS E CONSULTORES ASSOC REGISTRADO(A) CIVILMENTE COMO PEDRO JOSE SOUZA DE OLIVEIRA JUNIOR",
+      "RAFAEL VILAS BOAS COSTA CAL",
+      "SARA LUCIA DOS REIS BARBOSA REGISTRADO(A) CIVILMENTE COMO SARA LUCIA DOS REIS BARBOSA",
+      "HERNANI LOPES DE SA NETO",
+      "SOMED SOCORROS MEDICOS LTDA - EPP",
+      "MINISTERIO PUBLICO DO ESTADO DA BAHIA",
+      "RODRIGO RIBEIRO ACCIOLY REGISTRADO(A) CIVILMENTE COMO RODRIGO RIBEIRO ACCIOLY"
+    ],
+    "link": "https://pje.tjba.jus.br/pje/Processo/ConsultaDocumento/listView.seam?x=26072818200750300000543533062",
+    "texto_completo": "PODER JUDICIÁRIO TRIBUNAL  DE JUSTIÇA DO ESTADO DA BAHIA   2ª V EMPRESARIAL DE SALVADOR       Processo: IMPUGNAÇÃO DE CRÉDITO n. 0573083-47.2018.8.05.0001   Órgão Julgador: 2ª V EMPRESARIAL DE SALVADOR   IMPUGNANTE: CAIXA ECONOMICA FEDERAL   Advogado(s): RAFAEL VILAS BOAS COSTA CAL (OAB:BA21501), AUGUSTO BOMFIM NERY (OAB:BA10480), OLIVEIRA E GUIMARÃES ADVOGADOS E CONSULTORES ASSOC registrado(a) civilmente como PEDRO JOSE SOUZA DE OLIVEIRA JUNIOR (OAB:BA12746), BRUNO NASCIMENTO ANASTACIO (OAB:BA56815), SARA LUCIA DOS REIS BARBOSA registrado(a) civilmente como SARA LUCIA DOS REIS BARBOSA (OAB:BA41940), LUIS CARLOS MONTEIRO LAURENÇO (OAB:BA16780), FABRICIO DOS REIS BRANDAO (OAB:PA11471)   IMPUGNADO: SOMED SOCORROS MEDICOS LTDA - EPP   Advogado(s): HERNANI LOPES DE SA NETO (OAB:BA15502)         SENTENÇA           Vistos.    Trata-se de incidente de IMPUGNAÇÃO DE CRÉDITO, posteriormente convolado em AÇÃO DE RETIFICAÇÃO DE CRÉDITO PELO PROCEDIMENTO COMUM, ajuizado pela CAIXA ECONÔMICA FEDERAL (CEF) em face de SOMED SOCORROS MÉDICOS LTDA - EPP (EM RECUPERAÇÃO JUDICIAL), objetivando a exclusão de créditos da sujeição aos efeitos da recuperação judicial e a retificação de valores e classes no Quadro Geral de Credores.   Conforme consta da peça inicial (Id 219366749), protocolada inicialmente nos autos da Recuperação Judicial n. 0515640-75.2017.8.05.0001 e posteriormente distribuída por dependência conforme determinação judicial (Ids 219366752 e 219366754), a instituição financeira autora alegou que, no edital de credores publicado pelo Administrador Judicial, fora relacionado crédito de sua titularidade, na classe quirografária (Classe III), no montante de R$ 578.721,35 (quinhentos e setenta e oito mil e setecentos e vinte e um reais e trinta e cinco centavos).   Sustentou a autora que a referida listagem incorreu em equívoco em dois aspectos fundamentais: primeiro, quanto ao valor do crédito quirografário, o qual defende ser de R$ 456.115,03 (quatrocentos e cinquenta e seis mil e cento e quinze reais e três centavos), decorrente dos contratos de números 1018.003.00000085-5, 03.1018.605.0000436-86, 03.1018.734.0000661-12, 03.1018.734.0000716-20, 03.1018.734.0000719-73, 03.1018.734.0000735-93, e do cartão de crédito final 5588; segundo, quanto à existência de créditos extraconcursais no montante de R$ 295.088,64 (duzentos e noventa e cinco mil e oitenta e oito reais e sessenta e quatro centavos), calcados nos contratos n. 03.1018.605.0000334-51 (garantido por cessão fiduciária de direitos creditórios de serviços prestados à Sul América Seguro Saúde S/A) e n. 03.1018.606.0000395-98 (alegadamente garantido por alienação fiduciária de veículos). Aduziu, com esteio no art. 49, § 3º, da Lei n. 11.101/2005, que tais créditos fiduciários não se submetem ao processo recuperacional, devendo prevalecer os direitos de propriedade sobre a garantia.   Por meio da decisão de Id 219366757, o Juízo reconheceu a intempestividade da divergência apresentada com base no art. 8º da Lei n. 11.101/2005, determinando a emenda da inicial para adequação ao rito ordinário previsto no art. 19 da mesma lei, inclusive com o recolhimento das custas processuais.    A autora cumpriu a diligência no Id 219367109, ratificando os termos da exordial e reiterando o pedido de retificação da classificação dos créditos para extraconcursais.    O pedido de tutela de urgência foi indeferido (Id 219367114), sob o fundamento de que eventual procedência da demanda sujeitaria o crédito ao plano de recuperação, inexistindo respaldo para a garantia imediata pretendida.   A empresa recuperanda apresentou contestação (Id 219367119), na qual arguiu, preliminarmente, a ausência de extratos de evolução da dívida, sustentando que a autora não se desincumbiu do ônus de comprovar a origem e o valor atualizado do débito. No mérito, defendeu a plena submissão dos créditos à recuperação judicial, argumentando que o art. 49, § 3º, da Lei 11.101/05 não teria recepcionado a cessão fiduciária de bens incorpóreos (recebíveis) como hipótese de exclusão, devendo prevalecer o princípio da preservação da empresa e da função social da propriedade sobre o privilégio bancário.   O Administrador Judicial manifestou-se no Id 219367117, opinando pela parcial procedência. Pontuou que o contrato n. 03.1018.606.0000395-98 não possuiria garantia de alienação fiduciária, mas apenas aval, sendo, portanto, concursal. Quanto ao contrato n. 03.1018.605.0000334-51, embora garantido por cessão fiduciária, defendeu que o crédito ainda não teria sido \"performado\" na data do pedido, o que impediria a aquisição da propriedade fiduciária e atrairia a incidência dos efeitos da recuperação judicial. Posteriormente, em petição de Id 453735618, o Administrador Judicial ressaltou que as planilhas apresentadas pela autora eram meramente consolidadas, não demonstrando a evolução analítica dos débitos, o que impossibilitaria a aferição da veracidade do saldo devedor.   O Ministério Público, em parecer de Id 423144773 e Id 467216862, opinou pela procedência parcial da impugnação, entendendo pela extraconcursalidade do crédito decorrente do contrato n. 03.1018.605.0000334-51, por estar garantido por cessão fiduciária de recebíveis, em consonância com a jurisprudência superior. Todavia, quanto ao contrato n. 03.1018.606.0000395-98, opinou pela manutenção na classe quirografária ante a ausência do Termo de Constituição de Garantia.   Convertido o julgamento em diligência (Id 445387284) para que a autora apresentasse planilhas, especificando a evolução dos saldos e as correções aplicadas, a CEF peticionou juntando novos documentos (Id 525085565 e seguintes).   Sobre tais documentos, o Contador Auxiliar do Administrador Judicial elaborou parecer técnico (Id 543978710), concluindo que as informações apresentadas pela instituição financeira permanecem insuficientes, pois possuem natureza consolidada e carecem de memória de cálculo reexecutável. Destacou o perito a impossibilidade de rastrear os encargos incidentes especificamente até a data-base de 20/03/2017 (protocolo da recuperação) e a inexistência de histórico de pagamentos e amortizações detalhado, o que inviabilizaria a validação contábil do montante pretendido.   Intimada a se manifestar sobre as conclusões técnicas e a necessidade de complementação documental (Id 561116281), a autora deixou transcorrer o prazo in albis, conforme certidão de Id 568428864.   O Ministério Público declinou de nova intervenção (Id 554814440), alegando o encerramento da recuperação judicial da devedora e a ausência de interesse público no prosseguimento do feito pelo rito ordinário entre as partes particulares.   Vieram os autos conclusos para julgamento.   É o relatório. Decido.   Compulsando os autos, verifica-se que o incidente, originalmente proposto como divergência administrativa e posteriormente convertido em ação pelo procedimento comum, nos termos do art. 19 da Lei n. 11.101/2005, submete-se ao ônus probatório previsto no art. 373, inciso I, do CPC, reforçado pelas exigências específicas do art. 9º, inciso II e parágrafo único, da Lei de Recuperação e Falência.    Nessa senda, incumbe ao credor o dever de apresentar a declaração do crédito acompanhada do \"valor atualizado até a data do pedido de recuperação judicial, sua origem e classificação\", além dos \"documentos comprobatórios\".   No que tange ao Contrato n. 03.1018.606.0000395-98, a autora sustenta tratar-se de crédito extraconcursal por estar garantido por alienação fiduciária de veículos. Todavia, a análise da Cláusula Sexta do instrumento contratual (Id 219366750) revela que a garantia pactuada foi o aval, inexistindo nos autos o respectivo Termo de Constituição de Garantia que comprovasse a alienação fiduciária alegada, de tal sorte que a falta de prova da constituição do direito real de garantia impede o enquadramento do crédito na exceção do art. 49, § 3º, da Lei n. 11.101/2005, mantendo-se sua natureza concursal e quirografária.   Quanto ao Contrato n. 03.1018.605.0000334-51, embora envolva cessão fiduciária de direitos creditórios (recebíveis da Sul América Seguro Saúde S/A), a pretensão de retificação esbarra em intransponível óbice técnico. Nesse ponto, observa-se as planilhas apresentadas pela Caixa Econômica Federal possuem natureza meramente consolidada, o que é corroborado pelas manifestações sucessivas da Administração Judicial (Ids 453735618, 543973651 e 543978710).    Vê-se que o parecer técnico contábil de Id 543978710 é elucidativo ao consignar que os documentos juntados pela autora (especialmente no Id 525085565) não disponibilizam memória de cálculo analítica reexecutável. Tal deficiência impede a conferência matemática independente da evolução do débito, a verificação da metodologia de capitalização de juros e, primordialmente, o isolamento dos encargos incidentes até a data-base de 20/03/2017. Portanto, sem a segregação temporal precisa entre o que precede e o que sucede o pedido de recuperação judicial, resta inviabilizada a validação da parcela que se pretende declarar como extraconcursal (R$ 295.088,64).   É cediço que o processo recuperacional exige rigor técnico na fixação do passivo, sob pena de violação à par condicio creditorum. Salienta-se que, renovada a oportunidade para que a autora trouxesse planilhas que especificassem o histórico de pagamentos e amortizações, bem como o demonstrativo de origem do crédito com lastro auditável, a Caixa Econômica Federal manteve-se inerte (id 568428864).   Destarte, a ausência de demonstração pormenorizada da evolução da dívida e dos critérios de atualização impede que o Juízo acolha o valor de R$ 456.115,03 pretendido pela autora para a classe quirografária, ou que reconheça a natureza extraconcursal dos montantes vinculados à cessão fiduciária. Não se trata de negar a existência do contrato, mas de reconhecer a insuficiência de prova quanto ao quantum debeatur e à higidez da classificação pretendida frente ao marco legal da recuperação.  Ante o exposto, e por tudo mais que dos autos consta, JULGO IMPROCEDENTE o pedido formulado na inicial, extinguindo o processo com resolução de mérito, nos termos do art. 487, inciso I, do Código de Processo Civil.   Considerando o princípio da causalidade, condeno a parte autora ao pagamento das custas processuais remanescentes e dos honorários advocatícios sucumbenciais, os quais fixo em 10% (dez por cento) sobre o valor da causa, devidamente atualizado, com fulcro no art. 85, § 2º, do CPC.   Publique-se. Intimem-se.   Sem recursos, certifique-se o trânsito em julgado e aguarde-se eventual requerimento de cumprimento de sentença pelo prazo de 15 (quinze) dias. Após, sem manifestações, ao arquivo com baixa na Distribuição independentemente de novo despacho.    Diligências necessárias.   Salvador/BA, data registrada no sistema.     João Paulo da Silva Antal Juiz de Direito Documento assinado eletronicamente bcs    ",
+    "data": "2026-07-30",
+    "valor_causa": 456115.03,
+    "keywords_cessao_fortes": [],
+    "keywords_cessao_fracas": [
+      "cedente"
+    ],
+    "keywords_rj": [
+      "recuperação judicial",
+      "quadro geral de credores",
+      "administrador judicial",
+      "recuperanda",
+      "lei 11.101",
+      "falência",
+      "em recuperação judicial",
+      "crédito extraconcursal"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJBA\\2026-07\\2026-07-30\\matches_2026-07-30.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "fiduciaria",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Discussão sobre crédito extraconcursal garantido por cessão fiduciária de recebíveis em processo de recuperação judicial da SOMED SOCORROS MÉDICOS LTDA, com CEF como cedente.",
+        "cedente": "SOMED SOCORROS MÉDICOS LTDA - EPP",
+        "cessionario": "CAIXA ECONOMICA FEDERAL",
+        "valor": "R$ 295.088,64",
+        "classe_credito": "extraconcursal",
+        "cnj_rj": "0515640-75.2017.8.05.0001",
+        "recuperanda": "SOMED SOCORROS MÉDICOS LTDA - EPP",
+        "motivo_classificacao": "Crédito garantido por cessão fiduciária de recebíveis discutido em processo de recuperação judicial, com valor relevante e cessionário institucional.",
+        "descoberto_em": "2026-08-13"
+      }
+    ]
+  },
+  {
+    "id": 680116175,
+    "cnj": "0536970-02.2015.8.05.0001",
+    "classe": "HABILITAçãO DE CRéDITO",
+    "orgao": "4ª VARA DE SUCESSOES, ORFAOS E INTERDITOS DA COMARCA DE SALVADOR",
+    "destinatarios": [
+      "ELIEZER DOS SANTOS",
+      "JOSE VITOR SANTIAGO ALMEIDA",
+      "RODRIGO RODRIGUES DOS SANTOS",
+      "ESPóLIO DE CEDRIC LOBOSCO GAMA ALVES",
+      "MAIARA NOGUEIRA BAHIA",
+      "RUI SANTOS LIMA PORTO",
+      "FIDC MULTISEGMENTOS NPL IPANEMA VI RESPONSABILIDADE LIMITADA",
+      "MARILEIDE SANTOS LIMA"
+    ],
+    "link": "https://pje.tjba.jus.br/pje/Processo/ConsultaDocumento/listView.seam?x=26072314461409700000542755273",
+    "texto_completo": "PODER JUDICIÁRIO TRIBUNAL  DE JUSTIÇA DO ESTADO DA BAHIA   4ª VARA DE SUCESSOES, ORFAOS E INTERDITOS DA COMARCA DE SALVADOR       Processo: HABILITAÇÃO DE CRÉDITO n. 0536970-02.2015.8.05.0001   Órgão Julgador: 4ª VARA DE SUCESSOES, ORFAOS E INTERDITOS DA COMARCA DE SALVADOR   REQUERENTE: JOSE VITOR SANTIAGO ALMEIDA e outros   Advogado(s): ELIEZER DOS SANTOS (OAB:BA39776), RODRIGO RODRIGUES DOS SANTOS (OAB:SP405595)   REQUERIDO: Espólio de Cedric Lobosco Gama Alves   Advogado(s): RUI SANTOS LIMA PORTO (OAB:BA57681), MAIARA NOGUEIRA BAHIA (OAB:BA71022)         DECISÃO        (Assinado digitalmente pela Magistrada Titular Maria Verônica Moreira Ramiro)     Conteúdo da decisão:    Trata-se de incidente de habilitação de crédito proposto por José Vitor Santiago Almeida em face do Espólio de Cedric Lobosco Gama Alves, distribuído em apenso aos autos do inventário nº 0530689-64.2014.8.05.0001 (ID 304868405).  O requerente alega ser credor do espólio em decorrência de sentença trabalhista proferida pela 5ª Vara do Trabalho de Salvador, nos autos do processo nº 0000663-80.2014.5.05.0005, que condenou o espólio ao pagamento de R$ 11.510,81, acrescidos de juros e correção monetária (ID 304869564).  A inventariante Marileide Santos Lima apresentou impugnação, alegando que o requerente foi condenado por litigância de má-fé na reclamação trabalhista, no percentual de 1% sobre o valor da causa (R$ 719.000,00), totalizando R$ 7.190,00, razão pela pugna pela compensação dos créditos (ID 304869579).  O Juízo da 5ª Vara do Trabalho de Salvador expediu ofício esclarecendo que \"a multa imposta ao reclamante na sentença tem natureza nitidamente processual, e, por ter natureza diversa da verba trabalhista, não pode com esta ser compensada\" (ID 400750496, p. 4).  Foi lavrado termo de penhora no rosto dos autos no valor de R$ 20.556,67, para garantia do crédito trabalhista (ID 484101446).  O processo de inventário foi extinto por abandono (ID 512554743), e houve cessão de crédito do espólio para o Fundo de Investimento em Direitos Creditórios Multisegmentos NPL Ipanema VI (ID 497138014).  O requerente pugna pelo levantamento da verba penhorada (ID 509223879).  O Ministério Público opinou pela oitiva do Juízo trabalhista quanto ao valor exato a ser reservado (ID 304869980).  Decido.  1. Da habilitação do crédito trabalhista  O crédito trabalhista do requerente encontra-se devidamente comprovado por sentença judicial transitada em julgado, proferida pela 5ª Vara do Trabalho de Salvador, que reconheceu a existência de relação de emprego doméstico entre o requerente e o falecido Cedric Lobosco Gama Alves, no período de 01/03/1991 a 19/04/2014, condenando o espólio ao pagamento de saldo de salário, 13º salários, férias vencidas em dobro, férias simples e proporcionais, acrescidas de 1/3 (ID 304869564).  Nos termos do art. 642 do Código de Processo Civil, \"antes da partilha, poderão os credores do espólio requerer ao juízo do inventário o pagamento das dívidas vencidas e exigíveis\".  O art. 1.997 do Código Civil estabelece que \"a herança responde pelo pagamento das dívidas do falecido\", garantindo-se ao credor o direito de habilitar seu crédito no inventário.   No caso em exame, o crédito trabalhista está devidamente comprovado por título judicial executivo, não havendo impugnação quanto à sua existência ou exigibilidade. A única controvérsia diz respeito à possibilidade de compensação com multa por litigância de má-fé, questão que será analisada a seguir.  2. Da impossibilidade de compensação  A inventariante alega que o requerente foi condenado por litigância de má-fé na reclamação trabalhista, no valor de R$ 7.190,00 (1% sobre o valor da causa de R$ 719.000,00), e pugna pela compensação com o crédito trabalhista (ID 304869579).  Todavia, a pretensão não merece acolhimento.  O Juízo da 5ª Vara do Trabalho de Salvador, competente para a execução do crédito trabalhista, expediu ofício esclarecendo expressamente que: \"Registre-se que, a multa imposta ao reclamante na sentença de ID. 8cadbec tem natureza nitidamente processual, e, por ter natureza diversa da verba trabalhista, não pode com esta ser compensada.\" (ID 400750496, p. 4)  A Súmula nº 18 do Tribunal Superior do Trabalho é categórica ao estabelecer que \"a compensação, na Justiça do Trabalho, está restrita a dívidas de natureza trabalhista\".  Desse modo, a multa por litigância de má-fé, prevista no art. 81 do Código de Processo Civil, possui natureza jurídica distinta das verbas trabalhistas. Enquanto estas têm caráter alimentar e decorrem da relação de emprego, aquela constitui sanção processual de natureza punitiva e indenizatória, aplicada em razão de conduta desleal no processo.  A compensação, nos termos dos arts. 368 e 369 do Código Civil, exige que as dívidas sejam líquidas, vencidas e de coisas fungíveis, além de possuírem a mesma natureza jurídica.  Na hipótese, a natureza alimentar do crédito trabalhista impede sua compensação com multa de natureza processual, sob pena de violação ao princípio da proteção ao salário e à dignidade da pessoa humana do trabalhador.  Ademais, a competência para executar a multa por litigância de má-fé é do próprio Juízo trabalhista, que poderá cobrá-la em momento oportuno, sem prejuízo da satisfação do crédito alimentar do trabalhador.  3. Da penhora no rosto dos autos e do levantamento  A penhora no rosto dos autos foi regularmente efetivada em 31/01/2025, no valor de R$ 20.556,67, conforme termo lavrado pela Direção da Secretaria (ID 484101446).  O processo de inventário foi extinto por abandono, conforme noticiado nos autos (ID 512554743), cujo acervo hereditário foi cedido ao FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS IPANEMA VI (Cessionário).  Diante da extinção do inventário , da cessão havida e da regularidade da penhora, não há óbice ao levantamento da verba pelo credor trabalhista, que faz jus ao recebimento do crédito alimentar reconhecido por sentença judicial.  O ofício expedido pela 5ª Vara do Trabalho possui força de mandado/ofício, nos termos do art. 2º, parágrafo único, da Lei nº 11.419/2006, que disciplina o processo eletrônico, sendo suficiente para autorizar o levantamento da quantia eventualmente penhorada.  4. Dispositivo Ante o exposto, JULGO PROCEDENTE o incidente de habilitação de crédito, com fundamento no art. 487, I, do Código de Processo Civil, para:  a) Reconhecer o crédito trabalhista de José Vitor Santiago Almeida no valor de R$ 20.556,67 (vinte mil, quinhentos e cinquenta e seis reais e sessenta e sete centavos), conforme planilha atualizada encaminhada pela 5ª Vara do Trabalho de Salvador (ID 400750497);  b) Afastar a compensação pretendida pela inventariante, por tratar-se de verbas de naturezas jurídicas distintas, nos termos da Súmula 18 do TST e do ofício expedido pelo Juízo trabalhista;  c) Confirmar a penhora no rosto dos autos efetivada em 31/01/2025 (ID 484101446);  d) Autorizar o levantamento da quantia penhorada em favor do requerente José Vitor Santiago Almeida, mediante expedição de alvará judicial para a conta bancária indicada na petição de ID 509223879.  Dê-se ciência ao FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS MULTSEGMENTOS NPL IPANEMA VI - NAO PADRONIZADO, para cumprimento, que atua como Cessionária do crédito ora perseguido, vez que se sub-rogou nos direitos e deveres do Cedente.  Sem custas e sem honorários advocatícios, por tratar-se de incidente processual sem contraditório efetivo, nos termos do entendimento firmado pelo STJ no REsp 2.163.420/MG.  Publique-se.  Salvador/BA, data da assinatura digital.    ",
+    "data": "2026-07-28",
+    "valor_causa": 11510.81,
+    "keywords_cessao_fortes": [
+      "cessão de crédito",
+      "cessionário",
+      "cessionária"
+    ],
+    "keywords_cessao_fracas": [
+      "cedente"
+    ],
+    "keywords_rj": [
+      "habilitação de crédito"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJBA\\2026-07\\2026-07-28\\matches_2026-07-28.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Houve cessão de crédito trabalhista do espólio para um fundo de investimento em direitos creditórios no contexto de processo judicial.",
+        "cedente": "Espólio de Cedric Lobosco Gama Alves",
+        "cessionario": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS MULTSEGMENTOS NPL IPANEMA VI",
+        "valor": "R$ 20.556,67",
+        "classe_credito": "trabalhista",
+        "cnj_rj": null,
+        "recuperanda": "JOSE VITOR SANTIAGO ALMEIDA",
+        "motivo_classificacao": "Cessão formal de crédito trabalhista em processo judicial com cessionário institucional (fundo de investimento), valor relevante e habilitação no processo.",
+        "descoberto_em": "2026-08-13",
+        "recuperanda_fonte": "capa_pdpj"
+      }
+    ]
+  },
+  {
+    "id": 680887312,
+    "cnj": "0154264-21.2004.8.05.0001",
+    "classe": "CUMPRIMENTO DE SENTENçA",
+    "orgao": "5ª VARA DE RELAÇÕES DE CONSUMO DA COMARCA DE SALVADOR",
+    "destinatarios": [
+      "ANDREZA CRISTINA SOUZA SANTANA",
+      "INSBOT - INSTITUTO BAHIANO DE ORTOPEDIA E TRAUMATOLOGIA SOCIEDADE SIMPLES LTDA. - ME",
+      "LEONARDO DE ALMEIDA AZI",
+      "LETICIA RODRIGUES DE ALMEIDA LUPATINI FOIS",
+      "CYRANO VIANNA NETO",
+      "PREVINA ADMINISTRADORA DE SERVICOS MEDICOS LTDA",
+      "BERHMANN RáTIS ADVOGADOS",
+      "CARLOS EDUARDO BEHRMANN RATIS MARTINS"
+    ],
+    "link": "https://pje.tjba.jus.br/pje/Processo/ConsultaDocumento/listView.seam?x=26072413014337700000542830415",
+    "texto_completo": "0154264-21.2004.8.05.0001 CUMPRIMENTO DE SENTENÇA (156) [Execução Contratual] EXEQUENTE: INSBOT - INSTITUTO BAHIANO DE ORTOPEDIA E TRAUMATOLOGIA SOCIEDADE SIMPLES LTDA. - ME  EXECUTADO: PREVINA ADMINISTRADORA DE SERVICOS MEDICOS LTDA     SENTENÇA  Trata-se de ação de execução por quantia certa ajuizada pelo INSTITUTO BAHIANO DE ORTOPEDIA E TRAUMATOLOGIA SOCIEDADE SIMPLES LTDA. - ME (INSBOT) em face de PREVINA ADMINISTRADORA DE SERVIÇOS MÉDICOS LTDA., em trâmite desde o ano de 2004 (ID 276765230). Instado a se manifestar, o Administrador Judicial da Massa Falida noticiou, por meio da petição de ID 526362340 e documentos de ID 526362341, que o crédito objeto da presente execução já se encontra regularmente habilitado no Quadro Geral de Credores da Falência. Informou, outrossim, a ocorrência de cessão integral do referido crédito pelo exequente originário em favor da sociedade FSJR & KRAHENBÜHL CONSULTORIA EMPRESARIAL LTDA. (ID 526362342). Devidamente intimado, o exequente INSBOT peticionou no ID 545300536, confirmando a cessão de crédito realizada e reconhecendo a sua ilegitimidade ativa superveniente para o prosseguimento da execução individual, pugnando pela extinção do processo sem resolução do mérito. É o relatório. Decido. Compulsando os autos, verifica-se que a pretensão executória individual perdeu o seu objeto em virtude da atração do Juízo Falimentar e da efetiva habilitação do crédito no concurso universal de credores, nos termos do art. 76 da Lei n.º 11.101/2005. Ademais, a cessão de crédito comprovada pelo Administrador Judicial no ID 526362342 e ratificada pelo exequente (ID 545300536) opera a transferência da titularidade do direito material, ensejando, conforme bem salientado pelo peticionante, a ilegitimidade ativa superveniente do INSBOT para figurar no polo ativo desta demanda. Dessa forma, a extinção da presente execução individual é medida que se impõe, devendo a satisfação do crédito ser perseguida pelo cessionário habilitado nos autos da falência n.º 0001304-07.2009.8.05.0001. Ante o exposto, JULGO EXTINTO o processo, sem resolução do mérito, com fundamento no art. 485, inciso VI, do Código de Processo Civil, ante a perda superveniente do interesse processual e a ilegitimidade ativa. Custas processuais remanescentes, se houver, pela Massa Falida. Sem condenação em honorários advocatícios, face à ausência de litígio nesta fase de habilitação/associação. Certificado o trânsito em julgado, proceda-se à baixa no sistema e ao arquivamento definitivo dos autos, com as cautelas de estilo. Publique-se. Intimem-se. Salvador/(BA), data do sistema.  Assinado Eletronicamente MILENA OLIVEIRA WATT Juíza de Direito",
+    "data": "2026-07-28",
+    "valor_causa": null,
+    "keywords_cessao_fortes": [
+      "cessão de crédito",
+      "cessionário"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "quadro geral de credores",
+      "administrador judicial",
+      "massa falida",
+      "falência"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJBA\\2026-07\\2026-07-28\\matches_2026-07-28.json",
+    "relevancia_btg": "baixa",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": false,
+        "confianca": "alta",
+        "resumo": "Cessão integral de crédito habilitado em falência, com extinção da execução individual e transferência do direito ao cessionário.",
+        "cedente": "INSBOT - INSTITUTO BAHIANO DE ORTOPEDIA E TRAUMATOLOGIA SOCIEDADE SIMPLES LTDA. - ME",
+        "cessionario": "FSJR & KRAHENBÜHL CONSULTORIA EMPRESARIAL LTDA.",
+        "valor": null,
+        "classe_credito": "outro",
+        "cnj_rj": "0001304-07.2009.8.05.0001",
+        "recuperanda": "Previna Administradora de Serviços Médicos Ltda",
+        "motivo_classificacao": "Cessão de crédito habilitado em processo falimentar, com transferência da titularidade e extinção da execução individual.",
+        "descoberto_em": "2026-08-13"
+      }
+    ]
+  },
+  {
+    "id": 678673437,
+    "cnj": "8005575-83.2024.8.05.0004",
+    "classe": "MONITóRIA",
+    "orgao": "3ª V DOS FEITOS DE REL. DE CONS. CIVEIS E COMERCIAIS DE ALAGOINHAS",
+    "destinatarios": [
+      "B6 ASSIGNEE ASSETS LTDA",
+      "LINEKER BERTINO CRUZ FIGUEIRA",
+      "ARIEL CARAPIA RABELO DA CONCEICAO",
+      "MARIA DE LOURDES ANTUNES CORREIA RABELO"
+    ],
+    "link": "https://pje.tjba.jus.br/pje/Processo/ConsultaDocumento/listView.seam?x=26071608460707000000541372453",
+    "texto_completo": "PODER JUDICIÁRIO TRIBUNAL  DE JUSTIÇA DO ESTADO DA BAHIA 3ª V DOS FEITOS DE REL. DE CONS. CIVEIS E COMERCIAIS DE ALAGOINHAS      DESPACHO          Processo: MONITÓRIA n. 8005575-83.2024.8.05.0004   Órgão Julgador: 3ª V DOS FEITOS DE REL. DE CONS. CIVEIS E COMERCIAIS DE ALAGOINHAS   AUTOR: B6 ASSIGNEE ASSETS LTDA   Advogado(s): LINEKER BERTINO CRUZ FIGUEIRA (OAB:PA23284)   REU: MARIA DE LOURDES ANTUNES CORREIA RABELO   Advogado(s): ARIEL CARAPIA RABELO DA CONCEICAO (OAB:BA62738)    Vistos, etc. Compulsando detidamente o autos, verifico que o perito judicial nomeado, Marcus Vinicius Vitorino Santos Rodrigues apresentou manifestação no ID 546912253, por meio da qual aceita o encargo, todavia, insurge-se contra o valor dos honorários periciais fixados provisoriamente em R$ 400,00. O expert fundamenta sua insurgência na premissa de que a parte autora, responsável pelo custeio da prova, não é beneficiária da assistência judiciária gratuita, o que afastaria a aplicação do teto remuneratório estabelecido pela Resolução nº 17/2019 do Tribunal de Justiça do Estado da Bahia. Compulsando os autos, verifica-se que a decisão interlocutória de ID 465256829 concedeu à autora originária (Massa Falida do Banco Cruzeiro do Sul S/A) apenas o diferimento do recolhimento das custas processuais para o final da demanda. É imperativo distinguir, à luz da técnica processual e do regime jurídico do art. 98 do Código de Processo Civil, que o diferimento do pagamento - medida voltada a viabilizar o acesso à justiça de entes em liquidação ou falência - não se transmuda automaticamente em gratuidade da justiça (isenção). O diferimento é postergação temporal, enquanto a gratuidade é dispensa condicional do ônus financeiro. Ademais, operou-se nestes autos a sucessão processual no polo ativo. A empresa B6 Assignee Assets Ltda., pessoa jurídica de direito privado que adquiriu os ativos da massa falida em sede de leilão judicial, assumiu a titularidade do crédito e a posição de parte autora. Não há nos autos qualquer prova de hipossuficiência econômica da cessionária, tampouco pedido de extensão de qualquer benesse processual em seu favor. Sendo empresa privada que atua no mercado de aquisição de ativos estressados, presume-se sua capacidade para suportar os ônus da lide que voluntariamente assumiu. Dessa forma, a fixação de honorários periciais com base na Resolução nº 17/2019 do TJBA, norma que limita o valor de honorários a serem pagos pelo Estado em virtude da impossibilidade financeira das partes, mostra-se inapropriada ao caso concreto.  A perícia contábil, no bojo de uma ação monitória que discute contratos bancários de trato sucessivo, capitalização de juros e complexa evolução de saldo devedor, exige trabalho técnico pormenorizado que deve ser remunerado de forma justa e compatível com a dignidade da profissão e a responsabilidade do auxiliar da justiça, nos termos do art. 465, § 2º e § 3º, do CPC. Ante o exposto, ACOLHO a manifestação do perito judicial para reconhecer a inaplicabilidade do teto da assistência judiciária gratuita ao presente feito. Em consequência: a) REVEJO o item \"3\" da decisão de ID 544741829, tornando sem efeito a fixação de honorários no valor de R$ 400,00. b) DETERMINO que o Sr. Perito, Marcus Vinicius Vitorino Santos Rodrigues, apresente, no prazo de 05 (cinco) dias, sua proposta de honorários definitiva, fundamentada no tempo a ser despendido e na complexidade dos quesitos já apresentados pela parte autora no ID 550351916. c) Após a apresentação da proposta, intime-se a parte autora (B6 Assignee Assets Ltda.) para que, no prazo de 05 (cinco) dias, manifeste-se sobre a estimativa pericial. Em havendo concordância ou preclusão do prazo, deverá a autora providenciar o depósito imediato da verba honorária, sob pena de preclusão da prova. Em seguida, voltem-me conclusos para análise. Concedo ao presente despacho força de mandado de citação/intimação/notificação e de ofício, em respeito aos princípios da celeridade e economia processual, acautelando-se das advertências legais, prescindindo da expedição de qualquer outro para a mesma finalidade. Publique-se. Registre-se. Intime-se. Cumpra-se. Alagoinhas/BA , datado e assinado eletronicamente. GLEISON DOS SANTOS SOARESJuiz de Direito",
+    "data": "2026-07-27",
+    "valor_causa": 10172.88,
+    "keywords_cessao_fortes": [
+      "cessionária"
+    ],
+    "keywords_cessao_fracas": [],
+    "keywords_rj": [
+      "massa falida",
+      "falência"
+    ],
+    "arquivo_origem": "C:\\Users\\ViniciusIbiapina\\Documents\\Scanner-Cess-es\\diario\\dados\\DJEN-TJBA\\2026-07\\2026-07-27\\matches_2026-07-27.json",
+    "relevancia_btg": "alta",
+    "classificacoes": [
+      {
+        "is_cessao_real": true,
+        "tipo_cessao": "concursal",
+        "cessionario_institucional": true,
+        "confianca": "alta",
+        "resumo": "Houve sucessão processual no polo ativo para B6 Assignee Assets Ltda., empresa que adquiriu ativos da massa falida em leilão judicial, assumindo a titularidade do crédito.",
+        "cedente": "Massa Falida do Banco Cruzeiro do Sul S/A",
+        "cessionario": "B6 Assignee Assets Ltda.",
+        "valor": null,
+        "classe_credito": "outro",
+        "cnj_rj": null,
+        "recuperanda": "Banco Cruzeiro do Sul S/A",
+        "motivo_classificacao": "Cessão de crédito concursal com sucessão processual para empresa institucional adquirente de ativos da massa falida.",
+        "descoberto_em": "2026-08-13"
+      }
+    ]
   }
 ]

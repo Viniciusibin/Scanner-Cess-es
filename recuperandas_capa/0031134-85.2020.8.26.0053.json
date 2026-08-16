@@ -1,0 +1,23 @@
+{
+  "cnj": "0031134-85.2020.8.26.0053",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MONICA CANO FERNANDES e outros (5) X FAZENDA PUBLICA DO ESTADO DE SAO PAULO",
+  "polos": {
+    "ATIVO": [
+      "MONICA CANO FERNANDES",
+      "NEUSA MARIA DOS SANTOS",
+      "ANA HILDA MANDIA",
+      "JOAO FRANCISCO JUNIOR",
+      "MARIA IONE DE OLIVEIRA",
+      "MARIA LUCIA ELEUTERIO MACHADO"
+    ],
+    "PASSIVO": [
+      "FAZENDA PUBLICA DO ESTADO DE SAO PAULO"
+    ]
+  },
+  "classe": "Cumprimento de Sentença contra a Fazenda Pública",
+  "tribunal": "TJSP"
+}

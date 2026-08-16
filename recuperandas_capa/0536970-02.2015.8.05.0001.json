@@ -1,0 +1,20 @@
+{
+  "cnj": "0536970-02.2015.8.05.0001",
+  "_fontes_database": [],
+  "status": "ok",
+  "recuperanda_capa": "JOSE VITOR SANTIAGO ALMEIDA e outros (1) X ESPOLIO DE CEDRIC LOBOSCO GAMA ALVES X MARILEIDE SANTOS LIMA",
+  "polos": {
+    "ATIVO": [
+      "JOSE VITOR SANTIAGO ALMEIDA",
+      "FIDC MULTISEGMENTOS NPL IPANEMA VI RESPONSABILIDADE LIMITADA"
+    ],
+    "PASSIVO": [
+      "ESPOLIO DE CEDRIC LOBOSCO GAMA ALVES"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "MARILEIDE SANTOS LIMA"
+    ]
+  },
+  "classe": "Habilitação de Crédito",
+  "tribunal": "TJBA"
+}

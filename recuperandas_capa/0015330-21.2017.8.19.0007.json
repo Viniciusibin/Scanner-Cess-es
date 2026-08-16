@@ -1,0 +1,20 @@
+{
+  "cnj": "0015330-21.2017.8.19.0007",
+  "_fontes_database": [
+    "TJ-RJ-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "RICARDO JOSE MARASSI e outros (2) X DARP JIVE FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS",
+  "polos": {
+    "PASSIVO": [
+      "RICARDO JOSE MARASSI",
+      "CARLOS ALBERTO MARASSI",
+      "VIACAO FALCAO LTDA"
+    ],
+    "ATIVO": [
+      "DARP JIVE FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS"
+    ]
+  },
+  "classe": "Execução de Título Extrajudicial",
+  "tribunal": "TJRJ"
+}

@@ -1,0 +1,22 @@
+{
+  "cnj": "0022016-42.2013.8.13.0684",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ADMAR GOMES DE MOURA e outros (1) X ANTONIO FERNANDO DE SENA X MARIA DO CARMO SENA",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "ADMAR GOMES DE MOURA",
+      "MINISTERIO PUBLICO - MPMG"
+    ],
+    "PASSIVO": [
+      "ANTONIO FERNANDO DE SENA"
+    ],
+    "ATIVO": [
+      "MARIA DO CARMO SENA"
+    ]
+  },
+  "classe": "Inventário",
+  "tribunal": "TJMG"
+}

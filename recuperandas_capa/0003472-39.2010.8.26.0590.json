@@ -1,0 +1,30 @@
+{
+  "cnj": "0003472-39.2010.8.26.0590",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "PATRICIA CAVALCANTE PESTANA e outros (9) X CONSULTE IMPORTACAO E EXPORTACAO LTDA X PL E PD PRESENTES LTDA",
+  "polos": {
+    "TERCEIRO": [
+      "PATRICIA CAVALCANTE PESTANA",
+      "CONDOMINIO COMERCIAL SHOPPING BRISAMAR",
+      "UNIAO FEDERAL - PRFN",
+      "PREFEITURA MUNICIPAL DE SAO VICENTE",
+      "ESTADO DE SAO PAULO",
+      "RICARDO SIQUEIRA SALLES DOS SANTOS",
+      "MIRAMAR EMPREENDIMENTOS IMOBILIARIOS LTDA",
+      "HASTANET",
+      "ZELIA SILVA ARREMATANTE",
+      "FAZENDA NACIONAL"
+    ],
+    "ATIVO": [
+      "CONSULTE IMPORTACAO E EXPORTACAO LTDA"
+    ],
+    "PASSIVO": [
+      "PL E PD PRESENTES LTDA"
+    ]
+  },
+  "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+  "tribunal": "TJSP"
+}

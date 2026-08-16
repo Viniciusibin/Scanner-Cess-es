@@ -1,0 +1,20 @@
+{
+  "cnj": "0009980-11.2020.8.26.0053",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "SOLANGE TELES BARBOSA e outros (2) X FAZENDA DO ESTADO DE SAO PAULO",
+  "polos": {
+    "ATIVO": [
+      "SOLANGE TELES BARBOSA",
+      "CESSIONARIA ALDANTH ASSESSORIA E SERVICOS EMPRESARIAIS EIRELI.(CEDENTE LUIZ RIBEIRO DA SILVA FILHO)",
+      "TECHNOUSI ALMAR INDUSTRIA E COMERCIO DE AUTO PECAS E USINAGEM LTDA"
+    ],
+    "PASSIVO": [
+      "FAZENDA DO ESTADO DE SAO PAULO"
+    ]
+  },
+  "classe": "Precatório",
+  "tribunal": "TJSP"
+}

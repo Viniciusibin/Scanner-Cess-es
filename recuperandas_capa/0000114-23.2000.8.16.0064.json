@@ -1,0 +1,22 @@
+{
+  "cnj": "0000114-23.2000.8.16.0064",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS INVISTA CF (\"FUNDO\") e outros (1) X MANOEL LUIZ GONCALVES CAMARGO RIBAS X CARLOS HOMERO GONCALVES CAMARGO RIBAS",
+  "polos": {
+    "ATIVO": [
+      "FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS INVISTA CF (\"FUNDO\")",
+      "DOUGLAS CARASSA SOUZA"
+    ],
+    "PASSIVO": [
+      "MANOEL LUIZ GONCALVES CAMARGO RIBAS"
+    ],
+    "TERCEIRO": [
+      "CARLOS HOMERO GONCALVES CAMARGO RIBAS"
+    ]
+  },
+  "classe": "Cumprimento de sentença",
+  "tribunal": "TJPR"
+}

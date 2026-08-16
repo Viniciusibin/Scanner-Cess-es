@@ -1,0 +1,23 @@
+{
+  "cnj": "0000050-47.2017.8.17.0530",
+  "_fontes_database": [
+    "TJ-PE-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "VALE VERDE EMPREENDIMENTOS AGRICOLAS LTDA X BANCO BRADESCO S/A e outros (1) X LINDOSO E ARAUJO CONSULTORIA EMPRESARIAL LTDA e outros (1)",
+  "polos": {
+    "ATIVO": [
+      "VALE VERDE EMPREENDIMENTOS AGRICOLAS LTDA"
+    ],
+    "PASSIVO": [
+      "BANCO BRADESCO S/A",
+      "BANCO DE INVESTIMENTOS CREDIT SUISSE (BRASIL) S.A."
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "LINDOSO E ARAUJO CONSULTORIA EMPRESARIAL LTDA",
+      "GAD FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS"
+    ]
+  },
+  "classe": "Impugnação de Crédito",
+  "tribunal": "TJPE"
+}

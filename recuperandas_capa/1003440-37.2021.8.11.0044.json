@@ -1,0 +1,24 @@
+{
+  "cnj": "1003440-37.2021.8.11.0044",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "JACQUELINE DE MELO PEREIRA BITTENCOURT X IVANE DE CAMPOS MELLO PEREIRA e outros (2) X AFARE I - FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO-PADRONIZADOS e outros (1)",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "JACQUELINE DE MELO PEREIRA BITTENCOURT"
+    ],
+    "PASSIVO": [
+      "IVANE DE CAMPOS MELLO PEREIRA",
+      "JAIRO DIAS PEREIRA",
+      "AFARE I - FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO-PADRONIZADOS"
+    ],
+    "ATIVO": [
+      "AFARE I - FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO-PADRONIZADOS",
+      "BANCO SISTEMA S.A."
+    ]
+  },
+  "classe": "Carta Precatória Cível",
+  "tribunal": "TJMT"
+}

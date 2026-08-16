@@ -1,0 +1,29 @@
+{
+  "cnj": "1000612-46.2021.8.26.0272",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "PATHFINDER STRATEGIC CREDIT II LLC e outros (2) X AGROPECUARIA TERRAS NOVAS S/A e outros (9)",
+  "polos": {
+    "ATIVO": [
+      "PATHFINDER STRATEGIC CREDIT II LLC",
+      "ACP I TRADING LLC",
+      "BANCO BTG PACTUAL S/A - CAYMAN BRANCH"
+    ],
+    "PASSIVO": [
+      "AGROPECUARIA TERRAS NOVAS S/A",
+      "ACUCAREIRA VIRGOLINO DE OLIVEIRA S/A",
+      "VIRGOLINO DE OLIVEIRA EMPREENDIMENTOS IMOBILIARIOS S.A",
+      "USINA CATANDUVA SA - ACUCAR E ALCOOL",
+      "AGROPECUARIA NOSSA SENHORA DO CARMO S/A",
+      "CARMEN RUETE DE OLIVEIRA",
+      "VIRGOLINO DE OLIVEIRA S.A. - ACUCAR E ALCOOL",
+      "VIRGOLINO DE OLIVEIRA FILHO",
+      "CARMEN APARECIDA RUETE DE OLIVEIRA",
+      "HERMELINDO RUETE DE OLIVEIRA"
+    ]
+  },
+  "classe": "Execução de Título Extrajudicial",
+  "tribunal": "TJSP"
+}

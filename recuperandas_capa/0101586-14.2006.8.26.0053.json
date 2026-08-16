@@ -1,0 +1,24 @@
+{
+  "cnj": "0101586-14.2006.8.26.0053",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MARIA FELICIA GALLO MANGIANELLI e outros (6) X IPESP - INSTITUTO DE PREVIDENCIA DO ESTADO DE SAO PAULO",
+  "polos": {
+    "ATIVO": [
+      "MARIA FELICIA GALLO MANGIANELLI",
+      "MARIA LYGIA BERTAO DUARTE",
+      "GERALDO APARECIDO MANGIANELLI",
+      "ROSILEI MARIA GOMES",
+      "ESPOLIO DE CLAUDETE MASETO",
+      "MARIA APARECIDA GOMES",
+      "TEREZINHA DA SILVA GOMES"
+    ],
+    "PASSIVO": [
+      "IPESP - INSTITUTO DE PREVIDENCIA DO ESTADO DE SAO PAULO"
+    ]
+  },
+  "classe": "Cumprimento de Sentença contra a Fazenda Pública",
+  "tribunal": "TJSP"
+}

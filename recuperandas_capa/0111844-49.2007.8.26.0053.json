@@ -1,0 +1,21 @@
+{
+  "cnj": "0111844-49.2007.8.26.0053",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "LUIS ANTONIO EVANGELISTA PERERIA X FAZENDA DO ESTADO DE SAO PAULO X VAIL III FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS RESPONSABILIDADE LIMITADA",
+  "polos": {
+    "ATIVO": [
+      "LUIS ANTONIO EVANGELISTA PERERIA"
+    ],
+    "PASSIVO": [
+      "FAZENDA DO ESTADO DE SAO PAULO"
+    ],
+    "TERCEIRO": [
+      "VAIL III FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS RESPONSABILIDADE LIMITADA"
+    ]
+  },
+  "classe": "Precatório",
+  "tribunal": "TJSP"
+}

@@ -1,0 +1,21 @@
+{
+  "cnj": "0010916-16.2026.8.16.0017",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "TELES HIDRAULICA LTDA X TTSCD SOCIEDADE DE CREDITO DIRETO S.A X AUXILIA CONSULTORES LTDA",
+  "polos": {
+    "PASSIVO": [
+      "TELES HIDRAULICA LTDA"
+    ],
+    "ATIVO": [
+      "TTSCD SOCIEDADE DE CREDITO DIRETO S.A"
+    ],
+    "TERCEIRO": [
+      "AUXILIA CONSULTORES LTDA"
+    ]
+  },
+  "classe": "Impugnação de Crédito",
+  "tribunal": "TJPR"
+}

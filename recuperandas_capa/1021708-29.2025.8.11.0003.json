@@ -1,0 +1,34 @@
+{
+  "cnj": "1021708-29.2025.8.11.0003",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "AGRODAL INSUMOS AGRICOLAS LTDA - EPP e outros (8) X CREDORES X LUIS ROBERTO SILVA E TAQUES e outros (5)",
+  "polos": {
+    "ATIVO": [
+      "AGRODAL INSUMOS AGRICOLAS LTDA - EPP",
+      "AGRODAL AGROPECUARIA LTDA",
+      "SANDRA MARIA PIVETTA DALMASO",
+      "ALDERI MARCOS DALMASO",
+      "GLICIA KNEIP DUQUE DALMASO",
+      "ALESSANDRO DALMASO",
+      "CLAUDETE IRONI DALMASO",
+      "ALMERI DALMASO",
+      "ALISSON LUIZ DALMASO"
+    ],
+    "PASSIVO": [
+      "CREDORES"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "LUIS ROBERTO SILVA E TAQUES",
+      "ROGERIO DE LELLIS PINTO",
+      "FAZENDA NACIONAL",
+      "MINISTERIO PUBLICO DO ESTADO DE MATO GROSSO",
+      "MUNICIPIO DE PARANATINGA",
+      "ESTADO DE MATO GROSSO"
+    ]
+  },
+  "classe": "Recuperação Judicial",
+  "tribunal": "TJMT"
+}

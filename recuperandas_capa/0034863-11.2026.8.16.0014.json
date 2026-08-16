@@ -1,0 +1,18 @@
+{
+  "cnj": "0034863-11.2026.8.16.0014",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "BANCO C6 S.A. X VICTOR GUILHERME DE OLIVEIRA",
+  "polos": {
+    "ATIVO": [
+      "BANCO C6 S.A."
+    ],
+    "PASSIVO": [
+      "VICTOR GUILHERME DE OLIVEIRA"
+    ]
+  },
+  "classe": "Busca e Apreensão em Alienação Fiduciária",
+  "tribunal": "TJPR"
+}

@@ -1,0 +1,21 @@
+{
+  "cnj": "0010023-56.2004.8.26.0554",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "GILMARIO VICENTE X PIERRE SABY LTDA X PAULO ROBERTO BASTOS PEDRO",
+  "polos": {
+    "ATIVO": [
+      "GILMARIO VICENTE"
+    ],
+    "PASSIVO": [
+      "PIERRE SABY LTDA"
+    ],
+    "TERCEIRO": [
+      "PAULO ROBERTO BASTOS PEDRO"
+    ]
+  },
+  "classe": "Habilitação de Crédito",
+  "tribunal": "TJSP"
+}

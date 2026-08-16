@@ -1,0 +1,26 @@
+{
+  "cnj": "5407073-75.2026.8.09.0084",
+  "_fontes_database": [
+    "TJ-GO-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "BENS A SEREM ARRESTADOS e outros (3) X LOURIVAL MENDES DOS SANTOS JUNIOR e outros (1) X FABIANO ALVES TAVARES e outros (1)",
+  "polos": {
+    "NAO_VINCULADOS": [
+      "BENS A SEREM ARRESTADOS",
+      "BENS A SEREM ARRESTADOS 2",
+      "ARC FIAGRO  DIREITOS CREDITORIOS  RESPONSABILIDADE LIMITADA",
+      "ATLANTIC FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS MULTISSETORIAL"
+    ],
+    "ATIVO": [
+      "LOURIVAL MENDES DOS SANTOS JUNIOR",
+      "EDVAIR ALVES MONTES"
+    ],
+    "PASSIVO": [
+      "FABIANO ALVES TAVARES",
+      "BGI BEEF ABATE LTDA"
+    ]
+  },
+  "classe": "Tutela Cautelar Antecedente",
+  "tribunal": "TJGO"
+}

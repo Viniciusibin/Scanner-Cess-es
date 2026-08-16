@@ -1,0 +1,21 @@
+{
+  "cnj": "0004667-34.2024.8.16.0077",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MATHEUS BORDONAL GOMIERO X ANDRESSA RODRIGUES DE ALMEIDA X BLACKPARTNERS MIRUNA FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS",
+  "polos": {
+    "PASSIVO": [
+      "MATHEUS BORDONAL GOMIERO"
+    ],
+    "TERCEIRO": [
+      "ANDRESSA RODRIGUES DE ALMEIDA"
+    ],
+    "ATIVO": [
+      "BLACKPARTNERS MIRUNA FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS"
+    ]
+  },
+  "classe": "Execução de Título Extrajudicial",
+  "tribunal": "TJPR"
+}

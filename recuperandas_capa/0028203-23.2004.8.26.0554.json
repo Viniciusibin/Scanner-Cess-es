@@ -1,0 +1,21 @@
+{
+  "cnj": "0028203-23.2004.8.26.0554",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ROULINDO VITOR DOS SANTOS X PIERRE SABY LTDA X PAULO ROBERTO BASTOS PEDRO",
+  "polos": {
+    "ATIVO": [
+      "ROULINDO VITOR DOS SANTOS"
+    ],
+    "PASSIVO": [
+      "PIERRE SABY LTDA"
+    ],
+    "TERCEIRO": [
+      "PAULO ROBERTO BASTOS PEDRO"
+    ]
+  },
+  "classe": "Habilitação de Crédito",
+  "tribunal": "TJSP"
+}

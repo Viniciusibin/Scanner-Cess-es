@@ -1,0 +1,20 @@
+{
+  "cnj": "0023316-13.2026.8.16.0001",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "OKNO 1 FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO-PADRONIZADOS X KRISTOFER NAME FLORENZANO e outros (2)",
+  "polos": {
+    "ATIVO": [
+      "OKNO 1 FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO-PADRONIZADOS"
+    ],
+    "PASSIVO": [
+      "KRISTOFER NAME FLORENZANO",
+      "LORENZO SERENA FLORENZANO",
+      "PIETRO SERENA FLORENZANO"
+    ]
+  },
+  "classe": "Procedimento Comum Cível",
+  "tribunal": "TJPR"
+}

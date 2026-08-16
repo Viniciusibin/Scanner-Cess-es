@@ -1,0 +1,24 @@
+{
+  "cnj": "8000865-55.2024.8.05.0154",
+  "_fontes_database": [
+    "TJ-BA-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "BANCO DO BRASIL S/A X ROBERTO BORTOLOZZO e outros (6)",
+  "polos": {
+    "ATIVO": [
+      "BANCO DO BRASIL S/A"
+    ],
+    "PASSIVO": [
+      "ROBERTO BORTOLOZZO",
+      "RUDIMAR BORTOLOZZO",
+      "CLAUDENIR BORTOLOZZO",
+      "MARIA ANTONIA GALDINO DA SILVA",
+      "CLAUDETE BORTOLOZZO",
+      "GENI MARIA BORTOLOZZO STEFANELLO",
+      "ROSELI FATIMA SALVI"
+    ]
+  },
+  "classe": "Habilitação de Crédito",
+  "tribunal": "TJBA"
+}

@@ -1,0 +1,23 @@
+{
+  "cnj": "5001340-46.2018.8.13.0317",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "SOFIA DIAS MOREIRA e outros (1) X CARLOS ALBERTO DA PENHA SANTOS e outros (1) X PAULO FERNANDO DE SA RODRIGUES",
+  "polos": {
+    "PASSIVO": [
+      "SOFIA DIAS MOREIRA",
+      "FERNANDO DIAS MOREIRA"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "CARLOS ALBERTO DA PENHA SANTOS",
+      "LUIZ GUILHERME CANDIDO CAETANO"
+    ],
+    "ATIVO": [
+      "PAULO FERNANDO DE SA RODRIGUES"
+    ]
+  },
+  "classe": "Procedimento Comum Cível",
+  "tribunal": "TJMG"
+}

@@ -1,0 +1,23 @@
+{
+  "cnj": "0006552-60.2013.8.26.0572",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MARIA ISABEL MARCHETO DE BRITO e outros (2) X RAIMUNDO SOCIEDADE DE ADVOGADOS X JUSCELINO ROSA DE OLIVEIRA",
+  "polos": {
+    "TERCEIRO": [
+      "MARIA ISABEL MARCHETO DE BRITO",
+      "JUSCELINO ROSA DE OLIVEIRA JUNIOR",
+      "ROSELI ERCI MONTEIRO GODOI"
+    ],
+    "ATIVO": [
+      "RAIMUNDO SOCIEDADE DE ADVOGADOS"
+    ],
+    "PASSIVO": [
+      "JUSCELINO ROSA DE OLIVEIRA"
+    ]
+  },
+  "classe": "Execução de Título Extrajudicial",
+  "tribunal": "TJSP"
+}

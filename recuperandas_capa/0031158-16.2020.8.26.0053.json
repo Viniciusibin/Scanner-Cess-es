@@ -1,0 +1,18 @@
+{
+  "cnj": "0031158-16.2020.8.26.0053",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ALEX JESUS DOS SANTOS X FAZENDA DO ESTADO DE SAO PAULO",
+  "polos": {
+    "ATIVO": [
+      "ALEX JESUS DOS SANTOS"
+    ],
+    "PASSIVO": [
+      "FAZENDA DO ESTADO DE SAO PAULO"
+    ]
+  },
+  "classe": "Precatório",
+  "tribunal": "TJSP"
+}

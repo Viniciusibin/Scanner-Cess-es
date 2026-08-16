@@ -1,0 +1,18 @@
+{
+  "cnj": "1029958-44.2019.8.26.0100",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ROMA 50 HOLDING LTDA X SARAFINA FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS",
+  "polos": {
+    "ATIVO": [
+      "ROMA 50 HOLDING LTDA"
+    ],
+    "PASSIVO": [
+      "SARAFINA FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS"
+    ]
+  },
+  "classe": "Embargos à Execução",
+  "tribunal": "TJSP"
+}

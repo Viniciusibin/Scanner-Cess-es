@@ -1,0 +1,22 @@
+{
+  "cnj": "0032706-02.2025.8.16.0014",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MAGNUS OIL BRASIL SOLUCOES TECNICAS LTDA e outros (1) X SUPREMO BANK FOMENTO LTDA X PETROLEO BRASILEIRO S A PETROBRAS",
+  "polos": {
+    "PASSIVO": [
+      "MAGNUS OIL BRASIL SOLUCOES TECNICAS LTDA",
+      "HELIUM MARQUES PEREIRA JUNIOR"
+    ],
+    "ATIVO": [
+      "SUPREMO BANK FOMENTO LTDA"
+    ],
+    "TERCEIRO": [
+      "PETROLEO BRASILEIRO S A PETROBRAS"
+    ]
+  },
+  "classe": "Execução de Título Extrajudicial",
+  "tribunal": "TJPR"
+}

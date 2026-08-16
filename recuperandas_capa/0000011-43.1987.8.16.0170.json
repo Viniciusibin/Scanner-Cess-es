@@ -1,0 +1,30 @@
+{
+  "cnj": "0000011-43.1987.8.16.0170",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "LINO THIELKE e outros (12) X DEPARTAMENTO DE ESTRADAS DE RODAGEM DO ESTADO DO PARANA - DER",
+  "polos": {
+    "ATIVO": [
+      "LINO THIELKE",
+      "ESPOLIO DE IVO ROQUE PEDRINI",
+      "LUCIA REGINA FELIPE HUBNER",
+      "ANILDO HUBNER",
+      "IVANI PERERA PEDRINI",
+      "NELSON HORACIO DALLA VECCHIA",
+      "ASSUNTA GRACIOSA DELLA COSTA DALLA VECCHIA",
+      "MARIA LANI HUBNER",
+      "PIERINA MARCON BERTICELLI",
+      "LOURDES MORGENSTERN THIELKE",
+      "ARMANDO HUBNER",
+      "QUINTINHO BERTICELLI",
+      "PEDRINI EMPREENDIMENTO IMOBILIARIOS LTDA."
+    ],
+    "PASSIVO": [
+      "DEPARTAMENTO DE ESTRADAS DE RODAGEM DO ESTADO DO PARANA - DER"
+    ]
+  },
+  "classe": "Cumprimento de sentença",
+  "tribunal": "TJPR"
+}

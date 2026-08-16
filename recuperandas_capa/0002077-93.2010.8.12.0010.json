@@ -1,0 +1,27 @@
+{
+  "cnj": "0002077-93.2010.8.12.0010",
+  "_fontes_database": [
+    "TJ-MS-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ESTADO DE MATO GROSSO DO SUL e outros (3) X ELIANE CARLOS RODRIGUES e outros (3) X ANTONIO RODRIGUES DE JESUS",
+  "polos": {
+    "TERCEIRO": [
+      "ESTADO DE MATO GROSSO DO SUL",
+      "BRASILSEG COMPANHIA DE SEGUROS",
+      "VAGNE ANDRE CASSIOTTI",
+      "VIA CAMPUS COMERCIO E REPRESENTACOES LTDA"
+    ],
+    "ATIVO": [
+      "ELIANE CARLOS RODRIGUES",
+      "EVANIA CARLOS RODRIGUES",
+      "ELISANGELA CARLOS RODRIGUES",
+      "ROBERTO RODRIGUES DA SILVA"
+    ],
+    "PASSIVO": [
+      "ANTONIO RODRIGUES DE JESUS"
+    ]
+  },
+  "classe": "Arrolamento Comum",
+  "tribunal": "TJMS"
+}

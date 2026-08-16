@@ -1,0 +1,18 @@
+{
+  "cnj": "0803860-86.2024.8.19.0209",
+  "_fontes_database": [
+    "TJ-RJ-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "L1X COMPRA E VENDA DE IMOVEIS EIRELI X LLZ SOLUCAO COBRANCA S.A",
+  "polos": {
+    "PASSIVO": [
+      "L1X COMPRA E VENDA DE IMOVEIS EIRELI"
+    ],
+    "ATIVO": [
+      "LLZ SOLUCAO COBRANCA S.A"
+    ]
+  },
+  "classe": "Monitória",
+  "tribunal": "TJRJ"
+}

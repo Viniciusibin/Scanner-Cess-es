@@ -1,0 +1,18 @@
+{
+  "cnj": "1005225-95.2024.8.26.0081",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "JOSE DOMINGOS LOT X VIRTATUM CAPITAL LTDA",
+  "polos": {
+    "PASSIVO": [
+      "JOSE DOMINGOS LOT"
+    ],
+    "ATIVO": [
+      "VIRTATUM CAPITAL LTDA"
+    ]
+  },
+  "classe": "Execução de Título Extrajudicial",
+  "tribunal": "TJSP"
+}

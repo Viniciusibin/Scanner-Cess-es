@@ -1,0 +1,21 @@
+{
+  "cnj": "0070597-65.2026.8.16.0000",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "J. A. CAMARGO AUTO PECAS. - ME X BRIDGESTONE DO BRASIL INDUSTRIA E COMERCIO LTDA. X BRUNA GABRIELLE FERNANDES CHAGAS",
+  "polos": {
+    "TERCEIRO": [
+      "J. A. CAMARGO AUTO PECAS. - ME"
+    ],
+    "PASSIVO": [
+      "BRIDGESTONE DO BRASIL INDUSTRIA E COMERCIO LTDA."
+    ],
+    "ATIVO": [
+      "BRUNA GABRIELLE FERNANDES CHAGAS"
+    ]
+  },
+  "classe": "Agravo de Instrumento",
+  "tribunal": "TJPR"
+}

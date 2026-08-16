@@ -1,0 +1,21 @@
+{
+  "cnj": "8000077-69.2018.8.05.0148",
+  "_fontes_database": [
+    "TJ-BA-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MARIA DA CONCEICAO DE JESUS SANTOS X JOSEVALDO SANTANA DOS SANTOS X MINISTERIO PUBLICO DO ESTADO DA BAHIA",
+  "polos": {
+    "ATIVO": [
+      "MARIA DA CONCEICAO DE JESUS SANTOS"
+    ],
+    "PASSIVO": [
+      "JOSEVALDO SANTANA DOS SANTOS"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "MINISTERIO PUBLICO DO ESTADO DA BAHIA"
+    ]
+  },
+  "classe": "Execução de Alimentos",
+  "tribunal": "TJBA"
+}

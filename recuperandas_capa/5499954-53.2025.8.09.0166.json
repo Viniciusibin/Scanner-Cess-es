@@ -1,0 +1,21 @@
+{
+  "cnj": "5499954-53.2025.8.09.0166",
+  "_fontes_database": [],
+  "status": "ok",
+  "recuperanda_capa": "PRISCILLA MACEDO FERREIRA e outros (2) X BANCO DO BRASIL SA X VW ADVOGADOS",
+  "polos": {
+    "PASSIVO": [
+      "PRISCILLA MACEDO FERREIRA",
+      "REGINA SONIA MACEDO FERREIRA",
+      "WILIAN BONAPARTE CORREA FERREIRA"
+    ],
+    "ATIVO": [
+      "BANCO DO BRASIL SA"
+    ],
+    "NAO_VINCULADOS": [
+      "VW ADVOGADOS"
+    ]
+  },
+  "classe": "Impugnação de Crédito",
+  "tribunal": "TJGO"
+}

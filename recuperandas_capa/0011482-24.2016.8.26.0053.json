@@ -1,0 +1,18 @@
+{
+  "cnj": "0011482-24.2016.8.26.0053",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "GILDETE SANTOS OLIVEIRA X MUNICIPIO DE SAO PAULO",
+  "polos": {
+    "ATIVO": [
+      "GILDETE SANTOS OLIVEIRA"
+    ],
+    "PASSIVO": [
+      "MUNICIPIO DE SAO PAULO"
+    ]
+  },
+  "classe": "Precatório",
+  "tribunal": "TJSP"
+}

@@ -1,0 +1,25 @@
+{
+  "cnj": "0003750-26.2025.8.12.0001",
+  "_fontes_database": [
+    "TJ-MS-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "CURY SOCIEDADE INDIVIDUAL DE ADVOCACIA X JOSE DOMINGOS LOT e outros (3) X BANCO DO BRASIL S/A e outros (1)",
+  "polos": {
+    "TERCEIRO": [
+      "CURY SOCIEDADE INDIVIDUAL DE ADVOCACIA"
+    ],
+    "PASSIVO": [
+      "JOSE DOMINGOS LOT",
+      "CELIA MARIA CAMARGO LOT",
+      "LOGISTICA E TRANSPORTES LOT LTDA",
+      "AGROPECUARIA JOSE DOMINGOS LOT LTDA"
+    ],
+    "ATIVO": [
+      "BANCO DO BRASIL S/A",
+      "TRAVESSIA SECURITIZADORA DE CREDITOS MERCANTIS XXV S.A."
+    ]
+  },
+  "classe": "Impugnação de Crédito",
+  "tribunal": "TJMS"
+}

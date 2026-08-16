@@ -1,0 +1,29 @@
+{
+  "cnj": "0102887-59.2007.8.26.0053",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "DENISE APARECIDA LEME e outros (8) X CBPM - CAIXA BENEFICENTE DA POLICIA MILITAR X MARLENE SIMONELLI FERREIRA DA SILVA (CESSIONARIA)",
+  "polos": {
+    "ATIVO": [
+      "DENISE APARECIDA LEME",
+      "LUZIA HELIA LEITE",
+      "JUSSARA LEITE",
+      "JUDITH SILVA DOS SANTOS",
+      "MAURO DEL CIELLO",
+      "CONCEICAO APARECIDA BRAGA LOPES",
+      "ANA BEATRIZ DE MARI SOUZA",
+      "SANDRA REGINA CANOSA DE FREITAS",
+      "YASUKO KAYAHARA"
+    ],
+    "PASSIVO": [
+      "CBPM - CAIXA BENEFICENTE DA POLICIA MILITAR"
+    ],
+    "TERCEIRO": [
+      "MARLENE SIMONELLI FERREIRA DA SILVA (CESSIONARIA)"
+    ]
+  },
+  "classe": "Precatório",
+  "tribunal": "TJSP"
+}

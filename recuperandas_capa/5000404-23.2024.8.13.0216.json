@@ -1,0 +1,16 @@
+{
+  "cnj": "5000404-23.2024.8.13.0216",
+  "_fontes_database": [],
+  "status": "ok",
+  "recuperanda_capa": "AYMORE CREDITO, FINANCIAMENTO E INVESTIMENTO S.A. X ADAILTON CESAR LOPES",
+  "polos": {
+    "PASSIVO": [
+      "AYMORE CREDITO, FINANCIAMENTO E INVESTIMENTO S.A."
+    ],
+    "ATIVO": [
+      "ADAILTON CESAR LOPES"
+    ]
+  },
+  "classe": "Procedimento Comum Cível",
+  "tribunal": "TJMG"
+}

@@ -1,0 +1,19 @@
+{
+  "cnj": "0027064-14.2026.8.16.0014",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "SILVIO ANTONIO ANANIAS e outros (1) X COOPERATIVA DE CREDITO E INVESTIMENTO COM INTERACAO SOLIDARIA NORTE PARANAENSE - CRESOL NORTE PARANAENSE",
+  "polos": {
+    "PASSIVO": [
+      "SILVIO ANTONIO ANANIAS",
+      "AGRO 360 SERVICOS DE PLANTIO E COLHEITA LTDA"
+    ],
+    "ATIVO": [
+      "COOPERATIVA DE CREDITO E INVESTIMENTO COM INTERACAO SOLIDARIA NORTE PARANAENSE - CRESOL NORTE PARANAENSE"
+    ]
+  },
+  "classe": "Busca e Apreensão em Alienação Fiduciária",
+  "tribunal": "TJPR"
+}

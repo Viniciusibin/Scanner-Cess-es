@@ -1,0 +1,22 @@
+{
+  "cnj": "0031689-35.2002.8.26.0053",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "LAIS ELIAS ROCHEL e outros (4) X IPESP - INSTITUTO DE PREVIDENCIA DO ESTADO DE SAO PAULO",
+  "polos": {
+    "ATIVO": [
+      "LAIS ELIAS ROCHEL",
+      "LUIZ CESAR ELIAS ROCHEL",
+      "PABLO YANEZ ROCHEL",
+      "LUIZ YANEZ ROCHEL",
+      "VAIL III FUNDO DE INVESTIMENTO EM DIREITOS  CREDITORIOS - RESPONSABILIDADE LIMITADA,"
+    ],
+    "PASSIVO": [
+      "IPESP - INSTITUTO DE PREVIDENCIA DO ESTADO DE SAO PAULO"
+    ]
+  },
+  "classe": "Precatório",
+  "tribunal": "TJSP"
+}

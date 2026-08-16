@@ -1,0 +1,25 @@
+{
+  "cnj": "0000017-07.1989.8.16.0097",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "YVETTE ATHAYDE FERNANDES e outros (6) X DEPARTAMENTO DE ESTRADAS DE RODAGEM DO ESTADO DO PARANA - DER e outros (1)",
+  "polos": {
+    "ATIVO": [
+      "YVETTE ATHAYDE FERNANDES",
+      "KABEL INDUTRIA  E COMERCIO DE CHICOTES ELETRICOS LTDA",
+      "JOSE PAULO GARCIA PEDRIALI",
+      "IDA MARIA CRUZ",
+      "PADO S/A INDUSTRIAL COMERCIAL E IMPORTADORA",
+      "MERCADOMOVEIS LTDA",
+      "HELIO FERNANDES IBANHES"
+    ],
+    "PASSIVO": [
+      "DEPARTAMENTO DE ESTRADAS DE RODAGEM DO ESTADO DO PARANA - DER",
+      "DEPARTAMENTO DE ESTRADA DE RODAGEM DO ESTADO DO PARANA"
+    ]
+  },
+  "classe": "Cumprimento de sentença",
+  "tribunal": "TJPR"
+}

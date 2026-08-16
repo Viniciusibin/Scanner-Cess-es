@@ -1,0 +1,23 @@
+{
+  "cnj": "0003917-10.2011.8.26.0659",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "SR COLLECTION GESTAO EMPRESARIAL LTDASR X QUINEL SUCOS E EMBALAGENS LTDA e outros (2) X ADMINISTRADOR JUDICIAL",
+  "polos": {
+    "ATIVO": [
+      "SR COLLECTION GESTAO EMPRESARIAL LTDASR"
+    ],
+    "PASSIVO": [
+      "QUINEL SUCOS E EMBALAGENS LTDA",
+      "IVONE JUNCO COSTA",
+      "CELSO JUNCO COSTA"
+    ],
+    "TERCEIRO": [
+      "ADMINISTRADOR JUDICIAL"
+    ]
+  },
+  "classe": "Execução de Título Extrajudicial",
+  "tribunal": "TJSP"
+}

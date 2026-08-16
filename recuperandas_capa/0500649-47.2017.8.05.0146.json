@@ -1,0 +1,20 @@
+{
+  "cnj": "0500649-47.2017.8.05.0146",
+  "_fontes_database": [
+    "TJ-BA-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "LUIZ GONZAGA AMORA DE MENEZES e outros (1) X MACDONALD RUBEN GONZALEZ ARIAS e outros (1)",
+  "polos": {
+    "ATIVO": [
+      "LUIZ GONZAGA AMORA DE MENEZES",
+      "MARIA FERREIRA AMORIM DE MENEZES"
+    ],
+    "PASSIVO": [
+      "MACDONALD RUBEN GONZALEZ ARIAS",
+      "FRUTOS DO EDEN EXPORTACAO E IMPORTACAO LTDA"
+    ]
+  },
+  "classe": "Procedimento Comum Cível",
+  "tribunal": "TJBA"
+}

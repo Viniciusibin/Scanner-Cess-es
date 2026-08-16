@@ -1,0 +1,18 @@
+{
+  "cnj": "0087266-50.2006.8.13.0172",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "BANCO DE DESENVOLVIMENTO DE MINAS GERAIS S.A. - BDMG X ADEMIR ARAUJO RODRIGUES",
+  "polos": {
+    "ATIVO": [
+      "BANCO DE DESENVOLVIMENTO DE MINAS GERAIS S.A. - BDMG"
+    ],
+    "PASSIVO": [
+      "ADEMIR ARAUJO RODRIGUES"
+    ]
+  },
+  "classe": "Procedimento Comum Cível",
+  "tribunal": "TJMG"
+}

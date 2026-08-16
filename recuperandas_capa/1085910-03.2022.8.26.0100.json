@@ -1,0 +1,25 @@
+{
+  "cnj": "1085910-03.2022.8.26.0100",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "SEBASTIAO LUIS PEREIRA DE LIMA X ANELISE PEREIRA DE LIMA e outros (3) X VANILDA ZIMERMANO e outros (1)",
+  "polos": {
+    "PASSIVO": [
+      "SEBASTIAO LUIS PEREIRA DE LIMA"
+    ],
+    "ATIVO": [
+      "ANELISE PEREIRA DE LIMA",
+      "LARISSA ZIMERMANO FREY",
+      "RAQUEL PEREIRA LIMA",
+      "LUIS ALEXANDRE PEREIRA DE LIMA"
+    ],
+    "TERCEIRO": [
+      "VANILDA ZIMERMANO",
+      "CCB BRASIL  CHINA CONSTRUCTION BANK (BRASIL) BANCO MULTIPLO S/A"
+    ]
+  },
+  "classe": "Inventário",
+  "tribunal": "TJSP"
+}

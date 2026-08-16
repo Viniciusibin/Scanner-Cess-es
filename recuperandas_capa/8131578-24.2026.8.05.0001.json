@@ -1,0 +1,18 @@
+{
+  "cnj": "8131578-24.2026.8.05.0001",
+  "_fontes_database": [
+    "TJ-BA-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "CLAUDIONOR TEIXEIRA X MARIA DE FATIMA DOS SANTOS TEIXEIRA NEVES",
+  "polos": {
+    "ATIVO": [
+      "CLAUDIONOR TEIXEIRA"
+    ],
+    "PASSIVO": [
+      "MARIA DE FATIMA DOS SANTOS TEIXEIRA NEVES"
+    ]
+  },
+  "classe": "Monitória",
+  "tribunal": "TJBA"
+}

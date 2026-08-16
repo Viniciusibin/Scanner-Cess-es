@@ -1,0 +1,31 @@
+{
+  "cnj": "0420921-87.1999.8.26.0053",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "CARMEM LUCIA PIMENTA FERREIRA e outros (13) X FAZENDA PUBLICA DO ESTADO DE SAO PAULO",
+  "polos": {
+    "ATIVO": [
+      "CARMEM LUCIA PIMENTA FERREIRA",
+      "GRACIO TOMAZ SATURNO",
+      "ADAUCTO FRANCISCO DA SILVA",
+      "JOSE SILVIO BATISTA",
+      "ANTONIO CLAUDIO TORRES",
+      "AQUIBALDO SALGADO VELOSO",
+      "ANTONIO AMORIM DE QUEIROZ",
+      "JOSE ADILSON DOS SANTOS",
+      "JOAO CARLOS DE LIMA",
+      "ANTONIO ALVES FILHO",
+      "ANTONIO ALVARO FACHIN",
+      "SANDRA LIA SPINELLI ROMERA",
+      "VALDEMIR SEBASTIAO PAGOTO",
+      "CELSO OTAVIO DE CARVALHO"
+    ],
+    "PASSIVO": [
+      "FAZENDA PUBLICA DO ESTADO DE SAO PAULO"
+    ]
+  },
+  "classe": "Cumprimento de sentença",
+  "tribunal": "TJSP"
+}

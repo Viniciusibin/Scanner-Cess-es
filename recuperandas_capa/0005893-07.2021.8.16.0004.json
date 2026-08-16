@@ -1,0 +1,23 @@
+{
+  "cnj": "0005893-07.2021.8.16.0004",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "VOLFFER MANUFATURA E DISTRIBUIDORA DE PECAS LTDA X ESTADO DO PARANA X CR ALMEIDA S/A - ENGENHARIA E CONSTRUCOES e outros (2)",
+  "polos": {
+    "ATIVO": [
+      "VOLFFER MANUFATURA E DISTRIBUIDORA DE PECAS LTDA"
+    ],
+    "PASSIVO": [
+      "ESTADO DO PARANA"
+    ],
+    "TERCEIRO": [
+      "CR ALMEIDA S/A - ENGENHARIA E CONSTRUCOES",
+      "ZANETTI & ADVOGADOS ASSOCIADOS",
+      "UNIAO FAZENDA NACIONAL"
+    ]
+  },
+  "classe": "Cumprimento de Sentença contra a Fazenda Pública",
+  "tribunal": "TJPR"
+}

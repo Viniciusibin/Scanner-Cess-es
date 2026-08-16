@@ -1,0 +1,18 @@
+{
+  "cnj": "0018861-69.2023.8.26.0053",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "SINDICATO DOS PROFISSIONAIS EM EDUCACAO NO ENSINO MUNICIPAL  SINPEEM X MUNICIPIO DE SAO PAULO",
+  "polos": {
+    "ATIVO": [
+      "SINDICATO DOS PROFISSIONAIS EM EDUCACAO NO ENSINO MUNICIPAL  SINPEEM"
+    ],
+    "PASSIVO": [
+      "MUNICIPIO DE SAO PAULO"
+    ]
+  },
+  "classe": "Requisição de Pequeno Valor",
+  "tribunal": "TJSP"
+}

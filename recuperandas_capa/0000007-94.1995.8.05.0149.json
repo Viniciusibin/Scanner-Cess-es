@@ -1,0 +1,21 @@
+{
+  "cnj": "0000007-94.1995.8.05.0149",
+  "_fontes_database": [
+    "TJ-BA-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "BANCO DO BRASI8L S/A X PROCURADORIA DA FAZENDA NACIONAL X ENESIO JOSE FERREIRA",
+  "polos": {
+    "ATIVO": [
+      "BANCO DO BRASI8L S/A"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "PROCURADORIA DA FAZENDA NACIONAL"
+    ],
+    "PASSIVO": [
+      "ENESIO JOSE FERREIRA"
+    ]
+  },
+  "classe": "Procedimento Comum Cível",
+  "tribunal": "TJBA"
+}

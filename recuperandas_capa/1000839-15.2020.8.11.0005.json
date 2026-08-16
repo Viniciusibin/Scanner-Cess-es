@@ -1,0 +1,31 @@
+{
+  "cnj": "1000839-15.2020.8.11.0005",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "BANCO DO BRASIL S.A. e outros (4) X SAMUEL FRANCO DALIA NETO e outros (3) X SERGIO BATSCHKE e outros (3)",
+  "polos": {
+    "PASSIVO": [
+      "BANCO DO BRASIL S.A.",
+      "CREDORES",
+      "AGOSTINHO GALGANI DA SILVA",
+      "TUMELERO AGRO MERCANTIL LTDA",
+      "IMPLEMENTOS MICHEL EIRELI - ME"
+    ],
+    "OUTROS_PARTICIPANTES": [
+      "SAMUEL FRANCO DALIA NETO",
+      "THYAGO JORGE MACHADO",
+      "FORENSE LAB PERICIAS E CONSULTORIA LTDA",
+      "MINISTERIO PUBLICO DO ESTADO DE MATO GROSSO"
+    ],
+    "ATIVO": [
+      "SERGIO BATSCHKE",
+      "ROSANE IVANIR KESSLER BATSCHKE",
+      "DJEISON JOEL BATSCHKE",
+      "AGOSTINHO GALGANI DA SILVA"
+    ]
+  },
+  "classe": "Petição Cível",
+  "tribunal": "TJMT"
+}

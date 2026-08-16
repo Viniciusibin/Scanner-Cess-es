@@ -1,0 +1,32 @@
+{
+  "cnj": "0016082-93.2013.8.26.0053",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "LAZARA DE GODOY e outros (14) X SAO PAULO PREVIDENCIA - SPPREV",
+  "polos": {
+    "ATIVO": [
+      "LAZARA DE GODOY",
+      "MAISA MOREIRA GONCALVES DA SILVA",
+      "ANA PAULA DA COSTA REIS",
+      "ADRIANA DA SILVA CHAVES",
+      "ROSEMARY DE ARAUJO",
+      "LUCIA CUTCHNER BATISTA",
+      "AGDA ERICA DA SILVA",
+      "JANAINA DE AMOEDO",
+      "RAQUEL MOTA ANDRADE",
+      "ELIETE CECILIA DE AMOEDO",
+      "NEYDE DE ALMEIDA TEIXEIRA",
+      "SILVANA APARECIDA CORREA",
+      "MARIA DO CARMO ALMENDRO DE CARVALHO",
+      "IRACY DE OLIVEIRA CARDIM",
+      "ALBA PEREIRA DE SOUZA"
+    ],
+    "PASSIVO": [
+      "SAO PAULO PREVIDENCIA - SPPREV"
+    ]
+  },
+  "classe": "Procedimento Comum Cível",
+  "tribunal": "TJSP"
+}

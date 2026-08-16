@@ -1,0 +1,18 @@
+{
+  "cnj": "0001126-53.2025.8.16.0175",
+  "_fontes_database": [
+    "TJ-PR-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "ELCIO AZEVEDO PINTO - ME X MOHZ CONSULTORIA LTDA",
+  "polos": {
+    "ATIVO": [
+      "ELCIO AZEVEDO PINTO - ME"
+    ],
+    "PASSIVO": [
+      "MOHZ CONSULTORIA LTDA"
+    ]
+  },
+  "classe": "Procedimento Comum Cível",
+  "tribunal": "TJPR"
+}

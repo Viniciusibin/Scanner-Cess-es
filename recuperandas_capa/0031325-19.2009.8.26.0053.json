@@ -1,0 +1,19 @@
+{
+  "cnj": "0031325-19.2009.8.26.0053",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "OLGA CONCEICAO BRAZ ABUD e outros (1) X CBPM - CAIXA BENEFICENTE DA POLICIA MILITAR",
+  "polos": {
+    "ATIVO": [
+      "OLGA CONCEICAO BRAZ ABUD",
+      "EDUARDO AZIZ ABUD"
+    ],
+    "PASSIVO": [
+      "CBPM - CAIXA BENEFICENTE DA POLICIA MILITAR"
+    ]
+  },
+  "classe": "Procedimento Comum Cível",
+  "tribunal": "TJSP"
+}

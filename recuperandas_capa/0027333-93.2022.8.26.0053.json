@@ -1,0 +1,18 @@
+{
+  "cnj": "0027333-93.2022.8.26.0053",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MAURO DEL CIELLO X CBPM - CAIXA BENEFICENTE DA POLICIA MILITAR",
+  "polos": {
+    "ATIVO": [
+      "MAURO DEL CIELLO"
+    ],
+    "PASSIVO": [
+      "CBPM - CAIXA BENEFICENTE DA POLICIA MILITAR"
+    ]
+  },
+  "classe": "Requisição de Pequeno Valor",
+  "tribunal": "TJSP"
+}

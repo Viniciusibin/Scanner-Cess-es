@@ -1,0 +1,18 @@
+{
+  "cnj": "1001492-21.2025.8.11.0044",
+  "_fontes_database": [
+    "TJ-MT-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "G. O. FERREIRA JUNIOR - SERVICOS - ME X ADGM SECURITIZADORA DE CREDITO SA",
+  "polos": {
+    "PASSIVO": [
+      "G. O. FERREIRA JUNIOR - SERVICOS - ME"
+    ],
+    "ATIVO": [
+      "ADGM SECURITIZADORA DE CREDITO SA"
+    ]
+  },
+  "classe": "Busca e Apreensão em Alienação Fiduciária",
+  "tribunal": "TJMT"
+}

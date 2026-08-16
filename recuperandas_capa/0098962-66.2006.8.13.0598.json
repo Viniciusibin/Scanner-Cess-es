@@ -1,0 +1,33 @@
+{
+  "cnj": "0098962-66.2006.8.13.0598",
+  "_fontes_database": [
+    "TJ-MG-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "JOSE RICARDO CARRARA LELIS e outros (11) X VANUZA CONCEICAO APARECIDA SANTOS X STELLA CRISTTINA QUEIROZ e outros (1)",
+  "polos": {
+    "OUTROS_PARTICIPANTES": [
+      "JOSE RICARDO CARRARA LELIS",
+      "CELIO BORGES BATISTA",
+      "LUZINEI SILVA SANTOS",
+      "WANDER JOSE DOS SANTOS",
+      "STELLA CRISTTINA QUEIROZ",
+      "THIAGO FERREIRA DE PAULA",
+      "SAUL FERREIRA DE PAULA",
+      "LUIZ ANTONIO BUIATTI",
+      "ADEMAR PEDRO DA SILVA",
+      "CASA DO CAMPO COMERCIO INDUSTRIA & REPRESENTACOES LTDA",
+      "COOPERATIVA DE CREDITO DO PONTAL DO TRIANGULO LTDA",
+      "RERIVALDO DE SOUZA MARQUES"
+    ],
+    "ATIVO": [
+      "VANUZA CONCEICAO APARECIDA SANTOS"
+    ],
+    "PASSIVO": [
+      "STELLA CRISTTINA QUEIROZ",
+      "VANUZA CONCEICAO APARECIDA SANTOS"
+    ]
+  },
+  "classe": "Insolvência Requerida pelo Devedor ou pelo Espólio",
+  "tribunal": "TJMG"
+}

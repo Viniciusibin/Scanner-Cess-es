@@ -1,0 +1,22 @@
+{
+  "cnj": "0002951-38.2006.8.26.0072",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "HILARIO NARDACHIONI e outros (3) X PAULO NARDACHIONE e outros (1)",
+  "polos": {
+    "PASSIVO": [
+      "HILARIO NARDACHIONI",
+      "JIMMY CARLOS PEREIRA DA CONCEICAO",
+      "GLAUCIA SAPIA CASTILHO",
+      "OLIVEIRO CASTILHO NETO"
+    ],
+    "ATIVO": [
+      "PAULO NARDACHIONE",
+      "LUIS CARLOS PEREIRA DA CONCEICAO"
+    ]
+  },
+  "classe": "Execução de Título Extrajudicial",
+  "tribunal": "TJSP"
+}

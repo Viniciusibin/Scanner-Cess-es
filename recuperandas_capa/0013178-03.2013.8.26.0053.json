@@ -1,0 +1,19 @@
+{
+  "cnj": "0013178-03.2013.8.26.0053",
+  "_fontes_database": [
+    "TJ-SP-2026.json"
+  ],
+  "status": "ok",
+  "recuperanda_capa": "MANUELA COLOCO PERES SAMORA X FAZENDA PUBLICA DO ESTADO DE SAO PAULO e outros (1)",
+  "polos": {
+    "ATIVO": [
+      "MANUELA COLOCO PERES SAMORA"
+    ],
+    "PASSIVO": [
+      "FAZENDA PUBLICA DO ESTADO DE SAO PAULO",
+      "SAO PAULO PREVIDENCIA - SPPREV"
+    ]
+  },
+  "classe": "Procedimento Comum Cível",
+  "tribunal": "TJSP"
+}
