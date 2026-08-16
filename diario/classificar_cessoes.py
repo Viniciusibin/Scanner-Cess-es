@@ -30,11 +30,12 @@ _SCRIPT_DIR = Path(__file__).resolve().parent
 _REPO_ROOT = _SCRIPT_DIR.parent
 _ENV_PATH = _REPO_ROOT / ".env"
 
-MAX_CARACTERES_TEXTO = 12000
+# Truncagem: remove bloco de ADVs antes desse limite
+MAX_CARACTERES_TEXTO = 10_000
 
 
 # ============================================================
-# CONFIGURACAO (.env) — mesmo padrão de data_cessao_credito.py
+# CONFIGURACAO (.env)
 # ============================================================
 
 def _carregar_env(caminho: Path) -> dict[str, str]:
@@ -89,48 +90,195 @@ def _extrair_json(conteudo: str) -> dict:
 
 
 # ============================================================
-# CLASSIFICACAO
+# PRÉ-PROCESSAMENTO DO TEXTO
+# ============================================================
+
+def _preprocessar_texto(texto: str, max_chars: int = MAX_CARACTERES_TEXTO) -> str:
+    """Remove o bloco de advogados no final da publicação (ruído para o LLM)
+    e limita o tamanho do texto enviado."""
+    corte = texto.find("- ADV:")
+    if corte > 500:
+        texto = texto[:corte]
+    return texto[:max_chars]
+
+
+# ============================================================
+# PROMPT
 # ============================================================
 
 PROMPT_SISTEMA = (
     "Você é um assistente jurídico especializado em recuperação judicial e "
-    "falência. Vai receber o texto de uma publicação do Diário de Justiça "
-    "Eletrônico que já passou por um filtro de palavras-chave sugerindo uma "
-    "possível cessão de crédito dentro de um processo de recuperação "
-    "judicial/falência. Sua tarefa é confirmar se é REALMENTE uma cessão de "
-    "crédito (substituição de credor, habilitação de crédito por "
-    "cessionário, notícia de cessão/aquisição de crédito extraconcursal "
-    "etc.) ou se é um falso positivo (ex.: menção incidental, cessão de "
-    "cotas societárias, termo usado em outro sentido).\n\n"
-    "Responda SOMENTE com um JSON no formato:\n"
+    "falência, trabalhando para um fundo de crédito distressed. "
+    "Vai receber o texto de uma publicação do Diário de Justiça Eletrônico "
+    "que já passou por filtro de palavras-chave. Sua tarefa é confirmar se "
+    "descreve uma cessão de crédito CONCURSAL OU EXTRACONCURSAL relevante "
+    "para um investidor em crédito distressed.\n\n"
+
+    "MARQUE is_cessao_real=true APENAS se o texto descrever:\n"
+    "- Compra ou aquisição de crédito concursal por FIDC, securitizadora, "
+    "gestora de ativos ou fundo de investimento\n"
+    "- Habilitação ou substituição processual por cessionário institucional "
+    "em processo de RJ ou falência\n"
+    "- Cessão fiduciária de recebíveis discutida no contexto de RJ/falência "
+    "com valor relevante (acima de R$ 50.000)\n"
+    "- Homologação judicial de cessão de crédito em massa falida\n"
+    "- Notícia formal de cessão com identificação de cedente e cessionário "
+    "institucional dentro de processo concursal\n\n"
+
+    "MARQUE is_cessao_real=false SE:\n"
+    "- Cessionário é pessoa física (ex.: Maria da Silva, João Ferreira)\n"
+    "- É sub-rogação trabalhista: empresa pagou rescisão de funcionário e "
+    "se habilita no lugar dele no QGC — padrão comum em TAM/LATAM, Azul, "
+    "Gol, grandes empregadores em RJ\n"
+    "- É cessão de precatório ou execução contra a Fazenda Pública (UPEFAZ, "
+    "DEPRE, Fazenda Estadual) sem empresa privada em RJ/falência como "
+    "devedora principal\n"
+    "- O texto menciona cessão apenas como contexto histórico ou incidental, "
+    "sem evento novo sendo comunicado nessa publicação\n"
+    "- Cessão de cotas societárias, UPIs ou ativos operacionais (não crédito)\n"
+    "- Tutela cautelar antecedente que apenas discute cessão fiduciária "
+    "sem homologar ou confirmar transferência de crédito\n"
+    "- Cessão de crédito fora de qualquer processo de RJ ou falência\n\n"
+
+    "Para o campo tipo_cessao, use um dos seguintes valores:\n"
+    "  'concursal'         — cessão de crédito sujeito à RJ/falência\n"
+    "  'extraconcursal'    — cessão de crédito fora do concurso (ex.: "
+    "fiduciária, DIP)\n"
+    "  'sub-rogacao'       — empresa se sub-roga em direito de ex-funcionário\n"
+    "  'precatorio_fazenda'— cessão de precatório contra ente público\n"
+    "  'fiduciaria'        — cessão fiduciária de recebíveis\n"
+    "  'outro'             — não se encaixa nos anteriores\n\n"
+
+    "Para o campo cessionario_institucional, marque true se o cessionário "
+    "for FIDC, fundo de investimento, securitizadora, gestora de ativos, "
+    "banco ou empresa de factoring. Marque false se for pessoa física ou "
+    "empresa não financeira comprando crédito de forma isolada.\n\n"
+
+    "Responda SOMENTE com um JSON no formato abaixo — sem texto fora do JSON:\n"
     "{\n"
     '  "is_cessao_real": true ou false,\n'
-    '  "confianca": "alta", "media" ou "baixa",\n'
+    '  "tipo_cessao": "concursal" | "extraconcursal" | "sub-rogacao" | '
+    '"precatorio_fazenda" | "fiduciaria" | "outro" | null,\n'
+    '  "cessionario_institucional": true ou false,\n'
+    '  "confianca": "alta" | "media" | "baixa",\n'
     '  "resumo": "1-2 frases resumindo o que foi identificado",\n'
     '  "cedente": "nome de quem cedeu o crédito, ou null",\n'
     '  "cessionario": "nome de quem adquiriu o crédito, ou null",\n'
-    '  "valor": "valor do crédito cedido, como aparece no texto, ou null",\n'
-    '  "classe_credito": "classe do crédito na RJ (ex.: quirografário, '
-    'trabalhista, com garantia real), ou null",\n'
-    '  "cnj_rj": "CNJ do processo de recuperação judicial/falência, se '
-    'diferente do CNJ da publicação, ou null",\n'
-    '  "recuperanda": "nome da empresa em recuperação judicial/falência, ou '
-    'null",\n'
+    '  "valor": "valor do crédito cedido como aparece no texto, ou null",\n'
+    '  "classe_credito": "quirografário | trabalhista | com garantia real | '
+    'extraconcursal | outro | null",\n'
+    '  "cnj_rj": "CNJ do processo de RJ/falência se diferente do CNJ da '
+    'publicação, ou null",\n'
+    '  "recuperanda": "nome da empresa em RJ/falência, ou null",\n'
     '  "motivo_classificacao": "explicação curta da decisão"\n'
     "}\n"
-    "Não invente valores que não estejam no texto — use null quando não "
-    "encontrar. Se is_cessao_real for false, ainda assim preencha resumo e "
-    "motivo_classificacao explicando por que foi descartado."
+    "Não invente valores ausentes no texto — use null quando não encontrar."
 )
 
 
+# ============================================================
+# FILTRO ESTRUTURAL PÓS-LLM
+# ============================================================
+
+# Órgãos que processam execuções contra a Fazenda — cessões aqui raramente
+# são concursais relevantes para distressed
+_ORGAOS_FAZENDA = frozenset({
+    "upefaz",
+    "fazenda pública",
+    "fazenda publica",
+    "depre",
+    "execuções contra a fazenda",
+    "execucoes contra a fazenda",
+})
+
+# Cessionários que indicam sub-rogação trabalhista, não compra de crédito
+_CESSIONARIOS_SUBROGACAO = frozenset({
+    "tam linhas aereas",
+    "tam linhas aéreas",
+    "latam airlines",
+    "azul linhas aereas",
+    "azul linhas aéreas",
+    "gol linhas aereas",
+    "gol linhas aéreas",
+    "avianca brasil",
+})
+
+
+def _e_falso_positivo_estrutural(
+    publicacao: dict, classificacao: dict
+) -> tuple[bool, str]:
+    """Regras determinísticas que sobrepõem o resultado do LLM.
+
+    Retorna (True, motivo) quando o registro deve ser descartado mesmo que
+    o LLM tenha marcado is_cessao_real=true.
+    """
+    orgao = (publicacao.get("orgao") or "").lower()
+    cessionario = (classificacao.get("cessionario") or "").lower()
+    tipo = (classificacao.get("tipo_cessao") or "").lower()
+    institucional = classificacao.get("cessionario_institucional", False)
+
+    # Execuções contra a Fazenda sem cessionário institucional
+    if any(termo in orgao for termo in _ORGAOS_FAZENDA):
+        if not institucional:
+            return True, "UPEFAZ/Fazenda sem cessionário institucional"
+
+    # Sub-rogação trabalhista por grandes empregadores conhecidos
+    if any(nome in cessionario for nome in _CESSIONARIOS_SUBROGACAO):
+        return True, f"Sub-rogação trabalhista — cessionário: {cessionario}"
+
+    # O próprio LLM identificou como sub-rogação ou precatório contra Fazenda
+    if tipo == "sub-rogacao":
+        return True, "LLM classificou como sub-rogação trabalhista"
+    if tipo == "precatorio_fazenda":
+        return True, "LLM classificou como precatório contra Fazenda"
+
+    return False, ""
+
+
+# ============================================================
+# RELEVÂNCIA BTG
+# ============================================================
+
+def _calcular_relevancia_btg(classificacao: dict) -> str:
+    """Pontuação de relevância para o BTG com base nos campos extraídos pelo LLM.
+
+    Retorna: 'alta' | 'media' | 'baixa' | 'irrelevante'
+    """
+    if not classificacao.get("is_cessao_real"):
+        return "irrelevante"
+
+    tipo = (classificacao.get("tipo_cessao") or "").lower()
+    institucional = classificacao.get("cessionario_institucional", False)
+    confianca = (classificacao.get("confianca") or "").lower()
+
+    if tipo == "concursal" and institucional:
+        return "alta" if confianca == "alta" else "media"
+
+    if tipo == "extraconcursal" and institucional:
+        return "media"
+
+    if tipo == "fiduciaria":
+        return "media"
+
+    if tipo == "concursal" and not institucional:
+        return "baixa"
+
+    return "baixa"
+
+
+# ============================================================
+# CLASSIFICACAO
+# ============================================================
+
 def classificar_texto(texto: str, tentativas: int = 3) -> dict:
-    """Chama o Azure GPT para classificar um único texto. Levanta a última
-    exceção se todas as tentativas falharem."""
+    """Chama o Azure GPT para classificar um único texto.
+    Levanta a última exceção se todas as tentativas falharem."""
+    texto_processado = _preprocessar_texto(texto)
+
     corpo = {
         "messages": [
             {"role": "system", "content": PROMPT_SISTEMA},
-            {"role": "user", "content": texto[:MAX_CARACTERES_TEXTO]},
+            {"role": "user", "content": texto_processado},
         ],
         "temperature": 0,
         "response_format": {"type": "json_object"},
@@ -139,10 +287,21 @@ def classificar_texto(texto: str, tentativas: int = 3) -> dict:
     ultimo_erro: Exception | None = None
     for tentativa in range(tentativas):
         try:
-            resp = requests.post(_montar_url(), headers=_montar_headers(), json=corpo, timeout=60)
+            resp = requests.post(
+                _montar_url(),
+                headers=_montar_headers(),
+                json=corpo,
+                timeout=60,
+            )
+            # Alguns deployments mais antigos não aceitam response_format
             if resp.status_code == 400 and "response_format" in resp.text:
                 corpo_sem_format = {k: v for k, v in corpo.items() if k != "response_format"}
-                resp = requests.post(_montar_url(), headers=_montar_headers(), json=corpo_sem_format, timeout=60)
+                resp = requests.post(
+                    _montar_url(),
+                    headers=_montar_headers(),
+                    json=corpo_sem_format,
+                    timeout=60,
+                )
             resp.raise_for_status()
             conteudo = resp.json()["choices"][0]["message"]["content"]
             return _extrair_json(conteudo)
@@ -155,6 +314,7 @@ def classificar_texto(texto: str, tentativas: int = 3) -> dict:
 
 
 def _montar_publicacao(match: dict, classificacao: dict, descoberto_em: str) -> dict:
+    relevancia = _calcular_relevancia_btg(classificacao)
     return {
         "id": match.get("id"),
         "cnj": match.get("cnj"),
@@ -169,9 +329,14 @@ def _montar_publicacao(match: dict, classificacao: dict, descoberto_em: str) -> 
         "keywords_cessao_fracas": match.get("keywords_cessao_fracas", []),
         "keywords_rj": match.get("keywords_rj", []),
         "arquivo_origem": match.get("arquivo_origem"),
+        "relevancia_btg": relevancia,
         "classificacoes": [
             {
                 "is_cessao_real": bool(classificacao.get("is_cessao_real")),
+                "tipo_cessao": classificacao.get("tipo_cessao"),
+                "cessionario_institucional": bool(
+                    classificacao.get("cessionario_institucional")
+                ),
                 "confianca": classificacao.get("confianca"),
                 "resumo": classificacao.get("resumo"),
                 "cedente": classificacao.get("cedente"),
@@ -187,9 +352,20 @@ def _montar_publicacao(match: dict, classificacao: dict, descoberto_em: str) -> 
     }
 
 
-def classificar_lote(matches: list[dict], output_file: Path, cessoes_reais_file: Path, pausa: float = 0.5) -> None:
-    """Classifica cada match via IA e grava output_file (todos) e
-    cessoes_reais_file (só os com is_cessao_real=true)."""
+# ============================================================
+# LOTE
+# ============================================================
+
+def classificar_lote(
+    matches: list[dict],
+    output_file: Path,
+    cessoes_reais_file: Path,
+    pausa: float = 0.5,
+) -> None:
+    """Classifica cada match via IA, aplica filtro estrutural e grava:
+    - output_file        → todos os registros classificados
+    - cessoes_reais_file → apenas os confirmados como cessão real relevante
+    """
     hoje = date.today().isoformat()
     classificados: list[dict] = []
     reais: list[dict] = []
@@ -205,21 +381,38 @@ def classificar_lote(matches: list[dict], output_file: Path, cessoes_reais_file:
 
         try:
             classificacao = classificar_texto(texto)
-        except Exception as exc:  # noqa: BLE001 - reportar e seguir para o próximo match
+        except Exception as exc:  # noqa: BLE001
             print(f"[ERRO IA: {exc}]")
             continue
 
         publicacao = _montar_publicacao(match, classificacao, hoje)
+        entrada = publicacao["classificacoes"][0]
+        e_real = entrada["is_cessao_real"]
+
+        # Filtro estrutural — sobrepõe o LLM quando necessário
+        if e_real:
+            falso, motivo = _e_falso_positivo_estrutural(publicacao, classificacao)
+            if falso:
+                entrada["is_cessao_real"] = False
+                entrada["motivo_classificacao"] = (
+                    (entrada.get("motivo_classificacao") or "") + f" [FILTRO: {motivo}]"
+                )
+                publicacao["relevancia_btg"] = "irrelevante"
+                e_real = False
+
         classificados.append(publicacao)
-        if publicacao["classificacoes"][0]["is_cessao_real"]:
+
+        if e_real:
             reais.append(publicacao)
-            print(f"REAL ({classificacao.get('confianca')})")
+            rel = publicacao["relevancia_btg"]
+            print(f"REAL ({entrada.get('confianca')}) — relevância={rel}")
         else:
             print("falso positivo")
 
         if i < total:
             time.sleep(pausa)
 
+    # Grava arquivos de saída
     output_file.parent.mkdir(parents=True, exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(classificados, f, ensure_ascii=False, indent=2)
@@ -227,4 +420,11 @@ def classificar_lote(matches: list[dict], output_file: Path, cessoes_reais_file:
     with open(cessoes_reais_file, "w", encoding="utf-8") as f:
         json.dump(reais, f, ensure_ascii=False, indent=2)
 
-    print(f"\n{len(classificados)} classificado(s), {len(reais)} cessão(ões) real(is) confirmada(s).")
+    reais_alta = sum(1 for r in reais if r.get("relevancia_btg") == "alta")
+    reais_media = sum(1 for r in reais if r.get("relevancia_btg") == "media")
+
+    print(
+        f"\n{len(classificados)} classificado(s) | "
+        f"{len(reais)} real(is) — "
+        f"{reais_alta} alta relevância, {reais_media} média relevância."
+    )
