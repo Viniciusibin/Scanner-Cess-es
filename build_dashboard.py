@@ -73,9 +73,14 @@ for grupo, cat in [(main, "inst"), (trav, "trav"), (ativ, "ativ")]:
         k = d.get("cessionario")
         if not k:
             continue
-        agg[k]["n"] += 1
-        agg[k]["soma"] += d.get("valor_causa") or 0
-        agg[k]["cat"] = cat
+        # No ranking geral, as series da Travessia (VIII, X, Mercantis XXV, SHP...)
+        # sao agrupadas sob um unico nome, no mesmo padrao da Ativos S.A. (que ja
+        # e um cessionario unico). O detalhamento por serie continua disponivel
+        # na aba dedicada da Travessia.
+        chave = "Travessia Securitizadora" if cat == "trav" else k
+        agg[chave]["n"] += 1
+        agg[chave]["soma"] += d.get("valor_causa") or 0
+        agg[chave]["cat"] = cat
 
 top30 = sorted(agg.items(), key=lambda x: (-x[1]["n"], -x[1]["soma"]))[:30]
 
