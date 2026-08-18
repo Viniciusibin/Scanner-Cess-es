@@ -56,20 +56,6 @@
     "cessionario_original": "Travessia Securitizadora de Creditos Mercantis XXV S.A."
   },
   {
-    "arquivo": "TJ-MS-2026.json",
-    "cnj": "0003750-26.2025.8.12.0001",
-    "orgao": "4ª Vara Civel e Regional de Falências e Recuperações",
-    "recuperanda": "TRAVESSIA SECURITIZADORA DE CREDITOS MERCANTIS XXV S.A.",
-    "cedente": "Banco do Brasil S.A.",
-    "cessionario": "Travessia Securitizadora de Créditos Mercantis XXV S.A.",
-    "valor": "R$ 144.846.772,16",
-    "classe_credito": "garantia real e quirografária",
-    "valor_causa": 0.0,
-    "descoberto_em": "2026-07-13",
-    "tribunal": "TJMS",
-    "cessionario_original": "Travessia Securitizadora de Créditos Mercantis XXV S/A"
-  },
-  {
     "arquivo": "TJ-MT-2025.json",
     "cnj": "1006062-57.2017.8.11.0003",
     "orgao": "4ª VARA CÍVEL DE RONDONÓPOLIS",

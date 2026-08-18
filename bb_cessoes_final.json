@@ -204,23 +204,6 @@
     "cessionario_original": "ASA Especial Situations Fundo de Investimento em Direitos Creditórios Não Padronizados"
   },
   {
-    "arquivo": "TJ-PR-2026.json",
-    "cnj": "0004667-34.2024.8.16.0077",
-    "orgao": "Vara Cível de Cruzeiro do Oeste",
-    "recuperanda": "BLACKPARTNERS MIRUNA FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS",
-    "cedente": "Banco do Brasil S/A",
-    "cessionario": "Blackpartners Miruna FIDC",
-    "valor": "R$5.405.585,00",
-    "classe_credito": null,
-    "tipo_cessao": null,
-    "relevancia_btg": "alta",
-    "resumo": "Houve cessão do crédito objeto da execução do Banco do Brasil S/A para Blackpartners Miruna Fundo de Investimento em Direitos Creditórios Não Padronizados, com sucessão processual deferida.",
-    "descoberto_em": "2026-07-13",
-    "tribunal": "TJPR",
-    "valor_causa": 5405585.0,
-    "cessionario_original": "Blackpartners Miruna Fundo de Investimento em Direitos Creditórios Não Padronizados"
-  },
-  {
     "arquivo": "TJ-MS-2026.json",
     "cnj": "0803598-16.2024.8.12.0021",
     "orgao": "4ª Vara Civel e Regional de Falências e Recuperações",
@@ -833,23 +816,6 @@
     "cessionario_original": "Fundo de Investimento em Direitos Creditorios Nao Padronizados Invista Fornecedores MB"
   },
   {
-    "arquivo": "TJ-PR-2026.json",
-    "cnj": "0000199-23.2011.8.16.0161",
-    "orgao": "3ª Vara Estadual de Falências e Recuperação Judicial",
-    "recuperanda": "LINEA PARANA MADEIRAS LTDA EM RECUPERACAO JUDICIAL",
-    "cedente": "Banco do Brasil S/A",
-    "cessionario": "MB FIDC",
-    "valor": "R$ 35.684,72",
-    "classe_credito": null,
-    "tipo_cessao": null,
-    "relevancia_btg": "alta",
-    "resumo": "Identificada cessão de crédito extrajudicial no processo de recuperação judicial, com sucessão do Banco do Brasil S/A pelo Fundo de Investimento em Direitos Creditórios MB para créditos habilitados.",
-    "descoberto_em": "2026-07-13",
-    "tribunal": "TJPR",
-    "valor_causa": 10000.0,
-    "cessionario_original": "Fundo de Investimento em Direitos Creditórios MB (atual: MB Fundo de Investimento em Direitos Creditórios Multisegmento)"
-  },
-  {
     "arquivo": "TJ-MG-2026.json",
     "cnj": "0061482-60.2017.8.13.0148",
     "orgao": "2ª Vara Cível da Comarca de Lagoa Santa",
@@ -899,23 +865,6 @@
     "tribunal": "TJPR",
     "valor_causa": 1440969.56,
     "cessionario_original": "BLACKPARTNERS MIRUNA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS MULTISSEGMENTOS DE RESPONSABILIDADE LIMITADA"
-  },
-  {
-    "arquivo": "TJ-MT-2026.json",
-    "cnj": "0000123-54.1996.8.11.0002",
-    "orgao": "4ª VARA CÍVEL DE VÁRZEA GRANDE",
-    "recuperanda": "massa falida (não especificado nome da empresa falida)",
-    "cedente": "Banco do Brasil S.A.",
-    "cessionario": "Ocean Empreendimentos Imobiliários SPE Ltda",
-    "valor": "acima de R$ 459.000.000,00",
-    "classe_credito": "trabalhista",
-    "tipo_cessao": "concursal",
-    "relevancia_btg": "alta",
-    "resumo": "Homologação e discussão judicial de cessão de créditos trabalhistas e originários do Banco do Brasil S.A. em processo de falência, com cessionária institucional Ocean Empreendimentos Imobiliários SPE Ltda.",
-    "descoberto_em": "2026-08-13",
-    "tribunal": "TJMT",
-    "valor_causa": 4373610.48,
-    "cessionario_original": "Ocean Empreendimentos Imobiliários SPE Ltda"
   },
   {
     "arquivo": "TJ-MG-2026.json",
