@@ -1,0 +1,2765 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Cessões Banco do Brasil</title>
+<style>
+:root {
+  color-scheme: light;
+  --bg: #FFFFFF;
+  --surface: #FFFFFF;
+  --surface-2: #F4F6F9;
+  --surface-3: #E9EDF3;
+  --ink: #121A2B;
+  --muted: #5B6472;
+  --muted-2: #7C8698;
+  --border: #E1E6ED;
+  --border-strong: #C9D1DD;
+  --accent: #0B3D91;
+  --accent-ink: #082B69;
+  --accent-soft: #E7EEF9;
+  --row-hover: #F7F9FC;
+  --shadow: 0 1px 2px rgba(18,26,43,0.04), 0 6px 20px rgba(18,26,43,0.06);
+  --shadow-lg: 0 2px 4px rgba(18,26,43,0.05), 0 16px 40px rgba(18,26,43,0.09);
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --series-3: #1baf7a;
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap { max-width: 1320px; margin: 0 auto; padding: 44px 36px 90px; }
+
+header.page { margin-bottom: 8px; }
+
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--accent-ink);
+  font-weight: 600;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.eyebrow::before {
+  content: "";
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+  display: inline-block;
+}
+
+h1 {
+  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif;
+  font-size: clamp(28px, 3.4vw, 40px);
+  font-weight: 600;
+  margin: 0 0 14px;
+  text-wrap: balance;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+}
+
+h2 {
+  font-family: Georgia, "Iowan Old Style", serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 3px;
+  color: var(--ink);
+}
+
+.subtitle { max-width: 74ch; color: var(--muted); font-size: 15px; margin: 0 0 28px; }
+
+/* ---------- Tabs ---------- */
+.tabs {
+  display: flex;
+  gap: 2px;
+  background: var(--surface-2);
+  padding: 4px;
+  border-radius: 10px;
+  margin: 0 0 28px;
+  width: fit-content;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.tab-btn {
+  font: inherit;
+  font-size: 13.5px;
+  font-weight: 600;
+  padding: 9px 16px;
+  background: none;
+  border: none;
+  border-radius: 7px;
+  color: var(--muted);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.12s ease, color 0.12s ease;
+}
+
+.tab-btn:hover { color: var(--ink); }
+
+.tab-btn.active {
+  color: var(--ink);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.tab-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.tab-panel { display: none; }
+.tab-panel.active { display: block; animation: fadein 0.15s ease; }
+
+@keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+
+/* ---------- Stats ---------- */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin: 0 0 26px;
+}
+
+.stat { background: var(--surface); padding: 18px 20px; }
+
+.stat .n {
+  font-family: Georgia, serif;
+  font-size: clamp(19px, 2vw, 26px);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.stat .l { font-size: 12px; color: var(--muted); margin-top: 5px; line-height: 1.4; }
+
+.section { margin-bottom: 36px; }
+.section-head { margin-bottom: 14px; }
+.section-head p { margin: 3px 0 0; color: var(--muted); font-size: 13px; }
+
+.legend { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 14px; font-size: 12.5px; color: var(--muted); }
+.legend-item { display: flex; align-items: center; gap: 6px; }
+.legend-dot { width: 8px; height: 8px; border-radius: 2px; display: inline-block; }
+
+.chart-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 22px 24px;
+  box-shadow: var(--shadow);
+}
+
+.bar-row {
+  display: grid;
+  grid-template-columns: minmax(140px, 260px) 1fr 60px;
+  align-items: center;
+  gap: 14px;
+  padding: 8px 0;
+  font-size: 13px;
+}
+
+.bar-label { color: var(--ink); font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bar-tag { font-size: 10.5px; font-weight: 600; padding: 2px 7px; border-radius: 5px; margin-left: 7px; white-space: nowrap; }
+.bar-track { height: 7px; background: var(--surface-3); border-radius: 4px; overflow: hidden; }
+.bar-fill { height: 100%; border-radius: 4px; }
+.bar-value { text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); font-weight: 600; font-size: 12.5px; }
+
+.grid-2 { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 22px; }
+@media (max-width: 900px) { .grid-2 { grid-template-columns: 1fr; } }
+
+.note {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-sm);
+  padding: 13px 18px;
+  font-size: 13px;
+  color: var(--muted);
+  margin: 0 0 22px;
+}
+
+.note strong { color: var(--ink); }
+
+/* ---------- Toolbar (busca + filtros em dropdown) ---------- */
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  padding: 12px 14px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+.search-field {
+  position: relative;
+  flex: 1 1 260px;
+  min-width: 200px;
+}
+
+.search-field svg {
+  position: absolute;
+  left: 11px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--muted-2);
+  pointer-events: none;
+}
+
+.search {
+  width: 100%;
+  padding: 9px 12px 9px 34px;
+  border-radius: 7px;
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-size: 13.5px;
+}
+
+.search:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+.select-field select {
+  font: inherit;
+  font-size: 13.5px;
+  padding: 9px 30px 9px 12px;
+  border-radius: 7px;
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%236B6862' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  max-width: 240px;
+}
+
+.select-field select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+.result-count {
+  font-size: 12.5px;
+  color: var(--muted);
+  white-space: nowrap;
+  margin-left: auto;
+  font-variant-numeric: tabular-nums;
+}
+
+.clear-btn {
+  font: inherit;
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 7px;
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  color: var(--muted);
+  cursor: pointer;
+}
+.clear-btn:hover { color: var(--accent-ink); border-color: var(--accent); }
+
+/* ---------- Table ---------- */
+.table-container {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow-x: auto;
+  box-shadow: var(--shadow);
+}
+
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; min-width: 980px; }
+
+thead th {
+  background: var(--surface-2);
+  text-align: left;
+  padding: 12px 14px;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 600;
+  border-bottom: 1px solid var(--border-strong);
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+
+thead th:hover { color: var(--ink); background: var(--surface-3); }
+
+thead th .sort-arrow {
+  display: inline-block;
+  margin-left: 4px;
+  opacity: 0.35;
+  font-size: 10px;
+}
+
+thead th.sorted .sort-arrow { opacity: 1; color: var(--accent-ink); }
+thead th.sorted { color: var(--ink); }
+
+tbody td { padding: 10px 14px; border-bottom: 1px solid var(--border); vertical-align: top; }
+tbody tr:nth-child(even) { background: rgba(0,0,0,0.011); }
+tbody tr:hover { background: var(--row-hover); }
+tbody tr:last-child td { border-bottom: none; }
+
+.chip {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 5px;
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.recuperanda { font-weight: 500; max-width: 210px; }
+.cnj { font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; font-size: 12.5px; }
+.cessionario { max-width: 260px; cursor: help; }
+.valor.num, td.num { font-variant-numeric: tabular-nums; white-space: nowrap; text-align: right; }
+.muted { color: var(--muted); font-style: italic; }
+
+footer { margin-top: 22px; font-size: 11.5px; color: var(--muted-2); }
+
+/* ---------- Top cessionarios (tabela) ---------- */
+.rank-table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+.rank-table thead th { position: static; cursor: default; }
+.rank-table thead th:hover { background: none; color: var(--muted); }
+.rank-table td { padding: 10px 6px; border-bottom: 1px solid var(--border); }
+.rank-table tr:last-child td { border-bottom: none; }
+.rank-table .rank {
+  font-family: Georgia, serif;
+  color: var(--muted-2);
+  font-size: 13px;
+  width: 28px;
+}
+.cessionario-nome { font-weight: 500; }
+
+@media (max-width: 640px) {
+  .wrap { padding: 26px 16px 60px; }
+  .bar-row { grid-template-columns: 100px 1fr 46px; }
+  .grid-2 { gap: 16px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="page">
+    <div class="eyebrow">Monitoramento de cessões · Diário de Justiça Eletrônico</div>
+    <h1>Créditos cedidos pelo Banco do Brasil</h1>
+    <p class="subtitle">Todos os casos de recuperação judicial e falência em que o Banco do Brasil figura como cedente, identificados a partir de publicações do DJe e confirmados por classificação assistida. Organizado por tipo de cessionário.</p>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab-btn active" data-tab="geral" role="tab">Visão geral</button>
+    <button class="tab-btn" data-tab="main" role="tab">Institucionais · 89</button>
+    <button class="tab-btn" data-tab="trav" role="tab">BB × Travessia · 20</button>
+    <button class="tab-btn" data-tab="ativ" role="tab">BB × Ativos · 77</button>
+  </nav>
+
+  <!-- ===================== GERAL ===================== -->
+  <section class="tab-panel active" id="tab-geral">
+    <div class="stats">
+      <div class="stat"><div class="n">186</div><div class="l">cessões identificadas (geral)</div></div>
+      <div class="stat"><div class="n">181</div><div class="l">recuperandas / massas falidas distintas</div></div>
+      <div class="stat"><div class="n">10</div><div class="l">tribunais (TJs)</div></div>
+      <div class="stat"><div class="n">R$ 5.313.523.148,44</div><div class="l">soma do valor da causa (geral)</div></div>
+    </div>
+
+    <div class="note">
+      <strong>Por que separar em abas:</strong> Travessia Securitizadora e Ativos S.A. Securitizadora são plataformas de compra de crédito em varejo/massa — cada uma sozinha responde por mais casos que qualquer FIDC institucional individual. Isolá-las evita que dominem a leitura de "quem mais compra crédito distressed do BB" na aba de cessionários institucionais.
+    </div>
+
+    <div class="grid-2">
+      <div class="section">
+        <div class="section-head">
+          <h2>Cessões por categoria de cessionário</h2>
+          <p>186 cessões no total — 89 institucionais diversas + 20 Travessia + 77 Ativos</p>
+        </div>
+        <div class="chart-card">
+          <div class="bar-row">
+            <div class="bar-label">Institucionais diversos <span class="bar-tag" style="background:var(--series-1)1a;color:var(--series-1)">89</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:48%; background:var(--series-1)"></div></div>
+            <div class="bar-value">R$ 3,15 bi</div>
+          </div>
+          <div class="bar-row">
+            <div class="bar-label">Travessia <span class="bar-tag" style="background:var(--series-2)1a;color:var(--series-2)">20</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:11%; background:var(--series-2)"></div></div>
+            <div class="bar-value">R$ 1,56 bi</div>
+          </div>
+          <div class="bar-row">
+            <div class="bar-label">Ativos S.A. <span class="bar-tag" style="background:var(--series-3)1a;color:var(--series-3)">77</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:41%; background:var(--series-3)"></div></div>
+            <div class="bar-value">R$ 598,1 mi</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-head">
+          <h2>Cessões por tribunal</h2>
+          <p>10 TJs monitorados, tribunal corrigido a partir do CNJ</p>
+        </div>
+        <div class="chart-card">
+          
+      <div class="bar-row">
+        <div class="bar-label">TJSP</div>
+        <div class="bar-track"><div class="bar-fill" style="width:100%; background:var(--series-1)"></div></div>
+        <div class="bar-value">51</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">TJMT</div>
+        <div class="bar-track"><div class="bar-fill" style="width:76%; background:var(--series-1)"></div></div>
+        <div class="bar-value">39</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">TJMG</div>
+        <div class="bar-track"><div class="bar-fill" style="width:73%; background:var(--series-1)"></div></div>
+        <div class="bar-value">37</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">TJPR</div>
+        <div class="bar-track"><div class="bar-fill" style="width:43%; background:var(--series-1)"></div></div>
+        <div class="bar-value">22</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">TJMS</div>
+        <div class="bar-track"><div class="bar-fill" style="width:20%; background:var(--series-1)"></div></div>
+        <div class="bar-value">10</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">TJGO</div>
+        <div class="bar-track"><div class="bar-fill" style="width:16%; background:var(--series-1)"></div></div>
+        <div class="bar-value">8</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">TJPE</div>
+        <div class="bar-track"><div class="bar-fill" style="width:14%; background:var(--series-1)"></div></div>
+        <div class="bar-value">7</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">TJBA</div>
+        <div class="bar-track"><div class="bar-fill" style="width:10%; background:var(--series-1)"></div></div>
+        <div class="bar-value">5</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">TJRS</div>
+        <div class="bar-track"><div class="bar-fill" style="width:8%; background:var(--series-1)"></div></div>
+        <div class="bar-value">4</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">TJRJ</div>
+        <div class="bar-track"><div class="bar-fill" style="width:6%; background:var(--series-1)"></div></div>
+        <div class="bar-value">3</div>
+      </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head">
+        <h2>Maiores cessionários — todas as categorias</h2>
+        <p>Top 30 por número de cessões, com o valor da causa somado ao lado</p>
+      </div>
+      <div class="chart-card">
+        <table class="rank-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Cessionário</th>
+              <th style="text-align:right">Nº de cessões</th>
+              <th style="text-align:right">Valor da causa (soma)</th>
+            </tr>
+          </thead>
+          <tbody>
+      <tr>
+        <td class="rank">1</td>
+        <td class="cessionario-nome">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="num">77</td>
+        <td class="num">R$ 598.127.155,40</td>
+      </tr>
+      <tr>
+        <td class="rank">2</td>
+        <td class="cessionario-nome">Blackpartners Miruna FIDC</td>
+        <td class="num">12</td>
+        <td class="num">R$ 916.402.033,65</td>
+      </tr>
+      <tr>
+        <td class="rank">3</td>
+        <td class="cessionario-nome">Travessia Securitizadora de Créditos Financeiros VIII S.A.</td>
+        <td class="num">11</td>
+        <td class="num">R$ 621.498.063,53</td>
+      </tr>
+      <tr>
+        <td class="rank">4</td>
+        <td class="cessionario-nome">CF FIDC</td>
+        <td class="num">7</td>
+        <td class="num">R$ 420.054.817,60</td>
+      </tr>
+      <tr>
+        <td class="rank">5</td>
+        <td class="cessionario-nome">Travessia Securitizadora de Créditos Mercantis XXV S.A.</td>
+        <td class="num">6</td>
+        <td class="num">R$ 559.467.889,25</td>
+      </tr>
+      <tr>
+        <td class="rank">6</td>
+        <td class="cessionario-nome">Ironwood Investimentos e Participações Ltda</td>
+        <td class="num">5</td>
+        <td class="num">R$ 2.070.048,31</td>
+      </tr>
+      <tr>
+        <td class="rank">7</td>
+        <td class="cessionario-nome">Cupertino FIDC</td>
+        <td class="num">5</td>
+        <td class="num">R$ 176.291.062,55</td>
+      </tr>
+      <tr>
+        <td class="rank">8</td>
+        <td class="cessionario-nome">ASA Special Situations FIDC</td>
+        <td class="num">5</td>
+        <td class="num">R$ 73.563.523,91</td>
+      </tr>
+      <tr>
+        <td class="rank">9</td>
+        <td class="cessionario-nome">MB FIDC</td>
+        <td class="num">4</td>
+        <td class="num">R$ 22.994.743,52</td>
+      </tr>
+      <tr>
+        <td class="rank">10</td>
+        <td class="cessionario-nome">Creditum Recuperadora de Créditos e Investimentos Ltda</td>
+        <td class="num">4</td>
+        <td class="num">R$ 94.601.035,28</td>
+      </tr>
+      <tr>
+        <td class="rank">11</td>
+        <td class="cessionario-nome">OKNO 1 FIDC</td>
+        <td class="num">3</td>
+        <td class="num">R$ 68.496.375,50</td>
+      </tr>
+      <tr>
+        <td class="rank">12</td>
+        <td class="cessionario-nome">Distressed FIDC</td>
+        <td class="num">3</td>
+        <td class="num">R$ 12.264.789,00</td>
+      </tr>
+      <tr>
+        <td class="rank">13</td>
+        <td class="cessionario-nome">IOX Securitizadora S/A</td>
+        <td class="num">2</td>
+        <td class="num">R$ 184.640.068,13</td>
+      </tr>
+      <tr>
+        <td class="rank">14</td>
+        <td class="cessionario-nome">Fitz Roy Special Situations FIDC</td>
+        <td class="num">2</td>
+        <td class="num">R$ 47.526.928,83</td>
+      </tr>
+      <tr>
+        <td class="rank">15</td>
+        <td class="cessionario-nome">SSG FIDC</td>
+        <td class="num">2</td>
+        <td class="num">R$ 155.129.887,12</td>
+      </tr>
+      <tr>
+        <td class="rank">16</td>
+        <td class="cessionario-nome">Nanban FIDC</td>
+        <td class="num">2</td>
+        <td class="num">R$ 1.010.000,00</td>
+      </tr>
+      <tr>
+        <td class="rank">17</td>
+        <td class="cessionario-nome">ADGM Securitizadora de Crédito S/A</td>
+        <td class="num">2</td>
+        <td class="num">R$ 0,00</td>
+      </tr>
+      <tr>
+        <td class="rank">18</td>
+        <td class="cessionario-nome">Lepta Gestora de Crédito Ltda</td>
+        <td class="num">2</td>
+        <td class="num">R$ 7.171.017,64</td>
+      </tr>
+      <tr>
+        <td class="rank">19</td>
+        <td class="cessionario-nome">Atlântico Corporate FIDC</td>
+        <td class="num">1</td>
+        <td class="num">R$ 594.548,21</td>
+      </tr>
+      <tr>
+        <td class="rank">20</td>
+        <td class="cessionario-nome">Antonio Rizzi</td>
+        <td class="num">1</td>
+        <td class="num">R$ 1.000,00</td>
+      </tr>
+      <tr>
+        <td class="rank">21</td>
+        <td class="cessionario-nome">Oro Capital Gestão de Recursos S/A</td>
+        <td class="num">1</td>
+        <td class="num">R$ 5.000.000,00</td>
+      </tr>
+      <tr>
+        <td class="rank">22</td>
+        <td class="cessionario-nome">Borrachas Vipal S.A. / AJAXJUD FIDC</td>
+        <td class="num">1</td>
+        <td class="num">R$ 500.000,00</td>
+      </tr>
+      <tr>
+        <td class="rank">23</td>
+        <td class="cessionario-nome">DJF FIDC</td>
+        <td class="num">1</td>
+        <td class="num">R$ 262.504.584,56</td>
+      </tr>
+      <tr>
+        <td class="rank">24</td>
+        <td class="cessionario-nome">Julio Cesar Celles Cordeiro</td>
+        <td class="num">1</td>
+        <td class="num">R$ 100.000,00</td>
+      </tr>
+      <tr>
+        <td class="rank">25</td>
+        <td class="cessionario-nome">Fundo de Gestão de Ativos de Crédito FIDC</td>
+        <td class="num">1</td>
+        <td class="num">R$ 0,00</td>
+      </tr>
+      <tr>
+        <td class="rank">26</td>
+        <td class="cessionario-nome">Wizard FIDC</td>
+        <td class="num">1</td>
+        <td class="num">R$ 151.851,86</td>
+      </tr>
+      <tr>
+        <td class="rank">27</td>
+        <td class="cessionario-nome">Hamilton Carlos Delucci</td>
+        <td class="num">1</td>
+        <td class="num">R$ 48.796.901,21</td>
+      </tr>
+      <tr>
+        <td class="rank">28</td>
+        <td class="cessionario-nome">Fundo Não-Padronizados I</td>
+        <td class="num">1</td>
+        <td class="num">R$ 1.000,00</td>
+      </tr>
+      <tr>
+        <td class="rank">29</td>
+        <td class="cessionario-nome">Ocean Empreendimentos Imobiliários SPE Ltda</td>
+        <td class="num">1</td>
+        <td class="num">R$ 4.373.610,48</td>
+      </tr>
+      <tr>
+        <td class="rank">30</td>
+        <td class="cessionario-nome">Carlos Roberto Fleck</td>
+        <td class="num">1</td>
+        <td class="num">R$ 409.581.269,25</td>
+      </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== MAIN (institucionais) ===================== -->
+  <section class="tab-panel" id="tab-main">
+    <div class="stats"><div class="stat"><div class="n">89</div><div class="l">cessões identificadas</div></div><div class="stat"><div class="n">87</div><div class="l">recuperandas / massas falidas distintas</div></div><div class="stat"><div class="n">42</div><div class="l">cessionários distintos (padronizados)</div></div><div class="stat"><div class="n">R$ 3.151.087.740,05</div><div class="l">soma do valor da causa (81 de 89 casos)</div></div></div>
+    <div class="note">
+      <strong>Escopo:</strong> exclui Travessia Securitizadora e Ativos S.A. Securitizadora (veja abas dedicadas). Nomes de cessionários padronizados — passe o mouse para ver a grafia original da publicação.
+    </div>
+    <div class="toolbar">
+      <div class="search-field">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.4"/><path d="M9.6 9.6L13 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+        <input class="search" data-search-scope="main" type="text" placeholder="Buscar por recuperanda, CNJ ou cessionário…">
+      </div>
+      <div class="select-field">
+        <select data-select-scope="main" data-attr="tribunal"><option value="all">Todos os tribunais · 89</option>
+<option value="TJSP">TJSP · 30</option>
+<option value="TJPR">TJPR · 19</option>
+<option value="TJMG">TJMG · 14</option>
+<option value="TJMT">TJMT · 12</option>
+<option value="TJMS">TJMS · 5</option>
+<option value="TJBA">TJBA · 2</option>
+<option value="TJGO">TJGO · 2</option>
+<option value="TJPE">TJPE · 2</option>
+<option value="TJRJ">TJRJ · 2</option>
+<option value="TJRS">TJRS · 1</option></select>
+      </div>
+      <button class="clear-btn" data-clear-scope="main">Limpar filtros</button>
+      <span class="result-count" data-count-scope="main"></span>
+    </div>
+    <div class="table-container">
+      <table data-table="main">
+        <thead>
+          <tr>
+            <th data-key="s-tribunal">TJ<span class="sort-arrow">▲▼</span></th>
+            <th data-key="s-recuperanda">Recuperanda / massa falida<span class="sort-arrow">▲▼</span></th>
+            <th data-key="s-cnj">CNJ<span class="sort-arrow">▲▼</span></th>
+            <th data-key="s-cessionario">Cessionário (padronizado)<span class="sort-arrow">▲▼</span></th>
+            <th style="text-align:right">Valor mencionado</th>
+            <th style="text-align:right" data-key="s-valorcausa">Valor da causa<span class="sort-arrow">▲▼</span></th>
+          </tr>
+        </thead>
+        <tbody>
+      <tr data-tribunal="TJBA" data-cessionario="Atlântico Corporate FIDC"
+          data-s-tribunal="TJBA" data-s-recuperanda="ASA MOTO CENTER COMERCIO E SERVICOS LTDA"
+          data-s-cnj="0532230-64.2016.8.05.0001" data-s-cessionario="ATLANTICO CORPORATE FIDC" data-s-valorcausa="594548.21">
+        <td class="tj"><span class="chip">TJBA</span></td>
+        <td class="recuperanda">ASA MOTO CENTER COMERCIO E SERVICOS LTDA</td>
+        <td class="cnj">0532230-64.2016.8.05.0001</td>
+        <td class="cessionario" title="ATLÂNTICO CORPORATE FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS">Atlântico Corporate FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 594.548,21</td>
+      </tr>
+      <tr data-tribunal="TJBA" data-cessionario="IOX Securitizadora S/A"
+          data-s-tribunal="TJBA" data-s-recuperanda="TRATORMASTER TRATORES PECAS E SERVICOS LTDA"
+          data-s-cnj="0334220-40.2017.8.05.0001" data-s-cessionario="IOX SECURITIZADORA S/A" data-s-valorcausa="0.0">
+        <td class="tj"><span class="chip">TJBA</span></td>
+        <td class="recuperanda">TRATORMASTER TRATORES PEÇAS E SERVIÇOS LTDA</td>
+        <td class="cnj">0334220-40.2017.8.05.0001</td>
+        <td class="cessionario" title="IOX SECURITIZADORA S/A e posteriormente TRAMEC TRATORES LTDA">IOX Securitizadora S/A</td>
+        <td class="valor num">R$ 3.684.472,48</td>
+        <td class="valor num">R$ 0,00</td>
+      </tr>
+      <tr data-tribunal="TJGO" data-cessionario="OKNO 1 FIDC"
+          data-s-tribunal="TJGO" data-s-recuperanda="HOTEL SOL LTDA."
+          data-s-cnj="5218390-90.2025.8.09.0051" data-s-cessionario="OKNO 1 FIDC" data-s-valorcausa="11529982.42">
+        <td class="tj"><span class="chip">TJGO</span></td>
+        <td class="recuperanda">Hotel Sol Ltda.</td>
+        <td class="cnj">5218390-90.2025.8.09.0051</td>
+        <td class="cessionario" title="OKNO Capital Ltda.">OKNO 1 FIDC</td>
+        <td class="valor num">R$ 8.089.141,58</td>
+        <td class="valor num">R$ 11.529.982,42</td>
+      </tr>
+      <tr data-tribunal="TJGO" data-cessionario="Antonio Rizzi"
+          data-s-tribunal="TJGO" data-s-recuperanda="RUI MARTINS GUIMARAES"
+          data-s-cnj="0117879-58.1995.8.09.0137" data-s-cessionario="ANTONIO RIZZI" data-s-valorcausa="1000.0">
+        <td class="tj"><span class="chip">TJGO</span></td>
+        <td class="recuperanda">Rui Martins Guimarães</td>
+        <td class="cnj">0117879-58.1995.8.09.0137</td>
+        <td class="cessionario">Antonio Rizzi</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 1.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ironwood Investimentos e Participações Ltda"
+          data-s-tribunal="TJMG" data-s-recuperanda="CONTECH INDUSTRIA E COMERCIO DE EQUIPAMENTOS ELETRONICOS LTDA"
+          data-s-cnj="5040894-28.2017.8.13.0024" data-s-cessionario="IRONWOOD INVESTIMENTOS E PARTICIPACOES LTDA" data-s-valorcausa="0.0">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">CONTECH INDUSTRIA E COMERCIO DE EQUIPAMENTOS ELETRONICOS LTDA</td>
+        <td class="cnj">5040894-28.2017.8.13.0024</td>
+        <td class="cessionario" title="IRONWOOD INVESTIMENTOS E PARTICIPAÇÕES LTDA">Ironwood Investimentos e Participações Ltda</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 0,00</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ironwood Investimentos e Participações Ltda"
+          data-s-tribunal="TJMG" data-s-recuperanda="EPC ENGENHARIA PROJETO CONSULTORIA SA"
+          data-s-cnj="2481274-84.2014.8.13.0024" data-s-cessionario="IRONWOOD INVESTIMENTOS E PARTICIPACOES LTDA" data-s-valorcausa="1592676.46">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">EPC ENGENHARIA PROJETO CONSULTORIA SA</td>
+        <td class="cnj">2481274-84.2014.8.13.0024</td>
+        <td class="cessionario" title="IRONWOOD INVESTIMENTOS E PARTICIPAÇÕES LTDA">Ironwood Investimentos e Participações Ltda</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 1.592.676,46</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ironwood Investimentos e Participações Ltda"
+          data-s-tribunal="TJMG" data-s-recuperanda="FAM CONSTRUCOES METALICAS PESADAS LTDA"
+          data-s-cnj="2065382-06.2014.8.13.0024" data-s-cessionario="IRONWOOD INVESTIMENTOS E PARTICIPACOES LTDA" data-s-valorcausa="101859.0">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">FAM CONSTRUCOES METALICAS PESADAS LTDA</td>
+        <td class="cnj">2065382-06.2014.8.13.0024</td>
+        <td class="cessionario" title="IRONWOOD INVESTIMENTOS E PARTICIPAÇÕES LTDA">Ironwood Investimentos e Participações Ltda</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 101.859,00</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Oro Capital Gestão de Recursos S/A"
+          data-s-tribunal="TJMG" data-s-recuperanda="IRMAOS SOARES LTDA. (20.604.518/0001-41) (20604518000141),IRMAOS SOARES LTDA. (20.604.518/0002-22) (20604518000222),IRMAOS SOARES LTDA. (20.604.518/0004-94) (20604518000494),IRMAOS SOARES LTDA. (20.604.518/0006-56) (20604518000656),IRMAOS SOARES LTDA. (20.604.518/0007-37) (20604518000737)"
+          data-s-cnj="5014247-10.2018.8.13.0105" data-s-cessionario="ORO CAPITAL GESTAO DE RECURSOS S/A" data-s-valorcausa="5000000.0">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">IRMÃOS SOARES LTDA.</td>
+        <td class="cnj">5014247-10.2018.8.13.0105</td>
+        <td class="cessionario" title="ORO CAPITAL GESTÃO DE RECURSOS S/A">Oro Capital Gestão de Recursos S/A</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 5.000.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="CF FIDC"
+          data-s-tribunal="TJMG" data-s-recuperanda="JC AGRICULTURA LTDA. (55017559000116) (55017559000116),ANDRADE AGRICULTURA LTDA. (55024355000102) (55024355000102),JCA SERVICOS AGRICOLAS LTDA. (47673278000193) (47673278000193),S.M.A LOCACAO DE MAQUINAS LTDA. (33595763000181) (33595763000181)"
+          data-s-cnj="5014318-41.2024.8.13.0480" data-s-cessionario="CF FIDC" data-s-valorcausa="34401274.37">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">JC AGRICULTURA LTDA.</td>
+        <td class="cnj">5014318-41.2024.8.13.0480</td>
+        <td class="cessionario" title="CF FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS – RESPONSABILIDADE LIMITADA">CF FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 34.401.274,37</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Borrachas Vipal S.A. / AJAXJUD FIDC"
+          data-s-tribunal="TJMG" data-s-recuperanda="MARANGONI TREAD LATINO AMERICA INDUSTRIA E COMERCIO DE ARTEFATOS DE BORRACHA LTDA"
+          data-s-cnj="0061482-60.2017.8.13.0148" data-s-cessionario="BORRACHAS VIPAL S.A. / AJAXJUD FIDC" data-s-valorcausa="500000.0">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">Marangoni Tread Latino America Indústria e Comércio de Artefatos de Borracha Ltda</td>
+        <td class="cnj">0061482-60.2017.8.13.0148</td>
+        <td class="cessionario" title="Borrachas Vipal S.A. e AJAXJUD – Fundo de Investimentos em Direitos Creditórios Não Padronizados">Borrachas Vipal S.A. / AJAXJUD FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 500.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="DJF FIDC"
+          data-s-tribunal="TJMG" data-s-recuperanda="MEGAFORT DISTRIBUIDORA IMPORTACAO E EXPORTACAO LTDA. (02782071000119) (02782071000119),MEGAFORT DISTRIBUIDORA IMPORTACAO E EXPORTACAO LTDA. (02782071000704) (02782071000704),MEGAFORT DISTRIBUIDORA IMPORTACAO E EXPORTACAO LTDA. (02782071000380) (02782071000380),MEGAFORT DISTRIBUIDORA IMPORTACAO E EXPORTACAO LTDA. (02782071000623) (02782071000623),MEGALOG LOGISTICA E TRANSPORTES LTDA. (10680229000178) (10680229000178),MEGALOG LOGISTICA E TRANSPORTES LTDA. (10680229000259) (10680229000259),MEGALOG LOGISTICA E TRANSPORTES LTDA. (10680229000410) (10680229000410),MEGALOG LOGISTICA E TRANSPORTES LTDA. (10680229000844) (10680229000844),MEGALOG LOGISTICA E TRANSPORTES LTDA. (10680229000763) (10680229000763),MEGALOG LOGISTICA E TRANSPORTES LTDA. (10680229000500) (10680229000500),J.M.E EMPREENDIMENTOS PARTICIPACOES E SERVICOS S.A. (08342257000133) (08342257000133),SINDI  SISTEMA INTEGRADO DE DISTRIBUICAO S/A. (17163312000119) (17163312000119),SINDI  SISTEMA INTEGRADO DE DISTRIBUICAO S/A. (17163312002758) (17163312002758)"
+          data-s-cnj="5031860-87.2019.8.13.0079" data-s-cessionario="DJF FIDC" data-s-valorcausa="262504584.56">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">MEGAFORT DISTRIBUIDORA IMPORTAÇÃO E EXPORTAÇÃO LTDA.</td>
+        <td class="cnj">5031860-87.2019.8.13.0079</td>
+        <td class="cessionario" title="DJF - FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS">DJF FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 262.504.584,56</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="OKNO 1 FIDC"
+          data-s-tribunal="TJMG" data-s-recuperanda="MODELACO COMERCIO DE PRODUTOS E SERVICOS EM ACO LTDA (07736401000153),MODELACO COMERCIO DE PRODUTOS E SERVICOS EM ACO LTDA (07736401000234),MODEPLAST LTDA (04008079000158),ACOVIGA ESTRUTURAS METALICAS LTDA - ME (04008079000158),ALVARO LUIZ DOS SANTOS JUNIOR (23947306172),LUCAS LUIZ PEREIRA DO VALE SANTOS (08361857656)"
+          data-s-cnj="5025882-18.2024.8.13.0027" data-s-cessionario="OKNO 1 FIDC" data-s-valorcausa="56866393.08">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">MODELACO COMERCIO DE PRODUTOS E SERVICOS EM ACO LTDA</td>
+        <td class="cnj">5025882-18.2024.8.13.0027</td>
+        <td class="cessionario" title="OKNO 1 FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS">OKNO 1 FIDC</td>
+        <td class="valor num">11720686,72</td>
+        <td class="valor num">R$ 56.866.393,08</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ironwood Investimentos e Participações Ltda"
+          data-s-tribunal="TJMG" data-s-recuperanda="NOVO HORIZONTE JACAREPAGUA IMPORTACAO E EXPORTACAO LTDA (00185997000100)"
+          data-s-cnj="5000636-29.2024.8.13.0024" data-s-cessionario="IRONWOOD INVESTIMENTOS E PARTICIPACOES LTDA" data-s-valorcausa="83460.77">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">NOVO HORIZONTE JACAREPAGUA IMPORTACAO E EXPORTACAO LTDA</td>
+        <td class="cnj">5000636-29.2024.8.13.0024</td>
+        <td class="cessionario" title="IRONWOOD INVESTIMENTOS E PARTICIPAÇÕES LTDA">Ironwood Investimentos e Participações Ltda</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 83.460,77</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="MB FIDC"
+          data-s-tribunal="TJMG" data-s-recuperanda="PALIMONTES COMERCIO E SERVICOS LTDA. (17027418000195) (17027418000195),PALIMONTES TECNOLOGIA E SERVICOS LTDA. - EPP (07450362000123) (07450362000123)"
+          data-s-cnj="5010426-47.2019.8.13.0433" data-s-cessionario="MB FIDC" data-s-valorcausa="22874743.52">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">PALIMONTES COMÉRCIO E SERVIÇOS LTDA.</td>
+        <td class="cnj">5010426-47.2019.8.13.0433</td>
+        <td class="cessionario" title="FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS FORNECEDORES MB">MB FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 22.874.743,52</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Cupertino FIDC"
+          data-s-tribunal="TJMG" data-s-recuperanda="S3 MED DISTRIBUIDORA DE MEDICAMENTOS LTDA. (09.660.958/0001-83) (09660958000183)"
+          data-s-cnj="5001424-83.2015.8.13.0145" data-s-cessionario="CUPERTINO FIDC" data-s-valorcausa="42372158.38">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">S3 MED DISTRIBUIDORA DE MEDICAMENTOS LTDA.</td>
+        <td class="cnj">5001424-83.2015.8.13.0145</td>
+        <td class="cessionario" title="CUPERTINO FUNDO DE INVESTIMENTOS EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS">Cupertino FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 42.372.158,38</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="IOX Securitizadora S/A"
+          data-s-tribunal="TJMG" data-s-recuperanda="SAGRADOS CORACOES INDUSTRIA E COMERCIO DE ALIMENTOS LTDA"
+          data-s-cnj="5005360-43.2023.8.13.0693" data-s-cessionario="IOX SECURITIZADORA S/A" data-s-valorcausa="184640068.13">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">Sagrados Coracoes Industria e Comercio de Alimentos Ltda</td>
+        <td class="cnj">5005360-43.2023.8.13.0693</td>
+        <td class="cessionario">IOX Securitizadora S/A</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 184.640.068,13</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ironwood Investimentos e Participações Ltda"
+          data-s-tribunal="TJMG" data-s-recuperanda="TRAXTERRA SERVICOS E EQUIPAMENTOS LTDA - ME"
+          data-s-cnj="2122688-30.2014.8.13.0024" data-s-cessionario="IRONWOOD INVESTIMENTOS E PARTICIPACOES LTDA" data-s-valorcausa="292052.08">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">TRAXTERRA SERVICOS E EQUIPAMENTOS LTDA - ME</td>
+        <td class="cnj">2122688-30.2014.8.13.0024</td>
+        <td class="cessionario" title="IRONWOOD INVESTIMENTOS E PARTICIPAÇÕES LTDA">Ironwood Investimentos e Participações Ltda</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 292.052,08</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Julio Cesar Celles Cordeiro"
+          data-s-tribunal="TJMG" data-s-recuperanda="VIACAO SERTANEJA LTDA. (16505190000139) (16505190000139)"
+          data-s-cnj="5202408-48.2021.8.13.0024" data-s-cessionario="JULIO CESAR CELLES CORDEIRO" data-s-valorcausa="100000.0">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">VIAÇÃO SERTANEJA LTDA.</td>
+        <td class="cnj">5202408-48.2021.8.13.0024</td>
+        <td class="cessionario" title="JULIO CESAR CELLES CORDEIRO">Julio Cesar Celles Cordeiro</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 100.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMS" data-cessionario="Fitz Roy Special Situations FIDC"
+          data-s-tribunal="TJMS" data-s-recuperanda="AGROPECUARIA TUBARAO LTDA."
+          data-s-cnj="0823471-28.2025.8.12.0001" data-s-cessionario="FITZ ROY SPECIAL SITUATIONS FIDC" data-s-valorcausa="23013444.01">
+        <td class="tj"><span class="chip">TJMS</span></td>
+        <td class="recuperanda">AGROPECUÁRIA TUBARÃO LTDA.</td>
+        <td class="cnj">0823471-28.2025.8.12.0001</td>
+        <td class="cessionario" title="Fitz Roy Special Situations II Fundo de Investimento em Direitos Creditórios de Responsabilidade Limitada">Fitz Roy Special Situations FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 23.013.444,01</td>
+      </tr>
+      <tr data-tribunal="TJMS" data-cessionario="Blackpartners Miruna FIDC"
+          data-s-tribunal="TJMS" data-s-recuperanda="CALCARIO MONTE NEGRO LTDA."
+          data-s-cnj="0803598-16.2024.8.12.0021" data-s-cessionario="BLACKPARTNERS MIRUNA FIDC" data-s-valorcausa="-1">
+        <td class="tj"><span class="chip">TJMS</span></td>
+        <td class="recuperanda">Calcário Monte Negro Ltda.</td>
+        <td class="cnj">0803598-16.2024.8.12.0021</td>
+        <td class="cessionario" title="Blackpartners Miruna Fundo de Investimento em Direitos Creditórios Multissegmentos de Responsabilidade Limitada">Blackpartners Miruna FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">-</td>
+      </tr>
+      <tr data-tribunal="TJMS" data-cessionario="CF FIDC"
+          data-s-tribunal="TJMS" data-s-recuperanda="F.J. ANDRIGHETTO, FRANCISCO JOAO ANDRIGHETTO, FRANCISCO SALES ANDRIGHETTO, F.S. ANDRIGHETTO, MIRIAN MAZZINI THOMAZ ANDRIGHETTO, M.M.T. ANDRIGHETTO, VICTORIA THOMAZ ANDRIGHETTO, VIRGINIA JURACI ANDRIGHETTO, V..J. ANDRIGHETTO, V.T. ANDRIGHETTO"
+          data-s-cnj="0800919-65.2024.8.12.0046" data-s-cessionario="CF FIDC" data-s-valorcausa="114219861.18">
+        <td class="tj"><span class="chip">TJMS</span></td>
+        <td class="recuperanda">F.J. ANDRIGHETTO</td>
+        <td class="cnj">0800919-65.2024.8.12.0046</td>
+        <td class="cessionario" title="CF Fundo de Investimento em Direitos Creditórios - Responsabilidade Ltda.">CF FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 114.219.861,18</td>
+      </tr>
+      <tr data-tribunal="TJMS" data-cessionario="Fundo de Gestão de Ativos de Crédito FIDC"
+          data-s-tribunal="TJMS" data-s-recuperanda="RAFAEL FAYAD E OUTRA"
+          data-s-cnj="0002405-25.2025.8.12.0001" data-s-cessionario="FUNDO DE GESTAO DE ATIVOS DE CREDITO FIDC" data-s-valorcausa="0.0">
+        <td class="tj"><span class="chip">TJMS</span></td>
+        <td class="recuperanda">Rafael Fayad e outra</td>
+        <td class="cnj">0002405-25.2025.8.12.0001</td>
+        <td class="cessionario" title="Fundo de Gestão de Ativos de Crédito - FIDC Responsabilidade Limitada">Fundo de Gestão de Ativos de Crédito FIDC</td>
+        <td class="valor num">17619707,90</td>
+        <td class="valor num">R$ 0,00</td>
+      </tr>
+      <tr data-tribunal="TJMS" data-cessionario="Blackpartners Miruna FIDC"
+          data-s-tribunal="TJMS" data-s-recuperanda="VINICIUS COUTINHO CONSULTORIA E PERICIA S/S LTDA"
+          data-s-cnj="0810454-03.2017.8.12.0001" data-s-cessionario="BLACKPARTNERS MIRUNA FIDC" data-s-valorcausa="100000.0">
+        <td class="tj"><span class="chip">TJMS</span></td>
+        <td class="recuperanda">VINICIUS COUTINHO CONSULTORIA E PERICIA S/S LTDA</td>
+        <td class="cnj">0810454-03.2017.8.12.0001</td>
+        <td class="cessionario" title="BLACKPARTNERS MINURA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS">Blackpartners Miruna FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 100.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Wizard FIDC"
+          data-s-tribunal="TJMT" data-s-recuperanda="AGRO-INDUSTRIAL IRMAOS ZULLI LTDA"
+          data-s-cnj="0000670-80.1999.8.11.0005" data-s-cessionario="WIZARD FIDC" data-s-valorcausa="151851.86">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">Agro-Industrial Irmãos Zulli Ltda</td>
+        <td class="cnj">0000670-80.1999.8.11.0005</td>
+        <td class="cessionario" title="Wizard Fundo de Investimento em Direitos Creditórios Não Padronizados">Wizard FIDC</td>
+        <td class="valor num">R$ 151.851,86</td>
+        <td class="valor num">R$ 151.851,86</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="ASA Special Situations FIDC"
+          data-s-tribunal="TJMT" data-s-recuperanda="ATIVA CORRETORA E COMERCIO DE CEREAIS LTDA"
+          data-s-cnj="1002108-05.2025.8.11.0041" data-s-cessionario="ASA SPECIAL SITUATIONS FIDC" data-s-valorcausa="25725931.29">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">ATIVA CORRETORA E COMERCIO DE CEREAIS LTDA</td>
+        <td class="cnj">1002108-05.2025.8.11.0041</td>
+        <td class="cessionario" title="ASA Especial Situations Fundo de Investimento em Direitos Creditórios Não Padronizados">ASA Special Situations FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 25.725.931,29</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Fitz Roy Special Situations FIDC"
+          data-s-tribunal="TJMT" data-s-recuperanda="CARLOS ALBERTO LAURINI (43599931020) (43599931020),MARIA LUIZA LAURINI (00474963985) (00474963985),MARCOS AURELIO LAURINI (38075334000) (38075334000),ELIVANE LAURINI (59268468034) (59268468034),LAURINI E RUTSATZ LTDA (05026429000171) (05026429000171),TONETTI &amp; PILONETTO LTDA  EPP (97519257000196) (97519257000196),LR TRANSPORTES RODOVIARIOS EIRELI (05026429000171) (05026429000171)"
+          data-s-cnj="1034384-60.2023.8.11.0041" data-s-cessionario="FITZ ROY SPECIAL SITUATIONS FIDC" data-s-valorcausa="24513484.82">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">CARLOS ALBERTO LAURINI</td>
+        <td class="cnj">1034384-60.2023.8.11.0041</td>
+        <td class="cessionario" title="FITZ ROY SPECIAL SITUATIONS FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO-PADRONIZADOS">Fitz Roy Special Situations FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 24.513.484,82</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Hamilton Carlos Delucci"
+          data-s-tribunal="TJMT" data-s-recuperanda="ENGEGLOBAL CONSTRUCOES LTDA,CONSTRUTORA E EMPREENDIMENTO GUAICURUS LTDA EPP,ADVANCED INVESTIMENTOS E PARTICIPACOES S/A,GLOBAL EMPREENDIMENTOS TURISTICOS LTDA.,HOTEIS GLOBAL S/A"
+          data-s-cnj="0011427-58.2018.8.11.0041" data-s-cessionario="HAMILTON CARLOS DELUCCI" data-s-valorcausa="48796901.21">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">ENGEGLOBAL CONSTRUÇÕES LTDA</td>
+        <td class="cnj">0011427-58.2018.8.11.0041</td>
+        <td class="cessionario" title="HAMILTON CARLOS DELUCCI">Hamilton Carlos Delucci</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 48.796.901,21</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Fundo Não-Padronizados I"
+          data-s-tribunal="TJMT" data-s-recuperanda="ESPOLIO DE DONIZETTI DO PRADO"
+          data-s-cnj="1031937-23.2026.8.11.0000" data-s-cessionario="FUNDO NAO-PADRONIZADOS I" data-s-valorcausa="1000.0">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">Espólio de Donizetti do Prado</td>
+        <td class="cnj">1031937-23.2026.8.11.0000</td>
+        <td class="cessionario" title="Fundo de Investimento em Direitos Creditórios Não-Padronizados I">Fundo Não-Padronizados I</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 1.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Ocean Empreendimentos Imobiliários SPE Ltda"
+          data-s-tribunal="TJMT" data-s-recuperanda="MASSA FALIDA (NAO ESPECIFICADO NOME DA EMPRESA FALIDA)"
+          data-s-cnj="0000123-54.1996.8.11.0002" data-s-cessionario="OCEAN EMPREENDIMENTOS IMOBILIARIOS SPE LTDA" data-s-valorcausa="4373610.48">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">massa falida</td>
+        <td class="cnj">0000123-54.1996.8.11.0002</td>
+        <td class="cessionario">Ocean Empreendimentos Imobiliários SPE Ltda</td>
+        <td class="valor num">acima de R$ 459.000.000,00</td>
+        <td class="valor num">R$ 4.373.610,48</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Carlos Roberto Fleck"
+          data-s-tribunal="TJMT" data-s-recuperanda="MONTE ALEGRE COMERCIO E INDUSTRIA DE CEREAIS LTDA"
+          data-s-cnj="1022960-13.2024.8.11.0000" data-s-cessionario="CARLOS ROBERTO FLECK" data-s-valorcausa="409581269.25">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">MONTE ALEGRE COMERCIO E INDUSTRIA DE CEREAIS LTDA</td>
+        <td class="cnj">1022960-13.2024.8.11.0000</td>
+        <td class="cessionario">Carlos Roberto Fleck</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 409.581.269,25</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="ASA Special Situations FIDC"
+          data-s-tribunal="TJMT" data-s-recuperanda="NATANAEL CASAVECHIA E OUTROS"
+          data-s-cnj="1046074-86.2023.8.11.0041" data-s-cessionario="ASA SPECIAL SITUATIONS FIDC" data-s-valorcausa="30229563.44">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">Natanael Casavechia e outros</td>
+        <td class="cnj">1046074-86.2023.8.11.0041</td>
+        <td class="cessionario" title="ASA Especial Situations Fundo de Investimento em Direitos Creditórios Não Padronizados">ASA Special Situations FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 30.229.563,44</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="(não identificado)"
+          data-s-tribunal="TJMT" data-s-recuperanda="NATIV - INDUSTRIA BRASILEIRA DE PESCADOS AMAZONICOS S/A (08401835000165),NATIV - FOODS LTDA. (15012014000100),NATIV - COMERCIO E DISTRIBUICAO DE ALIMENTOS IMPORTACAO E EXPORTACAO LTDA. (10227968000109)"
+          data-s-cnj="0008839-23.2014.8.11.0040" data-s-cessionario="(NAO IDENTIFICADO)" data-s-valorcausa="100000.0">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">NATIV - INDÚSTRIA BRASILEIRA DE PESCADOS AMAZÔNICOS S/A</td>
+        <td class="cnj">0008839-23.2014.8.11.0040</td>
+        <td class="cessionario" title="FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS">(não identificado)</td>
+        <td class="valor num">6353462,02</td>
+        <td class="valor num">R$ 100.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="SSG FIDC"
+          data-s-tribunal="TJMT" data-s-recuperanda="RANCHO H F AGROPECUARIA LTDA"
+          data-s-cnj="1018413-81.2025.8.11.0003" data-s-cessionario="SSG FIDC" data-s-valorcausa="3762274.87">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">RANCHO H F AGROPECUÁRIA LTDA</td>
+        <td class="cnj">1018413-81.2025.8.11.0003</td>
+        <td class="cessionario" title="SSG FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS">SSG FIDC</td>
+        <td class="valor num">3.762.274,87</td>
+        <td class="valor num">R$ 3.762.274,87</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="SSG FIDC"
+          data-s-tribunal="TJMT" data-s-recuperanda="RAPHAEL FRANCO ANDRADE COSTA (69249016115) (69249016115),FRANCO AGRO LTDA. (41930451000105) (41930451000105),RANCHO H F AGROPECUARIA LTDA. (10673312000110) (10673312000110),SILIA CANDIDA DE ANDRADE NETA (29261279104) (29261279104),FAZENDA LINDA FLORA AGRONEGOCIO LTDA. (54153266000101) (54153266000101)"
+          data-s-cnj="1000445-31.2024.8.11.0049" data-s-cessionario="SSG FIDC" data-s-valorcausa="151367612.25">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">RAPHAEL FRANCO ANDRADE COSTA</td>
+        <td class="cnj">1000445-31.2024.8.11.0049</td>
+        <td class="cessionario" title="SSG FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS">SSG FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 151.367.612,25</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Nanban FIDC"
+          data-s-tribunal="TJMT" data-s-recuperanda="VIANA TRADING IMPORTACAO E EXPORTACAO DE CERAIS LTDA."
+          data-s-cnj="0007482-27.2008.8.11.0037" data-s-cessionario="NANBAN FIDC" data-s-valorcausa="1000000.0">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">Viana Trading Importação e Exportação de Cerais Ltda.</td>
+        <td class="cnj">0007482-27.2008.8.11.0037</td>
+        <td class="cessionario" title="Nanban Fundo de Investimentos em Direitos Creditórios Não Padronizados">Nanban FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 1.000.000,00</td>
+      </tr>
+      <tr data-tribunal="TJPE" data-cessionario="Cupertino FIDC"
+          data-s-tribunal="TJPE" data-s-recuperanda="CREDIMOVEIS NOVOLAR LTDA. (09.930.165/0001-37) (09930165000137)"
+          data-s-cnj="0007565-40.2020.8.17.2370" data-s-cessionario="CUPERTINO FIDC" data-s-valorcausa="42497861.37">
+        <td class="tj"><span class="chip">TJPE</span></td>
+        <td class="recuperanda">CREDIMÓVEIS NOVOLAR LTDA.</td>
+        <td class="cnj">0007565-40.2020.8.17.2370</td>
+        <td class="cessionario" title="CUPERTINO FUNDO INVESTIMENTO DIR CREDITORIOS - RESP LIMITADA">Cupertino FIDC</td>
+        <td class="valor num">5000000,00</td>
+        <td class="valor num">R$ 42.497.861,37</td>
+      </tr>
+      <tr data-tribunal="TJPE" data-cessionario="Cupertino FIDC"
+          data-s-tribunal="TJPE" data-s-recuperanda="PROVIDER SOLUCOES TECNOLOGICAS LTDA"
+          data-s-cnj="0028887-21.2015.8.17.0001" data-s-cessionario="CUPERTINO FIDC" data-s-valorcausa="90000000.0">
+        <td class="tj"><span class="chip">TJPE</span></td>
+        <td class="recuperanda">PROVIDER SOLUCOES TECNOLOGICAS LTDA</td>
+        <td class="cnj">0028887-21.2015.8.17.0001</td>
+        <td class="cessionario" title="CUPERTINO FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS">Cupertino FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 90.000.000,00</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="Blackpartners Miruna FIDC"
+          data-s-tribunal="TJPR" data-s-recuperanda="A. R. DE A. GOMIERO ATIVIDADE RURAL"
+          data-s-cnj="0044747-14.2024.8.16.0021" data-s-cessionario="BLACKPARTNERS MIRUNA FIDC" data-s-valorcausa="98207484.87">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">A. R. DE A. GOMIERO ATIVIDADE RURAL</td>
+        <td class="cnj">0044747-14.2024.8.16.0021</td>
+        <td class="cessionario" title="Blackpartners Miruna Fundo de Investimento em Direitos Creditórios Multissegmentos de Responsabilidade Limitada">Blackpartners Miruna FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 98.207.484,87</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="Blackpartners Miruna FIDC"
+          data-s-tribunal="TJPR" data-s-recuperanda="AGROQUIMICA BRASINHA LTDA"
+          data-s-cnj="0004003-81.2018.8.16.0119" data-s-cessionario="BLACKPARTNERS MIRUNA FIDC" data-s-valorcausa="21424354.96">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">AGROQUÍMICA BRASINHA LTDA</td>
+        <td class="cnj">0004003-81.2018.8.16.0119</td>
+        <td class="cessionario" title="Blackpartners Miruna Fundo de Investimento em Direitos Creditórios Multissegmentos de Responsabilidade Limitada">Blackpartners Miruna FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 21.424.354,96</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="Blackpartners Miruna FIDC"
+          data-s-tribunal="TJPR" data-s-recuperanda="BLACKPARTNERS MIRUNA FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS"
+          data-s-cnj="0004667-34.2024.8.16.0077" data-s-cessionario="BLACKPARTNERS MIRUNA FIDC" data-s-valorcausa="5405585.0">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">BLACKPARTNERS MIRUNA FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS NAO PADRONIZADOS</td>
+        <td class="cnj">0004667-34.2024.8.16.0077</td>
+        <td class="cessionario" title="Blackpartners Miruna Fundo de Investimento em Direitos Creditórios Não Padronizados">Blackpartners Miruna FIDC</td>
+        <td class="valor num">R$5.405.585,00</td>
+        <td class="valor num">R$ 5.405.585,00</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="SPESI I FIDC"
+          data-s-tribunal="TJPR" data-s-recuperanda="D &amp; D LOGISTICA E TRANSPORTE LTDA"
+          data-s-cnj="0001943-40.2024.8.16.0115" data-s-cessionario="SPESI I FIDC" data-s-valorcausa="79386626.44">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">D &amp; D LOGISTICA E TRANSPORTE LTDA</td>
+        <td class="cnj">0001943-40.2024.8.16.0115</td>
+        <td class="cessionario" title="SPESI I Fundo de Investimento em Direitos Creditórios Não Padronizado Multissetorial Responsabilidade Limitada">SPESI I FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 79.386.626,44</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="CF FIDC"
+          data-s-tribunal="TJPR" data-s-recuperanda="FSA PARTICIPACAO S/A,BLANCA EMPREENDIMENTOS IMOBILIARIOS S/A,CALVIN EMPREENDIMENTOS IMOBILIARIOS S/A,CAMBORIU GOLF EMPREENDIMENTOS IMOBILIARIOS S/A,DONNA EMPREENDIMENTOS IMOBILIARIOS S/A,FLOYD EMPREENDIMENTOS IMOBILIARIOS S/A,GASTON EMPREENDIMENTOS IMOBILIARIOS S/A,GORDON EMPREENDIMENTOS IMOBILIARIOS S/A,HANNA EMPREENDIMENTOS IMOBILIARIOS S/A,HAZEL EMPREENDIMENTOS IMOBILIARIOS S/A,JANET EMPREENDIMENTOS IMOBILIARIOS S/A,KLAUS EMPREENDIMENTOS IMOBILIARIOS S/A,LISA EMPREENDIMENTOS IMOBILIARIOS S/A,ROSLYN EMPREENDIMENTOS IMOBILIARIOS S/A,THA FENIX EMPREENDIMENTOS IMOBILIARIOS S/A,THA LIBERTY EMPREENDIMENTOS IMOBILIARIOS S/A,THA REAL ESTATE EMPREENDIMENTOS IMOBILIARIOS S/A,THA REALTY AGUA VERDE EMPREENDIMENTOS IMOBILIARIOS S/A,THA REALTY EMPREENDIMENTOS IMOBILIARIOS S/A,THA REALTY I EMPREENDIMENTOS IMOBILIARIOS S/A,THA REALTY II EMPREENDIMENTOS IMOBILIARIOS S/A,RIVARA PARTICIPACAO S/A,IRTHA EMPREENDIMENTOS IMOBILIARIOS S/A,IRTHA ENGENHARIA S/A"
+          data-s-cnj="0015467-64.2019.8.16.0185" data-s-cessionario="CF FIDC" data-s-valorcausa="250000000.0">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">FSA PARTICIPAÇÃO S/A</td>
+        <td class="cnj">0015467-64.2019.8.16.0185</td>
+        <td class="cessionario" title="FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS CF">CF FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 250.000.000,00</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="Bernardo Baraldi Mendes Batista"
+          data-s-tribunal="TJPR" data-s-recuperanda="GABISA INCORPORACAO DE EMPREENDIMENTOS E PARTICIPACOES LTDA"
+          data-s-cnj="0013909-54.2024.8.16.0194" data-s-cessionario="BERNARDO BARALDI MENDES BATISTA" data-s-valorcausa="12474638.35">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">GABISA INCORPORACAO DE EMPREENDIMENTOS E PARTICIPACOES LTDA</td>
+        <td class="cnj">0013909-54.2024.8.16.0194</td>
+        <td class="cessionario" title="BERNARDO BARALDI MENDES BATISTA">Bernardo Baraldi Mendes Batista</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 12.474.638,35</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="CF FIDC"
+          data-s-tribunal="TJPR" data-s-recuperanda="GRUPO GONCALVES CAMARGO RIBAS"
+          data-s-cnj="0002617-84.2023.8.16.0169" data-s-cessionario="CF FIDC" data-s-valorcausa="17135498.66">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">GRUPO GONÇALVES CAMARGO RIBAS</td>
+        <td class="cnj">0002617-84.2023.8.16.0169</td>
+        <td class="cessionario" title="CF Fundo de Investimento em Direitos Creditórios – Responsabilidade Limitada (CF FIDC)">CF FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 17.135.498,66</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="Distressed FIDC"
+          data-s-tribunal="TJPR" data-s-recuperanda="INDUSTRIA METALURGICA PASTRE LTDA"
+          data-s-cnj="0004462-09.2016.8.16.0037" data-s-cessionario="DISTRESSED FIDC" data-s-valorcausa="6132394.0">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">Indústria Metalúrgica Pastre Ltda</td>
+        <td class="cnj">0004462-09.2016.8.16.0037</td>
+        <td class="cessionario" title="Distressed Fundo de Investimentos em Direitos Creditórios Não Padronizados">Distressed FIDC</td>
+        <td class="valor num">19344009,40</td>
+        <td class="valor num">R$ 6.132.394,00</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="Distressed FIDC"
+          data-s-tribunal="TJPR" data-s-recuperanda="INDUSTRIA METALURGICA PASTRE LTDA"
+          data-s-cnj="0007947-19.2020.8.16.0185" data-s-cessionario="DISTRESSED FIDC" data-s-valorcausa="1.0">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">Indústria Metalúrgica Pastre Ltda</td>
+        <td class="cnj">0007947-19.2020.8.16.0185</td>
+        <td class="cessionario" title="Distressed Fundo de Investimentos em Direitos Creditórios Não Padronizados">Distressed FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 1,00</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="Blackpartners Miruna FIDC"
+          data-s-tribunal="TJPR" data-s-recuperanda="J.P.R. DE O. VILELA ATIVIDADE RURAL"
+          data-s-cnj="0001254-59.2024.8.16.0094" data-s-cessionario="BLACKPARTNERS MIRUNA FIDC" data-s-valorcausa="71293749.78">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">J.P.R. DE O. VILELA ATIVIDADE RURAL</td>
+        <td class="cnj">0001254-59.2024.8.16.0094</td>
+        <td class="cessionario" title="Blackpartners Miruna Fundo de Investimento em Direitos Creditórios Não Padronizados">Blackpartners Miruna FIDC</td>
+        <td class="valor num">71293749,78</td>
+        <td class="valor num">R$ 71.293.749,78</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="Juscredi Securitizadora S/A"
+          data-s-tribunal="TJPR" data-s-recuperanda="JULIANO VIGANO, NEUZA MARIA VIGANO, ROBERTO SALVADOR VIGANO"
+          data-s-cnj="0003846-62.2024.8.16.0131" data-s-cessionario="JUSCREDI SECURITIZADORA S/A" data-s-valorcausa="1645048.82">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">Juliano Vigano</td>
+        <td class="cnj">0003846-62.2024.8.16.0131</td>
+        <td class="cessionario">Juscredi Securitizadora S/A</td>
+        <td class="valor num">R$1.645.048,82</td>
+        <td class="valor num">R$ 1.645.048,82</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="MB FIDC"
+          data-s-tribunal="TJPR" data-s-recuperanda="LAVOURA E PECUARIA IGARASHI LTDA"
+          data-s-cnj="0007768-22.2019.8.16.0185" data-s-cessionario="MB FIDC" data-s-valorcausa="10000.0">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">Lavoura e Pecuária Igarashi Ltda</td>
+        <td class="cnj">0007768-22.2019.8.16.0185</td>
+        <td class="cessionario" title="Fundo de Investimento em Direitos Creditórios Não Padronizado Fornecedores MB">MB FIDC</td>
+        <td class="valor num">54241,56</td>
+        <td class="valor num">R$ 10.000,00</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="MB FIDC"
+          data-s-tribunal="TJPR" data-s-recuperanda="LAVOURA E PECUARIA IGARASHI LTDA"
+          data-s-cnj="0010643-62.2019.8.16.0185" data-s-cessionario="MB FIDC" data-s-valorcausa="100000.0">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">Lavoura e Pecuária Igarashi Ltda</td>
+        <td class="cnj">0010643-62.2019.8.16.0185</td>
+        <td class="cessionario" title="Fundo de Investimento em Direitos Creditorios Nao Padronizados Invista Fornecedores MB">MB FIDC</td>
+        <td class="valor num">60590816,48</td>
+        <td class="valor num">R$ 100.000,00</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="MB FIDC"
+          data-s-tribunal="TJPR" data-s-recuperanda="LINEA PARANA MADEIRAS LTDA EM RECUPERACAO JUDICIAL"
+          data-s-cnj="0000199-23.2011.8.16.0161" data-s-cessionario="MB FIDC" data-s-valorcausa="10000.0">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">LINEA PARANA MADEIRAS LTDA EM RECUPERACAO JUDICIAL</td>
+        <td class="cnj">0000199-23.2011.8.16.0161</td>
+        <td class="cessionario" title="Fundo de Investimento em Direitos Creditórios MB (atual: MB Fundo de Investimento em Direitos Creditórios Multisegmento)">MB FIDC</td>
+        <td class="valor num">R$ 35.684,72</td>
+        <td class="valor num">R$ 10.000,00</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="Blackpartners Miruna FIDC"
+          data-s-tribunal="TJPR" data-s-recuperanda="MARCIO TELES DA SILVA"
+          data-s-cnj="0015798-89.2024.8.16.0017" data-s-cessionario="BLACKPARTNERS MIRUNA FIDC" data-s-valorcausa="1440969.56">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">MARCIO TELES DA SILVA</td>
+        <td class="cnj">0015798-89.2024.8.16.0017</td>
+        <td class="cessionario" title="BLACKPARTNERS MIRUNA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS MULTISSEGMENTOS DE RESPONSABILIDADE LIMITADA">Blackpartners Miruna FIDC</td>
+        <td class="valor num">R$1.440.969,56</td>
+        <td class="valor num">R$ 1.440.969,56</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="Distressed FIDC"
+          data-s-tribunal="TJPR" data-s-recuperanda="PASTRE IMPLEMENTOS RODOVIARIOS LTDA"
+          data-s-cnj="0004462-09.2016.8.16.0037" data-s-cessionario="DISTRESSED FIDC" data-s-valorcausa="6132394.0">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">Pastre Implementos Rodoviários Ltda</td>
+        <td class="cnj">0004462-09.2016.8.16.0037</td>
+        <td class="cessionario" title="Distressed Fundo de Investimento em Direitos Creditórios Não Padronizados">Distressed FIDC</td>
+        <td class="valor num">R$6.132.394,00</td>
+        <td class="valor num">R$ 6.132.394,00</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="Twin Investimentos e Serviços Ltda"
+          data-s-tribunal="TJPR" data-s-recuperanda="RODOVIARIO MATSUDA LTDA,TRANSPORTADORA MATSUDA LTDA"
+          data-s-cnj="0014517-35.2023.8.16.0017" data-s-cessionario="TWIN INVESTIMENTOS E SERVICOS LTDA" data-s-valorcausa="11772659.84">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">RODOVIARIO MATSUDA LTDA</td>
+        <td class="cnj">0014517-35.2023.8.16.0017</td>
+        <td class="cessionario" title="TWIN INVESTIMENTOS E SERVIÇOS LTDA.">Twin Investimentos e Serviços Ltda</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 11.772.659,84</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="Emais Urbanismo Descalvado 252 Ltda"
+          data-s-tribunal="TJPR" data-s-recuperanda="TEIXEIRA JUNIOR COMERCIO DE CEREAIS E MANUFATURADOS LTDA"
+          data-s-cnj="0084153-63.2024.8.16.0014" data-s-cessionario="EMAIS URBANISMO DESCALVADO 252 LTDA" data-s-valorcausa="5703315.94">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">Teixeira Junior Comércio de Cereais e Manufaturados Ltda</td>
+        <td class="cnj">0084153-63.2024.8.16.0014</td>
+        <td class="cessionario">Emais Urbanismo Descalvado 252 Ltda</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 5.703.315,94</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="CF FIDC"
+          data-s-tribunal="TJPR" data-s-recuperanda="TRESBOMM COMERCIO E EXPORTACAO DE GRAOS LTDA."
+          data-s-cnj="0027145-73.2025.8.16.0021" data-s-cessionario="CF FIDC" data-s-valorcausa="10000.0">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">Tresbomm Comércio e Exportação de Grãos LTDA.</td>
+        <td class="cnj">0027145-73.2025.8.16.0021</td>
+        <td class="cessionario" title="CF Fundo de Investimento em Direitos Creditórios – Responsabilidade Limitada">CF FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 10.000,00</td>
+      </tr>
+      <tr data-tribunal="TJRJ" data-cessionario="ADGM Securitizadora de Crédito S/A"
+          data-s-tribunal="TJRJ" data-s-recuperanda="CONSTRUTORA LYTORANEA S/A"
+          data-s-cnj="0010261-54.2017.8.19.0024" data-s-cessionario="ADGM SECURITIZADORA DE CREDITO S/A" data-s-valorcausa="0.0">
+        <td class="tj"><span class="chip">TJRJ</span></td>
+        <td class="recuperanda">CONSTRUTORA LYTORÂNEA S/A</td>
+        <td class="cnj">0010261-54.2017.8.19.0024</td>
+        <td class="cessionario" title="ADGM Banco Securitizadora de Crédito S/A">ADGM Securitizadora de Crédito S/A</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 0,00</td>
+      </tr>
+      <tr data-tribunal="TJRJ" data-cessionario="ADGM Securitizadora de Crédito S/A"
+          data-s-tribunal="TJRJ" data-s-recuperanda="ORGANIZACAO HELIO ALONSO DE EDUCACAO E CULTURA (OHAEC)"
+          data-s-cnj="0102968-37.2022.8.19.0001" data-s-cessionario="ADGM SECURITIZADORA DE CREDITO S/A" data-s-valorcausa="0.0">
+        <td class="tj"><span class="chip">TJRJ</span></td>
+        <td class="recuperanda">Organização Hélio Alonso de Educação e Cultura</td>
+        <td class="cnj">0102968-37.2022.8.19.0001</td>
+        <td class="cessionario">ADGM Securitizadora de Crédito S/A</td>
+        <td class="valor num">R$ 515.056,31</td>
+        <td class="valor num">R$ 0,00</td>
+      </tr>
+      <tr data-tribunal="TJRS" data-cessionario="Blackpartners Miruna FIDC"
+          data-s-tribunal="TJRS" data-s-recuperanda="METALMETH EQUIPAMENTOS LTDA"
+          data-s-cnj="5000850-31.2017.8.21.0060" data-s-cessionario="BLACKPARTNERS MIRUNA FIDC" data-s-valorcausa="6466317.95">
+        <td class="tj"><span class="chip">TJRS</span></td>
+        <td class="recuperanda">METALMETH EQUIPAMENTOS LTDA</td>
+        <td class="cnj">5000850-31.2017.8.21.0060</td>
+        <td class="cessionario" title="BLACKPARTNERS MIRUNA FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS MULTISSEGMENTOS DE RESPONSABILIDADE LIMITADA">Blackpartners Miruna FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 6.466.317,95</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Solve Securitizadora de Créditos Financeiros S/A"
+          data-s-tribunal="TJSP" data-s-recuperanda="ACESITA SERVICOS COMERCIO INDUSTRIA E PARTICIPACOES LTDA"
+          data-s-cnj="0001672-18.2005.8.26.0180" data-s-cessionario="SOLVE SECURITIZADORA DE CREDITOS FINANCEIROS S/A" data-s-valorcausa="1612.52">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Acesita Servicos Comercio Industria e Participacoes Ltda</td>
+        <td class="cnj">0001672-18.2005.8.26.0180</td>
+        <td class="cessionario">Solve Securitizadora de Créditos Financeiros S/A</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 1.612,52</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario=""
+          data-s-tribunal="TJSP" data-s-recuperanda="AFA PLASTICOS EIRELI"
+          data-s-cnj="1008171-53.2018.8.26.0565" data-s-cessionario="" data-s-valorcausa="20983254.11">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Afa Plásticos Eireli</td>
+        <td class="cnj">1008171-53.2018.8.26.0565</td>
+        <td class="cessionario"><span class="muted">não identificado</span></td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 20.983.254,11</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Credores FIDC"
+          data-s-tribunal="TJSP" data-s-recuperanda="AJ RUIZ CONSULTORIA EMPRESARIAL LTDA."
+          data-s-cnj="0036617-04.2010.8.26.0100" data-s-cessionario="CREDORES FIDC" data-s-valorcausa="70574.13">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">AJ Ruiz Consultoria Empresarial LTDA.</td>
+        <td class="cnj">0036617-04.2010.8.26.0100</td>
+        <td class="cessionario" title="Credores Fundo de Investimento em Direitos Creditórios Não Padronizados Responsabilidade Limitada - Credores FIDC NP RI">Credores FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 70.574,13</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="OKNO 1 FIDC"
+          data-s-tribunal="TJSP" data-s-recuperanda="AJ1 ADMINISTRACAO JUDICIAL LTDA"
+          data-s-cnj="1035414-62.2025.8.26.0100" data-s-cessionario="OKNO 1 FIDC" data-s-valorcausa="100000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">AJ1 ADMINISTRAÇÃO JUDICIAL LTDA</td>
+        <td class="cnj">1035414-62.2025.8.26.0100</td>
+        <td class="cessionario" title="Okno 1 Fundo de Investimento em Direitos Creditórios">OKNO 1 FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 100.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="ASA Special Situations FIDC"
+          data-s-tribunal="TJSP" data-s-recuperanda="ANACON ADMINISTRADORA NACIONAL DE CONSTRUCOES"
+          data-s-cnj="0011226-92.1983.8.26.0100" data-s-cessionario="ASA SPECIAL SITUATIONS FIDC" data-s-valorcausa="0.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">ANACON ADMINISTRADORA NACIONAL DE CONSTRUÇÕES</td>
+        <td class="cnj">0011226-92.1983.8.26.0100</td>
+        <td class="cessionario" title="ASA SPECIAL SITUATIONS FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS RESPONSABILIDADE LIMITADA (&quot;ASA&quot;)">ASA Special Situations FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 0,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Lepta Gestora de Crédito Ltda"
+          data-s-tribunal="TJSP" data-s-recuperanda="API  ASSISTENCIA PSIQUIATRICA INTEGRADA ABC LTDA"
+          data-s-cnj="1167581-77.2024.8.26.0100" data-s-cessionario="LEPTA GESTORA DE CREDITO LTDA" data-s-valorcausa="7106011.72">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">API – ASSISTÊNCIA PSIQUIÁTRICA INTEGRADA ABC LTDA</td>
+        <td class="cnj">1167581-77.2024.8.26.0100</td>
+        <td class="cessionario" title="Lepta Gestora">Lepta Gestora de Crédito Ltda</td>
+        <td class="valor num">1.828.851,61</td>
+        <td class="valor num">R$ 7.106.011,72</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="ASA Special Situations FIDC"
+          data-s-tribunal="TJSP" data-s-recuperanda="CALVO IMPORTACAO EXPORTACAO LTDA."
+          data-s-cnj="0055764-95.2011.8.26.0224" data-s-cessionario="ASA SPECIAL SITUATIONS FIDC" data-s-valorcausa="33944.18">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Calvo Importação Exportação Ltda.</td>
+        <td class="cnj">0055764-95.2011.8.26.0224</td>
+        <td class="cessionario" title="Asa Special Situations FIDC">ASA Special Situations FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 33.944,18</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="CF FIDC"
+          data-s-tribunal="TJSP" data-s-recuperanda="CAMPOFERT DIESEL LTDA"
+          data-s-cnj="1002104-36.2019.8.26.0210" data-s-cessionario="CF FIDC" data-s-valorcausa="4287183.39">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Campofert Diesel Ltda</td>
+        <td class="cnj">1002104-36.2019.8.26.0210</td>
+        <td class="cessionario" title="CF Fundo de Investimento em Direitos Creditórios - Responsabilidade Limitada">CF FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 4.287.183,39</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Fema Administração de Bens Próprios Ltda"
+          data-s-tribunal="TJSP" data-s-recuperanda="CERINTER S/A"
+          data-s-cnj="0614053-85.1987.8.26.0100" data-s-cessionario="FEMA ADMINISTRACAO DE BENS PROPRIOS LTDA" data-s-valorcausa="1000000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Cerinter S/A</td>
+        <td class="cnj">0614053-85.1987.8.26.0100</td>
+        <td class="cessionario" title="Fema Administração de Bens Próprios Ltda.">Fema Administração de Bens Próprios Ltda</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 1.000.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Creditum Recuperadora de Créditos e Investimentos Ltda"
+          data-s-tribunal="TJSP" data-s-recuperanda="CLAUDEMIR ANTONIO CARLOS &amp; CIA LTDA"
+          data-s-cnj="1011218-14.2020.8.26.0032" data-s-cessionario="CREDITUM RECUPERADORA DE CREDITOS E INVESTIMENTOS LTDA" data-s-valorcausa="1000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">CLAUDEMIR ANTÔNIO CARLOS &amp; CIA LTDA</td>
+        <td class="cnj">1011218-14.2020.8.26.0032</td>
+        <td class="cessionario" title="CREDITUM RECUPERADORA DE CRÉDITOS E INVESTIMENTOS LTDA">Creditum Recuperadora de Créditos e Investimentos Ltda</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 1.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Blackpartners Miruna FIDC"
+          data-s-tribunal="TJSP" data-s-recuperanda="COMERCIAL CEREALISTA SOLIMA LTDA."
+          data-s-cnj="1000213-63.2025.8.26.0373" data-s-cessionario="BLACKPARTNERS MIRUNA FIDC" data-s-valorcausa="220117508.09">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Comercial Cerealista Solimã Ltda.</td>
+        <td class="cnj">1000213-63.2025.8.26.0373</td>
+        <td class="cessionario" title="Blackpartners Miruna Fundo de Investimento em Direitos Creditórios Multissegmentos de Responsabilidade Limitada">Blackpartners Miruna FIDC</td>
+        <td class="valor num">R$45.494.017,46</td>
+        <td class="valor num">R$ 220.117.508,09</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Creditum Recuperadora de Créditos e Investimentos Ltda"
+          data-s-tribunal="TJSP" data-s-recuperanda="CONSTRUTORA BETER S/A"
+          data-s-cnj="0195566-97.2008.8.26.0100" data-s-cessionario="CREDITUM RECUPERADORA DE CREDITOS E INVESTIMENTOS LTDA" data-s-valorcausa="61066833.56">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Construtora Beter S/A</td>
+        <td class="cnj">0195566-97.2008.8.26.0100</td>
+        <td class="cessionario" title="Creditum Recuperadora de Créditos e Investimentos Ltda.">Creditum Recuperadora de Créditos e Investimentos Ltda</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 61.066.833,56</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Desenvolve SP"
+          data-s-tribunal="TJSP" data-s-recuperanda="DESENVOLVE SP AGENCIA DE FOMENTO DO ESTADO DE SAO PAULO"
+          data-s-cnj="0000584-62.2026.8.26.0097" data-s-cessionario="DESENVOLVE SP" data-s-valorcausa="0.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">DESENVOLVE SP AGENCIA DE FOMENTO DO ESTADO DE SAO PAULO</td>
+        <td class="cnj">0000584-62.2026.8.26.0097</td>
+        <td class="cessionario" title="DESENVOLVE SP - AGÊNCIA DE FOMENTO DO ESTADO DE SÃO PAULO S.A.">Desenvolve SP</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 0,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Nanban FIDC"
+          data-s-tribunal="TJSP" data-s-recuperanda="EVACON EQUIPAMENTOS INDUSTRIAIS LTDA"
+          data-s-cnj="0004866-39.2012.8.26.0161" data-s-cessionario="NANBAN FIDC" data-s-valorcausa="10000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Evacon Equipamentos Industriais Ltda</td>
+        <td class="cnj">0004866-39.2012.8.26.0161</td>
+        <td class="cessionario" title="Nanban II Fundo de Investimento em Direitos Creditórios Não Padronizados">Nanban FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 10.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Creditum Recuperadora de Créditos e Investimentos Ltda"
+          data-s-tribunal="TJSP" data-s-recuperanda="GOTALIMPA PRODUTOS E SERVICOS DE LIMPEZA LTDA - EPP"
+          data-s-cnj="1022215-28.2025.8.26.0114" data-s-cessionario="CREDITUM RECUPERADORA DE CREDITOS E INVESTIMENTOS LTDA" data-s-valorcausa="33033201.72">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">GOTALIMPA PRODUTOS E SERVIçOS DE LIMPEZA LTDA - EPP</td>
+        <td class="cnj">1022215-28.2025.8.26.0114</td>
+        <td class="cessionario">Creditum Recuperadora de Créditos e Investimentos Ltda</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 33.033.201,72</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Gewalt Indústria Comércio Eireli"
+          data-s-tribunal="TJSP" data-s-recuperanda="GUACU CABOS INDUSTRIA E COMERCIO LTDA"
+          data-s-cnj="0017265-84.2009.8.26.0362" data-s-cessionario="GEWALT INDUSTRIA COMERCIO EIRELI" data-s-valorcausa="10000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Guaçu Cabos Industria e Comercio Ltda</td>
+        <td class="cnj">0017265-84.2009.8.26.0362</td>
+        <td class="cessionario" title="Gewalt Industria Comercio Eireli">Gewalt Indústria Comércio Eireli</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 10.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="ASA Special Situations FIDC / Priority FIDC / Pedro Antônio Cosmo"
+          data-s-tribunal="TJSP" data-s-recuperanda="INDUSTRIAS DE OLEO PACAEMBU S/A"
+          data-s-cnj="0508038-87.1990.8.26.0100" data-s-cessionario="ASA SPECIAL SITUATIONS FIDC / PRIORITY FIDC / PEDRO ANTONIO COSMO" data-s-valorcausa="20000000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Industrias de Oleo Pacaembu S/A</td>
+        <td class="cnj">0508038-87.1990.8.26.0100</td>
+        <td class="cessionario" title="ASA Special Situations Fundo de Investimento em Direitos Creditórios Não Padronizados, Priority Fundo de Investimentos em Direitos Creditórios, Pedro Antônio Cosmo e outros">ASA Special Situations FIDC / Priority FIDC / Pedro Antônio Cosmo</td>
+        <td class="valor num">R$ 19.143.764,18</td>
+        <td class="valor num">R$ 20.000.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Blackpartners Miruna FIDC"
+          data-s-tribunal="TJSP" data-s-recuperanda="JOSE ALVARO PIMENTA CAMARGO"
+          data-s-cnj="1015727-12.2024.8.26.0011" data-s-cessionario="BLACKPARTNERS MIRUNA FIDC" data-s-valorcausa="270195.87">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">José Álvaro Pimenta Camargo</td>
+        <td class="cnj">1015727-12.2024.8.26.0011</td>
+        <td class="cessionario" title="BLACKPARTNERS Miruna Fundo de Investimento em Direitos Creditórios">Blackpartners Miruna FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 270.195,87</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="ASA Special Situations FIDC"
+          data-s-tribunal="TJSP" data-s-recuperanda="JWA CONSTRUCAO E COMERCIO LTDA."
+          data-s-cnj="2083610-55.2025.8.26.0000" data-s-cessionario="ASA SPECIAL SITUATIONS FIDC" data-s-valorcausa="17574085.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">JWA Construção e Comércio Ltda.</td>
+        <td class="cnj">2083610-55.2025.8.26.0000</td>
+        <td class="cessionario" title="Fundo ASA Special Situations Fundo de Investimentos em Direitos Creditórios Não Padronizados">ASA Special Situations FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 17.574.085,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Master Cred Administração de Recursos Financeiros"
+          data-s-tribunal="TJSP" data-s-recuperanda="MARBOW RESINAS - EIRELI"
+          data-s-cnj="1002197-40.2016.8.26.0586" data-s-cessionario="MASTER CRED ADMINISTRACAO DE RECURSOS FINANCEIROS" data-s-valorcausa="50208519.18">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Marbow Resinas - Eireli</td>
+        <td class="cnj">1002197-40.2016.8.26.0586</td>
+        <td class="cessionario">Master Cred Administração de Recursos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 50.208.519,18</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Cupertino FIDC"
+          data-s-tribunal="TJSP" data-s-recuperanda="MOSAIC FERTILIZANTES DO BRASIL LTDA."
+          data-s-cnj="1074783-44.2017.8.26.0100" data-s-cessionario="CUPERTINO FIDC" data-s-valorcausa="1321042.8">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Mosaic Fertilizantes do Brasil Ltda.</td>
+        <td class="cnj">1074783-44.2017.8.26.0100</td>
+        <td class="cessionario" title="Cupertino Fundo Investimento Dir Creditorios Resp Limitada">Cupertino FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 1.321.042,80</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Blackpartners Miruna FIDC"
+          data-s-tribunal="TJSP" data-s-recuperanda="POLIMPORT COMERCIO E EXPORTACAO LTDA"
+          data-s-cnj="1048932-56.2024.8.26.0100" data-s-cessionario="BLACKPARTNERS MIRUNA FIDC" data-s-valorcausa="395685479.1">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Polimport Comércio e Exportação Ltda</td>
+        <td class="cnj">1048932-56.2024.8.26.0100</td>
+        <td class="cessionario" title="BLACKPARTNERS MIRUNA FIDC NP">Blackpartners Miruna FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 395.685.479,10</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="CF FIDC"
+          data-s-tribunal="TJSP" data-s-recuperanda="ROMANATO ALIMENTOS LTDA."
+          data-s-cnj="1000564-30.2024.8.26.0354" data-s-cessionario="CF FIDC" data-s-valorcausa="1000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Romanato Alimentos Ltda.</td>
+        <td class="cnj">1000564-30.2024.8.26.0354</td>
+        <td class="cessionario" title="CF Fundo de Investimento em Direitos Creditórios - Responsabilidade Limitada">CF FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 1.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Cupertino FIDC"
+          data-s-tribunal="TJSP" data-s-recuperanda="RUN TIME AUTOMACAO INDUSTRIAL LTDA"
+          data-s-cnj="1003465-91.2019.8.26.0597" data-s-cessionario="CUPERTINO FIDC" data-s-valorcausa="100000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Run Time Automacao Industrial Ltda</td>
+        <td class="cnj">1003465-91.2019.8.26.0597</td>
+        <td class="cessionario" title="Cupertino Fundo de Investimento em Direitos Creditórios Responsabilidade Limitada">Cupertino FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 100.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario=""
+          data-s-tribunal="TJSP" data-s-recuperanda="SPECIALPACK EMPACOTAMENTO E ROTULAGEM DE PRODUTOS LTDA"
+          data-s-cnj="1016766-94.2022.8.26.0114" data-s-cessionario="" data-s-valorcausa="23900394.11">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Specialpack Empacotamento e Rotulagem de Produtos Ltda</td>
+        <td class="cnj">1016766-94.2022.8.26.0114</td>
+        <td class="cessionario"><span class="muted">não identificado</span></td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 23.900.394,11</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Creditum Recuperadora de Créditos e Investimentos Ltda"
+          data-s-tribunal="TJSP" data-s-recuperanda="SUPERMERCADO ARAUJO &amp; ARAUJO LTDA"
+          data-s-cnj="1005444-11.2020.8.26.0482" data-s-cessionario="CREDITUM RECUPERADORA DE CREDITOS E INVESTIMENTOS LTDA" data-s-valorcausa="500000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Supermercado Araújo &amp; Araújo Ltda</td>
+        <td class="cnj">1005444-11.2020.8.26.0482</td>
+        <td class="cessionario">Creditum Recuperadora de Créditos e Investimentos Ltda</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 500.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Isidoro Antunes Mazzotini"
+          data-s-tribunal="TJSP" data-s-recuperanda="TECELAGEM SATURNIA S/A"
+          data-s-cnj="0509789-41.1992.8.26.0100" data-s-cessionario="ISIDORO ANTUNES MAZZOTINI" data-s-valorcausa="10000000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Tecelagem Satúrnia S/A</td>
+        <td class="cnj">0509789-41.1992.8.26.0100</td>
+        <td class="cessionario">Isidoro Antunes Mazzotini</td>
+        <td class="valor num">895909,81</td>
+        <td class="valor num">R$ 10.000.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Terra Bona FIDC"
+          data-s-tribunal="TJSP" data-s-recuperanda="TEXTIL ITATIBA S.A."
+          data-s-cnj="0009372-23.2011.8.26.0281" data-s-cessionario="TERRA BONA FIDC" data-s-valorcausa="10000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Têxtil Itatiba S.a.</td>
+        <td class="cnj">0009372-23.2011.8.26.0281</td>
+        <td class="cessionario" title="Terra Bona Fundo de Investimento Em Direitos Creditórios Não-padronizado">Terra Bona FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 10.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Lepta Gestora de Crédito Ltda"
+          data-s-tribunal="TJSP" data-s-recuperanda="UP RESIDENCIAL SOROCABA SPE LTDA"
+          data-s-cnj="1043937-34.2023.8.26.0100" data-s-cessionario="LEPTA GESTORA DE CREDITO LTDA" data-s-valorcausa="65005.92">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">UP Residencial Sorocaba SPE Ltda</td>
+        <td class="cnj">1043937-34.2023.8.26.0100</td>
+        <td class="cessionario" title="Lepta Gestora de Crédito LTDA">Lepta Gestora de Crédito Ltda</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 65.005,92</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Blackpartners Miruna FIDC"
+          data-s-tribunal="TJSP" data-s-recuperanda="YASMIN BIANCA PAGOTTO"
+          data-s-cnj="1034173-53.2025.8.26.0100" data-s-cessionario="BLACKPARTNERS MIRUNA FIDC" data-s-valorcausa="95990388.47">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Yasmin Bianca Pagotto</td>
+        <td class="cnj">1034173-53.2025.8.26.0100</td>
+        <td class="cessionario" title="Blackpartners">Blackpartners Miruna FIDC</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 95.990.388,47</td>
+      </tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ===================== TRAVESSIA ===================== -->
+  <section class="tab-panel" id="tab-trav">
+    <div class="stats"><div class="stat"><div class="n">20</div><div class="l">cessões identificadas</div></div><div class="stat"><div class="n">19</div><div class="l">recuperandas / massas falidas distintas</div></div><div class="stat"><div class="n">5</div><div class="l">cessionários distintos (padronizados)</div></div><div class="stat"><div class="n">R$ 1.564.308.252,99</div><div class="l">soma do valor da causa (19 de 20 casos)</div></div></div>
+    <div class="note">
+      <strong>Séries identificadas:</strong> Travessia opera por veículos de securitização distintos (VIII, X, Mercantis XXV, Mercantis SHP) — mantidos separados por serem entidades legais diferentes, não uma variação de grafia.
+    </div>
+    <div class="toolbar">
+      <div class="search-field">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.4"/><path d="M9.6 9.6L13 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+        <input class="search" data-search-scope="trav" type="text" placeholder="Buscar por recuperanda, CNJ ou série…">
+      </div>
+      <div class="select-field">
+        <select data-select-scope="trav" data-attr="tribunal"><option value="all">Todos os tribunais · 20</option>
+<option value="TJMT">TJMT · 10</option>
+<option value="TJMG">TJMG · 2</option>
+<option value="TJMS">TJMS · 2</option>
+<option value="TJPR">TJPR · 2</option>
+<option value="TJSP">TJSP · 2</option>
+<option value="TJGO">TJGO · 1</option>
+<option value="TJRS">TJRS · 1</option></select>
+      </div>
+      <div class="select-field">
+        <select data-select-scope="trav" data-attr="cessionario"><option value="all">Todas as séries</option>
+<option value="Travessia Securitizadora de Créditos Financeiros VIII S.A.">Travessia Securitizadora de Créditos Financeiros VIII S.A. · 11</option>
+<option value="Travessia Securitizadora de Créditos Mercantis XXV S.A.">Travessia Securitizadora de Créditos Mercantis XXV S.A. · 6</option>
+<option value="Travessia Securitizadora de Créditos (série não identificada)">Travessia Securitizadora de Créditos (série não identificada) · 1</option>
+<option value="Travessia Securitizadora de Créditos Financeiros X S.A.">Travessia Securitizadora de Créditos Financeiros X S.A. · 1</option>
+<option value="Travessia Securitizadora de Créditos Mercantis SHP S.A.">Travessia Securitizadora de Créditos Mercantis SHP S.A. · 1</option></select>
+      </div>
+      <button class="clear-btn" data-clear-scope="trav">Limpar filtros</button>
+      <span class="result-count" data-count-scope="trav"></span>
+    </div>
+    <div class="table-container">
+      <table data-table="trav">
+        <thead>
+          <tr>
+            <th data-key="s-tribunal">TJ<span class="sort-arrow">▲▼</span></th>
+            <th data-key="s-recuperanda">Recuperanda / massa falida<span class="sort-arrow">▲▼</span></th>
+            <th data-key="s-cnj">CNJ<span class="sort-arrow">▲▼</span></th>
+            <th data-key="s-cessionario">Cessionário (padronizado)<span class="sort-arrow">▲▼</span></th>
+            <th style="text-align:right">Valor mencionado</th>
+            <th style="text-align:right" data-key="s-valorcausa">Valor da causa<span class="sort-arrow">▲▼</span></th>
+          </tr>
+        </thead>
+        <tbody>
+      <tr data-tribunal="TJGO" data-cessionario="Travessia Securitizadora de Créditos Financeiros VIII S.A."
+          data-s-tribunal="TJGO" data-s-recuperanda="VEGETAL AGRONEGOCIOS LTDA"
+          data-s-cnj="5427296-60.2024.8.09.0006" data-s-cessionario="TRAVESSIA SECURITIZADORA DE CREDITOS FINANCEIROS VIII S.A." data-s-valorcausa="75761735.15">
+        <td class="tj"><span class="chip">TJGO</span></td>
+        <td class="recuperanda">Vegetal Agronegocios Ltda</td>
+        <td class="cnj">5427296-60.2024.8.09.0006</td>
+        <td class="cessionario" title="Travessia Securitizadora de Créditos Financeiros VIII S/A">Travessia Securitizadora de Créditos Financeiros VIII S.A.</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 75.761.735,15</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Travessia Securitizadora de Créditos Financeiros VIII S.A."
+          data-s-tribunal="TJMG" data-s-recuperanda="PONTAL CAMPO AGRICOLA LTDA (23681978000161) (23681978000161),AGROPECUARIA ARANTES LTDA (23094731000149) (23094731000149),NOVO AGRO PARTICIPACOES LTDA (22658796000107) (22658796000107),NOIVO &amp; LINZMAYER PARTICIPACOES LTDA (23682022000184) (23682022000184),NOIVO &amp; MORAES AGRO PARTICIPACOES LTDA (22556593000100) (22556593000100),MARCIO NOIVO ARANTES (59382109000183) (59382109000183),NELSON AMADO NOIVO (59453101000160) (59453101000160),LUCAS SANTOS NOIVO (59452699000173) (59452699000173),LEONARDO LINZMAYER NOIVO (59452546000126) (59452546000126),DANIELLA LINZMAYER NOIVO QUATIO (59452642000174) (59452642000174),CIRLEY ALEXSSANDRA REGIANI ARANTES (59452832000191) (59452832000191),LAERCE TOZZE ARANTES (59452937000140) (59452937000140),JOSE AMADO NOIVO (59429306000100) (59429306000100),EDSON AMADO NOIVO (59452372000100) (59452372000100),BRUNO MORAES NOIVO (59453009000109) (59453009000109),RODRIGO VOLPON QUATIO (59626046000163) (59626046000163),NELCI TEREZINHA MORAES NOIVO (59429672000160) (59429672000160),MARIA SILVANA SANTOS NOIVO (59452754000125) (59452754000125),HILDA NOIVO ARANTES (59478992000100) (59478992000100),PATRICIA LINZMAYER NOIVO (59452455000190) (59452455000190)"
+          data-s-cnj="5002018-20.2025.8.13.0704" data-s-cessionario="TRAVESSIA SECURITIZADORA DE CREDITOS FINANCEIROS VIII S.A." data-s-valorcausa="490293891.55">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">PONTAL CAMPO AGRÍCOLA LTDA</td>
+        <td class="cnj">5002018-20.2025.8.13.0704</td>
+        <td class="cessionario" title="TRAVESSIA SECURITIZADORA DE CREDITOS FINANCEIROS VIII S.A.">Travessia Securitizadora de Créditos Financeiros VIII S.A.</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 490.293.891,55</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Travessia Securitizadora de Créditos Financeiros VIII S.A."
+          data-s-tribunal="TJMG" data-s-recuperanda="VDL SIDERURGIA LTDA"
+          data-s-cnj="3446835-35.2011.8.13.0024" data-s-cessionario="TRAVESSIA SECURITIZADORA DE CREDITOS FINANCEIROS VIII S.A." data-s-valorcausa="13282829.52">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">VDL Siderurgia Ltda</td>
+        <td class="cnj">3446835-35.2011.8.13.0024</td>
+        <td class="cessionario" title="Travessia Securitizadora de Créditos Financeiros VIII S/A">Travessia Securitizadora de Créditos Financeiros VIII S.A.</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 13.282.829,52</td>
+      </tr>
+      <tr data-tribunal="TJMS" data-cessionario="Travessia Securitizadora de Créditos Mercantis XXV S.A."
+          data-s-tribunal="TJMS" data-s-recuperanda="AGROPECUARIA JOSE DOMINGOS LOT LTDA"
+          data-s-cnj="0802375-54.2025.8.12.0001" data-s-cessionario="TRAVESSIA SECURITIZADORA DE CREDITOS MERCANTIS XXV S.A." data-s-valorcausa="527134448.33">
+        <td class="tj"><span class="chip">TJMS</span></td>
+        <td class="recuperanda">AGROPECUÁRIA JOSÉ DOMINGOS LOT LTDA</td>
+        <td class="cnj">0802375-54.2025.8.12.0001</td>
+        <td class="cessionario" title="Travessia Securitizadora de Creditos Mercantis XXV S.A.">Travessia Securitizadora de Créditos Mercantis XXV S.A.</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 527.134.448,33</td>
+      </tr>
+      <tr data-tribunal="TJMS" data-cessionario="Travessia Securitizadora de Créditos Mercantis XXV S.A."
+          data-s-tribunal="TJMS" data-s-recuperanda="TRAVESSIA SECURITIZADORA DE CREDITOS MERCANTIS XXV S.A."
+          data-s-cnj="0003750-26.2025.8.12.0001" data-s-cessionario="TRAVESSIA SECURITIZADORA DE CREDITOS MERCANTIS XXV S.A." data-s-valorcausa="0.0">
+        <td class="tj"><span class="chip">TJMS</span></td>
+        <td class="recuperanda">TRAVESSIA SECURITIZADORA DE CREDITOS MERCANTIS XXV S.A.</td>
+        <td class="cnj">0003750-26.2025.8.12.0001</td>
+        <td class="cessionario" title="Travessia Securitizadora de Créditos Mercantis XXV S/A">Travessia Securitizadora de Créditos Mercantis XXV S.A.</td>
+        <td class="valor num">R$ 144.846.772,16</td>
+        <td class="valor num">R$ 0,00</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Travessia Securitizadora de Créditos Mercantis XXV S.A."
+          data-s-tribunal="TJMT" data-s-recuperanda="AGRODAL AGROPECUARIA LTDA"
+          data-s-cnj="1041539-72.2025.8.11.0000" data-s-cessionario="TRAVESSIA SECURITIZADORA DE CREDITOS MERCANTIS XXV S.A." data-s-valorcausa="1000.0">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">AGRODAL AGROPECUARIA LTDA</td>
+        <td class="cnj">1041539-72.2025.8.11.0000</td>
+        <td class="cessionario">Travessia Securitizadora de Créditos Mercantis XXV S.A.</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 1.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Travessia Securitizadora de Créditos Mercantis XXV S.A."
+          data-s-tribunal="TJMT" data-s-recuperanda="AGRODAL INSUMOS AGRICOLAS LTDA - EPP"
+          data-s-cnj="1002482-19.2019.8.11.0045" data-s-cessionario="TRAVESSIA SECURITIZADORA DE CREDITOS MERCANTIS XXV S.A." data-s-valorcausa="5896848.51">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">AGRODAL INSUMOS AGRICOLAS LTDA - EPP</td>
+        <td class="cnj">1002482-19.2019.8.11.0045</td>
+        <td class="cessionario" title="TRAVESSIA SECURITIZADORA DE CREDITOS MERCANTIS XXV S.A.">Travessia Securitizadora de Créditos Mercantis XXV S.A.</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 5.896.848,51</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Travessia Securitizadora de Créditos Mercantis XXV S.A."
+          data-s-tribunal="TJMT" data-s-recuperanda="ALISSON LUIZ DALMASO (66421250025) (66421250025),ALMERI DALMASO (09370790063) (09370790063),CLAUDETE IRONI DALMASO (88847780004) (88847780004),ALESSANDRO DALMASO (76707229087) (76707229087),GLICIA KNEIP DUQUE DALMASO (88700224120) (88700224120),ALDERI MARCOS DALMASO (59114924072) (59114924072),SANDRA MARIA PIVETTA DALMASO (57010560153) (57010560153),AGRODAL AGROPECUARIA LTDA (21516566000221) (21516566000221),AGRODAL INSUMOS AGRICOLAS LTDA (07966800000100) (07966800000100)"
+          data-s-cnj="1021708-29.2025.8.11.0003" data-s-cessionario="TRAVESSIA SECURITIZADORA DE CREDITOS MERCANTIS XXV S.A." data-s-valorcausa="24333637.66">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">ALISSON LUIZ DALMASO</td>
+        <td class="cnj">1021708-29.2025.8.11.0003</td>
+        <td class="cessionario" title="TRAVESSIA SECURITIZADORA DE CREDITOS MERCANTIS XXV S.A.">Travessia Securitizadora de Créditos Mercantis XXV S.A.</td>
+        <td class="valor num">7954712,05</td>
+        <td class="valor num">R$ 24.333.637,66</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Travessia Securitizadora de Créditos (série não identificada)"
+          data-s-tribunal="TJMT" data-s-recuperanda="FERTIMIG FERTILIZANTES LTDA"
+          data-s-cnj="1006062-57.2017.8.11.0003" data-s-cessionario="TRAVESSIA SECURITIZADORA DE CREDITOS (SERIE NAO IDENTIFICADA)" data-s-valorcausa="100651045.34">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">FERTIMIG FERTILIZANTES LTDA</td>
+        <td class="cnj">1006062-57.2017.8.11.0003</td>
+        <td class="cessionario" title="Travessia Securitizadora De Créditos">Travessia Securitizadora de Créditos (série não identificada)</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 100.651.045,34</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Travessia Securitizadora de Créditos Financeiros VIII S.A."
+          data-s-tribunal="TJMT" data-s-recuperanda="FERTIMIG FERTILIZANTES LTDA"
+          data-s-cnj="1000388-93.2020.8.11.0003" data-s-cessionario="TRAVESSIA SECURITIZADORA DE CREDITOS FINANCEIROS VIII S.A." data-s-valorcausa="2048567.43">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">Fertimig Fertilizantes Ltda</td>
+        <td class="cnj">1000388-93.2020.8.11.0003</td>
+        <td class="cessionario">Travessia Securitizadora de Créditos Financeiros VIII S.A.</td>
+        <td class="valor num">1.131.592,08</td>
+        <td class="valor num">R$ 2.048.567,43</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Travessia Securitizadora de Créditos Financeiros VIII S.A."
+          data-s-tribunal="TJMT" data-s-recuperanda="FERTIMIG FERTILIZANTES LTDA."
+          data-s-cnj="1018421-67.2025.8.11.0000" data-s-cessionario="TRAVESSIA SECURITIZADORA DE CREDITOS FINANCEIROS VIII S.A." data-s-valorcausa="14094010.1">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">FERTIMIG FERTILIZANTES LTDA.</td>
+        <td class="cnj">1018421-67.2025.8.11.0000</td>
+        <td class="cessionario" title="TRAVESSIA SECURITIZADORA DE CRÉDITOS FINANCEIROS VIII S.A.">Travessia Securitizadora de Créditos Financeiros VIII S.A.</td>
+        <td class="valor num">R$ 14.094.010,10</td>
+        <td class="valor num">R$ 14.094.010,10</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Travessia Securitizadora de Créditos Financeiros VIII S.A."
+          data-s-tribunal="TJMT" data-s-recuperanda="SIGMA AGROPECUARIA LTDA"
+          data-s-cnj="1011414-87.2026.8.11.0000" data-s-cessionario="TRAVESSIA SECURITIZADORA DE CREDITOS FINANCEIROS VIII S.A." data-s-valorcausa="3248036.32">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">Sigma Agropecuária Ltda</td>
+        <td class="cnj">1011414-87.2026.8.11.0000</td>
+        <td class="cessionario">Travessia Securitizadora de Créditos Financeiros VIII S.A.</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 3.248.036,32</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Travessia Securitizadora de Créditos Financeiros VIII S.A."
+          data-s-tribunal="TJMT" data-s-recuperanda="SIGMA AGROPECUARIA LTDA (05554364000137), BANCO SANTANDER BRASIL S/A (61472676025590), BANCO ABC BRASIL S.A. (28195667000106), RIZOBACTER DO BRASIL LTDA (02517482000187), DOW AGROSCIENCES INDUSTRIAL LTDA (47180625002190), BANCO DO BRASIL S.A. (00000000000191), FERTILIZANTES HERINGER S.A. (22266175000188), CONSAGRO AGROQUIMICA LTDA. (07273677000223), ITAU UNIBANCO S.A. (60701190000104), BANCO BRADESCO S.A. (60746948000112), ALBAUGH AGRO BRASIL LTDA. (01789121000127), SUMITOMO CHEMICAL BRASIL INDUSTRIA QUIMICA S.A. (07467822000630), GERDAU ACOS LONGOS S.A. (07358761000169)"
+          data-s-cnj="0058675-59.2014.8.11.0041" data-s-cessionario="TRAVESSIA SECURITIZADORA DE CREDITOS FINANCEIROS VIII S.A." data-s-valorcausa="100000.0">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">SIGMA AGROPECUARIA LTDA</td>
+        <td class="cnj">0058675-59.2014.8.11.0041</td>
+        <td class="cessionario" title="TRAVESSIA SECURITIZADORA DE CRÉDITOS FINANCEIROS VIII S.A.">Travessia Securitizadora de Créditos Financeiros VIII S.A.</td>
+        <td class="valor num">23166649,51</td>
+        <td class="valor num">R$ 100.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Travessia Securitizadora de Créditos Financeiros VIII S.A."
+          data-s-tribunal="TJMT" data-s-recuperanda="TRAVESSIA SECURITIZADORA DE CREDITOS FINANCEIROS VIII S.A."
+          data-s-cnj="0016849-19.2015.8.11.0041" data-s-cessionario="TRAVESSIA SECURITIZADORA DE CREDITOS FINANCEIROS VIII S.A." data-s-valorcausa="2480794.91">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">TRAVESSIA SECURITIZADORA DE CREDITOS FINANCEIROS VIII S.A.</td>
+        <td class="cnj">0016849-19.2015.8.11.0041</td>
+        <td class="cessionario" title="Travessia Securitizadora de Créditos Financeiros VIII S/A">Travessia Securitizadora de Créditos Financeiros VIII S.A.</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 2.480.794,91</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Travessia Securitizadora de Créditos Mercantis XXV S.A."
+          data-s-tribunal="TJMT" data-s-recuperanda="TRESCINCO DISTRIBUIDORA DE AUTOMOVEIS LTDA."
+          data-s-cnj="0004959-79.1998.8.11.0041" data-s-cessionario="TRAVESSIA SECURITIZADORA DE CREDITOS MERCANTIS XXV S.A." data-s-valorcausa="2101954.75">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">Trescinco Distribuidora de Automóveis Ltda.</td>
+        <td class="cnj">0004959-79.1998.8.11.0041</td>
+        <td class="cessionario" title="Travessia Securitizadora de Créditos Financeiros XXV S.A.">Travessia Securitizadora de Créditos Mercantis XXV S.A.</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 2.101.954,75</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="Travessia Securitizadora de Créditos Financeiros VIII S.A."
+          data-s-tribunal="TJPR" data-s-recuperanda="AVERAMA ALIMENTOS LTDA.  EM RECUPERACAO JUDICIAL"
+          data-s-cnj="0002831-91.2017.8.16.0070" data-s-cessionario="TRAVESSIA SECURITIZADORA DE CREDITOS FINANCEIROS VIII S.A." data-s-valorcausa="3089324.64">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">AVERAMA ALIMENTOS LTDA. – EM RECUPERAÇÃO JUDICIAL</td>
+        <td class="cnj">0002831-91.2017.8.16.0070</td>
+        <td class="cessionario" title="TRAVESSIA SECURITIZADORA DE CRÉDITOS FINANCEIROS VIII S.A. e posteriormente C. VALE COOPERATIVA AGROINDUSTRIAL">Travessia Securitizadora de Créditos Financeiros VIII S.A.</td>
+        <td class="valor num">R$3.089.324,64</td>
+        <td class="valor num">R$ 3.089.324,64</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="Travessia Securitizadora de Créditos Financeiros X S.A."
+          data-s-tribunal="TJPR" data-s-recuperanda="COOPERATIVA AGROPECUARIA MISTA DO OESTE LTDA"
+          data-s-cnj="0004551-40.2024.8.16.0170" data-s-cessionario="TRAVESSIA SECURITIZADORA DE CREDITOS FINANCEIROS X S.A." data-s-valorcausa="282690254.87">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">Cooperativa Agropecuária Mista do Oeste Ltda</td>
+        <td class="cnj">0004551-40.2024.8.16.0170</td>
+        <td class="cessionario">Travessia Securitizadora de Créditos Financeiros X S.A.</td>
+        <td class="valor num">282.690.254,87</td>
+        <td class="valor num">R$ 282.690.254,87</td>
+      </tr>
+      <tr data-tribunal="TJRS" data-cessionario="Travessia Securitizadora de Créditos Mercantis SHP S.A."
+          data-s-tribunal="TJRS" data-s-recuperanda="RBA TRANSPORTES E SERVICOS RODOVIARIOS LTDA - ME"
+          data-s-cnj="5032205-79.2026.8.21.7000" data-s-cessionario="TRAVESSIA SECURITIZADORA DE CREDITOS MERCANTIS SHP S.A." data-s-valorcausa="1000.0">
+        <td class="tj"><span class="chip">TJRS</span></td>
+        <td class="recuperanda">RBA Transportes e Serviços Rodoviários Ltda - ME</td>
+        <td class="cnj">5032205-79.2026.8.21.7000</td>
+        <td class="cessionario" title="Travessia Securitizadora de Créditos Mercantis SHP S.A., Ativos S.A. Securitizadora de Créditos Financeiros, INV Companhia Securitizadora de Créditos">Travessia Securitizadora de Créditos Mercantis SHP S.A.</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 1.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Travessia Securitizadora de Créditos Financeiros VIII S.A."
+          data-s-tribunal="TJSP" data-s-recuperanda="CEREALISTA ROSALITO LTDA."
+          data-s-cnj="1002424-98.2021.8.26.0539" data-s-cessionario="TRAVESSIA SECURITIZADORA DE CREDITOS FINANCEIROS VIII S.A." data-s-valorcausa="16968873.91">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Cerealista Rosalito Ltda.</td>
+        <td class="cnj">1002424-98.2021.8.26.0539</td>
+        <td class="cessionario" title="TRAVESSIA SECURITIZADORA DE CRÉDITOS FINANCEIROS VIII S.A.">Travessia Securitizadora de Créditos Financeiros VIII S.A.</td>
+        <td class="valor num">26987210,67</td>
+        <td class="valor num">R$ 16.968.873,91</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Travessia Securitizadora de Créditos Financeiros VIII S.A."
+          data-s-tribunal="TJSP" data-s-recuperanda="VALADAO &amp; VALADAO INDUSTRIA E COMERCIO DE MASSAS EIRELI"
+          data-s-cnj="1011649-63.2015.8.26.0019" data-s-cessionario="TRAVESSIA SECURITIZADORA DE CREDITOS FINANCEIROS VIII S.A." data-s-valorcausa="130000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Valadão &amp; Valadão Indústria e Comércio de Massas Eireli</td>
+        <td class="cnj">1011649-63.2015.8.26.0019</td>
+        <td class="cessionario" title="Travessia Securitizadora de Créditos Financeiros Viii S/A">Travessia Securitizadora de Créditos Financeiros VIII S.A.</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 130.000,00</td>
+      </tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ===================== ATIVOS ===================== -->
+  <section class="tab-panel" id="tab-ativ">
+    <div class="stats"><div class="stat"><div class="n">77</div><div class="l">cessões identificadas</div></div><div class="stat"><div class="n">75</div><div class="l">recuperandas / massas falidas distintas</div></div><div class="stat"><div class="n">1</div><div class="l">cessionários distintos (padronizados)</div></div><div class="stat"><div class="n">R$ 598.127.155,40</div><div class="l">soma do valor da causa (73 de 77 casos)</div></div></div>
+    <div class="note">
+      <strong>Cessionário único:</strong> todos os 21 registros de grafia distinta encontrados nas publicações correspondem à mesma empresa, Ativos S.A. Securitizadora de Créditos Financeiros.
+    </div>
+    <div class="toolbar">
+      <div class="search-field">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.4"/><path d="M9.6 9.6L13 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+        <input class="search" data-search-scope="ativ" type="text" placeholder="Buscar por recuperanda ou CNJ…">
+      </div>
+      <div class="select-field">
+        <select data-select-scope="ativ" data-attr="tribunal"><option value="all">Todos os tribunais · 77</option>
+<option value="TJMG">TJMG · 21</option>
+<option value="TJSP">TJSP · 19</option>
+<option value="TJMT">TJMT · 17</option>
+<option value="TJGO">TJGO · 5</option>
+<option value="TJPE">TJPE · 5</option>
+<option value="TJBA">TJBA · 3</option>
+<option value="TJMS">TJMS · 3</option>
+<option value="TJRS">TJRS · 2</option>
+<option value="TJPR">TJPR · 1</option>
+<option value="TJRJ">TJRJ · 1</option></select>
+      </div>
+      <button class="clear-btn" data-clear-scope="ativ">Limpar filtros</button>
+      <span class="result-count" data-count-scope="ativ"></span>
+    </div>
+    <div class="table-container">
+      <table data-table="ativ">
+        <thead>
+          <tr>
+            <th data-key="s-tribunal">TJ<span class="sort-arrow">▲▼</span></th>
+            <th data-key="s-recuperanda">Recuperanda / massa falida<span class="sort-arrow">▲▼</span></th>
+            <th data-key="s-cnj">CNJ<span class="sort-arrow">▲▼</span></th>
+            <th>Cessionário</th>
+            <th style="text-align:right">Valor mencionado</th>
+            <th style="text-align:right" data-key="s-valorcausa">Valor da causa<span class="sort-arrow">▲▼</span></th>
+          </tr>
+        </thead>
+        <tbody>
+      <tr data-tribunal="TJBA" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJBA" data-s-recuperanda="BANCO DO BRASIL S/A."
+          data-s-cnj="0000097-23.2007.8.05.0201" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="14149.73">
+        <td class="tj"><span class="chip">TJBA</span></td>
+        <td class="recuperanda">BANCO DO BRASIL S/A.</td>
+        <td class="cnj">0000097-23.2007.8.05.0201</td>
+        <td class="cessionario">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">R$ 14.149,73</td>
+        <td class="valor num">R$ 14.149,73</td>
+      </tr>
+      <tr data-tribunal="TJBA" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJBA" data-s-recuperanda="GATTA BRAZIL COMERCIO DO VESTUARIO LTDA"
+          data-s-cnj="0008687-65.2011.8.05.0001" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="100000.0">
+        <td class="tj"><span class="chip">TJBA</span></td>
+        <td class="recuperanda">GATTA BRAZIL COMERCIO DO VESTUARIO LTDA</td>
+        <td class="cnj">0008687-65.2011.8.05.0001</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 100.000,00</td>
+      </tr>
+      <tr data-tribunal="TJBA" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJBA" data-s-recuperanda="MAVEQ"
+          data-s-cnj="0508074-16.2017.8.05.0150" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="10000.0">
+        <td class="tj"><span class="chip">TJBA</span></td>
+        <td class="recuperanda">MAVEQ</td>
+        <td class="cnj">0508074-16.2017.8.05.0150</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 10.000,00</td>
+      </tr>
+      <tr data-tribunal="TJGO" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJGO" data-s-recuperanda="AIRTON PEREIRA DO VALLE JUNIOR ME"
+          data-s-cnj="0087072-82.2017.8.09.0105" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="5249872.12">
+        <td class="tj"><span class="chip">TJGO</span></td>
+        <td class="recuperanda">Airton Pereira do Valle Junior ME</td>
+        <td class="cnj">0087072-82.2017.8.09.0105</td>
+        <td class="cessionario" title="Ativos S/A Securitizadora de Créditos Financeiros">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 5.249.872,12</td>
+      </tr>
+      <tr data-tribunal="TJGO" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJGO" data-s-recuperanda="ELETRO RODNEY MATERIAIS ELETRICOS LTDA"
+          data-s-cnj="5202812-91.2026.8.09.0006" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="1000.0">
+        <td class="tj"><span class="chip">TJGO</span></td>
+        <td class="recuperanda">ELETRO RODNEY MATERIAIS ELETRICOS LTDA</td>
+        <td class="cnj">5202812-91.2026.8.09.0006</td>
+        <td class="cessionario" title="Ativos S/A - Securitizadora de Créditos Financeiros">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">322308,08</td>
+        <td class="valor num">R$ 1.000,00</td>
+      </tr>
+      <tr data-tribunal="TJGO" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJGO" data-s-recuperanda="HBS SELARIA METALURGICA EIRELI EPP"
+          data-s-cnj="0457793-19.2015.8.09.0149" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="450000.0">
+        <td class="tj"><span class="chip">TJGO</span></td>
+        <td class="recuperanda">HBS Selaria Metalúrgica EIRELI EPP</td>
+        <td class="cnj">0457793-19.2015.8.09.0149</td>
+        <td class="cessionario" title="Ativos S/A">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 450.000,00</td>
+      </tr>
+      <tr data-tribunal="TJGO" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJGO" data-s-recuperanda="J L DINKOSKI E FRANCILDA JOSE DA SILVA DINKOSKI"
+          data-s-cnj="5660592-49.2025.8.09.0105" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="52162492.08">
+        <td class="tj"><span class="chip">TJGO</span></td>
+        <td class="recuperanda">J L Dinkoski e Francilda Jose da Silva Dinkoski</td>
+        <td class="cnj">5660592-49.2025.8.09.0105</td>
+        <td class="cessionario">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 52.162.492,08</td>
+      </tr>
+      <tr data-tribunal="TJGO" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJGO" data-s-recuperanda="VILMON SOARES DE SOUZA, PIONEIRO EMPREENDIMENTOS LTDA. E POSTO SABIA COMERCIO DE COMBUSTIVEIS LTDA."
+          data-s-cnj="5941853-89.2025.8.09.0125" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="35528663.55">
+        <td class="tj"><span class="chip">TJGO</span></td>
+        <td class="recuperanda">Vilmon Soares de Souza</td>
+        <td class="cnj">5941853-89.2025.8.09.0125</td>
+        <td class="cessionario" title="Ativos S/A – Companhia de Créditos Financeiros">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 35.528.663,55</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="ADUBOS SANTA MARIA S.A"
+          data-s-cnj="0687691-51.2007.8.13.0153" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="18674122.63">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">ADUBOS SANTA MARIA S.A</td>
+        <td class="cnj">0687691-51.2007.8.13.0153</td>
+        <td class="cessionario" title="ATIVOS S/A – COMPANHIA SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 18.674.122,63</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS"
+          data-s-cnj="0003138-91.2016.8.13.0093" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="459424.1">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS</td>
+        <td class="cnj">0003138-91.2016.8.13.0093</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 459.424,10</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="AUTO POSTO SAO MIGUEL LTDA - EPP"
+          data-s-cnj="0004907-47.2018.8.13.0358" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="600000.0">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">AUTO POSTO SAO MIGUEL LTDA - EPP</td>
+        <td class="cnj">0004907-47.2018.8.13.0358</td>
+        <td class="cessionario" title="ATIVOS S/A – SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 600.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="BANCO ABN AMRO REAL S.A."
+          data-s-cnj="0858595-36.2009.8.13.0153" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="6000.0">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">BANCO ABN AMRO REAL S.A.</td>
+        <td class="cnj">0858595-36.2009.8.13.0153</td>
+        <td class="cessionario" title="ATIVOS S.A.">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 6.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="COLIBRI INDUSTRIA E COMERCIO DE MOVEIS LTDA"
+          data-s-cnj="0059685-43.2001.8.13.0687" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="4340.19">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">COLIBRI INDUSTRIA E COMERCIO DE MOVEIS LTDA</td>
+        <td class="cnj">0059685-43.2001.8.13.0687</td>
+        <td class="cessionario" title="ATIVOS S/A SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 4.340,19</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="CREUSA DE OLIVEIRA LEITE ME"
+          data-s-cnj="0023963-51.2016.8.13.0515" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="880.0">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">Creusa de Oliveira Leite ME</td>
+        <td class="cnj">0023963-51.2016.8.13.0515</td>
+        <td class="cessionario">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 880,00</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="DALTEC CONSTRUCOES E MONTAGENS INDUSTRIAIS LTDA"
+          data-s-cnj="2881758-05.2012.8.13.0024" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="264532.99">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">DALTEC CONSTRUÇÕES E MONTAGENS INDUSTRIAIS LTDA</td>
+        <td class="cnj">2881758-05.2012.8.13.0024</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 264.532,99</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="FRATEZZI GONCALVES FINELLI ENGENHARIA E CONSTRUCOES LTDA. (21703772000160)"
+          data-s-cnj="0633503-30.1995.8.13.0024" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="2000000.0">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">FRATEZZI GONÇALVES FINELLI ENGENHARIA E CONSTRUÇÕES LTDA.</td>
+        <td class="cnj">0633503-30.1995.8.13.0024</td>
+        <td class="cessionario" title="ATIVOS S/A – COMPANHIA SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 2.000.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="GLOBAL DISTRIBUIDORA DE COSMETICOS LTDA (04754317000174) (04754317000174)"
+          data-s-cnj="5013369-43.2018.8.13.0701" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="10332308.48">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">GLOBAL DISTRIBUIDORA DE COSMÉTICOS LTDA</td>
+        <td class="cnj">5013369-43.2018.8.13.0701</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 10.332.308,48</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="IGUACU CAARATINGA ENERGIA LTDA. (10445535000120),IGUACU MINAS ENERGETICA LTDA. (11493603000199)"
+          data-s-cnj="5003897-83.2025.8.13.0309" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="43021002.71">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">IGUAÇU CAARATINGA ENERGIA LTDA.</td>
+        <td class="cnj">5003897-83.2025.8.13.0309</td>
+        <td class="cessionario" title="ATIVOS S/A – COMPANHIA SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 43.021.002,71</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="IMAL - INDUSTRIA MECANICA AUTOMOTIVA LTDA (04539113000110) (04539113000110)"
+          data-s-cnj="0120193-71.2010.8.13.0223" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="10000.0">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">IMAL - INDÚSTRIA MECÂNICA AUTOMOTIVA LTDA</td>
+        <td class="cnj">0120193-71.2010.8.13.0223</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 10.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="JOSE CARLOS MACHADO (44823448000180) (44823448000180),LAURICE FARIA LEITE MACHADO (44823522000169) (44823522000169),LAIS LEITE MACHADO GIORGETO (44831370000146) (44831370000146),JESSICA LEITE MACHADO (44821756000177) (44821756000177),WEBER LEITE CRUVINEL (44821600000196) (44821600000196),WEBER LEITE CRUVINEL JUNIOR (03542551694) (03542551694),ISAURA MARCELINA MACHADO (44823567000133) (44823567000133),ESPOLIO DE DEUSDEDIT ELIAS MACHADO (07424671634) (07424671634),POSTO MEDEIROS MEDEIROS LTDA (17031659000108) (17031659000108)"
+          data-s-cnj="5000730-61.2022.8.13.0051" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="83161365.84">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">JOSÉ CARLOS MACHADO</td>
+        <td class="cnj">5000730-61.2022.8.13.0051</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 83.161.365,84</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="OTTIMA VEICULOS LTDA"
+          data-s-cnj="5005758-55.2017.8.13.0707" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="31159331.0">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">OTTIMA VEICULOS LTDA</td>
+        <td class="cnj">5005758-55.2017.8.13.0707</td>
+        <td class="cessionario" title="Ativos S.A.">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 31.159.331,00</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="OTTIMA VEICULOS LTDA"
+          data-s-cnj="5005758-55.2017.8.13.0707" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="31159331.0">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">OTTIMA VEICULOS LTDA</td>
+        <td class="cnj">5005758-55.2017.8.13.0707</td>
+        <td class="cessionario" title="Ativos S/A">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 31.159.331,00</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="POSTO 358 LTDA (04129574000115) (04129574000115),AUTO POSTO CAPITAO ROSA LTDA (03943714000121) (03943714000121),AUTO POSTO CAPITAO ROSA LTDA (03943714000202) (03943714000202),POSTO REDE 358 LTDA (12448644000126) (12448644000126),AUTO POSTO LUGABIDANI LTDA"
+          data-s-cnj="0206654-81.2012.8.13.0027" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="10000.0">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">POSTO 358 LTDA</td>
+        <td class="cnj">0206654-81.2012.8.13.0027</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 10.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="POSTO CRUZEIRO LTDA"
+          data-s-cnj="0014242-48.2017.8.13.0351" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="650000.0">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">POSTO CRUZEIRO LTDA</td>
+        <td class="cnj">0014242-48.2017.8.13.0351</td>
+        <td class="cessionario" title="Ativos S/A Securitizadora de Créditos Financeiros">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 650.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="PRONTOSOCOR DE MONTES CLAROS LTDA. (16921181000129)"
+          data-s-cnj="1003455-07.2025.8.13.0433" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="15419411.05">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">PRONTOSOCOR DE MONTES CLAROS LTDA.</td>
+        <td class="cnj">1003455-07.2025.8.13.0433</td>
+        <td class="cessionario" title="ATIVOS S/A – COMPANHIA SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 15.419.411,05</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="RAIZEN S.A."
+          data-s-cnj="0002416-80.2014.8.13.0205" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="479807.81">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">RAIZEN S.A.</td>
+        <td class="cnj">0002416-80.2014.8.13.0205</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 479.807,81</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="SLC COMERCIO DE COMBUSTIVEIS E SERVICOS LTDA"
+          data-s-cnj="0018273-77.2014.8.13.0073" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="124198.44">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">SLC COMERCIO DE COMBUSTIVEIS E SERVICOS LTDA</td>
+        <td class="cnj">0018273-77.2014.8.13.0073</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 124.198,44</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="SPEL ENGENHARIA LTDA"
+          data-s-cnj="0243344-80.2013.8.13.0672" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="458841.51">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">SPEL ENGENHARIA LTDA</td>
+        <td class="cnj">0243344-80.2013.8.13.0672</td>
+        <td class="cessionario">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">527628,95</td>
+        <td class="valor num">R$ 458.841,51</td>
+      </tr>
+      <tr data-tribunal="TJMG" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMG" data-s-recuperanda="VANAZ URBANIZACAO E CONSTRUCOES LTDA"
+          data-s-cnj="8010463-77.2005.8.13.0024" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="23070.41">
+        <td class="tj"><span class="chip">TJMG</span></td>
+        <td class="recuperanda">VANAZ URBANIZAÇÃO E CONSTRUÇÕES LTDA</td>
+        <td class="cnj">8010463-77.2005.8.13.0024</td>
+        <td class="cessionario" title="ATIVOS S/A - COMPANHIA SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 23.070,41</td>
+      </tr>
+      <tr data-tribunal="TJMS" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMS" data-s-recuperanda="FIBRALOGIC MS - COMERCIO DE FIBRAS E CELULOSE LTDA"
+          data-s-cnj="0803423-66.2017.8.12.0021" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="100000.0">
+        <td class="tj"><span class="chip">TJMS</span></td>
+        <td class="recuperanda">FIBRALOGIC MS - COMERCIO DE FIBRAS E CELULOSE LTDA</td>
+        <td class="cnj">0803423-66.2017.8.12.0021</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 100.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMS" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMS" data-s-recuperanda="GUAIRA COMERCIAL LTDA (03406030000190)"
+          data-s-cnj="0801684-37.2016.8.12.0007" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="2596789.27">
+        <td class="tj"><span class="chip">TJMS</span></td>
+        <td class="recuperanda">GUAIRA COMERCIAL LTDA</td>
+        <td class="cnj">0801684-37.2016.8.12.0007</td>
+        <td class="cessionario" title="ATIVOS SA">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">108771,77</td>
+        <td class="valor num">R$ 2.596.789,27</td>
+      </tr>
+      <tr data-tribunal="TJMS" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMS" data-s-recuperanda="SOUZA &amp; MARIMON LTDA"
+          data-s-cnj="0002672-80.2010.8.12.0014" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="0.0">
+        <td class="tj"><span class="chip">TJMS</span></td>
+        <td class="recuperanda">SOUZA &amp; MARIMON LTDA</td>
+        <td class="cnj">0002672-80.2010.8.12.0014</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 0,00</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMT" data-s-recuperanda="ACOFER INDUSTRIA E COMERCIO LTDA"
+          data-s-cnj="0001483-88.2015.8.11.0024" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="1000000.0">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">ACOFER INDUSTRIA E COMERCIO LTDA</td>
+        <td class="cnj">0001483-88.2015.8.11.0024</td>
+        <td class="cessionario" title="Ativos S.A.">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 1.000.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMT" data-s-recuperanda="CASSIO LUIZ DE AQUINO NUNES (01979806000136) (01979806000136),CASSIO LUIZ DE AQUINO NUNES FILHO (48982643000104) (48982643000104)"
+          data-s-cnj="1005744-47.2023.8.11.0041" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="2096836.37">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">CASSIO LUIZ DE AQUINO NUNES</td>
+        <td class="cnj">1005744-47.2023.8.11.0041</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 2.096.836,37</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMT" data-s-recuperanda="CHEFE TRANSPORTES LTDA - ME (08989215000199)"
+          data-s-cnj="0035167-26.2010.8.11.0041" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="100000.0">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">CHEFE TRANSPORTES LTDA - ME</td>
+        <td class="cnj">0035167-26.2010.8.11.0041</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 100.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMT" data-s-recuperanda="D.C.M. REZENDE EPP (23457891000105) (23457891000105),AIGLAOIL SERVICOS AUTOMOTIVOS EIRELI (26246812000105) (26246812000105),AIGLA  DISTRIBUIDORA DE ADITIVOS E LUBRIFICANTES EIRELI ME (17260493000100) (17260493000100)"
+          data-s-cnj="1028920-60.2020.8.11.0041" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="1948600.73">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">D.C.M. REZENDE EPP</td>
+        <td class="cnj">1028920-60.2020.8.11.0041</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 1.948.600,73</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMT" data-s-recuperanda="DISPROVEL - DISTRIBUIDORA DE PRODUTOS VETERINARIOS LTDA EPP (07958295000155),DISPROVELVET DISTRIBUIDORA DE PRODUTOS VETERINARIOS LTDA (21158514000185),DISPROVEL MAXVET PRODUTOS VETERINARIOS LTDA - ME (15493667000140),DISPROVEL PET LINE PRODUTOS VETERINARIOS LTDA - ME (14042088000119)"
+          data-s-cnj="0010935-91.2015.8.11.0002" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="100000.0">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">DISPROVEL - DISTRIBUIDORA DE PRODUTOS VETERINÁRIOS LTDA EPP</td>
+        <td class="cnj">0010935-91.2015.8.11.0002</td>
+        <td class="cessionario" title="ATIVOS S/A – COMPANHIA SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 100.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMT" data-s-recuperanda="FMC COBRANCAS LTDA ME (05027049000151),AMC - ASSESSORIA E COBRANCA LTDA (08700365000130),GARANTIA ASSESSORIA DE COBRANCA LTDA ME (11160919000169),GARANTIA LOCACAO PARA FESTA E EVENTOS LTDA ME (10579614000123)"
+          data-s-cnj="0001800-69.2014.8.11.0041" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="100000.0">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">FMC COBRANÇAS LTDA ME</td>
+        <td class="cnj">0001800-69.2014.8.11.0041</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 100.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMT" data-s-recuperanda="JULIA COMERCIO DE COMBUSTIVEIS LTDA (01359775000110) (01359775000110),RODOMAIS TRANSPORTES LTDA - ME (03486086000100) (03486086000100)"
+          data-s-cnj="0009091-16.2009.8.11.0003" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="10000.0">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">JÚLIA COMÉRCIO DE COMBUSTÍVEIS LTDA</td>
+        <td class="cnj">0009091-16.2009.8.11.0003</td>
+        <td class="cessionario" title="ATIVOS S.A. – SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 10.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMT" data-s-recuperanda="LARC CONSTRUCOES E SERVICOS LTDA"
+          data-s-cnj="0012268-24.2016.8.11.0041" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="1000000.0">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">LARC CONSTRUÇÕES E SERVIÇOS LTDA</td>
+        <td class="cnj">0012268-24.2016.8.11.0041</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 1.000.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMT" data-s-recuperanda="LF CONSTRUCOES CIVIS LTDA (01087872000129)"
+          data-s-cnj="0035472-34.2015.8.11.0041" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="1002128.06">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">LF CONSTRUÇÕES CIVIS LTDA</td>
+        <td class="cnj">0035472-34.2015.8.11.0041</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 1.002.128,06</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMT" data-s-recuperanda="OBJETIVA ENGENHARIA E CONSTRUCOES LTDA."
+          data-s-cnj="1016345-36.2026.8.11.0000" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="710779.6">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">Objetiva Engenharia e Construções Ltda.</td>
+        <td class="cnj">1016345-36.2026.8.11.0000</td>
+        <td class="cessionario" title="ATIVOS S.A. Companhia Securitizadora de Créditos Financeiros">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 710.779,60</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMT" data-s-recuperanda="OFICINA MECANICA MECANAUTO EIRELI - EPP"
+          data-s-cnj="1000324-34.2017.8.11.0021" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="59553.25">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">OFICINA MECANICA MECANAUTO EIRELI - EPP</td>
+        <td class="cnj">1000324-34.2017.8.11.0021</td>
+        <td class="cessionario" title="Ativos S.A. Securitizadora de Créditos Financeiros e posteriormente Ladelson Paixão Paiva">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 59.553,25</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMT" data-s-recuperanda="TELEFONICA BRASIL S.A."
+          data-s-cnj="0050120-19.2015.8.11.0041" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="100000.0">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">TELEFONICA BRASIL S.A.</td>
+        <td class="cnj">0050120-19.2015.8.11.0041</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">250089,67</td>
+        <td class="valor num">R$ 100.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMT" data-s-recuperanda="TETRANS TERRAPLANAGEM E TRANSPORTADORA LTDA (07756195000143) (07756195000143),TETRANS E MINERACAO E PARTICIPACOES LTDA (07746627000135) (07746627000135),EXTREMA TRANSPORTES LTDA (10409254000111) (10409254000111)"
+          data-s-cnj="0026873-09.2015.8.11.0041" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="1000000.0">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">TETRANS TERRAPLANAGEM E TRANSPORTADORA LTDA</td>
+        <td class="cnj">0026873-09.2015.8.11.0041</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 1.000.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMT" data-s-recuperanda="TRANSPORTADORA GUANABARA LTDA-ME (04979592000196),ALGODOEIRA GUANABARA LTDA-ME (09599786000180)"
+          data-s-cnj="0012244-50.2015.8.11.0002" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="100000.0">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">TRANSPORTADORA GUANABARA LTDA-ME</td>
+        <td class="cnj">0012244-50.2015.8.11.0002</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 100.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMT" data-s-recuperanda="TURATTI &amp; CIA LTDA - ME"
+          data-s-cnj="0001363-75.2015.8.11.0111" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="100000.0">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">TURATTI &amp; CIA LTDA - ME</td>
+        <td class="cnj">0001363-75.2015.8.11.0111</td>
+        <td class="cessionario" title="Ativos S.A. Securtizadora de Créditos Financeiros">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 100.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMT" data-s-recuperanda="URBANO CABELEIREIROS E MAQUIAGEM LIMITADA - ME"
+          data-s-cnj="0019494-27.2009.8.11.0041" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="10000.0">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">URBANO CABELEIREIROS E MAQUIAGEM LIMITADA - ME</td>
+        <td class="cnj">0019494-27.2009.8.11.0041</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 10.000,00</td>
+      </tr>
+      <tr data-tribunal="TJMT" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJMT" data-s-recuperanda="VEGAM MATERIAIS PARA CONSTRUCAO LTDA - EPP"
+          data-s-cnj="0012665-40.2015.8.11.0002" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="100000.0">
+        <td class="tj"><span class="chip">TJMT</span></td>
+        <td class="recuperanda">VEGAM MATERIAIS PARA CONSTRUCAO LTDA - EPP</td>
+        <td class="cnj">0012665-40.2015.8.11.0002</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 100.000,00</td>
+      </tr>
+      <tr data-tribunal="TJPE" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJPE" data-s-recuperanda="04 DE AGOSTO COMERCIAL LTDA. (04.768.431/0001-53) (04768431000153),L.S.A. ALBUQUERQUE  EPP (06.878.627/0001-26) (06878627000126),30 DE MARCO INDUSTRIA E COMERCIO DE CONFECCOES LTDA. (08.575.372/0002-39) (08575372000239),28 DE JANEIRO COMERCIAL LTDA. (03.698.806/0001-93) (03698806000193),26 DE FEVEREIRO COMERCIAL LTDA. (07.229.531/0001-18) (07229531000118),25 DE AGOSTO COMERCIAL LTDA. (04.581.862/0001-06) (04581862000106),24 DE OUTUBRO COMERCIAL LTDA. (07.040.221/0001-32) (07040221000132),27 DE MAIO COMERCIO E REPRESENTACAO COMERCIAL LTDA.  ME (01.228.555/0001-58) (01228555000158)"
+          data-s-cnj="0003283-70.2015.8.17.2810" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="100000.0">
+        <td class="tj"><span class="chip">TJPE</span></td>
+        <td class="recuperanda">04 DE AGOSTO COMERCIAL LTDA.</td>
+        <td class="cnj">0003283-70.2015.8.17.2810</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 100.000,00</td>
+      </tr>
+      <tr data-tribunal="TJPE" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJPE" data-s-recuperanda="ESCAN EQUIPAMENTOS PARA CONSTRUCAO LTDA (06083248000140) (06083248000140),ESCAN LOCACAO PARA CONSTRUCAO LTDA - EPP (11777028000156) (11777028000156)"
+          data-s-cnj="0012780-42.2017.8.17.2001" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="11591157.87">
+        <td class="tj"><span class="chip">TJPE</span></td>
+        <td class="recuperanda">ESCAN EQUIPAMENTOS PARA CONSTRUÇÃO LTDA</td>
+        <td class="cnj">0012780-42.2017.8.17.2001</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 11.591.157,87</td>
+      </tr>
+      <tr data-tribunal="TJPE" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJPE" data-s-recuperanda="LACOMEX INDUSTRIA COMERCIO E REPRESENTACOES LTDA"
+          data-s-cnj="0025170-98.2015.8.17.0001" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="15400000.0">
+        <td class="tj"><span class="chip">TJPE</span></td>
+        <td class="recuperanda">LACOMEX INDUSTRIA COMERCIO E REPRESENTACOES LTDA</td>
+        <td class="cnj">0025170-98.2015.8.17.0001</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 15.400.000,00</td>
+      </tr>
+      <tr data-tribunal="TJPE" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJPE" data-s-recuperanda="NUTRIR PRODUTOS LACTEOS LTDA."
+          data-s-cnj="0002539-98.2012.8.17.0670" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="10000.0">
+        <td class="tj"><span class="chip">TJPE</span></td>
+        <td class="recuperanda">NUTRIR PRODUTOS LACTEOS LTDA.</td>
+        <td class="cnj">0002539-98.2012.8.17.0670</td>
+        <td class="cessionario" title="ATIVOS S/A">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 10.000,00</td>
+      </tr>
+      <tr data-tribunal="TJPE" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJPE" data-s-recuperanda="RIMA SEGURANCA LTDA"
+          data-s-cnj="0022043-69.2015.8.17.2001" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="100000.0">
+        <td class="tj"><span class="chip">TJPE</span></td>
+        <td class="recuperanda">RIMA SEGURANCA LTDA</td>
+        <td class="cnj">0022043-69.2015.8.17.2001</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 100.000,00</td>
+      </tr>
+      <tr data-tribunal="TJPR" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJPR" data-s-recuperanda="ESTADO DO PARANA"
+          data-s-cnj="0005310-62.2012.8.16.0028" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="50000.0">
+        <td class="tj"><span class="chip">TJPR</span></td>
+        <td class="recuperanda">ESTADO DO PARANA</td>
+        <td class="cnj">0005310-62.2012.8.16.0028</td>
+        <td class="cessionario" title="ATIVOS S/A SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 50.000,00</td>
+      </tr>
+      <tr data-tribunal="TJRJ" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJRJ" data-s-recuperanda="AMBIENT AIR AR CONDICIONADO LTDA"
+          data-s-cnj="0219168-69.2018.8.19.0001" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="30546188.0">
+        <td class="tj"><span class="chip">TJRJ</span></td>
+        <td class="recuperanda">AMBIENT AIR AR CONDICIONADO LTDA</td>
+        <td class="cnj">0219168-69.2018.8.19.0001</td>
+        <td class="cessionario">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 30.546.188,00</td>
+      </tr>
+      <tr data-tribunal="TJRS" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJRS" data-s-recuperanda="FAISCA &amp; FUMACA AUTOPECAS LTDA - EPP"
+          data-s-cnj="5002445-67.2017.8.21.0027" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="3833566.78">
+        <td class="tj"><span class="chip">TJRS</span></td>
+        <td class="recuperanda">FAISCA &amp; FUMACA AUTOPECAS LTDA - EPP</td>
+        <td class="cnj">5002445-67.2017.8.21.0027</td>
+        <td class="cessionario" title="ATIVOS S.A. SECURITIZADORA DE CRÉDITOS FINANCEIROS">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 3.833.566,78</td>
+      </tr>
+      <tr data-tribunal="TJRS" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJRS" data-s-recuperanda="GIOVELLI CIA LTDA - FALIDO"
+          data-s-cnj="5003357-80.2025.8.21.0028" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="186131487.78">
+        <td class="tj"><span class="chip">TJRS</span></td>
+        <td class="recuperanda">GIOVELLI CIA LTDA - FALIDO</td>
+        <td class="cnj">5003357-80.2025.8.21.0028</td>
+        <td class="cessionario">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 186.131.487,78</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJSP" data-s-recuperanda="ADEPLAS INDUSTRIALIZACAO LTDA."
+          data-s-cnj="0007878-42.2007.8.26.0224" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="31355.43">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Adeplas Industrialização Ltda.</td>
+        <td class="cnj">0007878-42.2007.8.26.0224</td>
+        <td class="cessionario">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 31.355,43</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJSP" data-s-recuperanda="BANCO DO BRASIL S.A."
+          data-s-cnj="0018141-17.2017.8.26.0602" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="0.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Banco do Brasil S.A.</td>
+        <td class="cnj">0018141-17.2017.8.26.0602</td>
+        <td class="cessionario" title="Ativos S/A">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 0,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJSP" data-s-recuperanda="BOX SOLUTION COMERCIAL E SERVICOS LTDA"
+          data-s-cnj="0004289-46.2017.8.26.0562" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="0.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Box Solution Comercial e Serviços Ltda</td>
+        <td class="cnj">0004289-46.2017.8.26.0562</td>
+        <td class="cessionario">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 0,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJSP" data-s-recuperanda="BRAVISCO DE BASTOS COM E IND LTDA"
+          data-s-cnj="0001020-62.2013.8.26.0069" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="10000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Bravisco de Bastos Com e Ind Ltda</td>
+        <td class="cnj">0001020-62.2013.8.26.0069</td>
+        <td class="cessionario">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">R$ 2.904.470,11</td>
+        <td class="valor num">R$ 10.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJSP" data-s-recuperanda="BRAVISCO DE BASTOS COM E IND LTDA"
+          data-s-cnj="0001020-62.2013.8.26.0069" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="10000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Bravisco de Bastos Com e Ind Ltda</td>
+        <td class="cnj">0001020-62.2013.8.26.0069</td>
+        <td class="cessionario" title="Ativos S/A">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 10.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJSP" data-s-recuperanda="CONSTRUTORA AUXIL LTDA"
+          data-s-cnj="0146558-30.2003.8.26.0100" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="100000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Construtora Auxil Ltda</td>
+        <td class="cnj">0146558-30.2003.8.26.0100</td>
+        <td class="cessionario" title="Ativo S.A. Securitizadora de Créditos Financeiros">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 100.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJSP" data-s-recuperanda="FARTO FOMENTO MERCANTIL LTDA"
+          data-s-cnj="0006047-31.2010.8.26.0554" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="26632.08">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Farto Fomento Mercantil Ltda</td>
+        <td class="cnj">0006047-31.2010.8.26.0554</td>
+        <td class="cessionario">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 26.632,08</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJSP" data-s-recuperanda="GL FALEIROS INDUSTRIA DE ALIMENTOS EIRELI ME"
+          data-s-cnj="1006839-98.2017.8.26.0302" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="50000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">GL Faleiros Indústria de Alimentos Eireli Me</td>
+        <td class="cnj">1006839-98.2017.8.26.0302</td>
+        <td class="cessionario" title="Ativos S/A Securitizadora de Créditos Financeiros">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 50.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJSP" data-s-recuperanda="INDUSTRIA E COMERCIO TEXTIL ICTC LTDA"
+          data-s-cnj="0208428-37.2007.8.26.0100" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="0.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Indústria e Comércio Têxtil Ictc Ltda</td>
+        <td class="cnj">0208428-37.2007.8.26.0100</td>
+        <td class="cessionario">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 0,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJSP" data-s-recuperanda="JODS CONFECCOES LTDA ME"
+          data-s-cnj="1009709-70.2022.8.26.0099" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="6038091.18">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Jods Confeccoes Ltda Me</td>
+        <td class="cnj">1009709-70.2022.8.26.0099</td>
+        <td class="cessionario" title="Ativos S.A. Securitizadora">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 6.038.091,18</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJSP" data-s-recuperanda="LAZINSOARES MATERIAIS PARA CONSTRUCAO LTDA"
+          data-s-cnj="0017013-66.2012.8.26.0624" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="100000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Lazinsoares Materiais para Construção Ltda</td>
+        <td class="cnj">0017013-66.2012.8.26.0624</td>
+        <td class="cessionario" title="Ativos S/A Securitizadora de Créditos Financeiros">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 100.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJSP" data-s-recuperanda="MAR &amp; MAR COMERCIO E REPRESENTACOES DE ALIMENTOS LTDA"
+          data-s-cnj="0036392-76.2013.8.26.0100" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="10000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Mar &amp; Mar Comércio e Representações de Alimentos Ltda</td>
+        <td class="cnj">0036392-76.2013.8.26.0100</td>
+        <td class="cessionario">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 10.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJSP" data-s-recuperanda="METALPULLEY INDUSTRIAL EIRELI EPP"
+          data-s-cnj="1008339-36.2018.8.26.0248" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="1000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Metalpulley Industrial Eireli Epp</td>
+        <td class="cnj">1008339-36.2018.8.26.0248</td>
+        <td class="cessionario">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 1.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJSP" data-s-recuperanda="METALURGICA RAVID INDUSTRIA E COMERCIO LTDA"
+          data-s-cnj="1000940-62.2014.8.26.0161" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="32160.69">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">METALÚRGICA RAVID INDÚSTRIA E COMÉRCIO LTDA</td>
+        <td class="cnj">1000940-62.2014.8.26.0161</td>
+        <td class="cessionario">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 32.160,69</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJSP" data-s-recuperanda="PRADO E MACEDO CONSTRUTORA INC E EMP.EMP. IMOBILIARIOS LTDA"
+          data-s-cnj="1108313-58.2025.8.26.0100" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="1000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Prado e Macedo Construtora Inc e Emp.emp. Imobiliarios Ltda</td>
+        <td class="cnj">1108313-58.2025.8.26.0100</td>
+        <td class="cessionario">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 1.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJSP" data-s-recuperanda="QUINEL SUCOS E EMBALAGENS LTDA"
+          data-s-cnj="0003868-66.2011.8.26.0659" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="10000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Quinel Sucos e Embalagens Ltda</td>
+        <td class="cnj">0003868-66.2011.8.26.0659</td>
+        <td class="cessionario" title="Ativos S/A Securitizadora de Créditos Financeiros">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 10.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJSP" data-s-recuperanda="REBIMETAL INDUSTRIA DE REBITES LTDA"
+          data-s-cnj="0004985-57.2008.8.26.0543" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="91280.28">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">REBIMETAL INDUSTRIA DE REBITES LTDA</td>
+        <td class="cnj">0004985-57.2008.8.26.0543</td>
+        <td class="cessionario">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 91.280,28</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJSP" data-s-recuperanda="RENASCER RIO PRETO COMERCIO DE EMBALAGENS EIRELI"
+          data-s-cnj="4004087-95.2013.8.26.0576" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="10000.0">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">RENASCER RIO PRETO COMÉRCIO DE EMBALAGENS EIRELI</td>
+        <td class="cnj">4004087-95.2013.8.26.0576</td>
+        <td class="cessionario">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">R$22.156,25</td>
+        <td class="valor num">R$ 10.000,00</td>
+      </tr>
+      <tr data-tribunal="TJSP" data-cessionario="Ativos S.A. Securitizadora de Créditos Financeiros"
+          data-s-tribunal="TJSP" data-s-recuperanda="SIEGWERK BRASIL INDUSTRIA DE TINTAS LTDA"
+          data-s-cnj="0006669-85.2013.8.26.0108" data-s-cessionario="ATIVOS S.A. SECURITIZADORA DE CREDITOS FINANCEIROS" data-s-valorcausa="74402.39">
+        <td class="tj"><span class="chip">TJSP</span></td>
+        <td class="recuperanda">Siegwerk Brasil Indústria de Tintas Ltda</td>
+        <td class="cnj">0006669-85.2013.8.26.0108</td>
+        <td class="cessionario" title="Ativos S/A Securitizadora de Créditos Financeiros">Ativos S.A. Securitizadora de Créditos Financeiros</td>
+        <td class="valor num">-</td>
+        <td class="valor num">R$ 74.402,39</td>
+      </tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>Base: database/*.json (pipeline diario/classificar_cessoes.py). Deduplicado por CNJ + cessionário. "Valor da causa" via campo valor_causa do processo (PDPJ). Tribunal derivado do número CNJ. Arquivo local — gerado por build_dashboard.py.</footer>
+</div>
+
+<script>
+// --- Tabs ---
+const tabBtns = document.querySelectorAll('.tab-btn');
+const tabPanels = document.querySelectorAll('.tab-panel');
+tabBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    tabBtns.forEach(b => b.classList.remove('active'));
+    tabPanels.forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+  });
+});
+
+// --- Filtros (dropdown) + busca + contador, por tabela ---
+function setupTable(scope) {
+  const table = document.querySelector(`table[data-table="${scope}"]`);
+  if (!table) return;
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  const searchInput = document.querySelector(`input[data-search-scope="${scope}"]`);
+  const selects = document.querySelectorAll(`select[data-select-scope="${scope}"]`);
+  const clearBtn = document.querySelector(`button[data-clear-scope="${scope}"]`);
+  const countEl = document.querySelector(`span[data-count-scope="${scope}"]`);
+
+  function applyFilters() {
+    const q = (searchInput ? searchInput.value.trim().toLowerCase() : '');
+    let visivel = 0;
+    rows.forEach(row => {
+      let ok = true;
+      selects.forEach(sel => {
+        if (sel.value === 'all') return;
+        const attr = sel.dataset.attr;
+        if (row.dataset[attr] !== sel.value) ok = false;
+      });
+      if (ok && q) ok = row.textContent.toLowerCase().includes(q);
+      row.style.display = ok ? '' : 'none';
+      if (ok) visivel++;
+    });
+    if (countEl) countEl.textContent = `${visivel} de ${rows.length} registros`;
+  }
+
+  if (searchInput) searchInput.addEventListener('input', applyFilters);
+  selects.forEach(sel => sel.addEventListener('change', applyFilters));
+  if (clearBtn) clearBtn.addEventListener('click', () => {
+    if (searchInput) searchInput.value = '';
+    selects.forEach(sel => sel.value = 'all');
+    applyFilters();
+  });
+
+  applyFilters();
+
+  // --- Ordenacao por coluna ---
+  const headers = table.querySelectorAll('thead th[data-key]');
+  let sortState = { key: null, dir: 1 };
+  headers.forEach(th => {
+    th.addEventListener('click', () => {
+      const key = th.dataset.key;
+      const dir = (sortState.key === key) ? -sortState.dir : 1;
+      sortState = { key, dir };
+      headers.forEach(h => h.classList.remove('sorted'));
+      th.classList.add('sorted');
+
+      const tbody = table.querySelector('tbody');
+      const numeric = key === 's-valorcausa';
+      rows.sort((a, b) => {
+        let va = a.dataset[toCamel(key)] || '';
+        let vb = b.dataset[toCamel(key)] || '';
+        if (numeric) {
+          va = parseFloat(va) || -1;
+          vb = parseFloat(vb) || -1;
+          return (va - vb) * dir;
+        }
+        return va.localeCompare(vb, 'pt-BR') * dir;
+      });
+      rows.forEach(r => tbody.appendChild(r));
+    });
+  });
+
+  function toCamel(k) {
+    return k.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
+  }
+}
+
+setupTable('main');
+setupTable('trav');
+setupTable('ativ');
+</script>
+</body>
+</html>
