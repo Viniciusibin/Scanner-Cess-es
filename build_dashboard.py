@@ -77,7 +77,7 @@ for grupo, cat in [(main, "inst"), (trav, "trav"), (ativ, "ativ")]:
         agg[k]["soma"] += d.get("valor_causa") or 0
         agg[k]["cat"] = cat
 
-top30 = sorted(agg.items(), key=lambda x: -x[1]["n"])[:30]
+top30 = sorted(agg.items(), key=lambda x: (-x[1]["n"], -x[1]["soma"]))[:30]
 
 top_cess_rows = ""
 for i, (nome, v) in enumerate(top30, start=1):
